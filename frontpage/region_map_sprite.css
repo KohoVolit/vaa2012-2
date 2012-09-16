@@ -1,0 +1,21 @@
+.cz-region{
+  background:url(../image/bg-mapa_100.png) no-repeat scroll;
+  margin:0;
+  padding:0;
+}
+.cz-all{ background-position: 0 0; width: 100px; height: 59px; }
+.cz-mo{ background-position: -100px 0; width: 100px; height: 59px; } 
+.cz-ol{ background-position: -200px 0; width: 100px; height: 59px; } 
+.cz-zl{ background-position: -300px 0; width: 100px; height: 59px; } 
+.cz-jm{ background-position: -400px 0; width: 100px; height: 59px; } 
+.cz-vy{ background-position: -500px 0; width: 100px; height: 59px; } 
+.cz-pa{ background-position: -600px 0; width: 100px; height: 59px; } 
+.cz-li{ background-position: -700px 0; width: 100px; height: 59px; } 
+.cz-kr{ background-position: -800px 0; width: 100px; height: 59px; } 
+.cz-jc{ background-position: -900px 0; width: 100px; height: 59px; } 
+.cz-us{ background-position: -1000px 0; width: 100px; height: 59px; } 
+.cz-ka{ background-position: -1100px 0; width: 100px; height: 59px; } 
+.cz-pl{ background-position: -1200px 0; width: 100px; height: 59px; } 
+.cz-pr{background-position: -1300px 0; width: 100px; height: 59px; } 
+.cz-st{ background-position: -1400px 0; width: 100px; height: 59px; } 
+

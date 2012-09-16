@@ -1,0 +1,393 @@
+.jqm-version {
+background: #f7cf57;
+border: solid #fff;
+border-width: 2px 0;
+color: #000;
+display: block;
+font-weight: bold;
+position: absolute;
+padding: .25em 3em;
+right: -2.5em;
+text-align: center;
+text-shadow: 0 1px 1px #fff;
+top: .75em;
+width: 78px;
+z-index: 9;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+
+-webkit-box-shadow: 0 0 6px rgba(0,0,0,.50);
+-moz-box-shadow: 0 0 6px rgba(0,0,0,.50);
+-o-box-shadow: 0 0 6px rgba(0,0,0,.50);
+box-shadow: 0 0 6px rgba(0,0,0,.50);
+}
+.jqm-version b {
+color: #a21412;
+}
+
+/* fluid images moved from jquery.mobile.core.css*/
+.ui-mobile img {
+	max-width: 100%;
+}
+
+.type-interior .content-secondary {
+	border-right: 0;
+	border-left: 0;
+	margin: 10px -15px 0;
+	background: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.type-interior .ui-content {
+	padding-bottom: 0;
+}
+.content-secondary .ui-collapsible {
+	padding: 0 15px 10px;
+
+}
+
+.content-secondary .ui-collapsible-content {
+	padding: 0;
+	background: none;
+	border-bottom: none;
+}
+.content-secondary .ui-listview {
+	margin: 0;
+}
+
+/* F bar theme - just for the docs overview headers */
+.ui-bar-f {
+	border: 1px solid #56A00E;
+	background: 			#74b042;
+	color: 					#fff;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #335413;	
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#74b042), to(#56A00E)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(#74b042, #56A00E); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(#74b042, #56A00E); /* FF3.6 */
+	background-image:     -ms-linear-gradient(#74b042, #56A00E); /* IE10 */
+	background-image:      -o-linear-gradient(#74b042, #56A00E); /* Opera 11.10+ */
+	background-image:         linear-gradient(#74b042, #56A00E);		
+}
+.ui-bar-f, 
+.ui-bar-f input, 
+.ui-bar-f select, 
+.ui-bar-f textarea, 
+.ui-bar-f button {
+	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+}
+
+.ui-bar-f,
+.ui-bar-f .ui-link-inherit {
+	color: 					#fff;
+}
+.ui-bar-f .ui-link {
+	color: 					#fff;
+	font-weight: bold;
+}
+.ui-btn-up-f {
+	border: 1px solid 		#3B6F07;
+	background: 			#56A00E;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px #234403;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#74b042), to(#56A00E)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(#74b042, #56A00E); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(#74b042, #56A00E); /* FF3.6 */
+	background-image:     -ms-linear-gradient(#74b042, #56A00E); /* IE10 */
+	background-image:      -o-linear-gradient(#74b042, #56A00E); /* Opera 11.10+ */
+	background-image:         linear-gradient(#74b042, #56A00E);
+}
+.ui-btn-up-f a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-hover-f {
+	border: 1px solid 		#3B6F07;
+	background: 			#6EBC1F;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px #234403;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#8FC963), to(#6EBC1F)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(#8FC963, #6EBC1F); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(#8FC963, #6EBC1F); /* FF3.6 */
+	background-image:     -ms-linear-gradient(#8FC963, #6EBC1F); /* IE10 */
+	background-image:      -o-linear-gradient(#8FC963, #6EBC1F); /* Opera 11.10+ */
+	background-image:         linear-gradient(#8FC963, #6EBC1F);
+}
+.ui-btn-hover-f a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-down-f {
+	border: 1px solid 		#3B6F07;
+	background: 			#3d3d3d;
+	font-weight: bold;
+	color: 					#fff;
+	text-shadow: 0 1px 1px #234403;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#56A00E), to(#64A234)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(#56A00E, #64A234); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(#56A00E, #64A234); /* FF3.6 */
+	background-image:     -ms-linear-gradient(#56A00E, #64A234); /* IE10 */
+	background-image:      -o-linear-gradient(#56A00E, #64A234); /* Opera 11.10+ */
+	background-image:         linear-gradient(#56A00E, #64A234);
+}
+.ui-btn-down-f a.ui-link-inherit {
+	color: 					#fff;
+}
+.ui-btn-up-f,
+.ui-btn-hover-f,
+.ui-btn-down-f {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/* ms */
+
+/* mobiles */
+.question-name {
+  display: none;
+}
+
+/* docs site layout */
+
+@media all and (max-width: 649px){
+  .header {
+    height: 1.5em;
+  }
+  
+  .content {
+    padding:0;
+  }
+  
+  .computer {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
+  
+  .ui-header .ui-title {
+    margin: 0.2em 30% 0.8em;
+  }
+  
+}
+
+@media all and (min-width: 650px){
+	
+
+	/*.type-home .ui-content {
+		margin-top: 5px;
+	}
+	.ui-mobile #jqm-homeheader {
+		max-width: 340px;
+	}*/
+/*
+	.ui-mobile .jqm-themeswitcher {
+		float: right;
+	}
+*/
+	/*p.intro {
+		margin: 2em 0;
+	}*/
+	/*.type-home .ui-content,
+	.type-interior .ui-content {
+		padding: 0;
+		background: url(../images/px-ccc.gif) 50% 0 repeat-y;
+	}*/
+
+	.content-secondary {
+		text-align: left;
+		float: left;
+		width: 45%;
+		background: none;
+	}
+	.content-secondary,
+	.type-interior .content-secondary {
+		margin: 30px 0 20px 2%;
+		padding: 20px 4% 0 0;
+			background: none;
+					border-top: none;
+	}
+	.type-index .content-secondary {
+		padding: 0;
+	}
+	.content-secondary .ui-collapsible {
+		margin: 0;
+		padding: 0;
+	}
+	.content-secondary .ui-collapsible-content {
+		border: none;
+	}
+	.type-index .content-secondary .ui-listview {
+		margin: 0;
+	}
+
+	/*.ui-mobile #jqm-homeheader {
+		padding: 0;
+	}*/
+	.content-primary {
+		width: 45%;
+		float: right;
+		margin-top: 30px;
+		margin-right: 1%;
+		padding-right: 1%;
+	}
+	.content-primary ul:first-child {
+		margin-top: 0;
+	}
+	.content-secondary h2 {
+		position: absolute;
+		left: -9999px;
+	}
+	.type-interior .content-primary {
+		padding: 1.5em 6% 3em 0;
+		margin: 0;
+	}
+	/* fix up the collapsibles - expanded on desktop */
+	.content-secondary .ui-collapsible-heading {
+		display: none;
+	}
+	.content-secondary .ui-collapsible-contain {
+		margin:0;
+	}
+	.content-secondary .ui-collapsible-content {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+	.type-interior  .content-secondary .ui-li-divider {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	.type-interior .content-secondary {
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* ms */
+	
+	/* computers */
+	.content {
+		background-image:url('http://test.kohovolit.eu/images/SVK3.jpg');
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-position:center top;
+		
+
+
+	}
+	.question {
+		background-color: #BCDEFF;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;
+		margin-bottom: 1em;
+		
+		/* .ui-overlay-shadow*/
+		-moz-box-shadow: 0 0 12px rgba(0,0,0,.6);
+		-webkit-box-shadow: 0 0 12px rgba(0,0,0,.6);
+		box-shadow: 0 0 12px rgba(0,0,0,.6);
+		
+		/* .ui-corner-top */
+		-moz-border-radius-topleft: .6em;
+		-webkit-border-top-left-radius: .6em;
+		border-top-left-radius: .6em;
+		-moz-border-radius-topright: .6em;
+		-webkit-border-top-right-radius: .6em;
+		border-top-right-radius: .6em;
+		
+		/* .ui-corner-bottom */
+		-moz-border-radius-bottomleft: .6em;
+		-webkit-border-bottom-left-radius: .6em;
+		border-bottom-left-radius: .6em;
+		-moz-border-radius-bottomright: .6em;
+		-webkit-border-bottom-right-radius: .6em;
+		border-bottom-right-radius: .6em;
+		
+		/* .ui-content */
+		border-width: 0;
+		overflow: visible;
+		overflow-x: hidden;
+		padding: 15px
+	}	
+	
+	.question-content {
+		min-height: 13em;
+	}
+	.question-name {
+	  display: block;
+	  font-size: 1em;
+	  color: #777777;
+	  text-shadow: none;
+	}
+	
+	.question-question {
+    	margin-top: 1em;
+	}
+	.computer {
+	  display: inherit;
+	}
+	  
+	.mobile {
+	  display: none;
+	}
+	
+	
+}
+
+@media all and (min-width: 750px){
+	.type-home .ui-content,
+
+	.content-secondary {
+		width: 34%;
+	}
+	.content-primary {
+		width: 56%;
+		padding-right: 1%;
+	}	
+
+}
+
+/* ms */
+
+.question-description {
+	font-size: 0.85em;
+	color: #777777;
+	text-shadow: none;
+}
+
+
+.question-question {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.box-center{
+    width: 245px;
+    margin: 0px auto;
+}
+
+#progress_box {
+  font-size:13px;
+  padding:4px 15px 4px 15px;
+}
+#progresstext {
+  text-align:center;
+}
+
+#progressbar {
+  border:1px solid #CCC;
+  padding:1px;
+  background:#FFF;
+  font-size: 4px;
+}
+
+
+.kv-footer {
+    padding: 3px 5px 0
+}
+.right {
+    float: right;
+}
