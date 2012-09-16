@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.7, created on 2012-09-16 22:27:15
+<?php /* Smarty version Smarty-3.0.7, created on 2012-09-16 23:31:19
          compiled from "../smarty/templates/page.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:182033628250563623880407-23777514%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:127745437550564527189c68-09896857%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '26f0757f5183c5af464d9c2775732ea33f7e91cf' => 
     array (
       0 => '../smarty/templates/page.tpl',
-      1 => 1347827229,
+      1 => 1347831073,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '182033628250563623880407-23777514',
+  'nocache_hash' => '127745437550564527189c68-09896857',
   'function' => 
   array (
   ),
@@ -50,7 +50,7 @@ if ($_smarty_tpl->_count($_from) > 0){
     <!-- header -->
 	<div data-role="header" data-theme="f" class="header">
     	<?php if ($_smarty_tpl->tpl_vars['key']->value>1){?><a href="#p<?php echo ($_smarty_tpl->tpl_vars['key']->value-1);?>
-" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" >Zpět</a><?php }?>
+" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" data-mini="true">Zpět</a><?php }?>
 		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Otázka <?php echo $_smarty_tpl->tpl_vars['key']->value;?>
 /<?php echo $_smarty_tpl->getVariable('number_questions')->value;?>
 </span></h1>
