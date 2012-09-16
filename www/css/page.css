@@ -391,3 +391,72 @@ color: #a21412;
 .right {
     float: right;
 }
+
+.social-bar {
+    height: 20px;
+    margin: 0 auto;
+    width: 475px;
+    padding-top: 1em;
+}
+
+.result-number {
+  font-size: 1.5em;
+  float: right;
+  padding-right: 0.5em;
+}
+.right {
+	float:right;
+}
+.result-header {
+  font-size: 1.5em;
+}
+.result-very-positive {
+  color: #008000;
+}
+.result-positive {
+  color: #40ff40;
+}
+.result-neutral {
+  color: #808080;
+}
+.result-negative {
+  color: #ff8080;
+}
+.result-very-negative {
+  color: #800000;
+}
+
+/* compare */
+.compare-table {
+  text-align: center;
+}
+.compare-table .compare-table-td-1{
+  text-align: left;
+}
+
+.compare-table-td-1 {
+  width: 180px;
+}
+.compare-table-td-2 {
+  width: 80px;
+}
+.compare-table-td-n {
+  width: 70px;
+}
+
+.compare-table-wrapper {
+    background-color: #BCDEFF;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 890px;
+}
+
+/*front*/
+.front-empty {
+  height: 2em;
+}
+
+/*kv-footer*/
+.kv-footer {
+  padding: 16px 5px 0;
+}

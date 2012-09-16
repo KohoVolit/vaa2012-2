@@ -5,30 +5,31 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>Volební kalkulačka | KohoVolit.eu</title> 
-    <link type="image/x-icon" href="../images/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 
-	<link rel="stylesheet" href="./page.css" />
+	<link rel="stylesheet" href="./css/page.css" />
 	
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 </head>
 <body>
 <form action="./match" method="get" data-ajax="false">
+
 {foreach $questions as $key=>$question}
-  <!-- Start of {$key+1} page -->
-  <div data-role="page" id="p{$key+1}" data-title="{$question->name} | VolebníKalkulačka.cz" class='page type-interior'>
-  
+  <!-- Start of {$key} page -->
+  <div data-role="page" id="p{$key}" data-title="{$question->name} | VolebníKalkulačka.cz" class='page type-interior'>
     <!-- header -->
 	<div data-role="header" data-theme="f" class="header">
-		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key+1}/{$questions|@count}</span></h1>
+    	{if $key>1}<a href="#p{($key-1)}" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" >Zpět</a>{/if}
+		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key}/{$number_questions}</span></h1>
 	</div><!-- /header -->
 
 	<!-- progressbar -->
 	<div id="progress_box" class="ui-body ui-body-c computer">
-        <div id="progresstext" data-role="heading">Otázka {$key+1} z {$questions|@count}</div>
+        <div id="progresstext" data-role="heading">Otázka {$key} z {$number_questions}</div>
         <div id="progressbar">
-          <div style="width:{((100*($key+1))/$questions|@count)|ceil}%" class="ui-body-e">&nbsp;</div>
+          <div style="width:{((100*($key))/$number_questions)|ceil}%" class="ui-body-e">&nbsp;</div>
         </div>
     </div><!-- /progressbar -->
     
@@ -62,7 +63,7 @@
 				</div>
 	    </fieldset>--><!-- /navigation -->
 	    <!-- navigation -->
-	    <a href="#p{$key+2}" data-transition="slidefade" data-role="button" data-icon="arrow-r" data-theme="c" data-mini="true" data-iconpos="right">{if ($key+1) == $questions|@count}Dále{else}Další otázka{/if}</a>
+	    <a href="#p{$key+1}" data-transition="slidefade" data-role="button" data-icon="arrow-r" data-theme="c" data-mini="true" data-iconpos="right">{if ($key) == $number_questions}Dále{else}Další otázka{/if}</a>
 	    <!-- /navigation -->
 	    
 	  </div><!-- /question -->
@@ -82,7 +83,14 @@
 {/foreach}  
 
   <!-- page -->
-  <div data-role="page" id="p{($questions|@count)+1}" data-title="Důležité otázky | VolebníKalkulačka.cz" class='page type-interior'>
+  <div data-role="page" id="p{$number_questions+1}" data-title="Důležité otázky | VolebníKalkulačka.cz" class='page type-interior'>
+  
+      <!-- header -->
+	<div data-role="header" data-theme="f" class="header">
+    	<a href="#p{($key-1)}" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" >Zpět</a>
+		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key}/{$number_questions}</span></h1>
+	</div><!-- /header -->
+	
   <!-- content -->
     <div data-role="content" class="content">
     
@@ -92,8 +100,8 @@
 	    <fieldset data-role="controlgroup">
 	    <legend><p>Teď ještě vyberte otázky, kterým přikládáte velkou váhu.</p></legend>
 	    {foreach $questions as $key=>$question}
-	       <input type="checkbox" name="c-{$key+1}" id="c-{$key+1}" class="custom" />
-		  <label for="c-{$key+1}">{$question->name}</label>
+	       <input type="checkbox" name="c-{$key}" id="c-{$key}" class="custom" />
+		  <label for="c-{$key}">{$question->name}</label>
 	    {/foreach}
 	    </fieldset>
 	    <button type="submit" data-theme="b" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
@@ -103,7 +111,7 @@
 
 
 
-  <div data-role="page" id="p{($questions|@count)+2}" data-title="Volební obvod | VolebníKalkulačka.cz" class='page type-interior'>
+  <div data-role="page" id="p{$number_questions+2}" data-title="Volební obvod | VolebníKalkulačka.cz" class='page type-interior'>
 
     <!-- content -->
     <div data-role="content" class="content">
