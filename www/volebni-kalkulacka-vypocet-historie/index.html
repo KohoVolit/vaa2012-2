@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VolebníKalkulačka.cz</title>
+	<meta name="description" content="Zjistěte, s kterou z kandidujících stran a s kterým jednotlivým kandidátem se nejvíce shodujete. Kdo Vás bude doopravdy zastupovat!" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<link rel="stylesheet" href="../frontpage/frontpage.css" />
+	<link rel="stylesheet" href="../frontpage/region_map_sprite.css" />
+	<link type="image/x-icon" href="../frontpage/image/favicon.ico" rel="shortcut icon">
+
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	
+</head>
+<body>
+<div data-role="page" class="type-home">
+
+	<div data-role="content">
+	<p class="jqm-version"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Připravujeme krajské a senátní volební kalkulačky <b>spuštění 1.10.2012</b></a></p>
+	
+		<div class="content-secondary">
+	  <div id="jqm-homeheader">
+		<h1 id="jqm-logo"><a href="/"><img src="../image/logo.png" alt="Popis výpočtu a historie volebních kalkulaček" /></a></h1>
+		<p>Nejužitečnějších 5 minut před volbami.</p>
+	  </div>
+	
+	  <p class="intro"></p>
+
+
+   
+
+	</div> <!-- /content secondary -->
+
+	
+	
+	<div class="content-primary">
+	<h2>Historie volebních kalkulaček</h2>
+	<p>Volební kalkulačky (Voting advice applications) sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a> vytváří již od roku 2006 v ČR i na Slovensku. Volby v roce 2012 jsou již 8. v pořadí. V roce 2009 se zúčastnilo na přípravě evropské volební kalkulačky <a href="http://votematch.eu">VoteMatch.eu</a>. </p>
+	<p>Cílem kalkulaček (testů) je poradit, koho volit ve volbách na základě shody vlastních postojů s názory kandidátů (kandidujících stran).</p>
+	<p>Zkušenosti sbíráme i z obdobných testů v zahraničí, ať již jde o nejznámější německý <a href="http://wahl-o-mat.de">Wahl-o-mat</a>, rakouskou <a href="http://wahlkabine.at">Wahlkabine</a> nebo nejstarší online volební kalkulačku nizozemskou <a href="http://stemwijzer.nl">StemWijzer</a>
+	
+	<h2>Popis výpočtu</h2>
+   <p>Pro maximální transparentnost a ověřitelnost spočtených výsledků zde uvádíme, <em>jak</em> se Vaše shoda s poslanci a politickými stranami počítá a také <em>proč</em> se počítá zrovna takhle.</p>
+<p>Současný systém hlasování o návrzích usnesení má jednu na první pohled překvapivou vlastnost, a to, že mezi hlasováním <em>proti</em> a <em>zdržením se</em> hlasování není žádný rozdíl. Návrh je totiž přijat pouze<br />
+tehdy, pokud pro něj hlasuje více jak polovina přítomných, tj. hlasujících poslanců. U některých hlasování je potřeba určitý počet kladných hlasů (např. polovina všech poslanců). Nejsou tedy tři možnosti hlasu &ndash; <em>pro</em>, <em>proti</em> a <em>zdržení se</em>, ale jenom dvě &ndash; buď poslanec přijetí návrhu <em>podpoří</em> a hlasuje pro, nebo <em>nepodpoří</em> a pak není rozdíl jestli hlasuje proti nebo se<br />
+hlasování zdrží. Jedinou možností, jak vyjádřit neutrální postoj k projednávanému návrhu, je nebýt na hlasování přítomen (a to ještě neplatí u těch speciálních hlasování, kde je potřeba určitý počet kladných hlasů).</p>
+<h3>Shoda s poslancem</h3>
+<p>Ty návrhy, o kterých nehlasujete se výpočtu neúčastní.</p>
+<ul>
+<li>Pokud hlasujete <strong>pro</strong> některý návrh, poslanci, kteří hlasovali také <em>pro</em>, jsou s Vámi a získávají bod.Poslanci, kteří hlasovali jinak (tedy buď <em>proti</em> nebo <em>se zdrželi</em>) jsou proti Vám a bod ztrácejí.</li>
+<li>Pokud hlasujete <strong>proti</strong> některému návrhu, s Vámi jsou poslanci, kteří hlasovali také <em>proti</em> nebo se hlasování <em>zdrželi</em> a ti také získávají bod; naopak poslanci hlasující <em>pro</em>, hlasovali proti Vám a bod ztrácejí.</li>
+<li>Poslanci, kteří se hlasování o tomto návrhu neúčastnili (byli <em>nepřítomni</em>), žádné body nezískávají ani neztrácí.</li>
+</ul>
+<p>Podle tohoto klíče se každému poslanci sčítají body za všechny návrhy, o kterých jste hlasoval(a) a následně se vydělí počtem těchto návrhů, čím se shoda dostane u všech do rozsahu -1 až 1, tedy -100% až 100%.</p>
+<h3>Shoda se stranou</h3>
+<p>Pro výpočet Vaší shody se stranou se opět berou jenom ty návrhy, o kterých jste hlasoval.</p>
+<p>Shoda se stranou za jeden návrh se spočte jako průmerná shoda jejích členů. Tedy součet shody všech členů strany za tento návrh podle předchozí sekce dělený počtem těchto poslanců. Členství se bere dle údajů na webu<br />
+Evropského parlamentu</p>
+<p>Celková shoda strany s Vámi je součtem její shody za jednotlivé návrhy dělená počtem Vámi hlasovaných návrhů, což je opět mezi -1 a 1, tedy -100% a 100%.</p>
+<h3>Důležitost návrhu</h3>
+<p>Při svém hlasování máte u každého návrhu možnost na závěr nastavit, jakou má shoda v něm pro Vás důležitost &ndash; váhu s jakou se má zahrnout do celkového součtu shody přes všechny návrhy. Každé ze dvou úrovní důležitosti<br />
+(<em>normální</em>, <em>vysoká</em>) odpovídá jistá váha a celková shoda je pak váženým průměrem shody v jednotlivých návrzích. Ve skutečnosti se tedy místo jednoho bodu ke shodě přičte resp. odečte<br />
+váha příslušného návrhu a na konci dělí ne počtem návrhů ale, součtem absolutních hodnot jejich vah.</p>
+<p>Nastavení vah je takové, že <em>vysoká</em> důležitost má oproti <em>normální</em> váhu dvojnásobou.</p>
+<h3>Přesnost výpočtu</h3>
+<p>
+Vypočtená shoda je <b>přesný</b> výsledek pro daný výběr hlasování. Zároveň je to <b>nejlepší</b> odhad shody pro hypotetický příklad (pokud nejste poslanec), že byste hlasoval ve všech hlasováních. Zhruba lze říci, že v takovém případě na 95 % by Vaše celková shoda za všechna hlasování padla do níže popsaných intervalů:<br />
+Odhad 95% intervalu spolehlivosti pro strany v případě ČR:</p>
+<ul>
+<li>Pro 50 hlasování a výslednou shodu mezi -75 % a 75 % (kdy je možná chyba nejvyšší), pro velké strany: +-10 % (až 15 %)</li>
+<li>Pro 50 hlasování a výslednou shodu mezi -75 % a 75 % (kdy je možná chyba nejvyšší), pro malé strany: +-15 %</li>
+<li>Pro 25 hlasování a výslednou shodu mezi -75 % a 75 % (kdy je možná chyba nejvyšší), pro velké strany: +-15 %</li>
+<li>Pro 25 hlasování a výslednou shodu mezi -75 % a 75 % (kdy je možná chyba nejvyšší), pro malé strany: (+-15 % až) 20 %</li>
+</ul>
+<p>Odhad 95% intervalu spolehlivosti pro jednotlivé poslance:</p>
+<ul>
+<li>Pro 50 hlasování a výslednou shodu kolem 0 % (kdy je možná chyba nejvyšší): +-25 %</li>
+<li>Pro 50 hlasování a výslednou shodu kolem 75 %: -20 % až +15 % (resp. -15 % až +20 % pro shodu kolem -75 %) </li>
+<li>Pro 25 hlasování a výslednou shodu kolem 0 % (kdy je možná chyba nejvyšší): +-40 %</li>
+</ul>	
+	</div> <!-- /content primary -->
+
+
+	</div> <!-- /content -->
+	
+
+
+	<div data-role="footer" class="footer-docs" data-theme="c">
+			<p>2012 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
+	</div>
+</div>
+</body>
+</html>

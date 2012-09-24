@@ -4,11 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>VolebníKalkulačka.cz</title>
-	<meta name="description" content="Zjistěte, s kterou z kandidujících stran a s kterým jednotlivým kandidátem se nejvíce shodujete. Kdo Vás bude doopravdy zastupovat!" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-	<link rel="stylesheet" href="./frontpage/frontpage.css" />
-	<link rel="stylesheet" href="./frontpage/region_map_sprite.css" />
-	<link type="image/x-icon" href="./frontpage/image/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="../frontpage/frontpage.css" />
+	<link rel="stylesheet" href="../frontpage/region_map_sprite.css" />
+	<link type="image/x-icon" href="../frontpage/image/favicon.ico" rel="shortcut icon">
 
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
@@ -17,96 +16,81 @@
 <body>
 <div data-role="page" class="type-home">
 
-
-
 	<div data-role="content">
-	<p class="jqm-version">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Připravujeme krajské a senátní volební kalkulačky <b>spuštění 1.10.2012</b></p>
-
+	<p class="jqm-version"><a href="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Připravujeme krajské a senátní volební kalkulačky <b>spuštění 1.10.2012</b></a></p>
 	
 	<div class="content-secondary">
 	  <div id="jqm-homeheader">
-		<h1 id="jqm-logo"><img src="image/logo.png" alt="VolebniKalkulacka.cz" /></h1>
+		<h1 id="jqm-logo"><img src="../image/logo.png" alt="Seznam kandidátek krajské volby 2012" /></h1>
 		<p>Nejužitečnějších 5 minut před volbami.</p>
 	  </div>
 	
-	  <p class="intro"></p>
-
-
-   
-
-	</div> <!-- /content secondary -->
-
+	  <p class="intro">Seznam všech kandidátek kandidujících v krajských volbách do zastupitelstev 2012 včetně přehledu lídrů a odkazu na volební programy stran.</p>
+	  </div> <!-- /content secondary -->
 	
-	
-	<div class="content-primary">
+		<div class="content-primary">
 			<nav>
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
-					<li data-role="list-divider">Senátní volební kalkulačka 2012</li>
+
+					<li data-role="list-divider">Seznam kandidátek pro krajské volby 2012</li>
 					<li><a href="#">
-					  <img src="./image/senat_obvody_100.png"/>
-					  <h3>Senát</h3>
-					  <p>27 obvodů, 235 kandidátů</p>
-					</a></li>
-					<li data-role="list-divider">Krajské volební kalkulačky 2012</li>
-					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-jc">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-jc">
 					  <h3>&nbsp;Jihočeský kraj</h3>
 					</a></li>
 					<li><a href="page4.php" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-jm">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-jm">
 					  <h3>&nbsp;Jihomoravský kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-ka">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-ka">
 					  <h3>&nbsp;Karlovarský kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-kr">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-kr">
 					  <h3>&nbsp;Královéhradecký kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-li">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-li">
 					  <h3>&nbsp;Liberecký kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-mo">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-mo">
 					  <h3>&nbsp;Moravskoslezský kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-pa">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-pa">
 					  <h3>&nbsp;Pardubický kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-pl">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-pl">
 					  <h3>&nbsp;Plzeňský kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-ol">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-ol">
 					  <h3>&nbsp;Olomoucký kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-st">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-st">
 					  <h3>&nbsp;Středočeský kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-us">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-us">
 					  <h3>&nbsp;Ústecký kraj</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-vy">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-vy">
 					  <h3>&nbsp;Vysočina</h3>
 					</a></li>
 					<li><a href="#">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-zl">
+					  <img src='../image/1x1.png' width="100" height="59" class="cz-region cz-zl">
 					  <h3>&nbsp;Zlínský kraj</h3>
 					</a></li>
 
 				</ul>
 			</nav>
-				<div><p>Volební kalkulačka pro krajské a senátní volby 2012 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách do senátu a krajských zastupitelstev v říjnu 2012. Volební test napoví, koho zvolit z dostupných kandidátů, stran a kandidátek. Volební kalkulačka rozhoduje na základě matematické shody mezi názory stran a kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
-<p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
-	</div>
+
 	</div> <!-- /content primary -->
+
     <div class="content-secondary">
    <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -133,10 +117,6 @@
   })();
 </script>
     
-	  <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="f">
-				<li data-role="list-divider">O projektu</li>
-				<li><a href="#">O projektu VolebníKalkulačka.cz</a></li>
-	  </ul>
 	</div> <!-- /content secondary -->
 
 	</div> <!-- /content -->
@@ -149,3 +129,5 @@
 </div>
 </body>
 </html>
+	
+	
