@@ -9,6 +9,7 @@ $smarty->setCacheDir('../../smarty/cache');
 $smarty->setConfigDir('../../smarty/configs');
 
 $parties_file = '../../data/answers_jm.json';
+$parties_file = '../plzensky-kraj-2012/answers_pl.json';
 
 //extract user values
 $user = get_user_values();
