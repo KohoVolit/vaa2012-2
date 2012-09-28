@@ -8,10 +8,18 @@
     <link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 
-	<link rel="stylesheet" href="./css/page.css" />
+	<link rel="stylesheet" href="../css/page.css" />
 	
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	
+	<style>
+	  @media all and (min-width: 650px){
+		.content {
+		  background-image:url('background.jpg');
+		}
+	  }
+	</style>
 </head>
 <body>
 <form action="./match" method="get" data-ajax="false">
@@ -23,7 +31,7 @@
     <!-- header -->
 	<div data-role="header" data-theme="f" class="header">
     	{if $key>1}<a href="#p{($key-1)}" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" data-mini="true">Zpět</a>{/if}
-		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key}/{$number_questions}</span></h1>
+		<h1 class="title"><span class="computer">{$region->calc} | VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key}/{$number_questions}</span></h1>
 	</div><!-- /header -->
 
 	<!-- progressbar -->
