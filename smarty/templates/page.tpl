@@ -16,7 +16,8 @@
 <body>
 <form action="./match" method="get" data-ajax="false">
 
-{foreach $questions as $key=>$question}
+{$key=1}
+{foreach $questions as $question}
   <!-- Start of {$key} page -->
   <div data-role="page" id="p{$key}" data-title="{$question->name} | VolebníKalkulačka.cz" class='page type-interior'>
     <!-- header -->
@@ -80,6 +81,7 @@
 	</div><!-- /footer -->
 	
   </div><!-- /page -->	
+  {$key++}
 {/foreach}  
 
   <!-- page -->
