@@ -1,4 +1,5 @@
-dev
+dev/
 smarty/templates_c/
-smarty/cache
-jmk
+smarty/cache/
+jmk/
+www/result.txt

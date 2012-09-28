@@ -36,7 +36,7 @@ $smarty->display('match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $additional_string . "\n";
+$str = session_id() . "\t" . $region->code . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $additional_string . "\n";
 $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);

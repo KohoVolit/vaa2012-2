@@ -60,7 +60,7 @@
       <!-- header -->
 	<div data-role="header" data-theme="f" class="header">
     	<a href="#p{($key-1)}" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" >Zpět</a>
-		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key}/{$number_questions}</span></h1>
+		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Důležité otázky</span></h1>
 	</div><!-- /header -->
 	
   <!-- content -->

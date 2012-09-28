@@ -400,9 +400,10 @@ color: #a21412;
 }
 
 .result-number {
-  font-size: 1.5em;
-  float: right;
-  padding-right: 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+  /*float: right;
+  padding-right: 0.5em;*/
 }
 .right {
 	float:right;
