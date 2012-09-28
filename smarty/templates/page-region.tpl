@@ -29,63 +29,27 @@
   <!-- Start of {$key} page -->
   <div data-role="page" id="p{$key}" data-title="{$question->name} | VolebníKalkulačka.cz" class='page type-interior'>
     <!-- header -->
-	<div data-role="header" data-theme="f" class="header">
-    	{if $key>1}<a href="#p{($key-1)}" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" data-mini="true">Zpět</a>{/if}
-		<h1 class="title"><span class="computer">{$region->calc} | VolebníKalkulačka.cz</span><span class="mobile">Otázka {$key}/{$number_questions}</span></h1>
-	</div><!-- /header -->
+	{include "page-header.tpl"}
+	<!-- /header -->
 
 	<!-- progressbar -->
-	<div id="progress_box" class="ui-body ui-body-c computer">
-        <div id="progresstext" data-role="heading">Otázka {$key} z {$number_questions}</div>
-        <div id="progressbar">
-          <div style="width:{((100*($key))/$number_questions)|ceil}%" class="ui-body-e">&nbsp;</div>
-        </div>
-    </div><!-- /progressbar -->
+	{include "page-progressbar.tpl"}
+	<!-- /progressbar -->
     
     <!-- content -->
     <div data-role="content" class="content">
     
       <!-- question -->
-	  <div class="question ui-body ui-body-e">
-	    <!-- question content -->
-	    <div class="question-content">
-	      <h2 class="question-name">{$question->name}</h2>
-	      <div class="question-description">{$question->description}</div>
-	      <div class="question-question">{$question->question}</div>	     	      
-	    </div><!-- /question content -->
-	  
-	    <!-- radio buttons -->
-  		<div class='box-center'>
-			<fieldset data-role="controlgroup" data-type="horizontal" class="question-radio">
-			    <input type="radio" name="q-{$question->id}" id="q-{$question->id}-0" value="1"  style="visibility:hidden;" data-theme="d"/>
-			 	<label for="q-{$question->id}-0">ANO</label>
-			 	<input type="radio" name="q-{$question->id}" id="q-{$question->id}-2" value="0"  style="visibility:hidden;" data-theme="d"/>
-			 	<label for="q-{$question->id}-1">nevím</label>
-			 	<input type="radio" name="q-{$question->id}" id="q-{$question->id}-1" value="-1"  style="visibility:hidden;" data-theme="d"/>
-			 	<label for="q-{$question->id}-1">NE</label>
-			 	
-			</fieldset>
-		</div><!-- /radio buttons -->
-		
-
-	    <a href="#p{$key+1}" data-transition="slidefade" data-role="button" data-icon="arrow-r" data-theme="c" data-mini="true" data-iconpos="right">{if ($key) == $number_questions}Dále{else}Další otázka{/if}</a>
-	    <!-- /navigation -->
-	    
-	  </div><!-- /question -->
+      {include "page-question.tpl"}
+	  <!-- /question -->
 	</div> <!-- /content -->	
 	
 	<!-- footer -->
-	<div data-role="footer" data-theme="f">
-		<div class="right kv-footer computer">
-			<a class="ui-link" href="http://kohovolit.eu">
-				<img src="http://test.kohovolit.eu/images/kohovolit-footer.png">
-			</a>
-		</div>
-		<div>&nbsp;</div>
-	</div><!-- /footer -->
+	{include "page-footer.tpl"}
+	<!-- /footer -->
 	
   </div><!-- /page -->	
-  {$key++}
+  {$key=$key+1}
 {/foreach}  
 
 

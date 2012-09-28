@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>Volební kalkulačka | KohoVolit.eu</title> 
-    <link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 
 	<link rel="stylesheet" href="../css/page.css" />
