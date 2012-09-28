@@ -7,6 +7,9 @@
 $qfile = '../data/questions_jm.json';
 $constitfile = '../backend/obvody.json';
 
+$qfile = 'plzensky-kraj-2012/questions_pl.json';
+$constitfile = '../backend/obvody.json';
+
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
