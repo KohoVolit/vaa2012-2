@@ -29,9 +29,13 @@ $results = calc_match($user,$parties);
 //create additional link for comparison
 $additional_string = create_additional_string($results);
 
+//this page
+$url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] . '&' . $additional_string;
+
 $smarty->assign('query_string', $_SERVER['QUERY_STRING'] . '&' . $additional_string);
 $smarty->assign('results', $results);
 $smarty->assign('region',$region);
+$smarty->assign('url',$url);
 $smarty->display('match.tpl');
 
 //save results

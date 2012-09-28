@@ -32,14 +32,7 @@
 	</div><!-- /content -->
 
 	<div data-role="footer"  data-position="fixed" data-theme="f">		
-	  <div data-role="navbar">
-		<ul>
-			<li><a href="#" data-icon="twitter" >tweetni<span class="computer"> výsledky</span></a></li>
-			<li><a href="#" data-icon="facebook" data-theme="b">sdílej<span class="computer"> na facebooku</span></a></li>
-			<li><a href="#" data-icon="google-plus">publikuj<span class="computer"> na G+</span></a></li>
-			<li><a href="#" data-icon="email">pošli<span class="computer"> emailem</span></a></li>
-		</ul>
-	  </div><!-- /navbar -->
+	{include "match-sharer.tpl"}
     </div><!-- /footer -->
 
   </body>
