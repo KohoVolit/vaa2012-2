@@ -43,9 +43,8 @@
         <td class="compare-table-td-2">{if isset($user.vote.$q_id)}{if $user.vote.$q_id == 1}Pro{elseif $user.vote.$q_id == -1}Proti{else}-{/if}{else}-{/if}</td>
         
         {foreach $parties as $party}
-            <td class="
-            compare-{if isset($user.vote.$q_id)}{if ($party->vote->$q_id * $user.vote.$q_id) >= .33}agree{elseif ($party->vote->$q_id * $user.vote.$q_id) < -.33}disagree{else}neutral{/if}{/if}">{if $party->vote->$q_id >= .33}Pro{elseif $party->vote->$q_id >= -.34}-{else}Proti{/if} 
-            </td>
+        
+            <td class="compare-{if isset($user.vote.$q_id)}{if ($party->vote->$q_id * $user.vote.$q_id) >= .33}agree{elseif ($party->vote->$q_id * $user.vote.$q_id) < -.33}disagree{else}neutral{/if}{/if}">{if isset($party->vote->$q_id)}{if $party->vote->$q_id >= .33}Pro{elseif $party->vote->$q_id >= -.34}-{else}Proti{/if}{else}={/if}</td>
           {/foreach}
       </tr>            
       {/foreach}
