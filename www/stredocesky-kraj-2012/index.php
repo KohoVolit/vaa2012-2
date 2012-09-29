@@ -8,6 +8,10 @@ $qfile = 'questions.json';
 $rfile = 'region.json';
 //$constitfile = '../backend/obvody.json';
 
+if (!isset($_SESSION['started'])) {
+  session_start();
+  $_SESSION['started'] = true;
+}
 
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');

@@ -3,3 +3,5 @@ smarty/templates_c/
 smarty/cache/
 jmk/
 www/result.txt
+www/email.txt
+www/jmk/

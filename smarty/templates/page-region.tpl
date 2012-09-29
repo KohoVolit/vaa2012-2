@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>Volební kalkulačka | KohoVolit.eu</title> 
-    <link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 
 	<link rel="stylesheet" href="../css/page.css" />
@@ -72,8 +72,8 @@
 	    <fieldset data-role="controlgroup">
 	    <legend><p>Teď ještě vyberte otázky, kterým přikládáte velkou váhu.</p></legend>
 	    {foreach $questions as $key=>$question}
-	       <input type="checkbox" name="c-{$key}" id="c-{$key}" class="custom" />
-		  <label for="c-{$key}">{$question->name}</label>
+	       <input type="checkbox" name="c-{$question->id}" id="c-{$question->id}" class="custom" />
+		  <label for="c-{$question->id}">{$question->name}</label>
 	    {/foreach}
 	    </fieldset>
 	    <button type="submit" data-theme="b" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
@@ -85,6 +85,6 @@
 
 
 </form>
-
+{include "google_analytics.tpl"}
 </body>
 </html>  

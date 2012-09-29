@@ -9,6 +9,14 @@
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 	<link rel="stylesheet" href="../../css/page.css" />
+	
+	<style>
+	  @media all and (min-width: 650px){
+		.content {
+		  background-image:url('../background.jpg');
+		}
+	  }
+	</style>
   </head>
 
   
@@ -19,21 +27,28 @@
 	{include "match-header.tpl"}
 	<!-- /header -->
 	
-	
 	<div data-role="content" class="content">
+
+
+		<!-- chart -->
+		<img src="{$image['url']}" width="{$image['width']}" height="{$image['height']}" class="kv-chart" />	
 
 	    <!-- table -->
 	    {include "match-table.tpl"}
 	    <!-- /table -->
 
-	
-	    <!-- include "bar_chart.tpl" -->
+	<div>
+	  <p class="box-center-match"><strong>Proč ve výsledcích nejsou všechny strany?</strong><br/>
+	  Oslovili jsme opakovaně všechny kandidující strany, ale ne všichni odpověděli.</p>
+	</div>
 	
 	</div><!-- /content -->
 
 	<div data-role="footer"  data-position="fixed" data-theme="f">		
 	{include "match-sharer.tpl"}
     </div><!-- /footer -->
-
+    
+  </div> <!-- /page -->
+  {include "google_analytics.tpl"}
   </body>
 </html>

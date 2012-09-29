@@ -1,8 +1,8 @@
 	  <div data-role="navbar">
 		<ul>
-			<li>{include "match-twitter.tpl"}</li>
+			<li>{include "match-google.tpl"}</li>
 			<li>{include "match-facebook.tpl"}</li>
-			<li><a href="#" data-icon="google-plus">publikuj<span class="computer"> na G+</span></a></li>
-			<li><a href="#" data-icon="email">pošli<span class="computer"> emailem</span></a></li>
+			<li>{include "match-twitter.tpl"}</li>					
+			<li>{include "match-support.tpl"}</li>
 		</ul>
 	  </div><!-- /navbar -->

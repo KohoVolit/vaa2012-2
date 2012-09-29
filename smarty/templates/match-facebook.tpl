@@ -1,1 +1,12 @@
-<span><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvolebnikalkulacka.cz&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=tahoma&amp;height=21&amp;appId=121542504547391" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe></span>
+<!-- http://www.therykers.net/?p=37 -->
+<style>
+.ui-navbar li .ui-btn-icon-top .ui-btn-inner {
+    padding-top: 10px;
+}
+</style>
+<a data-theme="b" title="Sdílej výsledky na Facebooku" 
+    href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http://VolebniKalkulacka.cz&amp;p[images][0]=http://volebnikalkulacka.cz/image/logo.png&amp;p[title]=VolebníKalkulačka.cz&amp;p[summary]={$facebook_text}" target="_blank"  data-role="none">
+     <img src="../../image/fb_logo.png" 
+       alt="Share on Facebook" />
+       <div class="computer"><br/>Sdílej na Facebooku</div>
+</a>

@@ -461,3 +461,19 @@ color: #a21412;
 .kv-footer {
   padding: 16px 5px 0;
 }
+
+.kv-chart {
+    margin: 0px auto;
+    display:block;
+    padding-bottom: .8em;
+}
+
+.box-center-match{
+    max-width: 500px;
+    margin: 0px auto;
+}
+/*comparison*/
+.compare-agree {background-color: #008000;}
+.compare-disagree {background-color: #FF0000;}
+.compare-neutral {background-color: #888888;}
+.compare-important td{border: 2px solid yellow;}
