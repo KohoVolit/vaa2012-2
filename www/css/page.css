@@ -482,3 +482,19 @@ color: #a21412;
 .ui-mobile, .ui-mobile body {
     height: 97%;
 }
+
+/* match winner */
+.match-winner {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+.match-winner-box {
+  padding-bottom:.5em;
+}
+.match-fb-text {
+  position: relative;
+  bottom: .5em;
+  padding-left: .75em;
+}

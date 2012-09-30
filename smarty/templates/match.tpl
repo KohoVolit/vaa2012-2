@@ -28,7 +28,8 @@
 	<!-- /header -->
 	
 	<div data-role="content" class="content">
-
+		<!-- winner block -->
+		{include "match-winner.tpl"}
 
 		<!-- chart -->
 		<img src="{$image['url']}" width="{$image['width']}" height="{$image['height']}" class="kv-chart" />	
@@ -36,11 +37,17 @@
 	    <!-- table -->
 	    {include "match-table.tpl"}
 	    <!-- /table -->
+	    
+	    <!-- button for details -->
+	    <div class="match-winner-box">
+	        <a href="../compare/dialog.php?{$query_string}" class="box-center-match" data-rel="dialog" data-role="button">Vaše odpovědi vs. odpovědi stran</a>
+	    </div>
 
 	<div>
 	  <p class="box-center-match"><strong>Proč ve výsledcích nejsou všechny strany?</strong><br/>
-	  Oslovili jsme opakovaně všechny kandidující strany, ale ne všichni odpověděli.</p>
+	  Oslovili jsme opakovaně všechny kandidující strany, ale ne všechny odpověděly.</p>
 	</div>
+	
 	
 	</div><!-- /content -->
 

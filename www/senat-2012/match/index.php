@@ -59,6 +59,10 @@ $image = create_chart_link($results);
 //this page
 $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] . '&' . $additional_string;
 
+//winner color
+$winner_color = party2color($results[0]['party']);
+
+$smarty->assign('winner_color', $winner_color);
 $smarty->assign('image', $image);
 $smarty->assign('twitter_text', $twitter_text);
 $smarty->assign('facebook_text', urlencode($facebook_text));
@@ -210,7 +214,7 @@ function calc_match($user,$set,$extra=2) {
     }
     if ($count == 0) $count = 1; // to allow match = 0/1 = 0;
     $results[] = array(
-      'name' => $s->name,
+      'name' => $s->last_name . ' ' . $s->first_name,
   	  'first_name' => $s->first_name,
   	  'last_name' => $s->last_name,
   	  'party' => $s->party,

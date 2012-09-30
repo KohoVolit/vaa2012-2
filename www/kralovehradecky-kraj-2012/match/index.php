@@ -52,7 +52,11 @@ $image = create_chart_link($results);
 //this page
 $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] . '&' . $additional_string;
 
+//winner color
+$winner_color = party2color($results[0]['short_name']);
+
 $smarty->assign('image', $image);
+$smarty->assign('winner_color', $winner_color);
 $smarty->assign('twitter_text', $twitter_text);
 $smarty->assign('facebook_text', urlencode($facebook_text));
 $smarty->assign('query_string', $_SERVER['QUERY_STRING'] . '&' . $additional_string);
