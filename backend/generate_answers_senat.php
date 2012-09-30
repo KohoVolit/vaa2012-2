@@ -4,27 +4,10 @@
 //path to generate (relative)
 $path = '../www/';
 
-//regions
-include ('regions.php');
-  
-//questions complete
-$fqc = file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDQ3R3Q4cTVmNVFMRkQ5d1dENFkxbUE&output=csv");
 
 //answers
 $fanswers = array(
-  'jc' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdFQtbkxjdGRxaV9xUzg3MmdXMU5HV1E&output=csv"),
-  //'jm' => array('code'=>'jm', 'name'=>'Jihomoravský kraj', 'special' => true),
-  'ka' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdEw2RHo3ZFZ1SU54VVFBSEcxWktBYlE&output=csv"),
-  'kr' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdHkzUHZXcFFNOXl6SlhGNzZzNEY2OVE&output=csv"),
-  'li' => file('https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdFE2cWpkSWVJdXZNVGcwMzE4bkU1NEE&output=csv'),
-  'mo' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdGJCNlk0WE5jUng2SktoUVVnU1BxN2c&output=csv"),
-  'ol' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdE5USm0tcDN3MTFCRWpmWkhLTEFmcFE&output=csv"),
-  'pa' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDVyQTZxMUVNVDd0eFdmUEx6SGJPWUE&output=csv"),
-  'pl' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdE1iR0o3b0tUY3Q2QlVkdzQ0TE51TkE&output=csv"),
-  'st' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdEJLb0hoYzJEM2tsd2pUVVVkbTVPbHc&output=csv"),
-  'us' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdENJdEVUN0paQUhuQzRDN2lCVXNHQ1E&output=csv"),
-  'vy' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDJnRHNvaEZTRzhuSFJFb0Z4UXJrM3c&output=csv"),
-  'zl' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdEdIbkJ2YjhBUC0zazN3bmh0Zkx5Y3c&output=csv"),
+  'senat' => file("https://docs.google.com/spreadsheet/pub?key=0Asva5SIBKjNudDhxeXBRRXhReVRESkxFREt4WHozd3c&output=csv"),
 ); 
 
 $answers0 = array();
@@ -35,9 +18,19 @@ foreach ($fanswers as $key=>$file) {
 }
 
 
+//clean duplicates, leave the last one
+$a_senat = array_reverse($answers0['senat']);
+foreach ($a_senat as $rkey=>$r) {
+    if (isset($codes[$r[15]])) 
+      unset($a_senat[$rkey]);
+    else $codes[$r[15]] = true;
+}
+$answers0['senat'] = array_reverse($a_senat);
+
+
 
 //questions complete
-$file = file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDQ3R3Q4cTVmNVFMRkQ5d1dENFkxbUE&output=csv");
+$file = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dFFsWlBGLS1ZZTVJQUdxX3NkT2JySXc&output=csv");
 
 //read questions
 foreach ($file as $row) {
@@ -58,20 +51,26 @@ foreach ($file as $row) {
 }
 
 
-//parties
-$fparties = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dGhCX2JaYkYzREtjQWFubVlmWXluSkE&output=csv");
+//parties = candidates
+$fparties = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dDhUY1FDQndyODN1RnBrdmFERXdmTlE&output=csv");
 
 foreach ($fparties as $row) {
   $row_ar = str_getcsv($row);
   $unique_code = $row_ar[3];
-  $region_code = $row_ar[0];
+  $constituency_code = $row_ar[0];
   $name = $row_ar[1];
-  $short_name = $row_ar[4];
+  $last_name = $row_ar[4];
+  $first_name = $row_ar[5];
+  $party = $row_ar[2];
   $parties[$unique_code] = array(
     'unique_code' => $unique_code,
-    'region_code' => $region_code,
+    'constituency_code' => $constituency_code,
+    'region_code' => 'senat',
     'name' => $name,
-    'short_name' => $short_name,
+    'party'=>$party,
+    'first_name' => $first_name,
+    'last_name' => $last_name,
+    'short_name' => $last_name,
   ); 
 }
 
@@ -112,11 +111,14 @@ foreach ($answers0 as $key=>$region) {
       $party = $parties[$row[$unique_code_column[$key]]];
       $data[$key][] = array(
         'vote' => $vote,
-        'name' => $party['name'],
+        'last_name' => $party['last_name'],
+        'first_name' => $party['first_name'],
         'short_name' => $party['short_name'],
-        'friendly_name' => friendly_url($party['short_name']),
+        'name' => $party['name'],
+        'party' => $party['party'],
+        'constituency_code' => $party['constituency_code'],
+        'friendly_name' => friendly_url($party['party']),
         'id' => $i,
-        
       );
       $i++;
     } else {
@@ -126,7 +128,7 @@ foreach ($answers0 as $key=>$region) {
   }
   
   //if direcotry not existing, create it
-   $dir = $path . friendly_url($regions[$key]['name']) . '-2012/';
+   $dir = $path . 'senat' . '-2012/';
    if(!file_exists($dir)) 
      mkdir($dir);
  
@@ -143,8 +145,8 @@ die();
 
 
 function answer2value($a) {
-  if ($a == 'Souhlasím.') return 1;
-  if ($a == 'Nesouhlasím.') return -1;
+  if ($a == 'ANO') return 1;
+  if ($a == 'NE') return -1;
   else return 0;
 }
 

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Podrobné porovnání | VolebníKalkulačka.cz</title>
@@ -13,8 +14,8 @@
   <div data-role="page" data-title="Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz" data-theme="c">
   
   <div data-role="header">
-	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext">Domov</a>
-	  <a href="/2percenta">2 %</a>
+	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Domov</a>
+	  <a href="/info" data-icon="info" data-iconpos="notext" data-ajax="false">Info</a>
 	  <h3 class="h1">Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz</h3>
   </div><!-- /header -->
   

@@ -18,14 +18,14 @@
 		</div>
 		<div data-role="content" data-theme="e">  
 		  <p><strong>To je skvělé</strong>, že chcete vědět víc! Je vidět, že se zajímáte o dění kolem sebe.</p> 
-		  <p><strong>My také.</strong> Buďte první, kdo se dozví, co nového jsme v KohoVolit.eu udělali - nechte nám na sebe kontakt:</p>	  
+		  <p><strong>My také.</strong> Buďte první, kdo se dozví, co <strong>nového jsme v KohoVolit.eu udělali</strong> - nechte nám na sebe kontakt:</p>	  
 		  <form action="index.php?{$query_string}" method="get"> 
 			<label for="email">Email:</label>
 			<input type="text" name="email" id="email" value=""  />
 			<button type="submit" data-theme="b" name="submit" data-icon="arrow-r" data-iconpos="right">Pokračovat na podrobný přehled shody</button>
 		  </form>
 		  
-		  <p><strong>Ani my nemáme rád spam.</strong> Vaše údaje nikomu nedáme.</p>
+		  <p><strong>Ani my nemáme rádi spam.</strong> Vaše údaje nikomu nedáme.</p>
   
   	</div> <!-- /content -->
   

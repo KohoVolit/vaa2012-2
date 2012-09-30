@@ -1,12 +1,10 @@
 <?php
 
-//questions from google + info about region
+//questions from google
 
-//regions
-include ('regions.php');
 
 //questions complete
-$file = file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDQ3R3Q4cTVmNVFMRkQ5d1dENFkxbUE&output=csv");
+$file = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dFFsWlBGLS1ZZTVJQUdxX3NkT2JySXc&output=csv");
 
 //path to generate (relative)
 $path = '../www/';
@@ -14,12 +12,13 @@ $path = '../www/';
 //read questions
 foreach ($file as $row) {
   $row_ar = str_getcsv($row);
-  $region_code = $row_ar[0];
+  //echo $row_ar[1] . print_r(str_getcsv($row));
+  $region_code = trim($row_ar[0]);
   $id = $row_ar[1];
-  $question = (($row_ar[4] != '') ? $row_ar[4] : $row_ar[2]);
-  $description = $row_ar[3];
-  $name = $row_ar[5];
-  $order = $row_ar[6];
+  $question = (($row_ar[4] != '') ? trim($row_ar[4]) : trim($row_ar[2]));
+  $description = trim($row_ar[3]);
+  $name = trim($row_ar[5]);
+  $order = trim($row_ar[6]);
   
   if ($order != '') {
 	  $out[$region_code][] = array(
@@ -43,6 +42,9 @@ foreach ($out as $rkey=>$region) {
 }
 
 //print_r($out);die();
+
+$regions = array(
+  'senat' => array('code'=>'senat', 'name'=>'Senát', 'inflection' => 'v Senátu', 'inflection_short' => 'v senátu'));
 
 //for each region
 foreach ($out as $key => $region) {
