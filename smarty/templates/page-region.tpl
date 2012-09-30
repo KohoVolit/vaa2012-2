@@ -77,9 +77,13 @@
 		  <label for="c-{$question->id}">{$question->name}</label>
 	    {/foreach}
 	    </fieldset>
-	    <button type="submit" data-theme="b" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
+	    <button type="submit" data-theme="b" name="submit" value="" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
 	  </div>
 	</div><!-- /content -->
+	
+	<!-- footer -->
+	{include "page-footer.tpl"}
+	<!-- /footer -->
   </div><!-- /page -->
 
 

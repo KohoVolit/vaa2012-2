@@ -498,3 +498,12 @@ color: #a21412;
   bottom: .5em;
   padding-left: .75em;
 }
+
+.footerContainer{
+    width:97%;
+    height:1.5em;
+    border:none;
+    position:relative;
+    padding:.25em;
+    font-size: .8em;
+}

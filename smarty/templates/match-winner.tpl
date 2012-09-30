@@ -1,6 +1,6 @@
 <div class="box-center-match match-winner-box">
 	<p>Dle Vašich odpovědí je Vám nejblíže se shodou <strong>{$results[0].result_percent} %</strong> strana:</p>
-	<div style="color:#{$winner_color}" class="match-winner">{$results[0].name} ({$results[0].short_name})</div>
+	<div style="color:#{$winner_color}" class="match-winner">{$results[0].name|truncate:50:"...":true} ({$results[0].short_name})</div>
 	</style>
 <a data-role="button" data-theme="c" title="Sdílej výsledky na Facebooku" 
     href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http://VolebniKalkulacka.cz&amp;p[images][0]=http://volebnikalkulacka.cz/image/logo.png&amp;p[title]=VolebníKalkulačka.cz&amp;p[summary]={$facebook_text}" target="_blank"  data-role="none">

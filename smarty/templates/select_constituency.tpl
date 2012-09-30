@@ -44,6 +44,12 @@
 	  </div>
 	  </div>
 	</div><!-- /content -->
+	
+	<!-- footer -->
+	{include "page-footer.tpl"}
+	<!-- /footer -->
+    {include "google_analytics.tpl"}
+
   </div><!-- /page -->
 </body>
 </html>

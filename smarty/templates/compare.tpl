@@ -13,7 +13,7 @@
 <body>
   <div data-role="page" data-title="Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz" data-theme="c">
   
-  <div data-role="header">
+  <div data-role="header" data-theme="f">
 	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Domov</a>
 	  <a href="/info" data-icon="info" data-iconpos="notext" data-ajax="false">Info</a>
 	  <h3 class="h1">Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz</h3>
@@ -26,10 +26,10 @@
   <li> <!--first item -->
   <table class="compare-table">
     <thead>
-      <tr><td class="compare-table-td-1">Otázka</td><td class="compare-table-td-2" style="text-align: center;">Můj hlas</td>
+      <tr><td class="compare-table-td-1">Otázka</td><td class="compare-table-td-2" style="text-align: center;"><span style="font-weight:900">Můj hlas</span></td>
 
       {foreach $parties as $key => $party}
-        <td class="compare-table-td-n" style="text-align: center;"><img src="../../image/party/{$party->friendly_name}.png" alt="" />
+        <td class="compare-table-td-n" style="text-align: center;" title="{$party->name}"><img src="../../image/party/{$party->friendly_name}.png" alt="" />
           {$order.$key.result_percent} %<br/>
           {$party->short_name|truncate:9:"...":true}
         </td>
@@ -60,9 +60,9 @@
   </div>
   </div>
 
-	<div data-role="footer">
-	  {include "social.tpl"}
-	</div><!-- /footer -->
+	<!-- footer -->
+	{include "page-footer.tpl"}
+	<!-- /footer -->
   {include "google_analytics.tpl"}
   </div>
   </body>

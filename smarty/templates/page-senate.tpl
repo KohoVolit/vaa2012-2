@@ -81,6 +81,9 @@
 	    <button type="submit" data-theme="b" name="submit" value="" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
 	  </div>
 	</div><!-- /content -->
+	<!-- footer -->
+	{include "page-footer.tpl"}
+	<!-- /footer -->
   </div><!-- /page -->
 
 

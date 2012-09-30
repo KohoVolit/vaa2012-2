@@ -25,7 +25,23 @@ $fanswers = array(
   'us' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdENJdEVUN0paQUhuQzRDN2lCVXNHQ1E&output=csv"),
   'vy' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDJnRHNvaEZTRzhuSFJFb0Z4UXJrM3c&output=csv"),
   'zl' => file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdEdIbkJ2YjhBUC0zazN3bmh0Zkx5Y3c&output=csv"),
-); 
+);
+//column of code
+$ccode = array(
+  'jc' => 21,
+  //'jm' => array('code'=>'jm', 'name'=>'Jihomoravský kraj', 'special' => true),
+  'ka' => 22,
+  'kr' => 23,
+  'li' => 10,
+  'mo' => 24,
+  'ol' => 10,
+  'pa' => 10,
+  'pl' => 23,
+  'st' => 10,
+  'us' => 22,
+  'vy' => 14,
+  'zl' => 10,
+);
 
 $answers0 = array();
 foreach ($fanswers as $key=>$file) {
@@ -33,8 +49,27 @@ foreach ($fanswers as $key=>$file) {
     $answers0[$key][] = str_getcsv($row);
   }
 }
-
-
+//trim everything
+foreach ($answers0 as $key=>$region) {
+  foreach ($region as $rkey=>$row) {
+    foreach ($row as $ikey=>$item) {
+      $answers0[$key][$rkey][$ikey] = trim($answers0[$key][$rkey][$ikey]);
+    }
+  }
+}
+//print_r($answers0);die();
+//clean duplicates, leave the last one
+foreach ($answers0 as $key=>$region) {
+    $codes = array();
+	$a_region = array_reverse($region);
+	foreach ($a_region as $rkey=>$r) {
+		if (isset($codes[trim($r[$ccode[$key]])])) 
+		  unset($a_region[$rkey]);
+		else $codes[trim($r[$ccode[$key]])] = true;
+	}
+	$answers0[$key] = array_reverse($a_region);
+}
+//print_r($answers0);die();
 
 //questions complete
 $file = file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDQ3R3Q4cTVmNVFMRkQ5d1dENFkxbUE&output=csv");
@@ -43,10 +78,10 @@ $file = file("https://docs.google.com/spreadsheet/pub?key=0Ah0pQ2bgP0nkdDQ3R3Q4c
 foreach ($file as $row) {
   $row_ar = str_getcsv($row);
   
-  $region_code = $row_ar[0];
-  $id = $row_ar[1];
+  $region_code = trim($row_ar[0]);
+  $id = trim($row_ar[1]);
   $question = trim($row_ar[2]); //mind it! (different from question generation)
-  $description = $row_ar[3];
+  $description = trim($row_ar[3]);
    
   $questions[$region_code][] = array(
     'id' => $id,
@@ -63,10 +98,10 @@ $fparties = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dGhCX
 
 foreach ($fparties as $row) {
   $row_ar = str_getcsv($row);
-  $unique_code = $row_ar[3];
-  $region_code = $row_ar[0];
-  $name = $row_ar[1];
-  $short_name = $row_ar[4];
+  $unique_code = trim($row_ar[3]);
+  $region_code = trim($row_ar[0]);
+  $name = trim($row_ar[1]);
+  $short_name = trim($row_ar[4]);
   $parties[$unique_code] = array(
     'unique_code' => $unique_code,
     'region_code' => $region_code,
