@@ -1,5 +1,6 @@
 <?php
 
+include("../../setup.php");
 
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');

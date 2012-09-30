@@ -2,6 +2,8 @@
 
 session_start();
 
+include("../../setup.php");
+
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
@@ -153,7 +155,7 @@ function calc_match($user,$set,$extra=2) {
   foreach ($set as $s) {
     $sum = 0;
     $count = 0;
-    if (count($user['vote']) > 0) {
+    if (isset($user['vote']) and count($user['vote']) > 0) {
       foreach($user['vote'] as $key => $uv) {
         //weight
         if (isset($user['weight'][$key])) $w = $extra;

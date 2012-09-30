@@ -4,6 +4,8 @@
 * reads questions from json
 */
 
+include("../setup.php");
+
 $qfile = 'questions.json';
 $rfile = 'region.json';
 //$constitfile = '../backend/obvody.json';
