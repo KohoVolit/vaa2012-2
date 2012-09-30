@@ -22,7 +22,8 @@
 	</style>
 </head>
 <body>
-<form action="./select_constituency.php" method="get" data-ajax="false">
+<form action="./match" method="get" data-ajax="false">
+<input type="text" name="constituency_code" id="constituency_code" value="{$constituency_code}" hidden='hidden' />
 
 {$key=1}
 {foreach $questions as $question}
@@ -69,14 +70,15 @@
       <!-- question -->
 	  <div class="question ui-body ui-body-e">
 	    <!-- question content -->
+	    <legend><p>Výsledek se ještě zpřesní, pokud vyberete otázky, které jsou <strong>pro Vás nejdůležitější</strong>. Tento krok není povinný a lze přeskočit.</p></legend>
+	    <button type="submit" data-theme="b" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Přeskočit</button>
 	    <fieldset data-role="controlgroup">
-	    <legend><p>Teď ještě vyberte otázky, kterým přikládáte velkou váhu.</p></legend>
 	    {foreach $questions as $key=>$question}
 	       <input type="checkbox" name="c-{$question->id}" id="c-{$question->id}" class="custom" />
 		  <label for="c-{$question->id}">{$question->name}</label>
 	    {/foreach}
 	    </fieldset>
-	    <button type="submit" data-theme="b" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
+	    <button type="submit" data-theme="b" name="submit" value="" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
 	  </div>
 	</div><!-- /content -->
   </div><!-- /page -->

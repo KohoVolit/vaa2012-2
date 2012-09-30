@@ -9,6 +9,14 @@
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 	<link rel="stylesheet" href="../css/page.css" />
+	
+	<style>
+	  @media all and (min-width: 650px){
+		.content {
+		  background-image:url('background.jpg');
+		}
+	  }
+	</style>
   </head>
   
 <body>
@@ -16,7 +24,7 @@
 
     <!-- header -->
 	 <div data-role="header" data-theme="f" class="header">
-	  <h3 class="h1">Výběr obvodu 2012 | VolebníKalkulačka.cz</h3>
+	  <h3 class="h1">Výběr obvodu Senát 2012 | VolebníKalkulačka.cz</h3>
 	</div>
 	<!-- /header -->
 

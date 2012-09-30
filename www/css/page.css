@@ -477,3 +477,8 @@ color: #a21412;
 .compare-disagree {background-color: #FF0000;}
 .compare-neutral {background-color: #888888;}
 .compare-important td{border: 2px solid yellow;}
+
+/* because of embedding */
+.ui-mobile, .ui-mobile body {
+    height: 97%;
+}
