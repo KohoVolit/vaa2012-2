@@ -476,6 +476,7 @@ color: #a21412;
 .box-center-match{
     max-width: 500px;
     margin: 0px auto;
+    
 }
 /*comparison*/
 .compare-agree {background-color: #008000;}
@@ -512,3 +513,13 @@ color: #a21412;
     padding:.25em;
     font-size: .8em;
 }
+
+.match-explain{
+	padding: 1em;
+}
+
+.match-embed {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 0 0 1em;
+} 

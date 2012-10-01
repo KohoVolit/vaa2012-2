@@ -1,5 +1,5 @@
 <div class="box-center-match match-winner-box">
-	<p>Dle Vašich odpovědí je Vám nejblíže se shodou <strong>{$results[0].result_percent} %</strong>:</p>
+	<p>Dle zadaných odpovědí je Vám nejblíže se shodou <strong>{$results[0].result_percent}&nbsp;%</strong>:</p>
 	<div style="color:#{$winner_color}" class="match-winner">{$results[0].name} ({$results[0].party})</div>
 	</style>
 <a data-role="button" data-theme="c" title="Sdílej výsledky na Facebooku" 

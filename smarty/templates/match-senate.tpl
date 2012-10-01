@@ -43,14 +43,26 @@
 	        <a href="../compare/dialog.php?{$query_string}" class="box-center-match" data-rel="dialog" data-role="button">Vaše odpovědi vs. odpovědi kandidátů</a>
 	    </div>
 
-	<div>
+	<div class="match-explain">
 	  <p class="box-center-match"><strong>Proč ve výsledcích nejsou všichni kandidáti?</strong><br/>
 	  Oslovili jsme všechny, ale ne všichni odpověděli.</p>
 	</div>
 	
+	<!-- embed -->
+	<div class="match-embed" >
+	  <div data-role="collapsible" data-theme="d" data-content-theme="e">
+    	<h3>Vložte si volební kalkulačku k sobě na stránky</h3>
+            <div data-role="fieldcontain">
+				<p>Vložte kód HTML (standardní kalkulačka, {$region}):</p>
+					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/senat-2012/constituency_code={$constituency_code}&key=result_senate" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
+				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (kraje, Senát) i její velikost (standardní, mobilní)
+			</div>   
+	  </div>
+	</div> <!-- /embed -->
+	
 	</div><!-- /content -->
 
-	<div data-role="footer"  data-position="fixed" data-theme="f">		
+	<div data-role="footer"  data-theme="f">		
 	{include "match-sharer.tpl"}
     </div><!-- /footer -->
     

@@ -70,7 +70,7 @@
 	  <div class="question ui-body ui-body-e">
 	    <!-- question content -->
 	    <legend><p>Výsledek se ještě zpřesní, pokud vyberete otázky, které jsou pro Vás nejdůležitější. Tento krok není povinný a lze přeskočit.</p></legend>
-	    <button type="submit" data-theme="b" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Přeskočit</button>
+	    <button type="submit" data-theme="c" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Přeskočit</button>
 	    <fieldset data-role="controlgroup">
 	    {foreach $questions as $key=>$question}
 	       <input type="checkbox" name="c-{$question->id}" id="c-{$question->id}" class="custom" />

@@ -63,6 +63,7 @@ $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] . '&' .
 $winner_color = party2color($results[0]['party']);
 
 $smarty->assign('winner_color', $winner_color);
+$smarty->assign('constituency_code', $cc);
 $smarty->assign('image', $image);
 $smarty->assign('twitter_text', $twitter_text);
 $smarty->assign('facebook_text', urlencode($facebook_text));
@@ -109,36 +110,36 @@ function create_chart_link($results) {
 */
 function code2constituency($code) {
   $constit = array(
-	'2'=>'Sokolov (2)',
-	'5'=>'Chomutov (5)',
-	'8'=>'Rokycany (8)',
-	'11'=>'Domažlice (11)',
-	'14'=>'České Budějovice (14)',
-	'17'=>'Praha 12 (17)',
-	'20'=>'Praha 4 (20)',
-	'23'=>'Praha 8 (23)',
-	'26'=>'Praha 2 (26)',
-	'29'=>'Litoměřice (29)',
-	'32'=>'Teplice (32)',
-	'35'=>'Jablonec nad Nisou (35)',
-	'38'=>'Mladá Boleslav (38)',
-	'41'=>'Benešov (41)',
-	'44'=>'Chrudim (44)',
-	'47'=>'Náchod (47)',
-	'50'=>'Svitavy (50)',
-	'53'=>'Třebíč (53)',
-	'56'=>'Břeclav (56)',
-	'59'=>'Brno-město (59)',
-	'62'=>'Prostějov (62)',
-	'65'=>'Šumperk (65)',
-	'68'=>'Opava (68)',
-	'71'=>'Ostrava-město (71)',
-	'74'=>'Karviná (74)',
-	'77'=>'Vsetín (77)',
-	'80'=>'Zlín (80)'
+	'2'=>'Sokolov',
+	'5'=>'Chomutov',
+	'8'=>'Rokycany',
+	'11'=>'Domažlice',
+	'14'=>'České Budějovice',
+	'17'=>'Praha 12',
+	'20'=>'Praha 4',
+	'23'=>'Praha 8',
+	'26'=>'Praha 2',
+	'29'=>'Litoměřice',
+	'32'=>'Teplice',
+	'35'=>'Jablonec nad Nisou',
+	'38'=>'Mladá Boleslav',
+	'41'=>'Benešov',
+	'44'=>'Chrudim',
+	'47'=>'Náchod',
+	'50'=>'Svitavy',
+	'53'=>'Třebíč',
+	'56'=>'Břeclav',
+	'59'=>'Brno-město',
+	'62'=>'Prostějov',
+	'65'=>'Šumperk ',
+	'68'=>'Opava',
+	'71'=>'Ostrava-město',
+	'74'=>'Karviná',
+	'77'=>'Vsetín',
+	'80'=>'Zlín'
 	);
   if (isset($constit[$code])) return $constit[$code];
-  else return 'Rokycany (8)';
+  else return 'Rokycany';
 }
 
 /**
