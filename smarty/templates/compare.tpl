@@ -30,7 +30,7 @@
 
       {foreach $parties as $key => $party}
         <td class="compare-table-td-n" style="text-align: center;" title="{$party->name}"><img src="../../image/party/{$party->friendly_name}.png" alt="" />
-          {$order.$key.result_percent} %<br/>
+          {$order.$key.result_percent}&nbsp;%<br/>
           {$party->short_name|truncate:9:"...":true}
         </td>
       {/foreach}

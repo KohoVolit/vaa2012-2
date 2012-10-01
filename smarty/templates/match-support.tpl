@@ -1,4 +1,4 @@
-<a data-theme="a" title="Podpořte VolebníKalkulačka.cz" data-rel="dialog">
+<a data-theme="a" title="Podpořte VolebníKalkulačka.cz" data-rel="dialog" href="/support" >
   <img
-  src="https://www.gstatic.com/images/icons/gplus-32.png" alt="Podpořte VolebníKalkulačka.cz" style="padding-top:0"/>
+  src="../../image/pig.png" alt="Podpořte VolebníKalkulačka.cz" style="padding-top:0"/>
   <div class="computer"><br/>Podpořte VolebníKalkulačka.cz</div></a>
