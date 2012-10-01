@@ -145,9 +145,16 @@ color: #a21412;
 /* ms */
 
 /* mobiles */
-.question-name {
+.question-description {
   display: none;
 }
+
+	.question-name {
+	  display: block;
+	  font-size: 1em;
+	  color: #777777;
+	  text-shadow: none;
+	}
 
 /* docs site layout */
 
@@ -316,11 +323,9 @@ color: #a21412;
 	.question-content {
 		min-height: 13em;
 	}
-	.question-name {
+
+	.question-description {
 	  display: block;
-	  font-size: 1em;
-	  color: #777777;
-	  text-shadow: none;
 	}
 	
 	.question-question {
@@ -365,7 +370,7 @@ color: #a21412;
 }
 
 .box-center{
-    width: 245px;
+    width: 350px;
     margin: 0px auto;
 }
 

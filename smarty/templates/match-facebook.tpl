@@ -5,7 +5,7 @@
 }
 </style>
 <a data-theme="b" title="Sdílej výsledky na Facebooku" 
-    href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http://VolebniKalkulacka.cz&amp;p[images][0]=http://volebnikalkulacka.cz/image/logo.png&amp;p[title]=VolebníKalkulačka.cz&amp;p[summary]={$facebook_text}" target="_blank"  data-role="none">
+    href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http://VolebniKalkulacka.cz&amp;p[images][0]=http://volebnikalkulacka.cz/image/logo.png&amp;p[title]=VolebníKalkulačka.cz&amp;p[summary]={$facebook_text} Zkuste si to taky." target="_blank"  data-role="none">
      <img src="../../image/fb_logo.png" 
        alt="Share on Facebook" />
        <div class="computer"><br/>Sdílej na Facebooku</div>

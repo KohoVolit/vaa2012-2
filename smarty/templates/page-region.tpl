@@ -40,7 +40,7 @@
     <div data-role="content" class="content">
     
       <!-- question -->
-      {include "page-question.tpl"}
+      {include "page-question2.tpl"}
 	  <!-- /question -->
 	</div> <!-- /content -->	
 	

@@ -68,8 +68,8 @@ p.intro {
 		border-top: 1px solid #75ae18;
 		border-bottom: 0;
 		background: none;
-		margin: 1.5em 0;
-		padding: 1.5em 15px 0;
+		margin: 0;
+		padding: 0 15px;
 
 }
 p.intro strong {
@@ -267,7 +267,7 @@ dd h4 { margin:15px 0 0 0; }
 	}
 */
 	p.intro {
-		margin: 2em 0;
+		margin: 1.5em 0 0;
 	}
 	.type-home .ui-content,
 	.type-interior .ui-content {
@@ -345,6 +345,12 @@ dd h4 { margin:15px 0 0 0; }
 	.type-interior .content-secondary {
 		margin: 0;
 		padding: 0;
+	}
+	
+	.social-block {
+		padding-bottom: 1.5em;
+		min-height: 68px;
+		text-align: center;
 	}
 	
 }

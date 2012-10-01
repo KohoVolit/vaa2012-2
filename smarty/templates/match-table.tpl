@@ -12,7 +12,7 @@
 	          {else} result-very-negative
 	          {/if}	    	    
 	        ">{$result.result_percent} %</span>
-	        <span class="mobile">{$result.result_percent} %</span>
+	        <span class="mobile"><span class="ui-li-count">{$result.result_percent} %</span></span>
 	       </p>
 	        
 	        </a></li>
