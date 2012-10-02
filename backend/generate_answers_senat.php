@@ -97,7 +97,7 @@ foreach ($answers0 as $key=>$region) {
   $answers_id[$key] = $ids;
 
 }
-
+//print_r($answers0);die();
   
 foreach ($answers0 as $key=>$region) {
   array_shift($region);
@@ -126,6 +126,7 @@ foreach ($answers0 as $key=>$region) {
       echo $key . "::" . $row[$unique_code_column[$key]] . "<br/>\n";
     }
   }
+  print_r($data);die();
   
   //if direcotry not existing, create it
    $dir = $path . 'senat' . '-2012/';
