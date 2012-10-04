@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="../../css/page.css" />
   </head>
 <body>
-  <div data-role="page" data-title="Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz" data-theme="c">
+  <div data-role="page" data-title="Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz" data-theme="c" class="partner-{$partner['name']}">
   
   <div data-role="header" data-theme="{$partner['swatch_bar']}">
 	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Domov</a>

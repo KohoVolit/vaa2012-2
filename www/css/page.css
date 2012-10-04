@@ -692,3 +692,11 @@ color: #a21412;
     margin: 0px auto;
     padding: 0 0 1em;
 } 
+
+.partner-denik {
+    background: -moz-linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #333333;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+

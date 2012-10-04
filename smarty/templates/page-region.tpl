@@ -28,7 +28,7 @@
 {$key=1}
 {foreach $questions as $question}
   <!-- Start of {$key} page -->
-  <div data-role="page" id="p{$key}" data-title="{$question->name} | VolebníKalkulačka.cz" class='page type-interior'>
+  <div data-role="page" id="p{$key}" data-title="{$question->name} | VolebníKalkulačka.cz" class='page type-interior partner-{$partner['name']}'>
     <!-- header -->
 	{include "page-header.tpl"}
 	<!-- /header -->
@@ -56,7 +56,7 @@
 
 
   <!-- page -->
-  <div data-role="page" id="p{$number_questions+1}" data-title="Důležité otázky | VolebníKalkulačka.cz" class='page type-interior'>
+  <div data-role="page" id="p{$number_questions+1}" data-title="Důležité otázky{if $partner['name'] == 'default'} | VolebníKalkulačka.cz{/if}" class='partner-{$partner['name']} page type-interior'>
   
       <!-- header -->
 	<div data-role="header" data-theme="{$partner['swatch_bar']}" class="header">

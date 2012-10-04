@@ -21,7 +21,7 @@
 
   
   <body>
-  <div data-role="page" data-title="Moje shoda | VolebníKalkulačka.cz" data-theme="b" class='page type-interior'>
+  <div data-role="page" data-title="Moje shoda | VolebníKalkulačka.cz" data-theme="b" class='page type-interior partner-{$partner['name']}'>
   
 	<!-- header -->
 	{include "match-header.tpl"}
