@@ -20,7 +20,7 @@
   </head>
   
 <body>
- <div data-role="page" id="select-constituency" data-title="Výběr obvodu 2012 | VolebníKalkulačka.cz" class='page type-interior'>
+ <div data-role="page" id="select-constituency" data-title="Výběr obvodu 2012 | VolebníKalkulačka.cz" class='page type-interior partner-{$partner['name']}'>
 
     <!-- header -->
 	 <div data-role="header" data-theme="{$partner['swatch_bar']}" class="header">
