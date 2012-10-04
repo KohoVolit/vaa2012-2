@@ -126,7 +126,7 @@ foreach ($answers0 as $key=>$region) {
       echo $key . "::" . $row[$unique_code_column[$key]] . "<br/>\n";
     }
   }
-  print_r($data);die();
+  //print_r($data);die();
   
   //if direcotry not existing, create it
    $dir = $path . 'senat' . '-2012/';
@@ -142,7 +142,7 @@ foreach ($answers0 as $key=>$region) {
   
   print_r($data);
   
-die();
+
 
 
 function answer2value($a) {
