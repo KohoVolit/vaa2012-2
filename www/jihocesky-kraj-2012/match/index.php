@@ -211,8 +211,8 @@ function get_user_values() {
     foreach ($_GET as $key => $param) {
       //votes
       if (substr($key,0,2) == 'q-') 
-        if ($param != 0)
-          $user['vote'][substr($key,2)] = $param;
+        {if ($param != 0)
+          $user['vote'][substr($key,2)] = $param;}
       else if (substr($key,0,2) == 'c-')
         $user['weight'][substr($key,2)] = true;
     }
