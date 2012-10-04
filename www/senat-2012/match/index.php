@@ -25,6 +25,20 @@ if (isset($_GET['constituency_code'])) $cc=$_GET['constituency_code'];
 else $cc=8;
 $region = code2constituency($cc);
 
+//partner
+if (isset($_GET['partner'])) {
+	switch ($_GET['partner']) {
+	  case 'ihned': 
+		$partner = array('name'=>'ihned','swatch_bar' => 'g', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  case 'denik':
+		$partner = array('name'=>'denik','swatch_bar' => 'h', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  default:
+		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+	} 
+} else $partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+
 //calculate match, for selected CC only
 $selected_candidates = array();
 foreach ($candidates as $c) {
@@ -62,6 +76,7 @@ $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] . '&' .
 //winner color
 $winner_color = party2color($results[0]['party']);
 
+$smarty->assign('partner', $partner);
 $smarty->assign('winner_color', $winner_color);
 $smarty->assign('constituency_code', $cc);
 $smarty->assign('image', $image);

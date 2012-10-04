@@ -23,14 +23,14 @@
  <div data-role="page" id="select-constituency" data-title="Výběr obvodu 2012 | VolebníKalkulačka.cz" class='page type-interior'>
 
     <!-- header -->
-	 <div data-role="header" data-theme="f" class="header">
+	 <div data-role="header" data-theme="{$partner['swatch_bar']}" class="header">
 	  <h3 class="h1">Výběr obvodu Senát 2012 | VolebníKalkulačka.cz</h3>
 	</div>
 	<!-- /header -->
 
     <!-- content -->
     <div data-role="content" class="content">
-  	  <div class="question ui-body ui-body-e">
+  	  <div class="question ui-body ui-body-{$partner['swatch_question_body']}">
 	    <!-- question content -->
 	    <div class="question-content">  
 	  <fieldset data-role="controlgroup">

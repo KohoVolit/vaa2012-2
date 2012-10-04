@@ -40,12 +40,27 @@ foreach ($user['order'] as $row)
 //read questions
 $questions = json_decode(file_get_contents($qfile));
 
+//partner
+if (isset($_GET['partner'])) {
+	switch ($_GET['partner']) {
+	  case 'ihned': 
+		$partner = array('name'=>'ihned','swatch_bar' => 'g', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  case 'denik':
+		$partner = array('name'=>'denik','swatch_bar' => 'h', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  default:
+		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+	} 
+} else $partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+
 
 /*print_r($user);
 print_r($parties);
 print_r($questions);
 die();*/
 
+$smarty->assign('partner', $partner);
 $smarty->assignByRef('questions', $questions);
 $smarty->assignByRef('parties', $parties);
 $smarty->assign('region', $region);

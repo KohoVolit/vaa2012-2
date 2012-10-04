@@ -23,6 +23,7 @@
 	<li><a href="page.php?{$query_string}constituency_code=2"  data-ajax="false">Sokolov</a></li>
 	<li><a href="page.php?{$query_string}constituency_code=50"  data-ajax="false">Svitavy</a></li>
 	<li><a href="page.php?{$query_string}constituency_code=65"  data-ajax="false">Šumperk</a></li>
+	<li><a href="page.php?{$query_string}constituency_code=32"  data-ajax="false">Teplice</a></li>
 	<li><a href="page.php?{$query_string}constituency_code=53"  data-ajax="false">Třebíč</a></li>
 	<li><a href="page.php?{$query_string}constituency_code=77"  data-ajax="false">Vsetín</a></li>
 	<li><a href="page.php?{$query_string}constituency_code=80"  data-ajax="false">Zlín</a></li>

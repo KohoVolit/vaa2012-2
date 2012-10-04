@@ -31,6 +31,20 @@ $results = calc_match($user,$parties);
 //create additional link for comparison
 $additional_string = create_additional_string($results);
 
+//partner
+if (isset($_GET['partner'])) {
+	switch ($_GET['partner']) {
+	  case 'ihned': 
+		$partner = array('name'=>'ihned','swatch_bar' => 'g', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  case 'denik':
+		$partner = array('name'=>'denik','swatch_bar' => 'h', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  default:
+		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+	} 
+} else $partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+
 //create twitter and facebook text (in case there are less than 3 parties, using foreach
 $twitter_text = 'Nejvíc se ' . $region->inflection_short . ' shodnu s ';
 $facebook_text = 'VolebníKalkulačka.cz '.$region->inflection.', moje shoda: ';
@@ -57,6 +71,7 @@ $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] . '&' .
 //winner color
 $winner_color = party2color($results[0]['short_name']);
 
+$smarty->assign('partner', $partner);
 $smarty->assign('image', $image);
 $smarty->assign('winner_color', $winner_color);
 $smarty->assign('twitter_text', $twitter_text);

@@ -23,6 +23,7 @@
 </head>
 <body>
 <form action="./match" method="get" data-ajax="false">
+<input type="text" name="partner" id="partner" value="{$partner['name']}" hidden='hidden' />
 
 {$key=1}
 {foreach $questions as $question}
@@ -58,7 +59,7 @@
   <div data-role="page" id="p{$number_questions+1}" data-title="Důležité otázky | VolebníKalkulačka.cz" class='page type-interior'>
   
       <!-- header -->
-	<div data-role="header" data-theme="f" class="header">
+	<div data-role="header" data-theme="{$partner['swatch_bar']}" class="header">
     	<a href="#p{($key-1)}" data-role="button" data-icon="arrow-l" data-direction="reverse" data-transition="slidefade" >Zpět</a>
 		<h1 class="title"><span class="computer">VolebníKalkulačka.cz</span><span class="mobile">Důležité otázky</span></h1>
 	</div><!-- /header -->
@@ -67,7 +68,7 @@
     <div data-role="content" class="content">
     
       <!-- question -->
-	  <div class="question ui-body ui-body-e">
+	  <div class="question ui-body ui-body-{$partner['swatch_question_body']}">
 	    <!-- question content -->
 	    <legend><p>Výsledek se ještě zpřesní, pokud vyberete otázky, které jsou pro Vás nejdůležitější. Tento krok není povinný a lze přeskočit.</p></legend>
 	    <button type="submit" data-theme="c" name="submit" value="submit-value" data-icon="arrow-r" data-iconpos="right">Přeskočit</button>

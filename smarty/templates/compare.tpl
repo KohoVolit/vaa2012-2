@@ -13,7 +13,7 @@
 <body>
   <div data-role="page" data-title="Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz" data-theme="c">
   
-  <div data-role="header" data-theme="f">
+  <div data-role="header" data-theme="{$partner['swatch_bar']}">
 	  <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Domov</a>
 	  <a href="/info" data-icon="info" data-iconpos="notext" data-ajax="false">Info</a>
 	  <h3 class="h1">Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz</h3>
@@ -22,7 +22,7 @@
   <div data-role="content" class="question-background">
   <div class="ui-overlay-shadow ui-corner-top ui-corner-bottom compare-table-wrapper" data-role="content">
   
-  <ul data-role="listview" data-theme="e">
+  <ul data-role="listview" data-theme="{$partner['swatch_question_body']}">
   <li> <!--first item -->
   <table class="compare-table">
     <thead>

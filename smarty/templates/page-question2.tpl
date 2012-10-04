@@ -1,4 +1,4 @@
-	  <div class="question ui-body ui-body-e">
+	  <div class="question ui-body ui-body-{$partner['swatch_question_body']}">
 	    <!-- question content -->
 	    <div class="question-content">
 	      <h2 class="question-name">{$question->name}</h2>

@@ -36,6 +36,21 @@ $number_questions = count((array)$questions);
 $region = json_decode(file_get_contents($rfile));
 $region->calc = $region->calc . ': ' . $region_additional;
 
+//partners
+if (isset($_GET['partner'])) {
+	switch ($_GET['partner']) {
+	  case 'ihned': 
+		$partner = array('name'=>'ihned','swatch_bar' => 'g', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  case 'denik':
+		$partner = array('name'=>'denik','swatch_bar' => 'h', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'a');
+		break;
+	  default:
+		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+	} 
+} else $partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
+
+$smarty->assign('partner',$partner);
 $smarty->assignByRef('questions', $questions);
 $smarty->assign('number_questions',$number_questions);
 $smarty->assign('region',$region);
