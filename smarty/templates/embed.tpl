@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vložit volební kalkulačku | VolebníKalkulačka.cz</title>
+    <title>Vložit volební kalkulačku | Volební Kalkulačka</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
     <link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">

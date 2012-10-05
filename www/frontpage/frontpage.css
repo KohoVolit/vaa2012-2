@@ -396,3 +396,13 @@ dd h4 { margin:15px 0 0 0; }
 		width: 60%;
 	}
 }
+
+.counter {
+ 	padding-bottom: 2em;
+    text-align: center;
+}
+.counter-number {
+ 	color: #56A00E;
+    font-size: 2em;
+    font-weight: bold;
+}
