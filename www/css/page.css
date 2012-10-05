@@ -698,5 +698,6 @@ color: #a21412;
     border: 1px solid #AAAAAA;
     color: #333333;
     text-shadow: 0 1px 0 #FFFFFF;
+    -webkit-gradient(linear,left top,left bottom,from(white),to(white))
 }
 
