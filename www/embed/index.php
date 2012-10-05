@@ -65,6 +65,11 @@ $sizes = array(
 );
 
 $calcs = array(
+  'all' => array(
+    'name' => 'Celá VolebníKalkulačka.cz',
+    'calc' => array(array('name'=>'VolebníKalkulačka.cz','friendly_url'=>'?','selected'=>true)),
+  ),
+
   'region' => array(
     'name' => 'Krajské volební kalkulačky 2012',
     'calc' => $regions,
