@@ -11,11 +11,11 @@
 	<link rel="stylesheet" href="../../css/page.css" />
   </head>
 <body>
-  <div data-role="page" data-title="Porovnání {$region->inflection} 2012 | VolebníKalkulačka.cz" data-theme="c" class="partner-{$partner['name']}">
+  <div data-role="page" data-title="Porovnání {$region->inflection} 2012{if $partner['name'] == 'default'} | VolebníKalkulačka.cz{/if}" data-theme="c" class="partner-{$partner['name']}">
   
   <div data-role="header" data-theme="{$partner['swatch_bar']}">
 	 {if $partner['name'] == 'default'} <a href="/" data-role="button" data-icon="home" data-iconpos="notext" data-ajax="false">Domov</a>{/if}
-	  <a href="/info" data-icon="info" data-iconpos="notext" data-ajax="false">Info</a>
+	  {if $partner['name'] != 'denik'}<a href="/info" data-icon="info" data-iconpos="notext" data-ajax="false">Info</a>{/if}
 	  <h3 class="h1">Porovnání {$region->inflection} 2012{if $partner['name'] == 'default'} | VolebníKalkulačka.cz{/if}</h3>
   </div><!-- /header -->
   

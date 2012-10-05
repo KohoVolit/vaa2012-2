@@ -24,7 +24,7 @@
 
     <!-- header -->
 	 <div data-role="header" data-theme="{$partner['swatch_bar']}" class="header">
-	  <h3 class="h1">Výběr obvodu Senát 2012 | VolebníKalkulačka.cz</h3>
+	  <h3 class="h1">Výběr obvodu Senát 2012{if ($partner['name'] == 'default')} | VolebníKalkulačka.cz{/if}</h3>
 	</div>
 	<!-- /header -->
 

@@ -233,7 +233,7 @@ color: #a21412;
 .ui-bar-h {
 	border: 1px solid #b3b3b3 /*{h-bar-border}*/;
 	background: #0b8dcb /*{h-bar-background-color}*/;
-	color: #3e3e3e /*{h-bar-color}*/;
+	color: #FFFFFF /*{h-bar-color}*/;
 	font-weight: bold;
 	text-shadow: 0 /*{h-bar-shadow-x}*/ 1px /*{h-bar-shadow-y}*/ 1px /*{h-bar-shadow-radius}*/ #808080 /*{h-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #0dadf9 /*{h-bar-background-start}*/), to( #086c9c /*{h-bar-background-end}*/)); /* Saf4+, Chrome */
