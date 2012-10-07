@@ -163,7 +163,7 @@
   $number = number_format(ceil(filesize('result.txt')/297.2),0,',',' ');
   echo $number;
 ?>
-		</span> vyplněných kalkulaček
+		</span> lidí si vyplnilo Volební kalkulačku
 	</div>
 	<!-- /counter -->
 	  
