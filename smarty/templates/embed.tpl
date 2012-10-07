@@ -24,7 +24,8 @@
   <div data-role="content" class="content">
   
     <h1>VolebníKalkulačka.cz vložená na Vašem webu</h1>
-    <p>Stejně snadno jako např. videa z Youtube si můžete vložit k sobě na webové stránky i Volební kalkulačku.</p>
+    <p>Stejně snadno jako např. toto video z Youtube si můžete vložit k sobě na webové stránky i Volební kalkulačku.</p>
+    <div class="box-center-match"><iframe width="420" height="315" src="http://www.youtube.com/embed/UQyaSYhVJ9g" frameborder="0" allowfullscreen></iframe></div>
     
     <div class="box-center-match match-winner-box">
     
