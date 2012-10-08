@@ -2,7 +2,7 @@
 	    <ul data-role="listview" data-theme="{$partner['swatch_question_body']}">
 	      <li class="result-header">Strana <span class="right">Moje shoda</span></li>
 	      {foreach $results as $result}
-	        <li><a href="../compare/dialog.php?{$query_string}" data-rel="dialog"><img src="../../image/party/{$result.friendly_name}.png" alt="" class="ui-li-icon" class="computer">{if $result.short_name != ''}{$result.name|truncate:25:"...":true} ({$result.short_name}){else}{$result.name|truncate:45:"...":true}{/if}
+	        <li><a href="../compare/dialog.php?{$query_string}" data-rel="dialog"><img src="../../image/1x1.png" class="party-sprite party-sprite-{$result.friendly_name} ui-li-icon computer" >{if $result.short_name != ''}{$result.name|truncate:25:"...":true} ({$result.short_name}){else}{$result.name|truncate:45:"...":true}{/if}
 	        <p class="ui-li-aside">
 	        <span class="computer result-number
 	          {if $result.result >= .6} result-very-positive

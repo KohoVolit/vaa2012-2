@@ -714,5 +714,38 @@ color: #a21412;
 	background-image: linear-gradient(#FFF,#FFF);
 }
 
+.party-sprite {
+    background: url('../image/party-sprite.png') no-repeat top left;
+    width: 16px;
+    height: 16px;
+}
+
+.party-sprite-1_unknown{ background-position: 0 0; width: 16px; height: 16px; } 
+.party-sprite-cps{ background-position: 0 -32px; width: 16px; height: 16px; } 
+.party-sprite-pirati{ background-position: 0 -32px; width: 16px; height: 16px; } 
+.party-sprite-cssd{ background-position: 0 -64px; width: 16px; height: 16px; } 
+.party-sprite-dsss{ background-position: 0 -96px; width: 16px; height: 16px; } 
+.party-sprite-kc{ background-position: 0 -128px; width: 16px; height: 16px; } 
+.party-sprite-kdu-csl{ background-position: 0 -160px; width: 16px; height: 16px; } 
+.party-sprite-kons{ background-position: 0 -192px; width: 16px; height: 15px; } 
+.party-sprite-kscm{ background-position: 0 -223px; width: 16px; height: 16px; } 
+.party-sprite-moravane{ background-position: 0 -255px; width: 16px; height: 16px; } 
+.party-sprite-nezavisli{ background-position: 0 -287px; width: 16px; height: 16px; } 
+.party-sprite-nezdem{ background-position: 0 -319px; width: 16px; height: 16px; } 
+.party-sprite-ns-lev21{ background-position: 0 -351px; width: 16px; height: 16px; } 
+.party-sprite-ods{ background-position: 0 -383px; width: 16px; height: 16px; } 
+.party-sprite-sbb{ background-position: 0 -415px; width: 16px; height: 16px; } 
+.party-sprite-suverenita{ background-position: 0 -415px; width: 16px; height: 16px; } 
+.party-sprite-suverenita-svj{ background-position: 0 -415px; width: 16px; height: 16px; } 
+.party-sprite-sn{ background-position: 0 -447px; width: 16px; height: 16px; } 
+.party-sprite-spoz{ background-position: 0 -479px; width: 16px; height: 16px; } 
+.party-sprite-sscr{ background-position: 0 -511px; width: 16px; height: 16px; } 
+.party-sprite-sso{ background-position: 0 -543px; width: 16px; height: 16px; } 
+.party-sprite-sz{ background-position: 0 -575px; width: 16px; height: 16px; } 
+.party-sprite-top09{ background-position: 0 -607px; width: 16px; height: 16px; } 
+.party-sprite-top-09{ background-position: 0 -607px; width: 16px; height: 16px; } 
+.party-sprite-top-09-stan{ background-position: 0 -607px; width: 16px; height: 16px; } 
+.party-sprite-vv{ background-position: 0 -639px; width: 16px; height: 16px; } 
+
 
 

@@ -29,7 +29,7 @@
       <tr><td class="compare-table-td-1">Otázka</td><td class="compare-table-td-2" style="text-align: center;"><span style="font-weight:900">Můj hlas</span></td>
 
       {foreach $parties as $key => $party}
-        <td class="compare-table-td-n" style="text-align: center;" title="{$party->name}"><img src="../../image/party/{$party->friendly_name}.png" alt="" />
+        <td class="compare-table-td-n" style="text-align: center;" title="{$party->name}"><img src="../../image/1x1.png" class="party-sprite party-sprite-{$party->friendly_name} computer" />
           {$order.$key.result_percent}&nbsp;%<br/>
           {$party->short_name|truncate:9:"...":true}
         </td>
