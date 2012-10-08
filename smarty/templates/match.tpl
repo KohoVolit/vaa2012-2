@@ -60,6 +60,11 @@
 	  </div>
 	</div> <!-- /embed -->
 	
+	<!-- nasi politici -->
+	<div class="box-center-match match-winner-box">
+	  Více o jednotllivých kandidátech se dozvíte na <a href="http://nasipolitici.cz">NašiPolitici.cz</a>
+	</div><!-- /nasi politici -->
+	
 	
 	</div><!-- /content -->
 
