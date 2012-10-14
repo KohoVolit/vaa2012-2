@@ -41,6 +41,17 @@
 	<div class="content-primary">
 		<p>12. a 13. října 2012 se konají krajské a senátní volby. Víte, která strana a který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
+				<h2>Senátní volby 2012</h2>
+			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
+				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+					<li data-role="list-divider"></li>
+					<li><a href="senat-2012/" data-ajax="false">
+					  <img src="./image/senat_obvody_100.png"/>
+					  <h3>Senát</h3>
+					  <p>27 obvodů, 235 kandidátů</p>
+					</a></li>
+				</ul>
+			
 				<h2>Krajské volby 2012</h2>
 				<p>Začněte výběrem svého kraje.</p>
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
@@ -100,16 +111,6 @@
 
 				</ul>
 				
-			    <h2>Senátní volby 2012</h2>
-			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
-				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
-					<li data-role="list-divider"></li>
-					<li><a href="senat-2012/" data-ajax="false">
-					  <img src="./image/senat_obvody_100.png"/>
-					  <h3>Senát</h3>
-					  <p>27 obvodů, 235 kandidátů</p>
-					</a></li>
-				</ul>
 			</nav>
 				<div><p>Volební kalkulačka pro krajské a senátní volby 2012 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách do senátu a krajských zastupitelstev v říjnu 2012. Volební test napoví, koho zvolit z dostupných kandidátů, stran a kandidátek. Volební kalkulačka rozhoduje na základě matematické shody mezi názory stran a kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
 <p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
