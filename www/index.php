@@ -39,20 +39,21 @@
 	
 	
 	<div class="content-primary">
-		<p>12. a 13. října 2012 se konají krajské a senátní volby. Víte, která strana a který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
+		<p>19. a 20. října 2012 se koná 2. kolo senátních voleb. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
-				<h2>Senátní volby 2012</h2>
+				<h2>Senátní volby 2012 - 2. kolo</h2>
 			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
-				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+				<ul data-role="listview" data-inset="true" data-theme="e" data-dividertheme="f">
 					<li data-role="list-divider"></li>
-					<li><a href="senat-2012/" data-ajax="false">
+					<li><a href="senat-2-kolo-2012/" data-ajax="false">
 					  <img src="./image/senat_obvody_100.png"/>
-					  <h3>Senát</h3>
-					  <p>27 obvodů, 235 kandidátů</p>
+					  <h3>Senát, 2.kolo</h3>
+					  <p>27 obvodů</p>
 					</a></li>
 				</ul>
-			
-				<h2>Krajské volby 2012</h2>
+				<p>
+				Proběhlé volby do krajů a 1. kolo do Senátu:</p>
+				<h3>Krajské volby 2012</h3>
 				<p>Začněte výběrem svého kraje.</p>
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
@@ -107,6 +108,18 @@
 					<li><a href="zlinsky-kraj-2012" data-ajax="false">
 					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-zl">
 					  <h3>&nbsp;Zlínský kraj</h3>
+					</a></li>
+				</ul>
+
+					
+				<h3>Senátní volby 2012 - 1. kolo</h3>
+			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
+				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+					<li data-role="list-divider"></li>
+					<li><a href="senat-2012/" data-ajax="false">
+					  <img src="./image/senat_obvody_100.png"/>
+					  <h3>Senát</h3>
+					  <p>27 obvodů, 235 kandidátů</p>
 					</a></li>
 
 				</ul>
