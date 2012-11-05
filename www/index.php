@@ -3,15 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>VolebníKalkulačka.cz</title>
+	<title>Volební Kalkulačka</title>
 	<meta name="description" content="Zjistěte, s kterou z kandidujících stran a s kterým jednotlivým kandidátem se nejvíce shodujete. Kdo Vás bude doopravdy zastupovat!" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-	<link rel="stylesheet" href="./frontpage/frontpage.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<link rel="stylesheet" href="./css/page2.css" />
 	<link rel="stylesheet" href="./frontpage/region_map_sprite.css" />
 	<link type="image/x-icon" href="./frontpage/image/favicon.ico" rel="shortcut icon">
 
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 	
 </head>
 <body>
@@ -39,93 +39,22 @@
 	
 	
 	<div class="content-primary">
-		<p>19. a 20. října 2012 se koná 2. kolo senátních voleb. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
+	  <p class="jqm-version">Volební kalkulačka k prezidentským volbám 2013 bude spuštěna <b>8.11.2012</b></p>
+	
+		<p>11. a 12. ledna 2013 se koná první kolo přímé volby prezidenta ČR. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
-				<h2>Senátní volby 2012 - 2. kolo</h2>
-			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
-				<ul data-role="listview" data-inset="true" data-theme="e" data-dividertheme="f">
-					<li data-role="list-divider"></li>
-					<li><a href="senat-2-kolo-2012/" data-ajax="false">
-					  <img src="./image/senat_obvody_100.png"/>
-					  <h3>Senát, 2.kolo</h3>
-					  <p>27 obvodů</p>
-					</a></li>
-				</ul>
-				<p>
-				Proběhlé volby do krajů a 1. kolo do Senátu:</p>
-				<h3>Krajské volby 2012</h3>
-				<p>Začněte výběrem svého kraje.</p>
+				<h2>Prezidentské volby 2013 - 1. kolo</h2>
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
-					<li><a href="jihocesky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-jc">
-					  <h3>&nbsp;Jihočeský kraj</h3>
-					</a></li>
-					<li><a href="jmk" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-jm">
-					  <h3>&nbsp;Jihomoravský kraj</h3>
-					</a></li>
-					<li><a href="karlovarsky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-ka">
-					  <h3>&nbsp;Karlovarský kraj</h3>
-					</a></li>
-					<li><a href="kralovehradecky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-kr">
-					  <h3>&nbsp;Královéhradecký kraj</h3>
-					</a></li>
-					<li><a href="liberecky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-li">
-					  <h3>&nbsp;Liberecký kraj</h3>
-					</a></li>
-					<li><a href="moravskoslezsky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-mo">
-					  <h3>&nbsp;Moravskoslezský kraj</h3>
-					</a></li>
-					<li><a href="pardubicky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-pa">
-					  <h3>&nbsp;Pardubický kraj</h3>
-					</a></li>
-					<li><a href="plzensky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-pl">
-					  <h3>&nbsp;Plzeňský kraj</h3>
-					</a></li>
-					<li><a href="olomoucky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-ol">
-					  <h3>&nbsp;Olomoucký kraj</h3>
-					</a></li>
-					<li><a href="stredocesky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-st">
-					  <h3>&nbsp;Středočeský kraj</h3>
-					</a></li>
-					<li><a href="ustecky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-us">
-					  <h3>&nbsp;Ústecký kraj</h3>
-					</a></li>
-					<li><a href="vysocina-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-vy">
-					  <h3>&nbsp;Vysočina</h3>
-					</a></li>
-					<li><a href="zlinsky-kraj-2012" data-ajax="false">
-					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-zl">
-					  <h3>&nbsp;Zlínský kraj</h3>
-					</a></li>
+					<li><!--<a href="prezident-2013" data-ajax="false">-->
+					  <img src='./image/cz_president.jpg' width="80" height="80">
+					  <h3>Volební kalkulačka</h3>
+					  <p class="ui-li-desc">volba prezidenta ČR 2013</p>
+					<!--</a>-->
+					</li>
 				</ul>
-
-					
-				<h3>Senátní volby 2012 - 1. kolo</h3>
-			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
-				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
-					<li data-role="list-divider"></li>
-					<li><a href="senat-2012/" data-ajax="false">
-					  <img src="./image/senat_obvody_100.png"/>
-					  <h3>Senát</h3>
-					  <p>27 obvodů, 235 kandidátů</p>
-					</a></li>
-
-				</ul>
-				
 			</nav>
-				<div><p>Volební kalkulačka pro krajské a senátní volby 2012 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách do senátu a krajských zastupitelstev v říjnu 2012. Volební test napoví, koho zvolit z dostupných kandidátů, stran a kandidátek. Volební kalkulačka rozhoduje na základě matematické shody mezi názory stran a kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
+				<div><p>Volební kalkulačka pro prezidentské volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v lednu 2012. Volební test napoví, koho zvolit z přihlášených kandidátů. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
 <p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
 	</div>
 	</div> <!-- /content primary -->
@@ -186,6 +115,7 @@
 						<li data-role="list-divider">O projektu</li>
 						<li><a href="info/#about" data-ajax="false">O projektu VolebníKalkulačka.cz</a></li>
 						<li><a href="embed" data-ajax="false">Vložit Volební kalkulačku k sobě na web</a></li>
+						<li><a href="embed" data-ajax="false">Archiv volebních kalkulaček</a></li>
 			  </ul>
 			  
 
