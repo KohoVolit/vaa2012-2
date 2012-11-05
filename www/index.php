@@ -12,6 +12,7 @@
 
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
 	
 </head>
 <body>
@@ -44,6 +45,7 @@
 		<p>11. a 12. ledna 2013 se koná první kolo přímé volby prezidenta ČR. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
 				<h2>Prezidentské volby 2013 - 1. kolo</h2>
+					
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
 					<li><!--<a href="prezident-2013" data-ajax="false">-->
@@ -53,7 +55,10 @@
 					<!--</a>-->
 					</li>
 				</ul>
+
 			</nav>
+			
+
 				<div><p>Volební kalkulačka pro prezidentské volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v lednu 2012. Volební test napoví, koho zvolit z přihlášených kandidátů. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
 <p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
 	</div>
@@ -115,7 +120,7 @@
 						<li data-role="list-divider">O projektu</li>
 						<li><a href="info/#about" data-ajax="false">O projektu VolebníKalkulačka.cz</a></li>
 						<li><a href="embed" data-ajax="false">Vložit Volební kalkulačku k sobě na web</a></li>
-						<li><a href="embed" data-ajax="false">Archiv volebních kalkulaček</a></li>
+						<li><a href="archive" data-ajax="false">Archiv volebních kalkulaček</a></li>
 			  </ul>
 			  
 
@@ -136,6 +141,7 @@
 		  })();
 
 		</script>
+		
 
 	<div data-role="footer" class="footer-docs" data-theme="c">
 			<p>2012 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>

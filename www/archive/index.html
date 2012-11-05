@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Volební Kalkulačka</title>
+	<meta name="description" content="Zjistěte, s kterou z kandidujících stran a s kterým jednotlivým kandidátem se nejvíce shodujete. Kdo Vás bude doopravdy zastupovat!" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<link rel="stylesheet" href="../css/page2.css" />
+	<link rel="stylesheet" href="../frontpage/region_map_sprite.css" />
+	<link type="image/x-icon" href="../frontpage/image/favicon.ico" rel="shortcut icon">
+
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+	
+</head>
+<body>
+<div data-role="page" class="type-home">
+
+
+
+	<div data-role="content">
+
+	<div class="content-secondary">
+	  <div id="jqm-homeheader">
+		<h1 id="jqm-logo"><img src="../image/logo.png" alt="VolebniKalkulacka.cz" /></h1>
+		<p>Nejužitečnějších 5 minut před volbami.</p>
+	  </div>
+	
+	  <p class="intro"></p>
+
+
+   
+
+	</div> <!-- /content secondary -->
+	
+		<div class="content-primary">
+			<nav>
+			<h2>Archiv volebních kalkulaček</h2>
+				<h3>Senátní volby 2012</h3>
+			    <p>Volby do senátu se konají ve třetině obvodů ČR.</p>
+				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+					<li data-role="list-divider"></li>
+					<li><a href="../senat-2-kolo-2012/" data-ajax="false">
+					  <img src="../image/senat_obvody_100.png"/>
+					  <h3>Senát, 2.kolo</h3>
+					  <p>27 obvodů</p>
+					</a></li>
+					<li><a href="../senat-2012/" data-ajax="false">
+					  <img src="../image/senat_obvody_100.png"/>
+					  <h3>Senát, 1.kolo</h3>
+					  <p>27 obvodů, 235 kandidátů</p>
+					</a></li>
+
+				</ul>
+				</ul>
+				<p>
+				<h3>Krajské volby 2012</h3>
+				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+					<li data-role="list-divider"></li>
+					<li><a href="../jihocesky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-jc">
+					  <h3>&nbsp;Jihočeský kraj</h3>
+					</a></li>
+					<li><a href="../jihomoravsky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-jm">
+					  <h3>&nbsp;Jihomoravský kraj</h3>
+					</a></li>
+					<li><a href="../karlovarsky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-ka">
+					  <h3>&nbsp;Karlovarský kraj</h3>
+					</a></li>
+					<li><a href="../kralovehradecky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-kr">
+					  <h3>&nbsp;Královéhradecký kraj</h3>
+					</a></li>
+					<li><a href="../liberecky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-li">
+					  <h3>&nbsp;Liberecký kraj</h3>
+					</a></li>
+					<li><a href="../moravskoslezsky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-mo">
+					  <h3>&nbsp;Moravskoslezský kraj</h3>
+					</a></li>
+					<li><a href="../pardubicky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-pa">
+					  <h3>&nbsp;Pardubický kraj</h3>
+					</a></li>
+					<li><a href="../plzensky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-pl">
+					  <h3>&nbsp;Plzeňský kraj</h3>
+					</a></li>
+					<li><a href="../olomoucky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-ol">
+					  <h3>&nbsp;Olomoucký kraj</h3>
+					</a></li>
+					<li><a href="../stredocesky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-st">
+					  <h3>&nbsp;Středočeský kraj</h3>
+					</a></li>
+					<li><a href="../ustecky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-us">
+					  <h3>&nbsp;Ústecký kraj</h3>
+					</a></li>
+					<li><a href="../vysocina-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-vy">
+					  <h3>&nbsp;Vysočina</h3>
+					</a></li>
+					<li><a href="../zlinsky-kraj-2012" data-ajax="false">
+					  <img src='./image/1x1.png' width="100" height="59" class="cz-region cz-zl">
+					  <h3>&nbsp;Zlínský kraj</h3>
+					</a></li>
+				</ul>
+
+					
+
+				
+			</nav>
+		</div>
+	</div>
+</div>
+</body>
+</page>
