@@ -9,7 +9,7 @@
 	    <!-- radio buttons -->
   		<div class='box-center'>
 			<fieldset data-role="controlgroup" data-type="horizontal" class="question-radio">
-			  <a href="#p{$key+1}" data-transition="slidefade">
+			  <a href="#p{$key+1}" data-transition="slide">
 			    <input type="radio" name="q-{$question->id}" id="q-{$question->id}-0" value="1"  style="visibility:hidden;" data-theme="d"/>
 			 	<label for="q-{$question->id}-0">ANO</label>
 			 	
@@ -25,11 +25,11 @@
 		
 		<fieldset class="ui-grid-a"> <!-- navigation -->
 	      <div class="ui-block-a">
-	        {if $key>1}<a href="#p{$key-1}"  data-transition="slidefade"  data-direction="reverse" data-role="button" data-icon="arrow-l" data-inline="true" data-theme="c" data-mini="true">Zpět</a>
+	        {if $key>1}<a href="#p{$key-1}"  data-transition="slide"  data-direction="reverse" data-role="button" data-icon="arrow-l" data-inline="true" data-theme="c" data-mini="true">Zpět</a>
 	        {/if}
 	      </div>
 		  <div class="ui-block-b">
-				  <a href="#p{$key+1}"  data-transition="slidefade" data-role="button" data-icon="arrow-r" data-inline="true" data-iconpos="right" style="float:right" data-mini="true" data-theme="c">{if ($key == $number_questions)}Dále{else}Další otázka{/if}</a>
+				  <a href="#p{$key+1}"  data-transition="slide" data-role="button" data-icon="arrow-r" data-inline="true" data-iconpos="right" style="float:right" data-mini="true" data-theme="c">{if ($key == $number_questions)}Dále{else}Další otázka{/if}</a>
 				</div>
 		</fieldset>
 	    <!-- /navigation -->
