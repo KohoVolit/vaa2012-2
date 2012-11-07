@@ -48,7 +48,7 @@
 					
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
-					<li><a href="prezident-2013" data-ajax="false">
+					<li><a href="volba-prezidenta-cr-2013" data-ajax="false">
 					  <img src='./image/cz_president.jpg' width="80" height="80">
 					  <h3>Volební kalkulačka</h3>
 					  <p class="ui-li-desc">volba prezidenta ČR 2013</p>
