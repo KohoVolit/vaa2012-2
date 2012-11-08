@@ -40,7 +40,6 @@
 	
 	
 	<div class="content-primary">
-	  <p class="jqm-version">Volební kalkulačka k prezidentským volbám 2013 bude spuštěna <b>8.11.2012</b></p>
 	
 		<p>11. a 12. ledna 2013 se koná první kolo přímé volby prezidenta ČR. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
