@@ -162,6 +162,7 @@ function party2color($short_name) {
 	'Sobotka'=>"023484",
 	'Zeman'=>'D42D20',
 	'Schwarzenberg'=>'673B6C',
+	'Dienstbier' => "F18811",
   );
 
 	if (isset($party_color[$short_name])) return $party_color[$short_name];
