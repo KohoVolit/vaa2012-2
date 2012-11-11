@@ -58,7 +58,7 @@
 			</nav>
 			
 
-				<div><p>Volební kalkulačka pro prezidentské volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v lednu 2012. Volební test napoví, koho zvolit z přihlášených kandidátů. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
+				<div><p>Volební kalkulačka pro prezidentské volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v lednu 2013. Volební test napoví, koho zvolit z přihlášených kandidátů. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
 <p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
 	</div>
 	</div> <!-- /content primary -->
