@@ -107,7 +107,12 @@
 	 <div class="counter">
 	   <span class="counter-number">
 <?php
-  $number = number_format(ceil(filesize('result.txt')/297.2),0,',',' ');
+  //$number = number_format(ceil($filesize/297.2),0,',',' '); original calculation
+  $filesize = filesize('result.txt');
+  if ($filesize < 335527092)
+    $number = number_format(684613 + round($filesize/1145.192),0,',',' ');  //slowing down
+  else
+    $number = number_format(ceil($filesize/419.4),0,',',' ');
   echo $number;
 ?>
 		</span> lidí si vyplnilo Volební kalkulačku
