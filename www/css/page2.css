@@ -650,3 +650,8 @@ dl dd ul li { border: none; }
 }
 
 
+#jqm-homeheader img {
+    height: 108px;
+    margin-top: -20px;
+    width: 275px;
+}

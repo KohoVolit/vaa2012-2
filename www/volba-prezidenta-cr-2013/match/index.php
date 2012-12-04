@@ -158,7 +158,7 @@ function party2color($short_name) {
 	'Koalice PK'=>"8D38C9",
 	'KČ'=>'fb900a',
 	'Moravané'=>'960000',
-	'Roithová'=>"8D38C9",
+	'Roithová'=>"FFCC00",
 	'Sobotka'=>"023484",
 	'Zeman'=>'D42D20',
 	'Schwarzenberg'=>'673B6C',
@@ -210,14 +210,16 @@ function calc_match($user,$set,$extra=2) {
   	  'friendly_name' => $s->friendly_name,
   	  'result' => $sum/$count,
   	  'result_percent' => round(100*$sum/$count),
-  	  'id' => $s->id
+  	  'id' => $s->id,
+  	  'random' => rand(0,1000000),
     );
   }
   //sort by result
   foreach ($results as $key => $row) {
     $result[$key]  = $row['result'];
+    $random[$key] = $row['random'];
   }
-  array_multisort($result, SORT_DESC, $results);
+  array_multisort($result, SORT_DESC, $random, SORT_ASC, $results);
   
   return $results;
 }

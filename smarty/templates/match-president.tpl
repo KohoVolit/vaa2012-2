@@ -43,10 +43,10 @@
 	        <a href="../compare/dialog.php?{$query_string}" class="box-center-match" data-rel="dialog" data-role="button">Vaše odpovědi vs. odpovědi kandidátů</a>
 	    </div>
 
-	<div class="match-explain">
+	<!--<div class="match-explain">
 	  <p class="box-center-match"><strong>Proč ve výsledcích nejsou všichni kandidáti?</strong><br/>
 	  Oslovili jsme všechny, ale ne všichni odpověděli.</p>
-	</div>
+	</div>-->
 	
 	<!-- embed -->
 	<div class="match-embed" >

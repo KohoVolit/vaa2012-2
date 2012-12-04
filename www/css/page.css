@@ -862,5 +862,11 @@ color: #a21412;
 .president-sprite-roithova{ background-position: 0 -900px; width: 55px; height: 78px; } 
 .president-sprite-schwarzenberg{ background-position: 0 -1028px; width: 55px; height: 78px; } 
 .president-sprite-sobotka{ background-position: 0 -1156px; width: 55px; height: 78px; } 
-.president-sprite-zeman{ background-position: 0 -1284px; width: 55px; height: 78px; } 
+.president-sprite-zeman{ background-position: 0 -1284px; width: 55px; height: 78px; }
+
+#jqm-homeheader img {
+    height: 108px;
+    margin-top: -20px;
+    width: 275px;
+} 
 
