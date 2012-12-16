@@ -43,10 +43,10 @@
 	        <a href="../compare/dialog.php?{$query_string}" class="box-center-match" data-rel="dialog" data-role="button">Vaše odpovědi vs. odpovědi kandidátů</a>
 	    </div>
 
-	<!--<div class="match-explain">
-	  <p class="box-center-match"><strong>Proč ve výsledcích nejsou všichni kandidáti?</strong><br/>
-	  Oslovili jsme všechny, ale ne všichni odpověděli.</p>
-	</div>-->
+	<div class="match-explain">
+	  <p class="box-center-match"><strong>Proč ve výsledcích není pí.Bobošíková?</strong><br/>
+	  Oslovili jsme všechny kandidáty opakovaně, ale pí.Bobošíková nám (zatím?) odmítla odpovědět.</p>
+	</div>
 	
 	<!-- embed -->
 	<div class="match-embed" >
@@ -62,7 +62,7 @@
 	
 	<!-- nasi politici -->
 	<div class="box-center-match match-winner-box">
-	  Více o jednotllivých kandidátech se dozvíte na <a href="http://nasipolitici.cz">NašiPolitici.cz</a>
+	  Více o jednotlivých kandidátech se dozvíte na <a href="http://nasipolitici.cz">NašiPolitici.cz</a>
 	</div><!-- /nasi politici -->
 	
 	</div><!-- /content -->
