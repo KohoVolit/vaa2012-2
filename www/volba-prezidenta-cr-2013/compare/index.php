@@ -16,12 +16,16 @@ $smarty->setConfigDir('../../../smarty/configs');
 $afile = '../answers.json';
 $qfile = '../questions.json';
 $rfile = '../region.json';
+$lafile = '../long_answers.json';
 
 //extract user values
 $user = get_user_values();
 
 //read parties
 $parties = json_decode(file_get_contents($afile));
+
+//read long answers
+$long_answers = json_decode(file_get_contents($lafile));
 
 //read region info
 $region = json_decode(file_get_contents($rfile));
@@ -55,6 +59,14 @@ foreach ($parties as &$party) {
   //}
 }
 usort($candidates,'cmp');
+//reorder long answers
+foreach ($long_answers as &$la) {
+  //if ($party->constituency_code == $cc) {
+    $la->i = $user['order'][$la->id]['i'];
+    $las[] = $la;
+  //}
+}
+usort($las,'cmp');
 
 //rename order
 $order2 = array();
@@ -72,6 +84,7 @@ die();*/
 $smarty->assign('partner', $partner);
 $smarty->assignByRef('questions', $questions);
 $smarty->assignByRef('parties', $candidates);
+$smarty->assignByRef('long_answers', $las);
 $smarty->assign('region', $region);
 $smarty->assign('user', $user);
 $smarty->assign('order', $order2);
