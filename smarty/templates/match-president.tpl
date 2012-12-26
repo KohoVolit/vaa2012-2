@@ -67,7 +67,8 @@
 	
 	</div><!-- /content -->
 
-	<div data-role="footer"  data-theme="f">		
+	<div data-role="footer"  data-theme="f">
+	{include "match-ad.tpl"}		
 	{include "match-sharer.tpl"}
     </div><!-- /footer -->
     
