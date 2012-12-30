@@ -49,7 +49,7 @@
 					<li data-role="list-divider"></li>
 					<li>
 					<?php 
-					  $rand=rand(0,9);
+					  $rand=rand(0,4);
 					  if ($rand == 0)
 					    echo '<a href="volba-prezidenta-cr-2013/kalkulacka-vyzkum.php" data-rel="dialog">';
 					  else
