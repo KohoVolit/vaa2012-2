@@ -35,7 +35,7 @@
 		<img src="{$image['url']}" width="{$image['width']}" height="{$image['height']}" class="kv-chart" />	
 
 	    <!-- table -->
-	    {include "match-table-president.tpl"}
+	    {include "match-table-president-2.tpl"}
 	    <!-- /table -->
 	    
 	    <!-- button for details -->
