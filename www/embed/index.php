@@ -57,11 +57,19 @@ foreach ($constit as $ckey=>$c) {
   );
 }
 
+$president2 = array(
+  array(
+    'name' => 'Prezidentská kalkulačka 2. kolo',
+    'friendly_url' => 'volba-prezidenta-cr-2-kolo-2013/',
+    'selected' => 'true',
+  ),
+);
+
 $president = array(
   array(
     'name' => 'Prezidentská kalkulačka 1. kolo',
     'friendly_url' => 'volba-prezidenta-cr-2013/',
-    'selected' => 'true',
+    'selected' => 'false',
   ),
 );
 
@@ -77,9 +85,14 @@ $calcs = array(
     'name' => 'Celá VolebníKalkulačka.cz',
     'calc' => array(array('name'=>'VolebníKalkulačka.cz','friendly_url'=>'?','selected'=>true)),
   ),
+
+  'president2' => array(
+    'name' => 'Prezidentská kalkulačka 2013 2.kolo',
+    'calc' => $president2,
+  ),
   
   'president' => array(
-    'name' => 'Prezidentská kalkulačka 2013',
+    'name' => 'Prezidentská kalkulačka 2013 1.kolo',
     'calc' => $president,
   ),
 

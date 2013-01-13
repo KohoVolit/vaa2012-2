@@ -36,7 +36,7 @@
 
           <h3>{$calc['name']}</h3>
           {foreach $calc['calc'] as $c}
-          	<div data-role="collapsible" {if (isset($calc['selected']) and ($cals['selected']))}data-collapsed="false"{/if}  data-theme="d" data-content-theme="d">
+          	<div data-role="collapsible" {if (isset($calc['selected']) and ($cals['selected']))}data-collapsed="false"{/if} data-theme="d" data-content-theme="d">
           	
             	 <h3>{$c['name']}</h3>
             	 {foreach $sizes as $size}
@@ -44,7 +44,7 @@
             	     <h3>{$size['name']}</h3>
             	     <div data-role="fieldcontain">
 						<p>Kód HTML:</p>
-						<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/{$c['friendly_url']}key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0" ></iframe></textarea>
+						<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/{$c['friendly_url']}&key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0" ></iframe></textarea>
 					</div> 
             	    </div>
             	 {/foreach}
