@@ -58,7 +58,7 @@ $twitter_text = 'Na prezidenta se shodnu s ';
 $facebook_text = 'Na VolebníKalkulačka.cz pro 2. kolo prezidenské volby se shodnu se ';
 $i = 0;
 foreach ($results as $r) {
-  $twitter_text .= $r['last_name'] . 'em na' . $r['result_percent'] . '%';
+  $twitter_text .= $r['last_name'] . 'em na ' . $r['result_percent'] . '%';
   $facebook_text .= $r['last_name'] . 'em na ' . $r['result_percent'] . '%';
   $i++;
   if ($i == 1) break;
