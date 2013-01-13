@@ -41,23 +41,16 @@
 	
 	<div class="content-primary">
 	
-		<p>11. a 12. ledna 2013 se koná první kolo přímé volby prezidenta ČR. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
+		<p>25. a 26. ledna 2013 se koná druhé kolo přímé volby prezidenta ČR, do kterého postoupili Miloš Zeman a Karel Schwarzenberg. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
-				<h2>Prezidentské volby 2013 - 1. kolo</h2>
-					
+			    <h2>Prezidentské volby 2013 - 2.kolo</h2>
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
 					<li>
-					<?php 
-					  $rand=rand(1,4);
-					  if ($rand == 0)
-					    echo '<a href="volba-prezidenta-cr-2013/kalkulacka-vyzkum.php" data-rel="dialog">';
-					  else
-					    echo '<a href="volba-prezidenta-cr-2013" data-ajax="false">';
-					?>
+					<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">
 					  <img src='./image/cz_president.jpg' width="80" height="80">
-					  <h3>Volební kalkulačka</h3>
-					  <p class="ui-li-desc">volba prezidenta ČR 2013</p>
+					  <h3>Volební kalkulačka M. Zeman vs. K. Schwarzenberg</h3>
+					  <p class="ui-li-desc">volba prezidenta ČR 2013, 2.kolo</p>
 					</a>
 					</li>
 				</ul>

@@ -21,7 +21,7 @@ foreach ($file as $row) {
   $question = (($row_ar[2] != '') ? trim($row_ar[2]) : trim($row_ar[1]));
   $description = trim($row_ar[3]);
   $name = trim($row_ar[6]);
-  $order = trim($row_ar[4]);
+  $order = trim($row_ar[8]);
   
   if ($order != '') {
 	  $out[$region_code][] = array(
@@ -49,7 +49,7 @@ foreach ($out as $rkey=>$region) {
 //print_r($out);die();
 
 $regions = array(
-  'prezident' => array('code'=>'prezident', 'name'=>'Volba prezidenta ČR', 'inflection' => 'kandidátů na prezidenta ČR', 'inflection_short' => 'kandidátů'));
+  'prezident' => array('code'=>'prezident', 'name'=>'Volba prezidenta ČR 2. kolo', 'inflection' => 'kandidátů na prezidenta ČR', 'inflection_short' => 'kandidátů'));
 
 //for each region
 foreach ($out as $key => $region) {

@@ -140,7 +140,7 @@ foreach ($answers0 as $key=>$region) {
   //print_r($data);die();
   
   //if direcotry not existing, create it
-   $dir = $path . 'volba-prezidenta-cr' . '-2013/';
+   $dir = $path . 'volba-prezidenta-cr-2-kolo' . '-2013/';
    if(!file_exists($dir)) 
      mkdir($dir);
  
