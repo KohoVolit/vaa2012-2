@@ -22,6 +22,10 @@
 
 	<div data-role="content">
 	
+	<p class="jqm-version">
+	  <b>&nbsp;&nbsp;&nbsp;10 nových otázek</b>
+	</p>
+	
 
 	
 	<div class="content-secondary">
