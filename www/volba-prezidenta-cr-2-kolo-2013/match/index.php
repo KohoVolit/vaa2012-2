@@ -54,20 +54,20 @@ $results = calc_match($user,$candidates);
 $additional_string = create_additional_string($results);
 
 //create twitter and facebook text (in case there are less than 3 parties, using foreach
-$twitter_text = 'Nejvíc se na prezidenta shodnu s ';
-$facebook_text = 'VolebníKalkulačka.cz pro prezidenské volby, moje shoda: ';
+$twitter_text = 'Na prezidenta se shodnu s ';
+$facebook_text = 'Na VolebníKalkulačka.cz pro 2. kolo prezidenské volby se shodnu se ';
 $i = 0;
 foreach ($results as $r) {
-  $twitter_text .= $r['last_name'] . ' ' . $r['result_percent'] . '%';
-  $facebook_text .= $r['last_name'] . ' (' . $r['result_percent'] . '%)';
+  $twitter_text .= $r['last_name'] . 'em na' . $r['result_percent'] . '%';
+  $facebook_text .= $r['last_name'] . 'em na ' . $r['result_percent'] . '%';
   $i++;
-  if ($i == 3) break;
+  if ($i == 1) break;
   $twitter_text .= ',';
   $facebook_text .= ',';
 }
 $r = end($results);
-$twitter_text .= ',nejmíň s ' . $r['last_name'] . ' ' . $r['result_percent'] . '%';
-$facebook_text .= ' ... nejméně ' . $r['last_name'] . ' (' . $r['result_percent'] . '%)';
+$twitter_text .= ', naopak s ' . $r['last_name'] . 'em ' . $r['result_percent'] . '%';
+$facebook_text .= ', naopak s ' . $r['last_name'] . 'em mám ' . $r['result_percent'] . '%';
 
 //create chart link
 //print_r($results);die();
