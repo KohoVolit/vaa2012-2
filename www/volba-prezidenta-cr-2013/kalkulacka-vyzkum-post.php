@@ -56,7 +56,8 @@ $data['q4'] = array(
 $data['q5'] = array(
   array('family','Rodina'),
   array('friends','Přátelé'),
-  array('kolix','Kolegové'),
+  array('kolix','Kolegové, spolužáci'),
+  array('no','Ne'),
   array('dontknow','Nevím'),
 );
 
@@ -119,7 +120,7 @@ $data['q11'] = array(
 
 $data['q12'] = array(
   array('first','Základní, vyučen/a'),
-  array('second','Střední škola'),
+  array('second','Střední škola - maturita'),
   array('third','Vysoká škola'),
 );
 

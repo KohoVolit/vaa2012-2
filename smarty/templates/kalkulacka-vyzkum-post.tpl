@@ -46,6 +46,7 @@
 	  <p><b>Děkujeme za spolupráci!</b><br/>Karel Komínek, Kamil Gregor & Michal Škop</p>
 	{else}
 	  <!-- Here is the form -->
+	  <div style="color:#888">
 	  <p>Vážená paní, vážený pane,</p>
 	  
 	  <p>v lednu 2013 jste se dobrovolně zúčastnil/a <b>anonymního výzkumu</b> ohledně prvního kola přímé volby prezidenta prováděném ve spolupráci kateder politologie <a href="http://polit.fss.muni.cz/">Masarykovy univerzity v Brně</a> a <a href="http://fhs.uhk.cz/politologie/">Univerzity Hradec Králové</a>, který byl součástí <a href="http://volebnikalkulacka.cz">Volební kalkulačky</a></p>
@@ -55,6 +56,7 @@
 	   <p>Chtěli bychom Vás ujistit, že Vaše odpovědi jsou i nadále <b>zcela anonymní</b> a slouží pouze vědecké práci. Vaše údaje ani Vaše odpovědi nebudou předány žádné další straně. Závěry výzkumu budou volně k dispozici veřejnosti.</p>
 	   
 	   <p>Pokud budete mít zájem být o závěrech výzkumu <b>přednostně informován/a</b>, budou Vám zaslány na Vaši emailovou adresu.</p>
+	   </div>
 	   
 	  <form action="save_research_post.php?thanks=true" method="post" data-ajax="false">
 	  
@@ -112,7 +114,7 @@
 	    
 	    <!-- q7 -->
 	    <fieldset data-role="controlgroup" data-type="horizontal"  class="even"> 
-		  <legend><b>7. Bavíte se s rodinou o politice?</b></legend>
+		  <legend><b>6. Bavíte se s rodinou o politice?</b></legend>
 	      {foreach $data.q7 as $item}      
          	  <input type="radio" name="input-q7" id="input-q7-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q7-{$item.0}">{$item.1}</label>
@@ -121,7 +123,7 @@
 	    
 	    <!-- q8 -->
 	    <fieldset data-role="controlgroup" class="odd"> 
-		  <legend><b>8. Víte, koho převážně volili v PRVNÍM kole Vaši příbuzní?</b></legend>
+		  <legend><b>7. Víte, koho převážně volili v PRVNÍM kole Vaši příbuzní?</b></legend>
 	      {foreach $data.q8 as $item}      
          	  <input type="radio" name="input-q8" id="input-q8-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q8-{$item.0}">{$item.1}</label>
@@ -130,7 +132,7 @@
 	    
 	    <!-- q9 -->
 	    <fieldset data-role="controlgroup" class="even"> 
-		  <legend><b>9. Které noviny (nebo internetovou mutaci novin) čtete nejčastěji?</b></legend>
+		  <legend><b>8. Které noviny (nebo internetovou mutaci novin) čtete nejčastěji?</b></legend>
 	      {foreach $data.q9 as $item}      
          	  <input type="radio" name="input-q9" id="input-q9-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q9-{$item.0}">{$item.1}</label>
@@ -139,7 +141,7 @@
 	    
 	    	    <!-- q10 -->
 	    <fieldset data-role="controlgroup" class="odd"> 
-		  <legend><b>10. Kdyby se dnes konaly volby do Poslanecké sněmovny, kterou stranu byste volil/a?</b></legend>
+		  <legend><b>9. Kdyby se dnes konaly volby do Poslanecké sněmovny, kterou stranu byste volil/a?</b></legend>
 	      {foreach $data.q10 as $item}      
          	  <input type="radio" name="input-q10" id="input-q10-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q10-{$item.0}">{$item.1}</label>
@@ -148,7 +150,7 @@
 	    
 	    	    <!-- q11 -->
 	    <fieldset data-role="controlgroup" class="even"> 
-		  <legend><b>11. Viděl/a jste před prvním kolem prezidentské volby jeden z těchto dokumentárních filmů?</b></legend>
+		  <legend><b>10. Viděl/a jste před prvním kolem prezidentské volby jeden z těchto dokumentárních filmů?</b></legend>
 	      {foreach $data.q11 as $item}      
          	  <input type="radio" name="input-q11" id="input-q11-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q11-{$item.0}">{$item.1}</label>
@@ -157,7 +159,7 @@
 	    
 	    	    <!-- q12 -->
 	    <fieldset data-role="controlgroup" data-type="horizontal"  class="odd"> 
-		  <legend><b>12. Vaše nejvyšší dosažené vzdělání?</b></legend>
+		  <legend><b>11. Vaše nejvyšší dosažené vzdělání?</b></legend>
 	      {foreach $data.q12 as $item}      
          	  <input type="radio" name="input-q12" id="input-q12-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q12-{$item.0}">{$item.1}</label>
@@ -166,7 +168,7 @@
 	    
 	    	    <!-- q13 -->
 	    <fieldset data-role="controlgroup" data-type="horizontal"  class="even"> 
-		  <legend><b>13. Přejte si být informován/a o výsledcích výzkumu?</b></legend>
+		  <legend><b>12. Přejte si být informován/a o výsledcích výzkumu?</b></legend>
 	      {foreach $data.q13 as $item}      
          	  <input type="radio" name="input-q13" id="input-q13-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
          	  <label for="input-q13-{$item.0}">{$item.1}</label>
