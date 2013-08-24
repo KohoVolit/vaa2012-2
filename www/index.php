@@ -22,9 +22,9 @@
 
 	<div data-role="content">
 	
-	<p class="jqm-version">
+	<!--<p class="jqm-version">
 	  <b>&nbsp;&nbsp;&nbsp;10 nových otázek</b>
-	</p>
+	</p>-->
 	
 
 	
@@ -45,24 +45,31 @@
 	
 	<div class="content-primary">
 	
-		<p>25. a 26. ledna 2013 se koná druhé kolo přímé volby prezidenta ČR, do kterého postoupili Miloš Zeman a Karel Schwarzenberg. Víte, který kandidát se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
+		<p>25. a 26. října 2013 proběhnou volby do Poslanecké sněmovny Parlamentu ČR. Víte, které strany se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
 			<nav>
-			    <h2>Prezidentské volby 2013 - 2.kolo</h2>
+			    <h2>Parlamentní volby 2013</h2>
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
 					<li>
-					<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">
-					  <img src='./image/cz_president.jpg' width="80" height="80">
-					  <h3>Volební kalkulačka M. Zeman vs. K. Schwarzenberg</h3>
-					  <p class="ui-li-desc">volba prezidenta ČR 2013, 2.kolo</p>
-					</a>
+					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
+					  <img src='./image/cz_gray.png' width="67" height="80">
+					  <h3>Inventura hlasování 2010-2013</h3>
+					  <p class="ui-li-desc">Kteří poslanci Vás doopravdy zastupovali? Spuštění <strong>polovina září 2013</strong>.</p>
+					<!--</a>-->
+					</li>
+					<li>
+					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
+					  <img src='./image/cz_gray.png' width="67" height="80">
+					  <h3>Volební kalkulačka</h3>
+					  <p class="ui-li-desc">parlamentní volby 2013. Spuštění <strong>konec září 2013</strong>.</p>
+					<!--</a>-->
 					</li>
 				</ul>
 
 			</nav>
 			
 
-				<div><p>Volební kalkulačka pro prezidentské volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v lednu 2013. Volební test napoví, koho zvolit z přihlášených kandidátů. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
+				<div><p>Volební kalkulačka pro parlamentní volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v říjnu 2013. Volební test napoví, koho zvolit z kandidujících stran. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
 <p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
 	</div>
 	</div> <!-- /content primary -->
@@ -152,7 +159,7 @@
 		
 
 	<div data-role="footer" class="footer-docs" data-theme="c">
-			<p>2012 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
+			<p>2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
 	</div>
 </div>
 </body>
