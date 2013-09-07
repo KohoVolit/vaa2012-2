@@ -4,11 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<title>Volební kalkulačka | KohoVolit.eu</title> 
+	<title>Inventura hlasování | VolebníKalkulačka.cz</title> 
     <link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
 
-	<link rel="stylesheet" href="../css/page.css" />
+	<link rel="stylesheet" href="../css/psp2013-page.css" />
 	
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
@@ -86,7 +86,7 @@ $(document).on('pageinit', '.ui-page', function () {
 		  <label for="c-{$question->id}">{$question->name}</label>
 	    {/foreach}
 	    </fieldset>
-	    <button type="submit" data-theme="b" name="submit" value="" data-icon="arrow-r" data-iconpos="right">Výsledky</button>
+	    <button type="submit" data-theme="b"  data-icon="arrow-r" data-iconpos="right">Výsledky</button>
 	  </div>
 	</div><!-- /content -->
 	

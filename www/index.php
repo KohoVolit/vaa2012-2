@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Volební Kalkulačka</title>
 	<meta name="description" content="Zjistěte, s kterou z kandidujících stran a s kterým jednotlivým kandidátem se nejvíce shodujete. Kdo Vás bude doopravdy zastupovat!" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
 	<link rel="stylesheet" href="./css/page2.css" />
 	<link rel="stylesheet" href="./frontpage/region_map_sprite.css" />
 	<link type="image/x-icon" href="./frontpage/image/favicon.ico" rel="shortcut icon">
 
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
 
 	
 </head>
@@ -20,7 +20,7 @@
 
 
 
-	<div data-role="content">
+	<div data-role="content"">
 	
 	<!--<p class="jqm-version">
 	  <b>&nbsp;&nbsp;&nbsp;10 nových otázek</b>
@@ -51,17 +51,25 @@
 				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
 					<li>
-					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
-					  <img src='./image/cz_gray.png' width="67" height="80">
+					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
+					  <?php 
+					    //research
+						$rand=rand(0,9);
+						if ($rand == 0)
+						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/kalkulacka-vyzkum.php" data-rel="dialog">';
+						else
+						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">';
+					  ?> 
+					  <img src='./image/cz.png' width="67" height="80">
 					  <h3>Inventura hlasování 2010-2013</h3>
-					  <p class="ui-li-desc">Kteří poslanci Vás doopravdy zastupovali? Spuštění <strong>polovina září 2013</strong>.</p>
-					<!--</a>-->
+					  <p class="ui-li-desc">Kteří poslanci Vás <strong>doopravdy</strong> zastupovali? 37 skutečných hlasování ze Sněmovny.</p>
+					</a>
 					</li>
 					<li>
 					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
 					  <img src='./image/cz_gray.png' width="67" height="80">
 					  <h3>Volební kalkulačka</h3>
-					  <p class="ui-li-desc">parlamentní volby 2013. Spuštění <strong>konec září 2013</strong>.</p>
+					  <p class="ui-li-desc">Parlamentní volby 2013. Spuštění <strong>25. září 2013</strong>.</p>
 					<!--</a>-->
 					</li>
 				</ul>
@@ -131,12 +139,7 @@
 	<!-- /counter -->
 	  
 	  		
-			  <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="f">
-						<li data-role="list-divider">O projektu</li>
-						<li><a href="info/#about" data-ajax="false">O projektu VolebníKalkulačka.cz</a></li>
-						<li><a href="embed" data-ajax="false">Vložit Volební kalkulačku k sobě na web</a></li>
-						<li><a href="archive" data-ajax="false">Archiv volebních kalkulaček</a></li>
-			  </ul>
+
 			  
 
 	</div> <!-- /content secondary -->
@@ -158,7 +161,14 @@
 		</script>
 		
 
-	<div data-role="footer" class="footer-docs" data-theme="c">
+	<div data-role="footer" class="footer-docs" data-theme="d" data-position="fixed">
+	    <div data-role="navbar">
+		  <ul>
+			<li><a href="info/#about" data-ajax="false" data-icon="info">O projektu VolebníKalkulačka.cz</a></li>
+			<li><a href="embed" data-ajax="false" data-icon="star">Vložit Volební kalkulačku k sobě na web</a></li>
+			<li><a href="archive" data-ajax="false" data-icon="grid">Archiv volebních kalkulaček</a></li>
+  		  </ul>
+	    </div>
 			<p>2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
 	</div>
 </div>

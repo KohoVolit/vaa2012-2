@@ -17,28 +17,63 @@
 		}
 	  }
 	</style>
+	
+	<script>
+	$(document).on('pageinit', function () {
+	  $("#footer").hide();
+	  setTimeout(
+	  function() 
+	  {
+		$("#footer").show(800);
+	  }, 15000);
+	});	
+	</script>
   </head>
 
   
   <body>
   <div data-role="page" data-title="Moje shoda{if $partner['name'] == 'default'} | Inventura hlasování 2010-2013{/if}" data-theme="b" class='page type-interior partner-{$partner['name']}'>
   
+
+  
 	<!-- header -->
 	{include "psp2013-match-header.tpl"}
 	<!-- /header -->
 	
 	<div data-role="content" class="content">
+	
+	
+	<style type="text/css">
+
+#mtopLeft
+{
+    position: fixed;
+    width: 100px;
+    border: solid 1px #e1e1e1;
+    vertical-align: middle;
+    background: #ffffff;
+    text-align: center;
+}
+
+#mtopLeft
+{
+    top: 6em;
+    left: 2em;
+}
+
+</style>	
+
+	{assign var=results_count value=$results|@count}
+	{include "psp2013-match-sharer.tpl"}
+
+	
+	
 		<!-- winner block -->
 		{include "psp2013-match-winner.tpl"}
 
 	    <!-- table -->
 	    {include "psp2013-match-table.tpl"}
 	    <!-- /table -->
-	    
-	    <!-- button for details -->
-	    <div class="match-winner-box">
-	        <a href="../compare/dialog.php?{$query_string}" class="box-center-match" data-rel="dialog" data-role="button">Vaše odpovědi vs. odpovědi kandidátů</a>
-	    </div>
 
 	<div class="match-explain">
 	</div>
@@ -48,23 +83,28 @@
 	  <div data-role="collapsible" data-theme="d" data-content-theme="e">
     	<h3>Vložte si volební kalkulačku k sobě na stránky</h3>
             <div data-role="fieldcontain">
-				<p>Vložte kód HTML (standardní kalkulačka, {$region}):</p>
-					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/volba-prezidenta-cr-2013/&key=result_president" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
-				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (kraje, Senát) i její velikost (standardní, mobilní)
+				<p>Vložte kód HTML (standardní Inventura hlasování):</p>
+					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013-inventura-hlasovani/&key=result_inventura" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
+				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (Inventura, Volební kalkulačka) i její velikost (standardní, mobilní)
 			</div>   
 	  </div>
 	</div> <!-- /embed -->
 	
-	<!-- nasi politici -->
-	<div class="box-center-match match-winner-box">
-	  Více o jednotlivých kandidátech se dozvíte na <a href="http://nasipolitici.cz">NašiPolitici.cz</a>
-	</div><!-- /nasi politici -->
+<!-- AddThis Button BEGIN -->
+<!--<div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:50px;top:50px;">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_google_plusone_share"></a>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-522956c42cabd158"></script>-->
+<!-- AddThis Button END -->
+
 	
 	</div><!-- /content -->
 
-	<div data-role="footer"  data-theme="f">
-	{include "match-ad.tpl"}		
-	{include "match-sharer.tpl"}
+	<div id="footer" data-role="footer"  data-theme="e" data-position="fixed">
+	{include "psp2013-match-dms.tpl"}		
     </div><!-- /footer -->
     
   </div> <!-- /page -->
