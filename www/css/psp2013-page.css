@@ -755,15 +755,26 @@ color: #a21412;
 }
 
 /* match winner */
+.match-winner-block {
+  text-align: center;
+  border: 1px solid #BBB;
+  margin: 0 1px;
+}
 .match-winner {
   font-weight: bold;
-  font-size: 2em;
-  text-align: center;
-  padding-bottom: 0.5em;
+  font-size: 1.75em;
+
 }
 .match-winner-box {
   padding-bottom:.5em;
 }
+
+.match-winner-percentage-number {
+  font-size: 3em;
+  color: #646464;
+  text-shadow: 0
+}
+
 .match-fb-text {
   position: relative;
   bottom: .5em;
@@ -788,6 +799,17 @@ color: #a21412;
     margin: 0px auto;
     padding: 0 0 1em;
 } 
+
+.match-other-calc {
+  background-color: #f31;
+  color: #ddd;
+  text-shadow: 0 1px 0 #bbb;
+}
+.match-other-calc-strong {
+  font-size:2em;
+  font-weight:bold;
+  text-align:center;
+}
 
 .partner-denik {
     background: -moz-linear-gradient(#FFFFFF, #FFFFFF) repeat scroll 0 0 #FFFFFF;
@@ -875,7 +897,7 @@ color: #a21412;
 .psp2013-sprite-cssd{ background-position: 0 -130px; width: 80px; height: 80px; } 
 .psp2013-sprite-kscm{ background-position: 0 -260px; width: 80px; height: 80px; } 
 .psp2013-sprite-ods{ background-position: 0 -390px; width: 80px; height: 80px; } 
-.psp2013-sprite-top09-s{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.psp2013-sprite-top-09{ background-position: 0 -520px; width: 80px; height: 80px; } 
 .psp2013-sprite-vv{ background-position: 0 -650px; width: 80px; height: 80px; } 
 
 #jqm-homeheader img {
@@ -883,4 +905,56 @@ color: #a21412;
     margin-top: -20px;
     width: 275px;
 } 
+
+
+/* sharer */
+/* results */
+#mtopLeft
+{
+    position: fixed;
+    width: 100px;
+    border: solid 1px #e1e1e1;
+    vertical-align: middle;
+    background: #ffffff;
+    text-align: center;
+}
+
+#mtopLeft
+{
+    top: 6em;
+    left: 0em;
+}
+
+/* dms */
+/* results */
+#dms
+{
+    position: fixed;
+    width: 13em;
+    border: solid 1px #e1e1e1;
+    vertical-align: middle;
+    /*background: #ffffff;*/
+    text-align: center;
+    font-size: .75em;
+    font-weight: normal;
+}
+
+#dms
+{
+    top: 6em;
+    right: 0em;
+}
+
+#dms-inside {
+  padding:1em;
+}
+
+#dms-inside-inside {
+  text-align:left
+}
+
+.small {
+  font-size: 0.8em;
+}
+
 

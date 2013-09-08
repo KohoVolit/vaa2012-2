@@ -47,6 +47,8 @@ if(isset($_REQUEST['id']) and
     $_SESSION['last_match'] = $candidate->match;
   } 
 }
+$mps = array_reverse($mps);
+
 
 $smarty->assign('user',$user);
 $smarty->assign('mps',$mps);

@@ -12,6 +12,7 @@ $smarty->setCacheDir('../../../smarty/cache');
 $smarty->setConfigDir('../../../smarty/configs');
 
 $parties_file = '../answers.json';
+include("../texts.php");
 
 //extract user values
 $user = get_user_values();
@@ -48,8 +49,11 @@ $results = calc_match($user,$candidates);
 $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] ;
 
 //winner color
-$winner_color = party2color($results[0]['party']);
+$winner_color[0] = party2color($results[0]['party']);
+$winner_color[1] = party2color($results[1]['party']);
+$winner_color[2] = party2color($results[2]['party']);
 
+$smarty->assign('text', $text);
 $smarty->assign('partner', $partner);
 $smarty->assign('winner_color', $winner_color);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
@@ -144,6 +148,7 @@ function calc_match($user,$set,$extra=2) {
   	  'random' => rand(0,1000000),
   	  'sex' => $s->sex,
   	  'region' => $s->region,
+  	  'party_long' => $s->party_long,
     );
   }
   //sort by result

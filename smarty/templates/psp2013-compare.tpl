@@ -29,6 +29,9 @@
     </div><!-- /header -->
     
     <div data-role="content" class="question-background" data-theme="a">
+      <div><span class="ui-icon ui-icon-info ui-icon-shadow"> </span>
+        Porovnávat můžete i dva poslance, posledně vybraného si aplikace pamatuje.
+      </a>
       <table class="compare-table">
         <thead>
           <tr>

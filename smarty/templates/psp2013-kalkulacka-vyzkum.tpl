@@ -92,11 +92,21 @@
 	        <option value="{$item.0}" {if (isset($item.2))}selected="selected"{/if} >{$item.1}</option>
 	      {/foreach}
 	      </select>
+	    </fieldset>
+	    
+	    <fieldset data-role="controlgroup" class="even"> 
+		  <legend><b>4. Představte si, že byste jen vy sám/sama mohl/a vybrat stranu, která by získala nadpoloviční počet křesel v Poslanecké sněmovně a sestavila vládu. Jakou stranu byste vybral/a?</b></legend>
+		  <select name="input-candidate-ever" id="input-candidate-never">
+	      {foreach $data.candidates as $item}
+	        <option value="{$item.0}" {if (isset($item.2))}selected="selected"{/if} >{$item.1}</option>
+	      {/foreach}
+	      </select>
+	    </fieldset>
 	    <!-- /candidate -->
 	    
 	    <!-- previously -->
-	    <fieldset data-role="controlgroup" data-type="horizontal" class="even"> 
-		  <legend><b>4. Vyplňoval/a jste již volební kalkulačku někdy v minulosti?</b> (Při prezidentských volbách, krajských, senátních, ...)</legend>
+	    <fieldset data-role="controlgroup" data-type="horizontal" class="odd"> 
+		  <legend><b>5. Vyplňoval/a jste již volební kalkulačku někdy v minulosti?</b> (Při prezidentských volbách, krajských, senátních, ...)</legend>
 	      {foreach $data.previously as $item}      
          	  <input type="radio" name="input-previously" class="input-previously" id="input-previously-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-previously-{$item.0}">{$item.1}</label>
@@ -106,8 +116,8 @@
 	    <div id="optional-part">
 	    
 	    <!-- change mind -->
-	    <div  class="odd">
-	    <label for="input-change_mind"><b>5. Ovlivnila nějakým způsobem volební kalkulačka vaší volbu?</b> (utvrzení ve volbě, změna preference, zvažování jiného kandidáta, apod.)</label>
+	    <div  class="even">
+	    <label for="input-change_mind"><b>6. Ovlivnila nějakým způsobem volební kalkulačka vaší volbu?</b> (utvrzení ve volbě, změna preference, zvažování jiného kandidáta, apod.)</label>
 	    <div class="ui-grid-b">
 	        <div class="ui-block-a"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<-- {$data.change_mind.0}</strong></div>
 			<div class="ui-block-b"><span style="float:right" ><strong>{$data.change_mind.1} --></strong></span></div>
@@ -118,8 +128,8 @@
 		<!-- /change mind -->
 	  
 	    <!-- change_result -->
-	    <div  class="even">
-	    <label for="input-change_result"><b>6. Do jaké míry podle Vás volební kalkulačka ovlivní výsledky voleb do Poslanecké sněmovny?</b></label>
+	    <div  class="odd">
+	    <label for="input-change_result"><b>7. Do jaké míry podle Vás volební kalkulačka ovlivní výsledky voleb do Poslanecké sněmovny?</b></label>
 	    <div class="ui-grid-b">
 	        <div class="ui-block-a"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<-- {$data.change_result.0}</strong></div>
 			<div class="ui-block-b"><span style="float:right" ><strong>{$data.change_result.1} --></strong></span></div>
@@ -133,8 +143,8 @@
 		
 		
 		<!-- looking_for_info -->
-		<div class="odd">
-	    <label for="input-looking_for_info"><b>7. Jak často aktivně vyhledáváte informace o politice?</b></label>
+		<div class="even">
+	    <label for="input-looking_for_info"><b>8. Jak často aktivně vyhledáváte informace o politice?</b></label>
 	    <div class="ui-grid-b">
 	        <div class="ui-block-a"><strong>&nbsp;&nbsp;&nbsp;&nbsp;<-- {$data.looking_for_info.0}</strong></div>
 			<div class="ui-block-b"><span style="float:right" ><strong>{$data.looking_for_info.1} --></strong></span></div>
@@ -145,9 +155,9 @@
 		<!-- /looking_for_info -->
 		
 		<!-- info from -->
-		<div  class="even">
+		<div  class="odd">
 	    <fieldset data-role="controlgroup" data-type="horizontal"> 
-		  <legend><b>8. Odkud čerpáte informace o politice?</b></legend>
+		  <legend><b>9. Odkud čerpáte informace o politice?</b></legend>
 	      {foreach $data.info_from as $item}      
          	  <input type="checkbox" name="input-info_from" id="input-info_from-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-info_from-{$item.0}">{$item.1}</label>
@@ -160,8 +170,8 @@
 		</div>
 	    
 	    <!-- sex -->
-	    <fieldset data-role="controlgroup" data-type="horizontal"  class="odd"> 
-		  <legend><b>9. Jste:</b></legend>
+	    <fieldset data-role="controlgroup" data-type="horizontal"  class="even"> 
+		  <legend><b>10. Jste:</b></legend>
 	      {foreach $data.sex as $item}      
          	  <input type="radio" name="input-sex" id="input-sex-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-sex-{$item.0}">{$item.1}</label>
@@ -169,8 +179,8 @@
 	    </fieldset>
 	    
 	    <!-- occupation -->
-	    <fieldset data-role="controlgroup" data-type="horizontal" class="even" > 
-		  <legend><b>10. Jaká je Vaše hlavní pracovní činnost?</b></legend>
+	    <fieldset data-role="controlgroup" data-type="horizontal" class="odd" > 
+		  <legend><b>11. Jaká je Vaše hlavní pracovní činnost?</b></legend>
 	      {foreach $data.occupation as $item}      
          	  <input type="radio" name="input-occupation" id="input-occupation-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-occupation-{$item.0}">{$item.1}</label>
@@ -178,17 +188,17 @@
 	    </fieldset>
 	    
 	    <!-- education -->
-	    <fieldset data-role="controlgroup" data-type="horizontal" class="odd" > 
-		  <legend><b>11. Jaká je Vaše hlavní pracovní činnost?</b></legend>
-	      {foreach $data.occupation as $item}      
+	    <fieldset data-role="controlgroup" data-type="horizontal" class="even" > 
+		  <legend><b>12. Jaká je Vaše hlavní pracovní činnost?</b></legend>
+	      {foreach $data.education as $item}      
          	  <input type="radio" name="input-education" id="input-education-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-education-{$item.0}">{$item.1}</label>
 	      {/foreach}
 	    </fieldset>	    
 	    
 	    <!-- age -->
-	    <fieldset data-role="controlgroup" data-type="horizontal"  class="even"> 
-		  <legend><b>12. Kolik je Vám let?</b></legend>
+	    <fieldset data-role="controlgroup" data-type="horizontal"  class="odd"> 
+		  <legend><b>13. Kolik je Vám let?</b></legend>
 	      {foreach $data.age as $item}      
          	  <input type="radio" name="input-age" id="input-age-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-age-{$item.0}">{$item.1}</label>
@@ -196,8 +206,8 @@
 	    </fieldset>
 	    
 	    <!-- place -->
-	    <fieldset data-role="controlgroup" data-type="horizontal"  class="odd"> 
-		  <legend><b>13. Kolik obyvatel má obec, ve které bydlíte?</b> (místo, kde se zdržujete převážnou část roku)</legend>
+	    <fieldset data-role="controlgroup" data-type="horizontal"  class="even"> 
+		  <legend><b>14. Kolik obyvatel má obec, ve které bydlíte?</b> (místo, kde se zdržujete převážnou část roku)</legend>
 	      {foreach $data.place as $item}      
          	  <input type="radio" name="input-place" id="input-place-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-place-{$item.0}">{$item.1}</label>

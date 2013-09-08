@@ -5,9 +5,10 @@
 */
 
 include("../setup.php");
+include("texts.php");
 
 $qfile = 'questions.json';
-$rfile = 'region.json';
+/*$rfile = 'region.json';*/
 
 if (!isset($_SESSION['started'])) {
   session_start();
@@ -45,6 +46,7 @@ $number_questions = count((array)$questions);
 } else*/ 
 $partner = array('name'=>'default','swatch_bar' => 'g', 'swatch_question_body' => 'd', 'swatch_progressbar' => 'i');
 
+$smarty->assign('text',$text);
 $smarty->assign('partner',$partner);
 $smarty->assignByRef('questions', $questions);
 $smarty->assign('number_questions',$number_questions);

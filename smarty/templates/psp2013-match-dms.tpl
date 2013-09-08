@@ -1,12 +1,24 @@
-<div data-role="navbar">
-  <ul>
-    <li>
-      <a href="#"><img src="../../image/psp2013/dms.png" alt="DMS" title="DMS KOHOVOLIT na 87777" /><div>Pomozte nezávislé Volební kalkulačce:<br/>
-      Pošlete SMS na číslo 87777 s textem:<br/>
-      <strong>DMS KOHOVOLIT</strong> (cena 30Kč, z toho 27Kč pro sdružení KohoVolit.eu)</br>
-	  <strong>DMS ROK KOHOVOLIT</strong> (viz předchozí, automaticky každý měsíc po 1 rok) 
+<div id="dms" class="computer">
+  <div id="dms-inside" class="computer ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e"> 
+      <img src="../../image/psp2013/dms.png" alt="DMS" title="{$text.dms_title}" />
+      <div id="dms-inside-inside" >
+        <h3>{$text.dms_1}</h3>
+        {$text.dms_2}<br/>
+        <strong>{$text.dms_code}</strong> <br/>
+        <span class="small">{$text.dms_explanation}<br/></span>
+	    <strong>{$text.dms_code_year}</strong> <br/>
+	    <span class="small">{$text.dms_explanation_year}</span> 
+	    <p><strong>{$text.dms_thanks}</strong></p>
       </div>
-      </a>
-    </li>
-  </ul>
+  </div>
 </div>
+<div id="dms-mobile" data-role="popup" class="mobile ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e">
+    <h3>{$text.dms_mobile_1}</h3>
+    {$text.dms_mobile_2}<br/>
+    <strong>{$text.dms_code}</strong><br/>
+    {$text.dms_mobile_3}<br/>
+    <strong>{$text.dms_code_year}</strong><br/>
+    {$text.dms_mobile_explanation}<br/>
+    {$text.dms_thanks}
+</div>
+

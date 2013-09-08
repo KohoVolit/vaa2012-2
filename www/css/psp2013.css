@@ -1,0 +1,106 @@
+/*
+ CSS for volebnikalkulacka.cz version 09/2013
+*/
+
+/* PAGE */
+
+
+.content {
+  padding:0;
+}
+
+.right {
+    float: right;
+}
+
+.question-description {
+	font-size: 0.85em;
+	color: #777777;
+	text-shadow: none;
+}
+
+.question-question {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.box-center{
+    width: 350px;
+    margin: 0px auto;
+}
+
+#progress_box {
+  font-size:13px;
+  padding:4px 15px 4px 15px;
+}
+#progresstext {
+  text-align:center;
+}
+
+#progressbar {
+  border:1px solid #CCC;
+  padding:1px;
+  background:#FFF;
+  font-size: 4px;
+}
+
+
+
+@media all and (max-width: 649px){
+	.computer {
+	  display: none;
+	}
+	.mobile {
+	  display: block;
+	}
+	.header {
+		height: 1.5em;
+	}
+	.ui-header .ui-title {
+		margin: 0.2em 30% 0.8em;
+	}
+	
+	.question-description {
+	  display: none;
+	}
+
+	.question-name {
+	  display: block;
+	  font-size: 1em;
+	  color: #777777;
+	  text-shadow: none;
+	}
+}
+
+@media all and (min-width: 650px){
+	.computer {
+	  display: block;
+	}
+
+	.mobile {
+	  display: none;
+	}
+	
+	.header {
+	  height: 2em;
+	}
+}
+
+
+
+
+
+/* sprite for results of inventura hlasování */
+/* match */
+.psp2013-sprite {
+  background: url('../image/psp2013/sprite.png') no-repeat top left;
+  width: 80px;
+  height: 80px;
+}
+.psp2013-sprite-ana{ background-position: 0 0; width: 80px; height: 80px; } 
+.psp2013-sprite-cssd{ background-position: 0 -130px; width: 80px; height: 80px; } 
+.psp2013-sprite-kscm{ background-position: 0 -260px; width: 80px; height: 80px; } 
+.psp2013-sprite-ods{ background-position: 0 -390px; width: 80px; height: 80px; } 
+.psp2013-sprite-top09-s{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.psp2013-sprite-vv{ background-position: 0 -650px; width: 80px; height: 80px; } 
+

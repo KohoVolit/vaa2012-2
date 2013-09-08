@@ -7,7 +7,7 @@ $fin = fopen("source/psp2013_votes.csv","r");
 $directory = 'poslanecka-snemovna-2013-inventura-hlasovani/';
 
 //number of first columns without votes
-$columns = 7;
+$columns = 8;
 
 //path to generate (relative)
 $path = '../www/';
@@ -30,9 +30,10 @@ while (($row = fgetcsv($fin)) !== FALSE) {
       'first_name' => $row[0],
       'party' => $row[2],
       'friendly_name' => friendly_url($row[2]),
-      'id' => $row[5],
-      'sex' => $row[4],
-      'region' => $row[3]
+      'id' => $row[6],
+      'sex' => $row[5],
+      'region' => $row[4],
+      'party_long' => $row[3],
     );
     for ($j = $columns; $j < count($row); $j++) {
       if (trim($row[$j]) != '') {
