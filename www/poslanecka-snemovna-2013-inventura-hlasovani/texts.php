@@ -66,6 +66,14 @@ $text = array(
   'result_winner_mobile_f' => 'Nejlépe dle Vašich odpovědí ve Sněmovně hlasovala:',
   'result_winner_share' => 'Sdílej <span class="computer">výsledky </span>na Facebooku</span>',
   
+  //COMPARE
+  'compare_title' => 'Podrobné porovnání',
+  'compare_header' => 'Srovnání',
+  'compare_note' => 'Porovnávat můžete i dva poslance, posledně vybraného si aplikace pamatuje.',
+  'compare_question' => 'Otázka',
+  'compare_my_vote' => 'Můj hlas',
+  'compare_explanation' => '<p>Pozn.: Situace, kdy se zákonodárce zdržel nebo nestiskl žádné tlačítko, má pro výsledek hlasování přesně stejný význam jako hlasování proti návrhu. Zákonodárce totiž nehlasuje pro návrh, a přitom se jeho hlas započítává do kvora, které je pro přijetí návrhu zapotřebí. Proto tyto situace při výpočtu shody považujeme za hlasování proti návrhu.</p>
+      <p>V případě hlasování, kdy je pro přijetí návrhu vyžadována většina všech zákonodárců, a nikoli pouze většina přítomných zákonodárců (např. pro změnu Ústavy nebo pro přehlasování veta Senátu či prezidenta), má neúčast na hlasování přesně stejný význam jako hlasování proti návrhu. Proto neúčast při výpočtu shody považujeme za hlasování proti návrhu.</p>',
   
   
   
