@@ -894,11 +894,18 @@ color: #a21412;
 }
 
 .psp2013-sprite-ana{ background-position: 0 0; width: 80px; height: 80px; } 
-.psp2013-sprite-cssd{ background-position: 0 -130px; width: 80px; height: 80px; } 
-.psp2013-sprite-kscm{ background-position: 0 -260px; width: 80px; height: 80px; } 
-.psp2013-sprite-ods{ background-position: 0 -390px; width: 80px; height: 80px; } 
-.psp2013-sprite-top-09{ background-position: 0 -520px; width: 80px; height: 80px; } 
-.psp2013-sprite-vv{ background-position: 0 -650px; width: 80px; height: 80px; } 
+.psp2013-sprite-cssd-nezarazeni{ background-position: 0 -130px; width: 80px; height: 80px; } 
+.psp2013-sprite-cssd{ background-position: 0 -260px; width: 80px; height: 80px; } 
+.psp2013-sprite-kscm{ background-position: 0 -390px; width: 80px; height: 80px; } 
+.psp2013-sprite-ods-nezarazeni{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.psp2013-sprite-ods{ background-position: 0 -650px; width: 80px; height: 80px; } 
+.psp2013-sprite-top-09{ background-position: 0 -780px; width: 80px; height: 80px; } 
+.psp2013-sprite-vv-cssd{ background-position: 0 -910px; width: 80px; height: 80px; } 
+.psp2013-sprite-vv-lidem{ background-position: 0 -1040px; width: 80px; height: 80px; } 
+.psp2013-sprite-vv-nezarazeni{ background-position: 0 -1170px; width: 80px; height: 80px; } 
+.psp2013-sprite-vv-top-09{ background-position: 0 -1300px; width: 80px; height: 80px; } 
+.psp2013-sprite-vv{ background-position: 0 -1430px; width: 80px; height: 80px; } 
+
 
 #jqm-homeheader img {
     height: 108px;
