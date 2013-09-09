@@ -18,48 +18,39 @@
 <body>
 <div data-role="page" class="type-home">
 
-	<div data-role="header" data-theme="g" class="header">
-	&nbsp;
-	</div>
 
-	<div data-role="content" style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;">
+
+	<div data-role="content">
 	
-	
+	<!--<p class="jqm-version">
+	  <b>&nbsp;&nbsp;&nbsp;10 nových otázek</b>
+	</p>-->
 	
 
-		<h1>Volební kalkulačka</h1>
+	
+	
+	  <div id="jqm-homeheader">
+		<h1 id="jqm-logo"><img src="image/logo.png" alt="VolebniKalkulacka.cz" /></h1>
 		<p>Nejužitečnějších 5 minut před volbami.</p>
+	  </div>
+	
+	  <p class="intro"></p>
+
+
+   
+
+
 
 	
-	 <!-- dms 1 -->		
-	<div id="dms" class="computer">
-  		<div id="dms-inside" class="computer ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-c"> 
-		  <img src="./image/psp2013/dms.png" alt="DMS" title="DMS KOHOVOLIT na 87777" />
-		  <div id="dms-inside-inside" >
-		    <h3>Podpořte tvorbu nezávislých Volebních kalkulaček</h3>
-		    Pošlete SMS na číslo <strong>87777</strong> s textem:<br/>
-		    <strong>DMS KOHOVOLIT</strong> <br/>
-		    <span class="small">(cena 30Kč, z toho 27Kč pro sdružení KohoVolit.eu)<br/></span>
-			<strong>DMS ROK KOHOVOLIT</strong> <br/>
-			<span class="small">(viz předchozí, automaticky každý měsíc po 1 rok)</span> 
-			<p><strong>Děkujeme!</strong></p>
-		  </div>
-	  </div>
-	</div>
-		<div id="dms-mobile" data-role="popup" class="mobile ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e">
-			<h3>Podpořte Volební kalkulačku</h3>
-			SMS na číslo <strong>87777</strong><br/>
-			<strong>DMS KOHOVOLIT</strong><br/>
-			nebo<br/>
-			<strong>DMS ROK KOHOVOLIT</strong><br/>
-			(cena 30Kč, resp. 12x30Kč)<br/>
-			Děkujeme!
-		</div> 
-<!-- /dms 1 -->
-
-	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
+	
+	<div class="content-primary">
+	
+		<p>25. a 26. října 2013 proběhnou volby do Poslanecké sněmovny Parlamentu ČR. Víte, které strany se staví k problémům stejně jako Vy? Kdo Vás chce <strong>doopravdy zastupovat?</strong></p>
+			<nav>
+			    <h2>Parlamentní volby 2013</h2>
+				<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
 					<li data-role="list-divider"></li>
-					<li  data-theme="b">
+					<li>
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
 					  <?php 
 					    //research
@@ -71,22 +62,29 @@
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
 					  <h3>Inventura hlasování 2010-2013</h3>
-					  <p class="ui-li-desc">Shoda dle hlasování poslanců.</p>
+					  <p class="ui-li-desc">Kteří poslanci Vás <strong>doopravdy</strong> zastupovali? 37 skutečných hlasování ze Sněmovny.</p>
 					</a>
 					</li>
 					<li>
 					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
 					  <img src='./image/cz_gray.png' width="67" height="80">
-					  <h3>Volební kalkulačka 2013</h3>
-					  <p class="ui-li-desc">Shoda dle názorů stran. Spuštění <strong>25. září 2013</strong>.</p>
+					  <h3>Volební kalkulačka</h3>
+					  <p class="ui-li-desc">Parlamentní volby 2013. Spuštění <strong>25. září 2013</strong>.</p>
 					<!--</a>-->
 					</li>
-	</ul>
-   
+				</ul>
 
+			</nav>
+			
 
-
-<div class="ui-grid-b social-block">
+				<div><p>Volební kalkulačka pro parlamentní volby 2013 je jednoduchý nástroj, který vám pomůže v rozhodnutí koho volit ve volbách v říjnu 2013. Volební test napoví, koho zvolit z kandidujících stran. Volební kalkulačka rozhoduje na základě matematické shody mezi názory kandidátů a vašimi osobními preferencemi. Test vám zabere přibližně pět minut.</p>
+<p>Volební kalkulačku připravuje <a href="http://kohovolit.eu">občanské sdružení KohoVolit.eu</a></p>
+	</div>
+	</div> <!-- /content primary -->
+	
+    <div class="content-secondary" style="padding-top:0">
+    
+      <div class="ui-grid-b social-block">
 
 
         <div class="ui-block-a">
@@ -102,7 +100,6 @@
 		</div>		  
 		
 		<div class="ui-block-b social-g">
-		  <div class="right">
 			<!-- Place this tag where you want the +1 button to render. -->
 			<div class="g-plusone" data-size="tall"></div>
 
@@ -116,21 +113,15 @@
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 			  })();
 			</script>
-		  </div>
 		</div>
 		
 		<div class="ui-block-c social-twitter">
-				<div class="right"><a href="https://twitter.com/share" class="twitter-share-button" data-via="KohoVolitEU" data-count ="vertical">Tweet</a></div>
+				<div><a href="https://twitter.com/share" class="twitter-share-button" data-via="KohoVolitEU" data-count ="vertical">Tweet</a></div>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 		
 	  </div><!-- /grid -->
-	  
-	 <div>
-	   <p style="text-align:justify"><strong>Volební kalkulačky pro parlamentní volby 2013</strong> Vám pomohou v rozhodnutí, koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Volební kalkulačka</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v let 2010-2013.
-	 </p>
-	 </div> 
-
+	 
 	 <!-- counter --> 
 	 <div class="counter">
 	   <span class="counter-number">
@@ -143,7 +134,7 @@
     $number = number_format(ceil($filesize/419.4),0,',',' ');
   echo $number;
 ?>
-		</span> vyplněných Volebních kalkulaček
+		</span> lidí si vyplnilo Volební kalkulačku
 	</div>
 	<!-- /counter -->
 	  
@@ -151,7 +142,7 @@
 
 			  
 
-
+	</div> <!-- /content secondary -->
 
 	</div> <!-- /content -->
 	
@@ -170,26 +161,15 @@
 		</script>
 		
 
-	<div data-role="footer" class="footer-docs" data-theme="d">
+	<div data-role="footer" class="footer-docs" data-theme="d" data-position="fixed">
 	    <div data-role="navbar">
 		  <ul>
-			<li><a href="info" data-ajax="false" data-icon="info">O projektu VolebníKalkulačka.cz</a></li>
+			<li><a href="info/#about" data-ajax="false" data-icon="info">O projektu VolebníKalkulačka.cz</a></li>
 			<li><a href="embed" data-ajax="false" data-icon="star">Vložit Volební kalkulačku k sobě na web</a></li>
 			<li><a href="archive" data-ajax="false" data-icon="grid">Archiv volebních kalkulaček</a></li>
   		  </ul>
 	    </div>
-	        <p class="right computer">
-			  <a href="http://kohovolit.eu">
-				<img src="./image/kohovolit-logo-dark-small.png" title="KohoVolit.eu" alt="KohoVolit.eu"/>
-			  </a>
-		  </p>
-		   <div>
-				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Kontakt</a>
-				<div data-role="popup"  data-role="popup" id="contact-popup">
-					<p> 2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
-				</div>
-			</div>
-			
+			<p>2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
 	</div>
 </div>
 </body>
