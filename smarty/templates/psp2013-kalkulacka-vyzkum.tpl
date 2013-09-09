@@ -189,7 +189,7 @@
 	    
 	    <!-- education -->
 	    <fieldset data-role="controlgroup" data-type="horizontal" class="even" > 
-		  <legend><b>12. Jaká je Vaše hlavní pracovní činnost?</b></legend>
+		  <legend><b>12. Jaká\é je Vaše nejvyšší dosažené vzdělání?</b></legend>
 	      {foreach $data.education as $item}      
          	  <input type="radio" name="input-education" id="input-education-{$item.0}" value="{$item.0}"  {if (isset($item.2))}checked="checked"{/if} />
          	  <label for="input-education-{$item.0}">{$item.1}</label>
