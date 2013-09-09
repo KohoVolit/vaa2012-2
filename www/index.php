@@ -127,7 +127,7 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Volební kalkulačky pro parlamentní volby 2013</strong> Vám pomohou v rozhodnutí, koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Volební kalkulačka</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v let 2010-2013.
+	   <p style="text-align:justify"><strong>Volební kalkulačky pro parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Volební kalkulačka</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013.
 	 </p>
 	 </div> 
 
