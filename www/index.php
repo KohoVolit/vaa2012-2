@@ -12,6 +12,11 @@
 
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+	<meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
+	<meta property="og:title" content="Volební kalkulačka"/>
+	<meta property="og:url" content="http://volebnikalkulacka.cz/"/>
+	<meta property="og:site_name" content="Volební kalkulačka"/>
+	<meta property="og:type" content="website"/>
 
 	
 </head>
