@@ -3,11 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Volební kalkulačka</title>
-	<meta name="description" content="Zjistěte, s kterou z kandidujících stran a s kterým jednotlivým kandidátem se nejvíce shodujete. Kdo Vás bude doopravdy zastupovat!" />
+	<title>Volební kalkulačka | volby 2013</title>
+	<meta name="description" content="Volby 2013 se blíží! Spočítejte si koho volit!" />
+	<meta name="keywords" content="volby 2013, volby, volební kalkulačka, poslanecká sněmovna" />
+	<meta name="author" content="KohoVolit.eu" />
+	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
 	<link rel="stylesheet" href="./css/psp2013-page.css" />
-	<!--<link rel="stylesheet" href="./frontpage/region_map_sprite.css" />-->
 	<link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
 
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
@@ -63,7 +65,7 @@
 <!-- /dms 1 -->
 
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
-					<li data-role="list-divider"></li>
+					
 					<li  data-theme="b">
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
 					  <?php 
@@ -79,10 +81,12 @@
 					  <p class="ui-li-desc">Shoda dle hlasování poslanců.</p>
 					</a>
 					</li>
+	</ul>
+	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					<li>
 					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
 					  <img src='./image/cz_gray.png' width="67" height="80">
-					  <h3>Volební kalkulačka 2013</h3>
+					  <h3>Názorový test 2013</h3>
 					  <p class="ui-li-desc">Shoda dle názorů stran. Spuštění <strong>25. září 2013</strong>.</p>
 					<!--</a>-->
 					</li>
@@ -132,7 +136,7 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Volební kalkulačky pro parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Volební kalkulačka</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013.
+	   <p style="text-align:justify"><strong>Volební kalkulačky pro parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Názorový test</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013. <strong>Volební testy zaberou přibližně 5 minut.</strong>
 	 </p>
 	 </div> 
 
@@ -146,7 +150,8 @@
     $number = number_format(684613 + round(($filesize-203466983.6)/1145.192),0,',',' ');  //slowing down
   else
     $number = number_format(ceil($filesize/419.4),0,',',' ');*/
-  $number = number_format(ceil($filesize/419.4) + 1459825,0,',',' '); //1459825 - number by 2013-09-09
+  //$number = number_format(ceil($filesize/419.4) + 1459825,0,',',' '); //1459825 - number by 2013-09-09
+  $number = number_format(ceil($filesize/362.94),0,',',' ');
   echo $number;
   
 ?>
