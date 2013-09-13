@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang='cs'>
+<html lang='en'>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Volební kalkulačka | volby 2013</title>
-	<meta name="description" content="Volby 2013 se blíží! Spočítejte si koho volit!" />
-	<meta name="keywords" content="volby 2013, předčasné volby, volební kalkulačka, volební test" />
+	<title>Volební kalkulačka | Voting Advice Application</title>
+	<meta name="description" content="Czech voting advice applications in other languages" />
+	<!--<meta name="keywords" content="volby 2013, předčasné volby, volební kalkulačka, volební test" />-->
 	<meta name="author" content="KohoVolit.eu" />
 	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
-	<link rel="stylesheet" href="./css/psp2013-page.css" />
-	<link type="image/x-icon" href="./image/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="../css/psp2013-page.css" />
+	<link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">
 
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
@@ -22,11 +22,11 @@
 
 	
 </head>
-<body style="font-family: gill,sans,mt">
+<body>
 <div data-role="page" class="type-home">
 
 	<div data-role="header" data-theme="g" class="header">
-	  <a href="./en/" class="ui-btn-right" data-theme="g">English, ...</a>
+	  <a href="/" class="ui-btn-right" data-theme="g">Czech</a>
 	  <h6>&nbsp;</h6>
 	</div>
 
@@ -36,7 +36,8 @@
 	
 
 		<h1>Volební kalkulačka</h1>
-		<p>Nejužitečnějších 5 minut před volbami.</p>
+		<h2>Voting advice applications</h2>
+		<p>In other languages.</p>
 
 	
 	 <!-- dms 1 -->		
@@ -70,29 +71,15 @@
 					
 					<li  data-theme="b">
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
-					  <?php 
-					    //research
-						$rand=rand(0,9);
-						if ($rand == 0)
-						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/kalkulacka-vyzkum.php" data-rel="dialog">';
-						else
-						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">';
-					  ?> 
-					  <img src='./image/cz.png' width="67" height="80">
-					  <h2>Inventura hlasování 2010-2013</h2>
-					  <p class="ui-li-desc">Shoda dle hlasování poslanců.</p>
-					</a>
+					  <a href="../czech-elections-2013-inventory-of-votes" data-ajax="false">
+
+					    <img src='../image/cz_en.png' width="67" height="80">
+					    <h2>Inventory of voting 2010-2013</h2>
+					    <p class="ui-li-desc">Match by the real representatives' voting</p>
+					  </a>
 					</li>
 	</ul>
-	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
-					<li>
-					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
-					  <img src='./image/cz_gray.png' width="67" height="80">
-					  <h2>Názorový test 2013</h2>
-					  <p class="ui-li-desc">Shoda dle názorů stran. Spuštění <strong>25. září 2013</strong>.</p>
-					<!--</a>-->
-					</li>
-	</ul>
+
    
 
 
@@ -138,8 +125,8 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Volební kalkulačky pro předčasné parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Názorový test</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013. <strong>Volební test Vám zabere přibližně 5 minut.</strong>
-	 </p>
+	   <p style="text-align:justify">Our voting advice applications in other languages. Enjoy!
+	   </p>
 	 </div> 
 
 	 <!-- counter --> 
@@ -147,7 +134,7 @@
 	   <span class="counter-number">
 <?php
   //$number = number_format(ceil($filesize/297.2),0,',',' '); original calculation
-  $filesize = filesize('result.txt');
+  $filesize = filesize('../result.txt');
   /*if ($filesize < 335527092)
     $number = number_format(684613 + round(($filesize-203466983.6)/1145.192),0,',',' ');  //slowing down
   else
@@ -157,7 +144,7 @@
   echo $number;
   
 ?>
-		</span> vyplněných Volebních kalkulaček
+		</span> filled Voting adviced applications since 09/2013.
 	</div>
 	<!-- /counter -->
 	  
@@ -188,21 +175,21 @@
 	    <div data-role="navbar">
 		  <ul>
 		  	
-			<li><a href="info" data-ajax="false">O projektu VolebníKalkulačka.cz</a></li>
-			<li><a href="embed" data-ajax="false">Vložit Volební kalkulačku k sobě na web</a></li>
-			<li><a href="archive" data-ajax="false">Archiv volebních kalkulaček</a></li>
-			<li><a href="kandidatky-volby-2013" data-ajax="false">Kandidátky pro volby 2013</a></li>
+			<li><a href="/info" data-ajax="false">About the project</a></li>
+			<li><a href="/embed" data-ajax="false">Embed VAAs</a></li>
+			<li><a href="/archive" data-ajax="false">Archive</a></li>
+			<li><a href="/kandidatky-volby-2013" data-ajax="false">Candidate lists 2013</a></li>
   		  </ul>
 	    </div>
 	        <p class="right computer">
 			  <a href="http://kohovolit.eu">
-				<img src="./image/kohovolit-logo-dark-small.png" title="KohoVolit.eu" alt="KohoVolit.eu"/>
+				<img src="../image/kohovolit-logo-dark-small.png" title="KohoVolit.eu" alt="KohoVolit.eu"/>
 			  </a>
 		  </p>
 		   <div>
-				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Kontakt</a>
+				<a href="#contact-popup" data-role="button" data-icon="info" data-mini="true" data-inline="true" data-rel="popup">Contact</a>
 				<div data-role="popup"  data-role="popup" id="contact-popup">
-					<p> 2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, kontakt: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
+					<p> 2013 <a href="http://kohovolit.eu">KohoVolit.eu</a>, contact: Michal Škop +420&nbsp;775&nbsp;187&nbsp;021, Kamil Gregor +420&nbsp;724&nbsp;362&nbsp;427, email: jmeno.prijmeni[zavinac]kohovolit.eu</p>
 				</div>
 			</div>
 			

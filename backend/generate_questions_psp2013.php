@@ -4,10 +4,16 @@
 
 
 //questions complete
-$file = file("https://docs.google.com/spreadsheet/pub?key=0Asva5SIBKjNudDFIZDY0eF9fSFRuTDBrdVAzQ3FZTXc&output=csv");
+//cs
+//$file = file("https://docs.google.com/spreadsheet/pub?key=0Asva5SIBKjNudDFIZDY0eF9fSFRuTDBrdVAzQ3FZTXc&output=csv");
+//en
+$file = file("https://docs.google.com/spreadsheet/pub?key=0Asva5SIBKjNudHdtbnFjT01sV1BjSlNwLTI4S3pVTFE&output=csv");
 
 //directory
+//cs
 $directory = 'poslanecka-snemovna-2013-inventura-hlasovani/';
+//en
+$directory = 'czech-elections-2013-inventory-of-votes/';
 
 //path to generate (relative)
 $path = '../www/';
