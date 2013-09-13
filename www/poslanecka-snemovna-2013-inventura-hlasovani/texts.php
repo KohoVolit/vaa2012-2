@@ -61,6 +61,7 @@ $text = array(
   'dms_mobile_2' => 'SMS na číslo <strong>87777</strong>',
   'dms_mobile_3' => 'nebo',
   'dms_mobile_explanation' => '(cena 30Kč, resp. 12x30Kč)',
+  'dms_info' => 'podrobné info',
   'result_winner_computer' => 'Nejlépe dle Vašich odpovědí ve Sněmovně hlasovali:',
   'result_winner_mobile_m' => 'Nejlépe dle Vašich odpovědí ve Sněmovně hlasoval:',
   'result_winner_mobile_f' => 'Nejlépe dle Vašich odpovědí ve Sněmovně hlasovala:',

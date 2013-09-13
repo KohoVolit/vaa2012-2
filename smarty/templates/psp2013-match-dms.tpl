@@ -7,7 +7,8 @@
         <strong>{$text.dms_code}</strong> <br/>
         <span class="small">{$text.dms_explanation}<br/></span>
 	    <strong>{$text.dms_code_year}</strong> <br/>
-	    <span class="small">{$text.dms_explanation_year}</span> 
+	    <span class="small">{$text.dms_explanation_year}</span> <br/>
+	    <span class="right small"><a href="/support/">{$text.dms_info} -></a></span> <br/>
 	    <p><strong>{$text.dms_thanks}</strong></p>
       </div>
   </div>

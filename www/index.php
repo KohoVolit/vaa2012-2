@@ -22,7 +22,7 @@
 
 	
 </head>
-<body>
+<body style="font-family: gill,sans,mt">
 <div data-role="page" class="type-home">
 
 	<div data-role="header" data-theme="g" class="header">
@@ -48,7 +48,8 @@
 		    <strong>DMS KOHOVOLIT</strong> <br/>
 		    <span class="small">(cena 30Kč, z toho 27Kč pro sdružení KohoVolit.eu)<br/></span>
 			<strong>DMS ROK KOHOVOLIT</strong> <br/>
-			<span class="small">(viz předchozí, automaticky každý měsíc po 1 rok)</span> 
+			<span class="small">(viz předchozí, automaticky každý měsíc po 1 rok)</span> <br/>
+			<span class="right small"><a href="/support/">podrobné info -></a></span> <br/>
 			<p><strong>Děkujeme!</strong></p>
 		  </div>
 	  </div>
