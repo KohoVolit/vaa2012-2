@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='cs'>
   <head>
     <title>{$text.result_title} | {$text.page_header_desktop}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">

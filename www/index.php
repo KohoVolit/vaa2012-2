@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang='cs'>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Volební kalkulačka | volby 2013</title>
 	<meta name="description" content="Volby 2013 se blíží! Spočítejte si koho volit!" />
-	<meta name="keywords" content="volby 2013, volby, volební kalkulačka, poslanecká sněmovna" />
+	<meta name="keywords" content="volby 2013, předčasné volby, volební kalkulačka, volební test" />
 	<meta name="author" content="KohoVolit.eu" />
 	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
@@ -77,7 +77,7 @@
 						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">';
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
-					  <h3>Inventura hlasování 2010-2013</h3>
+					  <h2>Inventura hlasování 2010-2013</h2>
 					  <p class="ui-li-desc">Shoda dle hlasování poslanců.</p>
 					</a>
 					</li>
@@ -86,7 +86,7 @@
 					<li>
 					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
 					  <img src='./image/cz_gray.png' width="67" height="80">
-					  <h3>Názorový test 2013</h3>
+					  <h2>Názorový test 2013</h2>
 					  <p class="ui-li-desc">Shoda dle názorů stran. Spuštění <strong>25. září 2013</strong>.</p>
 					<!--</a>-->
 					</li>
@@ -136,7 +136,7 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Volební kalkulačky pro parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Názorový test</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013. <strong>Volební testy zaberou přibližně 5 minut.</strong>
+	   <p style="text-align:justify"><strong>Volební kalkulačky pro předčasné parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Názorový test</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013. <strong>Volební test Vám zabere přibližně 5 minut.</strong>
 	 </p>
 	 </div> 
 
@@ -185,9 +185,11 @@
 	<div data-role="footer" class="footer-docs" data-theme="d">
 	    <div data-role="navbar">
 		  <ul>
-			<li><a href="info" data-ajax="false" data-icon="info">O projektu VolebníKalkulačka.cz</a></li>
-			<li><a href="embed" data-ajax="false" data-icon="star">Vložit Volební kalkulačku k sobě na web</a></li>
-			<li><a href="archive" data-ajax="false" data-icon="grid">Archiv volebních kalkulaček</a></li>
+		  	
+			<li><a href="info" data-ajax="false">O projektu VolebníKalkulačka.cz</a></li>
+			<li><a href="embed" data-ajax="false">Vložit Volební kalkulačku k sobě na web</a></li>
+			<li><a href="archive" data-ajax="false">Archiv volebních kalkulaček</a></li>
+			<li><a href="kandidatky-volby-2013" data-ajax="false">Kandidátky pro volby 2013</a></li>
   		  </ul>
 	    </div>
 	        <p class="right computer">
