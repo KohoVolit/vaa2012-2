@@ -71,7 +71,7 @@
 					
 					<li  data-theme="b">
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
-					  <a href="../czech-elections-2013-inventory-of-votes" data-ajax="false">
+					  <a href="../czech-elections-2013-inventory-of-votes/?key=english" data-ajax="false">
 
 					    <img src='../image/cz_en.png' width="67" height="80">
 					    <h2>Inventory of voting 2010-2013</h2>

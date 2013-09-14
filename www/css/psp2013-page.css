@@ -2,7 +2,7 @@ body {
   background: #dddddd;
   font-family:  gill,sans,mt;
 }
-.ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button
+/*.ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button
 {
     font-family: gill,sans,mt;
 }
@@ -23,7 +23,7 @@ body {
 }
 .ui-body-a, .ui-body-a input, .ui-body-a select, .ui-body-a textarea, .ui-body-a button {
     font-family: gill,sans,mt;
-}
+}*/
 
 
 
@@ -663,7 +663,7 @@ color: #a21412;
 }
 
 .box-center{
-    width: 390px;
+    width: 350px;
     margin: 0px auto;
 }
 
@@ -790,7 +790,7 @@ color: #a21412;
 }
 .match-winner {
   font-weight: bold;
-  font-size: 1.35em;
+  font-size: 1.75em;
 
 }
 .match-winner-box {
