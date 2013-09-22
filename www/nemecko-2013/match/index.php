@@ -63,7 +63,7 @@ $smarty->display('de2013-match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . "inventura" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
+$str = session_id() . "\t" . "germany" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
 $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);
