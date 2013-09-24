@@ -79,7 +79,7 @@
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
 					  <h2>Volební kalkulačka 2013</h2>
-					  <p class="ui-li-desc">Shoda dle názorů stran.</p>
+					  <p class="ui-li-desc">Názorový test.</p>
 					</a>
 					</li>
 	</ul>

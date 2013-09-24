@@ -8,19 +8,14 @@
 	  <div data-role="collapsible" data-theme="d" data-content-theme="e">
     	<h3>Vložit kalkulačku k sobě na web</h3>
             <div data-role="fieldcontain">
-				<p>Vložte kód HTML (standardní Inventura hlasování):</p>
-					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013-inventura-hlasovani/?key=result_inventura" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
+				<p>Vložte kód HTML (standardní Volební kalkulačka):</p>
+					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013-iinfo/?partner={$partner['name']}&key=result" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
 				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (Inventura, Volební kalkulačka) i její velikost (standardní, mobilní)
-			</div>   
-	  </div>
-	</div>
-	
-	<div style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;padding-bottom:1em;">
-	  <a href="../../poslanecka-snemovna-2013-inventura-hlasovani/?key=nazorovy_test" data-role="button" data-theme="s" data-icon="arrow-r" data-iconpos="right">
-	    Jak se kandidující strany s Vámi shodnou zjistíte ve
-	    <div style="font-size:1.2em">Volební kalkulačce 2013</div> 
-	  </a>
-	</div>
+			</div>  <!-- /fieldcontain --> 
+	  </div> <!-- /collapsible -->
+	</div> <!-- /match-embed -->
+
+
 
 {literal}
 <div class="ui-grid-b social-block match-embed">

@@ -11,13 +11,18 @@
 				<p>Vložte kód HTML (standardní Volební kalkulačka):</p>
 					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013/?key=result_inventura" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
 				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (Inventura, Volební kalkulačka) i její velikost (standardní, mobilní)
-			</div>   
-	  </div>
-	</div>
+			</div>  <!-- /fieldcontain --> 
+	  </div> <!-- /collapsible -->
+	</div> <!-- /match-embed -->
 	
-	<div class="question match-other-calc">
-	  Volební kalkulačka počítající shodu s programy kandidujících stran bude spuštěna: <div class="match-other-calc-strong">25.9.2013</div>
+	
+	<div style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;padding-bottom:1em;">
+	  <a href="../../poslanecka-snemovna-2013-inventura-hlasovani/?key=nazorovy_test" data-role="button" data-theme="t" data-icon="arrow-r" data-iconpos="right">
+	    Jak poslanci skutečně hlasovali zjistíte v
+	    <div style="font-size:1.2em">Inventuře hlasování 2010-2013</div> 
+	  </a>
 	</div>
+
 
 {literal}
 <div class="ui-grid-b social-block match-embed">

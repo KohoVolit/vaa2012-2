@@ -2,9 +2,27 @@
 /**
 * Texts (for translation)
 */
+
+$textpartner = array(
+  'lupa' => 'IT a open data',
+  'podnikatel' => 'Podnikání',
+  'mesec' => 'Finance',
+  'vitalia' => 'Zdraví a potraviny', 
+);
+
 $text = array(
   'calc' => 'Volební kalkulačka',
+  'lupa' => 'IT a open data',
+  'podnikatel' => 'Podnikání',
+  'mesec' => 'Finance',
+  'vitalia' => 'Zdraví a potraviny',
    'info' => 'Info',
+   'start' => 'Spustit kalkulačku',
+   
+   //0th page
+   'text0_1' => 'Volební kalkulačka zaměřená na',
+   'text0_2' => 'porovnává Vaše názory s názory stran, které kandidují ve volbách 2013 do Sněmovny.',
+   
    //PAGE
    //header
   'page_header_desktop' => "Volební kalkulačka 2013",
@@ -29,24 +47,24 @@ $text = array(
   'result_sharing' => 'Sdílení výsledků',
   'result_share_results_on_facebook' => 'Sdílej výsledky na Facebooku',
   'result_twitter_data_lang' => 'cs',
-  'result_twitter_text_1' => 'Volební kalkulačka:',
-  'result_twitter_text_2' => 'nejvyšší shoda se mnou',
+  'result_twitter_text_1' => 'Volební kalkulačka ' . $textpartner[$partner['name']] .':',
+  'result_twitter_text_2' => 'nejvyšší shoda',
   'result_twitter_and' => 'a',
   'result_twitter_text_3' => ', naopak',
-  'result_twitter_hashtags' => '#volby #volby2013',
+  'result_twitter_hashtags' => '#volby',
   'result_twitter_share' => 'Tweetni',
   'result_fb_picture_link' => 'http://dev.volebnikalkulacka.cz/image/psp2013/party/',
   'result_fb_name' => 'Ve Volební kalkulačce mám nejvyšší shodu:',
-  'result_fb_description_1' => 'Dle Volební kalkulačky 2013 se se mnou nejvíce shodují: ',
+  'result_fb_description_1' => 'Dle Volební kalkulačky '. $textpartner[$partner['name']] .' se se mnou nejvíce shodují: ',
   'result_fb_description_match' => 'shoda',
   'result_fb_description_and' => 'a',
   'result_fb_description_only' => 'jen',
   'result_fb_description_2' => 'Nejhorší je ',
   'result_fb_description_3' => 'S kým se shodnete na VolebniKalkulacka.cz?',
-  'result_fb_redirect_link' => 'http://volebnikalkulacka.cz/',
-  'result_fb_link' => 'http://volebnikalkulacka.cz/',
-  'result_fb_action' => "[{'name':'Koho volit?','link':'http://volebnikalkulacka.cz/'}]",
-  'result_table_description' => 'Kliknutím na stranu získáte podrobné porovnání s danou stranou a další informace:',
+  'result_fb_redirect_link' => 'http://volebnikalkulacka.cz/poslanecka-snemovna-2013-iinfo/?partner='.$partner['name'],
+  'result_fb_link' => 'http://volebnikalkulacka.cz/poslanecka-snemovna-2013-iinfo/?partner='.$partner['name'],
+  'result_fb_action' => "[{'name':'Koho mám volit?','link':'http://volebnikalkulacka.cz/'}]",
+  'result_table_description' => '<strong>Kliknutím na stranu</strong> získáte podrobné porovnání s danou stranou a další informace:',
   'result_filter' => 'Najít stranu...',
   'dms_title' => 'DMS KOHOVOLIT na 87777',
   'dms_1' => 'Pomozte nezávislé Volební kalkulačce',

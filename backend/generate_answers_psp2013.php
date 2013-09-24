@@ -101,7 +101,7 @@ foreach ($answers0 as $key=>$region) {
    //print_r($keys);die();
   $ids = array();
   foreach ($questions[$key] as $k => $q) {
-    $ids[$k] = $q['id'];
+    $ids[$k+3] = $q['id'];		//***************************************
   
   
     /*if (isset($keys[trim($q['question'])])) {
@@ -116,12 +116,14 @@ foreach ($answers0 as $key=>$region) {
 //print_r($keys);die();
   
 foreach ($answers0 as $key=>$region) {
+  //print_r($region);die();
   array_shift($region);
   array_shift($region);
   $i = 1;
   foreach ($region as $row) {
    //print_r($row);die();
     $vote = array();
+    //print_r($answers_id[$key]);die();
     foreach ($answers_id[$key] as $ikey => $id) {
       $vote[$id] = answer2value($row[$ikey]);
     }
@@ -144,6 +146,7 @@ foreach ($answers0 as $key=>$region) {
       //report wrong unique key
       echo $key . "::'" . $row[$unique_code_column[$key]] . "'<br/>\n";
     }
+   //print_r($data);die();
   }
   //print_r($data);die();
   
