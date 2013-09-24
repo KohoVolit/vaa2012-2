@@ -1,5 +1,5 @@
 <div id="dms" class="computer">
-  <div id="dms-inside" class="computer ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e"> 
+  <div id="dms-inside" class="computer800 ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e"> 
       <img src="../../image/psp2013/dms.png" alt="DMS" title="{$text.dms_title}" />
       <div id="dms-inside-inside" >
         <h3>{$text.dms_1}</h3>
@@ -13,7 +13,7 @@
       </div>
   </div>
 </div>
-<div id="dms-mobile" data-role="popup" class="mobile ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e">
+<div id="dms-mobile" data-role="popup" class="mobile800 ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e">
     <h3>{$text.dms_mobile_1}</h3>
     {$text.dms_mobile_2}<br/>
     <strong>{$text.dms_code}</strong><br/>

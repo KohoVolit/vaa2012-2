@@ -44,7 +44,7 @@ $number_questions = count((array)$questions);
 		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
 	} 
 } else*/ 
-$partner = array('name'=>'default','swatch_bar' => 'p', 'swatch_question_body' => 'p', 'swatch_progressbar' => 'p');
+$partner = array('name'=>'default','swatch_bar' => 'q', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'q');
 
 $smarty->assign('text',$text);
 $smarty->assign('partner',$partner);

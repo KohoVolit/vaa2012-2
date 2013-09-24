@@ -26,7 +26,7 @@
 <div data-role="page" class="type-home">
 
 	<div data-role="header" data-theme="g" class="header">
-	  <a href="./en/" class="ui-btn-right" data-theme="g">English, ...</a>
+	  <a href="./en/" class="ui-btn-right" data-theme="g">English</a>
 	  <h6>&nbsp;</h6>
 	</div>
 
@@ -67,8 +67,25 @@
 <!-- /dms 1 -->
 
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
+					<li  data-theme="s">
+					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
+					  <?php 
+					    //research
+						$rand=rand(0,9);
+						if ($rand == 0)
+						  echo '<a href="poslanecka-snemovna-2013/kalkulacka-vyzkum.php" data-rel="dialog">';
+						else
+						  echo '<a href="poslanecka-snemovna-2013/" data-ajax="false">';
+					  ?> 
+					  <img src='./image/cz.png' width="67" height="80">
+					  <h2>Volební kalkulačka 2013</h2>
+					  <p class="ui-li-desc">Shoda dle názorů stran.</p>
+					</a>
+					</li>
+	</ul>
+	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
-					<li  data-theme="b">
+					<li  data-theme="t">
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
 					  <?php 
 					    //research
@@ -76,21 +93,12 @@
 						if ($rand == 0)
 						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/kalkulacka-vyzkum.php" data-rel="dialog">';
 						else
-						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">';
+						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">';
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
 					  <h2>Inventura hlasování 2010-2013</h2>
 					  <p class="ui-li-desc">Shoda dle hlasování poslanců.</p>
 					</a>
-					</li>
-	</ul>
-	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
-					<li>
-					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
-					  <img src='./image/cz_gray.png' width="67" height="80">
-					  <h2>Názorový test 2013</h2>
-					  <p class="ui-li-desc">Shoda dle názorů stran. Spuštění <strong>25. září 2013</strong>.</p>
-					<!--</a>-->
 					</li>
 	</ul>
    

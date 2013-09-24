@@ -36,7 +36,7 @@ $candidates = json_decode(file_get_contents($parties_file));
 	  default:
 		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
 	} 
-} else */$partner = array('name'=>'default','swatch_bar' => 'p', 'swatch_question_body' => 'p', 'swatch_progressbar' => 'p');
+} else */$partner = array('name'=>'default','swatch_bar' => 'q', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'q');
 
 //calculate match, for selected CC only
 //$start = microtime(true);

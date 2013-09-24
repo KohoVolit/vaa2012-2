@@ -48,7 +48,7 @@
 	</div> <!-- /content -->	
 	
 	<!-- footer -->
-	{include "page-footer.tpl"}
+	{include "psp2013-page-footer.tpl"}
 	<!-- /footer -->
 	
   </div><!-- /page -->	
@@ -85,7 +85,7 @@
 	</div><!-- /content -->
 	
 	<!-- footer -->
-	{include "page-footer.tpl"}
+	{include "psp2013-page-footer.tpl"}
 	<!-- /footer -->
   </div><!-- /page -->
 

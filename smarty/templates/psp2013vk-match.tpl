@@ -36,7 +36,7 @@
 		{assign var=results_count value=$results|@count}
 		
 		<!-- sharer -->
-		{include "psp2013-match-sharer.tpl"}
+		{include "psp2013vk-match-sharer.tpl"}
 
 		<!-- dms 1 -->		
 		{include "psp2013-match-dms.tpl"}
