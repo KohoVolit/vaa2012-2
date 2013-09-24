@@ -16,13 +16,13 @@ $directory = 'poslanecka-snemovna-2013/';
 //path to generate (relative)
 $path = '../www/';
 
-
+$out = array();
 $i = 0;
 //read questions
 foreach ($file as $row) {
  if ($i > 0) {
   $row_ar = str_getcsv($row,"\t");
-  //print_r($row_ar);
+  //print_r($row_ar);die();
   /*echo $row_ar[1] .'::' . print_r(str_getcsv($row));
   die();*/
   //$region_code = 'prezident'; //trim($row_ar[0]);
@@ -30,7 +30,7 @@ foreach ($file as $row) {
   $question = ((trim($row_ar[2]) != '') ? trim($row_ar[2]) : trim($row_ar[1]));
   //$description = trim($row_ar[3]);
   $name = trim($row_ar[1]);
-  $order = trim($row_ar[5]);
+  $order = trim($row_ar[7]);
   //$id_division = trim($row_ar[7]);
   //$id_document = trim($row_ar[6]);
   
@@ -48,6 +48,8 @@ foreach ($file as $row) {
  }
    $i++;
 }
+
+print_r($out);
 
 //order questions
 $order_ar = array();

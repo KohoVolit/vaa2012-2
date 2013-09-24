@@ -7,6 +7,8 @@ session_start();
 
 include("texts.php");
 
+$details = unserialize(file_get_contents("details_ser.txt"));
+
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
@@ -51,7 +53,7 @@ if(isset($_REQUEST['id']) and
 }
 $mps = array_reverse($mps);
 
-
+$smarty->assign('details',$details);
 $smarty->assign('text',$text);
 $smarty->assign('user',$user);
 $smarty->assign('mps',$mps);
