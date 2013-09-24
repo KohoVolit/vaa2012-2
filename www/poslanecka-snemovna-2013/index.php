@@ -44,14 +44,13 @@ $number_questions = count((array)$questions);
 		$partner = array('name'=>'default','swatch_bar' => 'f', 'swatch_question_body' => 'e', 'swatch_progressbar' => 'e');
 	} 
 } else*/ 
-//$partner = array('name'=>'default','swatch_bar' => 'g', 'swatch_question_body' => 'd', 'swatch_progressbar'
 $partner = array('name'=>'default','swatch_bar' => 'p', 'swatch_question_body' => 'p', 'swatch_progressbar' => 'p');
 
 $smarty->assign('text',$text);
 $smarty->assign('partner',$partner);
 $smarty->assignByRef('questions', $questions);
 $smarty->assign('number_questions',$number_questions);
-$smarty->display('psp2013-page.tpl');
+$smarty->display('psp2013vk-page.tpl');
 
 
 ?>

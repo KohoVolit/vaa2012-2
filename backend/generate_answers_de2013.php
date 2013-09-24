@@ -1,0 +1,73 @@
+<?php
+
+// generates votes
+
+$fin = fopen("source/de2013_votes.csv","r");
+//directory
+$directory = 'nemecko-2013/';
+
+//number of first columns without votes
+$columns = 3;
+
+//path to generate (relative)
+$path = '../www/';
+
+$out = array();
+$i = 1;
+while (($row = fgetcsv($fin)) !== FALSE) {
+  if ($i == 1) {
+    $j = 0;
+    $ids = array();
+    foreach($row as $item) {
+      if ($j >= $columns) {
+        $ids[$j] = $item;
+      }
+      $j++;
+    }
+  } else if ($i > 6) {
+    $mp = array(
+      //'last_name' => $row[1],
+      //'first_name' => $row[0],
+      'party' => $row[1],
+      'friendly_name' => friendly_url($row[1]),
+      'id' => $row[0],
+      //'sex' => $row[5],
+      //'region' => $row[4],
+      'party_long' => $row[2],
+    );
+    for ($j = $columns; $j < count($row); $j++) {
+      if (trim($row[$j]) != '') {
+        $mp['vote'][$ids[$j]] = $row[$j];
+      }
+    }
+    $out[] = $mp;
+  }
+  $i++;
+}
+
+$fout = fopen ($path . $directory . 'answers.json', "w+");
+$json = json_encode($out);
+fwrite($fout,$json);
+fclose($fout);
+
+
+/**
+* creates "friendly url" version of text, translits string (gets rid of diacritics) and substitutes ' ' for '-', etc.
+* @return friendly url version of text
+* example:
+* friendly_url('klub ČSSD')
+*     returns 'klub-cssd'
+*/
+function friendly_url($text,$locale = 'cs_CZ.utf-8') {
+    $old_locale = setlocale(LC_ALL, "0");
+setlocale(LC_ALL,$locale);
+$url = $text;
+$url = preg_replace('~[^\\pL0-9_]+~u', '-', $url);
+$url = trim($url, "-");
+$url = iconv("utf-8", "us-ascii//TRANSLIT", $url);
+$url = strtolower($url);
+$url = preg_replace('~[^-a-z0-9_]+~', '', $url);
+setlocale(LC_ALL,$old_locale);
+return $url;
+}
+?>

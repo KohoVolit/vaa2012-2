@@ -8,8 +8,8 @@
 	  <div data-role="collapsible" data-theme="d" data-content-theme="e">
     	<h3>Vložit kalkulačku k sobě na web</h3>
             <div data-role="fieldcontain">
-				<p>Vložte kód HTML (standardní Inventura hlasování):</p>
-					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013-inventura-hlasovani/?key=result_inventura" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
+				<p>Vložte kód HTML (standardní Volební kalkulačka):</p>
+					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013/?key=result_inventura" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
 				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (Inventura, Volební kalkulačka) i její velikost (standardní, mobilní)
 			</div>   
 	  </div>

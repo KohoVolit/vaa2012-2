@@ -5,11 +5,11 @@
 
 //questions complete
 //cs + en
-$file = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dDhxT3FFUE1KM3FVSHo2RHBDLVJiZnc&output=txt");
+$file = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dEZNd0xsV0xfeS1VdTNiNHljYWl3UlE&output=txt");
 
 //directory
 //cs
-$directory = 'poslanecka-snemovna-2013/';
+$directory = 'nemecko-2013/';
 //en
 //$directory = 'czech-elections-2013-inventory-of-votes/';
 
@@ -20,24 +20,24 @@ $path = '../www/';
 $i = 0;
 //read questions
 foreach ($file as $row) {
- if ($i > 0) {
+ if ($i > 1) {
   $row_ar = str_getcsv($row,"\t");
   //print_r($row_ar);
   /*echo $row_ar[1] .'::' . print_r(str_getcsv($row));
   die();*/
   //$region_code = 'prezident'; //trim($row_ar[0]);
   $id = $row_ar[0];
-  $question = ((trim($row_ar[2]) != '') ? trim($row_ar[2]) : trim($row_ar[1]));
+  $question = ((trim($row_ar[4]) != '') ? trim($row_ar[4]) : trim($row_ar[1]));
   //$description = trim($row_ar[3]);
-  $name = trim($row_ar[1]);
-  $order = trim($row_ar[5]);
+  //$name = trim($row_ar[1]);
+  $order = trim($row_ar[0]);
   //$id_division = trim($row_ar[7]);
   //$id_document = trim($row_ar[6]);
   
   if ($order != '') {
 	  $out[] = array(
 		'id' => $id,
-		'name' => $name,
+		'name' => $question,
 		//'description' => $description,
 		'question' => $question,
 		'order' => $order,
