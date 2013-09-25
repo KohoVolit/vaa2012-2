@@ -68,7 +68,7 @@ $smarty->display('psp2013vk-match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . "inventura" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
+$str = session_id() . "\t" . "calc2013" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
 $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);
