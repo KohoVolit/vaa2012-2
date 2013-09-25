@@ -17,7 +17,7 @@
 	
 	
 	<div style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;padding-bottom:1em;">
-	  <a href="../../poslanecka-snemovna-2013-inventura-hlasovani/?key=nazorovy_test" data-role="button" data-theme="t" data-icon="arrow-r" data-iconpos="right">
+	  <a href="../../poslanecka-snemovna-2013-inventura-hlasovani/?key=nazorovy_test" data-role="button" data-theme="t" data-icon="arrow-r" data-iconpos="right" data-ajax="false">
 	    Jak poslanci skutečně hlasovali zjistíte v
 	    <div style="font-size:1.2em">Inventuře hlasování 2010-2013</div> 
 	  </a>
