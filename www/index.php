@@ -78,7 +78,7 @@
 						  echo '<a href="poslanecka-snemovna-2013/" data-ajax="false">';
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
-					  <h2>Názorový test volby 2013</h2>
+					  <h2>Názorový test pro volby 2013</h2>
 					  <p class="ui-li-desc">Shoda s názory kandidujících stran.</p>
 					</a>
 					</li>

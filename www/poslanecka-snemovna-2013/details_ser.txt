@@ -1,4 +1,4 @@
-a:5:{s:3:"ano";a:2:{i:20;s:388:"Ano ctí soukromé vlastnictví a princip, že to co se ukradlo, má být vráceno. Domníváme se též, že řádně schválené zákony nemohou být vzaty zpět. Restituce sice přišly v nejnevhodnější dobu, ale mají být naplněny. Nová vláda by ovšem měla znovu jednat o výši finančního odškodnění a církvím by neměla být odpuštěna daň z prodeje nemovitostí.
+a:6:{s:3:"ano";a:2:{i:20;s:388:"Ano ctí soukromé vlastnictví a princip, že to co se ukradlo, má být vráceno. Domníváme se též, že řádně schválené zákony nemohou být vzaty zpět. Restituce sice přišly v nejnevhodnější dobu, ale mají být naplněny. Nová vláda by ovšem měla znovu jednat o výši finančního odškodnění a církvím by neměla být odpuštěna daň z prodeje nemovitostí.
 ";i:44;s:222:"Budeme prosazovat zásadní změnu systému tzv. „regulačních poplatků“, zásadou bude spravedlnost a solidárnost, aby nebyli znevýhodněni chroničtí a sociálně slabší pacienti, zrušíme poplatek za recept
 ";}s:6:"lev-21";a:9:{i:8;s:115:"Tato otázka ještě vyžaduje důkladnější celospolečenskou diskusi. Jejímu otevření bychom se nebránili.
 ";i:10;s:406:"V případě udělování milostí navrhujeme vyloučit zejména právo „abolice“, tj. možnost, aby prezident republiky přikázal, že trestní řízení nebude zahájeno nebo se v něm nebude pokračovat. Právo individuální milosti „agraciace“ navrhujeme vázat na kontrasignaci ministrem spravedlnosti a právo hromadné milosti, tj. „amnestie“ vázat na kontrasignaci předsedy vlády.
@@ -39,4 +39,5 @@ a:5:{s:3:"ano";a:2:{i:20;s:388:"Ano ctí soukromé vlastnictví a princip, že t
 ";i:44;s:122:"Poplatky, které neplní čistě regulační funkci, ale zhoršují dostupnost zdravotní péče, by měly být zrušeny.
 ";i:45;s:117:"Otázka se ovšem netýká celostátní politiky, ježto podle rozhodnutí Ústavního soudu spadá pod samosprávy.
 ";i:47;s:158:"Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni.
+";}s:7:"kdu-csl";a:1:{i:12;s:56:"např. u ministerstev je tento požadavek iracionální
 ";}}

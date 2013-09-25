@@ -39,3 +39,4 @@ pirati	40	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, ne
 pirati	44	Poplatky, které neplní čistě regulační funkci, ale zhoršují dostupnost zdravotní péče, by měly být zrušeny.
 pirati	45	Otázka se ovšem netýká celostátní politiky, ježto podle rozhodnutí Ústavního soudu spadá pod samosprávy.
 pirati	47	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni.
+kdu-csl	12	např. u ministerstev je tento požadavek iracionální
