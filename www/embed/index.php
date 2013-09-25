@@ -57,11 +57,19 @@ foreach ($constit as $ckey=>$c) {
   );
 }
 
+$calc2013 = array(
+  array(
+    'name' => 'Volební kalkulačka 2013',
+    'friendly_url' => 'poslanecka-snemovna-2013/',
+    'selected' => true,
+  ),
+);
+
 $inventory2013 = array(
   array(
     'name' => 'Inventura hlasování 2010-2013',
     'friendly_url' => 'poslanecka-snemovna-2013-inventura-hlasovani/',
-    'selected' => true,
+    'selected' => false,
   ),
 );
 
@@ -92,6 +100,11 @@ $calcs = array(
   'all' => array(
     'name' => 'Celá VolebníKalkulačka.cz',
     'calc' => array(array('name'=>'VolebníKalkulačka.cz','friendly_url'=>'?')),
+  ),
+  
+  'calc2013' => array(
+    'name' => 'Názorový test volby 2013',
+    'calc' => $calc2013,
   ),
   
   'inventory2013' => array(

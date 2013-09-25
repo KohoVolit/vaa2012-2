@@ -63,6 +63,7 @@ $text = array(
   'dms_info' => 'podrobné info',
   'result_winner_computer' => 'Nejvíce se s Vámi shodují:',
   'result_winner_share' => 'Sdílej <span class="computer">výsledky </span>na Facebooku</span>',
+  'missing_table_description' => 'Následující strany <strong>na otázky zatím neodpověděly</strong>:',
   
   //COMPARE
   'compare_title' => 'Podrobné porovnání',

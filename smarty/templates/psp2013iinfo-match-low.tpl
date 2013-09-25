@@ -1,6 +1,6 @@
 	<div class="match-embed" >
 	
-	 <a data-role="button" data-theme="c" href={include "psp2013-match-facebook-link.tpl"}	  
+	 <a data-role="button" data-theme="c" href={include "psp2013vk-match-facebook-link.tpl"}	  
 		   target='_blank'><img src="../../image/fb_logo.png" 
 		   alt="Sdílej na Facebooku" />
 	<span class="match-fb-text">Sdílej <span class="computer">výsledky </span>na Facebooku</span></a>

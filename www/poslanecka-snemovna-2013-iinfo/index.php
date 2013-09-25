@@ -48,7 +48,7 @@ if (isset($_GET['partner'])) {
 		$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'u');
 	} 
 } else 
-$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u');
+$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'u');
 
 include("texts.php");
 

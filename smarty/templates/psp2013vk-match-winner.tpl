@@ -4,22 +4,28 @@
   
 	<div class="ui-block-a">
 	  <div class="match-winner-block">
-		<div><img src="../../image/psp2013/party/{$results[0].friendly_name}.png" width="155" height="155" alt="{$results[0].party_short_name}" title="{$results[0].party}" /></div>
-		<div class="match-winner-percentage"><span class="match-winner-percentage-number">{$results[0].result_percent}</span> %</div>
+	    <a href="../compare.php?{$query_string}&id={$results[0].id}&match={$results[0].result_percent}" data-rel="dialog" style="text-decoration:none">
+		  <div><img src="../../image/psp2013/party/{$results[0].friendly_name}.png" width="155" height="155" alt="{$results[0].party_short_name}" title="{$results[0].party}" /></div>
+		  <div class="match-winner-percentage"><span class="match-winner-percentage-number">{$results[0].result_percent}</span> %</div>
+		</a>
 	  </div>
 	</div>
 	
 	<div class="ui-block-b">
 	  <div class="match-winner-block">
-		<div><img src="../../image/psp2013/party/{$results[1].friendly_name}.png" width="155" height="155" alt="{$results[1].party_short_name}" title="{$results[1].party}" /></div>
-		<div class="match-winner-percentage"><span class="match-winner-percentage-number">{$results[1].result_percent}</span> %</div>
+	    <a href="../compare.php?{$query_string}&id={$results[1].id}&match={$results[1].result_percent}" data-rel="dialog" style="text-decoration:none">
+		  <div><img src="../../image/psp2013/party/{$results[1].friendly_name}.png" width="155" height="155" alt="{$results[1].party_short_name}" title="{$results[1].party}" /></div>
+		  <div class="match-winner-percentage"><span class="match-winner-percentage-number">{$results[1].result_percent}</span> %</div>
+		</a>
 	  </div>
 	</div>
 	
 	<div class="ui-block-c">
 	  <div class="match-winner-block">
-		<div><img src="../../image/psp2013/party/{$results[2].friendly_name}.png" width="155" height="155" alt="{$results[2].party_short_name}" title="{$results[2].party}" /></div>
-		<div class="match-winner-percentage"><span class="match-winner-percentage-number">{$results[2].result_percent}</span> %</div>
+	    <a href="../compare.php?{$query_string}&id={$results[2].id}&match={$results[2].result_percent}" data-rel="dialog" style="text-decoration:none">
+		  <div><img src="../../image/psp2013/party/{$results[2].friendly_name}.png" width="155" height="155" alt="{$results[2].party_short_name}" title="{$results[2].party}" /></div>
+		  <div class="match-winner-percentage"><span class="match-winner-percentage-number">{$results[2].result_percent}</span> %</div>
+		</a>
 	  </div>
 	</div>
 </div><!-- /grid-b -->
@@ -45,7 +51,7 @@
        alt="Sdílej na Facebooku" /><span class="match-fb-text">Sdílej <span class="computer">výsledky </span>na Facebooku</span>
 </a>-->
 
-	<a data-role="button" data-theme="c" href={include "psp2013-match-facebook-link.tpl"}	  
+	<a data-role="button" data-theme="c" href={include "psp2013vk-match-facebook-link.tpl"}	  
 		   target='_blank'><img src="../../image/fb_logo.png" 
 		   alt="{$text.result_share_results_on_facebook}" />
 	<span class="match-fb-text">{$text.result_winner_share}</a>

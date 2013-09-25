@@ -12,6 +12,7 @@ $smarty->setCacheDir('../../../smarty/cache');
 $smarty->setConfigDir('../../../smarty/configs');
 
 $parties_file = '../answers.json';
+$missing = '../noreply.json';
 
 
 //extract user values
@@ -19,6 +20,9 @@ $user = get_user_values();
 
 //read parties = candidates
 $candidates = json_decode(file_get_contents($parties_file));
+
+//read missing
+$missing = json_decode(file_get_contents($missing));
 
 
 //partners
@@ -52,13 +56,14 @@ $results = calc_match($user,$candidates);
 $url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $_SERVER['REQUEST_URI'] ;
 
 //winner color
-$winner_color[0] = party2color($results[0]['party']);
-$winner_color[1] = party2color($results[1]['party']);
-$winner_color[2] = party2color($results[2]['party']);
+//$winner_color[0] = party2color($results[0]['party']);
+//$winner_color[1] = party2color($results[1]['party']);
+//$winner_color[2] = party2color($results[2]['party']);
 
+$smarty->assign('missing', $missing);
 $smarty->assign('text', $text);
 $smarty->assign('partner', $partner);
-$smarty->assign('winner_color', $winner_color);
+//$smarty->assign('winner_color', $winner_color);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);

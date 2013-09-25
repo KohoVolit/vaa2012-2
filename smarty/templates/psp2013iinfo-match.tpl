@@ -26,7 +26,7 @@
 		{include "psp2013vk-match-sharer.tpl"}
 
 		<!-- feed -->		
-		
+		{include "psp2013iinfo-match-rss.tpl"}
 
 		<!-- winner block -->
 		{include "psp2013vk-match-winner.tpl"}
@@ -34,6 +34,12 @@
 	    <!-- table -->
 	    {include "psp2013vk-match-table.tpl"}
 	    <!-- /table -->
+	    
+	    <!-- missing -->
+		{if $missing|@count > 0}
+	      {include "psp2013vk-match-missing.tpl"}
+	    {/if}
+	    <!-- /missing -->
 	
 		<!-- lower part -->
 		{include "psp2013iinfo-match-low.tpl"}

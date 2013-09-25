@@ -831,10 +831,14 @@ color: #a21412;
   padding-bottom:.5em;
 }
 
+.match-winner-percentage {
+  color: #646464;
+  text-shadow: 0;
+  text-decoration:none;
+}
+
 .match-winner-percentage-number {
   font-size: 3em;
-  color: #646464;
-  text-shadow: 0
 }
 
 .match-fb-text {

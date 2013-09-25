@@ -160,6 +160,17 @@ foreach ($answers0 as $key=>$region) {
   $json = json_encode($data[$key]);
   fwrite($fout,$json);
   fclose($fout);
+  
+  //once more	*************************************
+  $dir = $path . 'poslanecka-snemovna-2013-iinfo/';
+   if(!file_exists($dir)) 
+     mkdir($dir);
+ 
+ 
+  $fout = fopen ($dir . 'answers.json', "w+");
+  $json = json_encode($data[$key]);
+  fwrite($fout,$json);
+  fclose($fout);
 }  
   
   print_r($data);
