@@ -65,7 +65,11 @@
     <div data-role="content" class="content">
     
       <!-- question -->
-      {include "psp2013vk-page-question.tpl"}
+      {if isset($question->description)}
+        {include "psp2013iinfo-page-question.tpl"}
+      {else}
+        {include "psp2013vk-page-question.tpl"}
+      {/if}
 	  <!-- /question -->
 	</div> <!-- /content -->	
 	

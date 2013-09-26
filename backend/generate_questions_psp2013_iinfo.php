@@ -22,7 +22,7 @@ $names = array(
  13 => 'podnikatel',
  14 => 'vitalia'
 );
-for ($k = 11; $k <=14; $k++) {
+for ($k = 11; $k <=11; $k++) {
     $out = array();
 	$i = 0;
 	//read questions
@@ -35,7 +35,7 @@ for ($k = 11; $k <=14; $k++) {
 	  //$region_code = 'prezident'; //trim($row_ar[0]);
 	  $id = $row_ar[0];
 	  $question = ((trim($row_ar[2]) != '') ? trim($row_ar[2]) : trim($row_ar[1]));
-	  //$description = trim($row_ar[3]);
+	  $description = trim($row_ar[3]);
 	  $name = trim($row_ar[1]);
 	  $order = trim($row_ar[$k]);
 	  //$id_division = trim($row_ar[7]);
@@ -45,7 +45,7 @@ for ($k = 11; $k <=14; $k++) {
 		  $out[] = array(
 			'id' => $id,
 			'name' => $name,
-			//'description' => $description,
+			'description' => $description,
 			'question' => $question,
 			'order' => $order,
 			//'id_division' => $id_division,

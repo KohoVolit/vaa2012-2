@@ -52,6 +52,8 @@ $partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'sw
 
 include("texts.php");
 
+//print_r($questions);die();
+
 $smarty->assign('text',$text);
 $smarty->assign('partner',$partner);
 $smarty->assignByRef('questions', $questions);
