@@ -1,42 +1,79 @@
+ano	1	Jsme ochotni k diskuzi nad progresivními sazbami, ale ty musí jít v ruku v ruce se stropy na zdravotní a sociální pojištění. Stát musí před jejich zavedením nejprve prokázat, že je dobrým hospodářem a že daně účelně využije. Taková situace zatím není. 
 ano	20	Ano ctí soukromé vlastnictví a princip, že to co se ukradlo, má být vráceno. Domníváme se též, že řádně schválené zákony nemohou být vzaty zpět. Restituce sice přišly v nejnevhodnější dobu, ale mají být naplněny. Nová vláda by ovšem měla znovu jednat o výši finančního odškodnění a církvím by neměla být odpuštěna daň z prodeje nemovitostí.
+ano	36	V ČR se téměř žádné vyrábí, není tedy prakticky co omezovat.
 ano	44	Budeme prosazovat zásadní změnu systému tzv. „regulačních poplatků“, zásadou bude spravedlnost a solidárnost, aby nebyli znevýhodněni chroničtí a sociálně slabší pacienti, zrušíme poplatek za recept
+lev-21	1	Chceme obnovit systém progresivního zdanění u občanů s nejvyššími příjmy a zvýšit majetkové daně z nejvyšších majetků. Důležitá je pro nás také férovost daňového systému. Plánujeme zavést dvě či tři sazby daně z příjmů právnických osob pro podniky s rozdílnou velikostí a tržní silou.
+lev-21	4	Tento konkrétní problém v našem programu neřešíme. Těžko si ale umíme představit, že bychom jako demokratická strana zakazovali duchovní stavby. 
+lev-21	6	Další rozvoj jaderné energetiky v ČR budeme vázat na nové důkladné a kritické zhodnocení tohoto způsobu získávání energie i z hlediska ekonomické náročnosti (maximálně dostavba Temelína, prodloužení životnosti Dukovan, nerozšiřovat již další neekonomickou těžbu uranu v ČR).
 lev-21	8	Tato otázka ještě vyžaduje důkladnější celospolečenskou diskusi. Jejímu otevření bychom se nebránili.
 lev-21	10	V případě udělování milostí navrhujeme vyloučit zejména právo „abolice“, tj. možnost, aby prezident republiky přikázal, že trestní řízení nebude zahájeno nebo se v něm nebude pokračovat. Právo individuální milosti „agraciace“ navrhujeme vázat na kontrasignaci ministrem spravedlnosti a právo hromadné milosti, tj. „amnestie“ vázat na kontrasignaci předsedy vlády.
 lev-21	13	Máme vypracovaný zcela konkrétní plán boje proti sociálnímu vyloučení. Jsme zastánci konkrétních, dlouhodobých a smysluplných řešení. Současná situace může brzy vypuknout v těžko zvládnutelný problém. 
+lev-21	15	Soustředění všech korupčních a dalších závažných hospodářských kauz na jedno místo může být nebezpečné. Jakkoliv můžeme věřit v neuplatitelnost elitních státních zástupců, je to riziko. Neumíme si představit, co by se dělo ve chvíli, kdy by pravomoci svěřené tomuto úřadu někdo začal v budoucnosti zneužívat. Nehledě pak na to, že v soustavě české policie ani justice neexistuje žádný protějšek takového úřadu.
+lev-21	16	Navrhujeme zavést nulovou sazbu DPH pro dětské oblečení, obuv, pleny a další potřeby pro děti a učební pomůcky a hračky. Považujeme to za dobré opatření pro růst populace a úlevu pro rodiny s dětmi. 
+lev-21	18	V našem programu se touto otázkou konkrétně nezabýváme. Do budoucna lze o takovém opatření uvažovat, ale nyní by to vzhledem ke kondici české ekonomiky mohlo být kontraproduktivní. 
 lev-21	24	V této otázce jsme přesvědčeni, že by měli spolurozhodovat občané, kterých se tato otázka bezprostředně týká, tedy občané v krajích. K tomu bychom využili krajského referenda. Až po výroku občanů by mělo smysl hovořit o zachování či prolomení limitů těžby. 
 lev-21	31	Nebráníme se ale účastnit se celospolečenské diskuse. Rozhodně podporujeme legalizaci marihuany pro léčebné účely.
+lev-21	32	Chtěli bychom posílit funkci Českomoravské záruční a rozvojové banky (ČMZRB) jako státní rozvojové banky např. pro rozvoj podnikání, inovací či bytové výstavby
+lev-21	41	Stanovení spoluúčasti pacienta na poskytování zdravotní péče může být pouze v oblasti nezdravotních služeb (platba formou poplatku za pobyt ve zdravotnickém zařízení, za stravu).
 lev-21	47	Určení konkrétní částky bez předchozích analýz, ke kterým nemáme potřebná data, by bylo neodpovědné. Určitě jsme ale pro postupné zvýšení minimální mzdy. 
 lev-21	48	Nízká účast žen v zastupitelských orgánech prokazuje, že u nás nedochází k naplnění pasivního volebního práva. Ideálním nástrojem, jak ústavu skutečně i v tomto bodu naplnit, je nastavení systémů kvót. Ženské zkušenosti a pohled na věc jsou podle nás v politickém životě velmi potřebné. 
+lev-21	52	Mimo závazků plynoucích z mezinárodních smluv, jejichž jsme součástí, a závazků plynoucích z našeho členství v různých mezinárodních společenstvích. 
 lev-21	55	Nepřejeme si pokračování tzv. II. pilíře důchodového systému, ale uvědomujeme si, že jeho prosté zrušení není možné. Máme proto připraven takový plán, který umožní zachování II. pilíře důchodového systému, ale dá jeho účastníkům jistotu, že budou moci z tohoto pilíře vystoupit nebo že nepřijdou o své naspořené peníze např. v důsledku krachu penzijního fondu.
-lev-21	60	U ekologických paliv (s vyšší příměsí biosložky, lihu, případně jiných ekologicky méně závadných příměsí) navrhujeme zachovat nižší spotřební daně. Povinnost přidávání biosložek do paliv v našem programu neřešíme.
+lev-21	59	Podporujeme zejména vznik firemních školek a jeslí, což by mělo pomoci ulevit současné situaci s nedostatkem míst ve školkách. Zvýšení dostupnosti předškolních zařízení spolu s vhodnými formami podpory rodičovství jsou mimo jiné i prevencí absence žen s dětmi na trhu práce. 
+lev-21	60	U ekologických paliv (s vyšší příměsí biosložky, lihu, případně jiných ekologicky méně závadných příměsí) navrhujeme zachovat nižší spotřební daně. Povinnost přidávání biosložek do paliv v našem programu neřešíme. 
+lev-21	61	 Navrhujeme uskutečnit reformu učňovského a technického školství, a to ve spolupráci s podnikatelskou sférou a zejména na její "objednávku".
+lev-21	64	Nestanovujeme dopředu žádnou konkrétní částku, ale principiálně budeme usilovat o zefektivnění boje s lichvou novelizací již přijaté legislativy a stanovením oprávněné výše exekučních nákladů (zastavení exekuční spirály a vyplácení nemravně vysokého příslušenství nenáležejícího věřitelům). 
+lev-21	65	Nemáme v programu stanoveno. Nemáme analyzované dopady takového rozhodnutí, proto dopředu nechceme říkat jasné ano či ne.
 svobodni	5	S přímou volbou nepočítá stavba dělby moci. Prezident se přímou volbou stal čtvrtou mocí vedle zákonodárné, výkonné a soudní, neboť nově nevychází z vůle Parlamentu, ale je volen nezávisle.
 svobodni	8	Otázka hovoří o „zavedení“. Pokud by to znamenalo, že člověk se může rozhodnout se sám zabít a kdokoliv mu s tím (jako s čímkoliv jiným) může pomoci, potom ano. Pokud by to znamenalo, že za určitých podmínek může jeden člověk zabít jiného (ať se tomu říká eutanázie či jinak), potom ne.
+svobodni	16	Svobodní chtějí snižování daní. Pokud by se podařilo dosáhnout efektivního zrušení DPH při zachování vyrovnaného státní rozpočtu, jsme rozhodně pro. V programu prozatím navrhujeme sjednocení DPH na EU-minimu, tedy na 15 %
 svobodni	21	Otázka je zjevně o jedné formě referenda – lidové iniciativě. Tu Svobodní odmítají. Svobodní však podporují tzv. „opravné referendum“ (lidové veto) - tedy případ, kdy by občané mohli v referendu parlamentem přijatý zákon zamítnout.
 svobodni	23	Adopci dětí Svobodní nepovažují za právo, ale za způsob jak se sirotek může stát součástí rodiny. S manželstvím, jako státní institucí, má pramálo společného.
 svobodni	26	Existuje několik druhů referend. Svobodní podporují opravné referendum (lidové veto) a obligatorní referendum (tj. v případech, kdy je povinné ze zákona). Svobodní nepodporují lidovou iniciativu (jako v otázce 21) ani fakultativní referendum (když se pro referendum rozhodne vláda, protože si sama netroufá rozhodnout – v takovém případě by měla místo vyhlášení referenda rezignovat).
+svobodni	38	I dnes na takovou záležitost přeci mohou učinit zprostředkovaně podáním trestního oznámení či (nejspíše po volbách - tedy po změně obsazení zastupitelského sboru) žalobou na náhradu škody (způsobené obci protiprávním jednáním).
 svobodni	48	Tato otázka je vnitřně rozporná. Buď je funkce volená a potom o složení voleného sboru rozhodnou voliči. Pokud je stanovena kvóta, je možnost volby omezena a rozhodně nemůže jít o čistě volenou funkci.
 svobodni	49	Mělo by být na pacientovi a pojistníkovi (účastnících smlouvy) zda zvýhodní určité chování pojištěného (pacienta). Svobodní jsou proti současnému systému financování socialistického zdravotnictví, který je skryt za nesprávným označením „veřejné zdravotní pojištění“ (nejde o pojištění, ale o daň z příjmu nazvanou „pojištění“). Pokud si takovou věc smluví pojištěnec s pojišťovnou, potom zní otázka ano. Pokud jde o výběr daně (dnešní zdravotní pojištění), potom ne.
+svobodni	50	Svobodní jsou pro zrušení dotování politických stran ze státního rozpočtu. Dokud jsou strany dotované ze státního rozpočtu, je naše odpověď ano. Pokud by se podařilo dosáhnout zrušení státního dotování politických stran, je naše odpověď ne - v takovém případě by se za své hospodaření měli funkcionáři strany zodpovídat jen členům a dárcům a strana jako taková jen voličům. To také znamená, že by se sama měla rozhodnout, zda a v jaké míře své hospodaření zveřejní - stejně jako je na rozhodnutí voličů, zda jí dají svůj hlas.
 svobodni	56	Stát by neměl mít majetkovou účast v žádném podniku. Majetková účast v podniku totiž není výkonem veřejné správy.
-svobodni	12	např. u ministerstev je tento požadavek iracionální
+svobodni	63	Nepovažujeme za nutné zřizovat kvůli tomu nějaký registr. Prostě by takové smlouvy měly být veřejné. A mělo by jich být co nejméně.
+svobodni	64	Opět máme jiné řešení. Vaše anketa předpokládá, že všechny politické strany přinášejí řešení ve smyslu pozitivního práva. Svobodní jsou přesvědčeni, že přirozeně nízkých cen za služby exekutorů a právníků lze dosáhnout soutěží.
 top-09	9	Termín přijetí eura musí být výhodné pro stát. Přijetí eura je krokem, který přinese více užitku než nákladů. Je nutné pečlivě analyzovat vhodný okamžik vstupu vzhledem k vývoji ekonomik zemí eurozóny a ČR. Při jednání o novelizovaných regulačních pravidlech eurozóny budeme důsledně hájit národní zájmy.
+top-09	15	Domníváme se, že zřizovat celý nový úřad nepovede k efektivitě. Dostačující mechanismus je například zavedení institutu vyšetřujícího soudce. Ten bude mít nezávislou pravomoc nad procesem trestního řízení, budou před něj přestupovat všechny strany řízení a jeho úkolem bude garance důsledného vyšetřování na straně jedné a plné ochrany před možnou zvůlí výkonné moci na straně druhé.
 top-09	17	Tuto problematiku nám odhalí v krátké budoucnosti evropská směrnice, kterou budeme posléze harmonizovat do našeho právního řádu. TOP 09 v tomto klade především důraz na prevenci.
 top-09	27	Odměny autorům lze odvádět i jinou formou.
 top-09	31	S výjimkou pro nemocné lidi, kteří již nyní mohou zcela beztrestně a bez hrozby jakýchkoliv sankcí využít pro svoji léčbu také výrobky obsahující konopí.
 top-09	34	Pouze u takových akciových společností, které se ucházejí o veřejné finance.
 top-09	40	Ano, ale jen u veřejných funkcionářů
-top-09	44	Toto opatření by paradoxně mělo tvrdý dopad na zaměstnanost.
+top-09	42	Trestněprávní odpovědnost by měl mít provozovatel/poskytovatel
+top-09	47	Toto opatření by paradoxně mělo tvrdý dopad na zaměstnanost.
+top-09	53	Rodička si ovšem musí uvědomit, že s domácími porody nese vysokou míru odpovědnosti vůči sobě a vůči dítěti.
+top-09	59	Dostupnost pro všechny děti od 3 do 6 let v mateřské školce, eventuálně dětské skupině.
+top-09	61	Ne na úkor, je nutné vyčlenit zdroje z evropských fondů pro rozvoj učňovského školství. Požadovat vyšší zapojení soukromé sféry do spolupráce škol a zvýšení podílu praktické výuky. Chceme zohledňovat požadavky regionálních zaměstnavatelů a do programu zahraničních stáží více zahrnout i žáky učebních oborů.
+pirati	1	Otázka nesmyslně spojuje zdanění fyzických a právnických osob. Proto se na ni nedá smysluplně odpovědět. 
+pirati	6	Podporujeme výzkum a vývoj v oblasti jaderné energetiky, ale odmítáme dotace a státní garance pro jaderné elektrárny. 
 pirati	7	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni.
 pirati	8	Umožníme člověku rozhodnout, že v případě nevyléčitelného vážného  onemocnění spojeného s utrpením nechce být uměle udržován při životě na přístrojích a lécích, aby mohl důstojně zemřít.
 pirati	9	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni. Pirátská strana obecně podporuje, aby o otázkách jako je přijetí Eura proběhlo referendum.
+pirati	15	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni. 
 pirati	17	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni. 
 pirati	20	Nepovažujeme za legitimní, když jsou zákony schvalovány přímou politickou korupcí. Takové zákony chceme revidovat. 
+pirati	22	V případě, že jsou pouze na předpis a nejsou volně prodejné. 
 pirati	23	Přijde nám hloupé, aby se člověk nemohl stát adoptivním rodičem jen proto, že uzavřel registrované partnerství. 
 pirati	25	Významná menšina členů Pirátské strany prosazuje vystoupení z NATO, Pirátská strana prosazuje, aby o našem působení v NATO rozhodlo referendum.
+pirati	28	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni. 
 pirati	30	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni.
 pirati	35	Pirátská strana bere na vědomí členství ČR v Evropské unii (EU) a skrze  ně usiluje o její zásadní demokratizaci. Podporujeme rozhodování o  záležitostech EU v první řadě Evropským parlamentem. Podporujeme takové  změny, které povedou k posílení role přímé demokracie. Na všech úrovních  prosazujeme přímé volby, odvolatelnost volených zástupců a úředníků,  zákonodárná referenda, i veta jednotlivých směrnic referendem. V EU budeme ve spolupráci s ostatními Pirátskými stranami hájit svobodný pohyb lidí, zboží, služeb a informací a oponovat byrokracii,  centralizaci a nesmyslným dotacím. Budeme bourat všechny překážky, které  lidem brání ve svobodném pohybu, obchodu a rozhodování.
 pirati	37	Formou dostupného Internetu ve veřejných knihovnách a jiných veřejných institucích a zajištěním dostupnosti internetového připojení v odlehlých oblastech, v případě, že ho nezajistí soukromý sektor.
 pirati	40	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni.
+pirati	41	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni. 
 pirati	44	Poplatky, které neplní čistě regulační funkci, ale zhoršují dostupnost zdravotní péče, by měly být zrušeny.
 pirati	45	Otázka se ovšem netýká celostátní politiky, ježto podle rozhodnutí Ústavního soudu spadá pod samosprávy.
 pirati	47	Odpověď vychází z vnitrostranické ankety mezi členy Pirátů, nevychází přímo z Pirátského programu a poslanci Pirátů jí tedy nejsou vázáni.
+pirati	52	O účasti našich vojáků na vojenských misích by měli rozhodovat občané v referendu.
+pirati	62	Stát má i jiné možnosti, jak zajistit potřebnou proočkovanost populace. Například pomocí informačních kampaní. 
+pirati	64	Jde o dluhy spotřebitelů, nikoliv mezi podnikateli. Strop by měl být stanoven i u dalších částek v závislosti na výši jistiny.
+kdu-csl	1	nelze zodpovědět, jsme pro progresi pouze u DPFO. Pro DPPO neplánujeme.
+kdu-csl	6	je věcně nesprávné, jaderná energetika dnes není státem dotovaná.
 kdu-csl	12	např. u ministerstev je tento požadavek iracionální
+kdu-csl	14	není jasné jaké poplatky máte na mysli, školné odmítáme, ale poplatky za druhou vysokou školu nebo prodloužení studia podporujeme
+ods	61	pouze za předpokladu - že bude jako podpora ve formě daňových úlev pro firmy, které budou učně vychovávat ve svých podnicích a na svých strojích a zařízeních
