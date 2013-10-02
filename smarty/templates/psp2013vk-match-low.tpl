@@ -9,7 +9,7 @@
     	<h3>Vložit kalkulačku k sobě na web</h3>
             <div data-role="fieldcontain">
 				<p>Vložte kód HTML (standardní Volební kalkulačka):</p>
-					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013/?key=result_inventura" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
+					<textarea data-role="none" cols="40" rows="3" name="textarea" id="textarea"><iframe src="http://volebnikalkulacka.cz/poslanecka-snemovna-2013/?key=result_vk" width="650" height="550" frameborder="0" ></iframe></textarea><br/>
 				V <a href="/embed" data-ajax="false">detailním výběru kalkulaček</a> si můžete vybrat jakou kalkulačku vložit (Inventura, Volební kalkulačka) i její velikost (standardní, mobilní)
 			</div>  <!-- /fieldcontain --> 
 	  </div> <!-- /collapsible -->
@@ -21,6 +21,16 @@
 	    Jak poslanci skutečně hlasovali zjistíte v
 	    <div style="font-size:1.2em">Inventuře hlasování 2010-2013</div> 
 	  </a>
+	  <div data-role="controlgroup" style="margin-top:1em;">
+	      <a href="http://blablanevolim.cz/" data-role="button" data-theme="c" data-icon="arrow-r" data-iconpos="right" target="_blank">
+	        <div style="font-size:.8em">Seznam kandidátů, dle toho jak podporují </div>
+	        <div>8 konkrétních protikorupčních zákonů.</div>
+	      </a>
+	      <a href="http://www.nasipolitici.cz/cs/volby/5-volby-do-poslanecke-snemovny-parlamentu-cr-2013 " data-role="button" data-theme="c" data-icon="arrow-r" data-iconpos="right" target="_blank">
+	        <div style="font-size:.8em">Podrobné info o kandidátech na</div>
+	        <div>NašiPolitici.cz</div>
+	      </a>
+	  </div>
 	</div>
 
 

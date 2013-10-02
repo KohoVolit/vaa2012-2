@@ -52,6 +52,7 @@ if(isset($_REQUEST['id']) and
   } 
 }
 $mps = array_reverse($mps);
+//print_r($mps);die();
 
 $smarty->assign('details',$details);
 $smarty->assign('text',$text);

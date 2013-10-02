@@ -17,7 +17,14 @@ $parties_0 = (array) json_decode(file_get_contents("no.json"));
 
 //print_r($data);die();
 
+if (isset($_GET['filter'])) {
+  $filter = urldecode($_GET['filter']);
+} else
+  $filter = false;
 
+//echo $filter; die();
+
+$smarty->assign('filter',$filter);
 $smarty->assign('parties_maybe',$parties_maybe);
 $smarty->assign('parties_0',$parties_0);
 $smarty->assign('data',$data);

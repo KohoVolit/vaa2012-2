@@ -16,6 +16,16 @@
 </head>
 <body>
 <div data-role="page" class="type-home">
+   {if ($filter !== false)}
+    <script>
+      $(document).on('pageinit', function () {
+        var filter_el = $(".ui-input-text");
+        var filter_val = filter_el.val();
+        $(".ui-input-text").val("{$filter}");
+        $(".ui-input-text").trigger("change");
+      });
+    </script>
+    {/if}
 
 	<div data-role="header" data-theme="g" class="header">
 	   <a href="/" data-role="button" data-icon="home" data-iconpos="notext">{$text.calc1}</a>
@@ -34,7 +44,7 @@
 
 	<div data-role="content" style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;">
 	  <h2>{$text.title_plural}</h2>
-	    <ul data-role="listview"  data-filter="true" data-filter-theme="e" data-filter-placeholder="{$text.filter}" data-inset="true">
+	    <ul data-role="listview"  data-filter="true" data-filter-theme="e" data-filter-placeholder="{$text.filter}" data-inset="true" id="list">
 	  {foreach $data as $key=>$region}
 	    {foreach $region->candidate as $party}
 	      {if ($party->value == 1)}

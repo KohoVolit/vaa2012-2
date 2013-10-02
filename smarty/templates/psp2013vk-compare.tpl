@@ -29,7 +29,13 @@
     </div><!-- /header -->
     
     <div data-role="content" class="question-background" data-theme="a">
-      <div><span class="ui-icon ui-icon-info ui-icon-shadow"> </span>
+      <div>
+        <a href="../kandidatky-volby-2013/?filter={$mps[0]->party_short_name|@urlencode}" data-role="button" data-icon="info" data-theme="c" target="_blank">
+        {$text.compare_candidate_lists} {$mps[0]->party}
+        </a>
+      </div>
+    
+      <div>
         {$text.compare_note}
       </div>
       <table class="compare-table">

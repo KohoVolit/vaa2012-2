@@ -67,11 +67,12 @@ $text = array(
   
   //COMPARE
   'compare_title' => 'Podrobné porovnání',
-  'compare_header' => 'Srovnání',
-  'compare_note' => 'Porovnávat můžete i dvě strany, posledně vybranou si aplikace pamatuje.',
+  'compare_header' => 'Info a srovnání',
+  'compare_note' => 'Porovnávat můžete i dvě strany, posledně vybranou si aplikace pamatuje:',
   'compare_question' => 'Otázka',
   'compare_my_vote' => 'Můj hlas',
   'close' => 'Zavřít',
+  'compare_candidate_lists' => 'Kandidátní listiny:',
   
   
   
