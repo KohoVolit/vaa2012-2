@@ -30,7 +30,7 @@
 	  <h6>&nbsp;</h6>
 	</div>
 
-	<div data-role="content" style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;">
+	<div data-role="content" style="margin-left: auto;margin-right: auto;max-width: 500px;color:#888;text-align:center;"  id="type-home-frontpage">
 	
 	
 	

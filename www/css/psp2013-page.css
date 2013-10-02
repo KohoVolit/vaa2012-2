@@ -472,6 +472,13 @@ color: #a21412;
   }
 }
 
+/*frontpage width*/
+@media all and (max-width: 1100px) and (min-width: 600px){
+  #type-home-frontpage {
+    width: 60%;
+  }
+}
+
 @media all and (max-width: 700px){
   #mtopLeft {
     display: none;
