@@ -5,7 +5,7 @@
 
 session_start();
 
-include("texts.php");
+
 
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
@@ -16,9 +16,33 @@ $smarty->setCompileDir('../../smarty/templates_c');
 $smarty->setCacheDir('../../smarty/cache');
 $smarty->setConfigDir('../../smarty/configs');
 
-$parties_file = './answers.json';
+
+//partners
+if (isset($_GET['partner'])) {
+	switch ($_GET['partner']) {
+	  case 'mesec': 
+		$partner = array('name'=>'mesec','swatch_bar' => 'v', 'swatch_footer' => 'r', 'swatch_question_body' => 'v', 'swatch_progressbar' => 'v', 'answers' => '');
+		break;
+	  case 'podnikatel':
+		$partner = array('name'=>'podnikatel','swatch_bar' => 'w', 'swatch_footer' => 'r', 'swatch_question_body' => 'w', 'swatch_progressbar' => 'w', 'answers' => '_podnikatel');
+		break;
+	  case 'vitalia':
+		$partner = array('name'=>'vitalia','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'x', 'swatch_progressbar' => 'x', 'answers' => '');
+		break;
+	  default:
+		$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u', 'answers' => '');
+	} 
+} else 
+$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u', 'answers' => '');
+
+$parties_file = './answers'.$partner['answers'].'.json';
 //read parties = candidates = mps
 $candidates = json_decode(file_get_contents($parties_file));
+
+include("texts.php");
+
+$details = unserialize(file_get_contents("details".$partner['answers']."_ser.txt"));
+  //print_r($details);die();
 
 //extract user values
 $user = get_user_values();
@@ -55,7 +79,7 @@ if(isset($_REQUEST['id']) and
 }
 $mps = array_reverse($mps);
 
-
+$smarty->assign('details',$details);
 $smarty->assign('text',$text);
 $smarty->assign('user',$user);
 $smarty->assign('mps',$mps);

@@ -11,37 +11,39 @@ $smarty->setCompileDir('../../../smarty/templates_c');
 $smarty->setCacheDir('../../../smarty/cache');
 $smarty->setConfigDir('../../../smarty/configs');
 
-$parties_file = '../answers.json';
-$missing = '../noreply.json';
-
 
 //extract user values
 $user = get_user_values();
 
-//read parties = candidates
-$candidates = json_decode(file_get_contents($parties_file));
 
-//read missing
-$missing = json_decode(file_get_contents($missing));
 
 
 //partners
 if (isset($_GET['partner'])) {
 	switch ($_GET['partner']) {
 	  case 'mesec': 
-		$partner = array('name'=>'mesec','swatch_bar' => 'v', 'swatch_footer' => 'r', 'swatch_question_body' => 'v', 'swatch_progressbar' => 'v');
+		$partner = array('name'=>'mesec','swatch_bar' => 'v', 'swatch_footer' => 'r', 'swatch_question_body' => 'v', 'swatch_progressbar' => 'v', 'answers' => '');
 		break;
 	  case 'podnikatel':
-		$partner = array('name'=>'podnikatel','swatch_bar' => 'w', 'swatch_footer' => 'r', 'swatch_question_body' => 'w', 'swatch_progressbar' => 'w');
+		$partner = array('name'=>'podnikatel','swatch_bar' => 'w', 'swatch_footer' => 'r', 'swatch_question_body' => 'w', 'swatch_progressbar' => 'w', 'answers' => '_podnikatel');
 		break;
 	  case 'vitalia':
-		$partner = array('name'=>'vitalia','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'x', 'swatch_progressbar' => 'x');
+		$partner = array('name'=>'vitalia','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'x', 'swatch_progressbar' => 'x', 'answers' => '');
 		break;
 	  default:
-		$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u');
+		$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u', 'answers' => '');
 	} 
 } else 
-$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u');
+$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u', 'answers' => '');
+
+$parties_file = '../answers'.$partner['answers'].'.json';
+$missing = '../noreply'.$partner['answers'].'.json';
+
+//read parties = candidates
+$candidates = json_decode(file_get_contents($parties_file));
+
+//read missing
+$missing = json_decode(file_get_contents($missing));
 
 include("../texts.php");
 

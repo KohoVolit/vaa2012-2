@@ -19,7 +19,7 @@ $path = '../www/';
 $names = array(
  11 => 'lupa',
  12 => 'mesec',
- 13 => 'podnikatel',
+ 13 => 'xxx', //13 => 'podnikatel',
  14 => 'vitalia'
 );
 for ($k = 11; $k <=11; $k++) {

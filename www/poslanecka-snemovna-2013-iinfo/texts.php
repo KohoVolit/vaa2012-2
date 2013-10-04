@@ -90,6 +90,7 @@ $text = array(
   'compare_question' => 'Otázka',
   'compare_my_vote' => 'Můj hlas',
   'close' => 'Zavřít',
+  'compare_candidate_lists' => 'Kandidátní listiny:',
   
   
   
