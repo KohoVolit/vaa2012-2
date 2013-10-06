@@ -39,32 +39,7 @@
 		<p>Nejužitečnějších 5 minut před volbami.</p>
 
 	
-	 <!-- dms 1 -->		
-	<div id="dms" class="computer">
-  		<div id="dms-inside" class="computer ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-c"> 
-		  <img src="./image/psp2013/dms.png" alt="DMS" title="DMS KOHOVOLIT na 87777" />
-		  <div id="dms-inside-inside" >
-		    <h3>Podpořte tvorbu nezávislých Volebních kalkulaček</h3>
-		    Pošlete SMS na číslo <strong>87777</strong> s textem:<br/>
-		    <strong>DMS KOHOVOLIT</strong> <br/>
-		    <span class="small">(cena 30Kč, z toho 27Kč pro sdružení KohoVolit.eu)<br/></span>
-			<strong>DMS ROK KOHOVOLIT</strong> <br/>
-			<span class="small">(viz předchozí, automaticky každý měsíc po 1 rok)</span> <br/>
-			<span class="right small"><a href="/support/">podrobné info -></a></span> <br/>
-			<p><strong>Děkujeme!</strong></p>
-		  </div>
-	  </div>
-	</div>
-		<div id="dms-mobile" data-role="popup" class="mobile ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e">
-			<h3>Podpořte Volební kalkulačku</h3>
-			SMS na číslo <strong>87777</strong><br/>
-			<strong>DMS KOHOVOLIT</strong><br/>
-			nebo<br/>
-			<strong>DMS ROK KOHOVOLIT</strong><br/>
-			(cena 30Kč, resp. 12x30Kč)<br/>
-			Děkujeme!
-		</div> 
-<!-- /dms 1 -->
+
 
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					<li  data-theme="s">
@@ -171,7 +146,32 @@
 	  
 	  		
 
-			  
+	 <!-- dms 1 -->		
+	<div id="dms" class="computer">
+  		<div id="dms-inside" class="computer ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-c"> 
+		  <img src="./image/psp2013/dms.png" alt="DMS" title="DMS KOHOVOLIT na 87777" />
+		  <div id="dms-inside-inside" >
+		    <h3>Podpořte tvorbu nezávislých Volebních kalkulaček</h3>
+		    Pošlete SMS na číslo <strong>87777</strong> s textem:<br/>
+		    <strong>DMS KOHOVOLIT</strong> <br/>
+		    <span class="small">(cena 30Kč, z toho 27Kč pro sdružení KohoVolit.eu)<br/></span>
+			<strong>DMS ROK KOHOVOLIT</strong> <br/>
+			<span class="small">(viz předchozí, automaticky každý měsíc po 1 rok)</span> <br/>
+			<span class="right small"><a href="/support/">podrobné info -></a></span> <br/>
+			<p><strong>Děkujeme!</strong></p>
+		  </div>
+	  </div>
+	</div>
+		<div id="dms-mobile" data-role="popup" class="mobile ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c ui-bar-e">
+			<h3>Podpořte Volební kalkulačku</h3>
+			SMS na číslo <strong>87777</strong><br/>
+			<strong>DMS KOHOVOLIT</strong><br/>
+			nebo<br/>
+			<strong>DMS ROK KOHOVOLIT</strong><br/>
+			(cena 30Kč, resp. 12x30Kč)<br/>
+			Děkujeme!
+		</div> 
+<!-- /dms 1 -->			  
 
 
 
