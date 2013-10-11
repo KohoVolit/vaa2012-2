@@ -7,7 +7,7 @@ $text = array(
    'info' => 'Info',
    //PAGE
    //header
-  'page_header_desktop' => "Volební kalkulačka 2013",
+  'page_header_desktop' => "Rozšířená volební kalkulačka 2013 (beta)",
   'page_header_mobile' => 'Otázka ',
   //question
   'page_question_yes' => 'ANO',

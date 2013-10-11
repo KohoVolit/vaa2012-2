@@ -89,7 +89,7 @@
 						  echo '<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false"  style="color:#888;">';
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
-					  <h2>Rozšířený názorový test pro volby 2013</h2>
+					  <h2>Rozšířený názorový test pro volby 2013 (β)</h2>
 					  <p class="ui-li-desc">80 otázek! Shoda s názory kandidujících stran.</p>
 					</a>
 					</li>
