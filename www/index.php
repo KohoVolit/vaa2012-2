@@ -46,7 +46,7 @@
 					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
 					  <?php 
 					    //research
-						$rand=rand(0,9);
+						$rand=rand(0,19);
 						if ($rand == 0)
 						  echo '<a href="poslanecka-snemovna-2013/kalkulacka-vyzkum.php" data-rel="dialog">';
 						else
@@ -64,7 +64,7 @@
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
 					  <?php 
 					    //research
-						$rand=rand(0,9);
+						$rand=rand(0,19);
 						if ($rand == 0)
 						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/kalkulacka-vyzkum.php" data-rel="dialog">';
 						else
@@ -76,7 +76,24 @@
 					</a>
 					</li>
 	</ul>
-   
+	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
+					
+					<li  data-theme="c">
+					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
+					  <?php 
+					    //research
+						$rand=rand(0,19);
+						if ($rand == 0)
+						  echo '<a href="poslanecka-snemovna-2013-ultimate/kalkulacka-vyzkum.php" data-rel="dialog">';
+						else
+						  echo '<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false">';
+					  ?> 
+					  <img src='./image/cz.png' width="67" height="80">
+					  <h2>Rozšířený názorový test pro volby 2013</h2>
+					  <p class="ui-li-desc">80 otázek! Shoda s názory kandidujících stran.</p>
+					</a>
+					</li>
+	</ul>   
 
 
 

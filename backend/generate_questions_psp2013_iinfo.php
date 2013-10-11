@@ -22,7 +22,7 @@ $names = array(
  13 => 'xxx', //13 => 'podnikatel',
  14 => 'vitalia'
 );
-for ($k = 11; $k <=11; $k++) {
+for ($k = 12; $k <=12; $k++) {		//*******************
     $out = array();
 	$i = 0;
 	//read questions

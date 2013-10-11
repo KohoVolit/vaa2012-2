@@ -10,8 +10,9 @@ foreach ($fin as $row) {
 }
 
 $fouts = array(
-	"../www/poslanecka-snemovna-2013/details_ser.txt",
-	"../www/poslanecka-snemovna-2013-iinfo/details_ser.txt",
+	"../www/poslanecka-snemovna-2013/details_ser_1.txt",
+	//"../www/poslanecka-snemovna-2013-iinfo/details_ser_1.txt",
+	
 );
 foreach ($fouts as $fout) {
   $f = fopen($fout, "w+");

@@ -156,7 +156,7 @@ foreach ($answers0 as $key=>$region) {
      mkdir($dir);
  
  
-  $fout = fopen ($dir . 'answers.json', "w+");
+  $fout = fopen ($dir . 'answers_1.json', "w+");
   $json = json_encode($data[$key]);
   fwrite($fout,$json);
   fclose($fout);
@@ -167,7 +167,7 @@ foreach ($answers0 as $key=>$region) {
      mkdir($dir);
  
  
-  $fout = fopen ($dir . 'answers.json', "w+");
+  $fout = fopen ($dir . 'answers_1.json', "w+");
   $json = json_encode($data[$key]);
   fwrite($fout,$json);
   fclose($fout);
