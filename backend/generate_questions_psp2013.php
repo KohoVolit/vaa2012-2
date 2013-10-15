@@ -11,7 +11,7 @@ $file = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dDhxT3FFU
 //cs
 $directory = 'poslanecka-snemovna-2013/';
 //cs ultimate
-$directory = 'poslanecka-snemovna-2013-ultimate/';
+//$directory = 'poslanecka-snemovna-2013-ultimate/';
 //en
 //$directory = 'czech-elections-2013-inventory-of-votes/';
 
@@ -32,7 +32,7 @@ foreach ($file as $row) {
   $question = ((trim($row_ar[2]) != '') ? trim($row_ar[2]) : trim($row_ar[1]));
   //$description = trim($row_ar[3]);
   $name = trim($row_ar[1]);
-  $order = trim($row_ar[16]);	//	trim($row_ar[7]); (cs - 7; cs - 2.kolo - 15; ultimate -16)
+  $order = trim($row_ar[15]);	//	trim($row_ar[7]); (cs - 7; cs - 2.kolo - 15; ultimate -16)
   //$id_division = trim($row_ar[7]);
   //$id_document = trim($row_ar[6]);
   
