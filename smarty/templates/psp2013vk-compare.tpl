@@ -16,7 +16,7 @@
 
   </head>
 <body>
-  <div data-role="page" data-title="{$text.compare_title}" data-theme="a">
+  <div data-role="dialog" data-title="{$text.compare_title}" data-theme="a">
   	<link rel="stylesheet" media="all" href="../css/custom.css" type="text/css">
   	<script src="../js/jquery.stickytableheaders.min.js" type="text/javascript"></script> 
 	<script type="text/javascript">

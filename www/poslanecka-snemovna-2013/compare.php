@@ -5,10 +5,6 @@
 
 session_start();
 
-include("texts.php");
-
-$details = unserialize(file_get_contents("details_ser.txt"));
-
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
@@ -18,48 +14,69 @@ $smarty->setCompileDir('../../smarty/templates_c');
 $smarty->setCacheDir('../../smarty/cache');
 $smarty->setConfigDir('../../smarty/configs');
 
-$parties_file = './answers.json';
-//read parties = candidates = mps
-$candidates = json_decode(file_get_contents($parties_file));
+//$_SESSION['email_provided'] = false;
+ 
+if (!isset($_SESSION['email_provided']) or (!$_SESSION['email_provided'])) {
+  $calc_code = 'psp2013';
+  $smarty->assign('calc_code',$calc_code);
+  $smarty->assign('query_string',$_SERVER['QUERY_STRING']);
+  $_SESSION['email_provided'] = true;
+  $smarty->display('psp2013_compare_dialog.tpl');
+  
 
-//extract user values
-$user = get_user_values();
+} else {
 
-//read questions
-$qfile = './questions.json';
-$questions = json_decode(file_get_contents($qfile));
 
-//compare up to 2
-$mps = array();
-if (isset($_SESSION['last_id'])) {
-  $candidate = get_mp($_SESSION['last_id'],$candidates);
-  if (isset($candidate->id)) {
-    $candidate->match = (isset($_SESSION['last_match']) ? $_SESSION['last_match'] : '');
-    $mps[] = $candidate;
-  } 
+
+	include("texts.php");
+
+	$details = unserialize(file_get_contents("details_ser.txt"));
+
+
+
+	$parties_file = './answers.json';
+	//read parties = candidates = mps
+	$candidates = json_decode(file_get_contents($parties_file));
+
+	//extract user values
+	$user = get_user_values();
+
+	//read questions
+	$qfile = './questions.json';
+	$questions = json_decode(file_get_contents($qfile));
+
+	//compare up to 2
+	$mps = array();
+	if (isset($_SESSION['last_id'])) {
+	  $candidate = get_mp($_SESSION['last_id'],$candidates);
+	  if (isset($candidate->id)) {
+		$candidate->match = (isset($_SESSION['last_match']) ? $_SESSION['last_match'] : '');
+		$mps[] = $candidate;
+	  } 
+	}
+
+
+	if(isset($_REQUEST['id']) and 
+	  ( (!isset($_SESSION['last_id'])) or 
+		( (isset($_SESSION['last_id']) and ($_REQUEST['id'] != $_SESSION['last_id']) ) ) ) ) {
+	  $candidate = get_mp($_REQUEST['id'],$candidates);
+	  $candidate->match = (isset($_REQUEST['match']) ? $_REQUEST['match'] : '');
+	  if (isset($candidate->id)) {
+		$mps[] = $candidate;
+		$_SESSION['last_id'] = $_REQUEST['id'];
+		$_SESSION['last_match'] = $candidate->match;
+	  } 
+	}
+	$mps = array_reverse($mps);
+	//print_r($mps);die();
+
+	$smarty->assign('details',$details);
+	$smarty->assign('text',$text);
+	$smarty->assign('user',$user);
+	$smarty->assign('mps',$mps);
+	$smarty->assign('questions',$questions);
+	$smarty->display('psp2013vk-compare.tpl');
 }
-
-
-if(isset($_REQUEST['id']) and 
-  ( (!isset($_SESSION['last_id'])) or 
-    ( (isset($_SESSION['last_id']) and ($_REQUEST['id'] != $_SESSION['last_id']) ) ) ) ) {
-  $candidate = get_mp($_REQUEST['id'],$candidates);
-  $candidate->match = (isset($_REQUEST['match']) ? $_REQUEST['match'] : '');
-  if (isset($candidate->id)) {
-    $mps[] = $candidate;
-    $_SESSION['last_id'] = $_REQUEST['id'];
-    $_SESSION['last_match'] = $candidate->match;
-  } 
-}
-$mps = array_reverse($mps);
-//print_r($mps);die();
-
-$smarty->assign('details',$details);
-$smarty->assign('text',$text);
-$smarty->assign('user',$user);
-$smarty->assign('mps',$mps);
-$smarty->assign('questions',$questions);
-$smarty->display('psp2013vk-compare.tpl');
 
 
 /**
