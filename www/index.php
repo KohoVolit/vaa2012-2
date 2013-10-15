@@ -78,7 +78,7 @@
 	</ul>
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
-					<li  data-theme="c">
+					<li  data-theme="c" style="font-family:calibri,arial;">
 					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
 					  <?php 
 					    //research

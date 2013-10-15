@@ -30,6 +30,10 @@
 	        <div style="font-size:.8em">Podrobné info o kandidátech na</div>
 	        <div>NašiPolitici.cz</div>
 	      </a>
+	      <a href="http://motejl.cz" data-role="button" data-theme="c" data-icon="arrow-r" data-iconpos="right" target="_blank">
+	        <div style="font-size:.8em">Volební kalkulačku podporuje</div>
+	        <div>Fond Otakara Motejla</div>
+	      </a>
 	  </div>
 	</div>
 
