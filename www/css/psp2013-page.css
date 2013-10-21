@@ -1011,6 +1011,13 @@ color: #a21412;
 .psp2013vk-sprite-zmena-80{ background-position: -130px -910px; width: 80px; height: 80px; } 
 
 
+.uk2013-sprite {
+    background: url('../image/uk2013/uk2013-sprite.png') no-repeat top left;
+}
+
+.uk2013-sprite-michal-stehlik-80{ background-position: 0 0; width: 61px; height: 80px; } 
+.uk2013-sprite-stanislav-stech-80{ background-position: 0 -130px; width: 61px; height: 80px; } 
+.uk2013-sprite-tomas-zima-80{ background-position: 0 -260px; width: 61px; height: 80px; } 
 
 #jqm-homeheader img {
     height: 108px;
