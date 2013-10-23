@@ -26,7 +26,7 @@
 <div data-role="page" class="type-home">
 
 	<div data-role="header" data-theme="g" class="header">
-	  <a href="./en/" class="ui-btn-right" data-theme="g">English</a>
+	  <a href="./en/" class="ui-btn-right" data-theme="g">English Русский</a>
 	  <h6>&nbsp;</h6>
 	</div>
 

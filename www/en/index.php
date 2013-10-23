@@ -66,6 +66,18 @@
 					  </a>
 					</li>
 	</ul>
+	
+	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
+					
+					<li  data-theme="s">
+					  <a href="../cheskij-izbiratelnyj-kalkulyator-2013/?key=english" data-ajax="false">
+
+					    <img src='../image/cz_ru.png' width="67" height="80">
+					    <h2>Избирательный калькулятор 2013</h2>
+					    <p class="ui-li-desc">Соответствии с кандидатами</p>
+					  </a>
+					</li>
+	</ul>
 
    
 
