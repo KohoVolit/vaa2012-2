@@ -44,6 +44,9 @@ if (isset($_GET['partner'])) {
 	  case 'vitalia':
 		$partner = array('name'=>'vitalia','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'x');
 		break;
+	  case 'osops':
+		$partner = array('name'=>'osops','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'x');
+		break;
 	  default:
 		$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'q', 'swatch_progressbar' => 'u');
 	} 

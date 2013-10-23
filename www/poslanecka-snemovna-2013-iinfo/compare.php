@@ -29,6 +29,9 @@ if (isset($_GET['partner'])) {
 	  case 'vitalia':
 		$partner = array('name'=>'vitalia','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'x', 'swatch_progressbar' => 'x', 'answers' => '');
 		break;
+	  case 'osops':
+		$partner = array('name'=>'osops','swatch_bar' => 'x', 'swatch_footer' => 'r', 'swatch_question_body' => 'x', 'swatch_progressbar' => 'x', 'answers' => '_osops');
+		break;
 	  default:
 		$partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u', 'answers' => '');
 	} 
@@ -36,6 +39,7 @@ if (isset($_GET['partner'])) {
 $partner = array('name'=>'lupa','swatch_bar' => 'u', 'swatch_footer' => 'r', 'swatch_question_body' => 'u', 'swatch_progressbar' => 'u', 'answers' => '');
 
 $parties_file = './answers'.$partner['answers'].'.json';
+//echo $parties_file; die();
 //read parties = candidates = mps
 $candidates = json_decode(file_get_contents($parties_file));
 

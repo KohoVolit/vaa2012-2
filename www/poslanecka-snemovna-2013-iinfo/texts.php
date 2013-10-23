@@ -8,6 +8,7 @@ $textpartner = array(
   'podnikatel' => 'Podnikání',
   'mesec' => 'Finance',
   'vitalia' => 'Zdraví a potraviny', 
+  'osops' => 'Informační Otevřenost',
 );
 
 $text = array(
@@ -16,6 +17,7 @@ $text = array(
   'podnikatel' => 'Podnikání',
   'mesec' => 'Finance',
   'vitalia' => 'Zdraví a potraviny',
+  'osops' => 'Informační otevřenost',
    'info' => 'Info',
    'start' => 'Spustit kalkulačku',
    
