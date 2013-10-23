@@ -25,7 +25,7 @@ $ns = array(
 );
 foreach ($ns as $i) {
 
-  $row_ar = explode(". ",$row0[$i]);
+  $row_ar = explode(". ",str_replace('tzv.','tzv',str_replace('např.','např',$row0[$i])));
   //print_r($row_ar);die();
   /*echo $row_ar[1] .'::' . print_r(str_getcsv($row));
   die();*/
