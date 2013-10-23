@@ -207,7 +207,22 @@
 		  })();
 
 		</script>
-		
+		<!-- fb tracking pixel -->
+		<script type="text/javascript">
+			var fb_param = {};
+			fb_param.pixel_id = '6012707753571';
+			fb_param.value = '0.00';
+			fb_param.currency = 'CZK';
+			(function(){
+			  var fpw = document.createElement('script');
+			  fpw.async = true;
+			  fpw.src = '//connect.facebook.net/en_US/fp.js';
+			  var ref = document.getElementsByTagName('script')[0];
+			  ref.parentNode.insertBefore(fpw, ref);
+			})();
+		</script>
+		<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6012707753571&amp;value=0&amp;currency=CZK" /></noscript>
+		<!-- /fb tracking pixel -->
 
 	<div data-role="footer" class="footer-docs" data-theme="d">
 	    <div data-role="navbar">
