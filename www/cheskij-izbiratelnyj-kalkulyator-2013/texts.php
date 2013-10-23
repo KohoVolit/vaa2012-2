@@ -64,6 +64,7 @@ $text = array(
   'result_winner_computer' => 'Наилучшие совпадения:',
   'result_winner_share' => 'Рассказать <span class="computer">о результатах </span>на Facebook</span>',
   'missing_table_description' => 'Следующие партии<strong>на данный момент не предоставили ответы</strong>:',
+  'image_link' => 'http://www.politickysupermarket.sk/', //'../../image/psp2013/party/',
  
   //COMPARE
   'compare_title' => 'Подробнее о соответствии',
