@@ -7,9 +7,11 @@
 //cs + en
 $file = file("https://docs.google.com/spreadsheet/pub?key=0ApmBqWaAzMn_dDhxT3FFUE1KM3FVSHo2RHBDLVJiZnc&output=txt");
 
+$file = file("./source/ru35_questions.csv");
+
 //directory
 //cs
-$directory = 'czech-elections-2013/';
+$directory = 'cheskij-izbiratelnyj-kalkulyator-2013/';
 //cs ultimate
 //$directory = 'poslanecka-snemovna-2013-ultimate/';
 //en
@@ -31,10 +33,10 @@ foreach ($file as $row) {
   $id = $row_ar[0];
   
   //$question = ((trim($row_ar[2]) != '') ? trim($row_ar[2]) : trim($row_ar[1])); //cs
-  $question = ((trim($row_ar[5]) != '') ? trim($row_ar[5]) : trim($row_ar[1]));
+  $question = ((trim($row_ar[5]) != '') ? trim($row_ar[5]) : trim($row_ar[2]));
   //$description = trim($row_ar[3]);
-  $name = trim($row_ar[4]);
-  $order = trim($row_ar[15]);	//	trim($row_ar[7]); (cs - 7; cs - 2.kolo - 15; ultimate -16)
+  $name = trim($row_ar[2]);
+  $order = trim($row_ar[6]);	//	trim($row_ar[7]); (cs - 7; cs - 2.kolo - 15; ultimate -16)
   //$id_division = trim($row_ar[7]);
   //$id_document = trim($row_ar[6]);
   
