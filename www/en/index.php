@@ -74,7 +74,7 @@
 
 					    <img src='../image/cz_ru.png' width="67" height="80">
 					    <h2>Избирательный калькулятор 2013</h2>
-					    <p class="ui-li-desc">Соответствии с кандидатами</p>
+					    <p class="ui-li-desc">Соответствие с кандидатами</p>
 					  </a>
 					</li>
 	</ul>

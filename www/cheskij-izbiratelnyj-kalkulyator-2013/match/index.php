@@ -64,7 +64,7 @@ $smarty->assign('partner', $partner);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);
-$smarty->display('psp2013vk-match.tpl');
+$smarty->display('psp2013ru-match.tpl');
 
 //save results
 
