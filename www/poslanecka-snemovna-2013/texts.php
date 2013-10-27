@@ -64,7 +64,7 @@ $text = array(
   'result_winner_computer' => 'Nejvíce se s Vámi shodují:',
   'result_winner_share' => 'Sdílej <span class="computer">výsledky </span>na Facebooku</span>',
   'missing_table_description' => 'Následující strany <strong>na otázky zatím neodpověděly</strong>:',
-  'image_link' => 'http://www.politickysupermarket.sk/', //'../../image/psp2013/party/',
+  'image_link' => '../../image/psp2013/party/', 'http://www.politickysupermarket.sk/',
   
   //COMPARE
   'compare_title' => 'Podrobné porovnání',

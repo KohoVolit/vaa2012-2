@@ -64,7 +64,7 @@ $text = array(
   'result_winner_computer' => 'Your best matches:',
   'result_winner_share' => 'Share <span class="computer">results </span>on Facebook</span>',
   'missing_table_description' => 'Following parties <strong>have not yet answered</strong>:',
-  'image_link' => 'http://www.politickysupermarket.sk/', //'../../image/psp2013/party/',
+  'image_link' => '../../image/psp2013/party/',//'http://www.politickysupermarket.sk/', 
   
   //COMPARE
   'compare_title' => 'Detailed match',
