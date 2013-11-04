@@ -43,15 +43,15 @@
 
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					<li  data-theme="s">
-					<!--<a href="volba-prezidenta-cr-2-kolo-2013" data-ajax="false">-->
-					  <?php 
+					<a href="poslanecka-snemovna-2013/" data-ajax="false">
+					  <?php /*
 					    //research
 						$rand=rand(0,19);
 						if ($rand == 0)
 						  echo '<a href="poslanecka-snemovna-2013/kalkulacka-vyzkum.php" data-rel="dialog">';
 						else
 						  echo '<a href="poslanecka-snemovna-2013/" data-ajax="false">';
-					  ?> 
+					  */?> 
 					  <img src='./image/cz.png' width="67" height="80">
 					  <h2>Názorový test pro volby 2013</h2>
 					  <p class="ui-li-desc">Shoda s názory kandidujících stran.</p>
@@ -61,14 +61,14 @@
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
 					<li  data-theme="t">
-					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
-					  <?php 
+					<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">
+					  <?php /*
 					    //research
 						$rand=rand(0,19);
 						if ($rand == 0)
 						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/kalkulacka-vyzkum.php" data-rel="dialog">';
 						else
-						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">';
+						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">'; */
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
 					  <h2>Inventura hlasování 2010-2013</h2>
@@ -79,14 +79,14 @@
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
 					<li  data-theme="c" style="font-family:calibri,arial;">
-					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani" data-ajax="false">-->
-					  <?php 
+					<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false"  style="color:#888;">
+					  <?php /*
 					    //research
 						$rand=rand(0,19);
 						if ($rand == 0)
 						  echo '<a href="poslanecka-snemovna-2013-ultimate/kalkulacka-vyzkum.php" data-rel="dialog" style="color:#888;">';
 						else
-						  echo '<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false"  style="color:#888;">';
+						  echo '<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false"  style="color:#888;">';*/
 					  ?> 
 					  <img src='./image/cz.png' width="67" height="80">
 					  <h2>Rozšířený názorový test pro volby 2013 (β)</h2>
