@@ -28,7 +28,7 @@ else {
   $json = json_encode($data);
   
 }
-$handle = fopen("research_post.txt","a+");
+$handle = fopen("research_post.txt","a");
 $str = session_id() . "\t" . "\t" . date("Y-m-d H:i:s") . "\t" . $json . "\n";
 
 fwrite($handle, $str);
