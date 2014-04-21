@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Volební kalkulačka | volby 2013</title>
-	<meta name="description" content="Volby 2013 se blíží! Spočítejte si koho volit!" />
-	<meta name="keywords" content="volby 2013, předčasné volby, volební kalkulačka, volební test" />
+	<title>Volební kalkulačka | eurovolby 2014</title>
+	<meta name="description" content="Eurovolby 2014 se blíží! Spočítejte si koho volit!" />
+	<meta name="keywords" content="volby 2014, volební kalkulačka, volební test" />
 	<meta name="author" content="KohoVolit.eu" />
 	<meta name="robots" content="index, follow" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
