@@ -53,15 +53,22 @@ foreach ($constit as $ckey=>$c) {
   $constit[$ckey] = array(
     'name' => $c,
     'friendly_url' => (($ckey==0) ? 'senat-2012/?' : 'senat-2012/page.php?constituency_code='.$ckey.'&'),
-    'selected' => (($ckey==0) ? 'true' : 'false'),
   );
 }
+
+$inventory2014ep = array (
+  array(
+    'name' => 'Inventura hlasování 2014',
+    'friendly_url' => 'inventura-hlasovani-evropsky-parlament-2009-2014',
+    'selected' => true,
+    'custom' => true
+  ),
+);
 
 $calc2013 = array(
   array(
     'name' => 'Volební kalkulačka 2013',
     'friendly_url' => 'poslanecka-snemovna-2013/',
-    'selected' => true,
   ),
 );
 
@@ -69,7 +76,6 @@ $inventory2013 = array(
   array(
     'name' => 'Inventura hlasování 2010-2013',
     'friendly_url' => 'poslanecka-snemovna-2013-inventura-hlasovani/',
-    'selected' => false,
   ),
 );
 
@@ -77,7 +83,6 @@ $president2 = array(
   array(
     'name' => 'Prezidentská kalkulačka 2. kolo',
     'friendly_url' => 'volba-prezidenta-cr-2-kolo-2013/',
-    'selected' => 'false',
   ),
 );
 
@@ -85,7 +90,6 @@ $president = array(
   array(
     'name' => 'Prezidentská kalkulačka 1. kolo',
     'friendly_url' => 'volba-prezidenta-cr-2013/',
-    'selected' => 'false',
   ),
 );
 
@@ -97,6 +101,13 @@ $sizes = array(
 );
 
 $calcs = array(
+
+  'inventory2014ep' => array(
+    'name' => 'Inventura hlasování Evropský parlament 2009-2014',
+    'calc' => $inventory2014ep,
+  ),
+  
+  
   'all' => array(
     'name' => 'Celá VolebníKalkulačka.cz',
     'calc' => array(array('name'=>'VolebníKalkulačka.cz','friendly_url'=>'?')),
