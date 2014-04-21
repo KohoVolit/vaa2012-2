@@ -54,14 +54,14 @@
 					  */?> 
 					  <img src='./image/eu_gray.png' width="80" height="80">
 					  <h2>Volební kalkulačka 2014</h2>
-					  <p class="ui-li-desc">Bude spuštěna <strong>měsíc před volbami!</strong></p>
+					  <p class="ui-li-desc">Bude spuštěna <strong>23.4.2014!</strong></p>
 					<!--</a>-->
 					</li>
 	</ul>
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
 					<li  data-theme="c">
-					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">-->
+					<a href="inventura-hlasovani-evropsky-parlament-2009-2014/" data-ajax="false">
 					  <?php /*
 					    //research
 						$rand=rand(0,19);
@@ -70,9 +70,9 @@
 						else
 						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">'; */
 					  ?> 
-					  <img src='./image/eu_gray.png' width="80" height="80">
-					  <h2>Inventura hlasování 2009-2014</h2>
-					  <p class="ui-li-desc">Bude spuštěna <strong>měsíc před volbami!</strong></p>
+					  <img src='./image/eu.png' width="80" height="80">
+					  <h2>Inventura hlasování 2009-2014 β</h2>
+					  <p class="ui-li-desc">Jak Vás europoslanci reprezentovali v Bruselu 2009-2014</p>
 					</a>
 					<!--</li>-->
 	</ul>
@@ -130,20 +130,20 @@
 
 	 <!-- counter --> 
 	 <div class="counter">
-	   <span class="counter-number">
+	   <!-- <span class="counter-number">
 <?php
   //$number = number_format(ceil($filesize/297.2),0,',',' '); original calculation
-  $filesize = filesize('result.txt');
+  //$filesize = filesize('result.txt');
   /*if ($filesize < 335527092)
     $number = number_format(684613 + round(($filesize-203466983.6)/1145.192),0,',',' ');  //slowing down
   else
     $number = number_format(ceil($filesize/419.4),0,',',' ');*/
   //$number = number_format(ceil($filesize/419.4) + 1459825,0,',',' '); //1459825 - number by 2013-09-09
-  $number = number_format(ceil($filesize/362.94),0,',',' ');
-  echo $number;
+  //$number = number_format(ceil($filesize/362.94),0,',',' ');
+  //echo $number;
   
 ?>
-		</span> vyplněných Volebních kalkulaček
+		</span> vyplněných Volebních kalkulaček-->
 	</div>
 	<!-- /counter -->
 	  
