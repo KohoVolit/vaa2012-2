@@ -26,12 +26,30 @@ if (isset($_GET['partner'])) {
 }
 if (file_exists('css/'.$partner.'.css')) $partnercss = 'css/'.$partner.'.css';
 
+//custom background and header color:
+if (isset($_GET['background'])) {
+  $background = 'http://' . str_replace('_','/',sanitize($_GET['background']));
+  $background_orig = sanitize($_GET['background']);
+} else {
+  $background = false;
+  $background_orig = false;
+}
+
+if (isset($_GET['navbar'])) {
+  $navbar = '#' . sanitize($_GET['navbar']);
+} else {
+  $navbar = false;
+}
+
 
 //get prefilled user's values, if exist
 $user = json_encode(get_user_values());
 
 $smarty->assign('text',$text);
 $smarty->assign('partnercss',$partnercss);
+$smarty->assign('background',$background);
+$smarty->assign('background_orig',$background_orig);
+$smarty->assign('navbar',$navbar);
 $smarty->assign('user', $user);
 $smarty->assignByRef('questions', $questions);
 $smarty->display('page.tpl');

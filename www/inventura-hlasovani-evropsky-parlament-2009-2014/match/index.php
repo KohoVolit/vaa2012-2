@@ -41,9 +41,27 @@ if (isset($_GET['partner'])) {
 }
 if (file_exists('../css/'.$partner.'.css')) $partnercss = '../css/'.$partner.'.css';
 
+//custom background and header color:
+if (isset($_GET['background'])) {
+  $background = 'http://' . str_replace('_','/',sanitize($_GET['background']));
+  $background_orig = sanitize($_GET['background']);
+} else {
+  $background = false;
+  $background_orig = false;
+}
+
+if (isset($_GET['navbar'])) {
+  $navbar = '#' . sanitize($_GET['navbar']);
+} else {
+  $navbar = false;
+}
+
 $smarty->assign('missing', $missing);
 $smarty->assign('text', $text);
 $smarty->assign('partnercss', $partnercss);
+$smarty->assign('background',$background);
+$smarty->assign('background_orig',$background_orig);
+$smarty->assign('navbar',$navbar);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);

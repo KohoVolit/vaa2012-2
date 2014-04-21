@@ -18,6 +18,15 @@
           
           </div> <!-- /.carousel-inner -->
           
+          <!-- customization -->
+          {if ({$background})}  
+            <input type="hidden" name="background" value="{$background_orig}" />
+          {/if}
+          {if ({$navbar})}  
+            <input type="hidden" name="navbar" value="{$navbar}" />
+          {/if}
+          <!-- /customization -->
+          
         </form>
         {include "page-indicators.tpl"}
         {include "page-arrows.tpl"}

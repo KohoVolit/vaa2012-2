@@ -23,6 +23,16 @@
     {if ($partnercss)}
     <link href="{$partnercss}" rel="stylesheet">
     {/if}
+    {if ({$background})}
+      <style>
+        @media (min-width: 666px) { .header { background-image: url('{$background}'); }}
+      </style>
+    {/if}
+     {if ({$navbar})}
+      <style>
+        .navbar-custom { background-color: {$navbar}; }
+      </style>
+    {/if}
     {block name=lastHead}{/block}
   </head>
   <body>
