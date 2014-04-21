@@ -42,8 +42,8 @@
 
 
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
-					<li  data-theme="s">
-					<a href="poslanecka-snemovna-2013/" data-ajax="false">
+					<li  data-theme="c">
+					<!--<a href="poslanecka-snemovna-2013/" data-ajax="false">-->
 					  <?php /*
 					    //research
 						$rand=rand(0,19);
@@ -52,16 +52,16 @@
 						else
 						  echo '<a href="poslanecka-snemovna-2013/" data-ajax="false">';
 					  */?> 
-					  <img src='./image/cz.png' width="67" height="80">
-					  <h2>Názorový test pro volby 2013</h2>
-					  <p class="ui-li-desc">Shoda s názory kandidujících stran.</p>
-					</a>
+					  <img src='./image/eu_gray.png' width="80" height="80">
+					  <h2>Volební kalkulačka 2014</h2>
+					  <p class="ui-li-desc">Bude spuštěna <strong>měsíc před volbami!</strong></p>
+					<!--</a>-->
 					</li>
 	</ul>
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
-					<li  data-theme="t">
-					<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">
+					<li  data-theme="c">
+					<!--<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">-->
 					  <?php /*
 					    //research
 						$rand=rand(0,19);
@@ -70,29 +70,14 @@
 						else
 						  echo '<a href="poslanecka-snemovna-2013-inventura-hlasovani/" data-ajax="false">'; */
 					  ?> 
-					  <img src='./image/cz.png' width="67" height="80">
-					  <h2>Inventura hlasování 2010-2013</h2>
-					  <p class="ui-li-desc">Shoda dle hlasování poslanců.</p>
+					  <img src='./image/eu_gray.png' width="80" height="80">
+					  <h2>Inventura hlasování 2009-2014</h2>
+					  <p class="ui-li-desc">Bude spuštěna <strong>měsíc před volbami!</strong></p>
 					</a>
-					</li>
+					<!--</li>-->
 	</ul>
 	<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="g">
 					
-					<li  data-theme="c" style="font-family:calibri,arial;">
-					<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false"  style="color:#888;">
-					  <?php /*
-					    //research
-						$rand=rand(0,19);
-						if ($rand == 0)
-						  echo '<a href="poslanecka-snemovna-2013-ultimate/kalkulacka-vyzkum.php" data-rel="dialog" style="color:#888;">';
-						else
-						  echo '<a href="poslanecka-snemovna-2013-ultimate/" data-ajax="false"  style="color:#888;">';*/
-					  ?> 
-					  <img src='./image/cz.png' width="67" height="80">
-					  <h2>Rozšířený názorový test pro volby 2013 (β)</h2>
-					  <p class="ui-li-desc">80 otázek! Shoda s názory kandidujících stran.</p>
-					</a>
-					</li>
 	</ul>   
 
 
@@ -138,7 +123,8 @@
 	  </div><!-- /grid -->
 	  
 	 <div>
-	   <p style="text-align:justify"><strong>Volební kalkulačky pro předčasné parlamentní volby 2013</strong> Vám pomohou v rozhodnutí koho volit ve volbách do Poslanecké sněmovny 25. a 26. října 2013. <strong>Názorový test</strong> porovnává Vaše odpovědi s názory stran. <strong>Inventura hlasování</strong> srovnává vaše odpovědi se skutečnými hlasováními ze Sněmovny v letech 2010-2013. <strong>Volební test Vám zabere přibližně 5 minut.</strong>
+	   <p style="text-align:justify">
+	   <strong>Volební kalkulačka pro volby do Evropského parlamentu 2014</strong> Vám pomůže rozhodnout koho volit <strong>23. a 24. května 2014</strong>. Online volební test Vám zabere přibližně 5 minut. 
 	 </p>
 	 </div> 
 
@@ -231,7 +217,7 @@
 			<li><a href="info" data-ajax="false">O projektu VolebníKalkulačka.cz</a></li>
 			<li><a href="embed" data-ajax="false">Vložit Volební kalkulačku k sobě na web</a></li>
 			<li><a href="archive" data-ajax="false">Archiv volebních kalkulaček</a></li>
-			<li><a href="kandidatky-volby-2013" data-ajax="false">Kandidátky pro volby 2013</a></li>
+			
   		  </ul>
 	    </div>
 	        <p class="right computer">
