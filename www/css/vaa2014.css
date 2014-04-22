@@ -58,7 +58,7 @@
     height: 350px;
   }
   
-  .btn-info.active, .btn-primary.active {
+  .btn-info.active, .btn-primary.active, .btn-warning.active {
     color: #000;
   }
   
