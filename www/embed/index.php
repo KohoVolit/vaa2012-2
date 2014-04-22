@@ -56,9 +56,18 @@ foreach ($constit as $ckey=>$c) {
   );
 }
 
+$calc2014ep = array (
+  array(
+    'name' => 'Volební kalkulačka EP 2014',
+    'friendly_url' => 'evropsky-parlament-2014',
+    'selected' => true,
+    'custom' => true
+  ),
+);
+
 $inventory2014ep = array (
   array(
-    'name' => 'Inventura hlasování 2014',
+    'name' => 'Inventura hlasování EP 2009-2014',
     'friendly_url' => 'inventura-hlasovani-evropsky-parlament-2009-2014',
     'selected' => true,
     'custom' => true
@@ -101,6 +110,11 @@ $sizes = array(
 );
 
 $calcs = array(
+
+  'calc2014ep' => array(
+    'name' => 'Volební kalkulačka Evropský parlament 2014',
+    'calc' => $calc2014ep,
+  ),
 
   'inventory2014ep' => array(
     'name' => 'Inventura hlasování Evropský parlament 2009-2014',

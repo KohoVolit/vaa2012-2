@@ -40,9 +40,9 @@
           	
             	 <h3>{$c['name']}</h3>
             	 {if (isset($c['custom']))}
-            	 <label for="navbarcolor">Barva horní lišty (html, např: #ab0)</label>
+            	 <label for="navbarcolor">Barva horní lišty (html, např: #ab0) - nepovinné</label>
             	 <input type="color" name="navbarcolor" id="navbarcolor-{$c['friendly_url']}" data-calc="{$c['friendly_url']}">
-            	 <label for="navbarcolor">Pozadí (adresa obrázku umístěného na webu, nesmí obsahovat znak '_', např.: http://volebnikalkulacka.cz/evropsky-parlament-2014/image/bg.jpg):</label>
+            	 <label for="navbarcolor">Pozadí (adresa obrázku umístěného na webu, nesmí obsahovat znak '_', např.: http://volebnikalkulacka.cz/evropsky-parlament-2014/image/bg.jpg) - nepovinné</label>
             	 <input type="text" name="background" id="background-{$c['friendly_url']}" data-calc="{$c['friendly_url']}">
             	 {/if}
             	 
