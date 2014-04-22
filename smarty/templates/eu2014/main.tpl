@@ -36,6 +36,17 @@
     {block name=lastHead}{/block}
   </head>
   <body>
+    <!--[if lte IE 8]>
+    <div class="alert alert-danger">
+      <i class="fa fa-warning"></i> {$text['ie8']}
+    </div>
+    <![endif]-->
+      <!--[if lte Opera 11]>
+    <div class="alert alert-danger">
+      <i class="fa fa-warning"></i> {$text['opera11']}
+    </div>
+    <![endif]-->
+  
     <div id="top" class="header">
       {block name=body}{/block}
     </div> <!-- /#top -->
