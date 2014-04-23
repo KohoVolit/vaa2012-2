@@ -56,7 +56,7 @@ function showmatrix(matrix,order,category1) {
       var xaxisContent = svg.append("g")
 	        .attr("class", "x axis")
 	        .attr("transform", "translate(0,-"+ padding.top/2 +")")
-	        .attr("font-size", function () {return Math.floor(square['innersize']*.5)+"px"})
+	        .attr("font-size", function () {return Math.floor(square['innersize']*.8)+"px"})
 	        .call(xAxis);
 	        
       svg.selectAll("g.axis text")
@@ -65,7 +65,7 @@ function showmatrix(matrix,order,category1) {
       var yaxisContent = svg.append("g")
             .attr("class", "y axis")
             .attr("transform", "translate(-" + padding.left + ","+square['size']/2+")")
-            .attr("font-size", function () {return Math.floor(square['innersize']*.5)+"px"})
+            .attr("font-size", function () {return Math.floor(square['innersize']*.8)+"px"})
             .call(yAxis);
 	            
 
@@ -142,7 +142,7 @@ function showmatrix(matrix,order,category1) {
 		        return y(d.i2) +  square['innersize']/2 + (square['size'] - square['innersize'])/2;
 	        })
 	        .attr("class","descr")
-	        .attr("font-size", function () {return Math.floor(square['innersize']*.5)+"px"})
+	        .attr("font-size", function () {return Math.floor(square['innersize']*.6)+"px"})
 	        .on("mouseover", function (d,i) {
 	           
 	        });	  
