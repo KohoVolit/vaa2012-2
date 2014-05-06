@@ -1,5 +1,6 @@
 <div class="tab-pane fade" id="euro">
   <div class="well text-center">
+    <p>{$text['comparison_eu_explained']}</p>
     <a href="{$eu_link}">
       <img src="http://europa.stemwijzer.nl/main/gfx/votemap.png" title="VoteMatch.eu" alt="VoteMatch.eu" />
     </a>

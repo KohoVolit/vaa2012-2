@@ -45,6 +45,8 @@ $text = array(
    'result_winner_share' => 'Sdílej výsledky na Facebooku',  
    
    'comparison_parties_eu' => 'Porovnání se stranami v EU',
+   'comparison_eu_explained' => '15 otázek, které jsou v české volební kalkulačce, je shodných i ve volebních kalkulačkách v jiných zemích EU. Které strany jsou Vám tam nejblíže?',
+   'missing_table_description' => 'Následující strany <strong>na otázky zatím neodpověděly</strong>:',
    
    //fb
    'result_fb_appid' => "200785490055088",
@@ -140,7 +142,6 @@ $text = array(
   'dms_info' => 'podrobné info',
   'result_winner_computer' => 'Nejvíce se s Vámi shodují:',
   'result_winner_share' => 'Sdílej <span class="computer">výsledky </span>na Facebooku</span>',
-  'missing_table_description' => 'Následující strany <strong>na otázky zatím neodpověděly</strong>:',
   'image_link' => '../../image/psp2013/party/', 'http://www.politickysupermarket.sk/',
   
   //COMPARE

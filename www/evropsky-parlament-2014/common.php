@@ -3,7 +3,7 @@
 * common functions
 */
 
-error_reporting(0);
+//error_reporting(0);
 
 /**
 * check for malicious attempts to retrieve files
