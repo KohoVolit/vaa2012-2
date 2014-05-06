@@ -44,6 +44,8 @@ $text = array(
  
    'result_winner_share' => 'Sdílej výsledky na Facebooku',  
    
+   'comparison_parties_eu' => 'Porovnání se stranami v EU',
+   
    //fb
    'result_fb_appid' => "200785490055088",
   'result_fb_picture_link' => 'http://volebnikalkulacka.cz/evropsky-parlament-2014/image/logo/',

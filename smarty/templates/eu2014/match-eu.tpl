@@ -1,5 +1,9 @@
 <div class="tab-pane fade" id="euro">
-<p>
-Srovnání v rámci EU bude možné po spuštění evropské verze VoteMatch.eu dne 28.4.2014.
-</p>
+  <div class="well text-center">
+    <a href="{$eu_link}">
+      <img src="http://europa.stemwijzer.nl/main/gfx/votemap.png" title="VoteMatch.eu" alt="VoteMatch.eu" />
+    </a>
+    <br/>
+    <a href="{$eu_link}" class="btn btn-default btn-lg active" role="button" target="_blank">{$text['comparison_parties_eu']}</a>
+  </div>
 </div>

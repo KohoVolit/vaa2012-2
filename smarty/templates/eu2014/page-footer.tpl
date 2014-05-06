@@ -6,6 +6,7 @@
                     <a href="{$text['author_link']}" title="{$text['author']}"><img src="../image/logo.png" alt="logo kohovolit.eu" /></a>
                     
 					<p class="lead black">{$text['footer_text']}</p>
+					<p><a href="http://votematch.eu"><img src="image/votematcheu.png" title="VoteMatch.eu" alt="VoteMatch.eu"/></a></p>
                     <hr>
 					<p class="black">{$text['licence']} | <a href="{$text['author_link']}">{$text['author']}</a> {$text['year']}</p>
                 </div>
