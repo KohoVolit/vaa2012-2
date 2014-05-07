@@ -18,6 +18,7 @@
           {include "match-winners.tpl"}
         <!-- /winners -->
         <!-- sharer -->
+          {include "match-sharer.tpl"}
         <!-- /sharer -->
         <!-- fb -->
           {include "match-fb.tpl"}

@@ -19,5 +19,5 @@ SVD = svd(X)
 
 #out1 = t(rbind(dimnames(data)[[2]],SVD$v[,1] * SVD$d[1]))
 #write.table(out1,file=paste(path,"order.tsv",sep=''),sep="\t")
-out2 = t(rbind(dimnames(data)[[1]],SVD$u[,1]))
+out2 = t(rbind(dimnames(data)[[1]],SVD$u[,1],SVD$u[,2]))
 write.table(out2,file=paste(path,"qcoefs.tsv",sep=''),sep="\t")

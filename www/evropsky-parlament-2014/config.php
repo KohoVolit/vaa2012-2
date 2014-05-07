@@ -15,6 +15,8 @@ $config->fb_picture = 'friendly_name';
 $config->fb_picture_format = 'jpg';
 $config->fb_caption = 'name';
 $config->fb_winner = 'name';
+//twitter
+$config->twitter_winner = 'short_name';
 //table
 $config->table_sprite = 'friendly_name';
 $config->table_alt = 'short_name';
