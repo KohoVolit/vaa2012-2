@@ -10,6 +10,7 @@ $config->winner = 'short_name';
 $config->winner_sprite = 'friendly_name';
 $config->winner_alt = 'short_name';
 $config->winner_title = 'name';
+$config->winner_id = 'friendly_name';
 //fb
 $config->fb_picture = 'friendly_name';
 $config->fb_picture_format = 'jpg';

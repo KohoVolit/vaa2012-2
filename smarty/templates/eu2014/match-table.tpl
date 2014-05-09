@@ -4,7 +4,7 @@
     {$i=0}
     {foreach $results as $result}
       <li class="no-number">
-        <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal">
+        <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal" id="table-{$i}-{$results[$i].{$config->winner_id}}">
            <div class="row"> <!-- note: needs to be here when inside <a> -->
              <div class="col-xs-9">
                <div class="media">

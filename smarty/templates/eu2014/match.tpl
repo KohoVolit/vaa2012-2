@@ -21,12 +21,13 @@
           {include "match-sharer.tpl"}
         <!-- /sharer -->
         <!-- fb -->
+          {assign "fb_pos" "top"}
           {include "match-fb.tpl"}
         <!-- /fb -->
         <!-- tabs -->
           {include "match-tabs.tpl"}
         <!-- /tabs -->
-        
+          {assign "fb_pos" "bottom"}
           {include "match-fb.tpl"}
           
           {include "match-lower.tpl"}

@@ -3,6 +3,9 @@
 * VAA
 * calculate match
 */
+
+session_start();
+
 include("../../setup.php");
 include("../texts.php");
 include("../common.php");
@@ -70,6 +73,7 @@ $smarty->assign('config',$config);
 $smarty->assign('user',$user_json);
 $smarty->assign('answers_json',$answers_json);
 $smarty->assign('qcoefs_json',$qcoefs_json);
+$smarty->assign('session_id',session_id());
 $smarty->display('match.tpl');
 
 //save results
