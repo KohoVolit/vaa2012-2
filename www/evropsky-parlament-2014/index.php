@@ -3,6 +3,8 @@
 * VAA
 * reads questions from json
 */
+session_start();
+
 include("../setup.php");
 include("texts.php");
 include("common.php");
@@ -52,6 +54,7 @@ $smarty->assign('navbar',$navbar);
 $smarty->assign('partnercss',$partnercss);
 $smarty->assign('user', $user);
 $smarty->assignByRef('questions', $questions);
+$smarty->assign('session_id',session_id());
 $smarty->display('page.tpl');
 
 
