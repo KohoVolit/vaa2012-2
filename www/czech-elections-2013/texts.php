@@ -21,7 +21,7 @@ $text = array(
   'page_progressbar_from' => 'from',
   //important questions
   'page_header_mobile_important' => 'Important Questions',
-  'page_important_legend' => '<strong>Choose the most important questions for you</strong>.  You will put the result more precisely. This step is optional and possible to skip.',
+  'page_important_legend' => '<strong>Choose the most important questions for you</strong>.  You will get the result more precisely. This step is optional and possible to skip.',
   'page_important_results' => 'Results',
   
   //RESULTS

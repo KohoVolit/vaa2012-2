@@ -78,11 +78,11 @@ function showmatrix(matrix,order,category1) {
         .enter().append("g")
           .on("mouseover", function (d, i) {
             icko = i
-            svg.selectAll(".rect")
+            /*svg.selectAll(".rect")
 		        .filter(function (d, i) {
-			        return ((i % ncat) == (icko % ncat) || Math.floor(i/ ncat) == Math.floor(icko / ncat) ) 
+			        return ( ((i % ncat) == (icko % ncat) || Math.floor(i/ ncat) == Math.floor(icko / ncat) ) && (i != icko));
 		        })
-		        .attr("class", "rect hover")
+		        .attr("class", "rect hover")*/
             yaxisContent.selectAll("text")
 		        .filter(function(d, i) {
 			        return ((i % ncat) == (icko % ncat))
@@ -93,8 +93,30 @@ function showmatrix(matrix,order,category1) {
 		        .filter(function(d, i) {
 			        return (i == Math.floor(icko / ncat))
 		        })
-		        .attr("class", "hoverBold")	
+		        .attr("class", "hoverBold")
+		    
+		    //enlarge square
+		    var sel = d3.select(this);
+            sel.moveToFront();    
+		    sel.select('rect').transition()
+		      .duration(200)
+		      .attr("width",square['innersize']*3)
+		      .attr("height",square['innersize']*3)
+		      .style("fillOpacity",1)
+		      .attr("class","rect")
+		      .attr("x",function(d) {return x(d.i1-1);})
+              .attr("y",function(d) {return y(d.i2-1);});
+		    sel.select('text').transition()
+		      .duration(200)
+		      .attr("font-size", function () {return Math.floor(square['innersize']*.6*3)+"px"})
+		      .attr("x", function(d, i) {
+		        return x(d.i1-1) + 3*square['innersize']/2;
+	          })
+	          .attr("y", function(d, i) {
+		        return y(d.i2-1) +  3*square['innersize']/2 + (3*square['size'] - 3*square['innersize'])/2;
+		      })
           })
+          
           .on("mouseout", function (d, i) {
 	        icko = i
 	        svg.selectAll(".rect")
@@ -113,6 +135,25 @@ function showmatrix(matrix,order,category1) {
 			        return (i == Math.floor(icko / ncat))
 		        })
 		        .attr("class", "")	
+		        
+		     //get square smaller again
+		    var sel = d3.select(this);
+            sel.moveToFront();    
+		    sel.select('rect').transition()
+		      .duration(200)
+		      .attr("width",square['innersize'])
+		      .attr("height",square['innersize'])
+		      .attr("x",function(d) {return x(d.i1);})
+              .attr("y",function(d) {return y(d.i2);});
+		    sel.select('text').transition()
+		      .duration(200)
+		      .attr("font-size", function () {return Math.floor(square['innersize']*.6)+"px"})
+		      .attr("x", function(d, i) {
+		        return x(d.i1) + square['innersize']/2;
+	          })
+	          .attr("y", function(d, i) {
+		        return y(d.i2) +  square['innersize']/2 + (square['size'] - square['innersize'])/2;
+		      }) 
           })
           .on("click", function(d,i) {
             ids = [d['id2'],d['id1']];
@@ -184,4 +225,10 @@ function showmatrix(matrix,order,category1) {
       }
       return out;
     }
+    
+    d3.selection.prototype.moveToFront = function() {
+      return this.each(function(){
+        this.parentNode.appendChild(this);
+      });
+    };
 }
