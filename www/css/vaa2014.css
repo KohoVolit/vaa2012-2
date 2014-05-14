@@ -365,8 +365,9 @@ h3 {
 
 @media only screen and (max-width: 1060px), only screen and (max-device-width: 1060px)
 {
-	#support
+	#support, #share-bar
 	{
 		display: none;
 	}
+	
 }
