@@ -21,7 +21,7 @@
     min-width: 10em;
   }
   .question-question {
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .carousel-caption {
@@ -100,6 +100,9 @@
     .vote-button {
       min-width: 5em;
     }
+   .question-question {
+    font-size: 24px;
+   }
   }
   
   @media (min-width: 666px) {
@@ -346,7 +349,7 @@ h3 {
   }
   .hoverBold {
     font-weight: bold;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
   }
   .middle-rect {
     fill: #aaa;
@@ -369,5 +372,4 @@ h3 {
 	{
 		display: none;
 	}
-	
 }
