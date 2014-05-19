@@ -10,7 +10,7 @@
 
 <!-- clicked -->
 <script>
-var session = '{$session_id}';
+/*var session = '{$session_id}';
 $("a, button").click(function() {
   save_action($(this).attr('id'));
 });
@@ -19,17 +19,17 @@ function save_action(action) {
     url: "click.php",
     data: { 'action':action }
   });
-}
+}*/
 </script>
 <!-- /clicked -->
 <!-- onload, offload -->
 <script>
-$('document').ready(function() {
+/*$('document').ready(function() {
   save_action('load');
 });
 jQuery(window).bind('beforeunload', function(){
     save_action('unload');
-});
+});*/
 </script>
 <!-- /onload, offload -->
 
