@@ -5,7 +5,7 @@ import json
 
 i = 0
 questions = []
-with open('questions.tsv','r') as f:
+with open('source/questions.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
