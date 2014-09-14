@@ -63,7 +63,7 @@ function make_comparison(questions, details) {
   }
   html += "</tbody></table>"
   $("#comparison-dialog").html(html);
-  $(".tooltip-top").tooltip({placement: 'top'});
+  $(".tooltip-top").tooltip({placement: 'bottom'});
 }
 
 function compare_answers(a1,a2) {
