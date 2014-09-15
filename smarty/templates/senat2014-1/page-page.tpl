@@ -3,8 +3,8 @@
                 <div class="carousel-caption center-block">
                   <div class="o-question">
                     <div class="i-question">
-                      <h2 class="question-question">{$question->question}</h2>
-                      <div class="question-description">{$question->description}</div>
+                        <h2 class="question-question">{$question->question}</h2>
+                        <div class="question-description">{$question->description}</div>
                     </div> <!-- /.i-question -->
                   </div> <!-- /.o-question -->
                   

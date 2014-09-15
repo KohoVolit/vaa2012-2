@@ -112,6 +112,10 @@
     }
     /*http://stackoverflow.com/questions/20465825/vertical-align-middle-with-bootstrap-responsive-grid*/
     .i-question {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      margin: 5px 0;
+      padding: 10px;
       display:table-cell;
       vertical-align:middle;
     }

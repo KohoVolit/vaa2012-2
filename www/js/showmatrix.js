@@ -56,7 +56,7 @@ function showmatrix(matrix,order,category1) {
       var xaxisContent = svg.append("g")
 	        .attr("class", "x axis")
 	        .attr("transform", "translate(0,-"+ padding.top/2 +")")
-	        .attr("font-size", function () {return Math.floor(square['innersize']*.8)+"px"})
+	        .attr("font-size", function () {return Math.floor(square['innersize']*(0.3+ncat*0.015))+"px"})
 	        .call(xAxis);
 	        
       svg.selectAll("g.axis text")
@@ -65,7 +65,7 @@ function showmatrix(matrix,order,category1) {
       var yaxisContent = svg.append("g")
             .attr("class", "y axis")
             .attr("transform", "translate(-" + padding.left + ","+square['size']/2+")")
-            .attr("font-size", function () {return Math.floor(square['innersize']*.8)+"px"})
+            .attr("font-size", function () {return Math.floor(square['innersize']*(0.3+ncat*0.015))+"px"})
             .call(yAxis);
 	            
 
@@ -96,25 +96,27 @@ function showmatrix(matrix,order,category1) {
 		        .attr("class", "hoverBold")
 		    
 		    //enlarge square
-		    var sel = d3.select(this);
-            sel.moveToFront();    
-		    sel.select('rect').transition()
-		      .duration(200)
-		      .attr("width",square['innersize']*3)
-		      .attr("height",square['innersize']*3)
-		      .style("fillOpacity",1)
-		      .attr("class","rect")
-		      .attr("x",function(d) {return x(d.i1-1);})
-              .attr("y",function(d) {return y(d.i2-1);});
-		    sel.select('text').transition()
-		      .duration(200)
-		      .attr("font-size", function () {return Math.floor(square['innersize']*.6*3)+"px"})
-		      .attr("x", function(d, i) {
-		        return x(d.i1-1) + 3*square['innersize']/2;
-	          })
-	          .attr("y", function(d, i) {
-		        return y(d.i2-1) +  3*square['innersize']/2 + (3*square['size'] - 3*square['innersize'])/2;
-		      })
+		    if (ncat > 15) {
+		        var sel = d3.select(this);
+                sel.moveToFront();    
+		        sel.select('rect').transition()
+		          .duration(200)
+		          .attr("width",square['innersize']*3)
+		          .attr("height",square['innersize']*3)
+		          .style("fillOpacity",1)
+		          .attr("class","rect")
+		          .attr("x",function(d) {return x(d.i1-1);})
+                  .attr("y",function(d) {return y(d.i2-1);});
+		        sel.select('text').transition()
+		          .duration(200)
+		          .attr("font-size", function () {return Math.floor(square['innersize']*.6*3)+"px"})
+		          .attr("x", function(d, i) {
+		            return x(d.i1-1) + 3*square['innersize']/2;
+	              })
+	              .attr("y", function(d, i) {
+		            return y(d.i2-1) +  3*square['innersize']/2 + (3*square['size'] - 3*square['innersize'])/2;
+		          })
+		      }
           })
           
           .on("mouseout", function (d, i) {
@@ -177,10 +179,10 @@ function showmatrix(matrix,order,category1) {
 		            return d.val;
 	        })
 	        .attr("x", function(d, i) {
-		        return x(d.i1) + square['innersize']/2;
+		        return x(d.i1) + square['innersize']/2.1;
 	        })
 	        .attr("y", function(d, i) {
-		        return y(d.i2) +  square['innersize']/2 + (square['size'] - square['innersize'])/2;
+		        return y(d.i2) +  square['innersize']/2.1 + (square['size'] - square['innersize'])/2.1;
 	        })
 	        .attr("class","descr")
 	        .attr("font-size", function () {return Math.floor(square['innersize']*.6)+"px"})
