@@ -6,7 +6,7 @@ import re
 from slugify import slugify
 
 acc = 3 # answers codes columns
-nq = 35 # number of questions
+nq = 32 # number of questions
 
 def vote2vote (vote):
   if vote == 'Ano':

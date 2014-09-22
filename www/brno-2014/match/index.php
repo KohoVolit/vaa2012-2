@@ -15,7 +15,7 @@ include("../config.php");
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../../smarty/templates/' . $text['election_code']);
+$smarty->setTemplateDir('../../../smarty/templates/' . $text['template_code']);
 $smarty->setCompileDir('../../../smarty/templates_c');
 
 //answers of voters
@@ -78,7 +78,7 @@ $smarty->display('match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . "calc2014ep" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
+$str = session_id() . "\t" . $text['election_code'] . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
 $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);

@@ -122,6 +122,7 @@
     .o-question {
       display: table;
       height: 350px;
+      width: 100%;
     }
     .carousel .item {
       height: 500px; /*default*/

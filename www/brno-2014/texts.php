@@ -4,7 +4,8 @@
 */
 $text = array(
   
-  'election_code' => 'senat2014-1',
+  'election_code' => 'brno-2014',
+  'template_code' => 'city-2014',
   'lang' => 'cs',
   //meta
   'author' => 'KohoVolit.eu',
@@ -25,10 +26,10 @@ $text = array(
   'calc' => 'Volební kalkulačka',
   'info' => 'Info',
   'url' => 'http://volebnikalkulacka.cz',  
-  'title' => 'Volební kalkulačka 2014 | volby do senátu' ,
+  'title' => 'Volební kalkulačka 2014 | volby v Brně' ,
 
    //PAGE
-  'calc_name' => 'Volební kalkulačka - senátní volby 2014',
+  'calc_name' => 'Volební kalkulačka - volby 2014 Brno',
   'page_question_yes' => 'ANO',
   'page_question_no' => 'NE',
   'page_question_neutral' => 'nevím',
@@ -53,9 +54,9 @@ $text = array(
    
    //fb
    'result_fb_appid' => "200785490055088",
-  'result_fb_picture_link' => 'http://volebnikalkulacka.cz/senat-2014-1/image/logo/',
-  'result_fb_name' => 'Ve Volební kalkulačce mám nejvyšší shodu:',
-  'result_fb_description_1' => 'Dle Volební kalkulačky pro senátní volby se se mnou nejvíce shodují: ',
+  'result_fb_picture_link' => 'http://volebnikalkulacka.cz/brno-2014/image/logo/',
+  'result_fb_name' => 'Ve Volební kalkulačce Brno mám nejvyšší shodu:',
+  'result_fb_description_1' => 'Dle Volební kalkulačky pro Brno se se mnou nejvíce shodují: ',
   'result_fb_description_match' => 'shoda',
   'result_fb_description_and' => 'a',
   'result_fb_description_only' => 'jen',
@@ -94,12 +95,12 @@ $text = array(
 
 
   'result_twitter_data_lang' => 'cs',
-  'result_twitter_text_1' => 'Volební kalkulačka:1.',
+  'result_twitter_text_1' => 'Volební kalkulačka Brno:1.',
   //'result_twitter_text_2' => '1.',
   //'result_twitter_and' => 'a',
   'result_twitter_text_3' => ', naopak ',
   'result_twitter_account' => 'KohoVolitEU',
-  'result_twitter_hashtags' => 'volby,volby2014',
+  'result_twitter_hashtags' => 'volby',
   'result_twitter_share' => 'Tweetni',
   
   

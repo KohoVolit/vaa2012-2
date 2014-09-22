@@ -13,7 +13,7 @@ include("common.php");
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../smarty/templates/' . $text['election_code']);
+$smarty->setTemplateDir('../../smarty/templates/' . $text['template_code']);
 $smarty->setCompileDir('../../smarty/templates_c');
 
 //read questions
