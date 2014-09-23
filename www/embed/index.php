@@ -59,7 +59,7 @@ foreach ($constit as $ckey=>$c) {
 $calc2014brno = array (
   array(
     'name' => 'Volební kalkulačka Brno 2014',
-    'friendly_url' => 'brno-2014/',
+    'friendly_url' => 'brno-2014',  //there should NOT be the trailing slash '/'
     'selected' => true,
     'custom' => true
   ),
@@ -68,7 +68,7 @@ $calc2014brno = array (
 $calc2014senat = array (
   array(
     'name' => 'Volební kalkulačka Senát 2014',
-    'friendly_url' => 'senat-2014/',
+    'friendly_url' => 'senat-2014',
     'selected' => true,
     'custom' => true
   ),
@@ -78,7 +78,7 @@ $calc2014senat = array (
 $calc2014senat1 = array (
   array(
     'name' => 'Volební kalkulačka Senát 2014 - Praha 10',
-    'friendly_url' => 'senat-2014-1/',
+    'friendly_url' => 'senat-2014-1',
     'selected' => false,
     'custom' => true
   ),
