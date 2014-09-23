@@ -4,6 +4,9 @@
   }
 }
 
+h3, .h3 {
+    font-size: 18px;
+}
 /* note: must be first, before the logos/photos */
 .sprite {
     background: url('../image/sprite.jpg') no-repeat top left;
