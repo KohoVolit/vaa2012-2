@@ -56,6 +56,15 @@ foreach ($constit as $ckey=>$c) {
   );
 }
 
+$calc2014brno = array (
+  array(
+    'name' => 'Volební kalkulačka Brno 2014',
+    'friendly_url' => 'brno-2014/',
+    'selected' => true,
+    'custom' => true
+  ),
+);
+
 $calc2014senat = array (
   array(
     'name' => 'Volební kalkulačka Senát 2014',
@@ -129,6 +138,11 @@ $sizes = array(
 );
 
 $calcs = array(
+
+  'calc2014brno' => array(
+    'name' => 'Volební kalkulačka Brno 2014',
+    'calc' => $calc2014brno,
+  ),
 
   'calc2014senat' => array(
     'name' => 'Volební kalkulačka Senát 2014',
