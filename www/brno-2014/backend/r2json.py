@@ -35,7 +35,7 @@ with open('qcoefs.tsv','r') as f:
     else:
       qcoefs[row[1]] = float(row[2])
     i = i + 1
-print qcoefs
+print(qcoefs)
 
 #reorder answers.json
 answersf = open('answers.json')
@@ -55,9 +55,9 @@ answersf.close()
 #as object:
 answers2 = {}
 for item in answers:
-  answers2[item['id']] = item
+  answers2[item] = answers[item]
 
-print answers2
+print(answers2)
 
 #save files 
 with open('answers2.json', 'w') as outfile:

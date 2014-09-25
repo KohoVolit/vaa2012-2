@@ -10,6 +10,9 @@ datadb = transform(datadb,vote = as.numeric(vote))
 
 data = acast(datadb,question~voter,value.var='vote')
 
+  qids = t(read.table(paste(path,"question_ids.tsv",sep="")))
+  data = data[which(rownames(data) %in% t(qids)),]
+
 X = t(scale(t(data),scale=FALSE))
 SVD = svd(X)
 #order of voters:
