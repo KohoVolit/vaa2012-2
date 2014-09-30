@@ -13,21 +13,37 @@ h3, .h3 {
 }
 
 
-.sprite-acb{ background-position: 0 0; width: 80px; height: 80px; } 
-.sprite-ano{ background-position: 0 -130px; width: 80px; height: 80px; } 
-.sprite-antibursik{ background-position: 0 -260px; width: 80px; height: 80px; } 
-.sprite-cssd{ background-position: 0 -390px; width: 80px; height: 80px; } 
-.sprite-dsss-a-spe{ background-position: 0 -520px; width: 80px; height: 80px; } 
-.sprite-kdu-csl{ background-position: 0 -650px; width: 80px; height: 80px; } 
-.sprite-ks{ background-position: 0 -780px; width: 80px; height: 80px; } 
-.sprite-kscm{ background-position: 0 -910px; width: 80px; height: 80px; } 
-.sprite-moravane{ background-position: 0 -1040px; width: 80px; height: 80px; } 
-.sprite-ods{ background-position: 0 -1170px; width: 80px; height: 80px; } 
-.sprite-rpb{ background-position: 0 -1300px; width: 80px; height: 80px; } 
-.sprite-stan{ background-position: 0 -1430px; width: 80px; height: 80px; } 
-.sprite-svobodni{ background-position: 0 -1560px; width: 80px; height: 80px; } 
-.sprite-top-09{ background-position: 0 -1690px; width: 80px; height: 80px; } 
-.sprite-usvit{ background-position: 0 -1820px; width: 80px; height: 80px; } 
-.sprite-zbap{ background-position: -130px 0; width: 80px; height: 80px; } 
-.sprite-zeleni{ background-position: -130px -130px; width: 80px; height: 80px; } 
+.sprite-ano{ background-position: 0 0; width: 80px; height: 80px; } 
+.sprite-cssd{ background-position: 0 -130px; width: 80px; height: 80px; } 
+.sprite-djk{ background-position: 0 -260px; width: 80px; height: 80px; } 
+.sprite-domov{ background-position: 0 -390px; width: 80px; height: 80px; } 
+.sprite-dsss-a-nd{ background-position: 0 -520px; width: 80px; height: 80px; } 
+.sprite-hop{ background-position: 0 -650px; width: 80px; height: 80px; } 
+.sprite-ka-2014{ background-position: 0 -780px; width: 80px; height: 80px; } 
+.sprite-kc{ background-position: 0 -910px; width: 80px; height: 80px; } 
+.sprite-ks{ background-position: 0 -1040px; width: 80px; height: 80px; } 
+.sprite-kscm{ background-position: 0 -1170px; width: 80px; height: 80px; } 
+.sprite-lev21-ns{ background-position: 0 -1300px; width: 80px; height: 80px; } 
+.sprite-nezavisli{ background-position: 0 -1430px; width: 80px; height: 80px; } 
+.sprite-obroda{ background-position: 0 -1560px; width: 80px; height: 80px; } 
+.sprite-ods{ background-position: 0 -1690px; width: 80px; height: 80px; } 
+.sprite-oks{ background-position: 0 -1820px; width: 80px; height: 80px; } 
+.sprite-patrioti{ background-position: -130px 0; width: 80px; height: 80px; } 
+.sprite-pb{ background-position: -130px -130px; width: 80px; height: 80px; } 
+.sprite-pirati{ background-position: -130px -260px; width: 80px; height: 80px; } 
+.sprite-pp{ background-position: -130px -390px; width: 80px; height: 80px; } 
+.sprite-pro-prahu{ background-position: -130px -520px; width: 80px; height: 80px; } 
+.sprite-rds{ background-position: -130px -650px; width: 80px; height: 80px; } 
+.sprite-reseni{ background-position: -130px -780px; width: 80px; height: 80px; } 
+.sprite-restart-2014{ background-position: -130px -910px; width: 80px; height: 80px; } 
+.sprite-rozumni{ background-position: -130px -1040px; width: 80px; height: 80px; } 
+.sprite-rpp{ background-position: -130px -1170px; width: 80px; height: 80px; } 
+.sprite-snop{ background-position: -130px -1300px; width: 80px; height: 80px; } 
+.sprite-spdvpu{ background-position: -130px -1430px; width: 80px; height: 80px; } 
+.sprite-spo{ background-position: -130px -1560px; width: 80px; height: 80px; } 
+.sprite-svobodni{ background-position: -130px -1690px; width: 80px; height: 80px; } 
+.sprite-top-09{ background-position: -130px -1820px; width: 80px; height: 80px; } 
+.sprite-trojkoalice{ background-position: -260px 0; width: 80px; height: 80px; } 
+.sprite-usvit{ background-position: -260px -130px; width: 80px; height: 80px; } 
+
 

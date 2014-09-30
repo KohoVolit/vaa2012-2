@@ -1,13 +1,14 @@
 <?php
 /**
 * VAA
-* reads questions from json
+* select region in senate
 */
 session_start();
 
 include("../setup.php");
 include("texts.php");
 include("common.php");
+
 
 // put full path to Smarty.class.php
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
@@ -16,10 +17,6 @@ $smarty = new Smarty();
 $smarty->setTemplateDir('../../smarty/templates/' . $text['election_code']);
 $smarty->setCompileDir('../../smarty/templates_c');
 
-//read questions
-$qfile = 'questions.json';
-$questions = json_decode(file_get_contents($qfile));
-
 //partners
 if (isset($_GET['partner'])) {
   $partner = sanitize($_GET['partner']);
@@ -27,7 +24,6 @@ if (isset($_GET['partner'])) {
   $partner = 'default';
 }
 if (file_exists('css/'.$partner.'.css')) $partnercss = 'css/'.$partner.'.css';
-
 
 //custom background and header color:
 if (isset($_GET['background'])) {
@@ -44,27 +40,10 @@ if (isset($_GET['navbar'])) {
   $navbar = false;
 }
 
-//constituency code
-if (isset($_GET['cc'])) {
-  $cc = sanitize($_GET['cc']);
-} else {
-  $cc = 3;
-}
-
-
-//get prefilled user's values, if exist
-$user = json_encode(get_user_values());
-
-$smarty->assign('cc',$cc);
 $smarty->assign('text',$text);
 $smarty->assign('background',$background);
 $smarty->assign('background_orig',$background_orig);
 $smarty->assign('navbar',$navbar);
 $smarty->assign('partnercss',$partnercss);
-$smarty->assign('user', $user);
-$smarty->assignByRef('questions', $questions);
 $smarty->assign('session_id',session_id());
-$smarty->display('page.tpl');
-
-
-?>
+$smarty->display('select.tpl');
