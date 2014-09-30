@@ -53,16 +53,17 @@ with open('source/answers.tsv','r') as f:
     else:
       try:
         votes = {}
+        voter_id = voters[row[acc].strip()]['id']
+        details[voter_id] = {}
         for key in questions:
           # "votes[id] = vote"
           votes[questions[key]] = vote2vote(row[key])
           #details
-          try:
-            details[questions[key]]
-          except:
-            details[questions[key]] = {}
+#          try:
+#            details[questions[key]]
+#          except:
+#            details[questions[key]] = {}
           if row[key+1].strip() != "":
-            voter_id = voters[row[acc].strip()]['id']
             details[voter_id][questions[key]] = row[key+1].strip()
         #print votes
         voters[row[acc].strip()]['vote'] = votes

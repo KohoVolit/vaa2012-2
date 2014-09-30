@@ -105,7 +105,7 @@
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/decin-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>DĚČÍN (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/decin-2014" class="btn btn-lg btn-success"><strong>DĚČÍN</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/prostejov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PROSTĚJOV (3.10.)</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/trutnov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>TRUTNOV (3.10.)</strong></a></div>
 				   </div>
