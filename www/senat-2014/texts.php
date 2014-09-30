@@ -4,7 +4,8 @@
 */
 $text = array(
   
-  'election_code' => 'senat2014',
+  'election_code' => 'senat-2014',
+  'template_code' => 'senat2014',
   'lang' => 'cs',
   //meta
   'author' => 'KohoVolit.eu',
@@ -50,6 +51,7 @@ $text = array(
    'comparison_parties_eu' => 'Porovnání se stranami v EU',
    'comparison_eu_explained' => '15 otázek, které jsou v české volební kalkulačce, je shodných i ve volebních kalkulačkách v jiných zemích EU. Které strany jsou Vám tam nejblíže?',
    'missing_table_description' => 'Následující kandidáti <strong>na otázky zatím neodpověděli</strong>:',
+   'missing_table_description' => 'Ostatní kandidáti <strong>na otázky zatím neodpověděli</strong>.',
    
    //fb
    'result_fb_appid' => "200785490055088",
@@ -101,6 +103,8 @@ $text = array(
   'result_twitter_account' => 'KohoVolitEU',
   'result_twitter_hashtags' => 'volby,volby2014',
   'result_twitter_share' => 'Tweetni',
+  
+  'constituency' => 'Volební obvod',
   
   
 );

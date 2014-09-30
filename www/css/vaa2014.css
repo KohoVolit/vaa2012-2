@@ -255,7 +255,12 @@ h2 {
 h3 {
     font-family: 'Roboto Slab',serif;
     font-weight:bold;
-}	
+}
+h4 {
+    font-family: 'Roboto Slab',serif;
+    font-weight:bold;
+    color: white;
+}
 
 .share-bar {
     color: #fff;

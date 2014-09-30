@@ -32,12 +32,7 @@
     {/foreach}
     </ol>
   </div>
-  {if (count($missing) > 0)}
   <div class="well">
     {$text['missing_table_description']}
-    {foreach $missing as $item}
-      {$item->name}{if !($item@last)}, {/if}
-    {/foreach}
   </div>
-  {/if}
 </div>

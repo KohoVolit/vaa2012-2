@@ -15,21 +15,32 @@ include("../config.php");
 require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../../smarty/templates/' . $text['election_code']);
+$smarty->setTemplateDir('../../../smarty/templates/' . $text['template_code']);
 $smarty->setCompileDir('../../../smarty/templates_c');
 
 //answers of voters
 $answers = json_decode(file_get_contents('../answers.json'));
 //missing voters
-$missing = json_decode(file_get_contents('../noreply.json'));
+//$missing = json_decode(file_get_contents('../noreply.json'));
+$constituencies = json_decode(file_get_contents('../constituencies.json'));
 //extract user values
 $user = get_user_values();
 
-//calculate match, for selected CC only
-$results = calc_match($user,$answers,$config);
+//constituency code
+if (isset($_GET['cc'])) {
+  $cc = sanitize($_GET['cc']);
+} else {
+  $cc = 3;
+}
+if (($cc % 3 != 0) or ($cc <=0) or ($cc >81))
+  $cc = 3;
 
-//create EU link
-$eu_link = create_eu_link($user,$results[0]['id']);
+$constituency = $constituencies->$cc;
+
+
+//calculate match, for selected CC only
+$results = calc_match($user,$answers,$config,$cc);
+
 
 //encode user, answers and qcoefs for direct print into file
 $user_json = json_encode($user);
@@ -60,12 +71,11 @@ if (isset($_GET['navbar'])) {
   $navbar = false;
 }
 
-$smarty->assign('missing', $missing);
+$smarty->assign('constituency', $constituency);
 $smarty->assign('text', $text);
 $smarty->assign('partnercss', $partnercss);
 $smarty->assign('background',$background);
 $smarty->assign('navbar',$navbar);
-$smarty->assign('eu_link',$eu_link);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);
@@ -78,30 +88,19 @@ $smarty->display('match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . "calc2014senat-1" . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
+$str = session_id() . "\t" . $text['election_code'] . "\t" . date("Y-m-d H:i:s") . "\t" . $_SERVER['QUERY_STRING'] .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
 $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);
 
-/**
-* create link for EU (CZ)
-*/
-function create_eu_link($user,$party_id) {
-  $out = "https://map.votematch.eu/?c=cz&p[]=" . $party_id;
-  foreach ($user['vote'] as $key=>$item) {
-    if ($key <= 20) {
-      $out .= '&s' . $key . '=' . $item; 
-    }
-  }
-  return $out;
-}
 
 /**
 * calculates results for one set
 */
-function calc_match($user,$set,$config,$extra=2) {
+function calc_match($user,$set,$config,$cc,$extra=2) {
   $results = array();
   foreach ($set as $s) {
+   if ($s->cc == $cc) {
     $sum = 0;
     $count = 0;
     if (isset($user['vote']) and count($user['vote']) > 0) {
@@ -128,7 +127,7 @@ function calc_match($user,$set,$config,$extra=2) {
     $res['id'] = $s->id;
     $res['random'] = rand(0,1000000);
     $results[] = $res;
-    
+   }
   }
   //sort by result
   foreach ($results as $key => $row) {

@@ -14,6 +14,7 @@
       
       <!-- results -->
       <div class="container results">
+        <h4>{$text['constituency']}: {$constituency}</h4>
         <!-- winners -->
           {include "match-winners.tpl"}
         <!-- /winners -->

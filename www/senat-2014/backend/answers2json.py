@@ -6,7 +6,7 @@ import re
 from slugify import slugify
 
 acc = 3 # answers codes columns
-nq = 35 # number of questions
+nq = 46 # number of questions
 
 def vote2vote (vote):
   if vote == 'Ano':
@@ -27,10 +27,13 @@ with open('source/voters.tsv','r') as f:
     else:
       voter = {
         'id': row[0].strip(),
-        'name': row[1].strip(),
-        'short_name': row[2].strip(),
-        'code': row[3].strip(),
-        'friendly_name': slugify(row[2].strip())
+        'name': row[1].strip() + " " + row[2].strip(),
+        'short_name': row[5].strip(),
+        'party': row[3].strip(),
+        'code': row[6].strip(),
+        'cc': row[4].strip(),
+        'friendly_name': slugify(row[5].strip()),
+        'constituency': row[7].strip(),
       }
       voters[voter['code']] = voter
     i = i + 1
@@ -53,16 +56,17 @@ with open('source/answers.tsv','r') as f:
     else:
       try:
         votes = {}
+        voter_id = voters[row[acc].strip()]['id']
+        details[voter_id] = {}
         for key in questions:
           # "votes[id] = vote"
           votes[questions[key]] = vote2vote(row[key])
           #details
-          try:
-            details[questions[key]]
-          except:
-            details[questions[key]] = {}
+#          try:
+#            details[voter_id]
+#          except:
+#            details[voter_id] = {}
           if row[key+1].strip() != "":
-            voter_id = voters[row[acc].strip()]['id']
             details[voter_id][questions[key]] = row[key+1].strip()
         #print votes
         voters[row[acc].strip()]['vote'] = votes
@@ -70,6 +74,8 @@ with open('source/answers.tsv','r') as f:
       except:
         print(row[acc].strip())
     i = i + 1
+#    if row[3] == '146629':
+#     raise(Exception)
 
 #reorder as list and deselect voters with no votes:
 print("not answered:")
