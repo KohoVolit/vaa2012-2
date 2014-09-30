@@ -100,7 +100,7 @@
 				   
 				   <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ceske-budejovice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>Č.BUDĚJOVICE(3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/pardubice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PARDUBICE (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/pardubice-2014" class="btn btn-lg btn-success"><strong>PARDUBICE</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/karlovy-vary-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>KARLOVY VARY (3.10.)</strong></a></div>
 				   </div>
 				   
