@@ -78,7 +78,7 @@
                    <div>
 				   <a href="./senat-2014/select.php" class="btn btn-lg btn-success" >SPUSTIT  VOLEBNÍ KALKULAČKU PRO <strong>SENÁT</strong></a>
 				   </div>
-				   <h3 style="color:white">Komunální volby:</h3>
+				   <h3 style="color:white">Spustit kalkulačku pro komunální volby:</h3>
 				   <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-4"><a href="./praha-2014" class="btn btn-lg btn-success" ><strong>PRAHA</strong></a></div>
 				     <div class="col-sm-4"><a href="./brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
