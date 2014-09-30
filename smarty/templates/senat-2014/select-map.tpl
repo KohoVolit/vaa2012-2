@@ -25,13 +25,13 @@
 <area id="cc-51" alt="Žďár nad Sázavou" title="Žďár nad Sázavou" href="./?cc=50" shape="poly" coords="379,254,376,235,387,225,392,206,354,187,333,214,340,238" style="outline:none;" target="_self"     />
 <area id="cc-54" alt="Znojmo" title="Znojmo" href="./?cc=53" shape="poly" coords="376,273,390,281,395,316,366,324,312,303,356,286" style="outline:none;" target="_self"     />
 <area id="cc-57" alt="Vyškov" title="Vyškov" href="./?cc=56" shape="poly" coords="413,250,417,243,430,247,428,237,439,223,453,238,455,258,451,273,413,286,408,277,419,269" style="outline:none;" target="_self"     />
-<area id="cc-60" alt="Brno" title="Brno" href="./?cc=59" shape="poly" coords="414,465,412,439,419,435,414,412,394,421,378,433,376,461,390,466,404,464" style="outline:none;" target="_self"     />
-<area id="cc-63" alt="Přerov" title="Přerov" href="./?cc=62" shape="poly" coords="476,215,480,235,518,223,534,209,519,179,508,182,504,206" style="outline:none;" target="_self"     />
-<area id="cc-66" alt="Olomouc" title="Olomouc" href="./?cc=65" shape="poly" coords="487,166,496,182,461,201,462,212,430,194,419,164,419,158,453,168" style="outline:none;" target="_self"     />
-<area id="cc-69" alt="Frýdek-Místek" title="Frýdek-Místek" href="./?cc=68" shape="poly" coords="552,186,576,234,588,218,576,197,581,188,569,176" style="outline:none;" target="_self"     />
-<area id="cc-72" alt="Ostrava" title="Ostrava" href="./?cc=71" shape="poly" coords="552,429,523,450,528,471,522,480,505,473,478,456,519,412,539,406" style="outline:none;" target="_self"     />
-<area id="cc-75" alt="Karviná" title="Karviná" href="./?cc=74" shape="poly" coords="580,185,589,170,585,155,571,149,567,162" style="outline:none;" target="_self"     />
-<area id="cc-78" alt="Zlín" title="Zlín" href="./?cc=77" shape="poly" coords="496,252,524,230,551,255,547,271,529,263,504,266" style="outline:none;" target="_self"     />
-<area id="cc-81" alt="Uherské Hradiště" title="Uherské Hradiště" href="./?cc=80" shape="poly" coords="488,310,470,271,449,269,438,278,439,299,445,311,456,316" style="outline:none;" target="_self"     />
+<area id="cc-60" alt="Brno" title="Brno" href="./?cc=60" shape="poly" coords="414,465,412,439,419,435,414,412,394,421,378,433,376,461,390,466,404,464" style="outline:none;" target="_self"     />
+<area id="cc-63" alt="Přerov" title="Přerov" href="./?cc=63" shape="poly" coords="476,215,480,235,518,223,534,209,519,179,508,182,504,206" style="outline:none;" target="_self"     />
+<area id="cc-66" alt="Olomouc" title="Olomouc" href="./?cc=66" shape="poly" coords="487,166,496,182,461,201,462,212,430,194,419,164,419,158,453,168" style="outline:none;" target="_self"     />
+<area id="cc-69" alt="Frýdek-Místek" title="Frýdek-Místek" href="./?cc=69" shape="poly" coords="552,186,576,234,588,218,576,197,581,188,569,176" style="outline:none;" target="_self"     />
+<area id="cc-72" alt="Ostrava" title="Ostrava" href="./?cc=72" shape="poly" coords="552,429,523,450,528,471,522,480,505,473,478,456,519,412,539,406" style="outline:none;" target="_self"     />
+<area id="cc-75" alt="Karviná" title="Karviná" href="./?cc=75" shape="poly" coords="580,185,589,170,585,155,571,149,567,162" style="outline:none;" target="_self"     />
+<area id="cc-78" alt="Zlín" title="Zlín" href="./?cc=78" shape="poly" coords="496,252,524,230,551,255,547,271,529,263,504,266" style="outline:none;" target="_self"     />
+<area id="cc-81" alt="Uherské Hradiště" title="Uherské Hradiště" href="./?cc=81" shape="poly" coords="488,310,470,271,449,269,438,278,439,299,445,311,456,316" style="outline:none;" target="_self"     />
 
 </map>

@@ -104,4 +104,6 @@ $text = array(
   'result_twitter_share' => 'Tweetni',
   
   
+    'svobodni_extra_text' => 'Odpovědi mimo volební kalkulačku: <a href="https://www.dropbox.com/s/1olimz7nid9c2s8/svobodni-praha-2014.docx?dl=0">Strana svobodných občanů</a>',
+  
 );

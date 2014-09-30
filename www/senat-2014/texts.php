@@ -5,7 +5,7 @@
 $text = array(
   
   'election_code' => 'senat-2014',
-  'template_code' => 'senat2014',
+  'template_code' => 'senat-2014',
   'lang' => 'cs',
   //meta
   'author' => 'KohoVolit.eu',

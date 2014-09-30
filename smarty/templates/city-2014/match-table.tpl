@@ -38,6 +38,11 @@
     {foreach $missing as $item}
       {$item->name}{if !($item@last)}, {/if}
     {/foreach}
+    <!-- something extra for Prague and Svobodni -->
+    {if ($text['election_code'] == 'praha-2014')}
+      <br/>{$text['svobodni_extra_text']}
+    {/if}
+    <!-- /something extra -->
   </div>
   {/if}
 </div>
