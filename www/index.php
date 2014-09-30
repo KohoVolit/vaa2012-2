@@ -67,7 +67,7 @@
 
     <!-- Full Page Image Header Area -->
     <?php
-      $r = rand(0,5);
+      $r = rand(0,2);
       if ($r == 0)
         $randpath = '.';
       else
@@ -93,27 +93,27 @@
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="./plzen-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PLZEŇ (1.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./liberec-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>LIBEREC (3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./olomouc-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>OLOMOUC (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/plzen-2014" class="btn btn-lg btn-success"><strong>PLZEŇ</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/liberec-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>LIBEREC (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/olomouc-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>OLOMOUC (3.10.)</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="./ceske-budejovice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>Č.BUDĚJOVICE(3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./pardubice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PARDUBICE (3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./karlovy-vary-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>KARLOVY VARY (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ceske-budejovice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>Č.BUDĚJOVICE(3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/pardubice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PARDUBICE (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/karlovy-vary-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>KARLOVY VARY (3.10.)</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="./decin-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>DĚČÍN (3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./prostejov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PROSTĚJOV (3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./trutnov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>TRUTNOV (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/decin-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>DĚČÍN (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/prostejov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PROSTĚJOV (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/trutnov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>TRUTNOV (3.10.)</strong></a></div>
 				   </div>
 
                     <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-2"></a></div>
-				     <div class="col-sm-4"><a href="./zdar-nad-sazavou-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>ŽĎÁR N.S. (3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="./bohumin-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>BOHUMÍN (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/zdar-nad-sazavou-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>ŽĎÁR N.S. (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/bohumin-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>BOHUMÍN (3.10.)</strong></a></div>
 				     <div class="col-sm-2"></div>
 				   </div>
 				   

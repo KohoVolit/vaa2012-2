@@ -55,7 +55,7 @@ $text = array(
    
    //fb
    'result_fb_appid' => "200785490055088",
-  'result_fb_picture_link' => 'http://volebnikalkulacka.cz/senat-2014-1/image/logo/',
+  'result_fb_picture_link' => 'http://volebnikalkulacka.cz/senat-2014/image/logo/',
   'result_fb_name' => 'Ve Volební kalkulačce mám nejvyšší shodu:',
   'result_fb_description_1' => 'Dle Volební kalkulačky pro senátní volby se se mnou nejvíce shodují: ',
   'result_fb_description_match' => 'shoda',
