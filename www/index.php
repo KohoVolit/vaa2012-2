@@ -66,6 +66,13 @@
     <!-- /Side Menu -->
 
     <!-- Full Page Image Header Area -->
+    <?php
+      $r = rand(0,5);
+      if ($r == 0)
+        $randpath = '.';
+      else
+        $randpath = 'http://volebnikalkulacka.eu';
+    ?>
     <div id="top" class="header">
         
 		<div class="vert-text">    
@@ -76,13 +83,13 @@
                 Volební kalkulačka pro volby do Senátu a vybraných obecních zastupitelstev 2014 Vám pomůže rozhodnout koho volit 10. a 11. října 2014. Online volební test Vám zabere přibližně 5 minut.
                 </p>
                    <div>
-				   <a href="./senat-2014/select.php" class="btn btn-lg btn-success" >SPUSTIT  VOLEBNÍ KALKULAČKU PRO <strong>SENÁT</strong></a>
+				   <a href="<?php echo $randpath; ?>/senat-2014/select.php" class="btn btn-lg btn-success" >SPUSTIT  VOLEBNÍ KALKULAČKU PRO <strong>SENÁT</strong></a>
 				   </div>
 				   <h3 style="color:white">Spustit kalkulačku pro komunální volby:</h3>
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="./praha-2014" class="btn btn-lg btn-success" ><strong>PRAHA</strong></a></div>
-				     <div class="col-sm-4"><a href="./brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
-				     <div class="col-sm-4"><a href="./ostrava-2014" class="btn btn-lg btn-info"   disabled="disabled"><strong>OSTRAVA (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/praha-2014" class="btn btn-lg btn-success" ><strong>PRAHA</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-info"   disabled="disabled"><strong>OSTRAVA (3.10.)</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">

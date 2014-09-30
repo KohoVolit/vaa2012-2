@@ -1,4 +1,4 @@
-      <img id="mapimg" src="dev/senat3.png" border="0" width="618" height="543" orgWidth="618" orgHeight="543" usemap="#map3" alt="" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;display: table-cell;"/>
+      <img id="mapimg" src="image/senat3.png" border="0" width="618" height="543" orgWidth="618" orgHeight="543" usemap="#map3" alt="" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;display: table-cell;"/>
 <map name="map3" id="map3">
 
 <area id="cc-3" alt="Cheb" title="Cheb" href="./?cc=3" shape="poly" coords="5,105,40,160,31,187,43,203,86,201,83,162,55,158,35,107" style="outline:none;" target="_self"     />
