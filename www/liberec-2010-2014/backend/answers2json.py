@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+
+import csv
+import json
+import re
+from slugify import slugify
+
+acc = 0 # answers codes columns
+nq = 10 # number of questions
+
+def vote2vote (vote):
+  if vote == 'pro':
+    return 1
+  if vote == 'proti':
+    return -1
+  if vote == 'zdržel se':
+    return 0
+  else:
+    return 0
+
+# read voters
+i = 0
+voters = {}
+with open('source/voters.tsv','r') as f:
+  csvreader = csv.reader(f,delimiter="\t")
+  for row in csvreader:
+    if i == 0:
+      nothing = 0
+    else:
+      voter = {
+        'id': row[0].strip(),
+        'name': row[1].strip(),
+        'short_name': row[3].strip(),
+        'code': row[0].strip(),
+        'friendly_name': slugify(row[3].strip())
+      }
+      voters[voter['code']] = voter
+    i = i + 1
+    
+#print voters
+
+#get votes and details (comments)
+i = 0
+details = {}
+print ("mismatching codes:")
+with open('source/answers.tsv','r') as f:
+  csvreader = csv.reader(f,delimiter="\t")
+  for row in csvreader:
+    if i == 0:
+      questions = {} # col: id
+      for j in range(0,nq):
+        col = (4 + j)
+        questions[col] = re.search('\d*', row[col]).group(0)
+      #print questions
+    else:
+      try:
+        votes = {}
+        voter_id = voters[row[acc].strip()]['id']
+#        details[voter_id] = {}
+        for key in questions:
+          # "votes[id] = vote"
+          votes[questions[key]] = vote2vote(row[key])
+          #details
+#          try:
+#            details[questions[key]]
+#          except:
+#            details[questions[key]] = {}
+#          if row[key+1].strip() != "":
+#            details[voter_id][questions[key]] = row[key+1].strip()
+        #print votes
+        voters[row[acc].strip()]['vote'] = votes
+        
+      except:
+        print(row[acc].strip())
+    i = i + 1
+#    if i>1:
+#      raise(Exception)
+
+#reorder as list and deselect voters with no votes:
+print("not answered:")
+data = []
+nodata = []
+for key in voters:
+  try:
+    voters[key]['vote']
+  except:
+    print(voters[key]['short_name'])
+    del voters[key]['code']
+    nodata.append(voters[key]) 
+  else:
+    del voters[key]['code']
+    data.append(voters[key])  
+
+#order by alphabet
+data = sorted(data, key=lambda x: x['friendly_name'])    
+nodata = sorted(nodata, key=lambda x: x['friendly_name'])
+
+#array to obj
+dataout = {}
+for item in data:
+  dataout[item['id']] = item
+
+# db-like file for R
+votesdb = []
+for item in data:
+  for key in item['vote']:
+    votesdb.append({"vote":item['vote'][key],"voter":int(item['id']),"question":int(key)})
+  
+#save files 
+with open('answers.json', 'w') as outfile:
+  json.dump(dataout, outfile)
+outfile.close()
+with open('noreply.json', 'w') as outfile:
+  json.dump(nodata, outfile)
+outfile.close()
+#with open('details.json', 'w') as outfile:
+#  json.dump(details, outfile)
+#outfile.close()
+with open('matrix.json', 'w') as outfile:
+  json.dump(votesdb, outfile)
+outfile.close()
