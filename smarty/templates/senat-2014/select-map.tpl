@@ -21,10 +21,10 @@
 <area id="cc-39" alt="Trutnov" title="Trutnov" href="./?cc=39" shape="poly" coords="330,104,376,59,310,40" style="outline:none;" target="_self"     />
 <area id="cc-42" alt="Kolín" title="Kolín" href="./?cc=42" shape="poly" coords="263,164,305,131,291,130,283,136,275,135,272,124,259,125,249,118,239,121,241,148,258,151,252,163" style="outline:none;" target="_self"     />
 <area id="cc-45" alt="Hradec Králové" title="Hradec Králové" href="./?cc=45" shape="poly" coords="326,132,350,127,341,114,326,108,316,110,310,103,296,120,314,133" style="outline:none;" target="_self"     />
-<area id="cc-48" alt="Rychnov nad Kněžnou" title="Rychnov nad Kněžnou" href="./?cc=47" shape="poly" coords="383,93,356,109,353,122,326,130,343,154,359,153,376,153,408,127" style="outline:none;" target="_self"     />
-<area id="cc-51" alt="Žďár nad Sázavou" title="Žďár nad Sázavou" href="./?cc=50" shape="poly" coords="379,254,376,235,387,225,392,206,354,187,333,214,340,238" style="outline:none;" target="_self"     />
-<area id="cc-54" alt="Znojmo" title="Znojmo" href="./?cc=53" shape="poly" coords="376,273,390,281,395,316,366,324,312,303,356,286" style="outline:none;" target="_self"     />
-<area id="cc-57" alt="Vyškov" title="Vyškov" href="./?cc=56" shape="poly" coords="413,250,417,243,430,247,428,237,439,223,453,238,455,258,451,273,413,286,408,277,419,269" style="outline:none;" target="_self"     />
+<area id="cc-48" alt="Rychnov nad Kněžnou" title="Rychnov nad Kněžnou" href="./?cc=48" shape="poly" coords="383,93,356,109,353,122,326,130,343,154,359,153,376,153,408,127" style="outline:none;" target="_self"     />
+<area id="cc-51" alt="Žďár nad Sázavou" title="Žďár nad Sázavou" href="./?cc=51" shape="poly" coords="379,254,376,235,387,225,392,206,354,187,333,214,340,238" style="outline:none;" target="_self"     />
+<area id="cc-54" alt="Znojmo" title="Znojmo" href="./?cc=54" shape="poly" coords="376,273,390,281,395,316,366,324,312,303,356,286" style="outline:none;" target="_self"     />
+<area id="cc-57" alt="Vyškov" title="Vyškov" href="./?cc=57" shape="poly" coords="413,250,417,243,430,247,428,237,439,223,453,238,455,258,451,273,413,286,408,277,419,269" style="outline:none;" target="_self"     />
 <area id="cc-60" alt="Brno" title="Brno" href="./?cc=60" shape="poly" coords="414,465,412,439,419,435,414,412,394,421,378,433,376,461,390,466,404,464" style="outline:none;" target="_self"     />
 <area id="cc-63" alt="Přerov" title="Přerov" href="./?cc=63" shape="poly" coords="476,215,480,235,518,223,534,209,519,179,508,182,504,206" style="outline:none;" target="_self"     />
 <area id="cc-66" alt="Olomouc" title="Olomouc" href="./?cc=66" shape="poly" coords="487,166,496,182,461,201,462,212,430,194,419,164,419,158,453,168" style="outline:none;" target="_self"     />
