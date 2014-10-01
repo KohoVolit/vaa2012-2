@@ -87,7 +87,7 @@
 				   </div>
 				   <h3 style="color:white">Spustit kalkulačku pro komunální volby 2014:</h3>
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/praha-2014" class="btn btn-lg btn-success" disabled="disabled"><strong>PRAHA</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/praha-2014" class="btn btn-lg btn-success"><strong>PRAHA</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-info"   disabled="disabled"><strong>OSTRAVA (3.10.)</strong></a></div>
 				   </div>
