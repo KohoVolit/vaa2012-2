@@ -18,6 +18,7 @@
 .sprite-domov{ background-position: 0 -650px; width: 80px; height: 80px; } 
 .sprite-ka-2014{ background-position: 0 -780px; width: 80px; height: 80px; } 
 .sprite-kdu{ background-position: 0 -910px; width: 80px; height: 80px; } 
+.sprite-kdu-csl{ background-position: 0 -910px; width: 80px; height: 80px; } 
 .sprite-kscm{ background-position: 0 -1040px; width: 80px; height: 80px; } 
 .sprite-lepsi-desitka{ background-position: 0 -1170px; width: 80px; height: 80px; } 
 .sprite-lk{ background-position: 0 -1300px; width: 80px; height: 80px; } 
@@ -46,8 +47,9 @@
 .sprite-sz-pirati{ background-position: -260px -390px; width: 80px; height: 80px; } 
 .sprite-sz{ background-position: -260px -520px; width: 80px; height: 80px; } 
 .sprite-t{ background-position: -260px -650px; width: 80px; height: 80px; } 
-.sprite-top09-stan{ background-position: -260px -780px; width: 80px; height: 80px; } 
-.sprite-top09{ background-position: -260px -910px; width: 80px; height: 80px; } 
+.sprite-top09-stan{ background-position: -260px -780px; width: 80px; height: 80px; }
+.sprite-top-09-stan{ background-position: -260px -780px; width: 80px; height: 80px; }  
+.sprite-top-09{ background-position: -260px -910px; width: 80px; height: 80px; } 
 .sprite-usvit{ background-position: -260px -1040px; width: 80px; height: 80px; } 
 .sprite-vlasta{ background-position: -260px -1170px; width: 80px; height: 80px; } 
 .sprite-zh{ background-position: -260px -1300px; width: 80px; height: 80px; } 
