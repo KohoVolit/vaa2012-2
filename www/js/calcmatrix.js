@@ -1,4 +1,7 @@
-  var voted = Object.keys(user['vote']);  //http://stackoverflow.com/questions/3068534/getting-javascript-object-key-list
+  var voted = Array();
+  for (k in user['vote']) {
+    if (user['vote'][k] != 0) voted.push(k);
+  }
 
 
     data = addme(answers)
