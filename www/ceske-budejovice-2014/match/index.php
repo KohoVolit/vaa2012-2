@@ -28,9 +28,6 @@ $user = get_user_values();
 //calculate match, for selected CC only
 $results = calc_match($user,$answers,$config);
 
-//create EU link
-$eu_link = create_eu_link($user,$results[0]['id']);
-
 //encode user, answers and qcoefs for direct print into file
 $user_json = json_encode($user);
 $answers_json = json_encode($answers);
@@ -65,7 +62,6 @@ $smarty->assign('text', $text);
 $smarty->assign('partnercss', $partnercss);
 $smarty->assign('background',$background);
 $smarty->assign('navbar',$navbar);
-$smarty->assign('eu_link',$eu_link);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);
@@ -83,18 +79,7 @@ $file = fopen('../../result.txt','a');
 fwrite($file,$str);
 fclose($file);
 
-/**
-* create link for EU (CZ)
-*/
-function create_eu_link($user,$party_id) {
-  $out = "https://map.votematch.eu/?c=cz&p[]=" . $party_id;
-  foreach ($user['vote'] as $key=>$item) {
-    if ($key <= 20) {
-      $out .= '&s' . $key . '=' . $item; 
-    }
-  }
-  return $out;
-}
+
 
 /**
 * calculates results for one set
@@ -110,7 +95,7 @@ function calc_match($user,$set,$config,$extra=2) {
         if (isset($user['weight'][$key])) $w = $extra;
         else $w = 1;
         //existing divisions only:
-        if ((property_exists($s,'vote')) and (property_exists($s->vote,$key))) {
+        if ((property_exists($s,'vote')) and (property_exists($s->vote,$key)) and ($uv != 0)) {
           $sum = $sum + $w*$s->vote->$key*sign($uv);
           $count = $count + $w;
         }
