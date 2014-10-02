@@ -11,6 +11,6 @@
 </div>
 <!-- something extra for Prague -->
     {if ($text['election_code'] == 'praha-2014')}
-      <a href="http://dotazy.praha.cz" type="button" class="btn btn-info btn-lg sharebutton" id="lower-dotazy"><i class="fa fa-question fa-lg"></i> Dotazy radním</a>
+      <a href="http://dotazy.praha.eu" type="button" class="btn btn-info btn-lg sharebutton" id="lower-dotazy"><i class="fa fa-question fa-lg"></i> Dotazy radním</a>
     {/if}
     <!-- /something extra -->
