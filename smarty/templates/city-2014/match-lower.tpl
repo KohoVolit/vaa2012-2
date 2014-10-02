@@ -11,9 +11,11 @@
       <a href="http://www.decinskeforum.cz/?page_id=731" type="button" class="btn btn-warning btn-lg sharebutton" id="lower-decin"><i class="fa fa-anchor fa-lg"></i> Vše o volbách v Děčíně ve speciálu Děčínského fóra</a>
     {/if}
     <!-- /something extra -->
+{if ($text['election_code'] != 'decin-2014')}
 <div class="text-center">
   <a href="http://www.nasipolitici.cz/" type="button" class="btn btn-info btn-lg sharebutton" id="lower-nasipolitici"><i class="fa fa-users fa-lg"></i> Vše o kandidátech na NašiPolitici.cz</a>
 </div>
+{/if}
 <!-- something extra for Prague -->
     {if ($text['election_code'] == 'praha-2014')}
       <a href="http://dotazy.praha.eu" type="button" class="btn btn-info btn-lg sharebutton" id="lower-dotazy"><i class="fa fa-question fa-lg"></i> Dotazy radním</a>
