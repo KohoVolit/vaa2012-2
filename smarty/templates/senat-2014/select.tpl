@@ -14,7 +14,7 @@
       {include "page-header.tpl"}
       <!-- /header -->
       <div class="container results">
-        <h3 style="color:white">Vyberte Váš volební obvod na mapě nebo ze seznamu:</h3> 
+        <h3 style="color:white">{$text['select_constituency']}</h3> 
         <!-- map -->
         {include "select-map.tpl"}
         <!-- /map -->

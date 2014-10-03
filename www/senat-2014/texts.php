@@ -105,6 +105,6 @@ $text = array(
   'result_twitter_share' => 'Tweetni',
   
   'constituency' => 'Volební obvod',
-  
+   'select_constituency' => 'Vyberte Váš volební obvod na mapě nebo ze seznamu:',
   
 );
