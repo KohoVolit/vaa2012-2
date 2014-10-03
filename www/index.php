@@ -89,7 +89,7 @@
 				   <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/praha-2014" class="btn btn-lg btn-success"><strong>PRAHA</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-success" disabled="disabled"><strong>OSTRAVA</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-success"><strong>OSTRAVA</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
