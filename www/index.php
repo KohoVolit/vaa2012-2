@@ -113,7 +113,7 @@
                     <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-2"></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/zdar-nad-sazavou-2014" class="btn btn-lg btn-success"><strong>ŽĎÁR N.S.</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/bohumin-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>BOHUMÍN (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/bohumin-2014" class="btn btn-lg btn-success"><strong>BOHUMÍN</strong></a></div>
 				     <div class="col-sm-2"></div>
 				   </div>
 				   
