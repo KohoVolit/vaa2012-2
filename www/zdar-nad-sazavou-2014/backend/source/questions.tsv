@@ -1,5 +1,5 @@
 id	jméno otázky	otázka (max. 20 slov)	popis	pořadí
-1	Vyrovnaný rozpočet	Město by mělo schvalovat pouze vyrovnané rozpočty (tedy s příjmy převyšujícími výdaje).		1
+1	Vyrovnaný rozpočet	Město by mělo schvalovat pouze vyrovnané rozpočty (tedy s výdaji nepřevyšujícími příjmy).		1
 2	Parkovací místa	Počet parkovacích míst ve městě by měl narůst.		2
 3	Smlouvy na Internetu	Město by mělo dobrovolně zveřejňovat všechny své smlouvy v registru smluv.		3
 4	Rozklikávací rozpočet	Město by mělo na svých webových stránkách prezentovat tzv. rozklikávací rozpočet (podobně jako např. Nového Městi na Moravě).		4
@@ -17,4 +17,4 @@ id	jméno otázky	otázka (max. 20 slov)	popis	pořadí
 16	Turismus na Zámku	Město by mělo podporovat přechod turistické infrastruktury na Zámku do rukou rodiny Kinských.		16
 17	Kumulace funkcí	Je problematické, pokud starosta současně vykonává funkci zákonodárce.		17
 18	MHD zdarma	Uživání městské hromadné dopravy by mělo být zdarma.		18
-19	Herní automaty	V Praze by měly být zakázány všechny herní automaty.		19
+19	Herní automaty	Ve městě by měly být zakázány všechny herní automaty.		19
