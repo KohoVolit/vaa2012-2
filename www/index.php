@@ -89,24 +89,24 @@
 				   <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/praha-2014" class="btn btn-lg btn-success"><strong>PRAHA</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-info"   disabled="disabled"><strong>OSTRAVA (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>OSTRAVA (3.10.)</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/plzen-2014" class="btn btn-lg btn-success"><strong>PLZEŇ</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/liberec-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>LIBEREC (3.10.)</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/olomouc-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>OLOMOUC (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/liberec-2014" class="btn btn-lg btn-success"><strong>LIBEREC</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/olomouc-2014" class="btn btn-lg btn-success"><strong>OLOMOUC</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ceske-budejovice-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>Č.BUDĚJOVICE(3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ceske-budejovice-2014" class="btn btn-lg btn-success"><strong>Č.BUDĚJOVICE</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/pardubice-2014" class="btn btn-lg btn-success"><strong>PARDUBICE</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/karlovy-vary-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>KARLOVY VARY (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/karlovy-vary-2014" class="btn btn-lg btn-success"><strong>KARLOVY VARY</strong></a></div>
 				   </div>
 				   
 				   <div style="padding-bottom:1em" class="row">
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/decin-2014" class="btn btn-lg btn-success"><strong>DĚČÍN</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/prostejov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>PROSTĚJOV (3.10.)</strong></a></div>
+				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/prostejov-2014" class="btn btn-lg btn-success"><strong>PROSTĚJOV</strong></a></div>
 				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/trutnov-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>TRUTNOV (3.10.)</strong></a></div>
 				   </div>
 
