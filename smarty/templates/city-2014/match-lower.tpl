@@ -13,6 +13,9 @@
     <!-- /something extra -->
 {if ($text['election_code'] != 'decin-2014')}
 <div class="text-center">
+  <a href="http://www.nasstat.cz/predvolebni-radce-pro-komunalni-a-senatni-volby/" type="button" class="btn btn-danger btn-lg sharebutton" id="lower-nasstat"><i class="fa fa-list fa-lg"></i> Kompletní průvodce volbami 2014 - NášStát.cz</a>
+</div>
+<div class="text-center">
   <a href="http://www.nasipolitici.cz/" type="button" class="btn btn-info btn-lg sharebutton" id="lower-nasipolitici"><i class="fa fa-users fa-lg"></i> Vše o kandidátech na NašiPolitici.cz</a>
 </div>
 {/if}
