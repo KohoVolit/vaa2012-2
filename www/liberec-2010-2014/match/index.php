@@ -110,7 +110,7 @@ function calc_match($user,$set,$config,$extra=2) {
         if (isset($user['weight'][$key])) $w = $extra;
         else $w = 1;
         //existing divisions only:
-        if ((property_exists($s,'vote')) and (property_exists($s->vote,$key))) {
+        if ((property_exists($s,'vote')) and (property_exists($s->vote,$key)) and ($uv != 0)) {
           $sum = $sum + $w*$s->vote->$key*sign($uv);
           $count = $count + $w;
         }

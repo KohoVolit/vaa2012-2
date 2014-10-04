@@ -119,7 +119,7 @@
 				   
 				   <h3 style="color:white">Spustit inventuru hlasování 2010-2014:</h3>
 				   <div  style="padding-bottom:1em" >
-				   <a href="<?php echo $randpath; ?>/liberec-2010-2014" class="btn btn-lg btn-info" disabled="disabled"><strong>LIBEREC</strong></a>
+				   <a href="<?php echo $randpath; ?>/liberec-2010-2014" class="btn btn-lg btn-success"><strong>LIBEREC</strong></a>
 				   </div>
 
 				   <p>
