@@ -56,6 +56,118 @@ foreach ($constit as $ckey=>$c) {
   );
 }
 
+$calc2014zdarnadsazavou = array (
+  array(
+    'name' => 'Volební kalkulačka Žďár nad Sázavou 2014',
+    'friendly_url' => 'zdar-nad-sazavou-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014karlovyvary = array (
+  array(
+    'name' => 'Volební kalkulačka Karlovy Vary 2014',
+    'friendly_url' => 'karlovy-vary-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014trutnov = array (
+  array(
+    'name' => 'Volební kalkulačka Trutnoc 2014',
+    'friendly_url' => 'trutnov-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014ceskebudejovice = array (
+  array(
+    'name' => 'Volební kalkulačka České Budějovice 2014',
+    'friendly_url' => 'ceske-budejovice-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014olomouc = array (
+  array(
+    'name' => 'Volební kalkulačka Olomouc 2014',
+    'friendly_url' => 'olomouc-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014liberec = array (
+  array(
+    'name' => 'Volební kalkulačka Liberec 2014',
+    'friendly_url' => 'liberec-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014liberec2010 = array (
+  array(
+    'name' => 'Inventura hlasování Liberec 2010-2014',
+    'friendly_url' => 'liberec-2010-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014decin = array (
+  array(
+    'name' => 'Volební kalkulačka Děčín 2014',
+    'friendly_url' => 'decin-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014prostejov = array (
+  array(
+    'name' => 'Volební kalkulačka Prostějov 2014',
+    'friendly_url' => 'prostejov-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014pardubice = array (
+  array(
+    'name' => 'Volební kalkulačka Pardubice 2014',
+    'friendly_url' => 'pardubice-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014bohumin = array (
+  array(
+    'name' => 'Volební kalkulačka Bohumín 2014',
+    'friendly_url' => 'bohumin-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014plzen = array (
+  array(
+    'name' => 'Volební kalkulačka Plzeň 2014',
+    'friendly_url' => 'plzen-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014ostrava = array (
+  array(
+    'name' => 'Volební kalkulačka Ostrava 2014',
+    'friendly_url' => 'ostrava-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
+$calc2014praha = array (
+  array(
+    'name' => 'Volební kalkulačka Praha 2014',
+    'friendly_url' => 'praha-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
 $calc2014brno = array (
   array(
     'name' => 'Volební kalkulačka Brno 2014',
@@ -139,11 +251,70 @@ $sizes = array(
 
 $calcs = array(
 
+  'calc2014praha' => array(
+    'name' => 'Volební kalkulačka Praha 2014',
+    'calc' => $calc2014praha,
+  ),
+
   'calc2014brno' => array(
     'name' => 'Volební kalkulačka Brno 2014',
     'calc' => $calc2014brno,
   ),
 
+  'calc2014ostrava' => array(
+    'name' => 'Volební kalkulačka Ostrava 2014',
+    'calc' => $calc2014ostrava,
+  ),
+  'calc2014plzen' => array(
+    'name' => 'Volební kalkulačka Plzeň 2014',
+    'calc' => $calc2014plzen,
+  ),
+  'calc2014pardubice' => array(
+    'name' => 'Volební kalkulačka Pardubice 2014',
+    'calc' => $calc2014pardubice,
+  ),
+   'calc2014liberec' => array(
+    'name' => 'Volební kalkulačka Liberec 2014',
+    'calc' => $calc2014liberec,
+  ),
+   'calc2014ceskebudejovice' => array(
+    'name' => 'Volební kalkulačka České Budějovice 2014',
+    'calc' => $calc2014ceskebudejovice,
+  ),
+   'calc2014olomouc' => array(
+    'name' => 'Volební kalkulačka Olomouc 2014',
+    'calc' => $calc2014olomouc,
+  ),
+   'calc2014karlovyvary' => array(
+    'name' => 'Volební kalkulačka Karlovy Vary 2014',
+    'calc' => $calc2014karlovyvary,
+  ),
+   'calc2014bohumin' => array(
+    'name' => 'Volební kalkulačka Bohumín 2014',
+    'calc' => $calc2014bohumin,
+  ),
+  'calc2014prostejov' => array(
+    'name' => 'Volební kalkulačka Prostějov 2014',
+    'calc' => $calc2014prostejov,
+  ),
+   'calc2014decin' => array(
+    'name' => 'Volební kalkulačka Děčín 2014',
+    'calc' => $calc2014decin,
+  ),
+  'calc2014trutnov' => array(
+    'name' => 'Volební kalkulačka Trutnov 2014',
+    'calc' => $calc2014trutnov,
+  ),
+   'calc2014zdarnadsazavou' => array(
+    'name' => 'Volební kalkulačka Žďár nad Sázavou 2014',
+    'calc' => $calc2014trutnov,
+  ),
+  'calc2014liberec2010' => array(
+    'name' => 'Inventura hlasování Liberec 2010-2014',
+    'calc' => $calc2014liberec2010,
+  ),
+  
+  
   'calc2014senat' => array(
     'name' => 'Volební kalkulačka Senát 2014',
     'calc' => $calc2014senat,
