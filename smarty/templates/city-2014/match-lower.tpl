@@ -6,6 +6,11 @@
       <a href="http://zmenyprahy.cz" type="button" class="btn btn-info btn-lg sharebutton" id="lower-zmenyprahy"><i class="fa fa-exchange fa-lg"></i> Změny Územního pránu - jaká bude Praha?</a>
     {/if}
     <!-- /something extra -->
+<!-- something extra for Prague -->
+    {if ($text['election_code'] == 'karlovy-vary-2014')}
+      <a href="http://karlovarsky.denik.cz/" type="button" class="btn btn-info btn-lg sharebutton" id="lower-kvdenik"><i class="fa fa-newspaper fa-lg"></i> <strong>Karlovarský deník</strong></a>
+    {/if}
+    <!-- /something extra -->
 <!-- something extra for Decin -->
     {if ($text['election_code'] == 'decin-2014')}
       <a href="http://www.decinskeforum.cz/?page_id=731" type="button" class="btn btn-warning btn-lg sharebutton" id="lower-decin"><i class="fa fa-check fa-lg"></i> Vše o volbách v Děčíně ve speciálu Děčínského fóra</a>
