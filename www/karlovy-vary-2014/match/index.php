@@ -28,6 +28,7 @@ $user = get_user_values();
 //calculate match, for selected CC only
 $results = calc_match($user,$answers,$config);
 
+
 //encode user, answers and qcoefs for direct print into file
 $user_json = json_encode($user);
 $answers_json = json_encode($answers);
