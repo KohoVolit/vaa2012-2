@@ -4,7 +4,7 @@
 */
 $text = array(
   
-  'election_code' => 'liberec-2014',
+  'election_code' => 'liberec-2010-2014',
   'template_code' => 'city-2014',
   'lang' => 'cs',
   //meta

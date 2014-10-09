@@ -46,7 +46,7 @@ id	Jméno	Příjmení	Strana název	Obvod čísl.	Strana zkratka	bezpečnostní 
 43	Josef	Hála	Komunistická strana Čech a Moravy	18	KSČM	779710	Příbram	http://kohovolit.eu/wp/img-kalkulacka/kscm.jpg	starosta@jince.cz	1		724 180 538	http://www.denikpolitika.cz/politik/josef-hala/info#.VBP34Pl_uvQ		
 44	Jiří	Burian	Občanská demokratická strana	18	ODS	419623	Příbram	http://kohovolit.eu/wp/img-kalkulacka/ods.jpg	mu@sedlcany.cz	1					
 45	Václav	Švenda	TOP 09	18	TOP 09	833939	Příbram	http://kohovolit.eu/wp/img-kalkulacka/top-09.jpg	vaclav.svenda@top09.cz	1			http://www.vaclavsvenda.cz	https://www.facebook.com/svenda.vaclav	
-41	Martin	Baroš	Úsvit přímé demokracie	18	Úsvit	653235	Příbram	http://kohovolit.eu/wp/img-kalkulacka/usvit.jpg	martinbartos@klikni.cz	1		608 081 828	neuvedeno nikde		
+41	Martin	Bartoš	Úsvit přímé demokracie	18	Úsvit	653235	Příbram	http://kohovolit.eu/wp/img-kalkulacka/usvit.jpg	martinbartos@klikni.cz	1		608 081 828	neuvedeno nikde		
 46	Věra	Adámková	ANO 2011	21	ANO	627970	Praha 5	http://kohovolit.eu/wp/img-kalkulacka/ano.jpg	vera.adamkova@fbmi.cvut.cz	1			http://adamkova.anobudelip.cz		
 52	Stanislav	Štech	Česká strana sociálně demokratická	21	ČSSD	567228	Praha 5	http://kohovolit.eu/wp/img-kalkulacka/cssd.jpg	stanislav.stech@ruk.cuni.cz	1			http://www.stanislavstech.cz/?odkaz=kontakt		
 50	Václav	Láska	KDU-ČSL se SZ	21	KDU-ČSL	605477	Praha 5	http://kohovolit.eu/wp/img-kalkulacka/kdu-csl.jpg	senat@ak-laska.cz	1			http://www.laskavsenatu.cz/		
@@ -223,5 +223,23 @@ id	Jméno	Příjmení	Strana název	Obvod čísl.	Strana zkratka	bezpečnostní 
 211	Jan	Pijáček	Občanská demokratická strana	81	ODS	894260	Uherské Hradiště	http://kohovolit.eu/wp/img-kalkulacka/ods.jpg	pijacek@vlcnov.cz	1		602 511 443			
 212	Ivo	Valenta	Strana soukromníků České republiky	81	SSČR	682048	Uherské Hradiště		info@ivalenta.cz	1			http://www.ivalenta.cz/kontakt		
 210	Stanislav	Mikula	Zdravé Hradiště	81	ZH	117587	Uherské Hradiště		zdravehradiste@seznam.cz	1			http://www.zdravehradiste.cz/kontakty		
-226	Jiří	Hájek	Česká strana sociálně demokratická	69	ČSSD	998567	západní části okresu Frýdek-Místek		hajek@kovotour.cz	1					
-227	Michal	Drabík	APPlzeň.cz	9	APPlzeň.cz	345675									
+226	Jiří	Hájek	Česká strana sociálně demokratická	69	ČSSD	998567	západní části okresu Frýdek-Místek		hajek@kovotour.cz	1	je tu dvakrát				
+227	Michal	Drabík	APPlzeň.cz	9	APPlzeň.cz	345675			https://www.facebook.com/1REBELDRABIK/info?ref=page_internal						
+244	Václav	Hučík	nezávislý	81		412932	Uherské Hradiště					CHYBĚJÍCÍ KANDIDÁTI- DODĚLAT			
+229	Karel	Beneš	Strana svobodných občanů	18	Svobodní	852412	Příbram		Volební manažer Pořízek- porizek@svobodni.cz						
+230	Daniel	Solis	Ne Bruselu - Národní demokracie	21		256365	Praha 5		solis733655755@gmail.com	1		733 655 755			
+231	Milan	Jančík	Konzervativní aliance 2014	21		356698	Praha 5		milan.jancik@ka14.cz	1		605 009 913	hlavnikancelarka14@gmail.com 		
+232	Karel	Kasal	Spojení demokraté-Sdružení nezávislých	30		740225	Kladno			0					
+233	Josef	Hausmann	NE Bruselu - Národní demokracie	30		835061	Kladno		josef.hausmann@volny.cz	1		606 755 360			
+234	Jaroslav	Kuba	NE Bruselu - Národní demokracie	33		929896	Děčín			0					
+235	Libor	Kleibl	PRO Sport a Zdraví	36		342678	Česká Lípa		Libor.Kleibl@fcslovanliberec.cz	1		485 103 714	http://liborkleibl.cz/?page_id=4		
+236	Stanislav	Rudolfský	Hnutí dobrých proměn	39		745767	Trutnov		s.rudolfsky@h-dp.cz	1			http://www.h-dp.cz/	Volební manažer: Josef Mádle, 777 045 980	josef.madle@seznam.cz
+237	Stanislav	Penc	Kozí alternativa	39		957543	Trutnov		stanislavpenc@volny.cz	1		605 701 081	http://www.stanislavpenc.cz/kontakty		
+238	Petr	Novák	Nezávislý	51		328876	Žďár nad Sázavou			0			http://www.martinasablikova.cz/old/novis-team-petr-novak/		
+239	Miloš	Komínek	Solidarita, vlast a zákon	51		598467	Žďár nad Sázavou			0			http://www.kominekmilos.cz/kontakt/	http://www.kominekmilos.cz/	
+240	Ladislav	Stalmach	Starostové pro občany	51		286789	Žďár nad Sázavou		starosta@virvudolisvratky.cz	1		605 502 650	Regionální kontakt: Ing. Mgr. Jan Sedláček telefon: 724 076 338 mail: sedlacek@starostoveproobcany.cz		
+241	Petr 	Michek	Ano prosperitě Znojemska	54		661965	Znojmo		petrmichekdosenatu@gmail.com	1			Asistentka: Barbora Skalníková, barbora.skalnikova@gmail.com, Tel: +420 737 202 347		
+242	Petr	Krátký	Nezávislý	54		604764	Znojmo		ov.znojmo@kscm.cz	1					
+243	Vladimír	Železný	Nezávislí demokraté	54		385678	Znojmo		v.zelezny@tanzberg.cz	1			http://www.vladimirzelezny.cz/kontakt.html	Tajemnice Mgr. Edita Gargelová, e.gargelova@tanzberg.cz	
+227	Jiří	Šoltys	Občané ČR	60		198345	Brno - město		eagl50@volny.cz	1					
+228	Česlava	Lukaštíková	Nezávislí	75		273434	Karviná		reditel@sps-karvina.cz	1			https://www.facebook.com/profile.php?id=100004962767627		
