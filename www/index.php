@@ -67,7 +67,8 @@
 
     <!-- Full Page Image Header Area -->
     <?php
-      $r = rand(0,2);
+      //$r = rand(0,5);
+      $r = 0;
       if ($r == 0)
         $randpath = '.';
       else
