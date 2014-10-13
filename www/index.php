@@ -81,47 +81,12 @@
 			<h1>Volební kalkulačka 2014</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 			<p class="lead">
-                Volební kalkulačka pro volby do Senátu a vybraných obecních zastupitelstev 2014 Vám pomůže rozhodnout koho volit 10. a 11. října 2014. Online volební test Vám zabere přibližně 5 minut.
+                Volební kalkulačka pro volby do Senátu 2014 Vám pomůže rozhodnout koho volit 10.-11. a 18.-19. října 2014. Online volební test Vám zabere přibližně 5 minut.
                 </p>
                    <div>
-				   <a href="<?php echo $randpath; ?>/senat-2014/select.php" class="btn btn-lg btn-success" >SPUSTIT  VOLEBNÍ KALKULAČKU PRO <strong>SENÁT</strong></a>
-				   </div>
-				   <h3 style="color:white">Spustit kalkulačku pro komunální volby 2014:</h3>
-				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/praha-2014" class="btn btn-lg btn-success"><strong>PRAHA</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/brno-2014" class="btn btn-lg btn-success" ><strong>BRNO</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ostrava-2014" class="btn btn-lg btn-success"><strong>OSTRAVA</strong></a></div>
-				   </div>
-				   
-				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/plzen-2014" class="btn btn-lg btn-success"><strong>PLZEŇ</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/liberec-2014" class="btn btn-lg btn-success"><strong>LIBEREC</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/olomouc-2014" class="btn btn-lg btn-success"><strong>OLOMOUC</strong></a></div>
-				   </div>
-				   
-				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/ceske-budejovice-2014" class="btn btn-lg btn-success"><strong>Č.BUDĚJOVICE</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/pardubice-2014" class="btn btn-lg btn-success"><strong>PARDUBICE</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/karlovy-vary-2014" class="btn btn-lg btn-success"><strong>KARLOVY VARY</strong></a></div>
-				   </div>
-				   
-				   <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/decin-2014" class="btn btn-lg btn-success"><strong>DĚČÍN</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/prostejov-2014" class="btn btn-lg btn-success"><strong>PROSTĚJOV</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/trutnov-2014" class="btn btn-lg btn-success"><strong>TRUTNOV</strong></a></div>
+				   <a href="<?php echo $randpath; ?>/senat-2014/select.php" class="btn btn-lg btn-success" >SPUSTIT VOLEBNÍ KALKULAČKU PRO <strong>SENÁT</strong></a>
 				   </div>
 
-                    <div style="padding-bottom:1em" class="row">
-				     <div class="col-sm-2"></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/zdar-nad-sazavou-2014" class="btn btn-lg btn-success"><strong>ŽĎÁR N.S.</strong></a></div>
-				     <div class="col-sm-4"><a href="<?php echo $randpath; ?>/bohumin-2014" class="btn btn-lg btn-success"><strong>BOHUMÍN</strong></a></div>
-				     <div class="col-sm-2"></div>
-				   </div>
-				   
-				   <h3 style="color:white">Spustit inventuru hlasování 2010-2014:</h3>
-				   <div  style="padding-bottom:1em" >
-				   <a href="<?php echo $randpath; ?>/liberec-2010-2014" class="btn btn-lg btn-success"><strong>LIBEREC</strong></a>
-				   </div>
 
 				   <p>
 				   
