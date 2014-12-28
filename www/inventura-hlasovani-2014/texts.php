@@ -4,12 +4,12 @@
 */
 $text = array(
   
-  'election_code' => 'liberec-2010-2014',
-  'template_code' => 'city-2014',
+  'election_code' => 'poslanecka-snemovna-2014',
+  'template_code' => 'inventory-2014',
   'lang' => 'cs',
   //meta
   'author' => 'KohoVolit.eu',
-  'description' => 'Volby 2014 se blíží! Spočítejte si koho volit!',
+  'description' => '',
   'keywords' => 'volby 2014, senátní volby, volební kalkulačka, volební test',
   //fb
   'og:image' => 'http://volebnikalkulacka.cz/image/logo.jpg',
@@ -26,10 +26,10 @@ $text = array(
   'calc' => 'Volební kalkulačka',
   'info' => 'Info',
   'url' => 'http://volebnikalkulacka.cz',  
-  'title' => 'Volební kalkulačka 2014 | Inventura hlasování v Liberci' ,
+  'title' => 'Volební kalkulačka 2014 | Inventura hlasování 2014' ,
 
    //PAGE
-  'calc_name' => 'Volební kalkulačka - Inventura hlasování 2010-2014 Liberec',
+  'calc_name' => 'Volební kalkulačka - Inventura hlasování 2014',
   'page_question_yes' => 'ANO',
   'page_question_no' => 'NE',
   'page_question_neutral' => 'nevím',
@@ -55,8 +55,8 @@ $text = array(
    //fb
    'result_fb_appid' => "200785490055088",
   'result_fb_picture_link' => 'http://volebnikalkulacka.cz/liberec-2010-2014/image/logo/',
-  'result_fb_name' => 'V Inventuře hlasování 2010-2014 v Liberci mám nejvyšší shodu:',
-  'result_fb_description_1' => 'Dle Inventury hlasování 2010-2014 pro Liberec se se mnou nejvíce shodují: ',
+  'result_fb_name' => 'V Inventuře hlasování 2014 mám nejvyšší shodu:',
+  'result_fb_description_1' => 'Dle Inventury hlasování 2014 se se mnou nejvíce shodují: ',
   'result_fb_description_match' => 'shoda',
   'result_fb_description_and' => 'a',
   'result_fb_description_only' => 'jen',
@@ -95,7 +95,7 @@ $text = array(
 
 
   'result_twitter_data_lang' => 'cs',
-  'result_twitter_text_1' => 'Inventura hlasování LBC:1.',
+  'result_twitter_text_1' => 'Inventura hlasování:1.',
   //'result_twitter_text_2' => '1.',
   //'result_twitter_and' => 'a',
   'result_twitter_text_3' => ',nejhůř ',
