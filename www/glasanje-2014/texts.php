@@ -6,7 +6,7 @@ $text = array(
 
   'election_code' => 'kluczowe-glosowania-2014/',
   'template_code' => 'inventory-2014',
-  'lang' => 'pl',
+  'lang' => 'sr',
 
   'author' => 'KohoVolit.eu',
   'description' => 'Głosowania kluczowe w Sejmie w 2014 r.',
@@ -49,7 +49,7 @@ $text = array(
   'result_title' => 'Mój wynik',
   'result_sharing' => 'Podziel się wynikami',
   'result_share_results_on_facebook' => 'Podziel się na Facebooku',
-  'result_twitter_data_lang' => 'pl',
+  'result_tiwtter_data_lang' => 'en',
   'result_twitter_text_1' => 'Lista głosowań:',
   'result_twitter_text_2_m' => 'Mój przedstawiciel w Sejmie to',
   'result_twitter_text_2_f' => 'Moja przedstawicielka w Sejmie to',

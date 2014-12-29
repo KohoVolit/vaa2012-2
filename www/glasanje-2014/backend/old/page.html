@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.line {
+  fill: none;
+  stroke: #bbb;
+  stroke-width: 1px;
+  opacity: .5;
+}
+.line.active {
+  stroke-width: 5px;
+  stroke: #444
+}
+</style>
+
+<div id="chart"></div>
+
+<script src="d3.v3.js"></script>
+
+<script>
+
+var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+    
+var x = d3.scale.linear()
+    .range([0, width])
+    .domain([0,31]);
+var y = d3.scale.linear()
+    .range([height, 0])
+    .domain([0,900]);
+    
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+svg.append("g")
+  .attr("class", "x axis")
+  .attr("transform", "translate(0," + height + ")")
+  .call(xAxis)
+ .append("text")
+  .attr("x", x(.35))
+  .attr("dx", ".71em")
+  .style("text-anchor", "end")
+  .text("Real values of percentage");
+  
+svg.append("g")
+  .attr("class", "y axis")
+  .call(yAxis)
+ .append("text")
+  .attr("transform", "rotate(-90)")
+  .attr("y", 6)
+  .attr("dy", ".71em")
+  .style("text-anchor", "end")
+  .text("Errors of Estimates");
+
+var line = d3.svg.line()
+    .x(function(d) { return d[0]; })
+    .y(function(d) { return d[1]; });
+
+d3.json("page.json", function(error, data) {
+  data.forEach(function(d) {
+   svg.append("path")
+     .datum(d)
+     .attr("d",line) 
+  });
+});
+
+</script>
