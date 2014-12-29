@@ -68,20 +68,8 @@ $text = array(
   'result_fb_link' => 'http://volebnikalkulacka.cz/',
   'result_fb_action' => "[{'name':'Zjistit, kdo hlasoval jako já','link':'http://volebnikalkulacka.cz/'}]",
   'result_table_description' => 'Otrzymasz szczegółowe porównanie głosów z wybranym przedstawcielem w Sejmie',
-  'result_filter' => 'Filtruj po okręgu, klubie, nazwisku',
-  'dms_title' => 'DMS KOHOVOLIT to 87777',
-  'dms_1' => 'Wesprzyj “Volební kalkulačka”',
-  'dms_2' => 'Wyślij <strong>87777</strong> with the following text:',
-  'dms_code' => 'DMS KOHOVOLIT',
-  'dms_code_year' => 'DMS ROK KOHOVOLIT',
-  'dms_explanation' => '(charge of 30Kč, out of which 27Kč goes to KohoVolit.eu, only in the Czech Republic)',
-  'dms_explanation_year' => '(the same as above, one SMS is sent each month for one year)',
-  'dms_thanks' => 'Thank you!',
-  'dms_mobile_1' => 'Support “Volební kalkulačka”',
-  'dms_mobile_2' => 'Send an SMS to <strong>87777</strong>',
-  'dms_mobile_3' => 'or',
-  'dms_info' => 'More info',
-  'dms_mobile_explanation' => '(charge of 30Kč, or 12x30Kč)',
+
+
   'result_winner_computer' => 'Najbardziej zgodny z Tobą poseł to:',
   'result_winner_mobile_m' => 'Najbardziej zgodny z Tobą poseł to:',
   'result_winner_mobile_f' => 'Najbardziej zgodna z Tobą posłanka to:',
@@ -93,8 +81,7 @@ $text = array(
   'compare_note' => 'Możesz porównać do dwóch posłów, ostatni zaznaczony kandydat będzie traktowany jako wybór domyślny',
   'compare_question' => 'Problem',
   'compare_my_vote' => 'Mój głos',
-  'compare_explanation' => '<p>Note: SytuacjSituations when a member of Parliament abstained or was enrolled for voting, but failed to press a voting button have the same effect on the result of voting as voting “No” - the member of Parliament does not vote “Yes” and he or she is added to a quorum necessary for the vote to result in “Yes”. Therefore, these situations are treated as voting “No” when calculating the match.</p>
-  	<p>In parliamentary votes where a majority of all members of parliament is necessary (e.g. amending the Constitution or overruling a veto of the Senate or the president), abstention has the same effect on the result of voting as voting “No”. Absence is therefore treated as voting “No” when calculating the match.</p>',
+
 
    //comparison
    'result_close' => 'Zamknij',
