@@ -20,6 +20,7 @@ $smarty->setCompileDir('../../../smarty/templates_c');
 
 //answers of voters
 $answers = json_decode(file_get_contents('../answers.json'));
+$answers2 = json_decode(file_get_contents('../answers2.json'));
 //missing voters
 $missing = json_decode(file_get_contents('../noreply.json'));
 //extract user values
@@ -27,10 +28,12 @@ $user = get_user_values();
 
 //calculate match, for selected CC only
 $results = calc_match($user,$answers,$config);
+$results2 = calc_match($user,$answers2,$config);
 
 //encode user, answers and qcoefs for direct print into file
 $user_json = json_encode($user);
 $answers_json = json_encode($answers);
+$answers2_json = json_encode($answers2);
 $qcoefs_json = file_get_contents('../qcoefs.json');
 
 //this page
@@ -64,10 +67,12 @@ $smarty->assign('background',$background);
 $smarty->assign('navbar',$navbar);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
+$smarty->assign('results2', $results2);
 $smarty->assign('url',$url);
 $smarty->assign('config',$config);
 $smarty->assign('user',$user_json);
 $smarty->assign('answers_json',$answers_json);
+$smarty->assign('answers2_json',$answers2_json);
 $smarty->assign('qcoefs_json',$qcoefs_json);
 $smarty->assign('session_id',session_id());
 $smarty->display('match.tpl');

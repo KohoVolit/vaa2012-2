@@ -60,6 +60,7 @@ def group2party(g,parties):
             return parties[k]['abbreviation']
 
 out = {}
+negative = ["59862","58818","58748","59996",'58646',"58640"]
 for k in vote_events:
     for v in vote_events[k]["votes"]:
         try:
@@ -72,7 +73,11 @@ for k in vote_events:
                 "short_name": group2party(v['group_id'],parties),
                 "vote":{}
             }
-        out[v['voter_id']]['vote'][vote_events[k]['identifier']] = int(option_meaning[vote_events[k]['motion']['requirement']]['options'][v['option']])
+        if vote_events[k]['identifier'] in negative:
+            polarity = -1
+        else:
+            polarity = 1
+        out[v['voter_id']]['vote'][vote_events[k]['identifier']] = polarity*int(option_meaning[vote_events[k]['motion']['requirement']]['options'][v['option']])
 
 with open("answers.json", "w") as outfile:
     json.dump(out,outfile)

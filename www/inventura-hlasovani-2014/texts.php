@@ -5,7 +5,7 @@
 $text = array(
   
   'election_code' => 'poslanecka-snemovna-2014',
-  'template_code' => 'inventory-2014',
+  'template_code' => 'inventory-cz-2014',
   'lang' => 'cs',
   //meta
   'author' => 'KohoVolit.eu',
@@ -103,5 +103,7 @@ $text = array(
   'result_twitter_hashtags' => 'volby',
   'result_twitter_share' => 'Tweetni',
   
+  
+  'we_asked_other_parties' => 'Zeptali jsme se i větších neparlamentních stran, jak by hlasovali oni:',
   
 );
