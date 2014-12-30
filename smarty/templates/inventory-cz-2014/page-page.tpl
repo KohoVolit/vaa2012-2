@@ -5,6 +5,19 @@
                     <div class="i-question">
                         <h2 class="question-question">{$question->question}</h2>
                         <div class="question-description">{$question->description}</div>
+                        <div class="question-links row">
+                          <div class="col-sm-4">
+                          {if (isset($question->link))}
+                            <a href="{$question->link}" target="_blank"><i class="fa fa-external-link"> </i> {$text['page_question_link']}</a>
+                          {/if}
+                          </div>
+                          <div class="col-sm-4"></div>
+                          <div class="col-sm-4">
+                          {if (isset($question->document_link))}
+                            <a href="{$question->document_link}" target="_blank"><i class="fa fa-file-text-o"> </i> {$text['page_question_document_link']}</a>
+                          {/if}
+                          </div>
+                        </div>
                     </div> <!-- /.i-question -->
                   </div> <!-- /.o-question -->
                   

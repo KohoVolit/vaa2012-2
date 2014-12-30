@@ -56,6 +56,14 @@ foreach ($constit as $ckey=>$c) {
   );
 }
 
+$inventory2014 = array (
+  array(
+    'name' => 'Inventura hlasování ve Sněmovně 2014',
+    'friendly_url' => 'inventura-hlasovani-2014',  //there should NOT be the trailing slash '/'
+    'custom' => true
+  ),
+);
+
 $calc2014zdarnadsazavou = array (
   array(
     'name' => 'Volební kalkulačka Žďár nad Sázavou 2014',
@@ -250,6 +258,11 @@ $sizes = array(
 );
 
 $calcs = array(
+
+  'inventory2014' => array(
+    'name' => 'Inventura hlasování ve Sněmovně 2014',
+    'calc' => $inventory2014,
+  ),
 
   'calc2014praha' => array(
     'name' => 'Volební kalkulačka Praha 2014',

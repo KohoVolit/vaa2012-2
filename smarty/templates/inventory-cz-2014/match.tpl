@@ -59,5 +59,6 @@
    {block name=js}
      <!-- js -->
      {include "match-js.tpl"}
+     {include "match-js2.tpl"}
      <!-- /js -->
    {/block}

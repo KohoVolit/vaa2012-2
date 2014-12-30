@@ -20,7 +20,7 @@ $text = array(
   'licence' => 'Creative Commons BY 4.0',
   'year' => '2014',
   
-  'footer_text' => '<a href="http://kohovolit.eu">KohoVolit.eu</a> pro Vás vytváří volební kalkulačky již od roku 2006<!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>-->',
+  'footer_text' => '<a href="http://kohovolit.eu">KohoVolit.eu</a> zajmuje się analizą głosowań już od 2006 r. <br/><a href="http://mamprawowiedziec.pl/" title="mamprawowidziet.pl" id="footer-mpw-logo"><img src="http://volebnikalkulacka.cz/kluczowe-glosowania-2014/image/logo-mpw-poziom.png" alt="logo mpw" /></a>',
 
   'calc' => 'Kluczowe głosowania 2014',
    'info' => 'Info',
@@ -85,7 +85,7 @@ $text = array(
   'result_winner_computer' => 'Najbardziej zgodny z Tobą poseł to:',
   'result_winner_mobile_m' => 'Najbardziej zgodny z Tobą poseł to:',
   'result_winner_mobile_f' => 'Najbardziej zgodna z Tobą posłanka to:',
-  'result_winner_share' => 'Podziel się <span class="computer">results </span>na Facebooku</span>',
+  'result_winner_share' => 'Podziel się na Facebooku</span>',
  
   //COMPARE
   'compare_title' => 'Szczegółowy wynik',

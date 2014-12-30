@@ -34,6 +34,10 @@
     font-size: 14px;
     display: none;
   }
+  .question-links {
+    font-size: 18px;
+    display: none;
+  }
   .navbar {
     min-height: 30px;
     height: 30px;
@@ -97,6 +101,9 @@
     .question-description {
         display: block;
       }
+    .question-links {
+        display: block;
+    }
     .vote-button {
       min-width: 5em;
     }

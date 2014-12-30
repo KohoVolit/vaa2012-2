@@ -38,6 +38,8 @@ $text = array(
   'page_important_legend' => '<strong>Vyberte otázky, které jsou pro Vás nejdůležitější</strong>.  Zpřesníte tím výsledek. Tento krok není povinný a lze přeskočit.',
   'page_important_skip' => 'Přeskočit',
   'page_important_results' => 'Výsledky', 
+  'page_question_link' => 'Hlasování ve Sněmovně',
+  'page_question_document_link' => 'Sněmovní tisk',
   
   'ie8' => 'Omlouváme se, ale Volební kalkulačka nemusí fungovat v prohlížečích Internet Explorer 8 a starších',
   'opera11' =>' Omlouváme se, ale Volební kalkulačka nemusí fungovat v prohlížečích Opera 11 a starších',

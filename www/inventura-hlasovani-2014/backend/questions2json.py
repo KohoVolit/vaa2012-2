@@ -18,6 +18,10 @@ for row in spreadsheet["feed"]["entry"]:
         "name": row["gsx$name"]["$t"].strip(),
         "description": row["gsx$description"]["$t"].strip()
     }
+    if row["gsx$documentlink"]["$t"].strip() != '':
+        item['document_link'] = row["gsx$documentlink"]["$t"].strip()
+    if row["gsx$voteeventlink"]["$t"].strip() != '':
+        item['link'] = row["gsx$voteeventlink"]["$t"].strip()
     data.append(item)
 
 data = sorted(data, key=lambda x:x['order'])

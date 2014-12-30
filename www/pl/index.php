@@ -8,7 +8,7 @@
     <meta name="description" content="Volby 2014 se blíží! Spočítejte si koho volit!">
     <meta name="keywords" content="volby 2014, senátní a komunální volby, volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
-    <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="../image/favicon.ico" rel="shortcut icon">
     
     <meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
 	<meta property="og:title" content="Volební kalkulačka"/>
@@ -16,23 +16,23 @@
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2014 | Senátní a komunální volby</title>
+    <title>Kluczowe głosowania 2014</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="../css/stylish-portfolio.min.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
-	<link rel="stylesheet" href="css/vaa2014.css">
+	<link rel="stylesheet" href="../css/vaa2014.css">
 	<style>
 	body {
       padding-top: 0;
     }
 	@media (min-width: 666px) {
   .header {
-        background: url("inventura-hlasovani-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+        background: url("../kluczowe-glosowania-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
       }
     }
     @media (min-width: 750px) {
@@ -47,7 +47,6 @@
 <body>
 
     <!-- Side Menu -->
-    <div class="lang-group">cs | <a href="en">en</a> </div><a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -78,13 +77,13 @@
         
 		<div class="vert-text">    
        
-			<h1>Volební kalkulačka 2014</h1>
+			<h1>Kluczowe głosowania w Sejmie w 2014 r.</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 			<p class="lead">
-                Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci Vás <em>doopravdy</em> zastupovali v roce 2014. Online volební test Vám zabere přibližně 5 minut.
+                <a href="http://mamprawowiedziec.pl" class="text-warning">MamPrawoWiedziec.pl</a> i <a href="http://kohovolit.eu" class="text-warning">Kohovolit.eu</a> przygotowały porównywarkę poglądów w wybranych głosowaniach Sejmu w 2014 r. Zaznacz swoje stanowisko w danej kwestii i znajdź posła lub posłankę o najbardziej zbliżonych poglądach.
                 </p>
                    <div>
-				   <a href="<?php echo $randpath; ?>/inventura-hlasovani-2014/" class="btn btn-lg btn-success" >SPUSTIT INVENTURU HLASOVÁNÍ</a>
+				   <a href="../kluczowe-glosowania-2014/" class="btn btn-lg btn-success" >Przejdź do głosowań</a>
 				   </div>
 
 
@@ -102,7 +101,7 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script></div></div>
-        </div><p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT</font></strong> <br>(cena 30Kč, z toho 27Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS ROK KOHOVOLIT</font></strong> <br>(automaticky každý měsíc po 1 rok)</p>
+        </div>
     </div>
     <!-- /Full Page Image Header Area -->
 
@@ -116,9 +115,9 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     
-                    <a href="www.kohovolit.eu" title="KohoVolit.eu"><img src="image/logo.png" alt="logo kohovolit.eu" /></a>
+                    <a href="http://www.kohovolit.eu" title="KohoVolit.eu"><img src="../image/logo.png" alt="logo kohovolit.eu" /></a>
                     <!--<p><a href="http://votematch.eu" id="footer-votematch"><img src="image/eu2014/votematch.png" title="VoteMatch.eu" alt="VoteMatch.eu"/></a></p>-->
-					<p class="lead black" style="color:#333333">Volební kalkulačky pro Vás již od roku 2006 vytváří občanské sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a><!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>--></p>
+					<p class="lead black" style="color:#333333"><a href="http://kohovolit.eu">KohoVolit.eu</a> zajmuje się analizą głosowań już od 2006 r. <a href="http://mamprawowiedziec.pl/" title="mamprawowiedziec.pl" id="footer-mpw-logo"><img src="../kluczowe-glosowania-2014/image/logo-mpw-poziom.png" alt="logo mpw" /></a></p>
 					
                     <hr>
 					<ul class="nav nav-pills" style="color: #428BCA;">
