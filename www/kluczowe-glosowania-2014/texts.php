@@ -14,7 +14,7 @@ $text = array(
   //fb
   'og:image' => 'http://volebnikalkulacka.cz/image/logo.jpg',
   'og:title' => 'Kluczowe głosowania 2014',
-  'og:url' => 'http://volebnikalkulacka.cz',
+  'og:url' => 'http://volebnikalkulacka.cz/pl',
   'og:site_name' => 'Volební kalkulačka',
   'author_link' => 'http://kohovolit.eu',
   'licence' => 'Creative Commons BY 4.0',
