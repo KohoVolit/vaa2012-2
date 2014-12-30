@@ -13,14 +13,14 @@ $text = array(
   'keywords' => '',
   //fb
   'og:image' => 'http://volebnikalkulacka.cz/image/logo.jpg',
-  'og:title' => 'Volební kalkulačka',
+  'og:title' => 'Kluczowe głosowania 2014',
   'og:url' => 'http://volebnikalkulacka.cz',
   'og:site_name' => 'Volební kalkulačka',
   'author_link' => 'http://kohovolit.eu',
   'licence' => 'Creative Commons BY 4.0',
   'year' => '2014',
   
-  'footer_text' => '<a href="http://kohovolit.eu">KohoVolit.eu</a> zajmuje się analizą głosowań już od 2006 r. <br/><a href="http://mamprawowiedziec.pl/" title="mamprawowidziet.pl" id="footer-mpw-logo"><img src="http://volebnikalkulacka.cz/kluczowe-glosowania-2014/image/logo-mpw-poziom.png" alt="logo mpw" /></a>',
+  'footer_text' => '<a href="http://kohovolit.eu">KohoVolit.eu</a> zajmuje się analizą głosowań już od 2006 r. <br/><a href="http://mamprawowiedziec.pl/" title="mamprawowiedziec.pl" id="footer-mpw-logo"><img src="http://volebnikalkulacka.cz/kluczowe-glosowania-2014/image/logo-mpw-poziom.png" alt="logo mpw" /></a>',
 
   'calc' => 'Kluczowe głosowania 2014',
    'info' => 'Info',
