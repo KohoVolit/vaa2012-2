@@ -47,6 +47,7 @@ jQuery(window).bind('beforeunload', function(){
 {*    };*}
 {*  //answers and q(uestions') coefs loaded directly*}
   var answers2 = {$answers2_json};
+  var answers3 = {$answers3_json};
 {*  var qcoefs = {$qcoefs_json};*}
 {*  *}
 {*  var texts = { 'yes':"{$text['result_yes']}", 'no':"{$text['result_no']}" , 'question':"{$text['result_question']}"};*}

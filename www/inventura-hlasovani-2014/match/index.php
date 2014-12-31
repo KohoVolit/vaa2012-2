@@ -21,6 +21,8 @@ $smarty->setCompileDir('../../../smarty/templates_c');
 //answers of voters
 $answers = json_decode(file_get_contents('../answers.json'));
 $answers2 = json_decode(file_get_contents('../answers2.json'));
+$answers3 = json_decode(file_get_contents('../answers3.json'));
+//print_r($answers3);die();
 //missing voters
 $missing = json_decode(file_get_contents('../noreply.json'));
 //extract user values
@@ -34,6 +36,7 @@ $results2 = calc_match($user,$answers2,$config);
 $user_json = json_encode($user);
 $answers_json = json_encode($answers);
 $answers2_json = json_encode($answers2);
+$answers3_json = json_encode($answers3);
 $qcoefs_json = file_get_contents('../qcoefs.json');
 
 //this page
@@ -73,6 +76,7 @@ $smarty->assign('config',$config);
 $smarty->assign('user',$user_json);
 $smarty->assign('answers_json',$answers_json);
 $smarty->assign('answers2_json',$answers2_json);
+$smarty->assign('answers3_json',$answers3_json);
 $smarty->assign('qcoefs_json',$qcoefs_json);
 $smarty->assign('session_id',session_id());
 $smarty->display('match.tpl');
