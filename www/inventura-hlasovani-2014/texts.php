@@ -4,7 +4,7 @@
 */
 $text = array(
   
-  'election_code' => 'poslanecka-snemovna-2014',
+  'election_code' => 'inventura-hlasovani-2014',
   'template_code' => 'inventory-cz-2014',
   'lang' => 'cs',
   //meta
@@ -13,9 +13,9 @@ $text = array(
   'keywords' => 'volby 2014, senátní volby, volební kalkulačka, volební test',
   //fb
   'og:image' => 'http://volebnikalkulacka.cz/image/logo.jpg',
-  //'og:title' => 'Volební kalkulačka',
-  //'og:url' => 'http://volebnikalkulacka.cz',
-  //'og:site_name' => 'Volební kalkulačka',
+  'og:title' => 'Volební kalkulačka',
+  'og:url' => 'http://volebnikalkulacka.cz',
+  'og:site_name' => 'Volební kalkulačka',
   'author_link' => 'http://kohovolit.eu',
   'licence' => 'Creative Commons BY 4.0',
   'year' => '2014',
