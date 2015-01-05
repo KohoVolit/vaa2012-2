@@ -9,8 +9,8 @@ $text = array(
   'lang' => 'cs',
   //meta
   'author' => 'KohoVolit.eu',
-  'description' => '',
-  'keywords' => 'volby 2014, senátní volby, volební kalkulačka, volební test',
+  'description' => 'Inventura hlasování ve Sněmovně 2014',
+  'keywords' => 'volební kalkulačka, volební test',
   //fb
   'og:image' => 'http://volebnikalkulacka.cz/image/logo.jpg',
   'og:title' => 'Volební kalkulačka',

@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volby 2014 se blíží! Spočítejte si koho volit!">
-    <meta name="keywords" content="volby 2014, senátní a komunální volby, volební kalkulačka, volební test">
+    <meta name="description" content="Volební kalkulačky. Inventura hlasování ve Sněmovně 2014.">
+    <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
     
