@@ -48,5 +48,15 @@ for row in spreadsheet["feed"]["entry"]:
         }
     data[mp_id]['vote'][row["gsx$voteeventid"]["$t"].strip()] = int(row["gsx$optioncode"]["$t"].strip())
 
+d = 0
+dele = []
+for mp_id in data:
+    if len(data[mp_id]['vote']) <= 10:
+        dele.append(mp_id)
+        d = d + 1
+for mp_id in dele:
+    del data[mp_id]
+print("deleted: " + str(d))
+
 with open('answers.json', 'w') as outfile:
   json.dump(data, outfile)
