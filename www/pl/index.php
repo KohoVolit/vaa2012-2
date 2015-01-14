@@ -36,7 +36,7 @@
       }
     }
     @media (min-width: 750px) {
-      h1 {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);}
+      /*h1 {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);}*/
     }
     h1 { color: #FFFFFF; display: inline; line-height: 60px; font-family: 'Roboto Slab',serif; padding: 10px 20px; vertical-align: baseline; width: auto; }
     .lead { font-size: 16px; font-weight: 200; line-height: 1.4; margin-bottom: 50px; margin-bottom: 20px; font-size: 21px; color: #fff;}
@@ -80,7 +80,7 @@
 			<h1>Kluczowe głosowania w Sejmie w 2014 r.</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 			<p class="lead">
-                <a href="http://mamprawowiedziec.pl" class="text-warning">MamPrawoWiedziec.pl</a> i <a href="http://kohovolit.eu" class="text-warning">Kohovolit.eu</a> przygotowały porównywarkę poglądów w wybranych głosowaniach Sejmu w 2014 r. Zaznacz swoje stanowisko w danej kwestii i znajdź posła lub posłankę o najbardziej zbliżonych poglądach.
+                <a href="http://mamprawowiedziec.pl" class="text-danger">MamPrawoWiedziec.pl</a> i <a href="http://kohovolit.eu" class="text-danger">Kohovolit.eu</a> przygotowały porównywarkę poglądów w wybranych głosowaniach Sejmu w 2014 r. Zaznacz swoje stanowisko w danej kwestii i znajdź posła lub posłankę o najbardziej zbliżonych poglądach.
                 </p>
                    <div>
 				   <a href="../kluczowe-glosowania-2014/" class="btn btn-lg btn-success" >Przejdź do głosowań</a>
@@ -89,18 +89,7 @@
 
 				   <p>
 				   
-				   <div class=""><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKohoVolit.eu&amp;width=100&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=65&amp;appId=469801333121609" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:65px;" allowTransparency="true"></iframe><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://volebnikalkulacka.cz" data-text="Zkuste taky Volební kalkulačku!" data-via="KohoVolitEU" data-hashtags="EP2014" data-count ="vertical">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="tall" data-href="http://volebnikalkulacka.cz/"></div>
-
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script></div></div>
+				   </div>
         </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -120,11 +109,7 @@
 					<p class="lead black" style="color:#333333"><a href="http://kohovolit.eu">KohoVolit.eu</a> zajmuje się analizą głosowań już od 2006 r. <a href="http://mamprawowiedziec.pl/" title="mamprawowiedziec.pl" id="footer-mpw-logo"><img src="../kluczowe-glosowania-2014/image/logo-mpw-poziom.png" alt="logo mpw" /></a></p>
 					
                     <hr>
-					<ul class="nav nav-pills" style="color: #428BCA;">
-  <li><a href="info/">O projektu</a></li>
-  <li><a href="embed/">Vložit kalkulačku na web</a></li>
-  <li><a href="archive/">Archiv</a></li>
-</ul>
+					
 					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2014</p>
                 </div>
             </div>
