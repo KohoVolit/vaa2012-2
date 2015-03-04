@@ -1,0 +1,32 @@
+{
+  "simple majority": {
+    "requirement": "simple majority",
+    "options": {
+      "yes": "1",
+      "no": "-1",
+      "abstain": "-1",
+      "not voting": "-1",
+      "absent": "0"
+    }
+  },
+  "two-thirds representatives majority": {
+    "requirement": "two-thirds representatives majority",
+    "options": {
+      "yes": "1",
+      "no": "-1",
+      "abstain": "-1",
+      "not voting": "-1",
+      "absent": "-1"
+    }
+  },
+  "all representatives majority": {
+    "requirement": "all representatives majority",
+    "options": {
+      "yes": "1",
+      "no": "-1",
+      "abstain": "-1",
+      "not voting": "-1",
+      "absent": "-1"
+    }
+  }
+}
