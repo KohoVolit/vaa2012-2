@@ -4,7 +4,7 @@
 */
 $text = array(
   
-  'election_code' => 'inventory-votes-2014',
+  'election_code' => 'inventory-of-votes-2014',
   'template_code' => 'inventory-cz-2014',
   'lang' => 'en',
   //meta
