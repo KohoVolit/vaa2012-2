@@ -78,13 +78,18 @@
         
 		<div class="vert-text">    
        
-			<h1>Volební kalkulačka 2014</h1>
+			<h1>Volební kalkulačka 2015</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 			<p class="lead">
                 Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci Vás <em>doopravdy</em> zastupovali v roce 2014. Online volební test Vám zabere přibližně 5 minut.
                 </p>
                    <div>
 				   <a href="<?php echo $randpath; ?>/inventura-hlasovani-2014/" class="btn btn-lg btn-success" >SPUSTIT INVENTURU HLASOVÁNÍ</a>
+				   </div>
+				   <p class="lead">
+				   Volební kalkulačka pro volby ve Velké Británii 2015 ukazuje shodu s britskými politickými stranami.
+				   <div>
+				   <a href="/velka-britanie-2015" class="btn btn-lg btn-success" >SPUSTIT KALKULAČKU PRO VELKOU BRITÁNII</a>
 				   </div>
 
 
