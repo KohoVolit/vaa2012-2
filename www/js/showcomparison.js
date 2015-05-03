@@ -33,7 +33,7 @@ function create_comparison(questions) {
 }
 
 function make_comparison(questions, details) {
-
+  answers["0"] = me;
   if (typeof(ids) == "undefined") ids = ["0","0"];
   
   html = '<table class="table table-striped comparison-table"><thead>';

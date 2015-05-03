@@ -1,0 +1,392 @@
+/* PAGE */  
+  
+  .carousel {
+    /*background-color: #ab0;*/
+    display: table-cell;
+    height: 100%;
+  }
+    
+  body {
+    padding-bottom: 0;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .carousel .item {
+    background-color: transparent;
+  }
+  
+  .vote-button {
+    margin: 0.3em 1em;
+    min-width: 10em;
+  }
+  .question-question {
+    font-size: 20px;
+  }
+  
+  .carousel-caption {
+    max-width: 750px;
+    top: 0;
+    padding-top: 0;
+  }
+  .question-description {
+    text-align: justify;
+    font-size: 14px;
+    display: none;
+  }
+  .question-links {
+    font-size: 18px;
+    display: none;
+  }
+  .navbar {
+    min-height: 30px;
+    height: 30px;
+  }
+  
+  .navbar-brand {
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .wrapper-indicators {
+    min-height: 50px;
+    color: #ab0;
+  }
+  
+  .carousel-indicators {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .carousel .item {
+    height: 350px;
+  }
+  
+  .btn-info.active, .btn-primary.active, .btn-warning.active {
+    color: #000;
+  }
+  
+  .header {
+    background-color: #4183cd;
+  }
+  
+  .weightsel-button {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .table > tbody > tr > td.weightsel-td {
+    border-top: 0;
+    padding: 0;
+  }
+  
+  .wide-button {
+    width: 100%;
+  }
+  
+  .navbar a, .nav a { 
+	  color: #fff; 
+	  text-decoration: none; 
+  } 
+  
+  .btn-orange {
+    background: none repeat scroll 0 0 #FFAD00;
+    border-color: #FF8C00;
+    color: #FFFFFF;
+  } 
+ 
+    /* media queries */
+  
+  @media screen and (min-width: 549px) {
+    .question-description {
+        display: block;
+      }
+    .question-links {
+        display: block;
+    }
+    .vote-button {
+      min-width: 5em;
+    }
+   .question-question {
+    font-size: 24px;
+   }
+  }
+  
+  @media (min-width: 666px) {
+    .vote-buttons {
+      position: absolute;
+      bottom: 10px;
+    }
+    /*http://stackoverflow.com/questions/20465825/vertical-align-middle-with-bootstrap-responsive-grid*/
+    .i-question {
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      margin: 5px 0;
+      padding: 10px;
+      display:table-cell;
+      vertical-align:middle;
+    }
+    .o-question {
+      display: table;
+      height: 350px;
+      width: 100%;
+    }
+    .carousel .item {
+      height: 500px; /*default*/
+    }
+    .header {
+      background: url("img/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+    }
+    .vote-button {
+      min-width: 10em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .question-question {
+      font-size: 24px;
+    }
+    .carousel-caption {
+       padding-top: 20px; /*default*/
+    }
+    .navbar {
+      min-height: 50px; /*default*/
+      height: 50px; /*default*/
+    }
+    .navbar-brand {
+      padding: 15px; /*default*/
+      font-size: 18px; /*default*/
+    }
+  }
+  @media (min-width: 992px) {
+    .question-description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .question-description {
+      font-size: 21px;
+    }
+    .o-question {
+      height: 400px;
+    }
+  }
+  
+  @media (max-height: 600px) {
+    
+  }
+  
+/* MATCH */
+/* adding */
+  .line {
+	border: 1px solid #FFFFFF;
+  }
+  
+  .col-xs-3, .col-xs-9 {
+      	float:none;
+        display:inline-block;
+        vertical-align:middle;
+        margin-right:-4px;
+  }
+  .inside-media {
+    padding-top:1em;
+  }
+  .container.results {
+    
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bg-info.list-group-item {
+    background-color: #D9EDF7;
+  }
+  .results {
+    max-width: 600px;
+    padding-top: 20px;
+  }
+  .sharebutton {
+    margin: 20px 0 30px 0;
+    width: 100%;
+  }
+  
+  footer {
+      margin-top: 40px;
+  }
+	
+.navbar-custom {
+    background: #0063B1;
+    border-color: #fff;
+	/*color: #fff;*/
+  }
+ 
+/*.navbar {
+    min-height: 30px;
+    height: 50px;
+  }	 */
+  
+/*.navbar a, .nav a { 
+  color: #fff; 
+  text-decoration: none; 
+} */
+.navbar a:hover { 
+  text-decoration: underline;
+}
+.nav a:hover {
+  color: #428BCA;
+}
+	
+
+/*.navbar-brand {
+    align: center;
+	padding: 7px;
+    font-size: 14px;
+	color: #fff;
+  }*/
+
+/*.support {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+    margin: 5px 5px 0 0;
+    padding: 10px 16px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    display: inline;
+}*/
+
+h2 {
+	font-family: 'Roboto Slab',serif;
+}
+
+h3 {
+    font-family: 'Roboto Slab',serif;
+    font-weight:bold;
+}
+h4 {
+    font-family: 'Roboto Slab',serif;
+    font-weight:bold;
+    color: white;
+}
+
+.share-bar {
+    color: #fff;
+    margin: 5px 5px 0 0;
+    padding: 10px 16px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	width: 180px;
+	position: fixed;
+    right: 80%;
+    margin-left: -649px; /* 480(half width of 960px container) + 139(width of nav);*/
+}
+
+.facebook {
+    background-color: #45619D;
+    border-color: #2F477A;
+    color: #fff;
+}
+
+.facebook:hover {
+    background-color: #5D7BB9;
+    border-color: #2F477A;
+    color: #fff;
+}
+
+.twitter {
+    background-color: #5EAADE;
+    border-color: #2A7ABF;
+    color: #fff;
+}
+
+.twitter:hover {
+    background-color: #70C5EB;
+    border-color: #2A7ABF;
+    color: #fff;
+}
+
+#support {
+  max-width: 220px;
+}
+
+.colorstrong {
+  color: #F8941A;
+}
+
+#comparison {
+  background: white;
+}
+
+.tooltip-top:hover {
+  cursor: pointer;
+}
+
+.comp-center {
+  text-align: center;
+}
+
+.no-number {
+  list-style:none;
+}
+
+.result-number {
+  font-size: 2em;
+  font-weight: bold;
+}
+.result-very-positive {
+  color: #008000;
+}
+.result-positive {
+  color: #40ff40;
+}
+.result-neutral {
+  color: #808080;
+}
+.result-negative {
+  color: #ff8080;
+}
+.result-very-negative {
+  color: #800000;
+}
+
+	/* matrix */
+  .rect:hover, .hover {
+    fill-opacity: .6;
+    cursor: pointer;
+  }
+  .domain {
+    display: none;
+  }
+  .tick {
+    font-family: sans-serif;
+  }
+  .descr {
+    cursor: pointer;
+    fill: black;
+    font-family: sans-serif;
+  }
+  .hoverBold {
+    font-weight: bold;
+    /*font-size: 1.5em;*/
+  }
+  .middle-rect {
+    fill: #aaa;
+  }
+  /* /matrix */
+
+
+@media (min-width: 768px) {
+  .results {
+    padding-top: 40px;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 1060px), only screen and (max-device-width: 1060px)
+{
+	#support, #share-bar
+	{
+		display: none;
+	}
+}

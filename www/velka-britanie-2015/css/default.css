@@ -1,0 +1,56 @@
+@media (min-width: 666px) {
+  .header {
+    background: url("../image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+  }
+}
+
+/* note: must be first, before the logos/photos */
+.sprite {
+    background: url('../image/sprite.jpg') no-repeat top left;
+}
+
+.sprite-cp {
+    width: 80px;
+    height: 80px;
+    background-position: -5px -5px;
+}
+.sprite-gp {
+    width: 80px;
+    height: 80px;
+    background-position: -95px -5px;
+}
+.sprite-ld {
+    width: 80px;
+    height: 80px;
+    background-position: -5px -95px;
+}
+.sprite-lp {
+    width: 80px;
+    height: 80px;
+    background-position: -95px -95px;
+}
+.sprite-pc {
+    width: 80px;
+    height: 80px;
+    background-position: -185px -5px;
+}
+.sprite-snp {
+    width: 80px;
+    height: 80px;
+    background-position: -185px -95px;
+}
+.sprite-ukip {
+    width: 80px;
+    height: 80px;
+    background-position: -5px -185px;
+}
+
+
+#container li {
+    background: url(csg-5350b3aa4674f.jpg) no-repeat top left;
+}
+
+
+.question-links {
+  padding-top:10px;
+}

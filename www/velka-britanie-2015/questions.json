@@ -1,0 +1,170 @@
+[
+  {
+    "order":1,
+    "question_en":"The UK should leave the EU immediately.",
+    "question":"Velká Británie by měla okamžitě vystoupit z Evropské unie.",
+    "id":1,
+    "name":"Vystoupení z EU"
+  },
+  {
+    "order":2,
+    "question_en":"No one should be imprisoned for possession of drugs for personal use.",
+    "question":"Držení drog pro osobní potřebu by mělo být legální.",
+    "id":2,
+    "name":"Držení drog legální"
+  },
+  {
+    "order":3,
+    "question_en":"Rules for benefit claimants should be tougher.",
+    "question":"Pravidla pro vyplácení sociálních dávek by měla být přísnější.",
+    "id":3,
+    "name":"Přísnější sociální dávky"
+  },
+  {
+    "order":4,
+    "question_en":"The tax rate on personal income above £150k a year should be increased to 50%.",
+    "question":"Sazba daně příjmů pro lidi s příjmy na 150 000 liber (560 000 Kč) ročně by se měla zvýšit na 50 %.",
+    "id":4,
+    "name":"Progresivní daň z příjmů"
+  },
+  {
+    "order":5,
+    "question_en":"The \"bedroom tax\" should be scrapped.",
+    "question":"\"Daň z ložnice\" by měla být zrušena. (Daň z ložnice je snížení soc. dávek v případě, že rodina má “nadbytečný” počet pokojů v domě/bytě.)",
+    "id":5,
+    "name":"Zrušní daně z ložnice"
+  },
+  {
+    "order":6,
+    "question_en":"Winter fuel payments should only be available to pensioners on low incomes.",
+    "question":"Státní příspěvky na zimní topení by měly být vypláceny pouze důchodcům s nízkými příjmy.",
+    "id":6,
+    "name":"Příspěvky na topení"
+  },
+  {
+    "order":7,
+    "question_en":"The government should cut UK foreign aid.",
+    "question":"Vláda by měla seškrtat rozvojovou pomoc chudým zemím.",
+    "id":7,
+    "name":"Snížení rozvojové pomoci"
+  },
+  {
+    "order":8,
+    "question_en":"People living in social housing should have the right to buy their home at a discount.",
+    "question":"Lidé žijící v sociálním bydlení by měli dostat slevu při pořizování bydlení.",
+    "id":8,
+    "name":"Sleva na bydlení"
+  },
+  {
+    "order":9,
+    "question_en":"The UK should renew the Trident nuclear weapon system.",
+    "question":"Velká Británie by měla modernizovat systém jaderných zbraní Trident.",
+    "id":9,
+    "name":"Modernizace Tridentu"
+  },
+  {
+    "order":10,
+    "question_en":"Sex education should be compulsory in all state schools",
+    "question":"Sexuální výchova by měla být povinná ve všech veřejných školách",
+    "id":10,
+    "name":"Povinná sexuální výchova"
+  },
+  {
+    "order":11,
+    "question_en":"There should be a limit on the amount landlords can increase rent each year.",
+    "question":"Maximální možná míra ročního zvyšování nájmů by měla být zastropována.",
+    "id":11,
+    "name":"Limit na zvyšování nájmů"
+  },
+  {
+    "order":12,
+    "question_en":"The government's top priority should be cutting the budget deficit.",
+    "question":"Hlavní prioritou vlády by mělo být snižování schodku státního rozpočtu.",
+    "id":12,
+    "name":"Snižování schodku rozpočtu priorita"
+  },
+  {
+    "order":13,
+    "question_en":"Public spending should be increased even if it means the government borrows more.",
+    "question":"Veřejné výdaje by se měly zvýšit, i kdyby to znamenalo, že si stát bude půjčovat více.",
+    "id":13,
+    "name":"Zvyšování veřejných výdajů"
+  },
+  {
+    "order":14,
+    "question_en":"University tuition fees should be reduced.",
+    "question":"Školné na vysokých školách by se mělo snížit.",
+    "id":14,
+    "name":"Nižší školná na VŠ"
+  },
+  {
+    "order":15,
+    "question_en":"All primary school children should get free school meals regardless of household income.",
+    "question":"Žáci základních škol by měli dostávat obědy zdarma bez ohledu na příjem jejich domácnosti.",
+    "id":15,
+    "name":"Obědy zdarma na ZŠ"
+  },
+  {
+    "order":16,
+    "question_en":"The government should set targets for carbon emission reduction.",
+    "question":"Vláda by měla limitovat emise oxidu uhličitého.",
+    "id":16,
+    "name":"Limity pro CO2"
+  },
+  {
+    "order":17,
+    "question_en":"The government should allow \"fracking\" to extract gas and oil.",
+    "question":"Vláda by mělo povolit těžbu ropy a zemního plynu pomocí hydraulického štěpení (“fracking”).",
+    "id":17,
+    "name":"Fracking"
+  },
+  {
+    "order":18,
+    "question_en":"Only skilled immigrants should be allowed to move to the UK.",
+    "question":"Pouze imigranti s vysokou pracovní kvalifikací by měli mít možnost přistěhovat se do Velké Británie.",
+    "id":18,
+    "name":"Omezení imigrace"
+  },
+  {
+    "order":19,
+    "question_en":"Immigrants should have to wait at least two years before claiming unemployment benefits.",
+    "question":"Imigranti by měli čekat alespoň dva roky na oprávnění získávat podporu v nezaměstnanosti.",
+    "id":19,
+    "name":"Imigranti 2 roky bez soc. dávek"
+  },
+  {
+    "order":20,
+    "question_en":"The government should raise new taxes to fund the NHS.",
+    "question":"Vláda by měla zvýšit daně, aby zajistila financování státního zdravotnictví.",
+    "id":20,
+    "name":"Financování státního zdravotnictví"
+  },
+  {
+    "order":21,
+    "question_en":"The government should support the oil and gas industry by cutting taxes on its profits.",
+    "question":"Vláda by měla podporovat těžbu ropy a zemního plynu daňovými úlevami.",
+    "id":21,
+    "name":"Daňové úlevy pro těžbu"
+  },
+  {
+    "order":22,
+    "question_en":"Scotland should be an independent country.",
+    "question":"Skotsko by mělo být nezávislou zemí.",
+    "id":22,
+    "name":"Skotsko samostatné"
+  },
+  {
+    "order":23,
+    "question_en":"The government sould take rail services into public ownership.",
+    "question":"Vláda by měla převzít železniční dopravu do veřejného vlastnictví.",
+    "id":23,
+    "name":"Železnice veřejné"
+  },
+  {
+    "order":24,
+    "question_en":"The government should have the power to access records of anyone's digital communications.",
+    "question":"Vláda by měla mít možnost číst digitální komunikaci kohokoli. ",
+    "id":24,
+    "name":"Přístup vlády k elektronické komunikaci"
+  }
+]
