@@ -50,7 +50,7 @@ $text = array(
    
    //fb
    'result_fb_appid' => "200785490055088",
-  'result_fb_picture_link' => 'http://volebnikalkulacka.cz/senat-2014/image/logo/',
+  'result_fb_picture_link' => 'http://volebnikalkulacka.cz/velka-britanie-2015/image/logo/',
   'result_fb_name' => 'V "Britské" Volební kalkulačce mám nejvyšší shodu:',
   'result_fb_description_1' => 'Dle Volební kalkulačky pro volby ve V.Británii se se mnou nejvíce shodují: ',
   'result_fb_description_match' => 'shoda',
