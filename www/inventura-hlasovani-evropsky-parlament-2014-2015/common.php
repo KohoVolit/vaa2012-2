@@ -3,8 +3,8 @@
 * common functions
 */
 
-error_reporting(E_ALL);
-//error_reporting(0);
+//error_reporting(E_ALL);
+error_reporting(0);
 
 // load settings
 $settings = json_decode(file_get_contents($relative_path . 'settings.json'));
