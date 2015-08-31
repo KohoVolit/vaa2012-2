@@ -5,6 +5,8 @@
 */
 session_start();
 
+include ("cache.php");
+
 $relative_path = "";
 
 include("common.php");

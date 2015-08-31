@@ -1,6 +1,7 @@
 dev/
 smarty/templates_c/
 smarty/cache/
+cache/
 jmk/
 www/result.txt
 www/email.txt

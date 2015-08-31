@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                     
-                    <a href="{$t['author_link']}" title="{$t['author']}"><img src="../image/logo.png" alt="logo kohovolit.eu" /></a>
+                    <a href="{$t['author_link']}" title="{$t['author']}"><img src="{$settings->cdn_domain}image/logo.png" alt="logo kohovolit.eu" /></a>
                     
 					<p class="lead black">{$t['footer_text']}</p>
                     <hr>

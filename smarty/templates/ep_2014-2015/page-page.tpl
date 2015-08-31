@@ -7,7 +7,7 @@
                       <div class="question-description">{$question->description}</div>
                       <div class="question-links row">
                         <div class="col-sm-6">
-                          <a href="{$question->link}{$lang}"><i class="fa fa-external-link"></i> {$t['vote_event_in_ep']}</a>
+                          <a href="{$question->link}{$lang}" target="_blank"><i class="fa fa-external-link"></i> {$t['vote_event_in_ep']}</a>
                         </div>
                       </div>
                     </div> <!-- /.i-question -->
