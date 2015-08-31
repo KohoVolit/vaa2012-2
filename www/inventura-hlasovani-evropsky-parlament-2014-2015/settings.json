@@ -1,0 +1,71 @@
+{
+    "election_code": "ep_2014-2015",
+    "directory":"inventura-hlasovani-evropsky-parlament-2014-2015",
+    "template": "ep_2014-2015",
+    "country_codes": [
+        "be",
+        "bg",
+        "cz",
+        "dk",
+        "de",
+        "ee",
+        "ie",
+        "el",
+        "es",
+        "fr",
+        "hr",
+        "it",
+        "cy",
+        "lv",
+        "lt",
+        "lu",
+        "hu",
+        "mt",
+        "nl",
+        "at",
+        "pl",
+        "pt",
+        "ro",
+        "si",
+        "sk",
+        "fi",
+        "se",
+        "uk"
+    ],
+    "defaults" : {
+        "country_code": "cz",
+        "language": "cs"
+    },
+    "languages": [
+        "cs",
+        "en",
+        "hu"
+    ],
+    "cdn_domain_": "http://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain": "http://localhost/michal/project/vaa2012-2/www/",
+    "match": {
+        "winner": {
+            "name": "name",
+            "picture": "picture",
+            "picture_width": "122",
+            "picture_height": "155",
+            "picture_alt": "name",
+            "picture_title": "name"
+        },
+        "fb": {
+            "picture": "picture",
+            "caption": "name",
+            "winner": "name"
+        },
+        "table": {
+            "picture": "party_logo",
+            "picture_width": "80",
+            "picture_height": "80",
+            "picture_alt": "name",
+            "picture_title": "name",
+            "first_row": ["name"],
+            "second_row": ["party"],
+            "third_row": ["political_group"]           
+        }
+    }
+}

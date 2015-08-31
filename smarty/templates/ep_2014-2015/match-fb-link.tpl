@@ -1,0 +1,9 @@
+http://www.facebook.com/dialog/feed?
+    app_id={$t.result_fb_appid}&
+    link={$t.result_fb_redirect_link|escape:'url'}&
+    picture={$results[0].{$settings->match->fb->picture}}&
+    name={$t.result_fb_name|escape:'url'}&
+    caption=%3C-%20{$results[0].{$settings->match->fb->caption}|escape:'url'}&
+    actions={$t.result_fb_action|escape:'url'}&
+    description={$t.result_fb_description_1|escape:'url'}{$results[0].{$settings->match->fb->winner}|escape:'url'}%20({$t.result_fb_description_match|escape:'url'}%3A{$results[0].result_percent}%25),%20{$results[1].{$settings->match->fb->winner}|escape:'url'}%20({$t.result_fb_description_match|escape:'url'}%3A{$results[1].result_percent}%25)%20{$t.result_fb_description_and}%20{$results[2].{$settings->match->fb->winner}|escape:'url'}%20({$t.result_fb_description_match|escape:'url'}%3A{$results[2].result_percent}%25).%20{$t.result_fb_description_2|escape:'url'}{$results[$results|@count-1].{$settings->match->fb->winner}|escape:'url'}%20({$t.result_fb_description_match|escape:'url'}%20{$t.result_fb_description_only}%20{$results[$results|@count-1].result_percent}%25).{$t.result_fb_description_3|escape:'url'}&
+    redirect_uri={$t.result_fb_redirect_link|escape:'url'}
