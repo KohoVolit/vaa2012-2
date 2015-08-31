@@ -20,7 +20,7 @@ $t = csv2array($handle);
 $cc = country_code($settings);
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/Smarty.class.php');
+require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 $smarty->setTemplateDir($relative_path . '../../smarty/templates/' . $settings->template);
 $smarty->setCompileDir($relative_path . '../../smarty/templates_c');
