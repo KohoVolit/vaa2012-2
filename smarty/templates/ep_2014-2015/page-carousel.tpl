@@ -18,6 +18,10 @@
           
           </div> <!-- /.carousel-inner -->
           
+          <!-- values for cc and lang -->
+          <input type="hidden" name="cc" value = "{$cc}">
+          <input type="hidden" name="lang" value = "{$lang}">
+          
         </form>
         {include "page-indicators.tpl"}
         {include "page-arrows.tpl"}
