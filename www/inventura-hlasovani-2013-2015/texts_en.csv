@@ -1,0 +1,51 @@
+code,text
+author,KohoVolit.eu
+description,"Calculate your match with MPs"
+keywords,"Czech parliament, election test"
+og:image,http://volebnikalkulacka.cz/image/logo.jpg
+calc,Inventory of votes
+info,Info
+url,http://volebnikalkulacka.cz  
+title,Inventory of votes 2013-2015 | Volební kalkulačka
+author_link,http://kohovolit.eu
+licence,Creative Commons BY 4.0
+year,2015
+footer_text,"<a href='http://kohovolit.eu'>KohoVolit.eu</a>, your voting advice application maker since 2006."
+ie8,Application requires IE higher than 8
+opera11,Application requires Opera higher than 11
+google_analytics_code,UA-8592359-7
+calc_name,Inventory of votes - Czech parliament 2013-2015 
+page_question_yes,YES
+page_question_no,NO
+page_question_neutral,I do not know
+page_question_neutral_add," / I do not care"
+page_important_questions,Important Votes
+page_important_legend,"<strong>Select Votes that are the most important for you</strong>.  This will make your match more precise. You can skip this step."
+page_important_skip,Skip
+page_important_results,Results 
+vote_event_in_psp,Vote event in Lower house
+vote_event_in_senate,Vote event in Senate
+document_link,Document
+match_save,Save your match
+result_winner_share,Share your match on Facebook
+result_fb_appid,200785490055088
+result_fb_picture_link,http://volebnikalkulacka.cz/evropsky-parlament-2014/image/logo
+result_fb_name,My best match in the Inventory of Votes in EP 2014-2015 is::
+result_fb_description_1,"My best match in the Inventory of Votes of Czech parliament 2013-2015: "
+result_fb_description_match,match
+result_fb_description_and,and
+result_fb_description_only,only
+result_fb_description_2,"The worst match is "
+result_fb_description_3,Who is your best match at VolebniKalkulacka.cz?
+result_fb_redirect_link,http://volebnikalkulacka.cz/
+result_fb_link,http://volebnikalkulacka.cz/
+result_fb_action,"[{'name':'Who to vote for?','link':'http://volebnikalkulacka.cz/'}]"
+result_results,Results
+result_support,"<strong>Support independent Election Calculators.</strong><br/>  Send an SMS to&nbsp;number&nbsp;<strong><span class='colorstrong'>87777</span></strong> with&nbsp;this text: <strong><spanclass='colorstrong'>DMS&nbsp;KOHOVOLIT</span></strong> (costs €1, out of which €0.9 goes to  KohoVolit.eu) or this text: <strong><span class='colorstrong'>DMS&nbsp;ROK&nbsp;KOHOVOLIT</span></strong> (sends 1 SMS each month for 1 year)"
+result_comparison,Comparison
+result_close,Close
+result_yes,Yes
+result_no,No
+result_question,Question
+result_save_description,"This link allows you to get back to your match later:"
+me,Me
