@@ -18,8 +18,7 @@
           
           </div> <!-- /.carousel-inner -->
           
-          <!-- values for cc and lang -->
-          <input type="hidden" name="cc" value = "{$cc}">
+          <!-- values for lang -->
           <input type="hidden" name="lang" value = "{$lang}">
           
         </form>
