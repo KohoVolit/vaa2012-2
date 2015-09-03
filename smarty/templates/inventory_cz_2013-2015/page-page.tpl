@@ -17,7 +17,7 @@
                           {/if}
                         </div>
                         <div class="col-sm-4">
-                          {if {$question->lower_link} != ''}
+                          {if {$question->document_link} != ''}
                             <a href="{$question->document_link}" target="_blank"><i class="fa fa-external-link"></i> {$t['document_link']}</a>
                           {/if}
                         </div>
