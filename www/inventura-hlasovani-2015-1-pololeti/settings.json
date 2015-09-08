@@ -1,6 +1,6 @@
 {
     "election_code": "inventory_cz_2013-2015",
-    "directory":"inventura-hlasovani-2013-2015",
+    "directory":"inventura-hlasovani-2015-1-pololeti",
     "template": "inventory_cz_2013-2015",
     "defaults" : {
         "language": "cs"
