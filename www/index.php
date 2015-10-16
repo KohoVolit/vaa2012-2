@@ -32,7 +32,7 @@
     }
 	@media (min-width: 666px) {
   .header {
-        background: url("inventura-hlasovani-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+        background: url("inventura-hlasovani-evropsky-parlament-2014-2015/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
       }
     }
     @media (min-width: 750px) {
@@ -47,7 +47,7 @@
 <body>
 
     <!-- Side Menu -->
-    <div class="lang-group">cs | <a href="en">en</a> </div><a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div class="lang-group">cs | <a href="http://electioncalculator.org">en</a> </div><a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -80,12 +80,16 @@
        
 			<h1>Volební kalkulačka 2015</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
+            <p class="lead">
+                Inventura hlasování z Evropského parlamentu Vám ukáže, kteří europoslanci Vás <em>doopravdy</em> zastupovali v letech 2014-2015.
+                <a href="<?php echo $randpath; ?>/inventura-hlasovani-evropsky-parlament-2014-2015/" class="btn btn-lg btn-success" >SPUSTIT INVENTURU HLASOVÁNÍ - EVROPSKÝ PARLAMENT</a>
 			<p class="lead">
-                Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci Vás <em>doopravdy</em> zastupovali v první polovině roku 2015. Online volební test Vám zabere přibližně 5 minut.
-                </p>
-                   <div>
-				   <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015-1-pololeti/" class="btn btn-lg btn-success" >SPUSTIT INVENTURU HLASOVÁNÍ</a>
-				   </div>
+                Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci ze Sněmovny Vás <em>doopravdy</em> zastupovali v první polovině roku 2015. 
+                <!--                               Online volební test Vám zabere přibližně 5 minut.-->
+            </p>
+           <div>
+		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015-1-pololeti/" class="btn btn-lg btn-success" >SPUSTIT INVENTURU HLASOVÁNÍ - SNĚMOVNA</a>
+		   </div>
 				   
 
 
