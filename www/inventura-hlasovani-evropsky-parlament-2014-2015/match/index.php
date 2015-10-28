@@ -54,8 +54,8 @@ function calc_match($user,$set,$extra=2) {
         //weight
         if (isset($user['weight'][$key])) $w = $extra;
         else $w = 1;
-        //existing divisions only:
-        if ((property_exists($s,'votes')) and (property_exists($s->votes,$key))) {
+        //existing divisions only and if a user votes
+        if ((property_exists($s,'votes')) and (property_exists($s->votes,$key)) and ($uv != 0)) {
           $sum = $sum + $w*$s->votes->$key*sign($uv);
           $count = $count + $w;
         }
@@ -73,7 +73,6 @@ function calc_match($user,$set,$extra=2) {
     $res['id'] = $s->id;
     $res['random'] = rand(0,1000000);
     $results[] = $res;
-    
   }
   //sort by result
   foreach ($results as $key => $row) {

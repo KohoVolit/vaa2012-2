@@ -39,8 +39,10 @@ function calc_match(voter1,voter2,voted,weights) {
         }
       }
     }
-    if (c == 0) return rescale(0);
-    else return rescale (s/c);
+    if (c == 0) 
+        return rescale(0);
+    else 
+        return rescale (s/c);
 }
 
 function show_eu(data) {
