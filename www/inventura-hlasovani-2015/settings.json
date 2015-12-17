@@ -1,0 +1,39 @@
+{
+    "election_code": "inventory_cz_2013-2015",
+    "directory":"inventura-hlasovani-2015-1-pololeti",
+    "template": "inventory_cz_2013-2015",
+    "defaults" : {
+        "language": "cs"
+    },
+    "languages": [
+        "cs",
+        "en"
+    ],
+    "cdn_domain": "http://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
+    "match": {
+        "winner": {
+            "name": "name",
+            "picture": "picture",
+            "picture_width": "132",
+            "picture_height": "155",
+            "picture_alt": "name",
+            "picture_title": "name"
+        },
+        "fb": {
+            "picture": "picture",
+            "caption": "name",
+            "winner": "name"
+        },
+        "table": {
+            "picture": "party_logo",
+            "picture_width": "80",
+            "picture_height": "80",
+            "picture_alt": "party_abbreviaton",
+            "picture_title": "party_abbreviaton",
+            "first_row": ["name"],
+            "second_row": ["party_abbreviaton"],
+            "third_row": ["chamber_name"]           
+        }
+    }
+}
