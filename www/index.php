@@ -81,15 +81,18 @@
 			<h1>Volební kalkulačka 2015</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
             <p class="lead">
-                Inventura hlasování z Evropského parlamentu Vám ukáže, kteří europoslanci Vás <em>doopravdy</em> zastupovali v letech 2014-2015.
-                <a href="<?php echo $randpath; ?>/inventura-hlasovani-evropsky-parlament-2014-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_eu.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - EVROPSKÝ PARLAMENT</a>
-			<p class="lead">
-                Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci ze Sněmovny Vás <em>doopravdy</em> zastupovali v první polovině roku 2015. 
+                Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci ze Sněmovny Vás <em>doopravdy</em> zastupovali v roce 2015. 
                 <!--                               Online volební test Vám zabere přibližně 5 minut.-->
-            </p>
-           <div>
-		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015-1-pololeti/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - SNĚMOVNA</a>
-		   </div>
+		    <p>
+		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - SNĚMOVNA</a>
+
+            <p class="lead">
+                Inventura hlasování z Evropského parlamentu Vám ukáže, kteří europoslanci Vás <em>doopravdy</em> zastupovali v letech 2014-2015.
+                <p>
+                <a href="<?php echo $randpath; ?>/inventura-hlasovani-evropsky-parlament-2014-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_eu.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - EVROPSKÝ PARLAMENT</a>
+
+
+
 				   
 
 

@@ -9,7 +9,7 @@
              <div class="col-xs-9">
                <div class="media">
                  <div class="media-left">
-                   <img src="../{$results[$i].{$settings->match->table->picture}}" img-rounded media-object pull-left" alt="{$results[$i].{$settings->match->table->picture_alt}}" title="{$results[$i].{$settings->match->table->picture_title}}" width="{$settings->match->table->picture_width}" height="{$settings->match->table->picture_height}" class="img-rounded"/>
+                   <img src="{$settings->cdn_domain}{$settings->directory}/{$results[$i].{$settings->match->table->picture}}" img-rounded media-object pull-left" alt="{$results[$i].{$settings->match->table->picture_alt}}" title="{$results[$i].{$settings->match->table->picture_title}}" width="{$settings->match->table->picture_width}" height="{$settings->match->table->picture_height}" class="img-rounded"/>
                  </div>
                  <div class="media-body inside-media">
                    <h4 class="list-group-item-heading ">
