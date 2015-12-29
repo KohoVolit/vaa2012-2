@@ -1,24 +1,24 @@
 code,text
 author,KohoVolit.eu
-description,"Spočítejte si shodu s poslanci a senátory"
+description,Spočítejte si shodu s poslanci a senátory
 keywords,"parlament, volby, volební kalkulačka, volební test"
 og:image,http://volebnikalkulacka.cz/image/logo.jpg
 calc,Inventura hlasování
 info,Info
 url,http://volebnikalkulacka.cz  
-title,Inventura hlasování 1. polovina 2015 |  Volební kalkulačka
+title,Inventura hlasování 2015 |  Volební kalkulačka
 author_link,http://kohovolit.eu
 licence,Creative Commons BY 4.0
 year,2015
-footer_text,"Volební kalkulačky pro Vás již od roku 2006 vytváří sdružení <a href='http://kohovolit.eu'>KohoVolit.eu</a>"
+footer_text,Volební kalkulačky pro Vás již od roku 2006 vytváří sdružení <a href='http://kohovolit.eu'>KohoVolit.eu</a>
 ie8,Aplikace požaduje Internet Explorer vyšší verze než 8
 opera11,Aplikace požaduje prohlížeč Opera vyšší verze než 11
 google_analytics_code,UA-8592359-7
-calc_name,Inventura hlasování - Parlament 1. polovina 2015
+calc_name,Inventura hlasování - Parlament 2015
 page_question_yes,ANO
 page_question_no,NE
 page_question_neutral,nevím
-page_question_neutral_add," / je mi to jedno"
+page_question_neutral_add, / je mi to jedno
 page_important_questions,Důležité otázky
 page_important_legend,"<strong>Vyberte otázky, které jsou pro Vás nejdůležitější</strong>. Zpřesníte tím výsledek. Tento krok není povinný a lze přeskočit."
 page_important_skip,Přeskočit
@@ -31,11 +31,11 @@ result_winner_share,Sdílej výsledky na Facebooku
 result_fb_appid,200785490055088
 result_fb_picture_link,http://volebnikalkulacka.cz/evropsky-parlament-2014/image/logo
 result_fb_name,V Inventuře hlasování mám nejvyšší shodu:
-result_fb_description_1,"Dle Inventury hlasování 2015 mě v Parlamentu reprezentuje: "
+result_fb_description_1,Dle Inventury hlasování 2015 mě v Parlamentu reprezentuje: 
 result_fb_description_match,shoda
 result_fb_description_and,a
 result_fb_description_only,jen
-result_fb_description_2,"Nejhorší je "
+result_fb_description_2,Nejhorší je 
 result_fb_description_3,S kým se shodnete na VolebniKalkulacka.cz?
 result_fb_redirect_link,http://volebnikalkulacka.cz/
 result_fb_link,http://volebnikalkulacka.cz/
