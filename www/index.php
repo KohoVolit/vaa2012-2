@@ -84,7 +84,7 @@
                 Inventura hlasování z Parlamentu Vám pomůže zjistit, kteří poslanci a senátoři Vás <em>doopravdy</em> zastupovali v roce 2015. 
                 <!--                               Online volební test Vám zabere přibližně 5 minut.-->
 		    <p>
-		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - SNĚMOVNA</a>
+		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - PARLAMENT</a>
 
             <p class="lead">
                 Inventura hlasování z Evropského parlamentu Vám ukáže, kteří europoslanci Vás <em>doopravdy</em> zastupovali v letech 2014-2015.
