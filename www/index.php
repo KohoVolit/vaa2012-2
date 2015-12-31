@@ -81,7 +81,7 @@
 			<h1>Volební kalkulačka 2015</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
             <p class="lead">
-                Inventura hlasování z Poslanecké sněmovny Vám pomůže zjistit, kteří poslanci ze Sněmovny Vás <em>doopravdy</em> zastupovali v roce 2015. 
+                Inventura hlasování z Parlamentu Vám pomůže zjistit, kteří poslanci a senátoři Vás <em>doopravdy</em> zastupovali v roce 2015. 
                 <!--                               Online volební test Vám zabere přibližně 5 minut.-->
 		    <p>
 		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - SNĚMOVNA</a>
