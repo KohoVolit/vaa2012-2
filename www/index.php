@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačky. Inventura hlasování ve Sněmovně 2014.">
+    <meta name="description" content="Volební kalkulačky. Inventura hlasování Parlamentu ČR 2015. Inventura hlasování EP 2014-2015">
     <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
