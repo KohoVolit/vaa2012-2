@@ -10,8 +10,10 @@
         "sk",
         "en"
     ],
-    "cdn_domain": "http://volebnikalkulacka.cz/",
-    "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
+    "clicks": false,
+    "customization": true,
+    "app_css": false,
+    "background_image": "image/bg.jpg",
     "match": {
         "winner": {
             "name": "name",
@@ -19,22 +21,27 @@
             "picture_width": "132",
             "picture_height": "155",
             "picture_alt": "name",
-            "picture_title": "name"
+            "picture_title": "name",
+            "picture_class": "img-rounded"
         },
         "fb": {
             "picture": "picture",
             "caption": "name",
             "winner": "name"
         },
+        "twitter": {
+            "winner": "abbreviation"
+        },
         "table": {
-            "picture": "party_logo",
+            "picture": "picture",
             "picture_width": "80",
             "picture_height": "80",
-            "picture_alt": "party_abbreviaton",
-            "picture_title": "party_abbreviaton",
+            "picture_alt": "abbreviation",
+            "picture_title": "abbreviation",
+            "picture_class": "img-rounded",
             "first_row": ["name"],
-            "second_row": ["party_abbreviaton"],
-            "third_row": ["chamber_name"]           
+            "second_row": ["abbreviation"],
+            "third_row": []             
         }
     }
 }

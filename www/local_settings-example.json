@@ -1,0 +1,5 @@
+{
+    "cdn_domain": "http://volebnakalkulacka.sk/",
+    "smarty": "/usr/local/lib/php/Smarty/libs/Smarty.class.php",
+    "error_reporting": "0"
+}

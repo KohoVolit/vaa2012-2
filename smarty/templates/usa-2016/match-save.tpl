@@ -4,14 +4,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">{$t['match_save']}</h4>
+        <h4 class="modal-title" id="myModalLabel">{$text['match_save']}</h4>
       </div>
       <div class="modal-body" id="comparison-dialog" >
-             <p>{$t['result_save_description']}<p>
+             <p>{$text['result_save_description']}<p>
              <textarea rows="4" cols="50">{$url}&return=1</textarea>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">{$t['result_close']}</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">{$text['result_close']}</button>
       </div>
     </div>
   </div>

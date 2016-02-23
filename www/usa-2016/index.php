@@ -13,6 +13,7 @@ include("common.php");
 
 //read questions
 $qfile = 'questions_' . $lang . '.json';
+# $qfile = 'questions.json';
 $questions = json_decode(file_get_contents($qfile));
 
 //get prefilled user's values, if exist

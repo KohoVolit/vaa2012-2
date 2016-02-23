@@ -3,11 +3,12 @@
 * VAA
 * calculate match
 */
+
 session_start();
 
 $relative_path = "../";
 
-include("../common.php");
+include($relative_path . "common.php");
 
 //answers of voters
 $qfile = $relative_path . 'answers.json';
@@ -23,9 +24,9 @@ $user_json = json_encode($user);
 $answers_json = json_encode($answers);
 
 //this page
-$url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ;
 
-$smarty->assign('t', $t);
+$url = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ;
+
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url',$url);
@@ -36,7 +37,7 @@ $smarty->display('match.tpl');
 //save results
 
 $str = session_id() . "\t" . $settings->election_code . "\t" . date("Y-m-d H:i:s") . "\t" . json_encode($_GET) .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
-$file = fopen('../result.txt','a');
+$file = fopen("../" . $relative_path . 'result.txt','a');
 fwrite($file,$str);
 fclose($file);
 

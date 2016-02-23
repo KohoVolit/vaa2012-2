@@ -1,119 +1,119 @@
-# get all votes, etc.
+# coding: utf-8 
 
 import csv
+import io
 import json
-import vpapi
+import logging
+import os
 import re
-import slugify
+import requests
+from slugify import slugify
+import time
 
-data = {}
-ves = []
-with open("questions.csv") as fin:
-    csvd = csv.DictReader(fin)
-    for r in csvd:
-        ves.append(r)
+logger = logging.getLogger('simple_example')
+logger.setLevel(logging.DEBUG)
 
-o2o = {
-    "yes": 1,
-    "no": -1,
-    "abstain": -1,
-    "not voting": 0,
-    "absent": 0
-}
+try:
+    tmp = os.path.realpath(__file__).split("/")
+    path = "/".join(tmp[:-1]) + "/"
+except:
+    path = ""
 
-g2g = {
-    "Senátorský klub Občanské demokratické strany":"ODS",
-    "Klub otevřené demokracie":"KOD",
-    "Klub TOP 09 a Starostové":"TOP 09 a STAN",
-    "Senátorský klub České strany sociálně demokratické":"ČSSD",
-    "Senátorský klub Unie svobody - Občanské demokratické aliance":"US-DEU",
-    "Senátoři nezařazení do klubu":"Nezařazení",
-    "Senátorský klub SPOZ+KSČM+Severočech":"SPOZ+KSČM+Severočech",
-    "Senátorský klub ANO + Severočeši.cz":"ANO + Severočeši.cz",
-    "Senátorský klub Křesťanské a demokratické unie - Československé strany lidové":"KDU-ČSL",
-    "Klub Starostové a Ostravak":"STAN a Ostravak",
-    "Senátorský klub Občanské demokratické aliance":"ODA",
-    "Klub pro obnovu demokracie - KDU-ČSL a nezávislí":"KOD",
-    "Senátorský klub KDU-ČSL a nezávislí":"KDU-ČSL",
-    'Senátorský klub "Nezávislí"':'Nezávislí',
-    "Klub Starostové a nezávislí":"STAN",
-    "Senátorský klub SNK":"SNK",
-    "Senátorský klub SPO+KSČM+Severočech":"SPO+KSČM+Severočech",
-    "Nezařazení":"Nezařazení",
-    "Senátorský klub Zelení - nezávislí":"Zelení",
-    'Senátorský klub "Nezařazení"':"Nezařazení"
-}
+try:
+    with open(path + "settings.json",encoding="utf-8") as f:
+        settings = json.load(f)
+except Exception as e:
+    logger.exception(e)
+    print(e)
 
-# psp
+votes_url = settings['votes_url'] #url of the CSV
+voters_url = settings['voters_url'] #url of the CSV
 
-parliaments = [
-    {
-        "code_api" : "cz/psp",
-        "code": "psp",
-        "code_csv": "lower",
-        "name": "Sněmovna"
-    },
-    {
-        "code_api" : "cz/senat",
-        "code": "senat",
-        "code_csv": "upper",
-        "name": "Senát"
-    }
-    
-    
-]
+def vote2vote (vote):
+    if vote == 'yes':
+        return 1
+    if vote == 'no':
+        return -1
+    else:
+        return 0
 
-for p in parliaments:
-    vpapi.parliament(p['code_api'])
-    for ve in ves:
-        if ve[p['code_csv'] + '_vote_event_id'] != '':
-            votes = vpapi.getall("votes",where={"vote_event_id":ve[p['code_csv'] + '_vote_event_id']})
-            print(ve[p['code_csv'] + '_vote_event_id'])
-            for v in votes:
-                try:
-                    data[p['code'] + '_' + v['voter_id']]
-                except:
-                    data[p['code'] + '_' + v['voter_id']] = {}
-                    data[p['code'] + '_' + v['voter_id']]['votes'] = {}
-                    data[p['code'] + '_' + v['voter_id']]['chamber'] = p['code']
-                    data[p['code'] + '_' + v['voter_id']]['chamber_name'] = p['name']
-                    data[p['code'] + '_' + v['voter_id']]['id'] = v['voter_id']
-                data[p['code'] + '_' + v['voter_id']]['votes'][ve['id']] = o2o[v['option']] * int(ve[p['code_csv'] + '_polarity'])
-                data[p['code'] + '_' + v['voter_id']]['group_id'] = v['group_id']
-    
-    os = {}   
-    for k in data:
-        if data[k]['chamber'] == p['code']:
-            mpapi = vpapi.get("people",where={"id":data[k]['id']})
-            mp = mpapi["_items"][0]
-            data[k]['family_name'] = mp['family_name']
-            data[k]['name'] = mp['family_name'] + ' ' + mp['given_name']
-            data[k]['given_name'] = mp['given_name']
-            try:
-                o = os[data[k]["group_id"]]
-            except:
-                oapi = vpapi.get("organizations",where={"id":data[k]["group_id"]})
-                o = oapi["_items"][0]
-                os[data[k]["group_id"]] = o
-            data[k]['group'] = o['name']
-            if data[k]['chamber'] == 'senat':
-                data[k]['party_abbreviaton'] = g2g[o['name']]
-                if data[k]['id'] == '253':
-                    data[k]['picture'] = 'http://senat.cz/images/senatori/' + slugify.slugify(data[k]['family_name']) + slugify.slugify(data[k]['given_name'])[0:1] + '_295.jpg'
-                else:
-                    data[k]['picture'] = 'http://senat.cz/images/senatori/' + slugify.slugify(data[k]['family_name']) + slugify.slugify(data[k]['given_name'])[0] + '_295.jpg'
-            else:
-                data[k]['party_abbreviaton'] = o['other_names'][0]['name']
-                data[k]['picture'] = "http://www.psp.cz/eknih/cdrom/2013ps/eknih/2013ps/poslanci/i" + data[k]["id"] + '.jpg'
-            data[k]['party_logo'] = "image/logo/" + slugify.slugify(data[k]['party_abbreviaton']) + ".jpg"
-            
+# read voters
+voters = {}
+r = requests.get(voters_url)
+r.encoding = 'utf-8'
+csvio = io.StringIO(r.text, newline="")
+for row in csv.DictReader(csvio):
+    voter = {}
+    for c in settings['voters_columns']:
+        voter[c] = row[c]
+    for c in settings['voters_pictures_columns']:
+        voter[c] = settings['voters_pictures_prepend'] + row[c] + settings['voters_pictures_append']
+    voters[voter['id']] = voter
 
-with open("../answers.json","w") as fout:
-    json.dump(data,fout)
-                             
-            
-            
+# get votes and details (comments)
+details = {}
+print ("mismatching codes:")
+r = requests.get(votes_url)
+r.encoding = 'utf-8'
+csvio = io.StringIO(r.text, newline="")
+for row in csv.DictReader(csvio):
+    try:
+        voters[row['voter_id']]['votes']
+    except:
+        voters[row['voter_id']]['votes'] = {}
+        details[row['voter_id']] = {}
+    try:
+        voters[row['voter_id']]['votes'][row['vote_event_id']] = vote2vote(row['vote'])
+        if row['description'].strip() != "":
+            details[row['voter_id']][row['vote_event_id']] = row['description'].strip()
+    except:
+        print(row['voter_id'])
 
- 
-# senat           
-     
+# reorder as list and deselect voters with no votes:
+print("not answered:")
+data = []
+nodata = []
+for key in voters:
+#    print(key)
+    try:
+        voters[key]['votes']
+#        print(voters)
+    except:
+        print(voters[key][settings["voters_ascii"]]) #note: must be ASCII for running from PHP
+#        del voters[key]['code']
+        nodata.append(voters[key]) 
+#        print(nodata)
+    else:
+#        del voters[key]['code']
+        data.append(voters[key])  
+#        print(data)
+#print('**')
+
+#time.sleep(10)
+#order alphabetically
+data = sorted(data, key=lambda x: x[settings["voters_ascii"]])    
+nodata = sorted(nodata, key=lambda x: x[settings["voters_ascii"]])
+
+#array to obj
+dataout = {}
+for item in data:
+    dataout[item['id']] = item
+
+# db-like file for R
+votesdb = []
+for item in data:
+    for key in item['votes']:
+        votesdb.append({"votes":item['votes'][key],"voter":item['id'],"question":key})
+  
+#save files 
+try:
+    with open(path+'../answers.json', 'w') as outfile:
+        json.dump(dataout, outfile)
+    with open(path+'../noreply.json', 'w') as outfile:
+        json.dump(nodata, outfile)
+    with open(path+'../details.json', 'w') as outfile:
+        json.dump(details, outfile)
+    with open(path+'../matrix.json', 'w') as outfile:
+        json.dump(votesdb, outfile)
+except Exception as e:
+    print(e)

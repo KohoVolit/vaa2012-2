@@ -3,11 +3,14 @@
 * common functions
 */
 
-//error_reporting(E_ALL);
-error_reporting(0);
+// load server settings
+$server_settings = json_decode(file_get_contents($relative_path . '../local_settings.json'));
+// load app settings
+$app_settings = json_decode(file_get_contents($relative_path . 'settings.json'));
+// settings
+$settings = (object) array_merge((array) $server_settings, (array) $app_settings);
 
-// load settings
-$settings = json_decode(file_get_contents($relative_path . 'settings.json'));
+error_reporting($settings->error_reporting);
 
 //get language
 $lang = lang($settings);
@@ -16,15 +19,37 @@ $lang = lang($settings);
 $handle = fopen($relative_path . 'texts_' . $lang . '.csv', "r");
 $t = csv2array($handle);
 
+//ref
+if (isset($_REQUEST['ref']))
+    $ref = $_REQUEST['ref'];
+else
+    $ref = '';
+
+// customization
+$customization = [];
+if ($settings->customization) {
+    if (isset($_GET['bg']))
+        $customization['bg'] = htmlspecialchars(urldecode($_GET['bg']));
+    if (isset($_GET['navbar']))
+        $customization['navbar'] = htmlspecialchars(urldecode($_GET['navbar']));
+    if (isset($_GET['css']))
+        $customization['css'] = htmlspecialchars(urldecode($_GET['css']));
+}
+
+
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
+require($settings->smarty);
 $smarty = new Smarty();
 $smarty->setTemplateDir($relative_path . '../../smarty/templates/' . $settings->template);
 $smarty->setCompileDir($relative_path . '../../smarty/templates_c');
 
 $smarty->assign('lang', $lang);
-$smarty->assign('t',$t);
+$smarty->assign('text',$t);
+$smarty->assign('ref',$ref);
 $smarty->assign('settings',$settings);
+$smarty->assign('session_id',session_id());
+$smarty->assign('customization',$customization);
+$smarty->assign('relative_path',$relative_path);
 
 
 
@@ -85,8 +110,8 @@ function get_user_values() {
       //votes;
       if (substr($key,0,1) == 'q') 
         $user['votes'][substr($key,1)] = (int) $param;
-      else if (substr($key,0,2) == 'c-')
-        $user['weight'][substr($key,2)] = true;
+      else if (substr($key,0,1) == 'w')
+        $user['weight'][substr($key,1)] = true;
     }
   } else
       return $user;

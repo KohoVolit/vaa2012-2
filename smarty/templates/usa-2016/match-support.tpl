@@ -1,5 +1,3 @@
-{if ($cc) == 'cz'}
-    <p id="support" class="support text-center small">
-      {$t['result_support']}
-    </p>
-{/if}
+<p id="support" class="support text-center small">
+  {$text['result_support']}
+</p>

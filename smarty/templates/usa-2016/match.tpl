@@ -1,10 +1,11 @@
 {extends file='main.tpl'}
     {block name=additionalHead}
       <link href="{$settings->cdn_domain}css/stylish-portfolio.min.css" rel="stylesheet">
-      <link href="{$settings->cdn_domain}css/vaa2015.css" rel="stylesheet">
+      <link href="{$settings->cdn_domain}css/vaa2016.css" rel="stylesheet">
+      <script src="{$settings->cdn_domain}js/handlebars.min.js"></script> 
     {/block}
     {block name=lastHead}
-      <title>{$t['title']}</title>
+      <title>{$text['title']}</title>
     {/block}
     
     {block name=body}
@@ -17,15 +18,19 @@
         <!-- winners -->
           {include "match-winners.tpl"}
         <!-- /winners -->
+        <!-- sharer -->
+          {include "match-sharer.tpl"}
+        <!-- /sharer -->
         <!-- fb -->
+          {assign "fb_pos" "top"}
           {include "match-fb.tpl"}
         <!-- /fb -->
         <!-- tabs -->
           {include "match-tabs.tpl"}
         <!-- /tabs -->
-        
+          {assign "fb_pos" "bottom"}
           {include "match-fb.tpl"}
-
+          
           {include "match-lower.tpl"}
 
       </div>
@@ -35,7 +40,7 @@
     
     {block name=outsideBody}
     <!-- support -->
-      {include "match-support.tpl"}
+      <!--{include "match-support.tpl"}-->
       {include "match-comparison.tpl"}
       {include "match-save.tpl"}
     <!-- /support -->
@@ -50,6 +55,5 @@
    {block name=js}
      <!-- js -->
      {include "match-js.tpl"}
-{*     {include "match-localjs.tpl"}*}
      <!-- /js -->
    {/block}

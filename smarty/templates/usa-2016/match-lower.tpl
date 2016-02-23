@@ -1,4 +1,6 @@
 <div class="text-center">
-{*  <a href="/evropsky-parlament-2014/" type="button" class="btn btn-success btn-lg sharebutton" ><i class="fa fa-bar-chart-o fa-lg"></i> Názorová shoda se stranami? Zkuste Volební kalkulačku!</a>*}
-  <!--<button type="button" class="btn btn-success btn-lg sharebutton" disabled="disabled"><i class="fa fa-bar-chart-o fa-lg"></i> Názorová shoda se stranami? Volební kalkulačka! (od 24.4.2014)</button>-->
+  <div class="well well-lg">
+  * Otázky sme poslali všetkým stranám, zatiaľ neodpovedali:<br> <b>MKDA-MKDSZ</b>
+  </div>
+  <a href="https://volebnakalkulacka.sk/inventura-hlasovani-narodna-rada-2012-2015/" type="button" class="btn btn-success btn-lg sharebutton" id="lower-inventory"><i class="fa fa-users fa-lg"></i> Inventúra hlasovaní 2012-2015</a>
 </div>

@@ -1,0 +1,55 @@
+code,text
+author,KohoVolit.eu
+description,"Spočítajte si zhodu so stranami"
+keywords,"voľby, volebná kalkulačka, volebný test"
+og:image,http://volebnikalkulacka.cz/image/logo.jpg
+calc,Volebná kalkulačka
+calc_name,Volebná kalkulačka 2016
+info,Info
+url,https://volebnakalkulacka.sk
+title,Volebná kalkulačka 2016 | Volebná kalkulačka
+author_link,http://kohovolit.eu
+licence,Creative Commons BY 4.0
+year,2016
+footer_text,"Volebné kalkulačky pre Vás už od roku 2006 vytvára združenie <a href='http://kohovolit.eu'>KohoVolit.eu</a>"
+ie8,Aplikace požaduje Internet Explorer vyšší verze než 8
+opera11,Aplikace požaduje prohlížeč Opera vyšší verze než 11
+google_analytics_code,UA-8592359-12
+yandex_metrica_code,35358145
+page_question_yes,ÁNO
+page_question_no,NIE
+page_question_neutral,neviem
+page_question_neutral_add," / je mi to jedno"
+page_important_questions,Dôležité otázky
+page_important_legend,"<strong>Označte otázky, ktoré sú pre Vás najdôležitejšie</strong>. Spresníte tým výsledok. Tento krok nie je povinný a môžete ho preskočiť."
+page_important_skip,Preskočiť
+page_important_results,Výsledky
+document_link,Dokument
+match_save,Uložiť svoje hlasovanie
+result_winner_share,Zdieľaj výsledky na Facebooku
+result_fb_appid,647475721940594
+result_fb_picture_link,http://volebnikalkulacka.cz/evropsky-parlament-2014/image/logo
+result_fb_name,Moja najvyššia zhoda vo Volebnej kalkulačke:
+result_fb_description_1,"Moja najvyššia zhoda vo Volebnej kalkulačke: "
+result_fb_description_and,a
+result_fb_description_only,len
+result_fb_description_2,", najnižšia "
+result_fb_description_3,"Zistite, s kým sa najviac zhodujete na VolebnaKalkulacka.sk"
+result_fb_redirect_link,https://volebnakalkulacka.sk/
+result_fb_link,https://volebnakalkulacka.sk/
+result_fb_action,"[{'name':'Koho voliť?','link':'http://volebnakalkulacka.sk/'}]"
+result_twitter_text_1,"Moja Volebná kalkulačka: 1."
+result_twitter_text_2,", najhorší:"
+result_twitter_redirect_link,https://volebnakalkulacka.sk
+result_twitter_account,"KohoVolitEU"
+result_twitter_hashtags,volby #volby2016
+result_share,Zdieľaj výsledky
+result_results,Výsledky
+result_support,"<strong>Podpořte tvorbu nezávislých Volebních kalkulaček.</strong><br/> Pošlete SMS na&nbsp;číslo&nbsp;<strong><span class='colorstrong'>87777</span></strong> s&nbsp;textem <strong><span class='colorstrong'>DMS&nbsp;KOHOVOLIT</span></strong> (cena 30Kč, z toho 28Kč pro sdružení KohoVolit.eu) nebo <strong><span class='colorstrong'>DMS&nbsp;ROK&nbsp;KOHOVOLIT</span></strong> (automaticky každý měsíc po 1 rok)"
+result_comparison,Porovnanie
+result_close,Zavrieť
+result_yes,Áno
+result_no,Nie
+result_question,Otázka
+result_save_description,"K výsledkom svojho hlasovania sa môžete kedykoľvek vrátiť, ak si skopírujete a uložíte celú túto adresu:"
+me,Ja

@@ -1,33 +1,58 @@
-# creates questions.json
+# -*- coding: utf-8 -*-
+
+# create questions_xx.json files (more languages)
 
 import csv
+import io
 import json
+import logging
+import requests
 
-appendixes = ["_cs","_en"]
+logger = logging.getLogger('simple_example')
+logger.setLevel(logging.DEBUG)
 
-for appendix in appendixes:
-    data = []
-    with open("questions.csv") as fin:
-        csvd = csv.DictReader(fin)
-        for r in csvd:
-            if r['order'].strip() != '':
-                it = {
-                    "id": r['id'],
-                    "name": r['name' + appendix],
-                    "question": r['question' + appendix],
-                    "description": r['description' + appendix],
-                    "order": float(r['order']),
-                    "lower_link": r['lower_vote_event_link'],
-                    "upper_link": r['upper_vote_event_link'],
-                    "document_link": r['document_link'],
-                    "lower_polarity": r['lower_polarity'],
-                    "upper_polarity": r['upper_polarity']
-                }
-                
-                data.append(it)
+try:
+    tmp = os.path.realpath(__file__).split("/")
+    path = "/".join(tmp[:-1]) + "/"
+except:
+    path = ""
 
-    data = sorted(data, key=lambda item: item['order'])
+try:
+    with open(path + "settings.json",encoding="utf-8") as f:
+        settings = json.load(f)
+except Exception as e:
+    logger.exception(e)
+    print(e)
 
-    with open("../questions" + appendix + ".json","w") as fout:
-        json.dump(data,fout)
-        
+url = settings['vote-events_url']
+
+questions = {}
+r = requests.get(url)
+r.encoding = 'utf-8'
+csvio = io.StringIO(r.text, newline="")
+for row in csv.DictReader(csvio):
+    for lang in settings['vote-events_languages']:
+        questions[lang] = []
+        if row['order'].strip() != "":
+            item = {}
+            for c in settings['vote-events_columns']:
+                if c in settings['vote-events_number_columns']:
+                    item[c] = float(row[c])
+                else:
+                    item[c] = row[c]
+            for c in settings['vote-events_translatable_columns']:
+                if c in settings['vote-events_number_columns']:
+                    item[c] = float(row[c + '@' + lang])
+                else:
+                    item[c] = row[c + '@' + lang]
+            questions[lang].append(item);
+
+
+for lang in settings['vote-events_languages']:
+    questions[lang] = sorted(questions[lang], key=lambda x:x['order'])
+#print questions
+
+#save files
+for lang in settings['vote-events_languages']:
+    with open(path+'../questions_'+lang+'.json', 'w') as outfile:
+        json.dump(questions[lang], outfile)

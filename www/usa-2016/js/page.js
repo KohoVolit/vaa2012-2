@@ -95,7 +95,7 @@ $('document').ready(function() {
   //check all selected weights
   for (key in user['weight']) {
     if (user['weight'][key]) {
-      $('#c-'+key,+'#calc').prop('checked',true);
+      $('#w'+key,+'#calc').prop('checked',true);
     }
   }
   // hide&zebra; also on load (when accessing directly or returning

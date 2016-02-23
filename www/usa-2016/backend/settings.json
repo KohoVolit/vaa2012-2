@@ -1,0 +1,18 @@
+{
+    "description": "3 files, popolo standard; more languages",
+    
+    "voters_url":"https://docs.google.com/spreadsheets/d/1M-wHxFyWfNnBct39nvaMdf9QUl_51fcsA6GJZt8Xu98/export?format=csv&gid=53271916",
+    "vote-events_url":"https://docs.google.com/spreadsheets/d/1M-wHxFyWfNnBct39nvaMdf9QUl_51fcsA6GJZt8Xu98/export?format=csv&gid=289377527",
+    "votes_url": "https://docs.google.com/spreadsheets/d/1M-wHxFyWfNnBct39nvaMdf9QUl_51fcsA6GJZt8Xu98/export?format=csv&gid=1898420380",
+    "voters_pictures_prepend": "usa-2016/",
+    "voters_pictures_append": "",
+    "voters_ascii": "id",
+    "vote-events_languages": ["cs","en","sk"],
+    "voters_columns": ["id","name","given_name","family_name","party"],
+    "voters_pictures_columns": ["picture","party_logo"],
+    "vote-events_columns": ["id","order"],
+    "vote-events_translatable_columns": ["name","question","category"],
+    "vote-events_number_columns": ["order"]
+    
+    
+}
