@@ -1,5 +1,5 @@
 http://www.facebook.com/dialog/feed?
-    app_id={$text['result_fb_appid']}&
+    app_id={$settings->facebook_appid}&
     link={$text['result_fb_redirect_link']|escape:'url'}?ref={$session_id}&
     picture={$settings->cdn_domain}{$results[0].{$settings->match->fb->picture}}&
     name={$text['result_fb_name']|escape:'url'}&

@@ -24,4 +24,4 @@
   theTemplate = {};
 </script>
 
-<script src="{$settings->cdn_domain}js/showcomparison2016.js"></script>
+<script src="{$settings->cdn_domain}{$settings->directory}/js/showcomparison.js"></script>

@@ -1,5 +1,8 @@
 {
     "cdn_domain": "http://volebnakalkulacka.sk/",
     "smarty": "/usr/local/lib/php/Smarty/libs/Smarty.class.php",
-    "error_reporting": "0"
+    "error_reporting": "0",
+    "google_analytics_code": "UA-XXXXXXX-X",
+    "yandex_metrica_code": "XXXXXXXX",
+    "facebook_appid": "XXXXXXXXXXXXXXXX"
 }

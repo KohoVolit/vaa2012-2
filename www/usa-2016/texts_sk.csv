@@ -14,8 +14,6 @@ year,2016
 footer_text,"Volebné kalkulačky pre Vás už od roku 2006 vytvára združenie <a href='http://kohovolit.eu'>KohoVolit.eu</a>"
 ie8,Aplikace požaduje Internet Explorer vyšší verze než 8
 opera11,Aplikace požaduje prohlížeč Opera vyšší verze než 11
-google_analytics_code,UA-8592359-12
-yandex_metrica_code,35358145
 page_question_yes,ÁNO
 page_question_no,NIE
 page_question_neutral,neviem
@@ -27,7 +25,6 @@ page_important_results,Výsledky
 document_link,Dokument
 match_save,Uložiť svoje hlasovanie
 result_winner_share,Zdieľaj výsledky na Facebooku
-result_fb_appid,647475721940594
 result_fb_picture_link,http://volebnikalkulacka.cz/evropsky-parlament-2014/image/logo
 result_fb_name,Moja najvyššia zhoda vo Volebnej kalkulačke:
 result_fb_description_1,"Moja najvyššia zhoda vo Volebnej kalkulačke: "

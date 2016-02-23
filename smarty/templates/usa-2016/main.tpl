@@ -79,7 +79,7 @@
     <!-- google analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', "{$text['google_analytics_code']}"]);
+      _gaq.push(['_setAccount', "{$settings->google_analytics_code}"]);
       _gaq.push(['_trackPageview']);
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -94,8 +94,8 @@
         (function (d, w, c) {
             (w[c] = w[c] || []).push(function() {
                 try {
-                    w.yaCounter{$text['yandex_metrica_code']} = new Ya.Metrika({
-                        id:{$text['yandex_metrica_code']},
+                    w.yaCounter{$settings->yandex_metrica_code} = new Ya.Metrika({
+                        id:{$settings->yandex_metrica_code},
                         clickmap:true,
                         trackLinks:true,
                         accurateTrackBounce:true
@@ -115,7 +115,7 @@
             } else { f(); }
         })(document, window, "yandex_metrika_callbacks");
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/{$text['yandex_metrica_code']}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/{$settings->yandex_metrica_code}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
     
   </body>
