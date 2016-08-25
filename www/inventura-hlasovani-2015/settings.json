@@ -9,7 +9,7 @@
         "cs",
         "en"
     ],
-    "cdn_domain": "http://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain": "https://volebnikalkulacka-1d3d.kxcdn.com/",
     "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
     "match": {
         "winner": {
@@ -33,7 +33,7 @@
             "picture_title": "party_abbreviaton",
             "first_row": ["name"],
             "second_row": ["party_abbreviaton"],
-            "third_row": ["chamber_name"]           
+            "third_row": ["chamber_name"]
         }
     }
 }

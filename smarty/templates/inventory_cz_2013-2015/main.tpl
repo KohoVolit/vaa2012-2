@@ -9,7 +9,7 @@
     <meta name="keywords" content="{$t['keywords']}">
     <meta name="author" content="{$t['author']}">
     <link type="image/x-icon" href="../../image/favicon.ico" rel="shortcut icon">
-    
+
     <meta property="og:image" content="{$t['og:image']}"/>
 	<meta property="og:title" content="{$t['calc']}"/>
 	<meta property="og:url" content="{$t['url']}"/>
@@ -18,8 +18,8 @@
 
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
-    {block name=additionalHead}{/block} 
+    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
+    {block name=additionalHead}{/block}
     {block name=lastHead}{/block}
   </head>
   <body>
@@ -40,16 +40,16 @@
           }
         }
     </style>
-    
+
     <div id="top" class="header">
       {block name=body}{/block}
     </div> <!-- /#top -->
-    
+
     {block name=outsideBody}{/block}
     {block name=footer}{/block}
-    
+
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>   
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     {block name=js}{/block}
     <!-- google analytics -->
