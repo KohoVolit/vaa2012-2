@@ -41,7 +41,7 @@
         "en",
         "hu"
     ],
-    "cdn_domain": "http://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain": "https://volebnikalkulacka-1d3d.kxcdn.com/",
     "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
     "match": {
         "winner": {
@@ -65,7 +65,7 @@
             "picture_title": "name",
             "first_row": ["name"],
             "second_row": ["party"],
-            "third_row": ["political_group"]           
+            "third_row": ["political_group"]
         }
     }
 }
