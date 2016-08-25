@@ -84,11 +84,11 @@
               <p class="lead">
                   Volební kalkulačky pro krajské volby 2016.
                   <p>
-                  <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDOU SPUŠTĚNY V TÝDNU 12.-19.9.2016</a>
+                  <button href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDOU SPUŠTĚNY V TÝDNU 12.-19.9.2016</button>
                 <p class="lead">
                     Volební kalkulačka pro senátní volby 2016.
                     <p>
-                    <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDE SPUŠTĚNA V TÝDNU 12.-19.9.2016</a>
+                    <button href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" disabled="disabled"><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDE SPUŠTĚNA V TÝDNU 12.-19.9.2016</button>
 
             <p class="lead">
                 Inventura hlasování z Parlamentu Vám pomůže zjistit, kteří poslanci a senátoři Vás <em>doopravdy</em> zastupovali v roce 2015.
