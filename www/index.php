@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačky. Inventura hlasování Parlamentu ČR 2015. Inventura hlasování EP 2014-2015">
+    <meta name="description" content="Volební kalkulačky. Krajské volby 2016. Senátní volby 2016. Inventura hlasování Parlamentu ČR 2015. Inventura hlasování EP 2014-2015">
     <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
-    
+
     <meta property="og:image" content="http://volebnikalkulacka.cz/image/logo.jpg"/>
 	<meta property="og:title" content="Volební kalkulačka"/>
 	<meta property="og:url" content="http://volebnikalkulacka.cz"/>
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2015</title>
+    <title>Volební kalkulačka 2016</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
     }
 	@media (min-width: 666px) {
   .header {
-        background: url("inventura-hlasovani-evropsky-parlament-2014-2015/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+        background: url("inventura-hlasovani-evropsky-parlament-2014-2015/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
     }
     @media (min-width: 750px) {
@@ -42,7 +42,7 @@
     .lead { font-size: 16px; font-weight: 200; line-height: 1.4; margin-bottom: 50px; margin-bottom: 20px; font-size: 21px; color: #fff;}
     .nav a {color: #428BCA}
     </style>
-	
+
 </head>
 <body>
 
@@ -75,13 +75,23 @@
         $randpath = 'http://volebnikalkulacka.eu';
     ?>
     <div id="top" class="header">
-        
-		<div class="vert-text">    
-       
-			<h1>Volební kalkulačka 2015</h1>
+
+		<div class="vert-text">
+
+			<h1>Volební kalkulačka 2016</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
+
+              <p class="lead">
+                  Volební kalkulačky pro krajské volby 2016.
+                  <p>
+                  <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDOU SPUŠTĚNY V TÝDNU 12.-19.9.2016</a>
+                <p class="lead">
+                    Volební kalkulačka pro senátní volby 2016.
+                    <p>
+                    <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDE SPUŠTĚNA V TÝDNU 12.-19.9.2016</a>
+
             <p class="lead">
-                Inventura hlasování z Parlamentu Vám pomůže zjistit, kteří poslanci a senátoři Vás <em>doopravdy</em> zastupovali v roce 2015. 
+                Inventura hlasování z Parlamentu Vám pomůže zjistit, kteří poslanci a senátoři Vás <em>doopravdy</em> zastupovali v roce 2015.
                 <!--                               Online volební test Vám zabere přibližně 5 minut.-->
 		    <p>
 		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="http://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - PARLAMENT</a>
@@ -93,11 +103,11 @@
 
 
 
-				   
+
 
 
 				   <p>
-				   
+
 				   <div class=""><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FKohoVolit.eu&amp;width=100&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=65&amp;appId=469801333121609" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:65px;" allowTransparency="true"></iframe><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://volebnikalkulacka.cz" data-text="Zkuste taky Volební kalkulačku!" data-via="KohoVolitEU" data-hashtags="EP2014" data-count ="vertical">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><!-- Place this tag where you want the +1 button to render. -->
 <div class="g-plusone" data-size="tall" data-href="http://volebnikalkulacka.cz/"></div>
@@ -114,7 +124,7 @@
     </div>
     <!-- /Full Page Image Header Area -->
 
-  
+
 
 
 
@@ -123,11 +133,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                    
+
                     <a href="www.kohovolit.eu" title="KohoVolit.eu"><img src="image/logo.png" alt="logo kohovolit.eu" /></a>
                     <!--<p><a href="http://votematch.eu" id="footer-votematch"><img src="image/eu2014/votematch.png" title="VoteMatch.eu" alt="VoteMatch.eu"/></a></p>-->
 					<p class="lead black" style="color:#333333">Volební kalkulačky pro Vás již od roku 2006 vytváří občanské sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a><!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>--></p>
-					
+
                     <hr>
 					<ul class="nav nav-pills" style="color: #428BCA;">
   <li><a href="info/">O projektu</a></li>
