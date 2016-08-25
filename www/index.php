@@ -105,7 +105,13 @@
 
 
 
+                <p>
 
+        </div>
+    </div>
+               <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT</font></strong> <br>(cena 30Kč, z toho 27Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS ROK KOHOVOLIT</font></strong> <br>(automaticky každý měsíc po 1 rok)</p>
+    </div>
+               <!-- /Full Page Image Header Area -->
 
 
 
