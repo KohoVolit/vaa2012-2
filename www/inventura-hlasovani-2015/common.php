@@ -3,8 +3,8 @@
 * common functions
 */
 
-//error_reporting(E_ALL);
-error_reporting(0);
+error_reporting(E_ALL);
+//error_reporting(0);
 
 // load settings
 $settings = json_decode(file_get_contents($relative_path . 'settings.json'));
@@ -17,7 +17,7 @@ $handle = fopen($relative_path . 'texts_' . $lang . '.csv', "r");
 $t = csv2array($handle);
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
+require('/usr/local/lib/php/Smarty/Smarty.class.php');
 $smarty = new Smarty();
 $smarty->setTemplateDir($relative_path . '../../smarty/templates/' . $settings->template);
 $smarty->setCompileDir($relative_path . '../../smarty/templates_c');
@@ -63,8 +63,8 @@ function csv2array($handle) {
         if (!feof($handle)) {
             /*echo "Error: unexpected fgets() fail\n";*/
         }
-    } 
-    return $array;  
+    }
+    return $array;
 }
 
 /**
@@ -83,7 +83,7 @@ function get_user_values() {
   if (count($_GET) > 0) {
     foreach ($_GET as $key => $param) {
       //votes;
-      if (substr($key,0,1) == 'q') 
+      if (substr($key,0,1) == 'q')
         $user['votes'][substr($key,1)] = (int) $param;
       else if (substr($key,0,2) == 'c-')
         $user['weight'][substr($key,2)] = true;

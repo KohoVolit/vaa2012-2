@@ -1,21 +1,21 @@
-/* PAGE */  
-  
+/* PAGE */
+
   .carousel {
     /*background-color: #ab0;*/
     display: table-cell;
     height: 100%;
   }
-    
+
   body {
     padding-bottom: 0;
     padding-top: 30px;
     font-family: 'Open Sans', sans-serif;
   }
-  
+
   .carousel .item {
     background-color: transparent;
   }
-  
+
   .vote-button {
     margin: 0.3em 1em;
     min-width: 10em;
@@ -23,7 +23,7 @@
   .question-question {
     font-size: 20px;
   }
-  
+
   .carousel-caption {
     max-width: 750px;
     top: 0;
@@ -42,61 +42,61 @@
     min-height: 30px;
     height: 30px;
   }
-  
+
   .navbar-brand {
     padding: 7px;
     font-size: 14px;
   }
-  
+
   .wrapper-indicators {
     min-height: 50px;
     color: #ab0;
   }
-  
+
   .carousel-indicators {
     position: relative;
     margin-top: 10px;
   }
-  
+
   .carousel .item {
     height: 350px;
   }
-  
+
   .btn-info.active, .btn-primary.active, .btn-warning.active {
     color: #000;
   }
-  
+
   .header {
     background-color: #4183cd;
   }
-  
+
   .weightsel-button {
     width: 100%;
     text-align: left;
   }
-  
+
   .table > tbody > tr > td.weightsel-td {
     border-top: 0;
     padding: 0;
   }
-  
+
   .wide-button {
     width: 100%;
   }
-  
-  .navbar a, .nav a { 
-	  color: #fff; 
-	  text-decoration: none; 
-  } 
-  
+
+  .navbar a, .nav a {
+	  color: #fff;
+	  text-decoration: none;
+  }
+
   .btn-orange {
     background: none repeat scroll 0 0 #FFAD00;
     border-color: #FF8C00;
     color: #FFFFFF;
-  } 
- 
+  }
+
     /* media queries */
-  
+
   @media screen and (min-width: 549px) {
     .question-description {
         display: block;
@@ -111,7 +111,7 @@
     font-size: 24px;
    }
   }
-  
+
   @media (min-width: 666px) {
     .vote-buttons {
       position: absolute;
@@ -135,13 +135,13 @@
       height: 500px; /*default*/
     }
     .header {
-      background: url("./image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
+      background: url("./image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
     }
     .vote-button {
       min-width: 10em;
     }
   }
-  
+
   @media (min-width: 768px) {
     .question-question {
       font-size: 36px;
@@ -163,7 +163,7 @@
       font-size: 18px;
     }
   }
-  
+
   @media (min-width: 1200px) {
     .question-description {
       font-size: 21px;
@@ -172,17 +172,17 @@
       height: 400px;
     }
   }
-  
+
   @media (max-height: 600px) {
-    
+
   }
-  
+
 /* MATCH */
 /* adding */
   .line {
 	border: 1px solid #FFFFFF;
   }
-  
+
   .col-xs-3, .col-xs-9 {
       	float:none;
         display:inline-block;
@@ -193,7 +193,7 @@
     padding-top:1em;
   }
   .container.results {
-    
+
     padding-left: 0;
     padding-right: 0;
   }
@@ -208,33 +208,33 @@
     margin: 20px 0 30px 0;
     width: 100%;
   }
-  
+
   footer {
       margin-top: 40px;
   }
-	
+
 .navbar-custom {
     background: #0063B1;
     border-color: #fff;
 	/*color: #fff;*/
   }
- 
+
 /*.navbar {
     min-height: 30px;
     height: 50px;
   }	 */
-  
-/*.navbar a, .nav a { 
-  color: #fff; 
-  text-decoration: none; 
+
+/*.navbar a, .nav a {
+  color: #fff;
+  text-decoration: none;
 } */
-.navbar a:hover { 
+.navbar a:hover {
   text-decoration: underline;
 }
 .nav a:hover {
   color: #428BCA;
 }
-	
+
 
 /*.navbar-brand {
     align: center;
@@ -383,7 +383,7 @@ h4 {
   .results {
     padding-top: 40px;
   }
-  
+
 
 }
 
@@ -394,4 +394,53 @@ h4 {
 	{
 		display: none;
 	}
+}
+
+
+.question-description {
+    display: block !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.question-links {
+    display: block !important;
+}
+
+.o-question {
+    margin-bottom: 10px;
+}
+
+#carousel form {
+    min-height: 100vh;
+}
+
+.carousel .item {
+    min-height: 100vh;
+}
+
+.carousel-indicators {
+    position: absolute !important;
+    bottom: 2px !important;
+}
+
+span.hidden-xs {
+    display: inline !important;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 40px
+}
+
+@media (min-width: 666px) {
+    .buttons {
+        position: static !important;
+        margin-top: 30px !important;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: 92vh;
+    }
 }

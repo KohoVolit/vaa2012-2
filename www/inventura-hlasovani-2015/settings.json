@@ -9,8 +9,8 @@
         "cs",
         "en"
     ],
-    "cdn_domain": "https://volebnikalkulacka-1d3d.kxcdn.com/",
-    "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
+    "cdn_domain_": "https://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain": "http://10.0.0.219/michal/project/volebnikalkulacka.cz/www/",
     "match": {
         "winner": {
             "name": "name",

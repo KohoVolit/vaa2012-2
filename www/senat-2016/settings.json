@@ -1,0 +1,59 @@
+{
+    "election_code": "volby-2016",
+    "directory":"volby-2016",
+    "template": "senate-2016",
+    "defaults" : {
+        "language": "cs"
+    },
+    "languages": [
+        "cs"
+    ],
+    "clicks": true,
+    "fingerprint": true,
+    "customization": true,
+    "app_css": false,
+    "background_image": "image/bg.jpg",
+    "match": {
+        "winner": {
+            "name": "name",
+            "second_row": ["party_abbreviation"],
+            "picture": "picture",
+            "picture_width": "132",
+            "picture_height": "132",
+            "picture_alt": "name",
+            "picture_title": "name",
+            "picture_class": "img-rounded"
+        },
+        "fb": {
+            "picture": "picture",
+            "caption": "name",
+            "winner": "name"
+        },
+        "twitter": {
+            "winner": "name"
+        },
+        "table": {
+            "picture": "picture",
+            "picture_width": "80",
+            "picture_height": "80",
+            "picture_alt": "party_abbreviation",
+            "picture_title": "party_abbreviation",
+            "picture_class": "img-rounded",
+            "first_row": ["name"],
+            "second_row": ["party"],
+            "third_row": []
+        },
+        "comparison": {
+            "name": "name"
+        }
+    },
+    "table": {
+        "picture": "picture",
+        "picture_width": "25",
+        "picture_height": "25",
+        "picture_alt": "family_name",
+        "picture_title": "name",
+        "picture_class": "img-rounded",
+        "name": "family_name"
+    }
+}
