@@ -33,7 +33,7 @@ $user_json = json_encode($user);
 $answers_json = json_encode($answers);
 
 // API call
-if (isset($_GET['api']) and ($_GET['api'] == 'api')) {
+if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     header('Cache-Control: no-cache, must-revalidate');
     header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
     header('Content-type: application/json');
