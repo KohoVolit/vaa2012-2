@@ -40,17 +40,17 @@ function create_comparison(questions) {
 function make_comparison(questions, details) {
     answers["0"] = me;
     if (typeof(ids) == "undefined") ids = ["0","0"];
-    
+
     var context = {"header":{},"rows":[]};
-    
+
     v1_id = ids[0];
     v2_id = ids[1];
-    
+
     context['header'] = {
         "one": answers[v1_id][comparison_name],
         "two": answers[v2_id][comparison_name]
     };
-    
+
     for (key in questions) {
         row = {};
         q_id = questions[key]['id'];
@@ -78,6 +78,7 @@ function make_comparison(questions, details) {
     $("#comparison-dialog").html(theCompiledHtml);
     $(".tooltip-left").tooltip({placement: 'left'});
     $(".tooltip-right").tooltip({placement: 'right'});
+    $('[data-toggle="popover"]').popover();
 }
 
 function compare_answers_class(a1,a2) {

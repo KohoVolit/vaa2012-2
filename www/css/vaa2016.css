@@ -434,6 +434,14 @@ h4 {
     border: 1px solid #CCC;
 }
 
+/* */
+.clickable {
+    cursor: pointer;
+}
+.clickable:hover {
+    text-decoration: underline;
+}
+
 /* NEW FOR 2016 */
 .question-description {
     margin-top: 20px;
