@@ -15,7 +15,7 @@
     "background_image": "image/bg.jpg",
     "match": {
         "winner": {
-            "name": "name",
+            "first_row": ["family_name","given_name"],
             "second_row": ["party_abbreviation"],
             "picture": "picture",
             "picture_width": "120",

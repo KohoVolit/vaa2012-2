@@ -28,6 +28,12 @@ if (isset($_GET['cc'])) {
 }
 $results = calc_match($user,$answers,2,$cc);
 
+//noreplies
+$nrfile = $relative_path . 'noreply.json';
+$allnoreplies = json_decode(file_get_contents($nrfile));
+$nrlist = noreplies($allnoreplies,$cc);
+$smarty->assign('noreplies', $nrlist);
+
 //encode user, answers and qcoefs for direct print into file
 $user_json = json_encode($user);
 $answers_json = json_encode($answers);
@@ -117,6 +123,19 @@ function calc_match($user,$set,$extra=2,$cc="1") {
 */
 function sign( $number ) {
     return ( $number > 0 ) ? 1 : ( ( $number < 0 ) ? -1 : 0 );
+}
+
+/**
+* extract noreplies
+*/
+function noreplies($allnr, $cc) {
+    $out = [];
+    foreach($allnr as $row) {
+        if ($row->constituency == $cc) {
+            $out[] = $row;
+        }
+    }
+    return $out;
 }
 
 ?>
