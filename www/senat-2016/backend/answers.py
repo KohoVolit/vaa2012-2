@@ -66,6 +66,10 @@ for row in csv.reader(csvio):
     if i == 0:
         nothing = 0
     else:
+        if row[21].strip() == "m":
+            gender = "male"
+        else:
+            gender = "female"
         voter = {
             'id': row[0].strip(),
             'name': row[2].strip() + ' ' + row[1].strip(),
@@ -75,7 +79,8 @@ for row in csv.reader(csvio):
             'party': row[3].strip(),
             'constituency': row[4].strip(),
             'friendly_name': slugify(row[1].strip() + ' ' + row[2].strip() + ' ' + row[5].strip()),
-            'picture': settings['picture_prepend'] + row[0].strip() +  settings['picture_append']
+            'picture': settings['picture_prepend'] + row[0].strip() +  settings['picture_append'],
+            'gender': gender
         }
         voters[row[10].strip()] = voter # secret code column
     i = i + 1

@@ -26,8 +26,8 @@
         },
         "fb": {
             "picture": "picture",
-            "caption": "name",
-            "winner": "name"
+            "winner": "name",
+            "winner_abbr": "party_abbreviation"
         },
         "twitter": {
             "winner": "name"
