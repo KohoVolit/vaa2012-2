@@ -30,6 +30,8 @@ answers_url = settings['answers_url'] #url of the CSV
 acc = settings['answers_codes_column'] # answers codes columns
 nq = settings['number_of_questions'] # number of questions
 voters_url = settings['voters_url'] #url of the CSV
+questions_url = settings['questions_url'] # url of questions
+niqc = settings['number_in_questionnaire_column'] # column in questions list with order in questionnaire (only sometimes equals with id)
 
 def vote2vote (vote):
 #    print(settings['yes'])
@@ -39,6 +41,20 @@ def vote2vote (vote):
         return -1
     else:
         return 0
+
+# read questions
+i = 0
+r = requests.get(questions_url)
+r.encoding = 'utf-8'
+csvio = io.StringIO(r.text, newline="")
+qcol2id = {}
+for row in csv.reader(csvio):
+    if i == 0:
+        nothing = 0
+    else:
+        if row[niqc] != "":
+            qcol2id[row[niqc]] = row[0]
+    i += 1
 
 # read voters
 i = 0
@@ -59,7 +75,7 @@ for row in csv.reader(csvio):
             'party': row[3].strip(),
             'constituency': row[4].strip(),
             'friendly_name': slugify(row[1].strip() + ' ' + row[2].strip() + ' ' + row[5].strip()),
-            'picture': settings['picture_prepend'] + '' +  settings['picture_append']
+            'picture': settings['picture_prepend'] + row[0].strip() +  settings['picture_append']
         }
         voters[row[10].strip()] = voter # secret code column
     i = i + 1
@@ -78,7 +94,7 @@ for row in csv.reader(csvio):
         questions = {} # col: id
         for j in range(0,nq):
             col = (4 + 2*j)
-            questions[col] = re.search('\d*', row[col]).group(0)
+            questions[col] = qcol2id[re.search('\d*', row[col]).group(0)]
         #print questions
     else:
         try:

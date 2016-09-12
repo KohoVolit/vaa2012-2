@@ -2,7 +2,7 @@
     <a href="./?cc=16" class="list-group-item">Beroun</a>
     <a href="./?cc=49" class="list-group-item">Blansko</a>
     <a href="./?cc=58" class="list-group-item">Brno - město</a>
-    <a href="./?cc=55" class="list-group-item">Brno - venkov</a>
+    <a href="./?cc=55" class="list-group-item">Brno-venkov + Bystrc, Kníničky, Žebětín</a>
     <a href="./?cc=64" class="list-group-item">Bruntál</a>
     <a href="./?cc=10" class="list-group-item">Český Krumlov</a>
     <a href="./?cc=73" class="list-group-item">Frýdek - Místek</a>

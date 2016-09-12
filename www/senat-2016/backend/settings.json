@@ -1,10 +1,12 @@
 {
     "answers_url":"https://docs.google.com/spreadsheets/d/1If04esVUzUvzUqL9U16fO9avhvIkp2889laNPTZUICg/pub?gid=421753347&single=true&output=csv",
     "voters_url":"https://docs.google.com/spreadsheets/d/1c5ySXY6l_SvPN3hoF20U3OvFGpi92FEH2ZKnzIdPG-o/pub?gid=0&single=true&output=csv",
+    "questions_url": "https://docs.google.com/spreadsheets/d/1Ztt8DE9gIoejf9eEW-o33T-ea2g5EU7YbYx02sBQvv0/pub?gid=176959617&single=true&output=csv",
     "answers_codes_column": 3,
     "number_of_questions": 64,
+    "number_in_questionnaire_column": 7,
     "yes": "Ano",
     "no": "Ne",
-    "picture_prepend": "volby-2016/image/logo/",
+    "picture_prepend": "senat-2016/image/photo/",
     "picture_append": ".jpg"
 }
