@@ -18,7 +18,7 @@ cache/
 research.txt
 cache/*
 research_post.txt
-*/result.csv
-*/click.csv
-*/position.csv
-*/fingerprint.csv
+*result.csv
+*click.csv
+*position.csv
+*fingerprint.csv
