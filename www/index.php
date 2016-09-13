@@ -32,7 +32,7 @@
     }
 	@media (min-width: 666px) {
   .header {
-        background: url("inventura-hlasovani-evropsky-parlament-2014-2015/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("senat-2016/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
     }
     @media (min-width: 750px) {
@@ -68,11 +68,11 @@
     <!-- Full Page Image Header Area -->
     <?php
       //$r = rand(0,5);
-      $r = 0;
-      if ($r == 0)
-        $randpath = '.';
-      else
-        $randpath = 'http://volebnikalkulacka.eu';
+      //$r = 0;
+      //if ($r == 0)
+    //    $randpath = '.';
+      //else
+    //    $randpath = 'http://volebnikalkulacka.eu';
     ?>
     <div id="top" class="header">
 
@@ -81,25 +81,26 @@
 			<h1>Volební kalkulačka 2016</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
+            <p class="lead">
+                    Volební kalkulačka pro senátní volby 2016.
+                    <p>
+                    <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; if (!$hr=="") echo base64url_encode($hr); ?>" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" disabled="disabled"> BUDE SPUŠTĚNA 14.9.2016</a>
+
               <p class="lead">
                   Volební kalkulačky pro krajské volby 2016.
                   <p>
-                  <button href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled" ><img src="https://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDOU SPUŠTĚNY V TÝDNU 12.-19.9.2016</button>
-                <p class="lead">
-                    Volební kalkulačka pro senátní volby 2016.
-                    <p>
-                    <button href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success btn-disabled" style="white-space: normal;" disabled="disabled"><img src="https://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> BUDE SPUŠTĚNA V TÝDNU 12.-19.9.2016</button>
+                  <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled" >BUDOU SPUŠTĚNY V TÝDNU 16.-23.9.2016</a>
 
             <p class="lead">
                 Inventura hlasování z Parlamentu Vám pomůže zjistit, kteří poslanci a senátoři Vás <em>doopravdy</em> zastupovali v roce 2015.
                 <!--                               Online volební test Vám zabere přibližně 5 minut.-->
 		    <p>
-		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="https://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_cz.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - PARLAMENT</a>
+		    <a href="<?php echo $randpath; ?>/inventura-hlasovani-2015/" class="btn btn-lg btn-success" style="white-space: normal;" > SPUSTIT INVENTURU HLASOVÁNÍ - PARLAMENT</a>
 
             <p class="lead">
                 Inventura hlasování z Evropského parlamentu Vám ukáže, kteří europoslanci Vás <em>doopravdy</em> zastupovali v letech 2014-2015.
                 <p>
-                <a href="<?php echo $randpath; ?>/inventura-hlasovani-evropsky-parlament-2014-2015/" class="btn btn-lg btn-success" style="white-space: normal;" ><img src="https://www.europarl.europa.eu/ep_framework/img/flag/flag_icon_eu.gif"> SPUSTIT INVENTURU HLASOVÁNÍ - EVROPSKÝ PARLAMENT</a>
+                <a href="<?php echo $randpath; ?>/inventura-hlasovani-evropsky-parlament-2014-2015/" class="btn btn-lg btn-success" style="white-space: normal;" > SPUSTIT INVENTURU HLASOVÁNÍ - EVROPSKÝ PARLAMENT</a>
 
 
 

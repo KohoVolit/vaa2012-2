@@ -9,43 +9,43 @@
     <meta name="keywords" content="{$text['keywords']}">
     <meta name="author" content="{$text['author']}">
     <link type="image/x-icon" href="{$text['url']}/image/favicon.ico" rel="shortcut icon">
-    
+
     <meta property="og:image" content="{$text['og:image']}"/>
 	<meta property="og:title" content="{$text['calc']}"/>
 	<meta property="og:url" content="{$text['url']}"/>
 	<meta property="og:site_name" content="{$text['calc']}"/>
 	<meta property="og:type" content="website"/>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/spacelab/bootstrap.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{$settings->cdn_domain}{$settings->directory}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{$settings->cdn_domain}{$settings->directory}/css/font-awesome.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
 
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>   
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
-    {block name=additionalHead}{/block} 
-    
+    <script src="{$settings->cdn_domain}{$settings->directory}/js/jquery-3.1.0.min.js"></script>
+    <script src="{$settings->cdn_domain}{$settings->directory}/js/bootstrap.min.js"></script>
+
+    {block name=additionalHead}{/block}
+
     {*customization*}
     {if (isset($customization['css']))}
     <link href="{$customization['css']}" rel="stylesheet">
     {/if}
-    
+
         {*custom or default image: *}
-    <style> 
+    <style>
     {if (isset($customization['bg']))}
         @media (min-width: 625px) { .header { background: url('{$customization['bg']}') no-repeat fixed center center / cover rgba(0, 0, 0, 0); }}
     {else}
         @media (min-width: 625px) { .header { background: url('{$settings->cdn_domain}{$settings->directory}/{$settings->background_image}') no-repeat fixed center center / cover rgba(0, 0, 0, 0); }}
     {/if}
     </style>
-    
+
     {if (isset($customization['navbar']))}
       <style>
         .navbar-custom { background-color: {$customization['navbar']}; }
       </style>
     {/if}
     {*/customization*}
-        
+
     {block name=lastHead}{/block}
 
   </head>
@@ -60,24 +60,24 @@
       <i class="fa fa-warning"></i> {$text['opera11']}
     </div>
     <![endif]-->
-  
+
     <div id="top" class="header">
       {block name=body}{/block}
     </div> <!-- /#top -->
-    
+
     {block name=outsideBody}{/block}
-    
+
     {block name=footer}{/block}
 
     {block name=js}{/block}
-    
+
     {if $settings->clicks}
         {include "clicks.tpl"}
     {/if}
     {if $settings->fingerprint}
         {include "fingerprint.tpl"}
     {/if}
-    
+
     <!-- google analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -119,6 +119,6 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/{$text['yandex_metrica_code']}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    
+
   </body>
 </html>

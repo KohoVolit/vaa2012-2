@@ -15,6 +15,15 @@
       <!-- header -->
       {include "page-header.tpl"}
       <!-- /header -->
+      
+      {*parameters to be passed:*}
+      {$chunk=""}
+      {foreach $pparameters as $k => $p}
+        {$k}
+        {$chunk = "`$chunk`&`$k`=`$p`"}
+        {*{$chunk=$chunk."&".$k."=".$p} *}
+      {/foreach}
+
       <div class="container results">
         <h3 style="color:white">{$text['select_constituency']}</h3>
         <!-- map -->

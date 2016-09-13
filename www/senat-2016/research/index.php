@@ -13,13 +13,13 @@ include($relative_path . "common.php");
 include('data.php');
 
 //parameters to be passed:
-$parameters = ['ref','hr'];
+$parameters = ['ref','hr','key','cc'];
 $pparameters = [];
 foreach ($parameters as $p) {
     if (isset($_GET[$p]))
         $pparameters[$p] = $_GET[$p];
     else
-        $pparameters[$p] = '';   
+        $pparameters[$p] = '';
 }
 
 $smarty->assign('t',$texts);

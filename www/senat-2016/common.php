@@ -26,7 +26,7 @@ $handle = fopen($relative_path . 'texts_' . $lang . '.csv', "r");
 $t = csv2array($handle);
 
 //parameters to be passed:
-$parameters = ['ref','hr','key','cc'];
+$parameters = ['ref','hr','key'];
 $pparameters = [];
 foreach ($parameters as $p) {
     if (isset($_REQUEST[$p]))
@@ -35,8 +35,10 @@ foreach ($parameters as $p) {
         $pparameters[$p] = '';
 }
     //try again hr:
-if ($pparameters['hr'] == '')
-    base64url_encode($_SERVER['HTTP_REFERER']);
+if ($pparameters['hr'] == '') {
+    $pparameters['hr'] = base64url_encode($_SERVER['HTTP_REFERER']);
+}
+
 
 
 // customization

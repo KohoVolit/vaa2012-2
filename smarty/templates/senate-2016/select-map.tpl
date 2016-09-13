@@ -1,7 +1,7 @@
-      <img id="mapimg" src="image/senat1.png" border="0" width="618" height="543" orgWidth="618" orgHeight="543" usemap="#map3" alt="" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;display: table-cell;"/>
+<img id="mapimg" src="image/senat1.png" border="0" width="618" height="543" orgWidth="618" orgHeight="543" usemap="#map3" alt="" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;display: table-cell;"/>
 <map name="map3" id="map3">
 
-    <area class="area-cc" id="cc-1" alt="" title="" href="./?cc=1" shape="poly" coords="53,90,65,137,91,140,105,145,112,129,103,101,72,85" style="outline:none;" target="_self"     />
+    <area class="area-cc" id="cc-1" alt="" title="" href="./?cc=1{$chunk}" shape="poly" coords="53,90,65,137,91,140,105,145,112,129,103,101,72,85" style="outline:none;" target="_self"     />
     <area class="area-cc" id="cc-4" alt="" title="" href="./?cc=4" shape="poly" coords="116,63,136,89,158,87,140,50,130,62" style="outline:none;" target="_self"     />
     <area class="area-cc" id="cc-7" alt="" title="" href="./?cc=7" shape="poly" coords="86,198,145,251,151,203,128,186" style="outline:none;" target="_self"     />
     <area class="area-cc" id="cc-10" alt="" title="" href="./?cc=10" shape="poly" coords="149,307,168,284,188,284,209,247,223,268,211,289,254,321,236,345,201,355,171,335" style="outline:none;" target="_self"     />
