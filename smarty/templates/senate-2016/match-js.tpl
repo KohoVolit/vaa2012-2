@@ -17,11 +17,19 @@
   //answers and q(uestions') coefs loaded directly
   answers = {$answers_json};
 
-  
+
   lang = "{$lang}";
   texts = { 'yes':"{$text['result_yes']}", 'no':"{$text['result_no']}" , 'question':"{$text['result_question']}"};
-  
+
   theTemplate = {};
+
+  // český rozhlass:
+  $(document).on("click", ".open-dialog", function () {
+    idd = $(this).data('id');
+    $(".cro-n-link").attr("href","https://interaktivni.rozhlas.cz/data/volby-2016-vizitky/www/#" + answers[idd]['cro_n']);
+    $(".cro-n-link").attr("id", "cro-conparison-link-" + idd);
+  });
+
 </script>
 
 <script src="{$settings->cdn_domain}js/showcomparison2016.js"></script>

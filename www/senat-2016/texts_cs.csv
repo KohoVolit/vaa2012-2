@@ -59,6 +59,11 @@ table_title,Přehled odpovědí | Volební kalkulačka
 table_header,Přehled odpovědí
 table_header_small,"včetně otázek, které nebyly zařazeny do kalkulačky"
 table_info,"Tip: u odpovedí označených kroužkem (<span class='text-success'><i class='fa fa-check-circle-o'></i></span>,<span class='fa-stack'><span class='text-danger'><i class='fa fa-circle-o fa-stack-1x'> </i> <i class='fa fa-close fa-stack-1x'> </i></span></span>, <span class='text-muted'><i class='fa fa-circle-o'> </i></span>) kandidáti připsali svůj komentář, zobrazíte ho při kliknutí nebo najetí myší"
-table_comment,Komentár
+table_comment,Komentář
 table_included,"Otázky označené plnou hvězdičkou (<i class='fa fa-star'></i>) byly zařazené do kalkulačky, prázdnou (<i class='fa fa-star-o'></i>) nikoliv"
 select_constituency,"Vyberte svůj volební obvod z mapy nebo seznamu:"
+download_everything_in_json,"Stáhnout všechna data ve formátu <em>json</em>"
+download_questions,Otázky
+download_answers,Odpovědi a info o kandidátech
+download_details,Komentáře kandidátů
+comparison_cro_link,Vizitka kandidáta od Českého rozhlasu

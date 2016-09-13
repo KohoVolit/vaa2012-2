@@ -4,11 +4,11 @@
       <script src="{$settings->cdn_domain}js/handlebars.min.js"></script>
       <script src="{$settings->cdn_domain}js/jquery.stickytableheaders2015.min.js"></script>
     {/block}
-    
+
     {block name=lastHead}
       <title>{$text['table_title']}</title>
     {/block}
-    
+
     {block name=body}
        <script>
         $(function () {
@@ -25,27 +25,33 @@
                 background: none;
             }
         </style>
-        
-    
+
+
       <!-- header -->
       {include "table-header.tpl"}
       <!-- /header -->
-      
+
         <div class="well well-lg">
             <h1>{$text['table_header']} <small>{$text['table_header_small']}</small></h1>
             {$text['table_included']}<br/>
-            <i class="fa fa-info-circle"></i> {$text['table_info']} 
+            <i class="fa fa-info-circle"></i> {$text['table_info']}
         </div>
         <table id="table-table" class="table table-striped table-hover">
             <thead>
                 <tr  class="bg-primary">
                     <th>
                     {foreach $voters as $i => $voter}
+                        {if ($voter->constituency == $cc)}
                         <th>
 {*                            {$voter->{$settings->table->picture_title}}*}
                             <span data-toggle='tooltip' data-placement='left' title="{$voter->{$settings->table->picture_title}}">
-                            <img src="{$settings->cdn_domain}{$voter->{$settings->table->picture}}" img-rounded media-object pull-left" alt="{$voter->{$settings->table->picture_alt}}" title="{$voter->{$settings->table->picture_title}}" width="{$settings->table->picture_width}" height="{$settings->table->picture_height}" class="{$settings->table->picture_class}"/>
+                            <img src="{$settings->cdn_domain}{$voter->{$settings->table->picture}}" img-rounded media-object pull-left" alt="{$voter->{$settings->table->picture_alt}}" title="{$voter->{$settings->table->picture_title}}" width="{$settings->table->picture_width}" height="{$settings->table->picture_height}" class="{$settings->table->picture_class}"/><br/>
+                            {foreach $settings->table->name as $vn}
+                              {$voter->$vn}
+                              <br/>
+                            {/foreach}
                             </span>
+                        {/if}
                     {/foreach}
                 </tr>
 
@@ -60,10 +66,11 @@
                             {$question->name}<br/>
                             <small>{$question->question}</small>
                         {foreach $voters as $vid => $voter}
+                          {if ($voter->constituency == $cc)}
                             {$qid = $question->id}
                             <td>
                                 {if (isset($details->$vid->$qid))}
-                                  <span data-toggle='tooltip' data-placement='top' title="{$details->$vid->$qid}">
+                                  <span class="clickable" data-toggle='tooltip' data-placement='top' title="{$details->$vid->$qid}">
                                     <span class="fa-stack" data-toggle="popover" title="{$text['table_comment']} {$voter->{$settings->table->name}}" data-content="{$details->$vid->$qid}" data-placement="left">
 
                                         {if $voter->votes->$qid == 1}
@@ -81,7 +88,7 @@
                                             </span>
                                         {/if}
                                     </span>
-                                  </span>                              
+                                  </span>
                                 {else}
                                     <span class="fa-stack">
                                     {if $voter->votes->$qid == 1}
@@ -91,13 +98,21 @@
                                     {/if}
                                     </span>
                                 {/if}
-                        {/foreach}  
+                          {/if}
+                        {/foreach}
                 {/foreach}
-            
-            
+
+
         </table>
+
+        <div class="well well-xl">
+            {$text['download_everything_in_json']}:
+            <a href="{$settings->cdn_domain}{$settings->directory}/questions_all.json">{$text['download_questions']}</a>,
+            <a href="{$settings->cdn_domain}{$settings->directory}/answers.json">{$text['download_answers']}</a>,
+            <a href="{$settings->cdn_domain}{$settings->directory}/details.json">{$text['download_details']}</a>
+        </div>
     {/block}
-    
+
     {block name=footer}
      <!-- Footer -->
         {include "match-footer.tpl"}

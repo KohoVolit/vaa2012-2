@@ -49,11 +49,11 @@
     },
     "table": {
         "picture": "picture",
-        "picture_width": "20",
-        "picture_height": "30",
+        "picture_width": "40",
+        "picture_height": "60",
         "picture_alt": "family_name",
         "picture_title": "name",
         "picture_class": "img-rounded",
-        "name": "family_name"
+        "name": ["family_name","party_abbreviation"]
     }
 }

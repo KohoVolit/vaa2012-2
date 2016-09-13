@@ -27,6 +27,7 @@ if (isset($_GET['cc'])) {
     $cc = "1";
 }
 $results = calc_match($user,$answers,2,$cc);
+$smarty->assign('cc',$cc);
 
 //noreplies
 $nrfile = $relative_path . 'noreply.json';

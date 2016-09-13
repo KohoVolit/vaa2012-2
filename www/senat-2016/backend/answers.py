@@ -80,7 +80,8 @@ for row in csv.reader(csvio):
             'constituency': row[4].strip(),
             'friendly_name': slugify(row[1].strip() + ' ' + row[2].strip() + ' ' + row[5].strip()),
             'picture': settings['picture_prepend'] + row[0].strip() +  settings['picture_append'],
-            'gender': gender
+            'gender': gender,
+            'cro_n': row[22].strip()
         }
         voters[row[10].strip()] = voter # secret code column
     i = i + 1

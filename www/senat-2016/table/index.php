@@ -18,6 +18,13 @@ $questions = json_decode(file_get_contents($qfile));
 $dfile = $relative_path . 'details.json';
 $details = json_decode(file_get_contents($dfile));
 
+if (isset($_GET['cc'])) {
+    $cc = $_GET['cc'];
+} else {
+    $cc = "1";
+}
+$smarty->assign('cc',$cc);
+
 
 $smarty->assign('voters',$answers);
 $smarty->assignByRef('questions', $questions);

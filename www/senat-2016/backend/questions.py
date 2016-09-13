@@ -23,26 +23,27 @@ for row in csv.reader(csvio):
     if i == 0:
         nothing = 0
     else:
-        if row[4].strip() != '':
-            item = {
-                'id': row[0].strip(),
-                'name': row[1].strip(),
-                'question': row[2].strip(),
-                'description': row[3].strip(),
-                'order': float(row[4].strip())
-            }
-            questions.append(item);
-            order = float(row[4].strip())
-        else:
-            order = 1000000 + i
-        it = {
-                'id': row[0].strip(),
-                'name': row[1].strip(),
-                'question': row[2].strip(),
-                'description': row[3].strip(),
-                'order': order
-            }
-        questions_all.append(it);
+        if row[7] != '':
+            if row[4].strip() != '':
+                item = {
+                    'id': row[0].strip(),
+                    'name': row[1].strip(),
+                    'question': row[2].strip(),
+                    'description': row[3].strip(),
+                    'order': float(row[4].strip())
+                }
+                questions.append(item);
+                order = float(row[4].strip())
+            else:
+                order = 1000000 + i
+            it = {
+                    'id': row[0].strip(),
+                    'name': row[1].strip(),
+                    'question': row[2].strip(),
+                    'description': row[3].strip(),
+                    'order': order
+                }
+            questions_all.append(it);
     i = i + 1
 
 questions = sorted(questions, key=lambda x:x['order'])
