@@ -26,8 +26,8 @@ if (isset($_REQUEST['fingerprint'])) {
 }
 
 $data = [
-    session_id(),
     date("Y-m-d H:i:s"),
+    session_id(),
     json_encode($server),
     json_encode($fingerprint),
     json_encode($comps),

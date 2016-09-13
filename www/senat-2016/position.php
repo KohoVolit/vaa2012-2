@@ -3,12 +3,13 @@ session_start();
 
 $file = fopen('position.csv','a');
 
-$data = [
-    session_id(),
+$arr = [
     date("Y-m-d H:i:s"),
-    json_encode($_REQUEST),
+    session_id(),
+    json_encode($_REQUEST)
 ];
-fputcsv($file, $data);
+print_r($arr);
+fputcsv($file, $arr);
 fclose($file);
 
 ?>

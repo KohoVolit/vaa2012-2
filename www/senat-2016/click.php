@@ -1,8 +1,13 @@
 <?php
 session_start();
 
-$str = session_id() . "\t" . $_SERVER['HTTP_REFERER'] . "\t" . date("Y-m-d H:i:s") . "\t" . $_GET['action'] . "\n";
-$file = fopen('click.txt','a');
-fwrite($file,$str);
+$arr = [
+    date("Y-m-d H:i:s"),
+    session_id(),
+    $_GET['action'],
+    $_SERVER['HTTP_REFERER']
+];
+$file = fopen('click.csv','a');
+fputcsv($file,$arr);
 fclose($file);
 ?>

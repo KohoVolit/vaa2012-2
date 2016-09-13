@@ -11,30 +11,47 @@ $('document').ready(function() {
 });
 
 // Hiding the first and last arrow
-//http://stackoverflow.com/questions/9860436/twitter-bootstrap-carousel-access-current-index  
+//http://stackoverflow.com/questions/9860436/twitter-bootstrap-carousel-access-current-index
 $('document').ready(function() {
     $('#carousel').on('slide.bs.carousel',function(e){
       var slideFrom = $(this).find('.item.active').index();
       var slideTo = $(e.relatedTarget).index();
-      
+
       if (slideTo === 0) $('#carousel-control-left').hide();
       else $('#carousel-control-left').show();
-      
+
       //to the last one (weight selection)
       if (slideTo == ($('.item').length - 1)) {
         $('#carousel-control-right').hide();
         $('#carousel-control-last').show();
         $('.carousel-indicators').hide();
-        
+
         hideAndZebra();
       }
       else {
-        $('#carousel-control-right').show();
-        $('#carousel-control-last').hide();
-        $('.carousel-indicators').show();
+          // to the last one (results)
+          if (slideTo == ($('.item').length - 1)) {
+            $('#carousel-control-right').hide();
+            $('#carousel-control-last').hide();
+            $('.carousel-indicators').hide();
+
+        } else {
+            $('#carousel-control-right').show();
+            $('#carousel-control-last').hide();
+            $('.carousel-indicators').show();
+        }
       }
-      
+
       window.location.hash = '#p' + slideTo;
+    });
+});
+
+// on hashchange move carousel to correct slide
+$(function(){
+    $(window).bind('hashchange',function() {
+        var hash = window.location.hash;
+        slideTo = parseInt(hash.substr(2));
+        $('.carousel').carousel(slideTo);
     });
 });
 
@@ -55,9 +72,9 @@ function hideAndZebra() {
           hideob[name] = true;
        } else {
          shownob[name] = true;
-       }  
+       }
     });
-    
+
     $.each(hideob, function (index, value) {
       id = index.substr(1); //we expect something like "q13"
       $("#weightsel-row-" + id).hide();
@@ -78,7 +95,7 @@ function hideAndZebra() {
     //does not work, because it is not visible yet:
     //rowh = $(".weightsel-td:visible").outerHeight();
     //so hardcoding ... )-:
-    rowh = 46;
+    rowh = 35;
     rown = showni;
     seth = Math.max(toph,500 + rowh * rown);
     $("#item-last").height(seth);

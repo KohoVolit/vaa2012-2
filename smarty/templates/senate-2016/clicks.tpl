@@ -1,6 +1,6 @@
 <!-- clicked -->
 <script>
-    $("a, button, label, li").click(function() {
+    $("a, button, label, li, span, td").click(function() {
         save_action($(this).attr('id'));
     });
     function save_action(action) {

@@ -1,0 +1,4 @@
+"2016-09-13 04:36:58",3n31ukmqq7imv6m4eshfp08at0,[]
+"2016-09-13 04:37:33",3n31ukmqq7imv6m4eshfp08at0,"{""error"":{""PERMISSION_DENIED"":""1"",""POSITION_UNAVAILABLE"":""2"",""TIMEOUT"":""3"",""code"":""2"",""message"":""Network location provider at 'https:\/\/www.googleapis.com\/' : Returned error code 403.""}}"
+"2016-09-13 04:38:36",3n31ukmqq7imv6m4eshfp08at0,"{""error"":{""PERMISSION_DENIED"":""1"",""POSITION_UNAVAILABLE"":""2"",""TIMEOUT"":""3"",""code"":""2"",""message"":""Network location provider at 'https:\/\/www.googleapis.com\/' : Returned error code 403.""}}"
+"2016-09-13 04:38:58",ako8etjfrr63csf3uspf1od3t0,"{""error"":{""code"":""2"",""message"":""Unknown error acquiring position"",""PERMISSION_DENIED"":""1"",""POSITION_UNAVAILABLE"":""2"",""TIMEOUT"":""3""}}"

@@ -68,9 +68,14 @@ $smarty->display('match.tpl');
 
 //save results
 
-$str = session_id() . "\t" . $settings->election_code . "\t" . date("Y-m-d H:i:s") . "\t" . json_encode($_GET) .  "\t" . $_SERVER['REMOTE_ADDR'] . "\n";
-$file = fopen("../" . $relative_path . 'result.txt','a');
-fwrite($file,$str);
+$arr = [
+    date("Y-m-d H:i:s"),
+    session_id(),
+    json_encode($_GET),
+    $_SERVER['REMOTE_ADDR']
+];
+$file = fopen($relative_path . 'result.csv','a');
+fputcsv($file,$arr);
 fclose($file);
 
 

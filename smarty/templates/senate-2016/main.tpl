@@ -8,16 +8,16 @@
     <meta name="description" content="{$text['description']}">
     <meta name="keywords" content="{$text['keywords']}">
     <meta name="author" content="{$text['author']}">
-    <link type="image/x-icon" href="{$text['url']}/image/favicon.ico" rel="shortcut icon">
+    <link type="image/x-icon" href="{$settings->cdn_domain}image/favicon.ico" rel="shortcut icon">
 
-    <meta property="og:image" content="{$text['og:image']}"/>
+    <meta property="og:image" content="{$settings->cdn_domain}{$text['og:image']}"/>
 	<meta property="og:title" content="{$text['calc']}"/>
 	<meta property="og:url" content="{$text['url']}"/>
 	<meta property="og:site_name" content="{$text['calc']}"/>
 	<meta property="og:type" content="website"/>
 
     <link href="{$settings->cdn_domain}{$settings->directory}/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{$settings->cdn_domain}{$settings->directory}/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
 
     <script src="{$settings->cdn_domain}{$settings->directory}/js/jquery-3.1.0.min.js"></script>

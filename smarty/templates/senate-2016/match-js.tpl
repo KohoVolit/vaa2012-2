@@ -27,7 +27,7 @@
   $(document).on("click", ".open-dialog", function () {
     idd = $(this).data('id');
     $(".cro-n-link").attr("href","https://interaktivni.rozhlas.cz/data/volby-2016-vizitky/www/#" + answers[idd]['cro_n']);
-    $(".cro-n-link").attr("id", "cro-conparison-link-" + idd);
+    $(".cro-n-link").attr("id", "cro-comparison-link-" + idd);
   });
 
 </script>
