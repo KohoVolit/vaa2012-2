@@ -13,7 +13,7 @@ include($relative_path . "common.php");
 include('data.php');
 
 //parameters to be passed:
-$parameters = ['ref','hr','key','cc'];
+$parameters = ['ref','hr','key'];
 $pparameters = [];
 foreach ($parameters as $p) {
     if (isset($_GET[$p]))
