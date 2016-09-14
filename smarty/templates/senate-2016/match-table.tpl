@@ -18,7 +18,7 @@
                    {/foreach}
                    </h4>
                    {if count($settings->match->table->second_row) > 0}
-                    <p class="list-group-item-text hidden-xs">
+                    <p class="list-group-item-text">
                        {foreach $settings->match->table->second_row as $s}
                           {$results[$i].{$s}}
                        {/foreach}
