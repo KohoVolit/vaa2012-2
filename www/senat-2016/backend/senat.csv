@@ -1,236 +1,234 @@
-id,jmeno,prijmeni,strana,obvod,,,,obvod,prijmeni,jmeno,foto
-1,Jan,Horník,STAN/TOP 09/KDU-ČSL/KOA,1,,,TRUE,1,Horník,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-1-stan-jan-hornik.jpg
-2,Věra,Bartůňková,Komunistická strana Čech a Moravy,1,,,TRUE,1,Bartůňková,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-1-kscm-vera-bartunkova.jpg
-3,Pavel,Čekan,Česká strana sociálně demokratická,1,,,TRUE,1,Čekan,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-1-cssd-pavel-cekan.jpg
-4,Jiří,Brdlík,Občanská demokratická strana,1,,,TRUE,1,Brdlík,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-1-ods-jiri-brdlik.jpg
-5,Jiří,Kotek,ALTERNATIVA,1,,,TRUE,1,Kotek,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-1-alternativa-jiri-kotek.jpg
-6,Věra,Ježková,Strana zelených,1,,,TRUE,1,Ježková,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-1-zeleni-vera-jezkova.jpg
-7,Josef,Váňa,ANO 2011,1,,,TRUE,1,Váňa,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-1-ano-josef-vana.jpg
-8,Eduard,Frisch,Sdružení nezávislých kandidátů,1,,,TRUE,1,Frisch,Eduard,https://samizdat.blob.core.windows.net/vizitky16/senat-1-snk-eduard-frisch.jpg
-9,Jana,Bačíková,Občanská demokratická strana,79,,,TRUE,79,Bačíková,Jana,https://samizdat.blob.core.windows.net/vizitky16/senat-79-ods-jana-bacikova.jpg
-10,Anna,Hubáčková,Křesťanská a demokratická unie – Československá strana lidová,79,,,TRUE,79,Hubáčková,Anna,https://samizdat.blob.core.windows.net/vizitky16/senat-79-kdu-csl-anna-hubackova.jpg
-11,Jan ,Lahvička,Komunistická strana Čech a Moravy,79,,,TRUE,79,Lahvička,Ján,https://samizdat.blob.core.windows.net/vizitky16/senat-79-kscm-jan-lahvicka.jpg
-12,Zdeněk,Škromach,Česká strana sociálně demokratická,79,,,TRUE,79,Škromach,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-79-cssd-zdenek-skromach.jpg
-13,Josef,Zimovčák,ANO 2011,79,,,TRUE,79,Zimovčák,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-79-ano2011-josef-zimovcak.jpg
-14,Vítězslav,Krabička,Moravané,79,,,TRUE,79,Krabička,Vítězslav,https://samizdat.blob.core.windows.net/vizitky16/senat-79-moravane-vitezslav-krabicka.jpg
-15,Květoslav,Přibil,Republikáni Miroslava Sládka,79,,,TRUE,79,Přibil,Květoslav,https://samizdat.blob.core.windows.net/vizitky16/senat-79-spr-kvetoslav-pribil.jpg
-16,Eva,Badinková,Komunistická strana Čech a Moravy,76,,,TRUE,76,Badinková,Eva,https://samizdat.blob.core.windows.net/vizitky16/senat-76-kscm-eva-badinkova.jpg
-17,Jan,Hašek,ANO 2011,76,,,TRUE,76,Hašek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-76-ano-jan-hasek.jpg
-18,Daniela,Hebnarová,Občanská demokratická strana,76,,,TRUE,76,Hebnarová,Daniela,https://samizdat.blob.core.windows.net/vizitky16/senat-76-ods-daniela-hebnarova.jpg
-19,Jaroslav,Chmelař,Česká strana sociálně demokratická,76,,,TRUE,76,Chmelař,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-76-cssd-jaroslav-chmelar.jpg
-20,Šárka,Jelínková,Křesťanská a demokratická unie – Československá strana lidová,76,,,TRUE,76,Jelínková,Šárka,https://samizdat.blob.core.windows.net/vizitky16/senat-76-kdu-csl-sarka-jelinkova.jpg
-21,Josef,Novák,Strana práv občanů,76,,,TRUE,76,Novák,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-76-spo-josef-novak.jpg
-22,Petr,Šico,Koruna Česká,76,,,TRUE,76,Šico,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-76-koruna-ceska-petr-sico.jpg
-23,Vojtěch,Škrabal,Starostové a nezávislí,76,,,TRUE,76,Škrabal,Vojtěch,https://samizdat.blob.core.windows.net/vizitky16/senat-76-stan-vojtech-skrabal.jpg
-24,Zdeněk ,Zlámal,Nezávislí,76,,,TRUE,76,Zlámal,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-76-nezavisli-zdenek-zlamal.jpg
-25,Jiří ,Cieńciala,Občané spolu-Nezávislí,73,,,TRUE,73,Cieńciala,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-jiri-ciencala.jpg
-26,Lukáš,Černohorský,Česká pirátské strana,73,,,,,,,
-27,Petr ,Gawlas,Česká strana sociálně demokratická,73,,,TRUE,73,Gawlas,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-cssd-petr-gawlas.jpg
-28,Pavla,Golasowská,Křesťanská a demokratická unie – Československá strana lidová,73,,,TRUE,73,Golasowská,Pavla,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-kdu-csl-pavla-golasowska.jpg
-29,Gustav,Pilch,Komunistická strana Čech a Moravy,73,,,TRUE,73,Pilch,Gustav,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-kscm-gustav-pilch.jpg
-30,Jan,Osoba,Úsvit-národní koalice,73,,,TRUE,73,Osoba,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-usvit-nk-jan-osoba.jpg
-31,Ivo,Raška,ANO 2011,73,,,TRUE,73,Raška,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-ivo-raska.jpg
-32,Radim ,Babines,ANO 2011,70,,,FALSE,70,Babinec,Radim,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-ano-radim-babinec.jpg
-33,Jan,Becher,Česká pirátské strana,70,,,TRUE,70,Becher,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-pirati-jan-becher.jpg
-34,Petr,Borna,Dělnická strana sociální spravedlnosti..,70,,,TRUE,70,Borna,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-dsss-petr-borna.jpg
-35,Liana,Janáčková,Nezávislí,70,,,TRUE,70,Janáčková,Liana,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ovanezavisli-liana-janackova.jpg
-36,Tomáš,Málek,Ostravak,70,,,TRUE,70,Málek,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-ostravak-tomas-malek.jpg
-37,Zdeněk,Nytra,Nezávislí s podporou Top09,70,,,TRUE,70,Nytra,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-zdenek-nytra.jpg
-38,Josef,Pravda,Česká strana sociálně demokratická,70,,,TRUE,70,Pravda,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-cssd-josef-pravda.jpg
-39,Ilja,Racek,Křesťanská a demokratická unie – Československá strana lidová+ Strana zelených,70,,,TRUE,70,Racek,Ilja,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-kdu-a-sz-ilja-racek.jpg
-40,Ivan,Strachoň,Komunistická strana Čech a Moravy,70,,,TRUE,70,Strachoň,Ivan,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-kscm-ivan-strachon.jpg
-41,Alena,Vitásková,Úsvit-národní koalice,70,,,TRUE,70,Vitásková,Alena,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-usvit-nk-alena-vitaskova.jpg
-42,Jiří ,Demel,Česká pirátské strana,67,,,TRUE,67,Demel,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-pirati-jiri-demel.jpg
-43,Pavel,Pisch,Komunistická strana Čech a Moravy,67,,,TRUE,67,Pisch,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-kscm-pavel-pisch.jpg
-44,Jiří,Strýček,ANO 2011,67,,,TRUE,67,Strýček,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-ano-jiri-strycek.jpg
-45,Petr,Orel,Křesťanská a demokratická unie – Československá strana lidová + Strana zelených + Naše Beskydy,67,,,TRUE,67,Orel,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-zeleni-a-kdu-petr-orel.jpg
-46,Pavel,Jurečka,Úsvit-národní koalice,67,,,TRUE,67,Jurečka,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-usvit-nk-pavel-jurecka.jpg
-47,Jaroslav,Dvořák,Česká strana sociálně demokratická,67,,,TRUE,67,Dvořák,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-cssd-jaroslav-dvorak.jpg
-48,Jaroslav,Chalupa,Dělnická strana sociální spravedlnosti..,64,,,TRUE,64,Chalupa,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-dsss-jaroslav-chalupa.jpg
-49,Vítězslav,Maláč,Křesťanská a demokratická unie – Československá strana lidová,64,,,TRUE,64,Maláč,Vítězslav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-kdu-csl-vitezslav-malac.jpg
-50,Bronislav,Sedláček,Starostové a nezávislí,64,,,TRUE,64,Sedláček,Bronislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-stan-bronislav-sedlacek.jpg
-51,Ladislav,Sekanina,Komunistická strana Čech a Moravy,64,,,TRUE,64,Sekanina,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-kscm-ladislav-sekanina.jpg
-52,Rudolf,Skandera,Úsvit-národní koalice,64,,,TRUE,64,Skandera,Rudolf,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-usvit-nk-rudolf-skandera.jpg
-53,Salome,Sýkorová,Evropští demokraté + Strana zelených,64,,,TRUE,64,Sýkorová,Salome,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-snk-ed-salome-sykorova.jpg
-54,Radoslav,Štedroň,Strana státu přímé demokracie + Strana práce,64,,,FALSE,64,Štědroň,Radoslav,https://samizdat.blob.core.windows.net/vizitky16/muz.png
-55,Ladislav,Václavec,ANO 2011,64,,,TRUE,64,Václavec,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-ano-ladislav-vaclavec.jpg
-56,Ladislav,Velebný,Česká strana sociálně demokratická,64,,,TRUE,64,Velebný,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-cssd-ladislav-velebny.jpg
-57,Jiří ,Žák,Občanská demokratická strana+ Strana Soukromníků ČR,64,,,TRUE,64,Žák,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-ods-jiri-zak.jpg
-58,Miroslav,Sládek,Republikáni Miroslava Sládka,64,,,TRUE,64,Sládek,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-republikani-miroslav-sladek.jpg
-59,Ivo,Barteček,Strana soukromníků ČR,61,,,TRUE,61,Barteček,Ivo,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-strana-soukromniku-cr-ivo-bartecek.jpg
-60,Milan,Brázdil,ANO 2011,61,,,TRUE,61,Brázdil,Milan,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-ano2011-milan-brazdil.jpg
-61,Eva,Hrindová,Alternativa pro ČR 2017,61,,,TRUE,61,Hrindová,Eva,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-alternativa-pro-cr-eva-hrindova.jpg
-62,Lumír,Kantor,Křesťanská a demokratická unie – Československá strana lidová,61,,,TRUE,61,Kantor,Lumír,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-kdu-csl-lumir-kantor.jpg
-63,Jaroslav,Morávek,Občanská demokratická strana,61,,,TRUE,61,Morávek,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-ods-jaroslav-moravek.jpg
-64,Zdeňka,Szukalská,Komunistická strana Čech a Moravy,61,,,TRUE,61,Szukalská,Zdenka,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-kscm-zdenka-szuklska.jpg
-65,Martin,Tesařík,Česká strana sociálně demokratická,61,,,TRUE,61,Tesařík,Martin,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-cssd-martin-tesarik.jpg
-66,Václav,Šimek,Národní demokracie,61,,,TRUE,61,Šimek,Václav,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-narodni-demokracie-vaclav-simek.jpg
-67,Pavel,Andrš,Koruna Ceská,61,,,TRUE,61,Andrš,Pavel,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-koruna-ceska-pavel-andrs.jpg
-68,Barbora,Antonová,Žít Brno+TOP09,58,,,TRUE,58,Antonová,Barbora,https://samizdat.blob.core.windows.net/vizitky16/senat-58-top09-zitbrno-sz-barbora-antonova.jpg
-69,Jiří,Čejka,Česká strana sociálně demokratická,58,,,TRUE,58,Čejka,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-58-cssd-jiri-cejka.jpg
-70,Jiří,Dušek,ANO 2011,58,,,TRUE,58,Dušek,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-58-ano-jiri-dusek.jpg
-71,Stanislav,Juránek,Křesťanská a demokratická unie – Československá strana lidová,58,,,TRUE,58,Juránek,Stanislav,https://samizdat.blob.core.windows.net/vizitky16/senat-58-kdu-csl-stanislav-juranek.jpg
-72,Jiří,Pernes,Občaská demokratická strana,58,,,TRUE,58,Pernes,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-58-moravane-ods-jiri-pernes.jpg
-73,Oldřich,Duchoň,Komunistická strana čech a moravy,58,,,TRUE,58,Duchoň,Oldřich,https://samizdat.blob.core.windows.net/vizitky16/senat-58-kscm-oldrich-duchon.jpg
-74,Luďek,Moudrý,Úsvit-národní koalice,58,,,TRUE,58,Moudrý,Luděk,https://samizdat.blob.core.windows.net/vizitky16/senat-58-usvit-ludek-moudry.jpg
-75,Lucie,Zajícová,Národní demokracie,58,,,TRUE,58,Zajícová,Lucie,https://samizdat.blob.core.windows.net/vizitky16/senat-58-nd-lucie-zajicova.jpg
-76,Lubomír,Žalud,Koruna Česká,58,,,TRUE,58,Žalud,Lubomír,https://samizdat.blob.core.windows.net/vizitky16/senat-58-koruna-ceska-lubomir-zalud.jpg
-77,Radoslav,Skála,Komunistická strana čech a moravy,55,,,TRUE,55,Skála,Radoslav,https://samizdat.blob.core.windows.net/vizitky16/senat-55-kscm-radoslav-skala.jpg
-78,Pavel,Staněk,ANO 2011,55,,,TRUE,55,Staněk,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-55-ano-pavel-stanek.jpg
-79,Jiří,Ventruba,Občanská demokratická strana,55,,,TRUE,55,Ventruba,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-55-ods-jiri-ventruba.jpg
-80,Jan,Žaloudík,Česká strana sociálně demokratická,55,,,TRUE,55,Žaloudík,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-55-cssd-jan-zaloudik.jpg
-81,Bohuslav,Klíma,Moravané,55,,,TRUE,55,Klíma,Bohuslav,https://samizdat.blob.core.windows.net/vizitky16/senat-55-moravane-bohuslav-klima.jpg
-82,Jiří,Brančík,Svoboda a síla,55,,,TRUE,55,Brančík,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-55-svoboda-a-sila-jiri-brancik.jpg
-83,Ivo,Minařík,Úsvit-národní koalice,55,,,TRUE,55,Minařík,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-55-usvit-ivo-minarik.jpg
-85,Helena,Vrzalová,Komunistická strana čech a moravy,52,,,TRUE,52,Vrzalová,Helena,https://samizdat.blob.core.windows.net/vizitky16/senat-52-kscm-helena-vrzalova.jpg
-86,Miloš,Vystrčil,Občanská demokratická strana,52,,,TRUE,52,Vystrčil,Miloš,https://samizdat.blob.core.windows.net/vizitky16/senat-52-ods-milos-vystrcil.jpg
-87,Michal,Stehlík,Křesťanská a demokratická unie – Československá strana lidová,52,,,TRUE,52,Stehlík,Michal,https://samizdat.blob.core.windows.net/vizitky16/senat-52-kdu-csl-michal-stehlik.jpg
-88,Petr,Paul,Svoboda a přímá demokracie Tomio Okamury,52,,,TRUE,52,Paul,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-52-svoboda-a-prima-demokracie-petr-paul.jpg
-89,Jiří,Nápravník,"Koruna Česká - monarchistická strana Čech, Moravy a Slezska",52,,,TRUE,52,Nápravník,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-52-koruna-ceska-jiri-napravnik.jpg
-90,Zdeněk,Kučírek,Moravené,52,,,TRUE,52,Kučírek,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-52-moravane-zdenek-kucirek.jpg
-91,Milan,Kolář,Strana zelených +TOP09,52,,,TRUE,52,Kolář,Milan,https://samizdat.blob.core.windows.net/vizitky16/senat-52-koalice-sz-a-top09-milan-kolar.jpg
-92,Rudolf,Chloupek,Česká strana sociálně demokratická,52,,,TRUE,52,Chloupek,Rudolf,https://samizdat.blob.core.windows.net/vizitky16/senat-52-cssd-rudolf-chloupek.jpg
-93,Zdeněk,Faltus,ANO 2011,52,,,TRUE,52,Faltus,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-52-ano2011-zdenek-faltus.jpg
-94,Josef,Regec,Strana soukromníků ČR,49,,,TRUE,49,Regec,Jozef,https://samizdat.blob.core.windows.net/vizitky16/senat-49-sscr-jozef-regec.jpg
-95,Marie,Koudelová,Komunistická strana čech a moravy,49,,,TRUE,49,Koudelová,Mária,https://samizdat.blob.core.windows.net/vizitky16/senat-49-kscm-maria-koudelova.jpg
-96,Jan,Macháč,Občanská demokratická strana,49,,,FALSE,49,Machač,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-49-ods-jan-machac.jpg
-97,Jiří,Míšenský,ANO 2011,49,,,TRUE,49,Míšenský,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-49-ano2011-jiri-misensky.jpg
-98,Ivo,Polák,Česká strana sociálně demokratická,49,,,TRUE,49,Polák,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-49-cssd-ivo-polak.jpg
-99,Drago,Sukalovský,Starostové a nezávislí+ TOP09,49,,,TRUE,49,Sukalovský,Drago,https://samizdat.blob.core.windows.net/vizitky16/senat-49-stan-a-top09-drago-sukalovsky.jpg
-100,Jiří,Šoltys,Národ sobě,49,,,TRUE,49,Šoltys,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-49-narod-sobe-jiri-soltys.jpg
-101,Robert,Štěpánek,Úsvit-národní koalice,49,,,TRUE,49,Štěpánek,Robert,https://samizdat.blob.core.windows.net/vizitky16/senat-49-usvit-robert-stepanek.jpg
-102,Jaromíra,Vítková,Křesťanská a demokratická unie – Československá strana lidová,49,,,TRUE,49,Vítková,Jaromíra,https://samizdat.blob.core.windows.net/vizitky16/senat-49-kdu-csl-jaromira-vitkova.jpg
-103,Petr,Šilar,Křesťanská a demokratická unie – Československá strana lidová,46,,,TRUE,46,Šilar,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-46-kdu-csl-petr-silar.jpg
-104,Soňa,Hlavová,Strana práv občanů,46,,,TRUE,46,Hlavová,Soňa,https://samizdat.blob.core.windows.net/vizitky16/senat-46-strana-prav-obcanu-sona-hlavova.jpg
-105,Jan,Lipavský,ANO 2011,46,,,TRUE,46,Lipavský,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-46-ano2011-jan-lipavsky.jpg
-106,Martin,Strnad,Úsvit-národní koalice,46,,,TRUE,46,Strnad,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-46-usvit-narodni-koalice-martin-strnad.jpg
-107,Antonín,Vyšohlíd,Komunistická strana čech a moravy,46,,,TRUE,46,Vyšohlíd,Antonín,https://samizdat.blob.core.windows.net/vizitky16/senat-46-kscm-antonin-vysohlid.jpg
-108,Jaroslav,Zedník,TOP09,46,,,TRUE,46,Zedník,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-46-top09-jaroslav-zednik.jpg
-109,Dalibor,Zelený,Česká strana sociálně demokratická,46,,,TRUE,46,Zelený,Dalibor,https://samizdat.blob.core.windows.net/vizitky16/senat-46-cssd-dalibor-zeleny.jpg
-110,Jiří ,Čáslavka,TOP09+STAN+LES+Parbubičtí Patrioti,43,,,TRUE,43,Čáslavka,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-43-top09-a-starostove-a-nezavisli-s-podporou-pardubaku-patriotu-pardubic-a-liberalne-ekologicke-strany-jiri-caslavka.jpg
-111,Karel,Daňhel,Úsvit-národní koalice,43,,,TRUE,43,Daňhel,Karel,https://samizdat.blob.core.windows.net/vizitky16/senat-43-usvit-narodni-koalice-karel-danhel.jpg
-112,Miluše ,Horská,Křesťanská a demokratická unie – Československá strana lidová+ Nestraníci,43,,,TRUE,43,Horská,Miluše,https://samizdat.blob.core.windows.net/vizitky16/senat-43-koalice-nestranici-a-kdu-csl-miluse-horska.jpg
-113,Jaroslav,Menšík,ANO 2011,43,,,TRUE,43,Menšík,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-43-ano2011-jaroslav-mensik.jpg
-114,Vladimír,Ninger,Česká strana sociálně demokratická,43,,,TRUE,43,Ninger,Vladimír,https://samizdat.blob.core.windows.net/vizitky16/senat-43-cssd-vladimir-ninger.jpg
-115,David,Novák,Občanská demokratická strana,43,,,TRUE,43,Novák,David,https://samizdat.blob.core.windows.net/vizitky16/senat-43-ods-david-novak.jpg
-116,Petr,Novotný,Strana soukromníků ČR,43,,,TRUE,43,Novotný,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-43-strana-soukromniku-ceske-republiky-petr-novotny.jpg
-117,Pavel,Studnička,Komunistická strana čech a moravy,43,,,TRUE,43,Studnička,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-43-kscm-pavel-studnicka.jpg
-118,Petr,Štěpánek,Alternativa pro ČR 2017,43,,,TRUE,43,Štěpánek,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-43-alternativa-pro-ceskou-republiku-2017-petr-stepanek.jpg
-119,Emanuel,Žďárský,Nezávislý kandidát,43,,,TRUE,43,Žďárský,Emanuel,https://samizdat.blob.core.windows.net/vizitky16/senat-43-nezavisli-kandidati-do-senatu-emanuel-zdarsky.jpg
-120,Lenka,Bochníčková,Komunistická strana čech a moravy,40,,,TRUE,40,Bochníčková,Lenka,https://samizdat.blob.core.windows.net/vizitky16/senat-40-kscm-lenka-bochnickova.jpg
-121,Jaromír,Strnad,Česká strana sociálně demokratická,40,,,TRUE,40,Strnad,Jaromír,https://samizdat.blob.core.windows.net/vizitky16/senat-40-cssd-jaromir-strnad.jpg
-122,Ivo,Šanc,Starostové a nezávislí + KDU-ČSL,40,,,TRUE,40,Šanc,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-40-stan-s-podporou-kdu-csl-ivo-sanc.jpg
-123,Julius,Špičák,ANO 2011,40,,,TRUE,40,Špičák,Julius,https://samizdat.blob.core.windows.net/vizitky16/senat-40-ano-julius-spicak.jpg
-124,Milan,Vodička,Strana svobodných občanů+ Strana soukromníků CŘ,40,,,TRUE,40,Vodička,Milan,https://samizdat.blob.core.windows.net/vizitky16/senat-40-svobodni-s-podporou-ods-a-strany-soukromniku-cr-milan-vodicka.jpg
-125,Radim ,Špaček,Koruna Česká,40,,,TRUE,40,Špaček,Radim,https://samizdat.blob.core.windows.net/vizitky16/muz.png
-126,Věra,Beranová,Komunistická strana čech a moravy,37,,,TRUE,37,Beranová,Věra,https://samizdat.blob.core.windows.net/vizitky16/zena.png
-127,Josef,Táborský,Česká strana sociálně demokratická,37,,,TRUE,37,Táborský,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-37-cssd-josef-taborsky.jpg
-128,Tomáš,Czernin,TOP09,37,,,TRUE,37,Czernin,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-37-top09-tomas-czernin.jpg
-129,Ivan,Doležal,Občanská demokratická strana,37,,,TRUE,37,Doležal,Ivan,https://samizdat.blob.core.windows.net/vizitky16/senat-37-ods-ivan-dolezal.jpg
-130,Vladimír,Dryml,Úsvit-národní koalice,37,,,TRUE,37,Dryml,Vladimír,https://samizdat.blob.core.windows.net/vizitky16/senat-37-usvit-nk-vladimir-dryml.jpg
-131,Jan,Malý,ANO 2011,37,,,TRUE,37,Malý,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-37-ano2011-jan-maly.jpg
-132,Jiří,Fiala,Strana zdravého rozumu,37,,,TRUE,37,Fiala,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-37-strana-zdr-rozumu-jiri-fiala.jpg
-133,Martina,Bufková Rychecká,Občanská demokratická strana,34,,,TRUE,34,Bufková Rychecká,Martina,https://samizdat.blob.core.windows.net/vizitky16/senat-34-ods-martina-bufkova-rychecka.jpg
-134,Michael,Canov,Starostové pro Liberecký kraj+ Starostové a nezávislí,34,,,TRUE,34,Canov,Michael,https://samizdat.blob.core.windows.net/vizitky16/senat-34-slk-stan-michael-canov.jpg
-135,Petr,Černý,Nový směr,34,,,TRUE,34,Černý,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-34-novy-smer-petr-cerny.jpg
-136,Jaroslav ,Havelka,Komunistická strana čech a moravy,34,,,TRUE,34,Havelka,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-34-kscm-jaroslav-havelka.jpg
-137,Peter,Hromádka,TOP 09,34,,,TRUE,34,Hromádka,Peter,https://samizdat.blob.core.windows.net/vizitky16/senat-34-top09-peter-hromadka.jpg
-138,Jan,Korytář,Změna,34,,,TRUE,34,Korytář,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-34-politicke-hnuti-zmena-jan-korytar.jpg
-139,Pavel,Ploc,Česká strana sociálně demokratická,34,,,TRUE,34,Ploc,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-34-cssd-pavel-ploc.jpg
-140,Lidie,Vajnerová,Nová Budoucnost pro Liberecký kraj,34,,,TRUE,34,Vajnerová,Lidie,https://samizdat.blob.core.windows.net/vizitky16/senat-34-nova-budoucnost-pro-lb-kraj-lidie-vajnerova.jpg
-141,Marek,Vávra,ANO 2011,34,,,TRUE,34,Vávra,Marek,https://samizdat.blob.core.windows.net/vizitky16/senat-34-ano2011-marek-vavra.jpg
-142,Jaroslav,Doubrava,Severočeši.cz,31,,,TRUE,31,Doubrava,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-31-severocesi-cz-jaroslav-doubrava.jpg
-143,Martin,Hauseblas,Strana zelených + Česká pirátská strana,31,,,FALSE,31,Hausenblas,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-31-usti-nad-labem-martin-hausenblas.jpg
-144,František,Holešovský,ANO 2011,31,,,TRUE,31,Holešovský,František,https://samizdat.blob.core.windows.net/vizitky16/senat-31-ano2011-frantisek-holesovsky.jpg
-145,Stanislav,Körner,Komunistická strana čech a moravy,31,,,TRUE,31,Körner,Stanislav,https://samizdat.blob.core.windows.net/vizitky16/senat-31-kscm-stanislav-korner.jpg
-146,Pert,Kůstka,Nezávislý kandidát,31,,,TRUE,31,Kůstka,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-31-nz-petr-kustka.jpg
-147,Jiří,Maďar,Ústecké forum občanů,31,,,FALSE,31,Madar,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-31-ufo-jiri-madar.jpg
-148,Vítězslav,Štefl,Česká strana sociálně demokratická,31,,,TRUE,31,Štefl,Vítězslav,https://samizdat.blob.core.windows.net/vizitky16/senat-31-cssd-vitezslav-stefl.jpg
-149,Ilona,Tajchnerová,TOP 09,31,,,TRUE,31,Tajchnerová,Ilona,https://samizdat.blob.core.windows.net/vizitky16/senat-31-top09-ilona-tajchnerova.jpg
-150,Jan,Tvrdík,Občanská demokratická strana,31,,,TRUE,31,Tvrdík,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-31-ods-jan-tvrdik.jpg
-151,Tomáš,Vandas,Dělnická strana sociální spravedlnosti..,31,,,TRUE,31,Vandas,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-31-dsss-tomas-vandas.jpg
-152,Veronika,Vrecionová,Občanská demokratická strana,28,,,TRUE,28,Vrecionová,Veronika,https://samizdat.blob.core.windows.net/vizitky16/senat-28-ods-veronika-vrecionova.jpg
-153,Petr,Holeček,TOP09 + Starostové a nezávislý,28,,,TRUE,28,Holeček,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-28-top09-petr-holecek.jpg
-154,Stanislav,Huml,Česká strana sociálně demokratická,28,,,TRUE,28,Huml,Stanislav,https://samizdat.blob.core.windows.net/vizitky16/senát-28-cssd-stanislav-huml.jpg
-155,Igor,Karen,ANO 2011,28,,,TRUE,28,Karen,Igor,https://samizdat.blob.core.windows.net/vizitky16/senat-28-ano-igor-karen.jpg
-156,Martin,Mach,Strana Zelených + KDU-ČSL,28,,,TRUE,28,Mach,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-28-zeleni-a-kdu-csl-martin-mach.jpg
-157,Zdeněk,Štefek,Komunistická strana čech a moravy,28,,,TRUE,28,Štefek,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-28-kscm-zdenek-stefek.jpg
-158,Jiří,Kobza,Svoboda a přímá demokracie Tomio Okamury,28,,,TRUE,28,Kobza,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senát-28-svoboda-a-prima-demokracie-tomio-okamura-jiri-kobza.jpg
-159,Svatopluk,Černý,Ďělnická strana proti imigraci,28,,,TRUE,28,Černý,Svatopluk,https://samizdat.blob.core.windows.net/vizitky16/senát-28-dsss-svatopluk-cerny.jpg
-160,Pavel,Matějka,Republikáni Miroslava Sládka,28,,,TRUE,28,Matějka,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-28-spr-rsc-pavel-matejka.jpg
-161,Petr,Zavadil,Strana svobodných občanů,28,,,TRUE,28,Zavadil,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-28-strana-svobodnych-obcanu-petr-zavadil.jpg
-162,František,Stárek,Občanská demokratická strana,25,,,TRUE,25,Stárek,František,https://samizdat.blob.core.windows.net/vizitky16/senat-25-ods-frantisek-starek.jpg
-163,Jiří,Růžička,TOP09+STAN+KDU-ČSL,25,,,TRUE,25,Růžička,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-25-top09-jiri-ruzicka.jpg
-164,Vlastimil,Harapes,ANO 2011,25,,,TRUE,25,Harapes,Vlastimil,https://samizdat.blob.core.windows.net/vizitky16/senat-25-ano2011-vlastimil-harapes.jpg
-165,Pavel,Franěk,Komunistická strana čech a moravy,25,,,TRUE,25,Franěk,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-25-kscm-pavel-franek.jpg
-166,Bedřich,Danda,Strana soukromníků ČR,25,,,TRUE,25,Danda,Bedřich,https://samizdat.blob.core.windows.net/vizitky16/senat-25-strana-soukromniku-cr-bedrich-danda.jpg
-167,Václav,Bělohradský,Česká strana sociálně demokratická+ Strana zelených,25,,,TRUE,25,Bělohradský,Václav,https://samizdat.blob.core.windows.net/vizitky16/senat-25-cssd-a-sz-vaclav-belohradsky.jpg
-168,Jaroslav,Dvořák,Strana práv občanů,25,,,TRUE,25,Dvořák,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-25-strana-prav-obcanu-jaroslav-dvorak.jpg
-169,Martin,Šálek,Politické hnutí Řád národa,25,,,FALSE,25,Šalek,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-25-rad-naroda-martin-salek.jpg
-170,Daniel,Solis,Republikáni Miroslava Sládka,25,,,TRUE,25,Solis,Daniel,https://samizdat.blob.core.windows.net/vizitky16/senat-25-spr-rsc-daniel-solis.jpg
-171,Aleš,Hušák,Nezávislý kandidát,25,,,TRUE,25,Hušák,Aleš,https://samizdat.blob.core.windows.net/vizitky16/senat-25-nezavisli-ales-husak.jpg
-172,Ivana,Cabrnochová,Česká strana sociálně demokratická + Strana zelených,22,,,TRUE,22,Cabrnochová,Ivana,https://samizdat.blob.core.windows.net/vizitky16/senat-22-sz-a-cssd-ivana-cabrnochova.jpg
-173,Irena,Bartoňová Pálková,Občanská demokratická strana,22,,,TRUE,22,Bartoňová Pálková,Irena,https://samizdat.blob.core.windows.net/vizitky16/senat-22-ods-irena-bartonova-palkova.jpg
-174,Jiří ,Holubař,TOP09 ,22,,,FALSE,22,Holubář,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-22-top09-jiri-holubar.jpg
-175,Renata,Chmelová,Koalice VLASTA,22,,,TRUE,22,Chmelová,Renata,https://samizdat.blob.core.windows.net/vizitky16/senat-22-vlasta-koalice-obcanu-prahy-10-kdu-csl-les-renata-chmelova.jpg
-176,Eva,Kislingerová,ANO 2011,22,,,TRUE,22,Kislingerová,Eva,https://samizdat.blob.core.windows.net/vizitky16/senat-22-ano2011-eva-kislingerova.jpg
-177,Miroslav,Koranda,Patrioti ČR,22,,,TRUE,22,Koranda,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-22-patrioti-cr-miroslav-koranda.jpg
-178,Ludmila,Nedělková,Komunistická strana čech a moravy,22,,,FALSE,22,Nedělkova,Ludmila,https://samizdat.blob.core.windows.net/vizitky16/senat-22-kscm-ludmila-nedelkova.jpg
-179,Felix,Slováček,Strana soukromníků ČR,22,,,TRUE,22,Slováček,Antonín,https://samizdat.blob.core.windows.net/vizitky16/senat-22-strana-soukromniku-cr-antonin-slovacek.jpg
-180,Zdeněk,Schwarz,HPP,22,,,TRUE,22,Schwarz,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-22-pro-prahu-zdenek-schwarz.jpg
-181,Josef,Hőrl,ČSNS2005,22,,,TRUE,22,Hőrl,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-22-ceska-strana-narodne-socialisticka-josef-horl.jpg
-182,Jana,Čunátová,Komunistická strana čech a moravy,19,,,TRUE,19,Čunátová,Jana,https://samizdat.blob.core.windows.net/vizitky16/senat-19-kscm-jana-cunatova.jpg
-183,Ladislav,Kos,Koalice pro Prahu11,19,,,TRUE,19,Kos,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-19-koalice-hnuti-pro-prahu-11-kdu-csl-sz-pirati-ladislav-kos.jpg
-184,Jan,Koukal,Strana soukromníků ČR,19,,,TRUE,19,Koukal,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-19-strana-soukromníku-jan-koukal.jpg
-185,Jakub,Lepš,TOP 09,19,,,TRUE,19,Lepš,Jakub,https://samizdat.blob.core.windows.net/vizitky16/senat-19-top09-jakub-leps.jpg
-186,Miroslava,Skovajsová,Česká strana sociálně demokratická,19,,,TRUE,19,Skovajsová,Miroslava,https://samizdat.blob.core.windows.net/vizitky16/senat-19-cssd-miroslava-skovajsova.jpg
-187,Marta,Šorfová,Občanská demokratická strana,19,,,TRUE,19,Šorfová,Marta,https://samizdat.blob.core.windows.net/vizitky16/senat-19-ods-marta-sorfova.jpg
-188,Helena,Válková,ANO 2011,19,,,TRUE,19,Válková,Helena,https://samizdat.blob.core.windows.net/vizitky16/senat-19-ano-2011-helena-valkova.jpg
-189,Petr,Hannig,Rozumní,19,,,TRUE,19,Hannig,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-19-strana-zdraveho-rozumu-ne-ilegalni-imigraci-petr-hannig.jpg
-190,Věra,Hollerová,Komunistická strana Československa,19,,,TRUE,19,Hollerová,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-19-ksc-vera-hollerova.jpg
-191,Věra,Příhodová,Strana přímé demokracie,19,,,TRUE,19,Příhodová,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-19-svoboda-a-prima-demokracie-tomio-okamura-vera-prihodova.jpg
-192,Petr,Sýkora,Jižní Město náš Domov,19,,,TRUE,19,Sýkora,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-19-jizni-mesto-petr-sykora.jpg
-193,Martin,Vacek,Hnutí Občanů za Kraje,19,,,TRUE,19,Vacek,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-19-hozk-martin-vacek.jpg
-194,Vladimír,Vilímec,HPP,19,,,TRUE,19,Vilímec,Vlastimil,https://samizdat.blob.core.windows.net/vizitky16/senat-19-pro-prahu-vlastimil-vilimec.jpg
-195,Jiří,Oberflazer,Občanská demokratická strana,16,,,FALSE,16,Oberfalzer,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-16-ods-s-podporou-strany-soukromníku-a-svobodnych-jiri-oberfalzer.jpg
-196,Jan,Holásek,Nezávislý s podporou Nestranící+Strana zelených+ Česká pirátská strana+ KDU-ČSL,16,,,TRUE,16,Holásek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-16-nestranici-kdu-csl-zelenych-piratu-jan-holasek.jpg
-197,Miroslav,Matyáš,Komunistická strana čech a moravy,16,,,TRUE,16,Matyáš,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-16-kscm-miroslav-matyas.jpg
-198,JIří,Peřina,Česká strana sociálně demokratická,16,,,TRUE,16,Peřina,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-16-cssd-jiri-perina.jpg
-199,Bohumil,Stibal,ANO 2011,16,,,TRUE,16,Stibal,Bohumil,https://samizdat.blob.core.windows.net/vizitky16/muz.png
-200,Tomáš,Trč,Starostové a nezávislí + TOP 09,16,,,TRUE,16,Trč,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-16-top09-tomas-trc.jpg
-201,Jiří,Hroník,HOZK,16,,,TRUE,16,Hroník,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-16-hozk-jiri-hronik.jpg
-202,Jindřich,Bláha,Občanská demokratická strana,13,,,TRUE,13,Bláha,Jindřich,https://samizdat.blob.core.windows.net/vizitky16/senat-13-ods-jindrich-blaha.jpg
-203,Jiří,Fišer,Tábor2020+ Starostové a nezávislí,13,,,TRUE,13,Fišer,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-13-koalice-tabor-2020-a-strarostove-a-nezavisli-jiri-fiser.jpg
-204,Pavel,Klíma,TOP09,13,,,TRUE,13,Klíma,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-13-top09-pavel-klima.jpg
-205,Martin,Konvička,Alternativa pro ČR 2017,13,,,TRUE,13,Konvička,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-13-strana-alternativa-pro-ceskou-republiku-martin-konvicka.jpg
-206,Petr,Král,Česká pirátské strana,13,,,TRUE,13,Král,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-13-piratska-strana-petr-kral.jpg
-207,Jan,Mládek,Česká strana sociálně demokratická,13,,,TRUE,13,Mládek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-13-cssd-jan-mladek.jpg
-208,Ladislav,Šedivý,Komunistická strana čech a moravy,13,,,TRUE,13,Šedivý,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-13-kscm-ladislav-sedivy.jpg
-209,Jaroslav,Větrovský,ANO 2011,13,,,TRUE,13,Větrovský,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-13-hnuti-ano-jaroslav-vetrovsky.jpg
-210,Tomáš,Jirsa,Občanská demokratická strana,10,,,TRUE,10,Jirsa,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-10-ods-tomas-jirsa.jpg
-211,Jindřich,Florián,Česká strana sociálně demokratická,10,,,TRUE,10,Florián,Jindřich,https://samizdat.blob.core.windows.net/vizitky16/senat-10-cssd-jindrich-florian.jpg
-212,Pavel,Himl,Strana zelených,10,,,TRUE,10,Himl,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-10-strana-zelenych-pavel-himl.jpg
-213,Radim ,Hreha,Alternativa pro ČR 2017,10,,,TRUE,10,Hreha,Radim,https://samizdat.blob.core.windows.net/vizitky16/senat-10-strana-alternativa-pro-ceskou-republiku-radim-hreha.jpg
-214,Tomáš,Novák,Česká pirátské strana,10,,,TRUE,10,Novák,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-10-piratska-strana-tomas-novak.jpg
-215,Marie,Paujeková,Úsvit-národní koalice,10,,,FALSE,10,Paukejová,Marie,https://samizdat.blob.core.windows.net/vizitky16/senat-10-strana-usvit-narodni-koalice-marie-paukejova.jpg
-216,Jitka,Zikmundová,KDUČSL,10,,,TRUE,10,Zikmundová,Jitka,https://samizdat.blob.core.windows.net/vizitky16/senat-10-kdu-csl-jitka-zikmundova.jpg
-217,David,Žák,TOP09+ Starostové a nezávislí,10,,,TRUE,10,Žák,David,https://samizdat.blob.core.windows.net/vizitky16/senat-10-koalice-top09-starostove-a-nezavisli-david-zak.jpg
-218,Miroslav,Máče,Komunistická strana čech a moravy,10,,,TRUE,10,Máče,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-10-kscm-miroslav-mace.jpg
-219,Jan,Rejfek,Komunistická strana čech a moravy,7,,,TRUE,7,Rejfek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-07-kscm-jan-rejfek.jpg
-220,Jiří,Dort,TOP09+ Starostové a nezávislí,7,,,TRUE,7,Dort,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-07-top09-a-hnuti-starostove-jiri-dort.jpg
-221,Marcel,Hájek,Občanská demokratická strana+ KDU-CŠL,7,,,TRUE,7,Hájek,Marcel,https://samizdat.blob.core.windows.net/vizitky16/senat-07-ods-marcel-hajek.jpg
-222,Pavel ,Havlíček,Strana soukromníků ČR,7,,,TRUE,7,Havlíček,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-07-strana-soukromniku-pavel-havlicek.jpg
-223,Václav,Chaloupek,Občané patrioti,7,,,TRUE,7,Chaloupek,Václav,https://samizdat.blob.core.windows.net/vizitky16/senat-07-obcane-a-patrioti-vaclav-chaloupek.jpg
-224,Martin,Koller,Úsvit-národní koalice,7,,,TRUE,7,Koller,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-07-usvit-narodni-koalice-martin-koller.jpg
-225,Miroslava,Rutová,ANO 2011,7,,,TRUE,7,Rutová,Miloslava,https://samizdat.blob.core.windows.net/vizitky16/senat-07-ano2011-miloslava-rutova.jpg
-226,Dagmar,Terelmešová,Česká strana sociálně demokratická,7,,,TRUE,7,Terelmešová,Dagmar,https://samizdat.blob.core.windows.net/vizitky16/senat-07-cssd-dagmar-terelmesova.jpg
-227,Jiří,Biolek,Starostové a nezávislí,4,,,TRUE,4,Biolek,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-4-stan-jiri-biolek.jpg
-228,Alena,Dernerová,Severočeši.cz,4,,,TRUE,4,Dernerová,Alena,https://samizdat.blob.core.windows.net/vizitky16/senat-4-severocesi-cz-alena-dernerova.jpg
-229,Libuše,Hrdinová,Občanská demokratická strana,4,,,TRUE,4,Hrdinová,Libuše,https://samizdat.blob.core.windows.net/vizitky16/senat-4-ods-libuse-hrdinova.jpg
-230,Josef,Nétek,Komunistická strana čech a moravy,4,,,TRUE,4,Nétek,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-4-kscm-josef-netek.jpg
-231,Jiří Maria,Sieber,Řád národa,4,,,TRUE,4,Sieber,Jiří Maria,https://samizdat.blob.core.windows.net/vizitky16/senat-4-rad-naroda-jiri-maria-sieber.jpg
-232,Jiří,Šlégr,Česká strana sociálně demokratická,4,,,TRUE,4,Šlégr,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-4-cssd-jiri-slegr.jpg
-233,Ota,Zaremba,Dělnická strana sociální spravedlnosti..,4,,,TRUE,4,Zaremba,Oto,https://samizdat.blob.core.windows.net/vizitky16/muz.png
-234,Petr,Hampl,Alternativa pro ČR 2017,16,,,TRUE,16,Hampl,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-16-alternativa-pro-cr-2017-petr-hampl.jpg
-235,,,,,,,FALSE,55,Burian,Michal,https://samizdat.blob.core.windows.net/vizitky16/senat-55-stan-michal-burian.jpg
-,,,,,,,TRUE,,,,
+id,jmeno,prijmeni,obvod,,,obvod,cislo,,prijmeni,jmeno,foto,cro_n
+1,Jan,Horník,1,,TRUE,1,5,,Horník,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-1-stan-jan-hornik.jpg,
+2,Věra,Bartůňková,1,,TRUE,1,2,,Bartůňková,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-1-kscm-vera-bartunkova.jpg,
+3,Pavel,Čekan,1,,TRUE,1,1,,Čekan,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-1-cssd-pavel-cekan.jpg,
+4,Jiří,Brdlík,1,,TRUE,1,4,,Brdlík,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-1-ods-jiri-brdlik.jpg,
+5,Jiří,Kotek,1,,TRUE,1,8,,Kotek,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-1-alternativa-jiri-kotek.jpg,
+6,Věra,Ježková,1,,TRUE,1,6,,Ježková,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-1-zeleni-vera-jezkova.jpg,
+7,Josef,Váňa,1,,TRUE,1,3,,Váňa,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-1-ano-josef-vana.jpg,
+8,Eduard,Frisch,1,,TRUE,1,7,,Frisch,Eduard,https://samizdat.blob.core.windows.net/vizitky16/senat-1-snk-eduard-frisch.jpg,
+9,Jana,Bačíková,79,,TRUE,79,5,,Bačíková,Jana,https://samizdat.blob.core.windows.net/vizitky16/senat-79-ods-jana-bacikova.jpg,
+10,Anna,Hubáčková,79,,TRUE,79,2,,Hubáčková,Anna,https://samizdat.blob.core.windows.net/vizitky16/senat-79-kdu-csl-anna-hubackova.jpg,
+11,Jan ,Lahvička,79,,TRUE,79,7,,Lahvička,Ján,https://samizdat.blob.core.windows.net/vizitky16/senat-79-kscm-jan-lahvicka.jpg,
+12,Zdeněk,Škromach,79,,TRUE,79,4,,Škromach,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-79-cssd-zdenek-skromach.jpg,
+13,Josef,Zimovčák,79,,TRUE,79,3,,Zimovčák,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-79-ano2011-josef-zimovcak.jpg,
+14,Vítězslav,Krabička,79,,TRUE,79,6,,Krabička,Vítězslav,https://samizdat.blob.core.windows.net/vizitky16/senat-79-moravane-vitezslav-krabicka.jpg,
+15,Květoslav,Přibil,79,,TRUE,79,1,,Přibil,Květoslav,https://samizdat.blob.core.windows.net/vizitky16/senat-79-spr-kvetoslav-pribil.jpg,
+16,Eva,Badinková,76,,TRUE,76,7,,Badinková,Eva,https://samizdat.blob.core.windows.net/vizitky16/senat-76-kscm-eva-badinkova.jpg,
+17,Jan,Hašek,76,,TRUE,76,6,,Hašek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-76-ano-jan-hasek.jpg,
+18,Daniela,Hebnarová,76,,TRUE,76,8,,Hebnarová,Daniela,https://samizdat.blob.core.windows.net/vizitky16/senat-76-ods-daniela-hebnarova.jpg,
+19,Jaroslav,Chmelař,76,,TRUE,76,1,,Chmelař,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-76-cssd-jaroslav-chmelar.jpg,
+20,Šárka,Jelínková,76,,TRUE,76,3,,Jelínková,Šárka,https://samizdat.blob.core.windows.net/vizitky16/senat-76-kdu-csl-sarka-jelinkova.jpg,
+21,Josef,Novák,76,,TRUE,76,5,,Novák,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-76-spo-josef-novak.jpg,
+22,Petr,Šico,76,,TRUE,76,2,,Šico,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-76-koruna-ceska-petr-sico.jpg,
+23,Vojtěch,Škrabal,76,,TRUE,76,4,,Škrabal,Vojtěch,https://samizdat.blob.core.windows.net/vizitky16/senat-76-stan-vojtech-skrabal.jpg,
+24,Zdeněk ,Zlámal,76,,TRUE,76,9,,Zlámal,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-76-nezavisli-zdenek-zlamal.jpg,
+25,Jiří ,Cieńciala,73,,TRUE,73,3,,Cieńciala,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-jiri-ciencala.jpg,
+27,Petr ,Gawlas,73,,TRUE,73,2,,Gawlas,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-cssd-petr-gawlas.jpg,
+28,Pavla,Golasowská,73,,TRUE,73,4,,Golasowská,Pavla,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-kdu-csl-pavla-golasowska.jpg,
+29,Gustav,Pilch,73,,TRUE,73,5,,Pilch,Gustav,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-kscm-gustav-pilch.jpg,
+30,Jan,Osoba,73,,TRUE,73,6,,Osoba,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-usvit-nk-jan-osoba.jpg,
+31,Ivo,Raška,73,,TRUE,73,1,,Raška,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-73-fm-ivo-raska.jpg,
+32,Radim ,Babinec,70,,TRUE,70,10,,Babinec,Radim,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-ano-radim-babinec.jpg,
+33,Jan,Becher,70,,TRUE,70,3,,Becher,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-pirati-jan-becher.jpg,
+34,Petr,Borna,70,,TRUE,70,2,,Borna,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-dsss-petr-borna.jpg,
+35,Liana,Janáčková,70,,TRUE,70,6,,Janáčková,Liana,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ovanezavisli-liana-janackova.jpg,
+36,Tomáš,Málek,70,,TRUE,70,4,,Málek,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-ostravak-tomas-malek.jpg,
+37,Zdeněk,Nytra,70,,TRUE,70,1,,Nytra,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-zdenek-nytra.jpg,
+38,Josef,Pravda,70,,TRUE,70,8,,Pravda,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-cssd-josef-pravda.jpg,
+39,Ilja,Racek,70,,TRUE,70,5,,Racek,Ilja,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-kdu-a-sz-ilja-racek.jpg,
+40,Ivan,Strachoň,70,,TRUE,70,9,,Strachoň,Ivan,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-kscm-ivan-strachon.jpg,
+41,Alena,Vitásková,70,,TRUE,70,7,,Vitásková,Alena,https://samizdat.blob.core.windows.net/vizitky16/senat-70-ova-usvit-nk-alena-vitaskova.jpg,
+42,Jiří ,Demel,67,,TRUE,67,2,,Demel,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-pirati-jiri-demel.jpg,
+43,Pavel,Pisch,67,,TRUE,67,6,,Pisch,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-kscm-pavel-pisch.jpg,
+44,Jiří,Strýček,67,,TRUE,67,5,,Strýček,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-ano-jiri-strycek.jpg,
+45,Petr,Orel,67,,TRUE,67,3,,Orel,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-zeleni-a-kdu-petr-orel.jpg,
+46,Pavel,Jurečka,67,,TRUE,67,1,,Jurečka,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-usvit-nk-pavel-jurecka.jpg,
+47,Jaroslav,Dvořák,67,,TRUE,67,4,,Dvořák,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-67-nj-cssd-jaroslav-dvorak.jpg,
+48,Jaroslav,Chalupa,64,,TRUE,64,10,,Chalupa,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-dsss-jaroslav-chalupa.jpg,
+49,Vítězslav,Maláč,64,,TRUE,64,9,,Maláč,Vítězslav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-kdu-csl-vitezslav-malac.jpg,
+50,Bronislav,Sedláček,64,,TRUE,64,4,,Sedláček,Bronislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-stan-bronislav-sedlacek.jpg,
+51,Ladislav,Sekanina,64,,TRUE,64,11,,Sekanina,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-kscm-ladislav-sekanina.jpg,
+52,Rudolf,Skandera,64,,TRUE,64,2,,Skandera,Rudolf,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-usvit-nk-rudolf-skandera.jpg,
+53,Salome,Sýkorová,64,,TRUE,64,3,,Sýkorová,Salome,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-snk-ed-salome-sykorova.jpg,
+54,Radoslav,Štědroň,64,,TRUE,64,7,,Štědroň,Radoslav,https://samizdat.blob.core.windows.net/vizitky16/muz.png,
+55,Ladislav,Václavec,64,,TRUE,64,1,,Václavec,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-ano-ladislav-vaclavec.jpg,
+56,Ladislav,Velebný,64,,TRUE,64,6,,Velebný,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-cssd-ladislav-velebny.jpg,
+57,Jiří ,Žák,64,,TRUE,64,5,,Žák,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-ods-jiri-zak.jpg,
+58,Miroslav,Sládek,64,,TRUE,64,8,,Sládek,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-64-br-republikani-miroslav-sladek.jpg,
+59,Ivo,Barteček,61,,TRUE,61,4,,Barteček,Ivo,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-strana-soukromniku-cr-ivo-bartecek.jpg,
+60,Milan,Brázdil,61,,TRUE,61,9,,Brázdil,Milan,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-ano2011-milan-brazdil.jpg,
+61,Eva,Hrindová,61,,TRUE,61,8,,Hrindová,Eva,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-alternativa-pro-cr-eva-hrindova.jpg,
+62,Lumír,Kantor,61,,TRUE,61,3,,Kantor,Lumír,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-kdu-csl-lumir-kantor.jpg,
+63,Jaroslav,Morávek,61,,TRUE,61,5,,Morávek,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-ods-jaroslav-moravek.jpg,
+64,Zdeňka,Szukalská,61,,TRUE,61,7,,Szukalská,Zdenka,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-kscm-zdenka-szuklska.jpg,
+65,Martin,Tesařík,61,,TRUE,61,6,,Tesařík,Martin,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-cssd-martin-tesarik.jpg,
+66,Václav,Šimek,61,,TRUE,61,2,,Šimek,Václav,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-narodni-demokracie-vaclav-simek.jpg,
+67,Pavel,Andrš,61,,TRUE,61,1,,Andrš,Pavel,https://samizdat.blob.core.windows.net/vizitky16/ol-senat-61-koruna-ceska-pavel-andrs.jpg,
+68,Barbora,Antonová,58,,TRUE,58,7,,Antonová,Barbora,https://samizdat.blob.core.windows.net/vizitky16/senat-58-top09-zitbrno-sz-barbora-antonova.jpg,
+69,Jiří,Čejka,58,,TRUE,58,6,,Čejka,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-58-cssd-jiri-cejka.jpg,
+70,Jiří,Dušek,58,,TRUE,58,3,,Dušek,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-58-ano-jiri-dusek.jpg,
+71,Stanislav,Juránek,58,,TRUE,58,1,,Juránek,Stanislav,https://samizdat.blob.core.windows.net/vizitky16/senat-58-kdu-csl-stanislav-juranek.jpg,
+72,Jiří,Pernes,58,,TRUE,58,2,,Pernes,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-58-moravane-ods-jiri-pernes.jpg,
+73,Oldřich,Duchoň,58,,TRUE,58,8,,Duchoň,Oldřich,https://samizdat.blob.core.windows.net/vizitky16/senat-58-kscm-oldrich-duchon.jpg,
+74,Luďek,Moudrý,58,,TRUE,58,5,,Moudrý,Luděk,https://samizdat.blob.core.windows.net/vizitky16/senat-58-usvit-ludek-moudry.jpg,
+75,Lucie,Zajícová,58,,TRUE,58,4,,Zajícová,Lucie,https://samizdat.blob.core.windows.net/vizitky16/senat-58-nd-lucie-zajicova.jpg,
+76,Lubomír,Žalud,58,,TRUE,58,9,,Žalud,Lubomír,https://samizdat.blob.core.windows.net/vizitky16/senat-58-koruna-ceska-lubomir-zalud.jpg,
+77,Radoslav,Skála,55,,TRUE,55,8,,Skála,Radoslav,https://samizdat.blob.core.windows.net/vizitky16/senat-55-kscm-radoslav-skala.jpg,
+78,Pavel,Staněk,55,,TRUE,55,5,,Staněk,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-55-ano-pavel-stanek.jpg,
+79,Jiří,Ventruba,55,,TRUE,55,6,,Ventruba,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-55-ods-jiri-ventruba.jpg,
+80,Jan,Žaloudík,55,,TRUE,55,4,,Žaloudík,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-55-cssd-jan-zaloudik.jpg,
+81,Bohuslav,Klíma,55,,TRUE,55,7,,Klíma,Bohuslav,https://samizdat.blob.core.windows.net/vizitky16/senat-55-moravane-bohuslav-klima.jpg,
+82,Jiří,Brančík,55,,TRUE,55,2,,Brančík,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-55-svoboda-a-sila-jiri-brancik.jpg,
+83,Ivo,Minařík,55,,TRUE,55,3,,Minařík,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-55-usvit-ivo-minarik.jpg,
+85,Helena,Vrzalová,52,,TRUE,52,9,,Vrzalová,Helena,https://samizdat.blob.core.windows.net/vizitky16/senat-52-kscm-helena-vrzalova.jpg,
+86,Miloš,Vystrčil,52,,TRUE,52,2,,Vystrčil,Miloš,https://samizdat.blob.core.windows.net/vizitky16/senat-52-ods-milos-vystrcil.jpg,
+87,Michal,Stehlík,52,,TRUE,52,1,,Stehlík,Michal,https://samizdat.blob.core.windows.net/vizitky16/senat-52-kdu-csl-michal-stehlik.jpg,
+88,Petr,Paul,52,,TRUE,52,5,,Paul,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-52-svoboda-a-prima-demokracie-petr-paul.jpg,
+89,Jiří,Nápravník,52,,TRUE,52,7,,Nápravník,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-52-koruna-ceska-jiri-napravnik.jpg,
+90,Zdeněk,Kučírek,52,,TRUE,52,6,,Kučírek,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-52-moravane-zdenek-kucirek.jpg,
+91,Milan,Kolář,52,,TRUE,52,4,,Kolář,Milan,https://samizdat.blob.core.windows.net/vizitky16/senat-52-koalice-sz-a-top09-milan-kolar.jpg,
+92,Rudolf,Chloupek,52,,TRUE,52,3,,Chloupek,Rudolf,https://samizdat.blob.core.windows.net/vizitky16/senat-52-cssd-rudolf-chloupek.jpg,
+93,Zdeněk,Faltus,52,,TRUE,52,8,,Faltus,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-52-ano2011-zdenek-faltus.jpg,
+94,Josef,Regec,49,,TRUE,49,6,,Regec,Jozef,https://samizdat.blob.core.windows.net/vizitky16/senat-49-sscr-jozef-regec.jpg,
+95,Marie,Koudelová,49,,TRUE,49,7,,Koudelová,Mária,https://samizdat.blob.core.windows.net/vizitky16/senat-49-kscm-maria-koudelova.jpg,
+96,Jan,Machač,49,,TRUE,49,5,,Machač,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-49-ods-jan-machac.jpg,
+97,Jiří,Míšenský,49,,TRUE,49,4,,Míšenský,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-49-ano2011-jiri-misensky.jpg,
+98,Ivo,Polák,49,,TRUE,49,1,,Polák,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-49-cssd-ivo-polak.jpg,
+99,Drago,Sukalovský,49,,TRUE,49,9,,Sukalovský,Drago,https://samizdat.blob.core.windows.net/vizitky16/senat-49-stan-a-top09-drago-sukalovsky.jpg,
+100,Jiří,Šoltys,49,,TRUE,49,3,,Šoltys,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-49-narod-sobe-jiri-soltys.jpg,
+101,Robert,Štěpánek,49,,TRUE,49,2,,Štěpánek,Robert,https://samizdat.blob.core.windows.net/vizitky16/senat-49-usvit-robert-stepanek.jpg,
+102,Jaromíra,Vítková,49,,TRUE,49,8,,Vítková,Jaromíra,https://samizdat.blob.core.windows.net/vizitky16/senat-49-kdu-csl-jaromira-vitkova.jpg,
+103,Petr,Šilar,46,,TRUE,46,2,,Šilar,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-46-kdu-csl-petr-silar.jpg,
+104,Soňa,Hlavová,46,,TRUE,46,4,,Hlavová,Soňa,https://samizdat.blob.core.windows.net/vizitky16/senat-46-strana-prav-obcanu-sona-hlavova.jpg,
+105,Jan,Lipavský,46,,TRUE,46,3,,Lipavský,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-46-ano2011-jan-lipavsky.jpg,
+106,Martin,Strnad,46,,TRUE,46,6,,Strnad,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-46-usvit-narodni-koalice-martin-strnad.jpg,
+107,Antonín,Vyšohlíd,46,,TRUE,46,1,,Vyšohlíd,Antonín,https://samizdat.blob.core.windows.net/vizitky16/senat-46-kscm-antonin-vysohlid.jpg,
+108,Jaroslav,Zedník,46,,TRUE,46,7,,Zedník,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-46-top09-jaroslav-zednik.jpg,
+109,Dalibor,Zelený,46,,TRUE,46,5,,Zelený,Dalibor,https://samizdat.blob.core.windows.net/vizitky16/senat-46-cssd-dalibor-zeleny.jpg,
+110,Jiří ,Čáslavka,43,,TRUE,43,5,,Čáslavka,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-43-top09-a-starostove-a-nezavisli-s-podporou-pardubaku-patriotu-pardubic-a-liberalne-ekologicke-strany-jiri-caslavka.jpg,
+111,Karel,Daňhel,43,,TRUE,43,2,,Daňhel,Karel,https://samizdat.blob.core.windows.net/vizitky16/senat-43-usvit-narodni-koalice-karel-danhel.jpg,
+112,Miluše ,Horská,43,,TRUE,43,3,,Horská,Miluše,https://samizdat.blob.core.windows.net/vizitky16/senat-43-koalice-nestranici-a-kdu-csl-miluse-horska.jpg,
+113,Jaroslav,Menšík,43,,TRUE,43,8,,Menšík,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-43-ano2011-jaroslav-mensik.jpg,
+114,Vladimír,Ninger,43,,TRUE,43,4,,Ninger,Vladimír,https://samizdat.blob.core.windows.net/vizitky16/senat-43-cssd-vladimir-ninger.jpg,
+115,David,Novák,43,,TRUE,43,10,,Novák,David,https://samizdat.blob.core.windows.net/vizitky16/senat-43-ods-david-novak.jpg,
+116,Petr,Novotný,43,,TRUE,43,1,,Novotný,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-43-strana-soukromniku-ceske-republiky-petr-novotny.jpg,
+117,Pavel,Studnička,43,,TRUE,43,6,,Studnička,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-43-kscm-pavel-studnicka.jpg,
+118,Petr,Štěpánek,43,,TRUE,43,9,,Štěpánek,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-43-alternativa-pro-ceskou-republiku-2017-petr-stepanek.jpg,
+119,Emanuel,Žďárský,43,,TRUE,43,7,,Žďárský,Emanuel,https://samizdat.blob.core.windows.net/vizitky16/senat-43-nezavisli-kandidati-do-senatu-emanuel-zdarsky.jpg,
+120,Lenka,Bochníčková,40,,TRUE,40,2,,Bochníčková,Lenka,https://samizdat.blob.core.windows.net/vizitky16/senat-40-kscm-lenka-bochnickova.jpg,
+121,Jaromír,Strnad,40,,TRUE,40,1,,Strnad,Jaromír,https://samizdat.blob.core.windows.net/vizitky16/senat-40-cssd-jaromir-strnad.jpg,
+122,Ivo,Šanc,40,,TRUE,40,4,,Šanc,Ivo,https://samizdat.blob.core.windows.net/vizitky16/senat-40-stan-s-podporou-kdu-csl-ivo-sanc.jpg,
+123,Julius,Špičák,40,,TRUE,40,5,,Špičák,Julius,https://samizdat.blob.core.windows.net/vizitky16/senat-40-ano-julius-spicak.jpg,
+124,Milan,Vodička,40,,TRUE,40,3,,Vodička,Milan,https://samizdat.blob.core.windows.net/vizitky16/senat-40-svobodni-s-podporou-ods-a-strany-soukromniku-cr-milan-vodicka.jpg,
+125,Radim ,Špaček,40,,TRUE,40,6,,Špaček,Radim,https://samizdat.blob.core.windows.net/vizitky16/muz.png,
+126,Věra,Beranová,37,,TRUE,37,2,,Beranová,Věra,https://samizdat.blob.core.windows.net/vizitky16/zena.png,
+127,Josef,Táborský,37,,TRUE,37,3,,Táborský,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-37-cssd-josef-taborsky.jpg,
+128,Tomáš,Czernin,37,,TRUE,37,7,,Czernin,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-37-top09-tomas-czernin.jpg,
+129,Ivan,Doležal,37,,TRUE,37,5,,Doležal,Ivan,https://samizdat.blob.core.windows.net/vizitky16/senat-37-ods-ivan-dolezal.jpg,
+130,Vladimír,Dryml,37,,TRUE,37,6,,Dryml,Vladimír,https://samizdat.blob.core.windows.net/vizitky16/senat-37-usvit-nk-vladimir-dryml.jpg,
+131,Jan,Malý,37,,TRUE,37,1,,Malý,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-37-ano2011-jan-maly.jpg,
+132,Jiří,Fiala,37,,TRUE,37,4,,Fiala,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-37-strana-zdr-rozumu-jiri-fiala.jpg,
+133,Martina,Bufková Rychecká,34,,TRUE,34,3,,Bufková Rychecká,Martina,https://samizdat.blob.core.windows.net/vizitky16/senat-34-ods-martina-bufkova-rychecka.jpg,
+134,Michael,Canov,34,,TRUE,34,9,,Canov,Michael,https://samizdat.blob.core.windows.net/vizitky16/senat-34-slk-stan-michael-canov.jpg,
+135,Petr,Černý,34,,TRUE,34,5,,Černý,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-34-novy-smer-petr-cerny.jpg,
+136,Jaroslav ,Havelka,34,,TRUE,34,1,,Havelka,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-34-kscm-jaroslav-havelka.jpg,
+137,Peter,Hromádka,34,,TRUE,34,6,,Hromádka,Peter,https://samizdat.blob.core.windows.net/vizitky16/senat-34-top09-peter-hromadka.jpg,
+138,Jan,Korytář,34,,TRUE,34,7,,Korytář,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-34-politicke-hnuti-zmena-jan-korytar.jpg,
+139,Pavel,Ploc,34,,TRUE,34,8,,Ploc,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-34-cssd-pavel-ploc.jpg,
+140,Lidie,Vajnerová,34,,TRUE,34,4,,Vajnerová,Lidie,https://samizdat.blob.core.windows.net/vizitky16/senat-34-nova-budoucnost-pro-lb-kraj-lidie-vajnerova.jpg,
+141,Marek,Vávra,34,,TRUE,34,2,,Vávra,Marek,https://samizdat.blob.core.windows.net/vizitky16/senat-34-ano2011-marek-vavra.jpg,
+142,Jaroslav,Doubrava,31,,TRUE,31,5,,Doubrava,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-31-severocesi-cz-jaroslav-doubrava.jpg,
+143,Martin,Hausenblas,31,,TRUE,31,6,,Hausenblas,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-31-usti-nad-labem-martin-hausenblas.jpg,
+144,František,Holešovský,31,,TRUE,31,4,,Holešovský,František,https://samizdat.blob.core.windows.net/vizitky16/senat-31-ano2011-frantisek-holesovsky.jpg,
+145,Stanislav,Körner,31,,TRUE,31,7,,Körner,Stanislav,https://samizdat.blob.core.windows.net/vizitky16/senat-31-kscm-stanislav-korner.jpg,
+146,Pert,Kůstka,31,,TRUE,31,2,,Kůstka,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-31-nz-petr-kustka.jpg,
+147,Jiří,Madar,31,,TRUE,31,3,,Madar,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-31-ufo-jiri-madar.jpg,
+148,Vítězslav,Štefl,31,,TRUE,31,10,,Štefl,Vítězslav,https://samizdat.blob.core.windows.net/vizitky16/senat-31-cssd-vitezslav-stefl.jpg,
+149,Ilona,Tajchnerová,31,,TRUE,31,9,,Tajchnerová,Ilona,https://samizdat.blob.core.windows.net/vizitky16/senat-31-top09-ilona-tajchnerova.jpg,
+150,Jan,Tvrdík,31,,TRUE,31,8,,Tvrdík,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-31-ods-jan-tvrdik.jpg,
+151,Tomáš,Vandas,31,,TRUE,31,1,,Vandas,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-31-dsss-tomas-vandas.jpg,
+152,Veronika,Vrecionová,28,,TRUE,28,3,,Vrecionová,Veronika,https://samizdat.blob.core.windows.net/vizitky16/senat-28-ods-veronika-vrecionova.jpg,
+153,Petr,Holeček,28,,TRUE,28,2,,Holeček,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-28-top09-petr-holecek.jpg,
+154,Stanislav,Huml,28,,TRUE,28,5,,Huml,Stanislav,https://samizdat.blob.core.windows.net/vizitky16/senát-28-cssd-stanislav-huml.jpg,
+155,Igor,Karen,28,,TRUE,28,8,,Karen,Igor,https://samizdat.blob.core.windows.net/vizitky16/senat-28-ano-igor-karen.jpg,
+156,Martin,Mach,28,,TRUE,28,6,,Mach,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-28-zeleni-a-kdu-csl-martin-mach.jpg,
+157,Zdeněk,Štefek,28,,TRUE,28,9,,Štefek,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-28-kscm-zdenek-stefek.jpg,
+158,Jiří,Kobza,28,,TRUE,28,1,,Kobza,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senát-28-svoboda-a-prima-demokracie-tomio-okamura-jiri-kobza.jpg,
+159,Svatopluk,Černý,28,,TRUE,28,7,,Černý,Svatopluk,https://samizdat.blob.core.windows.net/vizitky16/senát-28-dsss-svatopluk-cerny.jpg,
+160,Pavel,Matějka,28,,TRUE,28,4,,Matějka,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-28-spr-rsc-pavel-matejka.jpg,
+161,Petr,Zavadil,28,,TRUE,28,10,,Zavadil,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-28-strana-svobodnych-obcanu-petr-zavadil.jpg,
+162,František,Stárek,25,,TRUE,25,6,,Stárek,František,https://samizdat.blob.core.windows.net/vizitky16/senat-25-ods-frantisek-starek.jpg,
+163,Jiří,Růžička,25,,TRUE,25,4,,Růžička,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-25-top09-jiri-ruzicka.jpg,
+164,Vlastimil,Harapes,25,,TRUE,25,7,,Harapes,Vlastimil,https://samizdat.blob.core.windows.net/vizitky16/senat-25-ano2011-vlastimil-harapes.jpg,
+165,Pavel,Franěk,25,,TRUE,25,3,,Franěk,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-25-kscm-pavel-franek.jpg,
+166,Bedřich,Danda,25,,TRUE,25,9,,Danda,Bedřich,https://samizdat.blob.core.windows.net/vizitky16/senat-25-strana-soukromniku-cr-bedrich-danda.jpg,
+167,Václav,Bělohradský,25,,TRUE,25,8,,Bělohradský,Václav,https://samizdat.blob.core.windows.net/vizitky16/senat-25-cssd-a-sz-vaclav-belohradsky.jpg,
+168,Jaroslav,Dvořák,25,,TRUE,25,1,,Dvořák,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-25-strana-prav-obcanu-jaroslav-dvorak.jpg,
+169,Martin,Šalek,25,,TRUE,25,10,,Šalek,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-25-rad-naroda-martin-salek.jpg,
+170,Daniel,Solis,25,,TRUE,25,2,,Solis,Daniel,https://samizdat.blob.core.windows.net/vizitky16/senat-25-spr-rsc-daniel-solis.jpg,
+171,Aleš,Hušák,25,,TRUE,25,5,,Hušák,Aleš,https://samizdat.blob.core.windows.net/vizitky16/senat-25-nezavisli-ales-husak.jpg,
+172,Ivana,Cabrnochová,22,,TRUE,22,5,,Cabrnochová,Ivana,https://samizdat.blob.core.windows.net/vizitky16/senat-22-sz-a-cssd-ivana-cabrnochova.jpg,
+173,Irena,Bartoňová Pálková,22,,TRUE,22,3,,Bartoňová Pálková,Irena,https://samizdat.blob.core.windows.net/vizitky16/senat-22-ods-irena-bartonova-palkova.jpg,
+174,Jiří ,Holubář,22,,TRUE,22,8,,Holubář,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-22-top09-jiri-holubar.jpg,
+175,Renata,Chmelová,22,,TRUE,22,1,,Chmelová,Renata,https://samizdat.blob.core.windows.net/vizitky16/senat-22-vlasta-koalice-obcanu-prahy-10-kdu-csl-les-renata-chmelova.jpg,
+176,Eva,Kislingerová,22,,TRUE,22,2,,Kislingerová,Eva,https://samizdat.blob.core.windows.net/vizitky16/senat-22-ano2011-eva-kislingerova.jpg,
+177,Miroslav,Koranda,22,,TRUE,22,10,,Koranda,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-22-patrioti-cr-miroslav-koranda.jpg,
+178,Ludmila,Nedělkova,22,,TRUE,22,9,,Nedělkova,Ludmila,https://samizdat.blob.core.windows.net/vizitky16/senat-22-kscm-ludmila-nedelkova.jpg,
+179,Felix,Slováček,22,,TRUE,22,6,,Slováček,Antonín,https://samizdat.blob.core.windows.net/vizitky16/senat-22-strana-soukromniku-cr-antonin-slovacek.jpg,
+180,Zdeněk,Schwarz,22,,TRUE,22,4,,Schwarz,Zdeněk,https://samizdat.blob.core.windows.net/vizitky16/senat-22-pro-prahu-zdenek-schwarz.jpg,
+181,Josef,Hőrl,22,,TRUE,22,7,,Hőrl,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-22-ceska-strana-narodne-socialisticka-josef-horl.jpg,
+182,Jana,Čunátová,19,,TRUE,19,10,,Čunátová,Jana,https://samizdat.blob.core.windows.net/vizitky16/senat-19-kscm-jana-cunatova.jpg,
+183,Ladislav,Kos,19,,TRUE,19,8,,Kos,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-19-koalice-hnuti-pro-prahu-11-kdu-csl-sz-pirati-ladislav-kos.jpg,
+184,Jan,Koukal,19,,TRUE,19,5,,Koukal,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-19-strana-soukromníku-jan-koukal.jpg,
+185,Jakub,Lepš,19,,TRUE,19,9,,Lepš,Jakub,https://samizdat.blob.core.windows.net/vizitky16/senat-19-top09-jakub-leps.jpg,
+186,Miroslava,Skovajsová,19,,TRUE,19,6,,Skovajsová,Miroslava,https://samizdat.blob.core.windows.net/vizitky16/senat-19-cssd-miroslava-skovajsova.jpg,
+187,Marta,Šorfová,19,,TRUE,19,7,,Šorfová,Marta,https://samizdat.blob.core.windows.net/vizitky16/senat-19-ods-marta-sorfova.jpg,
+188,Helena,Válková,19,,TRUE,19,2,,Válková,Helena,https://samizdat.blob.core.windows.net/vizitky16/senat-19-ano-2011-helena-valkova.jpg,
+189,Petr,Hannig,19,,TRUE,19,4,,Hannig,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-19-strana-zdraveho-rozumu-ne-ilegalni-imigraci-petr-hannig.jpg,
+190,Věra,Hollerová,19,,TRUE,19,1,,Hollerová,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-19-ksc-vera-hollerova.jpg,
+191,Věra,Příhodová,19,,TRUE,19,11,,Příhodová,Věra,https://samizdat.blob.core.windows.net/vizitky16/senat-19-svoboda-a-prima-demokracie-tomio-okamura-vera-prihodova.jpg,
+192,Petr,Sýkora,19,,TRUE,19,12,,Sýkora,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-19-jizni-mesto-petr-sykora.jpg,
+193,Martin,Vacek,19,,TRUE,19,3,,Vacek,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-19-hozk-martin-vacek.jpg,
+194,Vladimír,Vilímec,19,,TRUE,19,13,,Vilímec,Vlastimil,https://samizdat.blob.core.windows.net/vizitky16/senat-19-pro-prahu-vlastimil-vilimec.jpg,
+195,Jiří,Oberfalzer,16,,TRUE,16,2,,Oberfalzer,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-16-ods-s-podporou-strany-soukromníku-a-svobodnych-jiri-oberfalzer.jpg,
+196,Jan,Holásek,16,,TRUE,16,3,,Holásek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-16-nestranici-kdu-csl-zelenych-piratu-jan-holasek.jpg,
+197,Miroslav,Matyáš,16,,TRUE,16,7,,Matyáš,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-16-kscm-miroslav-matyas.jpg,
+198,JIří,Peřina,16,,TRUE,16,5,,Peřina,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-16-cssd-jiri-perina.jpg,
+199,Bohumil,Stibal,16,,TRUE,16,4,,Stibal,Bohumil,https://samizdat.blob.core.windows.net/vizitky16/muz.png,
+200,Tomáš,Trč,16,,TRUE,16,6,,Trč,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-16-top09-tomas-trc.jpg,
+201,Jiří,Hroník,16,,TRUE,16,8,,Hroník,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-16-hozk-jiri-hronik.jpg,
+202,Jindřich,Bláha,13,,TRUE,13,1,,Bláha,Jindřich,https://samizdat.blob.core.windows.net/vizitky16/senat-13-ods-jindrich-blaha.jpg,
+203,Jiří,Fišer,13,,TRUE,13,5,,Fišer,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-13-koalice-tabor-2020-a-strarostove-a-nezavisli-jiri-fiser.jpg,
+204,Pavel,Klíma,13,,TRUE,13,8,,Klíma,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-13-top09-pavel-klima.jpg,
+205,Martin,Konvička,13,,TRUE,13,6,,Konvička,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-13-strana-alternativa-pro-ceskou-republiku-martin-konvicka.jpg,
+206,Petr,Král,13,,TRUE,13,2,,Král,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-13-piratska-strana-petr-kral.jpg,
+207,Jan,Mládek,13,,TRUE,13,3,,Mládek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-13-cssd-jan-mladek.jpg,
+208,Ladislav,Šedivý,13,,TRUE,13,7,,Šedivý,Ladislav,https://samizdat.blob.core.windows.net/vizitky16/senat-13-kscm-ladislav-sedivy.jpg,
+209,Jaroslav,Větrovský,13,,TRUE,13,4,,Větrovský,Jaroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-13-hnuti-ano-jaroslav-vetrovsky.jpg,
+210,Tomáš,Jirsa,10,,TRUE,10,4,,Jirsa,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-10-ods-tomas-jirsa.jpg,
+211,Jindřich,Florián,10,,TRUE,10,1,,Florián,Jindřich,https://samizdat.blob.core.windows.net/vizitky16/senat-10-cssd-jindrich-florian.jpg,
+212,Pavel,Himl,10,,TRUE,10,8,,Himl,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-10-strana-zelenych-pavel-himl.jpg,
+213,Radim ,Hreha,10,,TRUE,10,9,,Hreha,Radim,https://samizdat.blob.core.windows.net/vizitky16/senat-10-strana-alternativa-pro-ceskou-republiku-radim-hreha.jpg,
+214,Tomáš,Novák,10,,TRUE,10,6,,Novák,Tomáš,https://samizdat.blob.core.windows.net/vizitky16/senat-10-piratska-strana-tomas-novak.jpg,
+215,Marie,Paukejová,10,,TRUE,10,3,,Paukejová,Marie,https://samizdat.blob.core.windows.net/vizitky16/senat-10-strana-usvit-narodni-koalice-marie-paukejova.jpg,
+216,Jitka,Zikmundová,10,,TRUE,10,5,,Zikmundová,Jitka,https://samizdat.blob.core.windows.net/vizitky16/senat-10-kdu-csl-jitka-zikmundova.jpg,
+217,David,Žák,10,,TRUE,10,2,,Žák,David,https://samizdat.blob.core.windows.net/vizitky16/senat-10-koalice-top09-starostove-a-nezavisli-david-zak.jpg,
+218,Miroslav,Máče,10,,TRUE,10,7,,Máče,Miroslav,https://samizdat.blob.core.windows.net/vizitky16/senat-10-kscm-miroslav-mace.jpg,
+219,Jan,Rejfek,7,,TRUE,7,5,,Rejfek,Jan,https://samizdat.blob.core.windows.net/vizitky16/senat-07-kscm-jan-rejfek.jpg,
+220,Jiří,Dort,7,,TRUE,7,1,,Dort,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-07-top09-a-hnuti-starostove-jiri-dort.jpg,
+221,Marcel,Hájek,7,,TRUE,7,3,,Hájek,Marcel,https://samizdat.blob.core.windows.net/vizitky16/senat-07-ods-marcel-hajek.jpg,
+222,Pavel ,Havlíček,7,,TRUE,7,2,,Havlíček,Pavel,https://samizdat.blob.core.windows.net/vizitky16/senat-07-strana-soukromniku-pavel-havlicek.jpg,
+223,Václav,Chaloupek,7,,TRUE,7,8,,Chaloupek,Václav,https://samizdat.blob.core.windows.net/vizitky16/senat-07-obcane-a-patrioti-vaclav-chaloupek.jpg,
+224,Martin,Koller,7,,TRUE,7,7,,Koller,Martin,https://samizdat.blob.core.windows.net/vizitky16/senat-07-usvit-narodni-koalice-martin-koller.jpg,
+225,Miroslava,Rutová,7,,TRUE,7,4,,Rutová,Miloslava,https://samizdat.blob.core.windows.net/vizitky16/senat-07-ano2011-miloslava-rutova.jpg,
+226,Dagmar,Terelmešová,7,,TRUE,7,6,,Terelmešová,Dagmar,https://samizdat.blob.core.windows.net/vizitky16/senat-07-cssd-dagmar-terelmesova.jpg,
+227,Jiří,Biolek,4,,TRUE,4,7,,Biolek,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-4-stan-jiri-biolek.jpg,
+228,Alena,Dernerová,4,,TRUE,4,1,,Dernerová,Alena,https://samizdat.blob.core.windows.net/vizitky16/senat-4-severocesi-cz-alena-dernerova.jpg,
+229,Libuše,Hrdinová,4,,TRUE,4,3,,Hrdinová,Libuše,https://samizdat.blob.core.windows.net/vizitky16/senat-4-ods-libuse-hrdinova.jpg,
+230,Josef,Nétek,4,,TRUE,4,6,,Nétek,Josef,https://samizdat.blob.core.windows.net/vizitky16/senat-4-kscm-josef-netek.jpg,
+231,Jiří Maria,Sieber,4,,TRUE,4,2,,Sieber,Jiří Maria,https://samizdat.blob.core.windows.net/vizitky16/senat-4-rad-naroda-jiri-maria-sieber.jpg,
+232,Jiří,Šlégr,4,,TRUE,4,5,,Šlégr,Jiří,https://samizdat.blob.core.windows.net/vizitky16/senat-4-cssd-jiri-slegr.jpg,
+233,Ota,Zaremba,4,,TRUE,4,4,,Zaremba,Oto,https://samizdat.blob.core.windows.net/vizitky16/muz.png,
+234,Petr,Hampl,16,,TRUE,16,1,,Hampl,Petr,https://samizdat.blob.core.windows.net/vizitky16/senat-16-alternativa-pro-cr-2017-petr-hampl.jpg,
+235,Michal,Burian,55,,TRUE,55,1,,Burian,Michal,https://samizdat.blob.core.windows.net/vizitky16/senat-55-stan-michal-burian.jpg,

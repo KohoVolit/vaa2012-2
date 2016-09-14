@@ -141,6 +141,15 @@
     </footer>
     <!-- /Footer -->
 
+    <!-- cookie -->
+    <?php
+    if(!isset($_COOKIE['vkid'])) {
+        session_start();
+        setcookie('vkid', session_id(), time() + (60 * 60 * 24 * 365 * 15), "/");
+    }
+    ?>
+    <!-- /cookie -->
+
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -187,6 +196,34 @@
       })();
     </script>
     <!-- /google analytics -->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter35615280 = new Ya.Metrika({
+                        id:35615280,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/35615280" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>

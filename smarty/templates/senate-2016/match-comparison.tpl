@@ -10,7 +10,7 @@
              <i class="fa fa-spinner fa-spin fa-3x"></i>
       </div>
       <div class="modal-footer">
-        <a href="https://interaktivni.rozhlas.cz/data/volby-2016-vizitky/www/#" target="_blank" type="button" class="btn btn-default btn-lg sharebutton cro-n-link" ><i class="fa fa-volume-up fa-lg"></i> {$text['comparison_cro_link']}</a>
+        <a href="https://interaktivni.rozhlas.cz/kandidati-do-senatu/#" target="_blank" type="button" class="btn btn-default btn-lg sharebutton cro-n-link" ><i class="fa fa-volume-up fa-lg"></i> {$text['comparison_cro_link']}</a>
         <button type="button" class="btn btn-primary" data-dismiss="modal" id="comparison-close-bottom">{$text['result_close']}</button>
       </div>
     </div>

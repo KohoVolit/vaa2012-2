@@ -52,6 +52,9 @@ if ($settings->customization) {
         $customization['css'] = htmlspecialchars(urldecode($_GET['css']));
 }
 
+if(!isset($_COOKIE['vkid'])) {
+    setcookie('vkid', session_id(), time() + (60 * 60 * 24 * 365 * 15), "/");
+}
 
 $smarty->assign('lang', $lang);
 $smarty->assign('text',$t);
