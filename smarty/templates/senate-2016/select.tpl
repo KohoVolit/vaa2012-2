@@ -15,7 +15,7 @@
       <!-- header -->
       {include "page-header.tpl"}
       <!-- /header -->
-      
+
       {*parameters to be passed:*}
       {$chunk=""}
       {foreach $pparameters as $k => $p}
