@@ -84,7 +84,7 @@
             <p class="lead">
                     Volební kalkulačka pro senátní volby 2016.
                     <p>
-                    <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT - SENÁT</a>
+                    <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT - SENÁT</a>
 
               <p class="lead">
                   Volební kalkulačky pro krajské volby 2016.
