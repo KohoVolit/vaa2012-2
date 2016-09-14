@@ -250,6 +250,13 @@ $president = array(
   ),
 );
 
+$senat2016 = array(
+  array(
+    'name' => 'Senátní kalkulačka 2016',
+    'friendly_url' => 'senat-2016/select.php',
+  ),
+);
+
 $sizes = array(
   array('name' => 'Největší 850x600', 'width' => '850', 'height' => '600'),
   array('name' => 'Standardní 650x550', 'width' => '650', 'height' => '550', 'selected' => true),
@@ -258,6 +265,11 @@ $sizes = array(
 );
 
 $calcs = array(
+
+  'senat2016' => array(
+      'name' => 'Volební kalkulačka Senát 2016',
+      'calc' => $senat2016
+  ),
 
   'inventory2014' => array(
     'name' => 'Inventura hlasování ve Sněmovně 2014',
@@ -326,8 +338,8 @@ $calcs = array(
     'name' => 'Inventura hlasování Liberec 2010-2014',
     'calc' => $calc2014liberec2010,
   ),
-  
-  
+
+
   'calc2014senat' => array(
     'name' => 'Volební kalkulačka Senát 2014',
     'calc' => $calc2014senat,
@@ -347,18 +359,18 @@ $calcs = array(
     'name' => 'Inventura hlasování Evropský parlament 2009-2014',
     'calc' => $inventory2014ep,
   ),
-  
-  
+
+
   'all' => array(
     'name' => 'Celá VolebníKalkulačka.cz',
     'calc' => array(array('name'=>'VolebníKalkulačka.cz','friendly_url'=>'?')),
   ),
-  
+
   'calc2013' => array(
     'name' => 'Názorový test volby 2013',
     'calc' => $calc2013,
   ),
-  
+
   'inventory2013' => array(
     'name' => 'Inventura hlasování 2010-2013',
 	'calc' => $inventory2013,
@@ -368,7 +380,7 @@ $calcs = array(
     'name' => 'Prezidentská kalkulačka 2013 2.kolo',
     'calc' => $president2,
   ),
-  
+
   'president' => array(
     'name' => 'Prezidentská kalkulačka 2013 1.kolo',
     'calc' => $president,
@@ -393,7 +405,7 @@ $smarty->assign('calcs', $calcs);
 $smarty->assign('key', $key);
 $smarty->assign('sizes', $sizes);
 
-$smarty->display('embed.tpl'); 
+$smarty->display('embed.tpl');
 
 /**
 * generates random key
@@ -404,7 +416,7 @@ function randomAlphaNum($length){
     $rangeMax = pow(36, $length)-1; //largest number to give length digits in base 36
     $base10Rand = mt_rand($rangeMin, $rangeMax); //get the random number
     $newRand = base_convert($base10Rand, 10, 36); //convert it
-   
+
     return $newRand; //spit it out
 }
 
