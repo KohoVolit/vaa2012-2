@@ -28,7 +28,7 @@
 
                 {include "page-last.tpl"}
                 <!-- /last item -->
-                <script src="{$settings->cdn_domain}js/page.js"></script>
+                <script src="{$settings->cdn_domain}{$settings->directory}/js/page.js"></script>
 {*                <input type="hidden" name="ab-who" value="0" />*}
 {*            {/if}*}
 

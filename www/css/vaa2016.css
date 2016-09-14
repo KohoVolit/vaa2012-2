@@ -443,7 +443,7 @@ h4 {
 }
 
 /* NEW FOR 2016 */
-.question-description {
+/*.question-description {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -493,4 +493,4 @@ span.hidden-xs {
         position: static !important;
         margin-top: 30px !important;
     }
-}
+}*/
