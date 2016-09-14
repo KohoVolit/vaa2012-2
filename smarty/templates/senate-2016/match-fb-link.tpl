@@ -2,7 +2,7 @@ http://www.facebook.com/dialog/feed?
     app_id={$text['result_fb_appid']}&
     link={$text['result_fb_redirect_link']|escape:'url'}?ref={$session_id}&
     picture={$settings->cdn_domain}{$results[0].{$settings->match->fb->picture}}&
-    {if $results[0].gender="male"}
+    {if $results[0].gender=="male"}
     name={$results[0].{$settings->match->fb->winner}|escape:'url'}%20%28{$results[0].{$settings->match->fb->winner_abbr}|escape:'url'}%29%20-%20{$text['result_fb_name_male']|escape:'url'}&
     {else}
     name={$results[0].{$settings->match->fb->winner}|escape:'url'}%20%28{$results[0].{$settings->match->fb->winner_abbr}|escape:'url'}%29-{$text['result_fb_name_female']|escape:'url'}&
