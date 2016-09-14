@@ -443,7 +443,7 @@ h4 {
 }
 
 /* NEW FOR 2016 */
-/*.question-description {
+.question-description {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -481,17 +481,16 @@ span.hidden-xs {
     display: inline !important;
 }
 
-
-[data-slide=next] {
+.vote-buttons+[data-slide=next] {
     position: fixed;
-    bottom: 100px;
+    bottom: 105px;
     left: 0;
     right: 0;
 }
 
 @media (min-width: 620px) {
-    [data-slide=next] {
+    .vote-buttons+[data-slide=next] {
         position: static !important;
         margin-top: 30px !important;
     }
-}*/
+}
