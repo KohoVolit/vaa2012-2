@@ -42,7 +42,7 @@
             	 {if (isset($c['custom']))}
             	 <label for="navbarcolor">Barva horní lišty (html, např: #ab0) - nepovinné</label>
             	 <input type="color" name="navbarcolor" id="navbarcolor-{$c['friendly_url']}" data-calc="{$c['friendly_url']}">
-            	 <label for="navbarcolor">Pozadí (adresa obrázku umístěného na webu, nesmí obsahovat znak '_', např.: http://volebnikalkulacka.cz/evropsky-parlament-2014/image/bg.jpg) - nepovinné</label>
+            	 <label for="navbarcolor">Pozadí (adresa obrázku umístěného na webu, nesmí obsahovat znak '_', např.: https://volebnikalkulacka.cz/evropsky-parlament-2014/image/bg.jpg) - nepovinné</label>
             	 <input type="text" name="background" id="background-{$c['friendly_url']}" data-calc="{$c['friendly_url']}">
             	 {/if}
 
@@ -52,8 +52,8 @@
             	     <h3>{$size['name']}</h3>
             	     <div data-role="fieldcontain">
 						<p>Kód HTML:</p>
-						<textarea data-role="none" cols="40" rows="3" name="textarea" class="textarea textarea-{$c['friendly_url']}"><iframe src="http://volebnikalkulacka.cz/{$c['friendly_url']}?key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0"></iframe></textarea>
-						<input type="hidden" value='<iframe src="http://volebnikalkulacka.cz/{$c['friendly_url']}?key={$key}' id="link1-{$c['friendly_url']}">
+						<textarea data-role="none" cols="40" rows="3" name="textarea" class="textarea textarea-{$c['friendly_url']}"><iframe src="https://volebnikalkulacka.cz/{$c['friendly_url']}?key={$key}" width="{$size['width']}" height="{$size['height']}" frameborder="0"></iframe></textarea>
+						<input type="hidden" value='<iframe src="https://volebnikalkulacka.cz/{$c['friendly_url']}?key={$key}' id="link1-{$c['friendly_url']}">
 						<input type="hidden" value='" width="{$size['width']}" height="{$size['height']}" frameborder="0"></iframe>' id="link3-{$c['friendly_url']}">
 					</div>
             	    </div>
