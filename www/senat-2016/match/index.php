@@ -45,6 +45,7 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
     header('Content-type: application/json');
     echo json_encode($results);
+    save_results($relative_path);
     exit();
 }
 
@@ -67,24 +68,29 @@ $smarty->assign('answers_json',$answers_json);
 $smarty->display('match.tpl');
 
 //save results
+save_results($relative_path);
 
-if(!isset($_COOKIE['vkid'])) {
-    $vkid = session_id();
-    setcookie('vkid', $vkid, time() + (60 * 60 * 24 * 365 * 15), "/");
-} else {
-    $vkid = $_COOKIE['vkid'];
+function save_results($relative_path) {
+    if(!isset($_COOKIE['vkid'])) {
+        $vkid = session_id();
+        setcookie('vkid', $vkid, time() + (60 * 60 * 24 * 365 * 15), "/");
+    } else {
+        $vkid = $_COOKIE['vkid'];
+    }
+
+    $arr = [
+        date("Y-m-d H:i:s"),
+        $vkid,
+        session_id(),
+        json_encode($_GET),
+        $_SERVER['REMOTE_ADDR']
+    ];
+    $file = fopen($relative_path . 'result.csv','a');
+    fputcsv($file,$arr);
+    fclose($file);
 }
 
-$arr = [
-    date("Y-m-d H:i:s"),
-    $vkid,
-    session_id(),
-    json_encode($_GET),
-    $_SERVER['REMOTE_ADDR']
-];
-$file = fopen($relative_path . 'result.csv','a');
-fputcsv($file,$arr);
-fclose($file);
+
 
 
 /**
