@@ -19,9 +19,7 @@
       {*parameters to be passed:*}
       {$chunk=""}
       {foreach $pparameters as $k => $p}
-        {$k}
         {$chunk = "`$chunk`&`$k`=`$p`"}
-        {*{$chunk=$chunk."&".$k."=".$p} *}
       {/foreach}
 
       <div class="container results">

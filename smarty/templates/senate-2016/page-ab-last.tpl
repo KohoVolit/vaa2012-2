@@ -1,13 +1,13 @@
-            <div class="item" id="item-last">  
+            <div class="item" id="item-last">
               <div class="container">
                 <div class="carousel-caption center-block">
                   <h2>{$text['page_important_questions']}</h2>
                   <p>{$text['page_important_legend']}</p>
-                  
+
                   <p>
                     <button class="btn btn-default btn-lg wide-button button-last" type="button" id="submit-top">{$text['page_important_skip']} <i class="fa fa-arrow-right"></i></button>
                   </p>
-                  
+
                   <div data-toggle="buttons">
                     <table class="table">
                       <tbody>
@@ -20,14 +20,14 @@
                             </label>
                           </td>
                         </tr>
-                      {$i=$i+1}    
-                      {/foreach} 
+                      {$i=$i+1}
+                      {/foreach}
                       </tbody>
                     </table>
                   </div> <!-- /buttons -->
-                  
+
                   <p>
-                    <button class="btn btn-default btn-lg wide-button button-last" type="button" id="submit-bottom">{$text['page_important_results']} <i class="fa fa-arrow-right"></i></button>
+                    <button class="btn btn-default btn-lg wide-button button-last" type="button" id="selection-lower">{$text['page_important_next']} <i class="fa fa-arrow-right"></i></button>
                   </p>
 
                 </div>

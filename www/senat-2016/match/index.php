@@ -29,6 +29,14 @@ if (isset($_GET['cc'])) {
 $results = calc_match($user,$answers,2,$cc);
 $smarty->assign('cc',$cc);
 
+//who (selected)
+if (isset($_GET['who'])) {
+    $who = $_GET['who'];
+} else {
+    $who = [];
+}
+$smarty->assign('who',$who);
+
 //noreplies
 $nrfile = $relative_path . 'noreply.json';
 $allnoreplies = json_decode(file_get_contents($nrfile));

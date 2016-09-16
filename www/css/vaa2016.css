@@ -443,7 +443,53 @@ h4 {
 }
 
 /* NEW FOR 2016 */
-/*.question-description {
+
+.result-table-row-inner {
+    border: 0;
+}
+
+/* xxs */
+@media (max-width: 620px) {
+  .hidden-xxs {
+    display: none !important;
+  }
+}
+.visible-xxs-block {
+  display: none !important;
+}
+@media (max-width: 620px) {
+  .visible-xxs {
+    display: block !important;
+  }
+  table.visible-xxs {
+    display: table !important;
+  }
+  tr.visible-xxs {
+    display: table-row !important;
+  }
+  th.visible-xxs,
+  td.visible-xxs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 620px) {
+  .visible-xxs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 620px) {
+  .visible-xxs-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xxs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+/*
+.question-description {
     margin-top: 20px;
     margin-bottom: 20px;
 }

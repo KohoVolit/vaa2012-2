@@ -13,7 +13,7 @@ include("common.php");
 
 //read questions
 #$qfile = 'questions_' . $lang . '.json';
-$qfile = 'questions.json';
+$qfile = $relative_path . 'questions.json';
 $questions = json_decode(file_get_contents($qfile));
 
 //get prefilled user's values, if exist
@@ -26,9 +26,37 @@ if (isset($_GET['cc'])) {
 }
 $smarty->assign('cc',$cc);
 
+//prepare candidates - filter only constituency
+$afile = $relative_path . 'answers.json';
+$answers = json_decode(file_get_contents($afile));
+$nfile = $relative_path . 'noreply.json';
+$noreplies = json_decode(file_get_contents($nfile));
+$candidates = filter_candidates(array_merge((array) $answers, (array) $noreplies), $cc);
+$smarty->assign('candidates',$candidates);
+//print_r($candidates);die();
+
 $smarty->assign('user', $user);
 $smarty->assignByRef('questions', $questions);
 $smarty->display('page.tpl');
 
+
+function filter_candidates($answers, $cc) {
+    $out = [];
+    foreach ($answers as $answer) {
+        if ($answer->constituency == $cc) {
+            $out[] = [
+                'id' => $answer->id,
+                'name' => $answer->name,
+                'party' => $answer->party,
+                'party_abbreviation' => $answer->party_abbreviation
+            ];
+        }
+    }
+    foreach ($out as $key => $row) {
+        $sort[$key]  = $row['name'];
+    }
+    array_multisort($sort, SORT_ASC, $out);
+    return $out;
+}
 
 ?>

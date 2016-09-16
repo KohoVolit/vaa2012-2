@@ -3,15 +3,15 @@
     <ol class="list-group">
     {$i=0}
     {foreach $results as $result}
-      <li class="no-number">
-        <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal" id="table-{$i+1}-{$results[$i].id}">
+      <li class="no-number list-group-item {if in_array($results[$i].id,$who)} list-group-item-success{/if}">
+        <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog result-table-row-inner" data-toggle="modal" data-target="#modal" id="table-{$i+1}-{$results[$i].id}">
            <div class="row"> <!-- note: needs to be here when inside <a> -->
              <div class="col-xs-9">
                <div class="media">
                  <div class="media-left">
                    <img src="{$settings->cdn_domain}{$results[$i].{$settings->match->table->picture}}" img-rounded media-object pull-left" alt="{$results[$i].{$settings->match->table->picture_alt}}" title="{$results[$i].{$settings->match->table->picture_title}}" width="{$settings->match->table->picture_width}" height="{$settings->match->table->picture_height}" class="{$settings->match->table->picture_class}"/>
                  </div>
-                 <div class="media-body inside-media">
+                 <div class="media-body inside-media{if !(in_array($results[$i].id,$who))} text-muted{/if}">
                    <h4 class="list-group-item-heading ">
                    {foreach $settings->match->table->first_row as $s}
                       {$results[$i].{$s}}
