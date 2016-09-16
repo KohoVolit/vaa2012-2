@@ -5,7 +5,7 @@
                   <p>{$text['page_important_legend']}</p>
 
                   <p>
-                    <button class="btn btn-default btn-lg wide-button button-last" type="button" id="submit-top">{$text['page_important_skip']} <i class="fa fa-arrow-right"></i></button>
+                    <button class="btn btn-default btn-lg wide-button button-last" type="button" id="selection-upper">{$text['page_important_skip']} <i class="fa fa-arrow-right"></i></button>
                   </p>
 
                   <div data-toggle="buttons">
@@ -15,8 +15,8 @@
                       {foreach $questions as $question}
                         <tr id="weightsel-row-{$question->id}">
                           <td class="weightsel-td">
-                            <label class="weightsel-button btn btn-lg" for="c-{$question->id}" id="important-{$i}-{$question->id}">
-                              <input type="checkbox" name="c-{$question->id}" id="c-{$question->id}"/> {$question->name}
+                            <label class="weightsel-button btn btn-lg" for="w{$question->id}" id="important-{$i}-{$question->id}">
+                              <input type="checkbox" name="w{$question->id}" id="w{$question->id}"/> {$question->name}
                             </label>
                           </td>
                         </tr>
