@@ -35,6 +35,11 @@ $candidates = filter_candidates(array_merge((array) $answers, (array) $noreplies
 $smarty->assign('candidates',$candidates);
 //print_r($candidates);die();
 
+//AB registration
+$abreg = mt_rand(0,2);
+$smarty->assign('abreg', $abreg);
+
+
 $smarty->assign('user', $user);
 $smarty->assignByRef('questions', $questions);
 $smarty->display('page.tpl');

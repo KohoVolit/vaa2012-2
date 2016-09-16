@@ -7,7 +7,7 @@
       <link href="{$settings->cdn_domain}{$settings->app_css}" rel="stylesheet">
       {/if}
     {/block}
-    
+
     {block name=lastHead}
       <title>{$text['title']}</title>
     {/block}
@@ -16,19 +16,19 @@
       <!-- header -->
       {include "page-header.tpl"}
       <!-- /header -->
-      
+
       <!-- carousel -->
       {include "page-carousel.tpl"}
       <!-- /carousel -->
    {/block}
-   
-   
+
+
    {block name=footer}
      <!-- Footer -->
      {include "page-footer.tpl"}
      <!-- /Footer -->
    {/block}
-   
+
    {block name=js}
      <script>
        var user = $.parseJSON('{$user}');

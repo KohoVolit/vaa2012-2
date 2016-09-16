@@ -89,7 +89,7 @@
               <p class="lead">
                   Volební kalkulačky pro krajské volby 2016.
                   <p>
-                  <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled" >BUDOU SPUŠTĚNY MEZI 16.-23.9.2016</a>
+                  <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled" >BUDOU SPUŠTĚNY MEZI 19.9.2016</a>
 
 
 
