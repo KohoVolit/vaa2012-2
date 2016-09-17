@@ -7,8 +7,8 @@
 session_start();
 
 //AB
-$random2 = mt_rand(0,1);
-$_GET['ab-geo'] = $random2;
+// $random2 = mt_rand(0,1);
+// $_GET['ab-geo'] = $random2;
 
 $relative_path = "../";
 
@@ -58,11 +58,11 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
 }
 
 //AB
-if ($random2 == 1)
-    $smarty->assign('ab_geo', true);
-else
-    $smarty->assign('ab_geo', false);
-//note: there is a change in match.tpl, too
+// if ($random2 == 1)
+//     $smarty->assign('ab_geo', true);
+// else
+//     $smarty->assign('ab_geo', false);
+//note: there is a change in geo-js.tpl, too
 
 //this page
 

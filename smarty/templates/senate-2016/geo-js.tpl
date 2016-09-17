@@ -1,11 +1,11 @@
-{if $ab_geo}
+{* {if $ab_geo} *}
 <script>
 $('document').ready(function() {
     function storePosition(position) {
         $.ajax({
           url: "{$relative_path}position.php",
           method: "post",
-          data: { 
+          data: {
             "position": position
           }
         });
@@ -14,7 +14,7 @@ $('document').ready(function() {
         $.ajax({
           url: "{$relative_path}position.php",
           method: "post",
-          data: { 
+          data: {
             "error": error
           }
         });
@@ -27,4 +27,4 @@ $('document').ready(function() {
     }
 });
 </script>
-{/if}
+{*  {/if} *}

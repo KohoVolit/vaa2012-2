@@ -3,7 +3,7 @@
             <div class="carousel-caption center-block">
                 <h2>Koho zvažujete, že byste volil/a?</h2>
                 <h3>Můžete vybrat více kandidátů</h3>
-                <h5>Výběr neovlivní výsledky, vybrané Vám jen zvýrazníme</h5>
+                <h5>Výběr neovlivní výsledky volební kalkulačky, vybrané Vám zvýrazníme</h5>
                 <div data-toggle="buttons" id="ab-table">
                     <table class="table">
                         <tbody>
@@ -20,7 +20,7 @@
                         </tbody>
                     </table>
                     <!-- <input type="hidden" name="ab-who-val" id="ab-who-val" value="" /> -->
-                    <input type="hidden" name="ab-who" value="1" />
+                    {*<input type="hidden" name="ab-who" value="1" />*}
                 </div> <!-- /buttons -->
 
                 <p>
