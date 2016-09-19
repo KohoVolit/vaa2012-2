@@ -10,6 +10,13 @@ $app_settings = json_decode(file_get_contents($relative_path . 'settings.json'))
 // settings
 $settings = (object) array_merge((array) $server_settings, (array) $app_settings);
 
+// load constituencies
+$constituencies = json_decode(file_get_contents($relative_path . 'constituencies.json'));
+$ccs = [];
+foreach ($constituencies as $key=>$c) {
+    $ccs[] = $c->code;
+}
+
 error_reporting($settings->error_reporting);
 
 // put full path to Smarty.class.php
@@ -56,6 +63,7 @@ if(!isset($_COOKIE['vkid'])) {
     setcookie('vkid', session_id(), time() + (60 * 60 * 24 * 365 * 15), "/");
 }
 
+$smarty->assign('constituencies',$constituencies);
 $smarty->assign('lang', $lang);
 $smarty->assign('text',$t);
 $smarty->assign('pparameters',$pparameters);

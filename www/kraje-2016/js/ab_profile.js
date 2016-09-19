@@ -8,7 +8,7 @@ $('document').ready(function() {
 
         cookie = Cookies.get('vkemail');
         if (typeof(cookie) == 'undefined') {
-            if ((abreg == 2) && (slideTo == 36)) {
+            if ((abreg == 2) && (slideTo == $('.item').length)) {
                 $('#registration-modal').modal({show: true, backdrop: 'static'})
             }
             if ((abreg == 1) && (slideTo == 6)) {

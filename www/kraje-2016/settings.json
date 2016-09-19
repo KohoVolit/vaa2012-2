@@ -15,45 +15,45 @@
     "background_image": "image/bg.jpg",
     "match": {
         "winner": {
-            "first_row": ["family_name","given_name"],
-            "second_row": ["party_abbreviation"],
-            "picture": "picture",
+            "first_row": ["abbreviation"],
+            "second_row": [],
+            "picture": "small_picture",
             "picture_width": "120",
-            "picture_height": "180",
+            "picture_height": "120",
             "picture_alt": "name",
             "picture_title": "name",
-            "picture_class": "img-circle"
+            "picture_class": "img-rounded"
         },
         "fb": {
             "picture": "picture",
             "winner": "name",
-            "winner_abbr": "party_abbreviation"
+            "winner_abbr": "abbreviation"
         },
         "twitter": {
-            "winner": "name"
+            "winner": "abbreviation"
         },
         "table": {
-            "picture": "picture",
-            "picture_width": "60",
-            "picture_height": "90",
-            "picture_alt": "party_abbreviation",
-            "picture_title": "party_abbreviation",
+            "picture": "small_picture",
+            "picture_width": "80",
+            "picture_height": "80",
+            "picture_alt": "abbreviation",
+            "picture_title": "abbreviation",
             "picture_class": "img-rounded",
-            "first_row": ["name"],
-            "second_row": ["party_abbreviation"],
-            "third_row": ["party"]
+            "first_row": ["abbreviation"],
+            "second_row": ["name"],
+            "third_row": []
         },
         "comparison": {
-            "name": "name"
+            "name": "abbreviation"
         }
     },
     "table": {
         "picture": "picture",
         "picture_width": "40",
-        "picture_height": "60",
-        "picture_alt": "family_name",
-        "picture_title": "name",
-        "picture_class": "img-rounded",
-        "name": ["family_name","party_abbreviation"]
+        "picture_height": "40",
+        "picture_alt": "abbreviation",
+        "picture_title": "abbre",
+        "picture_class": "abbreviation",
+        "name": ["abbreviation"]
     }
 }

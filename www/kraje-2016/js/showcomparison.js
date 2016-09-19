@@ -1,9 +1,7 @@
-function addme(data) {
-    out = data;
-    out['0'] = me;
-    return out;
-}
-data = addme(answers)
+$(function () {
+    theTemplateScript = $("#comparison-template").html();
+    theTemplate = Handlebars.compile(theTemplateScript);
+});
 
 $(document).on("click", ".open-dialog", function () {
   ids = ["0",$(this).data('id')];
@@ -14,7 +12,7 @@ $('#modal').on('show.bs.modal', function (e) {
     if (typeof (questions) == "undefined") {
         //load answers
         $.ajax({
-          url: '../questions_' + lang + '.json',
+          url: '../questions_' + cc + '.json',
           success: function(data){
             var questions = data;
             create_comparison(questions);
@@ -26,45 +24,66 @@ $('#modal').on('show.bs.modal', function (e) {
 });
 
 function create_comparison(questions) {
-  make_comparison(questions,data);
+  if (typeof (details) == "undefined") {
+        //load answers
+        $.ajax({
+          url: '../details_' + cc + '.json',
+          success: function(data){
+            make_comparison(questions,data);
+          }
+        });
+    } else {
+      make_comparison(questions,data);
+    }
 }
 
 function make_comparison(questions, details) {
-  answers["0"] = me;
-  if (typeof(ids) == "undefined") ids = ["0","0"];
-  
-  html = '<table class="table table-striped comparison-table table-hover"><thead>';
-  v1_id = ids[0];
-  v2_id = ids[1];
-  
-  html += '<tr><th>'+ texts['question'] +'</th><th class="comp-center">' + answers[v1_id]['name'] + '</th><th></th><th class="comp-center">' + answers[v2_id]['name'] + '</th></tr>';
-  html += '</thead><tbody>';
-  for (key in questions) {
-    q_id = questions[key]['id'];
-    vote1 = answers[v1_id]['votes'][q_id];
-    vote2 = answers[v2_id]['votes'][q_id];
-    detail1 = get_detail(details,v1_id,q_id);
-    detail2 = get_detail(details,v2_id,q_id);
-    if (typeof(weights[q_id]) != "undefined")
-      important = "<i class='fa fa-star'></i> </span>";
-    else
-      important = '';
-    html += "<tr><td>" + important + questions[key]['name'] + tooltip(questions[key]['question'],'fa-info-circle');
-    html += "</td><td class='comp-center'>" + val2word(vote1);
-    if (detail1) html += tooltip(detail1, 'fa-info-circle');
-    html += "</td><td class='comp-center'>";
-    html += compare_answers(vote1,vote2);
-    html += "</td><td class='comp-center'>" + val2word(vote2);
-    if (detail2) html += tooltip(detail2, 'fa-info-circle');
-    html += "</td></tr>";
-  }
-  html += "</tbody></table>"
-  $("#comparison-dialog").html(html);
-  $(".tooltip-top").tooltip({placement: 'bottom'});
+    answers["0"] = me;
+    if (typeof(ids) == "undefined") ids = ["0","0"];
+
+    var context = {"header":{},"rows":[]};
+
+    v1_id = ids[0];
+    v2_id = ids[1];
+
+    context['header'] = {
+        "one": answers[v1_id][comparison_name],
+        "two": answers[v2_id][comparison_name]
+    };
+
+    for (key in questions) {
+        row = {};
+        q_id = questions[key]['id'];
+        vote1 = answers[v1_id]['votes'][q_id];
+        vote2 = answers[v2_id]['votes'][q_id];
+        detail1 = get_detail(details,v1_id,q_id);
+        detail2 = get_detail(details,v2_id,q_id);
+        if (typeof(weights[q_id]) != "undefined")
+            row['important'] = "fa fa-star";
+        else
+            row['important'] = "";
+        row['name'] = questions[key]['name'];
+        row['text'] = questions[key]['question'];
+        row['word'] = {
+            'one': val2word(vote1),
+            'two': val2word(vote2)
+        }
+        row['detail'] = {
+            'two': detail2
+        }
+        row['compare_class'] = compare_answers_class(vote1,vote2);
+        context['rows'].push(row);
+    }
+    var theCompiledHtml = theTemplate(context);
+    $("#comparison-dialog").html(theCompiledHtml);
+    $(".tooltip-left").tooltip({placement: 'left'});
+    $(".tooltip-right").tooltip({placement: 'right'});
+    $('[data-toggle="popover"]').popover();
 }
 
-function compare_answers(a1,a2) {
-  if (a1*a2 == -1) return "<strong>✘</strong>";
+function compare_answers_class(a1,a2) {
+  if (a1*a2 == -1) return "text-danger";
+  if (a1*a2 == 1) return "text-success";
   else return "";
 }
 
