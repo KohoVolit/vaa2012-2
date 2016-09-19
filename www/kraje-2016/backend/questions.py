@@ -11,7 +11,7 @@ try:
 except:
     path = ""
 
-with open(path + "constituencies.json") as fin:
+with open(path + "../constituencies.json") as fin:
     constituencies = json.load(fin)
 
 for k in constituencies:
