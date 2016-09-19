@@ -134,9 +134,11 @@ $('document').ready(function() {
 });
 
 // submit calc also by clicking on the last arrow
-//document.getElementById("carousel-control-last").onclick = function() {
-//    document.getElementById("calc").submit();
-//}
+$('document').ready(function() {
+    $("#carousel-control-last").click(function() {
+        $("#calc").submit();
+    });
+});
 
 // AB
 // submit calc also by clicking on the last table

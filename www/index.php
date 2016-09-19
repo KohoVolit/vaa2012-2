@@ -82,14 +82,13 @@
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
             <p class="lead">
-                    Volební kalkulačka pro senátní volby 2016.
+                    Volební kalkulačka pro krajské volby 2016 srovnává Vaše názory a postoje stran, které kandidují do <strong>Vašeho krajského zastupitelstva</strong>.
                     <p>
-                    <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT - SENÁT</a>
-
-              <p class="lead">
-                  Volební kalkulačky pro krajské volby 2016.
-                  <p>
-                  <a href="<?php echo $randpath; ?>/5/" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled" >BUDOU SPUŠTĚNY MEZI 19.9.2016</a>
+                    <a href="kraje-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT VOLEBNÍ KALKULAČKU PRO KRAJE</a>
+            <p class="lead">
+                    Volební kalkulačka pro senátní volby 2016 porovnává Vaše názory s postoji <strong>kandidátů do Senátu</strong>.
+                    <p>
+                    <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT VOLEBNÍ KALKULAČKU PRO SENÁT</a>
 
 
 
