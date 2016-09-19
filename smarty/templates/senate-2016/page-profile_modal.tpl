@@ -16,7 +16,7 @@
                     </ul>
                 <p>
                 <div class="form-group">
-                    <label for="registration-email">Vaše emailová andresa:</label>
+                    <label for="registration-email">Vaše emailová adresa:</label>
                     <input type="email" class="form-control" id="registration-email" name="regem" placeholder="jmeno@example.com">
                 </div>
                 <div class="form-group">
