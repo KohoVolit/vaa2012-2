@@ -1,0 +1,59 @@
+{
+    "election_code": "regionals-2016",
+    "directory":"kraje-2016",
+    "template": "regions-2016",
+    "defaults" : {
+        "language": "cs"
+    },
+    "languages": [
+        "cs"
+    ],
+    "clicks": true,
+    "fingerprint": true,
+    "customization": true,
+    "app_css": false,
+    "background_image": "image/bg.jpg",
+    "match": {
+        "winner": {
+            "first_row": ["family_name","given_name"],
+            "second_row": ["party_abbreviation"],
+            "picture": "picture",
+            "picture_width": "120",
+            "picture_height": "180",
+            "picture_alt": "name",
+            "picture_title": "name",
+            "picture_class": "img-circle"
+        },
+        "fb": {
+            "picture": "picture",
+            "winner": "name",
+            "winner_abbr": "party_abbreviation"
+        },
+        "twitter": {
+            "winner": "name"
+        },
+        "table": {
+            "picture": "picture",
+            "picture_width": "60",
+            "picture_height": "90",
+            "picture_alt": "party_abbreviation",
+            "picture_title": "party_abbreviation",
+            "picture_class": "img-rounded",
+            "first_row": ["name"],
+            "second_row": ["party_abbreviation"],
+            "third_row": ["party"]
+        },
+        "comparison": {
+            "name": "name"
+        }
+    },
+    "table": {
+        "picture": "picture",
+        "picture_width": "40",
+        "picture_height": "60",
+        "picture_alt": "family_name",
+        "picture_title": "name",
+        "picture_class": "img-rounded",
+        "name": ["family_name","party_abbreviation"]
+    }
+}
