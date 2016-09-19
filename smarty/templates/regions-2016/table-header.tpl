@@ -1,7 +1,7 @@
 <nav id="navbar" class="navbar navbar-custom" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/" id="header-home"><i class="fa fa-home"></i><span class="hidden-xs"> {$text['calc']}</span></a>
+      <a class="navbar-brand" href="/" id="header-home"><i class="fa fa-home"></i><span class="hidden-xs"> {$text['calc']}: </span>{$constituencies->$cc->name}</a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>

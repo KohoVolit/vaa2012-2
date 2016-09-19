@@ -1,8 +1,8 @@
     <div class="item" id="item-who">
         <div class="container">
             <div class="carousel-caption center-block">
-                <h2>Koho zvažujete, že byste volil/a?</h2>
-                <h3>Můžete vybrat více kandidátů</h3>
+                <h2>Koho zvažujete, že budete volit?</h2>
+                <h3>Můžete vybrat více stran</h3>
                 <h5>Výběr neovlivní výsledky volební kalkulačky, vybrané Vám zvýrazníme</h5>
                 <div data-toggle="buttons" id="ab-table">
                     <table class="table">
