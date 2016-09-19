@@ -257,6 +257,13 @@ $senat2016 = array(
   ),
 );
 
+$regions2016 = array(
+  array(
+    'name' => 'Kalkulačka pro kraje 2016',
+    'friendly_url' => 'kraje-2016/select.php',
+  ),
+);
+
 $sizes = array(
   array('name' => 'Největší 850x600', 'width' => '850', 'height' => '600'),
   array('name' => 'Standardní 650x550', 'width' => '650', 'height' => '550', 'selected' => true),
@@ -265,6 +272,11 @@ $sizes = array(
 );
 
 $calcs = array(
+
+'regions2016' => array(
+        'name' => 'Volební kalkulačka kraje 2016',
+        'calc' => $regions2016
+    ),
 
   'senat2016' => array(
       'name' => 'Volební kalkulačka Senát 2016',
