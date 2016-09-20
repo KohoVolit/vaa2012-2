@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <p>
                     Zaregistrujte se na Volební kalkulačce:
-                    <ul>
+                    <ul class="hidden-xs">
                         <li>Vždy se o nové kalkulačce dozvíte jako <strong>první</strong>!
                         <li>Registrace je <strong>zdarma</strong>.
                         <li>Dlouhodobě bojujeme za ochranu osobních údajů, Vaše údaje nikomu nedáme.

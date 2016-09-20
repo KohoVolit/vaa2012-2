@@ -6,10 +6,6 @@
 
 session_start();
 
-//AB
-// $random2 = mt_rand(0,1);
-// $_GET['ab-geo'] = $random2;
-
 $relative_path = "../";
 
 include($relative_path . "common.php");
@@ -60,11 +56,24 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
 }
 
 //AB
-// if ($random2 == 1)
-//     $smarty->assign('ab_geo', true);
-// else
-//     $smarty->assign('ab_geo', false);
-//note: there is a change in geo-js.tpl, too
+$random1 = mt_rand(0,1);
+$_GET['ab-color'] = $random1;
+$random2 = mt_rand(0,1);
+$_GET['ab-wording'] = $random2;
+$random3 = mt_rand(0,1);
+$_GET['ab-wording2'] = $random3;
+if ($random1 == 1)
+    $smarty->assign('ab_color', true);
+else
+    $smarty->assign('ab_color', false);
+if ($random2 == 1)
+    $smarty->assign('ab_wording', true);
+else
+    $smarty->assign('ab_wording', false);
+if ($random3 == 1)
+    $smarty->assign('ab_wording2', true);
+else
+    $smarty->assign('ab_wording2', false);
 
 //this page
 
