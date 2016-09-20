@@ -14,5 +14,5 @@
   {if $cc=='us'}
   <a href="http://www.decinskeforum.cz/volby-2016/" target="_blank" type="button" class="btn btn-primary btn-lg sharebutton" id="decinske-forum-link"><i class="fa fa-external-link fa-lg"></i> Volební speciál Děčínského fóra</a>
   {/if}
-  <a href="../../senat-2016/select.php" type="button" class="btn btn-{if ($ab_color)}warning{else}danger{/if} btn-lg sharebutton" id="lower-table"><i class="fa fa-university fa-lg"></i> {if ($ab_wording)}Zkuste i Volební kalkulačku pro Senát!{else}Volební kalkulačka pro Senát{/if}</a>
+  <a href="../../senat-2016/select.php" type="button" class="btn btn-{if ($ab_color)}warning{else}danger{/if} btn-lg sharebutton" id="lower-senate"><i class="fa fa-university fa-lg"></i> {if ($ab_wording)}Zkuste i Volební kalkulačku pro Senát!{else}Volební kalkulačka pro Senát{/if}</a>
 </div>
