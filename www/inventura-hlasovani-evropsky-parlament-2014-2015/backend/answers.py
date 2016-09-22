@@ -6,7 +6,7 @@ import os
 import csv
 
 countries = []
-with open("/home/michal/project/vaa2012-2/dev/ep2015/member_states.csv") as fin:
+with open("/home/michal/project/volebnikalkulacka.cz/dev/ep2015/member_states.csv") as fin:
     csvd = csv.DictReader(fin)
     for row in csvd:
         countries.append(row['code'])
@@ -15,7 +15,7 @@ meps = []
 data = {}
 files = ["meps_current","meps_ins","meps_outs"]
 for f in files:
-    with open("../" + f + ".json") as fin:
+    with open(f + ".json") as fin:
         meps = meps + json.load(fin)
 
 
@@ -32,7 +32,7 @@ g2g = {
 }
 
 ve2ve = {
-    "1":"0773",
+    "1":"0765",
     "2":"0989",
     "3":"0369",
     "4":"0959",
@@ -73,7 +73,7 @@ for mep in meps:
 
 ves = []
 for k in ve2ve:
-    path = "/home/michal/project/vaa2012-2/dev/ep2015/votes_votewatch/" + "vote_event_" + ve2ve[k] + ".json"
+    path = "/home/michal/project/volebnikalkulacka.cz/dev/ep2015/votes_votewatch/" + "vote_event_" + ve2ve[k] + ".json"
     with open(path) as fin:
         votes = json.load(fin)
         for m in votes['all_votes']:

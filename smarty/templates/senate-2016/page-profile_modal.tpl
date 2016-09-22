@@ -9,7 +9,7 @@
             <div class="modal-body">
                 <p>
                     Zaregistrujte se na Volební kalkulačce:
-                    <ul>
+                    <ul class="hidden-xs">
                         <li>Vždy se o nové kalkulačce dozvíte jako <strong>první</strong>!
                         <li>Registrace je <strong>zdarma</strong>.
                         <li>Dlouhodobě bojujeme za ochranu osobních údajů, Vaše údaje nikomu nedáme.
@@ -20,7 +20,7 @@
                     <input type="email" class="form-control" id="registration-email" name="regem" placeholder="jmeno@example.com">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">PSČ <small>(abychom Vás zbytečně neobtěžovali s kalkulačkami, které se Vás netýkají)</small></label>
+                    <label for="exampleInputEmail1">PSČ <small>{if $abrextext==1}(abychom Vás upozornili na Volební kalkulačky přesně pro Vás){else}(abychom Vás zbytečně neobtěžovali s kalkulačkami, které se Vás netýkají){/if}</small></label>
                     <input type="number" class="form-control" id="registration-postcode" name="regpo" placeholder="33199">
                 </div>
                 <div class="checkbox">

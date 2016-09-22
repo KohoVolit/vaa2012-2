@@ -8,12 +8,15 @@ $('document').ready(function() {
 
         cookie = Cookies.get('vkemail');
         if (typeof(cookie) == 'undefined') {
-            if ((abreg == 2) && (slideTo == $('.item').length)) {
-                $('#registration-modal').modal({show: true, backdrop: 'static'})
+            if (slideTo == ($('.item').length - 1)) {
+                $('#registration-modal').modal({show: true, backdrop: 'static'});
             }
-            if ((abreg == 1) && (slideTo == 6)) {
-                $('#registration-modal').modal({show: true, backdrop: 'static'})
-            }
+            // if ((abreg == 2) && (slideTo == ($('.item').length - 1))) {
+            //     $('#registration-modal').modal({show: true, backdrop: 'static'})
+            // }
+            // if ((abreg == 1) && (slideTo == 6)) {
+            //     $('#registration-modal').modal({show: true, backdrop: 'static'})
+            // }
         }
   });
 

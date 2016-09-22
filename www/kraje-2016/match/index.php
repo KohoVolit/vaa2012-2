@@ -56,24 +56,24 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
 }
 
 //AB
-$random1 = mt_rand(0,1);
-$_GET['ab-color'] = $random1;
-$random2 = mt_rand(0,1);
-$_GET['ab-wording'] = $random2;
-$random3 = mt_rand(0,1);
-$_GET['ab-wording2'] = $random3;
-if ($random1 == 1)
-    $smarty->assign('ab_color', true);
-else
-    $smarty->assign('ab_color', false);
-if ($random2 == 1)
-    $smarty->assign('ab_wording', true);
-else
-    $smarty->assign('ab_wording', false);
-if ($random3 == 1)
-    $smarty->assign('ab_wording2', true);
-else
-    $smarty->assign('ab_wording2', false);
+// $random1 = mt_rand(0,1);
+// $_GET['cro-position'] = $random1;
+// $random2 = mt_rand(0,1);
+// $_GET['ab-wording'] = $random2;
+// $random3 = mt_rand(0,1);
+// $_GET['ab-wording2'] = $random3;
+// if ($random1 == 1)
+//     $smarty->assign('cro_position', true);
+// else
+//     $smarty->assign('cro_position', false);
+// if ($random2 == 1)
+//     $smarty->assign('ab_wording', true);
+// else
+//     $smarty->assign('ab_wording', false);
+// if ($random3 == 1)
+//     $smarty->assign('ab_wording2', true);
+// else
+//     $smarty->assign('ab_wording2', false);
 
 //this page
 

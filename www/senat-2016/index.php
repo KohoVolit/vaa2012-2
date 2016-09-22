@@ -36,8 +36,8 @@ $smarty->assign('candidates',$candidates);
 //print_r($candidates);die();
 
 //AB registration
-$abreg = mt_rand(1,2);
-$smarty->assign('abreg', $abreg);
+$abregtext = mt_rand(0,1);
+$smarty->assign('abregtext', $abregtext);
 
 
 $smarty->assign('user', $user);

@@ -53,7 +53,7 @@
           <input type="hidden" name="cc" value="{$cc}" />
 
           <!-- AB profile modal -->
-          <input type="hidden" name="abreg" id="abreg" value="{$abreg}" />
+          <input type="hidden" name="abregtext" id="abregtext" value="{$abregtext}" />
           {include "page-profile_modal.tpl"}
           <script src="{$settings->cdn_domain}{$settings->directory}/js/js.cookie.js"></script>
           <script src="{$settings->cdn_domain}{$settings->directory}/js/ab_profile.js"></script>
