@@ -16,6 +16,7 @@
   {/if}
   <a href="../../senat-2016/select.php" type="button" class="btn btn-danger btn-lg sharebutton" id="lower-senate"><i class="fa fa-university fa-lg"></i>Volební kalkulačka pro Senát</a>
   {if $video_taxes}
+  <h3>Krajský rozpočet ukázaný jednoduše:</h3>
   <iframe width="550" height="309" src="https://www.youtube.com/embed/hjndlS4lpdI" frameborder="0" allowfullscreen></iframe>
   {/if}
 </div>
