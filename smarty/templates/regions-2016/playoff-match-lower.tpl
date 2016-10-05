@@ -7,7 +7,7 @@
   <a href="http://www.decinskeforum.cz/volby-2016/" target="_blank" type="button" class="btn btn-primary btn-lg sharebutton" id="decinske-forum-link"><i class="fa fa-external-link fa-lg"></i> Volební speciál Děčínského fóra</a>
   {/if}
   {* {if $video_taxes} *}
-  <h3>Krajský rozpočet ukázaný jednoduše:</h3>
-  <iframe width="550" height="309" src="https://www.youtube.com/embed/hjndlS4lpdI" frameborder="0" allowfullscreen></iframe>
+  <h3>Jak se volí v krajských volbách v 1 a 1/2 minutě:</h3>
+  <iframe width="550" height="309" src="https://www.youtube.com/embed/xZquzHPHOsE" frameborder="0" allowfullscreen></iframe>
   {*  {/if} *}
 </div>
