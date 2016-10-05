@@ -33,7 +33,7 @@ $handle = fopen($relative_path . 'texts_' . $lang . '.csv', "r");
 $t = csv2array($handle);
 
 //parameters to be passed:
-$parameters = ['ref','hr','key'];
+$parameters = ['ref','hr','key','xorml'];
 $pparameters = [];
 foreach ($parameters as $p) {
     if (isset($_REQUEST[$p]))
