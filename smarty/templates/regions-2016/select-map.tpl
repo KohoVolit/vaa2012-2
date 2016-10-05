@@ -1,4 +1,4 @@
-<img id="mapimg" src="image/kraje.png" border="0" width="600" height="345" orgWidth="600" orgHeight="345" usemap="#map" alt="" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;display: table-cell;"/>
+<img id="mapimg" src="{$settings->cdn_domain}{$settings->directory}/image/kraje.png" border="0" width="600" height="345" orgWidth="600" orgHeight="345" usemap="#map" alt="" style="background-color: rgba(0, 0, 0, 0.2);border-radius: 10px;display: table-cell;"/>
 <map name="map" id="map">
 
     <area id="ka" alt="" title="" href="./?cc=ka{$chunk}" shape="poly" coords="9,126,36,154,76,155,103,144,109,132,103,95,79,87,66,79,39,88,19,108,9,94,3,104,4,95" style="outline:none;" target="_self"     />

@@ -84,7 +84,9 @@
             <p class="lead">
                     Volební kalkulačka pro krajské volby 2016 srovnává Vaše názory a postoje stran, které kandidují do <strong>Vašeho krajského zastupitelstva</strong>.
                     <p>
-                    <a href="kraje-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT VOLEBNÍ KALKULAČKU PRO KRAJE</a>
+                    <a href="" class="btn btn-lg btn-success" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
+                            SPUSTIT VOLEBNÍ KALKULAČKU PRO KRAJE
+                    </a>
             <p class="lead">
                     Volební kalkulačka pro senátní volby 2016 porovnává Vaše názory s postoji <strong>kandidátů do Senátu</strong>.
                     <p>
@@ -97,6 +99,43 @@
 
         </div>
     </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel">Volební kalkulačka pro kraje</h3>
+          </div>
+          <div class="modal-body">
+             <div class="row">
+                 <div class="col-xs-6">
+                     Chci kompletní volební kalkulačku:<br> Po zodpovězení všech zhruba 30 otázek
+                     uvidím svoje srovnání se všemi stranami.
+                 </div>
+                 <div class="col-xs-6">
+                     Už mám vybrané nějaké strany, třeba 2 nebo 3, a chci se mezi nimi lépe rozhodnout:<br> Budu odpovídat jen na ty otázky, v kterých se tyto strany liší a uvidím srovnání jen s těmito stranami.
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-xs-6">
+                     <a href="kraje-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> KOMPLETNÍ VOLEBNÍ KALKULAČKA</a>
+                 </div>
+                 <div class="col-xs-6">
+                     <a href="kraje-2016/playoff/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> PLAYOFF: JEN VYBRANÉ STRANY</a>
+                 </div>
+             </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
                <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT</font></strong> <br>(cena 30Kč, z toho 27Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS ROK KOHOVOLIT</font></strong> <br>(automaticky každý měsíc po 1 rok)</p>
     </div>
                <!-- /Full Page Image Header Area -->
