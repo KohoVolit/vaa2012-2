@@ -1,15 +1,15 @@
 <?php
 session_start();
 
-$relative_path = "";
+$version = "v0.1";
 
 print_r($_COOKIE);
 print_r($_SERVER);
 
 //save results
-save_results($relative_path);
+save_results($version);
 
-function save_results($relative_path) {
+function save_results($version) {
     if(!isset($_COOKIE['vkid'])) {
         $vkid = session_id();
         setcookie('vkid', $vkid, time() + (60 * 60 * 24 * 365 * 15), "/");
@@ -19,10 +19,12 @@ function save_results($relative_path) {
 
     $arr = [
         date("Y-m-d H:i:s"),
+        $version,
         $vkid,
         session_id(),
         json_encode($_REQUEST),
         json_encode($_COOKIE),
+        $_SERVER['REMOTE_ADDR'],
         $_SERVER['HTTP_REFERER'],
     ];
     $file = fopen($relative_path . 'log.csv','a');
