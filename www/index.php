@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačky. Krajské volby 2016. Senátní volby 2016. Inventura hlasování Parlamentu ČR 2015. Inventura hlasování EP 2014-2015">
+    <meta name="description" content="Volební kalkulačky. Volby 2017. Inventura hlasování Parlamentu ČR.">
     <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -16,7 +16,7 @@
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2016</title>
+    <title>Volební kalkulačka 2017</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -78,17 +78,31 @@
 
 		<div class="vert-text">
 
-			<h1>Volební kalkulačka 2016</h1>
+			<h1>Volební kalkulačka 2017</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
+        <p class="lead">
+                    Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong>.
+                    <p>
+                    <a href="" class="btn btn-lg btn-success disabled" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
+                            BUDE SPUŠTĚNA DO <strong>19.9.2017</strong>
+                    </a>
+
             <p class="lead">
-                    Volební kalkulačka pro krajské volby 2016 srovnává Vaše názory a postoje stran, které kandidují do <strong>Vašeho krajského zastupitelstva</strong>.
+                        Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory a <strong>skutečná hlasování</strong>, která se konala ve <strong>Sněmovně Parlamentu ČR</strong>.
+                        <p>
+                        <a href="" class="btn btn-lg btn-success disabled" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
+                                BUDE SPUŠTĚNA DO <strong>1.9.2017</strong>
+                        </a>
+
+            <p class="lead">
+                    Volební kalkulačka pro krajské volby 2016 srovnává Vaše názory a postoje stran, které kandidovaly do <strong>Vašeho krajského zastupitelstva 2016</strong>.
                     <p>
                     <a href="" class="btn btn-lg btn-success" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
                             SPUSTIT VOLEBNÍ KALKULAČKU PRO KRAJE
                     </a>
             <p class="lead">
-                    Volební kalkulačka pro senátní volby 2016 porovnává Vaše názory s postoji <strong>kandidátů do Senátu</strong>.
+                    Volební kalkulačka pro senátní volby 2016 porovnává Vaše názory s postoji <strong>kandidátů do Senátu 2016</strong>.
                     <p>
                     <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT VOLEBNÍ KALKULAČKU PRO SENÁT</a>
 
