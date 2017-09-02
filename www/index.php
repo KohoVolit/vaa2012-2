@@ -82,7 +82,7 @@
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
                 <p class="lead">
-                            Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory a <strong>45 skutečných hlasování</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
+                            Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory s poslanci na <strong>45 skutečných hlasováních</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
                             <p>
                             <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64url_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
                                     SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
@@ -102,7 +102,7 @@
     </div>
 
 
-               <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT</font></strong> <br>(cena 30Kč, z toho 27Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS ROK KOHOVOLIT</font></strong> <br>(automaticky každý měsíc po 1 rok)</p>
+               <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT 90</font></strong> <br>(cena 90Kč, z toho 87Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS TRV KOHOVOLIT 90</font></strong> <br>(automaticky každý měsíc)</p>
     </div>
                <!-- /Full Page Image Header Area -->
 
