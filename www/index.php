@@ -81,6 +81,13 @@
 			<h1>Volební kalkulačka 2017</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
+                <p class="lead">
+                            Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory a <strong>45 skutečných hlasování</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
+                            <p>
+                            <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64url_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
+                                    SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
+                            </a>
+
         <p class="lead">
                     Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong>.
                     <p>
@@ -88,12 +95,7 @@
                             BUDE SPUŠTĚNA DO <strong>19.9.2017</strong>
                     </a>
 
-            <p class="lead">
-                        Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory a <strong>skutečná hlasování</strong>, která se konala ve <strong>Sněmovně Parlamentu ČR</strong>.
-                        <p>
-                        <a href="" class="btn btn-lg btn-success disabled" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
-                                BUDE SPUŠTĚNA DO <strong>1.9.2017</strong>
-                        </a>
+
 
             <p class="lead">
                     Volební kalkulačka pro krajské volby 2016 srovnává Vaše názory a postoje stran, které kandidovaly do <strong>Vašeho krajského zastupitelstva 2016</strong>.
@@ -114,41 +116,6 @@
         </div>
     </div>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h3 class="modal-title" id="myModalLabel">Volební kalkulačka pro kraje</h3>
-          </div>
-          <div class="modal-body">
-             <div class="row">
-                 <div class="col-xs-6">
-                     Chci kompletní volební kalkulačku:<br> Po zodpovězení všech zhruba 30 otázek
-                     uvidím svoje srovnání se všemi stranami.
-                 </div>
-                 <div class="col-xs-6">
-                     Už mám vybrané nějaké strany, třeba 2 nebo 3, a chci se mezi nimi lépe rozhodnout:<br> Budu odpovídat jen na ty otázky, v kterých se tyto strany liší a uvidím srovnání jen s těmito stranami.
-                 </div>
-             </div>
-             <div class="row">
-                 <div class="col-xs-6">
-                     <a href="kraje-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> KOMPLETNÍ VOLEBNÍ KALKULAČKA</a>
-                 </div>
-                 <div class="col-xs-6">
-                     <a href="kraje-2016/playoff/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> PLAYOFF: JEN VYBRANÉ STRANY</a>
-                 </div>
-             </div>
-          </div>
-          <!-- <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div> -->
-        </div>
-      </div>
-    </div>
 
                <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT</font></strong> <br>(cena 30Kč, z toho 27Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS ROK KOHOVOLIT</font></strong> <br>(automaticky každý měsíc po 1 rok)</p>
     </div>
