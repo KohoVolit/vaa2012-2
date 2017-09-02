@@ -96,21 +96,6 @@
                     </a>
 
 
-
-            <p class="lead">
-                    Volební kalkulačka pro krajské volby 2016 srovnává Vaše názory a postoje stran, které kandidovaly do <strong>Vašeho krajského zastupitelstva 2016</strong>.
-                    <p>
-                    <a href="" class="btn btn-lg btn-success" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
-                            SPUSTIT VOLEBNÍ KALKULAČKU PRO KRAJE
-                    </a>
-            <p class="lead">
-                    Volební kalkulačka pro senátní volby 2016 porovnává Vaše názory s postoji <strong>kandidátů do Senátu 2016</strong>.
-                    <p>
-                    <a href="senat-2016/select.php?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php $hr=$_SERVER['HTTP_REFERER']; //if ($hr!="") {echo base64url_encode($hr);} ?>" class="btn btn-lg btn-success" style="white-space: normal;"> SPUSTIT VOLEBNÍ KALKULAČKU PRO SENÁT</a>
-
-
-
-
                 <p>
 
         </div>
