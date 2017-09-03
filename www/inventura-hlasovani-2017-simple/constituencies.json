@@ -1,0 +1,80 @@
+{
+    "jc":{
+        "code": "jc",
+        "name": "Jihočeský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=970609271&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/16jUP-7rVtid7C1pSbW76YhPcGDoh69nHuS5eH_fai_0/pub?gid=1842052224&single=true&output=csv"
+    },
+    "jm":{
+        "code": "jm",
+        "name": "Jihomoravský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=1961847351&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1DbgXjedcMPksVo7RanPIJcuXph6F41jzy5L51yqqhuw/pub?gid=1451916614&single=true&output=csv"
+    },
+    "ka":{
+        "code": "ka",
+        "name": "Karlovarský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=133667014&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1UZBOjlF83szct9TH7mvMSX0T-iRdzNdjY4oKwOpM7zY/pub?gid=1792020399&single=true&output=csv"
+    },
+    "kr":{
+        "code": "kr",
+        "name": "Královéhradecký kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=1640771478&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/104gSAv7gVaDAn45dXg9C9MTk9m8OyBJwzpM_DqwVgGw/pub?gid=1949405637&single=true&output=csv"
+    },
+    "li":{
+        "code": "li",
+        "name": "Liberecký kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=196866129&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1IwO6JsNG33MgloHG5fFMINbzff84RX2haTsHcaKieBk/pub?gid=95610857&single=true&output=csv"
+    },
+    "mo":{
+        "code": "mo",
+        "name": "Moravskoslezský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=338815956&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1IoRnRYCLH8Xdb9pHDshrUTTLepDzcIRRVnhXunXUV7k/pub?gid=731876674&single=true&output=csv"
+    },
+    "ol":{
+        "code": "ol",
+        "name": "Olomoucký kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=1626887350&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/12z_nr7_bxmOIMPIp9PiggsaC4xVqhiCSm3245G91DV0/pub?gid=1774084242&single=true&output=csv"
+    },
+    "pa":{
+        "code": "pa",
+        "name": "Pardubický kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=1771965867&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1ESu9iOW7lNZNxs8_1AYoitYQAdWMn1vBUGVJ3nP9lJU/pub?gid=894391153&single=true&output=csv"
+    },
+    "pl":{
+        "code": "pl",
+        "name": "Plzeňský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=176959617&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1cB8WuF8S_LJgET2dWZFSZYW0G0egmf37fHZwJPTFHYY/pub?gid=1597235823&single=true&output=csv"
+    },
+    "st":{
+        "code": "st",
+        "name": "Středočeský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=1921293228&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1IxFwCGRCPWUg9nspnVBQKGNyVavzpGXzTAH6TBy0uVc/pub?gid=1775487043&single=true&output=csv"
+    },
+    "us":{
+        "code": "us",
+        "name": "Ústecký kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=832443832&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1mAYc4heyshb9wOmZb-U-iP4ZUjBrf9CUuR40mR1HFck/pub?gid=2116057155&single=true&output=csv"
+    },
+    "vy":{
+        "code": "vy",
+        "name": "Kraj Vysočina",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=240310821&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/1QaxA-ZyfpV4snm-fVt02SOmC7Of-5QzVdN3cIlhl9HE/pub?gid=1991375082&single=true&output=csv"
+    },
+    "zl":{
+        "code": "zl",
+        "name": "Zlínský kraj",
+        "questions": "https://docs.google.com/spreadsheets/d/1uMR5rHewGIU57oxEg00bFAMvpEX7IYmGyjO09_odl0c/pub?gid=1981038170&single=true&output=csv",
+        "answers": "https://docs.google.com/spreadsheets/d/166CwEt6yR1A00iSmctzdzpHksv53weMO1nYPCtftyng/pub?gid=2039643536&single=true&output=csv"
+    }
+}

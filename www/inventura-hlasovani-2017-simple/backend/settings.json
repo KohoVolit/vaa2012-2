@@ -1,0 +1,12 @@
+{
+    "voters_url":"https://docs.google.com/spreadsheets/d/16PK0KkNlPgzCSCnG1NYNr_fr49zqm7Dp0m9MBWtkEfo/pub?gid=0&single=true&output=csv",
+    "answers_codes_column": 3,
+    "__number_of_questions": 64,
+    "number_in_questionnaire_column": 6,
+    "yes": "Ano",
+    "no": "Ne",
+    "picture_prepend": "kraje-2016/image/logo/",
+    "picture_append": ".png",
+    "small_picture_prepend": "kraje-2016/image/logo/80/",
+    "small_picture_append": ".png"
+}
