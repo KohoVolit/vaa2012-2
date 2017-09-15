@@ -1,0 +1,59 @@
+{
+    "election_code": "regionals-2016",
+    "directory":"kraje-2016",
+    "template": "regions-2016",
+    "defaults" : {
+        "language": "cs"
+    },
+    "languages": [
+        "cs"
+    ],
+    "clicks": true,
+    "fingerprint": true,
+    "customization": true,
+    "app_css": false,
+    "background_image": "image/bg.jpg",
+    "match": {
+        "winner": {
+            "first_row": ["abbreviation"],
+            "second_row": [],
+            "picture": "small_picture",
+            "picture_width": "120",
+            "picture_height": "120",
+            "picture_alt": "name",
+            "picture_title": "name",
+            "picture_class": "img-rounded"
+        },
+        "fb": {
+            "picture": "picture",
+            "winner": "name",
+            "winner_abbr": "abbreviation"
+        },
+        "twitter": {
+            "winner": "abbreviation"
+        },
+        "table": {
+            "picture": "small_picture",
+            "picture_width": "80",
+            "picture_height": "80",
+            "picture_alt": "abbreviation",
+            "picture_title": "abbreviation",
+            "picture_class": "img-rounded",
+            "first_row": ["abbreviation"],
+            "second_row": ["name"],
+            "third_row": []
+        },
+        "comparison": {
+            "name": "abbreviation"
+        }
+    },
+    "table": {
+        "picture": "picture",
+        "picture_width": "40",
+        "picture_height": "40",
+        "picture_alt": "abbreviation",
+        "picture_title": "abbre",
+        "picture_class": "abbreviation",
+        "name": ["abbreviation"]
+    }
+}
