@@ -55,6 +55,7 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
     header('Content-type: application/json');
     echo json_encode($results);
+<<<<<<< HEAD
     save_results($relative_path);
     exit();
 }
@@ -64,17 +65,33 @@ echo "
 <link href='https://volebnikalkulacka.cz/kraje-2016/css/bootstrap.min.css' rel='stylesheet'>
 </head><body>
 <style>.table{max-width:666px; margin-top:50px;} .container{}</style>";
+=======
+    //save_results($relative_path,$cc);
+    exit();
+}
+
+echo "<style>.table{max-width:666px; margin-top:50px;} .container{}</style>";
+>>>>>>> 8b4914a959cec3d09da0963aa854e5094ddc96e6
 
 echo "<div class='container'><table class='table'>";
 foreach($results as $row) {
     echo "<tr><td><img src='https://volebnikalkulacka-1d3d.kxcdn.com/cs/inventura-hlasovani-2017/statics/logos/" . $row['party_logo'] . ".png'>";
     echo "<td>" . $row['name'];
+<<<<<<< HEAD
     //echo "<td>" . $row['party_abbreviation'];
     echo "<td style='text-align:left'>" . $row['result_percent'] . '%';
 
 
 }
 echo "</table></div></body></html>";
+=======
+    echo "<td>" . $row['party_abbreviation'];
+    echo "<td>" . $row['result_percent'] . '%';
+
+    
+}
+echo "</table></div>";
+>>>>>>> 8b4914a959cec3d09da0963aa854e5094ddc96e6
 
 //AB
 // $random1 = mt_rand(0,1);
@@ -98,6 +115,7 @@ echo "</table></div></body></html>";
 
 //this page
 
+<<<<<<< HEAD
 //$url = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ;
 
 //$smarty->assign('query_string', $_SERVER['QUERY_STRING']);
@@ -110,6 +128,19 @@ echo "</table></div></body></html>";
 //save results
 echo 'AAA';
 save_results($relative_path);
+=======
+$url = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ;
+
+$smarty->assign('query_string', $_SERVER['QUERY_STRING']);
+$smarty->assign('results', $results);
+$smarty->assign('url',$url);
+$smarty->assign('user',$user_json);
+$smarty->assign('answers_json',$answers_json);
+$smarty->display('match.tpl');
+
+//save results
+save_results($relative_path,$cc);
+>>>>>>> 8b4914a959cec3d09da0963aa854e5094ddc96e6
 
 function arr2obj($arr) {
     $out = new stdClass();
@@ -133,7 +164,11 @@ function get_user_values_simple() {
    return $out;
 }
 
+<<<<<<< HEAD
 function save_results($relative_path) {
+=======
+function save_results($relative_path,$cc) {
+>>>>>>> 8b4914a959cec3d09da0963aa854e5094ddc96e6
     if(!isset($_COOKIE['vkid'])) {
         $vkid = session_id();
         setcookie('vkid', $vkid, time() + (60 * 60 * 24 * 365 * 15), "/");
@@ -175,9 +210,12 @@ function calc_match($user,$set,$extra=2) {
               $sum = $sum + $w*$s->votes->$key*sign($uv);
               $count = $count + $w;
             }
+<<<<<<< HEAD
             else {
                 $count = $count + 1;
             }
+=======
+>>>>>>> 8b4914a959cec3d09da0963aa854e5094ddc96e6
           }
         }
         if ($count == 0) $count = 1; // to allow match = 0/1 = 0;
