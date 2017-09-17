@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 webpackJsonp([20],[function(t,e,n){"use strict";(function(t){/*!
-=======
-webpackJsonp([19],[function(t,e,n){"use strict";(function(t){/*!
->>>>>>> 8b4914a959cec3d09da0963aa854e5094ddc96e6
  * Vue.js v2.3.4
  * (c) 2014-2017 Evan You
  * Released under the MIT License.
