@@ -163,7 +163,6 @@ function save_results($relative_path) {
 * calculates results for one set
 */
 function calc_match($user,$set,$extra=2) {
-    print_r($user);
   $results = array();
     foreach ($set as $s) {
         $sum = 0;
