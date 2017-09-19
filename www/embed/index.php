@@ -1,7 +1,7 @@
 <?php
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
+require('/usr/local/lib/php/Smarty/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir('../../smarty/templates');
@@ -55,6 +55,22 @@ foreach ($constit as $ckey=>$c) {
     'friendly_url' => (($ckey==0) ? 'senat-2012/?' : 'senat-2012/page.php?constituency_code='.$ckey.'&'),
   );
 }
+
+$inventory2017 = array (
+    array(
+        'name' => 'Inventura hlasování ve Sněmovně 2013-2017',
+        'friendly_url' => 'cs/inventura-hlasovani-2017',
+        'custom' => true
+    )
+);
+
+$calc2017 = array (
+    array(
+        'name' => 'Volební kalkulačka 2017',
+        'friendly_url' => 'cs/volby-2017',
+        'custom' => true
+    )
+);
 
 $inventory2014 = array (
   array(
@@ -272,6 +288,15 @@ $sizes = array(
 );
 
 $calcs = array(
+
+'calc2017' => array(
+    'name' => 'Volební kalkulačka 2017',
+    'calc' => $calc2017
+),
+'inventory2017' => array(
+    'name' => 'Inventura hlasování 2013-2017',
+    'calc' => $inventory2017
+),
 
 'regions2016' => array(
         'name' => 'Volební kalkulačka kraje 2016',
