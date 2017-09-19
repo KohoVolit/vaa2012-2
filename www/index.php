@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačky. Volby 2017. Inventura hlasování Parlamentu ČR.">
+    <meta name="description" content="Volební kalkulačka 2017. Nejužitečnějších 5 minut před volbami">
     <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -81,19 +81,25 @@
 			<h1>Volební kalkulačka 2017</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
+                <p>
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        Volební kalkulačka 2017 bude představena v Q&amp;A <strong>20.9.2017 v 10:00</strong> <a href="https://www.facebook.com/skop.michal">v živém videu na Facebooku</a> jedním z autorů Michal Škopem.
+                    </div>
+                </p>
+
+                <p class="lead">
+                            Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong> na 35 otázkách.
+                            <p>
+                            <a href="cs/volby-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                    SPUSTIT VOLEBNÍ KALKULAČKU 2017
+                            </a>
+
                 <p class="lead">
                             Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory s poslanci na <strong>45 skutečných hlasováních</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
                             <p>
-                            <a target="_blank" href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                            <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
                                     SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
                             </a>
-
-        <p class="lead">
-                    Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong>.
-                    <p>
-                    <a href="" class="btn btn-lg btn-success disabled" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
-                            BUDE SPUŠTĚNA <strong>19.09.2017 v 19:09</strong>
-                    </a>
 
 
                 <p>
