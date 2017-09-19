@@ -27,7 +27,7 @@ function save_results($version) {
         $_SERVER['REMOTE_ADDR'],
         $_SERVER['HTTP_REFERER'],
     ];
-    $file = fopen($relative_path . 'log.csv','a');
+    $file = fopen('log.csv','a');
     fputcsv($file,$arr);
     fclose($file);
 }
