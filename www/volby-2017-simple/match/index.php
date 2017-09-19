@@ -65,9 +65,11 @@ echo "
 </head><body>
 <style>.table{max-width:666px; margin-top:50px;} .container{}</style>";
 
-echo "<div class='container'><table class='table'>";
+echo "<div class='container'>
+<h3>Moje shoda se stranami</h3>
+<table class='table'>";
 foreach($results as $row) {
-    echo "<tr><td><img src='https://volebnikalkulacka-1d3d.kxcdn.com/cs/inventura-hlasovani-2017/statics/logos/" . $row['party_logo'] . ".png'>";
+    echo "<tr><td><img src='https://volebnikalkulacka-1d3d.kxcdn.com/cs/volby-2017/statics/38x38/" . $row['picture'] . "'>";
     echo "<td>" . $row['name'];
     //echo "<td>" . $row['party_abbreviation'];
     echo "<td style='text-align:left'>" . $row['result_percent'] . '%';
@@ -161,6 +163,7 @@ function save_results($relative_path) {
 * calculates results for one set
 */
 function calc_match($user,$set,$extra=2) {
+    print_r($user);
   $results = array();
     foreach ($set as $s) {
         $sum = 0;

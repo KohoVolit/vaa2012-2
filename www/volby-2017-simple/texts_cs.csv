@@ -1,0 +1,68 @@
+code,text
+author,KohoVolit.eu
+description,Spočítejte si shodu se stranami
+keywords,"volby, volební kalkulačka, volební test"
+og:image,https://volebnikalkulacka.cz/image/logo.jpg
+calc,Volební kalkulačka
+calc_name,Volební kalkulačka 2016
+info,Info
+url,https://volebnikalkulacka.cz/
+title,Volební kalkulačka 2016 | Volební kalkulačka
+author_link,http://kohovolit.eu
+licence,Creative Commons BY 4.0
+year,2016
+footer_text,Volební kalkulačky pro Vás už od roku 2006 vytváří sdružení <a href='http://kohovolit.eu'>KohoVolit.eu</a>
+ie8,Aplikace požaduje Internet Explorer vyšší verze než 8
+opera11,Aplikace požaduje prohlížeč Opera vyšší verze než 11
+google_analytics_code,UA-8592359-7
+yandex_metrica_code,35615280
+page_question_yes,ANO
+page_question_no,NE
+page_question_neutral,nevím
+page_question_neutral_add, / je mi to jedno
+page_important_questions,Důležité otázky
+page_important_legend,"<strong>Označte otázky, ktoré jsou pro Vás nejdůležitější</strong>. Zpřesníte tím výsledek. Tento krok není povinný a můžete ho přeskočit."
+page_important_skip,Přeskočit
+page_important_results,Výsledky
+document_link,Dokument
+match_save,Uložit svoje hlasování
+result_winner_share,Sdílej výsledky na Facebooku
+result_fb_appid,200785490055088
+result_fb_picture_link,evropsky-parlament-2014/image/logo
+result_fb_name,s nimi se nejvíc shodnu ve Volební kalkulačce!
+result_fb_description_1,Moje nejvyšší shoda ve Volební kalkulačce za
+result_fb_description_and,a
+result_fb_description_only,jen
+result_fb_description_2,", nejnižší"
+result_fb_description_3,"Zjistěte, s kým se nejvíc shodnete na VolebniKalkulacka.cz"
+result_fb_redirect_link,https://volebnikalkulacka.cz/
+result_fb_link,https://volebnikalkulacka.cz/
+result_fb_action,"[{'name':'Koho volit?','link':'http://volebnikalkulacka.cz/'}]"
+result_twitter_text_1,Moja Volebná kalkulačka: 1.
+result_twitter_text_2,", nejhorší:"
+result_twitter_redirect_link,https://volebnikalkulacka.cz/
+result_twitter_account,KohoVolitEU
+result_twitter_hashtags,volby #volby2016
+result_share,Sdílej výsledek
+result_results,Výsledky: kliknutím na jméno zobrazíte detailní porovnání
+result_support,"<strong>Podpořte tvorbu nezávislých Volebních kalkulaček.</strong><br/> Pošlete SMS na&nbsp;číslo&nbsp;<strong><span class='colorstrong'>87777</span></strong> s&nbsp;textem <strong><span class='colorstrong'>DMS&nbsp;KOHOVOLIT</span></strong> (cena 30Kč, z toho 28Kč pro sdružení KohoVolit.eu) nebo <strong><span class='colorstrong'>DMS&nbsp;ROK&nbsp;KOHOVOLIT</span></strong> (automaticky každý měsíc po 1 rok)"
+result_comparison,Porovnání
+result_close,Zavřít
+result_yes,Ano
+result_no,Ne
+result_question,Otázka
+result_save_description,"K výsledků svého hlasování se můžete kdykoliv vrátit, pokud si skopírujete celou tuto adresu:"
+me,Já
+table_title,Přehled odpovědí | Volební kalkulačka
+table_header,Přehled odpovědí
+table_header_small,"včetně otázek, které nebyly zařazeny do kalkulačky"
+table_info,"Tip: u odpovedí označených kroužkem (<span class='text-success'><i class='fa fa-check-circle-o'></i></span>,<span class='fa-stack'><span class='text-danger'><i class='fa fa-circle-o fa-stack-1x'> </i> <i class='fa fa-close fa-stack-1x'> </i></span></span>, <span class='text-muted'><i class='fa fa-circle-o'> </i></span>) kandidáti připsali svůj komentář, zobrazíte ho při kliknutí nebo najetí myší"
+table_comment,Komentář
+table_included,"Otázky označené plnou hvězdičkou (<i class='fa fa-star'></i>) byly zařazené do kalkulačky, prázdnou (<i class='fa fa-star-o'></i>) nikoliv"
+select_constituency,"Vyberte svůj kraj z mapy nebo seznamu:"
+download_everything_in_json,"Stáhnout všechna data ve formátu <em>json</em>"
+download_questions,Otázky
+download_answers,Odpovědi a info o kandidátech
+download_details,Komentáře kandidátů
+comparison_cro_link,Vizitka kandidáta od Českého rozhlasu
+page_important_next,Dále
