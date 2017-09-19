@@ -92,7 +92,7 @@
                     Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong>.
                     <p>
                     <a href="" class="btn btn-lg btn-success disabled" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
-                            BUDE SPUŠTĚNA DO <strong>19.9.2017</strong>
+                            BUDE SPUŠTĚNA <strong>19.09.2017 v 19:09</strong>
                     </a>
 
 
