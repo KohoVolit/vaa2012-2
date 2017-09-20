@@ -173,10 +173,10 @@ function calc_match($user,$set,$extra=2) {
             //existing divisions only:
             if ((property_exists($s,'votes')) and (property_exists($s->votes,$key))) {
               $sum = $sum + $w*$s->votes->$key*sign($uv);
-              $count = $count + $w;
+               $count = $count + $w*abs(sign($uv));
             }
             else {
-                $count = $count + 1;
+                $count = $count + abs(sign($uv));
             }
           }
         }

@@ -28,6 +28,8 @@ $answers = arr2obj($answers_arr);
 
 $user = get_user_values_simple();
 
+// print_r($user);
+
 //calculate match
 $results = calc_match($user,$answers,2);
 
@@ -110,7 +112,7 @@ echo "</table></div></body></html>";
 //$smarty->display('match.tpl');
 
 //save results
-echo 'AAA';
+// echo 'AAA';
 save_results($relative_path);
 
 function arr2obj($arr) {
@@ -172,13 +174,14 @@ function calc_match($user,$set,$extra=2) {
             //weight
             if (isset($user['weight']->$key) and $user['weight']->$key == "true") $w = $extra;
             else $w = 1;
+            // echo "w: " . $w . "<br/>\n";
             //existing divisions only:
             if ((property_exists($s,'votes')) and (property_exists($s->votes,$key))) {
               $sum = $sum + $w*$s->votes->$key*sign($uv);
-              $count = $count + $w;
+              $count = $count + $w*abs(sign($uv));
             }
             else {
-                $count = $count + 1;
+                $count = $count + abs(sign($uv));
             }
           }
         }
