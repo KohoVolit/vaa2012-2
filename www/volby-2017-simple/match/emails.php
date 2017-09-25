@@ -6,7 +6,8 @@ $arr = [
     $_GET['campaign'],
     $_GET['value'],
     $_GET['type'],
-    $_GET['attributes']
+    $_GET['attributes'],
+    $_SERVER['REMOTE_ADDR']
 ];
 $file = fopen('emails.csv','a');
 fputcsv($file,$arr);
