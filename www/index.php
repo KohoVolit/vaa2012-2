@@ -26,6 +26,10 @@
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
 	<link rel="stylesheet" href="css/vaa2014.css">
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<style>
 	body {
       padding-top: 0;
@@ -97,6 +101,79 @@
 
 
                 <p>
+                    <!-- Hithit -->
+                <style>
+                .low {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    height: 10%;
+                    width: 100%;
+                    color: white;
+                    font-size: 1.2em;
+                    color: white;
+                    background-color: #080;
+                }
+                /*.low {
+                    height: 2em;
+                    font-size: 1em;
+                }*/
+                    a .low {
+                    color: white;
+                    }
+                    .right {
+                    float: right;
+                    color: black;
+                    font-size: 2.5em;
+                    height: 5em;
+                    cursor: pointer;
+                    }
+                    .right.low {
+                    font-size: 1em;
+                    }
+                    .underline {
+                    text-decoration: underline;
+                    }
+                    .right-hide {
+                    font-size: 0.8rem;
+                }
+                </style>
+                <div class="low bg-success">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <div class="right" :class="{ 'low': low }">
+                                <q-icon :name="iconName" @click="toggle"></q-icon>
+                                <div v-if="notLow" class="right-hide">skrýt</div>
+                            </div>
+                            <a href="https://www.hithit.com/cs/project/4067/volebni-kalkulacka-on-steroids" target="_blank"  id="hithit" style="color:white;">
+
+                            <span v-if="low">Podpořte volební kalkulačku na Hithitu!</span><br/>
+                            <span class="underline">Klikněte pro více informací.</span>
+                            <br/>
+                             </a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                function getCookieValue(a) {
+                    var b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+                    return b ? b.pop() : '';
+                }
+                $(function() {
+                    $('#hithit').click(function(){
+                        $.ajax({
+                            url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/click.php',
+                            type: 'get',
+                            data: {
+                                vkid: getCookieValue("vkid"),
+                                calc: 'cz2017fp',
+                                campaign: 'frontpage_hithit'
+                            }
+                        })
+                    });
+                })
+                </script>
+                <!-- /Hithit -->
 
         </div>
     </div>
@@ -142,9 +219,7 @@
     ?>
     <!-- /cookie -->
 
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
     <script>
