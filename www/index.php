@@ -81,12 +81,6 @@
 			<h1>Volební kalkulačka 2017</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
-                <p>
-                    <div class="alert alert-info alert-dismissible" role="alert">
-                        Volební kalkulačka 2017 bude představena v Q&amp;A <strong>20.9.2017 v 10:00</strong> <a href="https://www.facebook.com/skop.michal">v živém videu na Facebooku</a> jedním z autorů Michal Škopem.
-                    </div>
-                </p>
-
                 <p class="lead">
                             Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong> na 35 otázkách.
                             <p>
