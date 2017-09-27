@@ -141,10 +141,6 @@
                 <div class="low bg-success">
                     <div class="row">
                         <div class="col-xs-12 text-center">
-                            <div class="right" :class="{ 'low': low }">
-                                <q-icon :name="iconName" @click="toggle"></q-icon>
-                                <div v-if="notLow" class="right-hide">skrýt</div>
-                            </div>
                             <a href="https://www.hithit.com/cs/project/4067/volebni-kalkulacka-on-steroids" target="_blank"  id="hithit" style="color:white;">
 
                             <span v-if="low">Podpořte volební kalkulačku na Hithitu!</span><br/>
@@ -203,7 +199,12 @@
   <li><a href="embed/">Vložit kalkulačku na web</a></li>
   <li><a href="archive/">Archiv</a></li>
 </ul>
-					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2014</p>
+					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2017</p>
+                <br/>
+                <br/>
+                <br/>
+
+            </br/>
                 </div>
             </div>
         		</div>
