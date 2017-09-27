@@ -98,6 +98,16 @@
                             <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
                                     SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
                             </a>
+                            <hr />
+                    <p class="lead">
+                            <small>
+                                <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2017 se <strong>100 otázkami!</strong> Pokud Vám nestačí 35 otázek.
+                            </small>
+                                <p>
+                                <a href="cs/volby-2017-ultimate/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
+                                        SPUSTIT DLOOOOOHOU VOLEBNÍ KALKULAČKU 2017
+                                </a>
+
 
 
                 <p>
