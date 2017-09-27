@@ -1,0 +1,12 @@
+{
+    "answers_url":"https://docs.google.com/spreadsheets/d/1jLyUxa_bhx38qj58wsOlLseESRg9jwl54cJJW6DmSiY/export?format=csv&id=1jLyUxa_bhx38qj58wsOlLseESRg9jwl54cJJW6DmSiY&gid=1934599949",
+    "voters_url":"https://docs.google.com/spreadsheets/d/1-01c3mRSaMewzDL_43wg3icEHTSEjONBXeMArEwOLLo/export?format=csv&id=1-01c3mRSaMewzDL_43wg3icEHTSEjONBXeMArEwOLLo&gid=0",
+    "questions_url": "https://docs.google.com/spreadsheets/d/1DmMit3wN-uHkcYD3cr3XmR_rKeEdPAqKutDoH_D3D7I/export?format=csv&id=1DmMit3wN-uHkcYD3cr3XmR_rKeEdPAqKutDoH_D3D7I&gid=26595517",
+    "answers_codes_column": 3,
+    "number_of_questions": 118,
+    "number_in_questionnaire_column": 0,
+    "yes": "Ano",
+    "no": "Ne",
+    "picture_prepend": "",
+    "picture_append": ".png"
+}
