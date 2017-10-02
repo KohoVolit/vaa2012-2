@@ -4,7 +4,7 @@ $arr = [
     $_GET['vkid'],
     $_GET['calc'],
     $_GET['action'],
-    $_GET,
+    json_encode($_GET),
     $_SERVER['REMOTE_ADDR']
 ];
 $file = fopen('actions.csv','a');
