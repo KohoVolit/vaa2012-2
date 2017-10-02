@@ -10,3 +10,4 @@ $arr = [
 $file = fopen('actions.csv','a');
 fputcsv($file,$arr);
 fclose($file);
+?>
