@@ -230,6 +230,17 @@
     ?>
     <!-- /cookie -->
 
+    <!-- session -->
+    <?php
+        file_get_contents("https://volebnikalkulacka.cz/session/?" . $_SERVER['QUERY_STRING'])
+    ?>
+    <script>
+        $.ajax({
+            "https://volebnikalkulacka.cz/session/" + location.search
+        })
+    </script>
+    <!-- /session -->
+
 
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
