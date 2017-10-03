@@ -41,6 +41,8 @@ error_reporting(0);
             <h2>Jste odhlášeni: <?php echo base64_decode($_GET['e']);?></h2>
             Je nám líto, že už nechcete dostávat informace o volebních kalkulačkách.<br />
             Spojit se s námi můžete ale i na <a href="https://www.facebook.com/KohoVolit.eu/">Facebooku</a> nebo pomocí <a href="http://kohovolit.eu/cs/kontakt/">konktatního formuláře <i class="fa fa-heart" style="font-size:10em"></i></a>
+            <br />
+            <a class="btn btn-primary" href="https://volebnikalkulacka.cz"> Spustit volební kalkulačku</a>
         </div>
     </div>
 
@@ -57,9 +59,9 @@ error_reporting(0);
 
                        <hr>
    					<ul class="nav nav-pills" style="color: #428BCA;">
-                     <li><a href="info/">O projektu</a></li>
-                     <li><a href="embed/">Vložit kalkulačku na web</a></li>
-                     <li><a href="archive/">Archiv</a></li>
+                     <li><a href="/info/">O projektu</a></li>
+                     <li><a href="/embed/">Vložit kalkulačku na web</a></li>
+                     <li><a href="/archive/">Archiv</a></li>
                    </ul>
    					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2017</p>
                    <br/>
