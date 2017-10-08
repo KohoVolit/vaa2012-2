@@ -9,7 +9,7 @@
         "cs",
         "en"
     ],
-    "cdn_domain__": "https://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain__": "https://volebnikalkulacka.azureedge.net/",
     "cdn_domain": "https://volebnikalkulacka.cz/",
     "cdn_domain_": "http://10.0.0.219/michal/project/volebnikalkulacka.cz/www/",
     "match": {

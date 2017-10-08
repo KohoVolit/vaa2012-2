@@ -67,7 +67,7 @@ echo "
 
 echo "<div class='container'><table class='table'>";
 foreach($results as $row) {
-    echo "<tr><td><img src='https://volebnikalkulacka-1d3d.kxcdn.com/cs/inventura-hlasovani-2017/statics/logos/" . $row['party_logo'] . ".png'>";
+    echo "<tr><td><img src='https://volebnikalkulacka.azureedge.net/cs/inventura-hlasovani-2017/statics/logos/" . $row['party_logo'] . ".png'>";
     echo "<td>" . $row['name'];
     //echo "<td>" . $row['party_abbreviation'];
     echo "<td style='text-align:left'>" . $row['result_percent'] . '%';

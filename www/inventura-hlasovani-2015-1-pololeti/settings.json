@@ -9,7 +9,7 @@
         "cs",
         "en"
     ],
-    "cdn_domain": "http://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain": "http://volebnikalkulacka.azureedge.net/",
     "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
     "match": {
         "winner": {

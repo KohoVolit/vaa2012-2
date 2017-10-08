@@ -71,7 +71,7 @@ echo "<div class='container'>
 <h3>Moje shoda se stranami</h3>
 <table class='table'>";
 foreach($results as $row) {
-    echo "<tr><td><img src='https://volebnikalkulacka-1d3d.kxcdn.com/cs/volby-2017/statics/38x38/" . $row['picture'] . "'>";
+    echo "<tr><td><img src='https://volebnikalkulacka.azureedge.net/cs/volby-2017/statics/38x38/" . $row['picture'] . "'>";
     echo "<td>" . $row['name'];
     //echo "<td>" . $row['party_abbreviation'];
     echo "<td style='text-align:left'>" . $row['result_percent'] . '%';

@@ -41,7 +41,7 @@
         "en",
         "hu"
     ],
-    "cdn_domain": "https://volebnikalkulacka-1d3d.kxcdn.com/",
+    "cdn_domain": "https://volebnikalkulacka.azureedge.net/",
     "cdn_domain_": "http://localhost/michal/project/vaa2012-2/www/",
     "match": {
         "winner": {
