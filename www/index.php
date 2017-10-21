@@ -202,7 +202,7 @@
                                                   data: {
                                                       vkid: getCookieValue("vkid"),
                                                       calc: 'cz2018pres',
-                                                      campaign: 'frontapage_preregistration',
+                                                      campaign: 'frontpage_preregistration',
                                                       attributes: ''
                                                   }
                                               });
