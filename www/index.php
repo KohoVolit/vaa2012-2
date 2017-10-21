@@ -98,6 +98,13 @@
                             <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
                                     SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
                             </a>
+                <p class="lead">
+                            Volební kalkulačka pro <strong>prezidentské volby 2018</strong> bude spuštěna v prosinci nejpozději měsíc před volbami.<br />
+                            Zaregistrujte se a <strong>dáme Vám vědět hned, jak bude spuštěna</strong>:
+                            <p>
+                            <a href="" class="btn btn-lg btn-warning" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
+                                ZAREGISTROVAT SE
+    </a>
                             <hr />
                     <p class="lead">
                             <small>
@@ -107,6 +114,97 @@
                                 <a href="cs/volby-2017-ultimate/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
                                         SPUSTIT DLOOOOOHOU VOLEBNÍ KALKULAČKU 2017
                                 </a>
+
+
+
+                                <!-- Modal -->
+                                <style>
+                                    .modal-body {
+                                        text-align: left;
+                                    }
+                                </style>
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka pro prezidentské volby 2018</h3>
+                                      </div>
+                                      <div id="modal-body" class="modal-body" class="modal-body">
+                                          <p>
+                                          Zaregistrujte mě na Volební kalkulačce<span class="visible-xs"> Dejte mi vědět, hned jak bude spuštěna</span>
+                                            <ul class="hidden-xs">
+                                                <li>Vždy se dozvím o nové kalkulačce včas.
+                                                <li>Registrace je <strong>zdarma</strong>.
+                                                <li>Pokračujte v boji za ochranu osobních údajů, moje údaje nikomu nedejte.
+                                            </ul>
+                                          <div class="form-group">
+                                                 <label for=s"registration-email">Moje emailová adresa: <span class="text-warning">*</span></label>
+                                                 <input type="email" class="form-control" id="registration-email" name="regem" placeholder="jmeno@example.com">
+                                             </div>
+                                             <div class="form-group">
+                                                 <label for="exampleInputEmail1">PSČ</label>
+                                                 <input type="number" class="form-control" id="registration-postcode" name="regpo" placeholder="33199">
+                                             </div>
+                                             <div class="checkbox">
+                                                 <label>
+                                                     <input type="checkbox" checked="checked" id="registration-remind" name="regre"> Chci před volbami připomínat svoji shodu s kandidáty
+                                                 </label>
+                                             </div>
+                                             <div class="checkbox">
+                                                 <label>
+                                                     <input type="checkbox" checked="checked" id="registration-more" name="regmo"> Zajímám se o politiku hodně a chci dostávat info o analýzách autorů Volební kalkulačky
+                                                 </label>
+                                             </div>
+                                         </div>
+                                         <div id="modal-footer" class="modal-footer">
+                                             <button type="button" class="btn btn-success registration-submit" xxdata-dismiss="modal" id="registration-submit">Registrovat se</button>
+                                         </div>
+                                      </div>
+                                      <!-- <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                      </div> -->
+                                    </div>
+                                  </div>
+                                  <script>
+                                      $(function() {
+                                          $('#registration-submit').click(function(){
+                                              $.ajax({
+                                                //   url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/click.php',
+                                                  url: 'http://localhost/michal/project/volebnikalkulacka.cz/www/prezidentske-volby-2018/match/emails.php',
+                                                  type: 'get',
+                                                  data: {
+                                                      vkid: getCookieValue("vkid"),
+                                                      calc: 'cz2018pres',
+                                                      campaign: 'frontapage_preregistration',
+                                                      value: $('#registration-email').val(),
+                                                      type: 'email',
+                                                      attributes: JSON.stringify({
+                                                          regpo: $('#registration-postcode').val(),
+                                                          regre: $('#registration-remind').is(":checked"),
+                                                          regmo: $('#registration-more').is(":checked")
+                                                      })
+                                                  }
+                                              });
+                                              var b = '<strong>Děkujeme.</strong><br /> Váš email byl zaregistrován.</p>';
+                                              var f = '<button type="button" class="btn btn-muted" data-dismiss="modal" id="registration-cancel">Zavřít</button>'
+
+                                              $('#modal-body').html(b);
+                                              $('#modal-footer').html(f);
+
+                                          });
+                                      })
+                                  </script>
+
+
+
+
+                            </div>
+
+
+
+
 
 
 
@@ -235,9 +333,7 @@
         file_get_contents("https://volebnikalkulacka.cz/session/?" . $_SERVER['QUERY_STRING'])
     ?>
     <script>
-        $.ajax({
-            "https://volebnikalkulacka.cz/session/" + location.search
-        })
+        $.ajax("https://volebnikalkulacka.cz/session/" + location.search)
     </script>
     <!-- /session -->
 
