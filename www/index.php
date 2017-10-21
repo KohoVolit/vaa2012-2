@@ -82,22 +82,9 @@
 
 		<div class="vert-text">
 
-			<h1>Volební kalkulačka 2017</h1>
+			<h1>Volební kalkulačka 2018</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
-                <p class="lead">
-                            Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong> na 35 otázkách.
-                            <p>
-                            <a href="cs/volby-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                    SPUSTIT VOLEBNÍ KALKULAČKU 2017
-                            </a>
-
-                <p class="lead">
-                            Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory s poslanci na <strong>45 skutečných hlasováních</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
-                            <p>
-                            <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                    SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
-                            </a>
                 <p class="lead">
                             Volební kalkulačka pro <strong>prezidentské volby 2018</strong> bude spuštěna v prosinci nejpozději měsíc před volbami.<br />
                             Zaregistrujte se a <strong>dáme Vám vědět hned, jak bude spuštěna</strong>:
@@ -106,6 +93,20 @@
                                 ZAREGISTROVAT SE
     </a>
                             <hr />
+
+                            <p class="lead">
+                                        Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong> na 35 otázkách.
+                                        <p>
+                                        <a href="cs/volby-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                                SPUSTIT VOLEBNÍ KALKULAČKU 2017
+                                        </a>
+
+                            <p class="lead">
+                                        Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory s poslanci na <strong>45 skutečných hlasováních</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
+                                        <p>
+                                        <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                                SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
+                                        </a>
                     <p class="lead">
                             <small>
                                 <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2017 se <strong>100 otázkami!</strong> Pokud Vám nestačí 35 otázek.
