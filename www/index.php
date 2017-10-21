@@ -197,7 +197,7 @@
 
                                           $('#president-preregistration').click(function() {
                                               $.ajax({
-                                                  url: 'https://volebnikalkulacka.cz/prezidentske-volby-2018/match/clicks.php',
+                                                  url: 'https://volebnikalkulacka.cz/prezidentske-volby-2018/match/click.php',
                                                   type: 'get',
                                                   data: {
                                                       vkid: getCookieValue("vkid"),
