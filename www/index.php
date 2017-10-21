@@ -171,8 +171,8 @@
                                       $(function() {
                                           $('#registration-submit').click(function(){
                                               $.ajax({
-                                                //   url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/click.php',
-                                                  url: 'http://localhost/michal/project/volebnikalkulacka.cz/www/prezidentske-volby-2018/match/emails.php',
+                                                  url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/emails.php',
+                                                //   url: 'http://localhost/michal/project/volebnikalkulacka.cz/www/prezidentske-volby-2018/match/emails.php',
                                                   type: 'get',
                                                   data: {
                                                       vkid: getCookieValue("vkid"),
