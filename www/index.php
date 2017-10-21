@@ -102,7 +102,7 @@
                             Volební kalkulačka pro <strong>prezidentské volby 2018</strong> bude spuštěna v prosinci nejpozději měsíc před volbami.<br />
                             Zaregistrujte se a <strong>dáme Vám vědět hned, jak bude spuštěna</strong>:
                             <p>
-                            <a href="" class="btn btn-lg btn-warning" style="white-space: normal;" data-toggle="modal" data-target="#myModal">
+                            <a href="" class="btn btn-lg btn-warning" style="white-space: normal;" data-toggle="modal" data-target="#myModal" id="president-preregistration">
                                 ZAREGISTROVAT SE
     </a>
                             <hr />
@@ -193,6 +193,19 @@
                                               $('#modal-body').html(b);
                                               $('#modal-footer').html(f);
 
+                                          });
+
+                                          $('#president-preregistration').click(function() {
+                                              $.ajax({
+                                                  url: 'https://volebnikalkulacka.cz/prezidentske-volby-2018/match/clicks.php',
+                                                  type: 'get',
+                                                  data: {
+                                                      vkid: getCookieValue("vkid"),
+                                                      calc: 'cz2018pres',
+                                                      campaign: 'frontapage_preregistration',
+                                                      attributes: ''
+                                                  }
+                                              });
                                           });
                                       })
                                   </script>
