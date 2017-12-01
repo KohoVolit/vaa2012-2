@@ -1,0 +1,56 @@
+# API - Volební kalkulačka 2018 (prezident)
+
+Draft: 2017-12-01
+
+## Questions
+All questions sent to the candidates may be downloaded from here:
+
+https://volebnikalkulacka.cz/prezidentske-volby-2018/questions_all.json
+
+Final selection of questions will be available here:
+
+https://volebnikalkulacka.cz/prezidentske-volby-2018/questions.json
+
+(see why and how the final questions are selected: https://www.facebook.com/KohoVolit.eu/videos/10154786242016621/ , starting at 1:15:20)
+
+## Match calculation (user vs. candidates)
+### Request
+GET request to
+
+https://volebnikalkulacka.cz/prezidentske-volby-2018/match/
+
+with parameters:
+- `format` - if `json`, returns JSON values; simple HTML table is returned otherwise
+- `q` - JSON encode user's answers in form: {`question_id`: `user's answer`} (`1` = Yes, `-1` = No, `0` = Neutral)
+- `w` - JSON encode user's extra weights in form: {`question_id`: `user's weight`} (`true` if user selected the question as extra important for them, default otherwise)
+- `key` - value to distinguish among different sources (useful for further analyses of users)
+
+
+#### Example
+
+https://volebnikalkulacka.cz/prezidentske-volby-2018/match/?format=json&q={"1":-1,"2":1}&w={"2":true}&key=plasky_platek
+
+### Response
+If the requested format is set to `json`: The response is (ordered) JSON array with individual items representing the candidates:
+
+- `id` - given `id`
+- `family_name` - candidate's family name (surname)
+- `given_name` - candidate's given name(s) (first name(s))
+- `name` - candidate's formatted name
+- `votes` - candidate's answers to the questions `question_id`: `answer` (`1` = Yes, `-1` = No, `0` = Neutral)
+- details - possible candidate's explanations for their answers `question_id`: `some long explanation`
+- `extra_important` - candidates could mark the topic of the question as "very important to them" `question_id`: `Ano` for extra important
+- `result` - calculated match in [0, 1]
+- `result_percent` - calculated match in percents [0, 100]
+- `random` - random number
+
+The candidates are ordered by `result` in descending order and if necessary also by `random` in ascending order (for candidates with equal `result`s)
+
+#### CORS
+If the requested `format` is set to `json`, following headers are also sent:
+
+```
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Headers: X-Requested-With
+```
