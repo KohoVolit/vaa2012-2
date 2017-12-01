@@ -21,19 +21,23 @@ https://volebnikalkulacka.cz/prezidentske-volby-2018/match/
 
 with parameters:
 - `format` - if `json`, returns JSON values; simple HTML table is returned otherwise
-- `q` - JSON encode user's answers in form: {`question_id`: `user's answer`} (`1` = Yes, `-1` = No, `0` = Neutral)
-- `w` - JSON encode user's extra weights in form: {`question_id`: `user's weight`} (`true` if user selected the question as extra important for them, default otherwise)
-- `key` - value to distinguish among different sources (useful for further analyses of users)
+- `q` - JSON encoded user's answers in form: {`question_id`: `user's answer`} (`1` = Yes, `-1` = No, `0` = Neutral)
+- `w` - JSON encoded user's extra weights in form: {`question_id`: `user's weight`} (`true` if user selected the question as extra important for them, default otherwise)
+- `key` - value to distinguish among different sources (useful for further analyses of the source's users)
 
 
 #### Example
+An user took the test using `Plaský plátek` app and answered:
+- `no` to question with `id` = `1`
+- `yes` to question with `id` = `2`, and
+- selected question with `id` = `2` as extra important for them
 
 https://volebnikalkulacka.cz/prezidentske-volby-2018/match/?format=json&q={"1":-1,"2":1}&w={"2":true}&key=plasky_platek
 
 ### Response
 If the requested format is set to `json`: The response is (ordered) JSON array with individual items representing the candidates:
 
-- `id` - given `id`
+- `id` - candidate's `id`
 - `family_name` - candidate's family name (surname)
 - `given_name` - candidate's given name(s) (first name(s))
 - `name` - candidate's formatted name
