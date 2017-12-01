@@ -65,7 +65,7 @@ function arr2obj($arr) {
 function get_user_values() {
    $get = [];
    foreach($_GET as $k=>$g) {
-        $get[$k] = json_decode($g);
+        $get[$k] = json_decode(urldecode($g));
    }
    $out = ['votes' => [], 'weight' => []];
    if (isset($get['q'])) $out['votes'] = $get['q'];
