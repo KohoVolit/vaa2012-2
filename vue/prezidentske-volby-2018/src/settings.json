@@ -1,0 +1,7 @@
+{
+    "locale": "cs-CZ",
+    "cdn": "http://192.168.1.4/michal/project/volebnikalkulacka.cz/",
+    "path": "vue/prezidentske-volby-2018/src/",
+    "api_path_": "http://localhost:3003/",
+    "api_path": "https://api.volebnikalkulacka.cz/"
+}

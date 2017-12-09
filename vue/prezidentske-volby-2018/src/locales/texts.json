@@ -1,0 +1,21 @@
+{
+    "cs-CZ": {
+        "header_name": "Volební kalkulačka - prezident 2018",
+        "YES": "ANO",
+        "NO": "NE",
+        "yes": "Ano",
+        "no": "Ne",
+        "dont_know": "Nevím",
+        "not_important": "Je mi to jedno",
+        "skip": "Přeskočit",
+        "result": "Výsledek",
+        "back": "Zpět",
+        "select_extra_important_questions": "Vyberte otázky, které jsou pro vás extra důležité:",
+        "clicking_detailed_match": "Tip: kliknutím na jméno kandidáta dostanete Vaši podrobnou shodu s ním",
+        "match": "Shoda",
+        "close": "Zavřít",
+        "question": "Otázka",
+        "me": "Já",
+        "candidate_comment": "Komentář kandidáta"
+    }
+}

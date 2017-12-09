@@ -1,0 +1,129 @@
+<template>
+    <div v-if="results[index]" class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header row m-2">
+                <div class="card col-12">
+                    <div class="card-body row">
+                        <div class="col-8">
+                            <h4 class="card-title">{{ results[index].info.family_name }}</h4>
+                            <div class="card-text">{{ results[index].info.given_name }}</div>
+                            <div class="card-text">
+                                <component-stars :stars="results[index].rating"></component-stars>
+                            </div>
+                            <div class="card-text text-muted">{{ $t('match') }}: {{ results[index].result_percent }}%</div>
+                        </div>
+                        <div class="col-4 text-right">
+                            <img :src="createImageLink(results[index].info.picture)" class="picture mr-2" />
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
+            </div>
+            <div class="modal-body">
+                <table class="table-striped w-100">
+                    <thead>
+                        <th class="text-left">
+                            {{ $t('question') }}
+                        </th>
+                        <th class="text-center">
+                            {{ $t('me') }}
+                        </th>
+                        <th class="text-center">
+                            x
+                        </th>
+                        <th class="text-center">
+                            {{ results[index].info.family_name }}
+                        </th>
+                        <th class="text-center">
+                            {{ $t('candidate_comment') }}
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(question, ix) in questions" :class="[compared(answers[question.id], results[index]['info']['votes'][question.id]), weighted(weights[question.id])]">
+                            <td>
+                                <i v-if="weights[question.id]" class="fa fa-star"></i>
+                                {{ question.name }}
+                            </td>
+                            <td class="text-center">
+                                {{ answer2Text(answers[question.id]) }}
+                            </td>
+                            <td class="text-center">
+                                {{ compare(answers[question.id], results[index]['info']['votes'][question.id]) }}
+                            </td>
+                            <td class="text-center">
+                                {{ answer2Text(results[index]['info']['votes'][question.id]) }}
+                            </td>
+                            <td class="comment">
+                                <small>
+                                    {{ shortenText(results[index]['info']['details'][question.id]) }}
+                                </small>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    import Stars from './Stars.vue'
+
+    export default {
+        props: ['index', 'questions', 'results', 'answers', 'weights', 'settings'],
+        methods: {
+            createImageLink: function (name) {
+                return this.settings['cdn'] + this.settings['path'] + 'statics/pictures/68x90/' + name
+            },
+            answer2Text: function (a) {
+                if (a === 1) return this.$t('yes')
+                if (a === -1) return this.$t('no')
+                if (a === 0) return '-'
+                return '--'
+            },
+            compare: function (a, b) {
+                if ((a * b) === -1) return 'x'
+                else return ''
+            },
+            compared: function (a, b) {
+                if (a === undefined) return 'text-muted'
+                if ((a * b) === -1) return 'text-danger'
+                if ((a * b) === 1) return 'text-success'
+                else return ''
+            },
+            weighted: function(w) {
+                if (w) return 'strong'
+                else return ''
+            },
+            shortenText: function (t) {
+                if (!t) { return "" }
+                if (t.length > 400) {
+                    return t.substr(0,397) + "..."
+                }
+                return t
+            }
+        },
+        components: {
+            'component-stars': Stars
+        }
+    }
+</script>
+
+<style scoped>
+    .card {
+    }
+    .card-title {
+        margin-bottom: 0;
+    }
+    .picture {
+        height: 90px;
+        border-radius: 50%;
+    }
+    .strong {
+        font-weight: bold;
+    }
+</style>
