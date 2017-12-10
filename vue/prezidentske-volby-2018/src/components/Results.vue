@@ -5,6 +5,7 @@
             <component-results-winners :questions="questions" :results="results" :settings="settings"></component-results-winners>
             <component-results-table :questions="questions" :settings="settings" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
+            <component-results-noreply :questions="questions" :settings="settings"></component-results-noreply>
         </div>
         <component-footer></component-footer>
     </div>
@@ -15,6 +16,7 @@
     import Footer from './Footer.vue'
     import ResultsWinners from './ResultsWinners.vue'
     import ResultsTable from './ResultsTable.vue'
+    import ResultsNoreply from './ResultsNoreply.vue'
     import questions from '../data/questions.json'
     import votes from '../data/answers.json'
     import settings from '../settings.json'
@@ -84,9 +86,10 @@
                 var result = {
                     result: (1 + sum / count) / 2,
                     result_percent: Math.round((100 + 100 * sum / count) / 2),
-                    rating: Math.round(((1 + sum / count) / 2) * 10) / 2,
+                    rating: Math.round((1 + sum / count) / 2 * 10) / 2,
                     random: Math.random()
                 }
+                console.log(result.result, result.result_percent, result.rating)
                 return result
             }
         },
@@ -137,10 +140,16 @@
             'component-header': Header,
             'component-footer': Footer,
             'component-results-winners': ResultsWinners,
-            'component-results-table': ResultsTable
+            'component-results-table': ResultsTable,
+            'component-results-noreply': ResultsNoreply
         }
     }
 </script>
 
-<style>
+<style scoped>
+    .results {
+        max-width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>

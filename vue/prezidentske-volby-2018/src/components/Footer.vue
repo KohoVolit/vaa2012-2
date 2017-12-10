@@ -1,7 +1,10 @@
 <template>
-    <footer>
+    <footer class="text-muted mt-4">
         <div class="container">
             <div class="row justify-center">
+                <div class="col-md-3">
+
+                </div>
                 <div class="col-md-6 text-center">
                     <a href="http://kohovolit.eu" title="KohoVolit.eu" id="footer-kohovolit-logo"><img src="https://volebnikalkulacka.cz/image/logo.png" alt="logo kohovolit.eu"></a>
 					<p class="lead black">Volební kalkulačky pro Vás už od roku 2006 vytváří sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a></p>
@@ -18,9 +21,6 @@
 </script>
 
 
-<style>
-footer {
-    margin-top: 40px;
-    color: #666;
-}
+<style scoped>
+
 </style>

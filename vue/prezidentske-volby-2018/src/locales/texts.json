@@ -16,6 +16,7 @@
         "close": "Zavřít",
         "question": "Otázka",
         "me": "Já",
-        "candidate_comment": "Komentář kandidáta"
+        "candidate_comment": "Komentář kandidáta",
+        "no_replies": "Oslovili jsme všechny kandidáty, zatím na otázky neodpověděl:"
     }
 }

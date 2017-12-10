@@ -19,7 +19,6 @@
                             <div class="text-center">{{ result.result_percent }}%</div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -75,13 +74,7 @@
 </script>
 
 <style scoped>
-    .result-table {
-        max-width: 576px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .picture {
-        float: left;
         height: 64px;
         border-radius: 50%;
     }

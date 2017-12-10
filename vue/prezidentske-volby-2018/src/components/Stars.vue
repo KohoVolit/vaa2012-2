@@ -1,5 +1,5 @@
 <template>
-    <div class="stars">
+    <div class="stars" :class="muted_class">
         <i v-for="n in full" class="fa fa-star"></i><i v-for="n in half" class="fa fa-star-half-full"></i><i v-for="n in empty" class="fa fa-star-o"></i>
     </div>
 </template>
@@ -8,12 +8,13 @@
     import 'font-awesome/css/font-awesome.css'
 
     export default {
-        props: ['stars'],
+        props: ['stars', 'muted'],
         data: function () {
             return {
                 full: 5,
                 half: 0,
-                empty: 0
+                empty: 0,
+                muted_class: ''
             }
         },
         mounted: function () {
@@ -25,6 +26,10 @@
                 this.half = 0
             }
             this.empty = 5 - this.full - this.half
+
+            if ((this.muted !== undefined) && this.muted) {
+                this.muted_class = 'text-muted'
+            }
         }
     }
 </script>

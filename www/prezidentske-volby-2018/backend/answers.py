@@ -165,7 +165,7 @@ try:
     with open(path + 'answers.json', 'w') as outfile:
         json.dump(obj2array(dataout), outfile, ensure_ascii=False, sort_keys=True)
     with open(path + 'noreply.json', 'w') as outfile:
-        json.dump(obj2array(nodata), outfile, ensure_ascii=False, sort_keys=True)
+        json.dump(nodata, outfile, ensure_ascii=False, sort_keys=True)
     with open(path + 'details.json', 'w') as outfile:
         json.dump(details, outfile)
     with open(path + 'matrix.json', 'w') as outfile:

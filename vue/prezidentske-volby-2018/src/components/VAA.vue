@@ -152,7 +152,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     .carousel-caption {
         left: 1%;
         right: 0%;

@@ -38,4 +38,7 @@ setTimeout(function () {
 }, 2000)
 setTimeout(function () {
     document.getElementById('alternative').innerHTML = ''
+}, 5000)
+setTimeout(function () {
+    document.getElementById('alternative').innerHTML = ''
 }, 20000)

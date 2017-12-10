@@ -65,11 +65,6 @@
 </script>
 
 <style scoped>
-    .result-winners {
-        max-width: 576px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .col-4 {
         padding-left: 5px;
         padding-right: 5px;

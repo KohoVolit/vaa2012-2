@@ -43,6 +43,7 @@
                             <td>
                                 <i v-if="weights[question.id]" class="fa fa-star"></i>
                                 {{ question.name }}
+                                <i class="fa fa-info-circle more-question" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="question.question" :title="$t('question')"></i>
                             </td>
                             <td class="text-center">
                                 {{ answer2Text(answers[question.id]) }}
@@ -56,6 +57,7 @@
                             <td class="comment">
                                 <small>
                                     {{ shortenText(results[index]['info']['details'][question.id]) }}
+                                    <i v-if="shortened(results[index]['info']['details'][question.id])" class="fa fa-info-circle more-info" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="results[index]['info']['details'][question.id]"></i>
                                 </small>
                             </td>
 
@@ -75,6 +77,13 @@
 
     export default {
         props: ['index', 'questions', 'results', 'answers', 'weights', 'settings'],
+        mounted: function () {
+            if ($ !== undefined) {
+                $(function () {
+                  $('[data-toggle="popover"]').popover()
+                })
+            }
+        },
         methods: {
             createImageLink: function (name) {
                 return this.settings['cdn'] + this.settings['path'] + 'statics/pictures/68x90/' + name
@@ -82,7 +91,7 @@
             answer2Text: function (a) {
                 if (a === 1) return this.$t('yes')
                 if (a === -1) return this.$t('no')
-                if (a === 0) return '-'
+                if (a === 0) return this.$t('dont_know')
                 return '--'
             },
             compare: function (a, b) {
@@ -95,16 +104,31 @@
                 if ((a * b) === 1) return 'text-success'
                 else return ''
             },
-            weighted: function(w) {
+            weighted: function (w) {
                 if (w) return 'strong'
                 else return ''
             },
             shortenText: function (t) {
-                if (!t) { return "" }
-                if (t.length > 400) {
-                    return t.substr(0,397) + "..."
+                if (!t) { return '' }
+                var w = window.innerWidth
+                var n = 0
+                if (w < 576) n = 20
+                else n = 400
+                if (t.length > n) {
+                    return t.substr(0, n - 3) + '...'
                 }
                 return t
+            },
+            shortened: function (t) {
+                if (!t) return false
+                var w = window.innerWidth
+                var n = 0
+                if (w < 576) n = 20
+                else n = 400
+                if (t.length > n) {
+                    return true
+                }
+                return false
             }
         },
         components: {
@@ -125,5 +149,19 @@
     }
     .strong {
         font-weight: bold;
+    }
+    .comment {
+        line-height: 100%;
+    }
+    .more-info {
+        font-size: 1.5em;
+    }
+    .more-question:hover,.more-info:hover {
+        cursor: pointer;
+    }
+    @media (min-width: 992px) {
+        .modal-lg {
+            max-width: 80%;
+        }
     }
 </style>
