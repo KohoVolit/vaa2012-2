@@ -2,10 +2,10 @@
     <div>
         <component-header></component-header>
         <div class="results">
-            <component-results-winners :questions="questions" :results="results" :settings="settings"></component-results-winners>
-            <component-results-table :questions="questions" :settings="settings" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
+            <component-results-winners :questions="questions" :results="results"></component-results-winners>
+            <component-results-table :questions="questions" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
-            <component-results-noreply :questions="questions" :settings="settings"></component-results-noreply>
+            <component-results-noreply :questions="questions"></component-results-noreply>
         </div>
         <component-footer></component-footer>
     </div>
@@ -19,12 +19,10 @@
     import ResultsNoreply from './ResultsNoreply.vue'
     import questions from '../data/questions.json'
     import votes from '../data/answers.json'
-    import settings from '../settings.json'
 
     export default {
         data: function () {
             return {
-                settings,
                 questions,
                 votes,
                 results: [{info: ''}, {info: ''}, {info: ''}],
@@ -32,12 +30,40 @@
             }
         },
         methods: {
-            clickedDetails: function (params) {
-                var attributes = {
-                    index: params[0],
-                    abbreviation: params[1]
+            createFBLink: function () {
+                function encodeQueryData(data) {
+                   let ret = [];
+                   for (let d in data)
+                     ret.push(encodeURIComponent(d) + '=' + encodeURIComponent(data[d]));
+                   return ret.join('&');
                 }
-                this.clicked('details', attributes)
+                var last = this.results.length - 1
+                var quote = this.$t('fb_1') + this.results[0].info.family_name + ' (' + this.results[0].result_percent + '%),' + this.$t('fb_2') + this.results[last].info.family_name + ' (' + this.results[last].result_percent + '%)'
+                var href = {
+                    ref: this.$getSetCookie(this.$settings['cookie']),
+                    pic: JSON.stringify({
+                        w: [this.results[0].info.id, this.results[1].info.id, this.results[2].info.id],
+                        s: [this.results[0].rating5, this.results[1].rating5, this.results[2].rating5]
+                    })
+                }
+                var d = {
+                    'app_id': this.$settings['fb_app_id'],
+                    'display': 'popup',
+                    'href': this.$settings['url'] + '?' + encodeQueryData(href),
+                    'display': 'popup',
+                    'quote': quote,
+                    'mobile_iframe': true,
+                    'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1,)
+                }
+                var querystring = encodeQueryData(d);
+                return 'https://www.facebook.com/dialog/share?' + querystring
+            },
+            clickedDetails: function (params) {
+                // var attributes = {
+                //     index: params[0],
+                //     abbreviation: params[1]
+                // }
+                // this.clicked('details', attributes)
             },
             clicked: function (campaign, attributes) {
                 // var c = this.getSetCookie()
@@ -87,14 +113,16 @@
                     result: (1 + sum / count) / 2,
                     result_percent: Math.round((100 + 100 * sum / count) / 2),
                     rating: Math.round((1 + sum / count) / 2 * 10) / 2,
+                    rating5: Math.round((1 + sum / count) / 2 * 5),
                     random: Math.random()
                 }
-                console.log(result.result, result.result_percent, result.rating)
+                // console.log(result.result, result.result_percent, result.rating, result.rating5)
                 return result
             }
         },
         mounted: function () {
-            this.$store.settings = this.settings
+            // console.log(this.$getSetCookie('vkid'))
+            // console.log(this.$beep())
             if (this.$route.query.q !== undefined) {
                 this.$store.commit('storeAnswers', JSON.parse(this.$route.query.q))
             }
@@ -117,6 +145,7 @@
                 return b.result - a.result
             })
             this.$store.commit('storeResults', this.results)
+            console.log(this.createFBLink())
 
             // var c = this.getSetCookie()
             // // if (!this.$store.getters.getAnswersStored) {

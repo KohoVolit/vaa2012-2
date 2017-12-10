@@ -17,6 +17,8 @@
         "question": "Otázka",
         "me": "Já",
         "candidate_comment": "Komentář kandidáta",
-        "no_replies": "Oslovili jsme všechny kandidáty, zatím na otázky neodpověděl:"
+        "no_replies": "Oslovili jsme všechny kandidáty, zatím na otázky neodpověděli:",
+        "fb_1": "Volební kalkulačka 2018. U mě největší shoda: ",
+        "fb_2": " nejmenší "
     }
 }

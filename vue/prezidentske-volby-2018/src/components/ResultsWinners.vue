@@ -1,5 +1,5 @@
 <template>
-    <div class="row result-winners justify-center py-1">
+    <div class="row result-winners justify-center m-1">
         <div v-for="(result, index) in results" class="col-4">
             <div v-if="index < 3" class="card" @click="openingModal(index)" data-toggle="modal" data-target="#modal-winners">
                 <div class="card-body">
@@ -20,8 +20,7 @@
                 :questions="questions"
                 :results="results"
                 :answers="answers"
-                :weights="weights"
-                :settings="settings">
+                :weights="weights">
             </component-results-modal>
         </div>
     </div>
@@ -33,7 +32,7 @@
     import ResultsModal from './ResultsModal.vue'
 
     export default {
-        props: ['questions', 'settings'],
+        props: ['questions'],
         data: function () {
             return {
                 index: 0
@@ -51,7 +50,7 @@
                 return this.$store.state.results
             },
             createImageLink: function (name) {
-                return this.settings['cdn'] + this.settings['path'] + 'statics/pictures/68x90/' + name
+                return this.$settings['cdn'] + this.$settings['path'] + this.$settings['pic_path_small'] + name
             },
             openingModal: function (index) {
                 this.index = index

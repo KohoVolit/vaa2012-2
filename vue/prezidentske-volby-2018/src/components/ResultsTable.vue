@@ -1,9 +1,9 @@
 <template>
     <div class="result-table">
-        <div class="pt-1 pb-1 col-md-8 result-text">
+        <div class="py-1 col-md-8 result-text">
             {{ $t('clicking_detailed_match')}}
         </div>
-        <div class="list">
+        <div class="list m-1">
             <div class="list-group" v-for="(result, index) in results">
                 <div class="list-group-item list-group-item-action flex-column align-items-start" @click="openingModal(index)" data-toggle="modal" data-target="#modal">
                     <div class="d-flex">
@@ -28,8 +28,7 @@
                 :questions="questions"
                 :results="results"
                 :answers="answers"
-                :weights="weights"
-                :settings="settings">
+                :weights="weights">
             </component-results-modal>
         </div>
     </div>
@@ -41,7 +40,7 @@
     import ResultsModal from './ResultsModal.vue'
 
     export default {
-        props: ['questions', 'settings'],
+        props: ['questions'],
         data: function () {
             return {
                 index: 0
@@ -60,7 +59,7 @@
             },
             createImageLink: function (name) {
                 // console.log(this.$store.setttings)
-                return this.settings['cdn'] + this.settings['path'] + 'statics/pictures/48x64/' + name
+                return this.$settings['cdn'] + this.$settings['path'] + this.$settings['pic_path_small'] + name
             },
             openingModal: function (index) {
                 this.index = index

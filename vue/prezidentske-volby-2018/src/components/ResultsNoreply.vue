@@ -30,7 +30,7 @@
     import Stars from './Stars.vue'
 
     export default {
-        props: ['questions', 'settings'],
+        props: ['questions'],
         data: function () {
             return {
                 exist: false,
@@ -45,7 +45,7 @@
         methods: {
             createImageLink: function (name) {
                 // console.log(this.$store.setttings)
-                return this.settings['cdn'] + this.settings['path'] + 'statics/pictures/48x64/' + name
+                return this.$settings['cdn'] + this.$settings['path'] + this.$settings['pic_path_small'] + name
             }
         },
         components: {

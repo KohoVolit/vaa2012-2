@@ -8,7 +8,10 @@
                             <h4 class="card-title">{{ results[index].info.family_name }}</h4>
                             <div class="card-text">{{ results[index].info.given_name }}</div>
                             <div class="card-text">
-                                <component-stars :stars="results[index].rating"></component-stars>
+                                <!-- <component-stars :stars="results[index].rating"></component-stars> -->
+                                <div class="stars">
+                                    <i v-for="n in stars['full']" class="fa fa-star"></i><i v-for="n in stars['half']" class="fa fa-star-half-full"></i><i v-for="n in stars['empty']" class="fa fa-star-o"></i>
+                                </div>
                             </div>
                             <div class="card-text text-muted">{{ $t('match') }}: {{ results[index].result_percent }}%</div>
                         </div>
@@ -73,10 +76,9 @@
 </template>
 
 <script>
-    import Stars from './Stars.vue'
 
     export default {
-        props: ['index', 'questions', 'results', 'answers', 'weights', 'settings'],
+        props: ['index', 'questions', 'results', 'answers', 'weights'],
         mounted: function () {
             if ($ !== undefined) {
                 $(function () {
@@ -84,9 +86,24 @@
                 })
             }
         },
+        computed: {
+            stars: function () {
+                var full = Math.floor(this.results[this.index].rating)
+                var half = 0
+                if (full < this.results[this.index].rating) {
+                    half = 1
+                }
+                var empty = 5 - full - half
+                return {
+                    full,
+                    half,
+                    empty
+                }
+            }
+        },
         methods: {
             createImageLink: function (name) {
-                return this.settings['cdn'] + this.settings['path'] + 'statics/pictures/68x90/' + name
+                return this.$settings['cdn'] + this.$settings['path'] + this.$settings['pic_path_large'] + name
             },
             answer2Text: function (a) {
                 if (a === 1) return this.$t('yes')
@@ -130,9 +147,6 @@
                 }
                 return false
             }
-        },
-        components: {
-            'component-stars': Stars
         }
     }
 </script>
@@ -162,6 +176,14 @@
     @media (min-width: 992px) {
         .modal-lg {
             max-width: 80%;
+        }
+    }
+    .stars {
+        color: #ffc107;
+    }
+    @media (min-width: 576px) {
+        .stars {
+            font-size: 1.75rem;
         }
     }
 </style>

@@ -1,7 +1,14 @@
 {
+    "url": "https://volebnikalkulacka.cz/",
+    "cookie": "vkid",
     "locale": "cs-CZ",
-    "cdn": "http://192.168.1.4/michal/project/volebnikalkulacka.cz/",
-    "path": "vue/prezidentske-volby-2018/src/",
+    "_cdn": "http://192.168.1.4/michal/project/volebnikalkulacka.cz/",
+    "cdn": "https://volebnikalkulacka.azureedge.net/cs/",
+    "_path": "vue/prezidentske-volby-2018/src/",
+    "path": "cs/prezidentske-volby-2018/",
     "api_path_": "http://localhost:3003/",
-    "api_path": "https://api.volebnikalkulacka.cz/"
+    "api_path": "https://api.volebnikalkulacka.cz/",
+    "fb_app_id": "200785490055088",
+    "pic_path_small": "statics/pictures/48x64/",
+    "pic_path_large": "statics/pictures/68x90/"
 }
