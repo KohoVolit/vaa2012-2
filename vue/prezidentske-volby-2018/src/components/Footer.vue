@@ -1,5 +1,5 @@
 <template>
-    <footer class="text-muted mt-4">
+    <footer class="text-muted mt-4 md-4">
         <div class="container">
             <div class="row justify-center">
                 <div class="col-md-3">
@@ -19,8 +19,3 @@
 <script>
 
 </script>
-
-
-<style scoped>
-
-</style>

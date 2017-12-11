@@ -10,8 +10,8 @@ function load (component) {
 }
 
 export default new Router({
-    //https://forum.vuejs.org/t/404-error-after-deploying-vue-cli-on-my-host/18555
-    
+    // https://forum.vuejs.org/t/404-error-after-deploying-vue-cli-on-my-host/18555
+
     base: '/cs/prezidentske-volby-2018/',
     mode: 'history',
     routes: [

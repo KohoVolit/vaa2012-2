@@ -1,7 +1,7 @@
 <template>
     <div class="row result-winners justify-center m-1">
         <div v-for="(result, index) in results" class="col-4">
-            <div v-if="index < 3" class="card" @click="openingModal(index)" data-toggle="modal" data-target="#modal-winners">
+            <div v-if="index < 3" class="card" @click="clicked('result_winners', {rank: index, id: result.info.id})" data-toggle="modal" data-target="#modal-winners">
                 <div class="card-body">
                     <img :src="createImageLink(result.info.picture)" class="picture mr-2" />
                     <h4 class="card-title">{{ result.info.family_name }}</h4>
@@ -46,6 +46,10 @@
             })
         },
         methods: {
+            clicked: function (campaign, attributes) {
+                this.openingModal(attributes['rank'])
+                this.$clicked(campaign, attributes)
+            },
             getResults: function () {
                 return this.$store.state.results
             },

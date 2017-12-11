@@ -6,12 +6,12 @@
             <div class="row px-2">
                 <div class="col-md-6">
                     <a :href="createFBLink()" target="_blank">
-                        <button class="btn btn-primary btn-block btn-lg">{{ $t('share_on_fb') }}<i class="fa fa-facebook-official"></i></button>
+                        <button @click="clicked('fb_top', {})" class="btn btn-primary btn-block btn-lg">{{ $t('share_on_fb') }}<i class="fa fa-facebook-official"></i></button>
                     </a>
                 </div>
                 <div class="col-md-6">
                     <a :href="createEmailLink()">
-                        <button class="btn btn-warning btn-block btn-lg">{{ $t('sent_by_email')}} <i class="fa fa-envelope"></i></button>
+                        <button class="btn btn-warning btn-block btn-lg"  @click="clicked('email_top', {})">{{ $t('sent_by_email')}} <i class="fa fa-envelope"></i></button>
                     </a>
                 </div>
             </div>
@@ -20,6 +20,11 @@
             <component-results-noreply :questions="questions"></component-results-noreply>
         </div>
         <component-footer></component-footer>
+        <div class="filler"></div>
+        <div class="downer bg-success text-center p-2">
+            <a href="https://projects.kohovolit.eu/" target="_blank" class="text-white"><h3 @click="clicked('projects_down', {'text': 'calc_at_your_place'})">Chcete Volební kalkulačĸu pro obecní volby 2018 u vás?</h3></a>
+        </div>
+        <Analytics></Analytics>
     </div>
 </template>
 
@@ -31,6 +36,7 @@
     import ResultsNoreply from './ResultsNoreply.vue'
     import questions from '../data/questions.json'
     import votes from '../data/answers.json'
+    import Analytics from './Analytics.vue'
 
     export default {
         data: function () {
@@ -42,6 +48,9 @@
             }
         },
         methods: {
+            clicked: function (campaign, attributes) {
+                this.$clicked(campaign, attributes)
+            },
             createFBLink: function () {
                 function encodeQueryData (data) {
                     let ret = []
@@ -50,7 +59,7 @@
                     }
                     return ret.join('&')
                 }
-                var last = this.results.length - 1
+                // var last = this.results.length - 1
                 // var quote = this.$t('fb_1') + this.results[0].info.family_name + ' (' + this.results[0].result_percent + '%),' + this.$t('fb_2') + this.results[last].info.family_name + ' (' + this.results[last].result_percent + '%)'
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
@@ -68,7 +77,7 @@
                     // 'mobile_iframe': true,
                     'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1)
                 }
-                var querystring = encodeQueryData(d);
+                var querystring = encodeQueryData(d)
                 return 'https://www.facebook.com/dialog/feed?' + querystring
             },
             createEmailLink: function () {
@@ -76,7 +85,7 @@
                 var b = this.$t('email_2') + this.$getSetCookie(this.$settings['cookie'])
                 var subject = encodeURIComponent(s)
                 var body = encodeURIComponent(b)
-                var mailto = "mailto:?subject=" + subject + "&body=" + body
+                var mailto = 'mailto:?subject=' + subject + '&body=' + body
                 return mailto
             },
             clickedDetails: function (params) {
@@ -85,16 +94,6 @@
                 //     abbreviation: params[1]
                 // }
                 // this.clicked('details', attributes)
-            },
-            clicked: function (campaign, attributes) {
-                // var c = this.getSetCookie()
-                // var data = {
-                //     vkid: c,
-                //     calc: 'cz2017vk',
-                //     campaign: campaign,
-                //     attributes: attributes
-                // }
-                // axios.get("https://volebnikalkulacka.cz/volby-2017-simple/match/click.php", { params: data })
             },
             calcMatch: function (answers, weights, votes, extra = 2) {
                 var results = []
@@ -142,6 +141,8 @@
             }
         },
         mounted: function () {
+            this.$action('results_shown')
+            this.$getSetCookie(this.$settings['cookie'])
             // console.log(this.$getSetCookie('vkid'))
             // console.log(this.$beep())
             if (this.$route.query.q !== undefined) {
@@ -166,32 +167,20 @@
                 return b.result - a.result
             })
             this.$store.commit('storeResults', this.results)
-            // console.log(this.createFBLink())
 
-            // var c = this.getSetCookie()
-            // // if (!this.$store.getters.getAnswersStored) {
-            //     var answer = {}
-            //     for (var k in this.$route.query) {
-            //         answer[k] = JSON.parse(this.$route.query[k])
-            //     }
-            //     var data = {
-            //         vkid: c,
-            //         calc: 'cz2017vk',
-            //         answer: JSON.stringify(answer),
-            //         attributes: JSON.stringify({})
-            //     }
-            //     // axios.post(this.settings['api_path'] + 'answers', data).then(
-            //     //     this.$store.commit('storeAnswersStored', true)
-            //     // )
-            //     axios.get("https://volebnikalkulacka.cz/volby-2017-simple/match/results.php", { params: data })
-            // // }
+            var answer = {}
+            for (var k in this.$route.query) {
+                answer[k] = JSON.parse(this.$route.query[k])
+            }
+            this.$save_results(answer)
         },
         components: {
             'component-header': Header,
             'component-footer': Footer,
             'component-results-winners': ResultsWinners,
             'component-results-table': ResultsTable,
-            'component-results-noreply': ResultsNoreply
+            'component-results-noreply': ResultsNoreply,
+            Analytics
         }
     }
 </script>
@@ -201,5 +190,18 @@
         max-width: 576px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .downer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 6vw;
+        width: 100%;
+        color: white;
+        font-size: 1.2em;
+        /*background-color: #abc;*/
+    }
+    .filler {
+        height: 3vw;
     }
 </style>

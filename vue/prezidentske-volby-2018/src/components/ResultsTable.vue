@@ -5,7 +5,7 @@
         </div>
         <div class="list m-1">
             <div class="list-group" v-for="(result, index) in results">
-                <div class="list-group-item list-group-item-action flex-column align-items-start" @click="openingModal(index)" data-toggle="modal" data-target="#modal">
+                <div class="list-group-item list-group-item-action flex-column align-items-start" @click="clicked('result_table', {rank: index, id: result.info.id})" data-toggle="modal" data-target="#modal">
                     <div class="d-flex">
                         <div>
                             <img :src="createImageLink(result.info.picture)" class="picture mr-2" />
@@ -54,6 +54,10 @@
             })
         },
         methods: {
+            clicked: function (campaign, attributes) {
+                this.openingModal(attributes['rank'])
+                this.$clicked(campaign, attributes)
+            },
             getResults: function () {
                 return this.$store.state.results
             },

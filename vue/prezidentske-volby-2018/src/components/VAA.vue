@@ -57,6 +57,7 @@
                 </div>
             </b-carousel>
             <component-footer></component-footer>
+            <Analytics></Analytics>
         </div>
     </div>
 </template>
@@ -66,6 +67,7 @@
     import Header from './Header.vue'
     import Footer from './Footer.vue'
     import Progress from './Progress.vue'
+    import Analytics from './Analytics.vue'
 
     export default {
         data: function () {
@@ -80,6 +82,8 @@
             }
         },
         mounted: function () {
+            this.$action('calc_started')
+            this.$getSetCookie(this.$settings['cookie'])
             if (this.$route.query.s > 0) {
                 this.slide = this.$route.query.s - 1
             }

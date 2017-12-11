@@ -1,11 +1,13 @@
 {
     "url": "https://volebnikalkulacka.cz/",
     "cookie": "vkid",
+    "calc": "cz2018pres",
     "locale": "cs-CZ",
     "_cdn": "http://192.168.1.4/michal/project/volebnikalkulacka.cz/",
     "cdn": "https://volebnikalkulacka.azureedge.net/",
     "_path": "vue/prezidentske-volby-2018/src/",
     "path": "cs/prezidentske-volby-2018/",
+    "save_path": "prezidentske-volby-2018/",
     "api_path_": "http://localhost:3003/",
     "api_path": "https://api.volebnikalkulacka.cz/",
     "fb_app_id": "200785490055088",

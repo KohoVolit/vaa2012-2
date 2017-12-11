@@ -3,7 +3,7 @@ import settings from './settings.json'
 import axios from 'axios'
 
 const CustomFunctions = {
-    install(Vue) {
+    install (Vue) {
         Vue.prototype.$beep = function () {
             console.log('beep')
         }
@@ -18,6 +18,34 @@ const CustomFunctions = {
                 c = this.$cookies.get(s)
             }
             return c
+        }
+        Vue.prototype.$clicked = function (campaign, attributes) {
+            var c = this.$getSetCookie(this.$settings['cookie'])
+            var data = {
+                vkid: c,
+                calc: this.$settings['calc'],
+                campaign: campaign,
+                attributes: attributes
+            }
+            axios.get(this.$settings['url'] + this.$settings['save_path'] + 'match/click.php', { params: data })
+        }
+        Vue.prototype.$action = function (action) {
+            var c = this.$getSetCookie(this.$settings['cookie'])
+            var data = {
+                vkid: c,
+                calc: this.$settings['calc'],
+                action: action
+            }
+            axios.get(this.$settings['url'] + this.$settings['save_path'] + 'match/action.php', { params: data })
+        }
+        Vue.prototype.$save_results = function (answer) {
+            var c = this.$getSetCookie(this.$settings['cookie'])
+            var data = {
+                vkid: c,
+                calc: this.$settings['calc'],
+                answer: answer
+            }
+            axios.get(this.$settings['url'] + this.$settings['save_path'] + 'match/results.php', { params: data })
         }
     }
 }
