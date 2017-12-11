@@ -18,7 +18,7 @@
         $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
         echo '<meta property="og:image" content="' . $image . '"/>';
     } else {
-            echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo_nj.png"/>';
+            echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.png"/>';
     }
 
  ?>
@@ -100,35 +100,23 @@
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
                 <p class="lead">
-                            Volební kalkulačka pro <strong>prezidentské volby 2018</strong> bude spuštěna <strong>dnes 11.12. v 20:02</strong>.<br />
-                            Zaregistrujte se a <strong>dáme Vám vědět hned, jak bude spuštěna</strong>:
+                            Volební kalkulačka pro <strong>prezidentské volby 2018</strong> srovnává Vaše názory a postoje <strong>kandidátů na prezidenta</strong> na 35 otázkách.
                             <p>
-                            <a href="" class="btn btn-lg btn-warning" style="white-space: normal;" data-toggle="modal" data-target="#myModal" id="president-preregistration">
-                                ZAREGISTROVAT SE
-    </a>
+                                <a href="cs/prezidentske-volby-2018/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                        SPUSTIT VOLEBNÍ KALKULAČKU
+                                </a>
                             <hr />
 
-                            <p class="lead">
-                                        Volební kalkulačka pro volby 2017 srovnává Vaše názory a postoje stran, které kandidují do <strong>Sněmovny Parlamentu ČR</strong> na 35 otázkách.
-                                        <p>
-                                        <a href="cs/volby-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                                SPUSTIT VOLEBNÍ KALKULAČKU 2017
-                                        </a>
-
-                            <p class="lead">
-                                        Inventura hlasování ve Sněmovně 2013-2017 srovnává Vaše názory s poslanci na <strong>45 skutečných hlasováních</strong>, která proběhla ve <strong>Sněmovně Parlamentu ČR</strong>.
-                                        <p>
-                                        <a href="cs/inventura-hlasovani-2017/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                                SPUSTIT INVENTURU HLASOVÁNÍ 2013-2017
-                                        </a>
                     <p class="lead">
                             <small>
-                                <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2017 se <strong>100 otázkami!</strong> Pokud Vám nestačí 35 otázek.
+                                <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2018 s <strong>90 otázkami!</strong> Pokud Vám nestačí 35 otázek.<br/>
+                                Bude spuštěna na <a href="https://www.facebook.com/events/373963253046751/">Data Show v Plzni</a>
+                            </br/>
                             </small>
                                 <p>
-                                <a href="cs/volby-2017-ultimate/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
-                                        SPUSTIT DLOOOOOHOU VOLEBNÍ KALKULAČKU 2017
-                                </a>
+                                <button disabled class="btn btn btn-secondary" style="white-space: normal;">
+                                        DLOOOOOHÁ VOLEBNÍ KALKULAČKU - 12.12.2017
+                                </button>
 
 
 
