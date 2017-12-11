@@ -53,6 +53,7 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths
+    // publicPath: '/cs/prezidentske-volby-2018/',
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/cs/prezidentske-volby-2018/',

@@ -1,7 +1,7 @@
 {
   "name": "prezidentske-volby-2018",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Volební kalkulačka 2018",
   "author": "Michal Skop <michal.skop@kohovolit.eu>",
   "private": true,
   "scripts": {

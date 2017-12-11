@@ -31,11 +31,12 @@
         },
         methods: {
             createFBLink: function () {
-                function encodeQueryData(data) {
-                   let ret = [];
-                   for (let d in data)
-                     ret.push(encodeURIComponent(d) + '=' + encodeURIComponent(data[d]));
-                   return ret.join('&');
+                function encodeQueryData (data) {
+                    let ret = []
+                    for (let d in data) {
+                       ret.push(encodeURIComponent(d) + '=' + encodeURIComponent(data[d]))
+                    }
+                    return ret.join('&')
                 }
                 var last = this.results.length - 1
                 var quote = this.$t('fb_1') + this.results[0].info.family_name + ' (' + this.results[0].result_percent + '%),' + this.$t('fb_2') + this.results[last].info.family_name + ' (' + this.results[last].result_percent + '%)'
@@ -50,10 +51,9 @@
                     'app_id': this.$settings['fb_app_id'],
                     'display': 'popup',
                     'href': this.$settings['url'] + '?' + encodeQueryData(href),
-                    'display': 'popup',
                     'quote': quote,
                     'mobile_iframe': true,
-                    'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1,)
+                    'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1, )
                 }
                 var querystring = encodeQueryData(d);
                 return 'https://www.facebook.com/dialog/share?' + querystring
