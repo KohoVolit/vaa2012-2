@@ -12,7 +12,7 @@
 
 <?php
     // fb image
-    error_reporting(E_ALL);
+    error_reporting(0);
     if (isset($_GET['pic'])) {
         $p = json_decode($_GET['pic']);
         $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';

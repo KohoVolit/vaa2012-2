@@ -3,10 +3,15 @@
         <component-header></component-header>
         <div class="results">
             <component-results-winners :questions="questions" :results="results"></component-results-winners>
-            <div class="row">
+            <div class="row px-2">
                 <div class="col-md-6">
                     <a :href="createFBLink()" target="_blank">
-                        <button class="btn btn-primary btn-block btn-lg"><i class="fa fa-facebook"></i> Sdílejte na Facebooku</button>
+                        <button class="btn btn-primary btn-block btn-lg">{{ $t('share_on_fb') }}<i class="fa fa-facebook-official"></i></button>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a :href="createEmailLink()">
+                        <button class="btn btn-warning btn-block btn-lg">{{ $t('sent_by_email')}} <i class="fa fa-envelope"></i></button>
                     </a>
                 </div>
             </div>
@@ -46,7 +51,7 @@
                     return ret.join('&')
                 }
                 var last = this.results.length - 1
-                var quote = this.$t('fb_1') + this.results[0].info.family_name + ' (' + this.results[0].result_percent + '%),' + this.$t('fb_2') + this.results[last].info.family_name + ' (' + this.results[last].result_percent + '%)'
+                // var quote = this.$t('fb_1') + this.results[0].info.family_name + ' (' + this.results[0].result_percent + '%),' + this.$t('fb_2') + this.results[last].info.family_name + ' (' + this.results[last].result_percent + '%)'
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
                     pic: JSON.stringify({
@@ -56,14 +61,23 @@
                 }
                 var d = {
                     'app_id': this.$settings['fb_app_id'],
-                    'display': 'popup',
-                    'href': this.$settings['url'] + '?' + encodeQueryData(href),
-                    'quote': quote,
-                    'mobile_iframe': true,
-                    'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1, )
+                    'display': 'page',
+                    // 'href': this.$settings['url'] + '?' + encodeQueryData(href),
+                    'link': this.$settings['url'] + '?' + encodeQueryData(href),
+                    // 'quote': quote,
+                    // 'mobile_iframe': true,
+                    'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1)
                 }
                 var querystring = encodeQueryData(d);
-                return 'https://www.facebook.com/dialog/share?' + querystring
+                return 'https://www.facebook.com/dialog/feed?' + querystring
+            },
+            createEmailLink: function () {
+                var s = this.$t('email_1')
+                var b = this.$t('email_2') + this.$getSetCookie(this.$settings['cookie'])
+                var subject = encodeURIComponent(s)
+                var body = encodeURIComponent(b)
+                var mailto = "mailto:?subject=" + subject + "&body=" + body
+                return mailto
             },
             clickedDetails: function (params) {
                 // var attributes = {
@@ -152,7 +166,7 @@
                 return b.result - a.result
             })
             this.$store.commit('storeResults', this.results)
-            console.log(this.createFBLink())
+            // console.log(this.createFBLink())
 
             // var c = this.getSetCookie()
             // // if (!this.$store.getters.getAnswersStored) {
