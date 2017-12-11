@@ -5,18 +5,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2018. Nejužitečnějších 5 minut před prezidentskými volbami. Spuštění 11.12.2017.">
+    <meta name="description" content="Volební kalkulačka 2017. Nejužitečnějších 5 minut před volbami">
     <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
 
-    <meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/>
+<?php
+    // fb image
+    error_reporting(E_ALL);
+    if (isset($_GET['pic'])) {
+        $p = json_decode($_GET['pic']);
+        $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
+        echo '<meta property="og:image" content="' . $image . '"/>';
+    } else {
+            echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/>';
+    }
+
+ ?>
+
+    <!-- <meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/> -->
 	<meta property="og:title" content="Volební kalkulačka"/>
 	<meta property="og:url" content="https://volebnikalkulacka.cz"/>
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2018</title>
+    <title>Volební kalkulačka 2017</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -86,7 +99,7 @@
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
 
                 <p class="lead">
-                            Volební kalkulačka pro <strong>prezidentské volby 2018</strong> bude spuštěna v prosinci nejpozději měsíc před volbami.<br />
+                            Volební kalkulačka pro <strong>prezidentské volby 2018</strong> bude spuštěna <strong>dnes 11.12. v 20:02</strong>.<br />
                             Zaregistrujte se a <strong>dáme Vám vědět hned, jak bude spuštěna</strong>:
                             <p>
                             <a href="" class="btn btn-lg btn-warning" style="white-space: normal;" data-toggle="modal" data-target="#myModal" id="president-preregistration">
@@ -224,73 +237,7 @@
 
                 <p>
                     <!-- Hithit -->
-                <style>
-                /*.low {
-                    position: fixed;
-                    bottom: 0;
-                    left: 0;
-                    height: 10%;
-                    width: 100%;
-                    color: white;
-                    font-size: 1.2em;
-                    color: white;
-                    background-color: #080;
-                }*/
-                /*.low {
-                    height: 2em;
-                    font-size: 1em;
-                }*/
-                    /*a .low {
-                    color: white;
-                    }
-                    .right {
-                    float: right;
-                    color: black;
-                    font-size: 2.5em;
-                    height: 5em;
-                    cursor: pointer;
-                    }
-                    .right.low {
-                    font-size: 1em;
-                    }
-                    .underline {
-                    text-decoration: underline;
-                    }
-                    .right-hide {
-                    font-size: 0.8rem;
-                }*/
-                </style>
-                <!-- <div class="low bg-success">
-                    <div class="row">
-                        <div class="col-xs-12 text-center">
-                            <a href="https://www.hithit.com/cs/project/4067/volebni-kalkulacka-on-steroids" target="_blank"  id="hithit" style="color:white;">
 
-                            <span v-if="low">Podpořte volební kalkulačku na Hithitu!</span><br/>
-                            <span class="underline">Klikněte pro více informací.</span>
-                            <br/>
-                             </a>
-                        </div>
-                    </div>
-                </div> -->
-                <script>
-                function getCookieValue(a) {
-                     var b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
-                     return b ? b.pop() : '';
-                 }
-                // $(function() {
-                //     $('#hithit').click(function(){
-                //         $.ajax({
-                //             url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/click.php',
-                //             type: 'get',
-                //             data: {
-                //                 vkid: getCookieValue("vkid"),
-                //                 calc: 'cz2017fp',
-                //                 campaign: 'frontpage_hithit'
-                //             }
-                //         })
-                //     });
-                // })
-                </script>
                 <!-- /Hithit -->
 
         </div>

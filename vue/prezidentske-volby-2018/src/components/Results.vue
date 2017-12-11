@@ -3,6 +3,13 @@
         <component-header></component-header>
         <div class="results">
             <component-results-winners :questions="questions" :results="results"></component-results-winners>
+            <div class="row">
+                <div class="col-md-6">
+                    <a :href="createFBLink()" target="_blank">
+                        <button class="btn btn-primary btn-block btn-lg"><i class="fa fa-facebook"></i> Sdílejte na Facebooku</button>
+                    </a>
+                </div>
+            </div>
             <component-results-table :questions="questions" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
             <component-results-noreply :questions="questions"></component-results-noreply>
