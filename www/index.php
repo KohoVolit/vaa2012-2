@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2017. Nejužitečnějších 5 minut před volbami">
+    <meta name="description" content="Volební kalkulačka 2018. Nejužitečnějších 5 minut před prezidentskými volbami. Spuštění 11.12.2017.">
     <meta name="keywords" content="volební kalkulačka, volební test, inventura hlasování">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -16,7 +16,7 @@
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2017</title>
+    <title>Volební kalkulačka 2018</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -225,7 +225,7 @@
                 <p>
                     <!-- Hithit -->
                 <style>
-                .low {
+                /*.low {
                     position: fixed;
                     bottom: 0;
                     left: 0;
@@ -235,12 +235,12 @@
                     font-size: 1.2em;
                     color: white;
                     background-color: #080;
-                }
+                }*/
                 /*.low {
                     height: 2em;
                     font-size: 1em;
                 }*/
-                    a .low {
+                    /*a .low {
                     color: white;
                     }
                     .right {
@@ -258,9 +258,9 @@
                     }
                     .right-hide {
                     font-size: 0.8rem;
-                }
+                }*/
                 </style>
-                <div class="low bg-success">
+                <!-- <div class="low bg-success">
                     <div class="row">
                         <div class="col-xs-12 text-center">
                             <a href="https://www.hithit.com/cs/project/4067/volebni-kalkulacka-on-steroids" target="_blank"  id="hithit" style="color:white;">
@@ -271,25 +271,25 @@
                              </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <script>
                 function getCookieValue(a) {
-                    var b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
-                    return b ? b.pop() : '';
-                }
-                $(function() {
-                    $('#hithit').click(function(){
-                        $.ajax({
-                            url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/click.php',
-                            type: 'get',
-                            data: {
-                                vkid: getCookieValue("vkid"),
-                                calc: 'cz2017fp',
-                                campaign: 'frontpage_hithit'
-                            }
-                        })
-                    });
-                })
+                     var b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+                     return b ? b.pop() : '';
+                 }
+                // $(function() {
+                //     $('#hithit').click(function(){
+                //         $.ajax({
+                //             url: 'https://volebnikalkulacka.cz/volby-2017-simple/match/click.php',
+                //             type: 'get',
+                //             data: {
+                //                 vkid: getCookieValue("vkid"),
+                //                 calc: 'cz2017fp',
+                //                 campaign: 'frontpage_hithit'
+                //             }
+                //         })
+                //     });
+                // })
                 </script>
                 <!-- /Hithit -->
 
