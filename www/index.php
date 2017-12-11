@@ -24,7 +24,9 @@
  ?>
 
 	<meta property="og:title" content="Volební kalkulačka"/>
-	<meta property="og:url" content="https://volebnikalkulacka.cz"/>
+<?php
+	echo '<meta property="og:url" content="https://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]. '"/>'
+?>
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
