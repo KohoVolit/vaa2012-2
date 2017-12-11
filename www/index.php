@@ -18,12 +18,11 @@
         $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
         echo '<meta property="og:image" content="' . $image . '"/>';
     } else {
-            echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/>';
+            echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo_nj.png"/>';
     }
 
  ?>
 
-    <!-- <meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/> -->
 	<meta property="og:title" content="Volební kalkulačka"/>
 	<meta property="og:url" content="https://volebnikalkulacka.cz"/>
 	<meta property="og:site_name" content="Volební kalkulačka"/>
