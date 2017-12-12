@@ -60,7 +60,7 @@
                             <td class="comment">
                                 <small>
                                     {{ shortenText(results[index]['info']['details'][question.id]) }}
-                                    <i v-if="shortened(results[index]['info']['details'][question.id])" class="fa fa-info-circle more-info" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="results[index]['info']['details'][question.id]"></i>
+                                    <i v-if="shortened(results[index]['info']['details'][question.id])" class="fa fa-info-circle more-info" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="getComment(question.id)"></i>
                                 </small>
                             </td>
 
@@ -124,6 +124,9 @@
             weighted: function (w) {
                 if (w) return 'strong'
                 else return ''
+            },
+            getComment: function (question_id) {
+                return this.results[this.index]['info']['details'][question_id]
             },
             shortenText: function (t) {
                 if (!t) { return '' }
