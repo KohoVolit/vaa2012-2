@@ -203,7 +203,8 @@
         position: fixed;
         bottom: 0;
         left: 0;
-        height: 6vw;
+        /*height: 6vw;*/
+        height: 110px;
         width: 100%;
         color: white;
         font-size: 1.2em;
