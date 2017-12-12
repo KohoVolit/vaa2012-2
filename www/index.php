@@ -110,12 +110,12 @@
                     <p class="lead">
                             <small>
                                 <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2018 s <strong>90 otázkami!</strong> Pokud Vám nestačí 35 otázek.<br/>
-                                Bude spuštěna na <a href="https://www.facebook.com/events/373963253046751/">Data Show v Plzni</a>
+                                Bude spuštěna na <a href="https://www.facebook.com/events/373963253046751/" class="text-danger" style="font-weight:700;background-color:rgba(255,255,255,0.85)">Data Show v Plzni</a>
                             </br/>
                             </small>
                                 <p>
                                 <button disabled class="btn btn btn-secondary" style="white-space: normal;">
-                                        DLOOOOOHÁ VOLEBNÍ KALKULAČKU - 12.12.2017
+                                        DLOOOOOHÁ VOLEBNÍ KALKULAČKA - 12.12.2017
                                 </button>
 
 

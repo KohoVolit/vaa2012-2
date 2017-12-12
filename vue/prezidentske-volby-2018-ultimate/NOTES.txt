@@ -1,0 +1,10 @@
+differences from prezidentske-volby-2018:
+
+volebnikalkulacka.cz/vue/prezidentske-volby-2018-ultimate/config/index.js
+volebnikalkulacka.cz/vue/prezidentske-volby-2018-ultimate/src/router/index.js
+volebnikalkulacka.cz/vue/prezidentske-volby-2018-ultimate/src/settings.json
+
+index.html
+
+data/ questions_all.json -> questions.json
+
