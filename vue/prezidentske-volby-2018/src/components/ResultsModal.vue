@@ -2,25 +2,31 @@
     <div v-if="results[index]" class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header row m-2">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 <div class="card col-12">
-                    <div class="card-body row">
-                        <div class="col-8">
-                            <h4 class="card-title">{{ results[index].info.family_name }}</h4>
-                            <div class="card-text">{{ results[index].info.given_name }}</div>
-                            <div class="card-text">
-                                <!-- <component-stars :stars="results[index].rating"></component-stars> -->
-                                <div class="stars">
-                                    <i v-for="n in stars['full']" class="fa fa-star"></i><i v-for="n in stars['half']" class="fa fa-star-half-full"></i><i v-for="n in stars['empty']" class="fa fa-star-o"></i>
+                    <div class="card-body pb-1">
+                        <div class="row">
+                            <div class="col-8">
+                                <h4 class="card-title">{{ results[index].info.family_name }}</h4>
+                                <div class="card-text">{{ results[index].info.given_name }}</div>
+                                <div class="card-text">
+                                    <!-- <component-stars :stars="results[index].rating"></component-stars> -->
+                                    <div class="stars">
+                                        <i v-for="n in stars['full']" class="fa fa-star"></i><i v-for="n in stars['half']" class="fa fa-star-half-full"></i><i v-for="n in stars['empty']" class="fa fa-star-o"></i>
+                                    </div>
                                 </div>
+                                <div class="card-text text-muted">{{ $t('match') }}: {{ results[index].result_percent }}%</div>
                             </div>
-                            <div class="card-text text-muted">{{ $t('match') }}: {{ results[index].result_percent }}%</div>
-                        </div>
-                        <div class="col-4 text-right">
-                            <img :src="createImageLink(results[index].info.picture)" class="picture mr-2" />
+                            <div class="col-4 text-right">
+                                <img :src="createImageLink(results[index].info.picture)" class="picture mr-2" />
+                            </div>
                         </div>
                     </div>
+                    <component-p21 :code="results[index].info.picture" :idd="results[index].info.id"></component-p21>
                 </div>
-                <button type="button" class="btn btn-primary btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
             </div>
             <div class="modal-body">
                 <table class="table-striped w-100">
@@ -69,19 +75,23 @@
                 </table>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
+                <button type="button" class="btn btn-secondary btn-lg mt-2" data-dismiss="modal">{{ $t('close') }}</button>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+    import p21 from './Prezident21.vue'
 
     export default {
         props: ['index', 'questions', 'results', 'answers', 'weights'],
         mounted: function () {
+            // eslint-disable-next-line
             if ($ !== undefined) {
+                // eslint-disable-next-line
                 $(function () {
+                    // eslint-disable-next-line
                   $('[data-toggle="popover"]').popover()
                 })
             }
@@ -102,6 +112,9 @@
             }
         },
         methods: {
+            send: function (s) {
+                return s
+            },
             createImageLink: function (name) {
                 return this.$settings['cdn'] + this.$settings['path'] + this.$settings['pic_path_large'] + name
             },
@@ -125,8 +138,8 @@
                 if (w) return 'strong'
                 else return ''
             },
-            getComment: function (question_id) {
-                return this.results[this.index]['info']['details'][question_id]
+            getComment: function (questionId) {
+                return this.results[this.index]['info']['details'][questionId]
             },
             shortenText: function (t) {
                 if (!t) { return '' }
@@ -150,6 +163,9 @@
                 }
                 return false
             }
+        },
+        components: {
+            'component-p21': p21
         }
     }
 </script>
@@ -178,7 +194,7 @@
     }
     @media (min-width: 992px) {
         .modal-lg {
-            max-width: 80%;
+            max-width: 70%;
         }
     }
     .stars {

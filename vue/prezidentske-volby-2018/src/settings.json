@@ -1,5 +1,6 @@
 {
-    "url": "https://volebnikalkulacka.cz/",
+    "_url": "https://volebnikalkulacka.cz/",
+    "url": "http://192.168.1.4:8080/",
     "cookie": "vkid",
     "calc": "cz2018pres",
     "locale": "cs-CZ",
