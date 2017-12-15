@@ -2,6 +2,9 @@
     <div v-if="results[index]" class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header row m-2">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 <div class="card col-12">
                     <div class="card-body row">
                         <div class="col-8">
@@ -60,7 +63,7 @@
                             <td class="comment">
                                 <small>
                                     {{ shortenText(results[index]['info']['details'][question.id]) }}
-                                    <i v-if="shortened(results[index]['info']['details'][question.id])" class="fa fa-info-circle more-info" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="getComment(question.id)"></i>
+                                    <i class="fa fa-info-circle more-info" v-if="shortened(results[index]['info']['details'][question.id])" type="button" data-container="body" data-toggle="popover"  :data-content="getComment(question.id)"></i>
                                 </small>
                             </td>
 

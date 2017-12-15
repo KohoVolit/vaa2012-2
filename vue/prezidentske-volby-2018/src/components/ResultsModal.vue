@@ -66,7 +66,7 @@
                             <td class="comment">
                                 <small>
                                     {{ shortenText(results[index]['info']['details'][question.id]) }}
-                                    <i v-if="shortened(results[index]['info']['details'][question.id])" class="fa fa-info-circle more-info" tabindex="0" data-toggle="popover" data-trigger="focus" :data-content="getComment(question.id)"></i>
+                                    <i class="fa fa-info-circle more-info" v-if="shortened(results[index]['info']['details'][question.id])" type="button" data-container="body" data-toggle="popover"  :data-content="getComment(question.id)"></i>
                                 </small>
                             </td>
 

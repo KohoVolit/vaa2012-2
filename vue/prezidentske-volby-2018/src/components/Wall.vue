@@ -3,7 +3,7 @@
         <component-header></component-header>
         <div class="container">
             <h1 class="p-4"><i class="fa fa-heart text-danger"></i> Zeď přispěvatelů
-                <br /><small>bez nich by prezidentská Volební kalkulačka nevznikla</small>
+                <br /><small>bez vás by prezidentská Volební kalkulačka nevznikla</small>
             </h1>
             <div class="d-flex flex-row flex-wrap justify-content-around">
                 <div v-for="hero in heroes" class="card p-2 m-2">
