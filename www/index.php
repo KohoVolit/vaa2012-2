@@ -109,14 +109,12 @@
 
                     <p class="lead">
                             <small>
-                                <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2018 s <strong>90 otázkami!</strong> Pokud Vám nestačí 35 otázek.<br/>
-                                Bude spuštěna na <a href="https://www.facebook.com/events/373963253046751/" class="text-danger" style="font-weight:700;background-color:rgba(255,255,255,0.85)">Data Show v Plzni</a>
-                            </br/>
+                                <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2018 s <strong>90 otázkami!</strong> Pokud Vám nestačí 35 otázek.
                             </small>
                                 <p>
-                                <button disabled class="btn btn btn-secondary" style="white-space: normal;">
-                                        DLOOOOOHÁ VOLEBNÍ KALKULAČKA - 12.12.2017
-                                </button>
+                                <a href="cs/prezidentske-volby-2018-ultimate/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
+                                        SPUSTIT DLOOOOOUHOU VOLEBNÍ KALKULAČKU
+                                </a>
 
 
 
