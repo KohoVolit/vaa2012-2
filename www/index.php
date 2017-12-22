@@ -223,9 +223,17 @@
 
 
                 <p>
-                    <!-- Hithit -->
-
-                <!-- /Hithit -->
+                    <style>
+                        @media (min-width: 576px) {
+                            .towall {
+                                position:absolute;
+                                bottom:20px
+                            }
+                        }
+                    </style>
+                    <div class="col-md-6 col-md-offset-3 text-center towall">
+                        <a target="_blank" href="cs/prezidentske-volby-2018/wall" class="btn btn-warning btn-lg mt-4"><i class="fa fa-heart text-danger"></i> Zeď podporovatelů Volební kalkulačky</a>
+                    </div>
 
         </div>
     </div>

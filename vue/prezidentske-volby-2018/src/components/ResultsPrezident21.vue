@@ -55,7 +55,7 @@
     }
     .text {
         color: #092e67;
-        line-height: 1em;
+        line-height: 1.2em;
         font-size: .8rem;
     }
     button {
