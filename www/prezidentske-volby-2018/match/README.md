@@ -1,6 +1,6 @@
 # API - Volební kalkulačka 2018 (prezident)
 
-Draft: 2017-12-01
+Version: 2017-12-31
 
 ## Questions
 All questions sent to the candidates may be downloaded from here:
