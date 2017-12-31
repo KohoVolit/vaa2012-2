@@ -36,6 +36,9 @@ An user took the test using `Plaský plátek` app and answered:
 
 https://volebnikalkulacka.cz/prezidentske-volby-2018/match/?format=json&q={"1":-1,"2":1}&w={"2":true}&key=plasky_platek&complete=1
 
+#### Alternative server
+There is an alternative API server set for the Czech presidential elections API: https://a.volebnikalkulacka.cz
+
 ### Response
 If the requested format is set to `json`: The response is (ordered) JSON array with individual items representing the candidates:
 
