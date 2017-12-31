@@ -24,6 +24,7 @@ with parameters:
 - `q` - JSON encoded user's answers in form: {`question_id`: `user's answer`} (`1` = Yes, `-1` = No, `0` = Neutral)
 - `w` - JSON encoded user's extra weights in form: {`question_id`: `user's weight`} (`true` if user selected the question as extra important for them, default otherwise)
 - `key` - value to distinguish among different sources (useful for further analyses of the source's users)
+- `complete` - if `1`, include also candidates who did not answers and their replies were prepared by experts (i.e., Mr. Zeman in Czech presidential elections 2018) (only selected 35 questions!)
 
 
 #### Example
@@ -31,8 +32,9 @@ An user took the test using `Plaský plátek` app and answered:
 - `no` to question with `id` = `1`
 - `yes` to question with `id` = `2`, and
 - selected question with `id` = `2` as extra important for them
+- include Mr. Zeman with 35 answers prepared by experts
 
-https://volebnikalkulacka.cz/prezidentske-volby-2018/match/?format=json&q={"1":-1,"2":1}&w={"2":true}&key=plasky_platek
+https://volebnikalkulacka.cz/prezidentske-volby-2018/match/?format=json&q={"1":-1,"2":1}&w={"2":true}&key=plasky_platek&complete=1
 
 ### Response
 If the requested format is set to `json`: The response is (ordered) JSON array with individual items representing the candidates:

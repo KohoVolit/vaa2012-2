@@ -9,7 +9,13 @@ session_start();
 $relative_path = "../";
 
 //answers of voters
-$answers = json_decode(file_get_contents('../answers.json'));
+// complete - include also candidates with expert-based answers
+if (isset($_GET['complete']) and ($_GET['complete'])) {
+    $answers = json_decode(file_get_contents('../answers_complete.json'));
+} else {
+    $answers = json_decode(file_get_contents('../answers.json'));
+}
+
 //missing voters
 // $missing = json_decode(file_get_contents('../noreply.json'));
 //extract user values
