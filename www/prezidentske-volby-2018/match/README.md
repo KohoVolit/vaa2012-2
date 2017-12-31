@@ -49,6 +49,7 @@ If the requested format is set to `json`: The response is (ordered) JSON array w
 - `result` - calculated match in [0, 1]
 - `result_percent` - calculated match in percents [0, 100]
 - `random` - random number
+- `answered_by` - whether answered by `candidate` themselves or by an `expert` (`complete=1` only)
 
 The candidates are ordered by `result` in descending order and if necessary also by `random` in ascending order (for candidates with equal `result`s)
 

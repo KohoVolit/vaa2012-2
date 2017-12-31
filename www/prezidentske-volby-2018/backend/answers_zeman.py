@@ -5,6 +5,8 @@ import json
 
 with open("answers.json") as fin:
     answers = json.load(fin)
+    for row in answers:
+        row['answered_by'] = "candidate"
 
 additional = {
     "last_name": "Zeman",
@@ -13,7 +15,8 @@ additional = {
     "picture": "zeman.jpg",
     "id": "9",
     "votes": {},
-    "details": {}
+    "details": {},
+    "answered_by": "expert"
 }
 
 with open("zeman.csv") as fin:
