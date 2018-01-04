@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-md-6">
                     <a :href="createEmailLink()">
-                        <button class="btn btn-warning btn-block btn-lg"  @click="clicked('email_top', {})">{{ $t('sent_by_email')}} <i class="fa fa-envelope"></i></button>
+                        <button class="btn btn-warning btn-block btn-lg" @click="clicked('email_top', {})">{{ $t('sent_by_email')}} <i class="fa fa-envelope"></i></button>
                     </a>
                 </div>
             </div>
@@ -23,6 +23,13 @@
             </div> -->
             <component-results-prezident21></component-results-prezident21>
             <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1W29Ka674GWZaf-KWQCTSeSKuGxqFRvrA5jjLzvNtf2c/edit?usp=sharing" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><i class="fa fa-table"></i> Přehled všech odpovědí v tabulce</a>
+            <a @click="clicked('rekonstrukce_hradu', {'text': 'fair_campaign'})" href="http://rekonstrukce-hradu.cz/" target="_blank">
+                <div class="d-flex flex-row align-items-center mt-2">
+                    <img :src="rhSrc" class="image m-2"/>
+                    <div class="p-2 text">Rekonstrukce Hradu sleduje
+                    férovost volebních kampaní</div>
+                </div>
+            </a>
             <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> Zeď podporovatelů Volební kalkulačky</a>
         </div>
         <component-footer></component-footer>
@@ -52,6 +59,11 @@
                 votes,
                 results: [{info: ''}, {info: ''}, {info: ''}],
                 answers: {}
+            }
+        },
+        computed: {
+            rhSrc: function () {
+                return this.$settings['cdn'] + 'image/' + this.$settings['save_path'] + 'rekonstrukce-hradu-2.png'
             }
         },
         methods: {
@@ -215,5 +227,18 @@
     }
     .filler {
         height: 3vw;
+    }
+    .image {
+        max-height: 32px;
+    }
+    .text {
+        color: #092e67;
+        line-height: 1.2em;
+        font-size: .8rem;
+    }
+    @media (min-width: 576px) {
+        .text {
+            font-size: 1rem;
+        }
     }
 </style>

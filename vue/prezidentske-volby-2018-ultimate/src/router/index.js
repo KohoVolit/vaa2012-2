@@ -18,6 +18,7 @@ export default new Router({
         { path: '/helloworld', name: 'HelloWorld', component: load('HelloWorld') },
         { path: '/', name: 'VAA', component: load('VAA') },
         { path: '/selection', name: 'Selection', component: load('Selection') },
-        { path: '/results', name: 'Results', component: load('Results') }
+        { path: '/results', name: 'Results', component: load('Results') },
+        { path: '/wall', name: 'Wall', component: load('Wall') }
     ]
 })

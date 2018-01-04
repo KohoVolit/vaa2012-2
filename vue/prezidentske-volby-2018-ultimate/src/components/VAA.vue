@@ -151,7 +151,8 @@
         components: {
             'component-header': Header,
             'component-footer': Footer,
-            'component-progress': Progress
+            'component-progress': Progress,
+            Analytics
         }
     }
 </script>
