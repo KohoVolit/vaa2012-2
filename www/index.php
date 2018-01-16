@@ -98,14 +98,24 @@
 
 			<h1>Volební kalkulačka 2018</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
+                <p class="lead">
+                    Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
+                    <strong>Miloš Zeman bohužel odmítl na otázky odpovědět</strong> i před 2. kolem. Pokud odpoví, volební kalkulačku ihned spustíme.
+                    <p>
+                        <button class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU</button>
+                    </p>
+                    <p>
+                        <a href="https://docs.google.com/spreadsheets/d/1W29Ka674GWZaf-KWQCTSeSKuGxqFRvrA5jjLzvNtf2c/edit#gid=0" class="btn btn-lg btn-warning">ODPOVĚDI JIŘÍHO DRAHOŠE</a>
+                    </p>
 
+                </p>
+                <hr />
                 <p class="lead">
                             Volební kalkulačka pro <strong>prezidentské volby 2018</strong> srovnává Vaše názory a postoje <strong>kandidátů na prezidenta</strong> na 35 otázkách.
                             <p>
                                 <a href="cs/prezidentske-volby-2018/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT VOLEBNÍ KALKULAČKU
+                                        SPUSTIT VOLEBNÍ KALKULAČKU 1.KOLO
                                 </a>
-                            <hr />
 
                     <p class="lead">
                             <small>
@@ -113,7 +123,7 @@
                             </small>
                                 <p>
                                 <a href="cs/prezidentske-volby-2018-ultimate/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
-                                        SPUSTIT DLOOOOOUHOU VOLEBNÍ KALKULAČKU
+                                        SPUSTIT DLOOOOOUHOU VOLEBNÍ KALKULAČKU 1.KOLO
                                 </a>
 
 

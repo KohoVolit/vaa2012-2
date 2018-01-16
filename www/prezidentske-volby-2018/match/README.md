@@ -3,11 +3,15 @@
 Version: 2017-12-31
 
 ## Questions
+Second round (24 questions):
+
+https://volebnikalkulacka.cz/prezidentske-volby-2018/questions_2.json
+
 All questions sent to the candidates may be downloaded from here:
 
 https://volebnikalkulacka.cz/prezidentske-volby-2018/questions_all.json
 
-Final selection of questions will be available here:
+Final selection of questions are available here:
 
 https://volebnikalkulacka.cz/prezidentske-volby-2018/questions.json
 
@@ -25,6 +29,7 @@ with parameters:
 - `w` - JSON encoded user's extra weights in form: {`question_id`: `user's weight`} (`true` if user selected the question as extra important for them, default otherwise)
 - `key` - value to distinguish among different sources (useful for further analyses of the source's users)
 - `complete` - if `1`, include also candidates who did not answers and their replies were prepared by experts (i.e., Mr. Zeman in Czech presidential elections 2018) (only selected 35 questions!)
+- `r2` - if `1`, returns only candidates for second round (use together with `complete=1`) 
 
 
 #### Example

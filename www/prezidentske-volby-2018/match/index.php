@@ -11,7 +11,11 @@ $relative_path = "../";
 //answers of voters
 // complete - include also candidates with expert-based answers
 if (isset($_GET['complete']) and ($_GET['complete'])) {
-    $answers = json_decode(file_get_contents('../answers_complete.json'));
+    if (isset($_GET['r2']) and ($_GET['r2'])) {
+        $answers = json_decode(file_get_contents('../answers_complete_2.json'));
+    } else {
+        $answers = json_decode(file_get_contents('../answers_complete.json'));
+    }
 } else {
     $answers = json_decode(file_get_contents('../answers.json'));
 }
