@@ -1,4 +1,4 @@
-# prezidentske-volby-2018
+# hackathon-2018
 
 > A Vue.js project
 

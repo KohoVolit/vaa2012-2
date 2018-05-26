@@ -19,7 +19,7 @@
             </component-results-table>
             <!-- <component-results-noreply :questions="questions"></component-results-noreply> -->
             <!-- <div class="text-center pt-3">
-                <a href="https://www.prezident21.cz/" @click="clicked('21_down', {'text': 'know_more'})" target="blank_"><img src="https://volebnikalkulacka.azureedge.net/cs/prezidentske-volby-2018/statics/koho_volit_banner_zjistit_vice.png" /></a>
+                <a href="https://www.prezident21.cz/" @click="clicked('21_down', {'text': 'know_more'})" target="blank_"><img src="https://volebnikalkulacka.azureedge.net/cs/hackathon-2018/statics/koho_volit_banner_zjistit_vice.png" /></a>
             </div> -->
             <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> <span class="wall-text">Zeď podporovatelů Volební kalkulačky</span></a>
         </div>
