@@ -34,10 +34,17 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     <html><head>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
     </head><body>
-    <style>body{width: 365px; font-family: 'Open Sans', sans-serif;}
-    .table{max-width:666px; margin-top:50px; border-collapse: collapse;}
+    <style>body{width: 215px; font-family: 'Open Sans', sans-serif;}
+    .table{max-width:215px; margin-top:50px; border-collapse: collapse;}
     .table > tbody > tr > td {border-bottom: 5px solid black; }
-    .logo {width: 365px;}
+    .logo {width: 215px;}
+    .percentage {
+        text-align:right;
+        position:relative;
+        bottom:15px;
+        font-size: 2em;
+        font-weight: bold;
+    }
     </style>";
 
     echo "<div class='container'>
@@ -46,7 +53,7 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
         echo "<tr style=''><td><img class='logo' src='https://volebnikalkulacka.cz/hackathon-2018/logo/" . $row['picture'] . "'>";
         // echo "<td>" . $row['name'];
         // echo "<td style='font-size:20px; font-weight: bold'>" . $row['abbreviation'];
-        echo "<td style='text-align:left'>" . $row['result_percent'] . '%';
+        echo "<td class='percentage'>" . $row['result_percent'] . '%';
     }
     echo "</table></div></body></html>";
 }
