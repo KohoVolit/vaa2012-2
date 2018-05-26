@@ -100,7 +100,7 @@
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                 <p class="lead">
                     Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
-                    <strong>Miloš Zeman bohužel odmítl na otázky odpovědět</strong> i před 2. kolem. Pokud odpoví, volební kalkulačku ihned spustíme.
+                    <strong>Miloš Zeman bohužel odmítl na otázky odpovědět</strong> i před 2. kolem.
                     <p>
                         <button class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU</button>
                     </p>
