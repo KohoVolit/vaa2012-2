@@ -4,8 +4,8 @@
             <div v-if="index < 3" class="card" @click="clicked('result_winners', {rank: index, id: result.info.id})" data-toggle="modal" data-target="#modal-winners">
                 <div class="card-body">
                     <img :src="createImageLink(result.info.picture)" class="picture mr-2" />
-                    <h4 class="card-title">{{ result.info.family_name }}</h4>
-                    <div class="card-text">{{ result.info.given_name }}</div>
+                    <h4 class="card-title">{{ result.info.abbreviation }}</h4>
+                    <div class="card-text">{{ result.info.name }}</div>
                     <div class="card-text">
                         <component-stars :stars="result.rating"></component-stars>
                     </div>

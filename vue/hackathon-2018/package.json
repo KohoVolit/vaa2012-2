@@ -5,7 +5,7 @@
   "author": "Michal Skop <michal.skop@kohovolit.eu>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 192.168.1.4",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 172.17.0.1",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"

@@ -17,19 +17,10 @@
             </div>
             <component-results-table :questions="questions" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
-            <component-results-noreply :questions="questions"></component-results-noreply>
+            <!-- <component-results-noreply :questions="questions"></component-results-noreply> -->
             <!-- <div class="text-center pt-3">
                 <a href="https://www.prezident21.cz/" @click="clicked('21_down', {'text': 'know_more'})" target="blank_"><img src="https://volebnikalkulacka.azureedge.net/cs/prezidentske-volby-2018/statics/koho_volit_banner_zjistit_vice.png" /></a>
             </div> -->
-            <component-results-prezident21></component-results-prezident21>
-            <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1W29Ka674GWZaf-KWQCTSeSKuGxqFRvrA5jjLzvNtf2c/edit?usp=sharing" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><i class="fa fa-table"></i> Přehled všech odpovědí v tabulce</a>
-            <a @click="clicked('rekonstrukce_hradu', {'text': 'fair_campaign'})" href="http://rekonstrukce-hradu.cz/" target="_blank">
-                <div class="d-flex flex-row align-items-center mt-4">
-                    <img :src="rhSrc" class="image m-2"/>
-                    <div class="p-2 text">Rekonstrukce Hradu sleduje
-                    férovost volebních kampaní</div>
-                </div>
-            </a>
             <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> <span class="wall-text">Zeď podporovatelů Volební kalkulačky</span></a>
         </div>
         <component-footer></component-footer>

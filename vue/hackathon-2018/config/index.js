@@ -56,7 +56,7 @@ module.exports = {
     // publicPath: '/cs/prezidentske-volby-2018/',
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/cs/prezidentske-volby-2018/',
+    assetsPublicPath: '/cs/hackathon-2018/',
 
     /**
      * Source Maps
