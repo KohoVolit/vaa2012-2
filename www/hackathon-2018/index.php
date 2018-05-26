@@ -36,21 +36,23 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     </head><body>
     <style>body{width: 215px; font-family: 'Open Sans', sans-serif;}
     .table{max-width:215px; margin-top:50px; border-collapse: collapse;}
-    .table > tbody > tr > td {border-bottom: 5px solid black; }
-    .logo {width: 215px;}
+    .underline {border-bottom: 5px solid black; }
+    .logo {width: 384px;}
     .percentage {
         text-align:right;
         position:relative;
-        bottom:15px;
-        font-size: 2em;
+        bottom: 20px;
+        right: 85px;
+        font-size: 40px;
         font-weight: bold;
+        width: 110px
     }
     </style>";
 
     echo "<div class='container'>
     <table class='table'>";
     foreach($results as $row) {
-        echo "<tr style=''><td><img class='logo' src='https://volebnikalkulacka.cz/hackathon-2018/logo/" . $row['picture'] . "'>";
+        echo "<tr style=''><td class='underline'><img class='logo' src='https://volebnikalkulacka.cz/hackathon-2018/logo/" . $row['picture'] . "'>";
         // echo "<td>" . $row['name'];
         // echo "<td style='font-size:20px; font-weight: bold'>" . $row['abbreviation'];
         echo "<td class='percentage'>" . $row['result_percent'] . '%';

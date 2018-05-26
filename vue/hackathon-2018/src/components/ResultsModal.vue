@@ -9,8 +9,8 @@
                     <div class="card-body pb-1">
                         <div class="row">
                             <div class="col-8">
-                                <h4 class="card-title">{{ results[index].info.family_name }}</h4>
-                                <div class="card-text">{{ results[index].info.given_name }}</div>
+                                <h4 class="card-title">{{ results[index].info.abbreviation }}</h4>
+                                <div class="card-text">{{ results[index].info.name }}</div>
                                 <div class="card-text">
                                     <!-- <component-stars :stars="results[index].rating"></component-stars> -->
                                     <div class="stars">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                     </div>
-                    <component-p21 :code="results[index].info.picture" :idd="results[index].info.id"></component-p21>
+                    <!-- <component-p21 :code="results[index].info.picture" :idd="results[index].info.id"></component-p21> -->
                 </div>
                 <button type="button" class="btn btn-secondary btn-lg btn-block mt-2" data-dismiss="modal">{{ $t('close') }}</button>
             </div>
