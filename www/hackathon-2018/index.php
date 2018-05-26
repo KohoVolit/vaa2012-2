@@ -21,12 +21,12 @@ $results = calc_match($user,$answers,2);
 
 // API call
 // CORS https://stackoverflow.com/a/25661403/1666623
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET');
+header("Access-Control-Allow-Headers: X-Requested-With");
+header('Cache-Control: no-cache, must-revalidate');
+header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
-    header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Methods: GET');
-    header("Access-Control-Allow-Headers: X-Requested-With");
-    header('Cache-Control: no-cache, must-revalidate');
-    header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
     header('Content-type: application/json');
     echo json_encode($results);
 } else {
