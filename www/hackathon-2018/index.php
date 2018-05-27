@@ -41,7 +41,7 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     .percentage {
         text-align:right;
         position:relative;
-        bottom: 20px;
+        bottom: 16px;
         right: 85px;
         font-size: 40px;
         font-weight: bold;
