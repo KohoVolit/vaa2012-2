@@ -27,7 +27,7 @@ header("Access-Control-Allow-Headers: X-Requested-With");
 header('Cache-Control: no-cache, must-revalidate');
 header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
-    header('Content-type: application/json');
+    header('Content-type: application/json; charset=utf-8');
     echo json_encode($results);
 } else {
     echo "
