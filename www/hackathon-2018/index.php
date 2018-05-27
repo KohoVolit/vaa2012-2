@@ -52,7 +52,7 @@ if (isset($_GET['format']) and ($_GET['format'] == 'json')) {
     echo "<div class='container'>
     <table class='table'>";
     foreach($results as $row) {
-        echo "<tr style=''><td class='underline'><img class='logo' src='https://volebnikalkulacka.cz/hackathon-2018/logo/" . $row['picture'] . "'>";
+        echo "<tr style=''><td class='underline'><img class='logo' src='https://volebnikalkulacka.azureedge.net/hackathon-2018/logo/" . $row['picture'] . "'>";
         // echo "<td>" . $row['name'];
         // echo "<td style='font-size:20px; font-weight: bold'>" . $row['abbreviation'];
         echo "<td class='percentage'>" . $row['result_percent'] . '%';
