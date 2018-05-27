@@ -1,16 +1,20 @@
 import json
 
-path = "/home/michal/project/offline/calculation/"
+path = "/home/michal/project/volebnikalkulacka.cz/www/hackathon-2018/"
 
-with open(path + "questions_original.json") as fin:
+with open(path + "questions_all.json") as fin:
     qo = json.load(fin)
 
 ids = [1, 11, 34, 10, 96, 60, 90, 3, 100, 49]
 
-questions = []
+questions = [] * len(ids)
+i = 0
 for question in qo:
     if int(question['id']) in ids:
-        questions.append(question)
+        for j in range(0, len(ids)):
+            if ids[j] == int(question['id']):
+                questions[j] = question
+        i += 1
 
 with open(path + "questions.json", "w") as fout:
     json.dump(questions, fout)
