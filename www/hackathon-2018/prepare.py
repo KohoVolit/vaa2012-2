@@ -7,13 +7,14 @@ with open(path + "questions_all.json") as fin:
 
 ids = [1, 11, 34, 10, 96, 60, 90, 3, 100, 49]
 
-questions = [] * len(ids)
+questions = [0] * len(ids)
 i = 0
 for question in qo:
     if int(question['id']) in ids:
         for j in range(0, len(ids)):
             if ids[j] == int(question['id']):
                 questions[j] = question
+                questions[j]['name'] = question['question']
         i += 1
 
 with open(path + "questions.json", "w") as fout:
