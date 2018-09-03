@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2018. Nejužitečnějších 5 minut před prezidentskými volbami">
+    <meta name="description" content="Volební kalkulačka 2018. Nejužitečnějších 5 minut před senátními a komunálními volbami">
     <meta name="keywords" content="volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -98,7 +98,13 @@
 
 			<h1>Volební kalkulačka 2018</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
-                <p class="lead">
+                    <p class="lead">
+                        Volební kalkulačka pro <strong>senátní volby 2018</strong> a pro komunální volby <strong>v Praze</strong>, <strong>v Brně</strong> a několika dalších městech bude spuštěna do <strong>20.9.2018</strong>
+                        <p>
+                            <button class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU</button>
+                        </p>
+                    </p>
+                <!-- <p class="lead">
                     Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
                     <strong>Miloš Zeman bohužel odmítl na otázky odpovědět</strong> i před 2. kolem.
                     <p>
@@ -113,7 +119,7 @@
                 <p class="lead">
                             Volební kalkulačka pro <strong>prezidentské volby 2018</strong> srovnává Vaše názory a postoje <strong>kandidátů na prezidenta</strong> na 35 otázkách.
                             <p>
-                                <a href="cs/prezidentske-volby-2018/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                <a href="cs/prezidentske-volby-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php //if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
                                         SPUSTIT VOLEBNÍ KALKULAČKU 1.KOLO
                                 </a>
 
@@ -122,9 +128,9 @@
                                 <strong>Dloooouhá</strong> volební kalkulačka je rozšířená Volební kalkulačka 2018 s <strong>90 otázkami!</strong> Pokud Vám nestačí 35 otázek.
                             </small>
                                 <p>
-                                <a href="cs/prezidentske-volby-2018-ultimate/?<?php echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
+                                <a href="cs/prezidentske-volby-2018-ultimate/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php //if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn btn-success" style="white-space: normal;">
                                         SPUSTIT DLOOOOOUHOU VOLEBNÍ KALKULAČKU 1.KOLO
-                                </a>
+                                </a> -->
 
 
 
@@ -139,7 +145,7 @@
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka pro prezidentské volby 2018</h3>
+                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2018</h3>
                                       </div>
                                       <div id="modal-body" class="modal-body" class="modal-body">
                                           <p>
