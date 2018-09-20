@@ -15,8 +15,8 @@
     error_reporting(0);
     if (isset($_GET['pic'])) {
         $p = json_decode($_GET['pic']);
-        if (isset($_GET['calc'])) {
-            $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $_GET['calc'] . '.png';
+        if (isset($p->calc)) {
+            $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $p->calc . '.png';
         } else {
             $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
         }
