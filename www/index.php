@@ -103,10 +103,47 @@
 			<h1>Volební kalkulačka 2018</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>senátní volby 2018</strong> a pro komunální volby <strong>v Praze</strong>, <strong>v Brně</strong> a několika dalších městech bude spuštěna do <strong>20.9.2018</strong>
-                        <p>
-                            <button class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU</button>
-                        </p>
+                        Volební kalkulačka pro <strong>senátní volby 2018</strong> a pro komunální volby <strong>v Praze</strong>, <strong>v Brně</strong>, <strong>v Plzni</strong> a několika dalších městech. Porovnejte si Vaše názory s názory senátních kandidátů a stran kandidujících ve městech.
+                    </p>
+                    <p class="lead">
+                            <small>
+                                Senátní volby:
+                            </small>
+                            <br />
+                            <a class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU SENÁT - BUDE DO 23.9.</a>
+
+                    </p>
+                    <p class="lead">
+                            <small>
+                                Komunální volby:
+                            </small>
+                            <div class="row">
+
+
+                                <a href="cs/praha-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                        SPUSTIT PRAHA 2018
+                                </a>
+
+
+                                <a href="cs/brno-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                        SPUSTIT BRNO 2018
+                                </a>
+                            </div>
+                            <br />
+                            <div>
+                                <a href="cs/plzen-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
+                                        SPUSTIT PLZEŇ 2018 - BUDE DO 21.9.
+                                </a>
+                            </div>
+                            <p>
+                                <a href="cs/plzen-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
+                                        SPUSTIT OLOMOUC 2018 - BUDE DO 21.9.
+                                </a>
+                            </p>
+                    <p class="lead bg-info">
+                            <small class="bg-info text text-info">
+                                Volební kalkulačky spuštěny v nejbližších dnech: Děčín, Bohumín. Připravujeme také Kladno, Jihlavu, Prostějov a Vsetín.
+                            </small>
                     </p>
                 <!-- <p class="lead">
                     Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
