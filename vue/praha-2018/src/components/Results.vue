@@ -82,9 +82,11 @@
                     ref: this.$getSetCookie(this.$settings['cookie']),
                     pic: JSON.stringify({
                         w: [this.results[0].info.id, this.results[1].info.id, this.results[2].info.id],
-                        s: [this.results[0].rating5, this.results[1].rating5, this.results[2].rating5]
+                        s: [this.results[0].rating5, this.results[1].rating5, this.results[2].rating5],
+                        calc: this.$settings['calc']
                     })
                 }
+                console.log(href)
                 var d = {
                     'app_id': this.$settings['fb_app_id'],
                     'display': 'page',
@@ -94,6 +96,7 @@
                     // 'mobile_iframe': true,
                     'redirect_uri': this.$settings['url'] + this.$settings['path'] + this.$route.fullPath.substring(1)
                 }
+                console.log(d)
                 var querystring = encodeQueryData(d)
                 return 'https://www.facebook.com/dialog/feed?' + querystring
             },

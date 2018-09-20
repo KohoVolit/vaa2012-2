@@ -15,7 +15,11 @@
     error_reporting(0);
     if (isset($_GET['pic'])) {
         $p = json_decode($_GET['pic']);
-        $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
+        if (isset($_GET['calc'])) {
+            $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $_GET['calc'] . '.png';
+        } else {
+            $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
+        }
         echo '<meta property="og:image" content="' . $image . '"/>';
     } else {
             echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.png"/>';
