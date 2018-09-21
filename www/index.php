@@ -130,16 +130,16 @@
                                 </a>
                             </div>
                             <br />
-                            <div>
-                                <a href="cs/plzen-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
-                                        SPUSTIT PLZEŇ 2018 - BUDE DO 21.9.
+                            <div class="row">
+                                <a href="cs/plzen-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                        SPUSTIT PLZEŇ 2018
+                                </a>
+
+                                <a href="cs/olomouc-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                        SPUSTIT OLOMOUC 2018
                                 </a>
                             </div>
-                            <p>
-                                <a href="cs/plzen-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
-                                        SPUSTIT OLOMOUC 2018 - BUDE DO 21.9.
-                                </a>
-                            </p>
+                            <br />
                     <p class="lead bg-info">
                             <small class="bg-info text text-info">
                                 Volební kalkulačky spuštěny v nejbližších dnech: Děčín, Bohumín. Připravujeme také Kladno, Jihlavu, Prostějov a Vsetín.
@@ -312,7 +312,7 @@
 
                     <a href="http://www.kohovolit.eu" title="KohoVolit.eu"><img src="image/logo.png" alt="logo kohovolit.eu" /></a>
                     <!--<p><a href="http://votematch.eu" id="footer-votematch"><img src="image/eu2014/votematch.png" title="VoteMatch.eu" alt="VoteMatch.eu"/></a></p>-->
-					<p class="lead black" style="color:#333333">Volební kalkulačky pro Vás již od roku 2006 vytváří občanské sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a><!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>--></p>
+					<p class="lead black" style="color:#333333">Volební kalkulačky pro Vás již od roku 2006 vytváří sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a><!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>--></p>
 
                     <hr>
 					<ul class="nav nav-pills" style="color: #428BCA;">
@@ -320,7 +320,7 @@
   <li><a href="embed/">Vložit kalkulačku na web</a></li>
   <li><a href="archive/">Archiv</a></li>
 </ul>
-					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2017</p>
+					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2018</p>
                 <br/>
                 <br/>
                 <br/>
