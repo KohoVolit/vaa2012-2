@@ -3,6 +3,9 @@
         <p>
             {{ $t('no_replies') }}
         </p>
+        <p>
+            ProOlomouc a Piráti a Starostové pro Olomouc se rozhodli stáhnout svoje odpovědi z této Volební kalkulačky, protože ji nepovažují za nestranou.
+        </p>
         <!-- <div class="list">
             <div class="list-group" v-for="(result, index) in noreply">
                 <div class="list-group-item list-group-item-action flex-column align-items-start bg-white">
