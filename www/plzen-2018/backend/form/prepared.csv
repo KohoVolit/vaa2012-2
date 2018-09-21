@@ -1,0 +1,270 @@
+MULTIPLE_CHOICE,1. Demise premiéra znamená i demisi celé vlády.,"Dle Ústavy prezident přijímá demisi premiéra i vlády. Dle názoru předsedy Ústavního soudu Rychetského a jiných je demise premiéra jednoznačně automaticky demisí celé vlády. Nicméně prezident Zeman při oznámené demisi premiéra Sobotky v květnu 2017 chtěl odvolat jen jeho, nikoliv celou vládu.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 1,,,NO
+CHECKBOX,Téma otázky 1 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"2. Prezident má odvolat bez zbytečného odkladu ministra, pokud mu to premiér navrhne.","Dle Ústavy prezident odvolává ministry. V minulosti prezident Klaus váhal odvolat ministry Johna a Dobeše, prezident Zeman potom ministra Babiše. Tyto ministry chtěli premiéři Nečas a Sobotka odvolat.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 2,,,NO
+CHECKBOX,Téma otázky 2 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,3. Prezident může odmítnout jmenovat ministra.,"Dle Ústavy prezident jmenuje ministry na návrh premiéra. Výklad je zatím nejednoznačný, zda prezident má jen stvrdit správnost procedury, nebo zda může premiérovi do procesu zasahovat. V minulosti prezident Klaus měl dodatečné podmínky před jmenováním ministrů Urbana nebo Ratha.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 3,,,NO
+CHECKBOX,Téma otázky 3 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"4. Prezident má po volbách pověřit jednáním o sestavení vlády vždy předsedu strany, která volby vyhrála.",V minulosti prezident Klaus nepověřil předsedu vítězné ČSSD Paroubka. Prezidenti Klaus v roce 2004 a Zeman v roce 2013 požadovali předem 101 podpisů poslanců před pověřením.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 4,,,NO
+CHECKBOX,Téma otázky 4 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,5. Prezident má mít i nadále možnost udělovat milost.,Prezident má dnes dle Ústavy právo odpouštět nebo zmírňovat tresty uložené soudem. tj. udělovat milosti.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 5,,,NO
+CHECKBOX,Téma otázky 5 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,6. Milost pro Kajínka byla správná.,Jiří Kajínek byl v roce 1998 odsouzen za dvojnásobnou vraždu na doživotí. 23. května 2017 mu prezident Zeman udělil milost. Prezident dle Ústavy má právo odpouštět nebo zmírňovat tresty uložené soudem.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 6,,,NO
+CHECKBOX,Téma otázky 6 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"7. Prezident má podepsat všechny nové zákony, které nevetuje.","Dle Ústavy podepisuje zákony prezident, předseda Sněmovny a premiér. V minulosti se několikrát stalo, že prezident Klaus nepodepsal některé zákony a přitom je ani nevrátil parlamentu. Zákony tak začaly platit.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 7,,,NO
+CHECKBOX,Téma otázky 7 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,8. Na výběr členů Bankovní rady České národní banky mají být vypisována veřejná výběrová řízení.,"Prezident dle Ústavy jmenuje členy Bankovní rady ČNB, skupinu 7 dní, která českou národní banku řídí. Způsob jejich výběru je dnes zcela v jeho pravomoci. Dosavadní čeští prezidenti členy Bankovní rady vždy vybírali ad-hoc v procesu neotevřeném veřejnosti.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 8,,,NO
+CHECKBOX,Téma otázky 8 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,9. Výběr členů Bankovní rady České národní banky má být jen na prezidentovi.,"Dnes dle Ústavy výběr všech 7 členů Bankovní rady ČNB, která banku řídí, závisí jen na prezidentovi. V roce 2015 např. vláda navrhovala, aby ke jmenování byl zapotřebí souhlas Senátu.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 9,,,NO
+CHECKBOX,Téma otázky 9 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,10. Prezident má na oficiálních státních návštěvách vždy reprezentovat postoj vlády.,Prezident dle Ústavy zastupuje stát navenek. Praktickou koncepci zahraniční politiky ČR ale tvoří Ministerstvo zahraničí a schvaluje vláda.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 10,,,NO
+CHECKBOX,Téma otázky 10 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,11. Prezident má podepsat dojednané mezinárodní smlouvy bez ohledu na svůj osobní postoj.,Prezident dle Ústavy podepisuje mezinárodní smlouvy. V praxi Československa i ČR takové smlouvy vždy dojednávala vláda.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 11,,,NO
+CHECKBOX,Téma otázky 11 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,12. Jan Kubiš má být jmenován in memoriam generálem.,"Jan Kubiš spolu s Josefem Gabčíkem 27.5.1942 provedli anentát na tehdejšího zastupující říšského protekrora Reinharda Heydricha. Josef Gabčík byl na Slovensku povýšen in memoriam (tj. posmrtně, ""na paměť"") do hodnosti generála v roce 2015 a do hodnosti generálmajora 2017.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 12,,,NO
+CHECKBOX,Téma otázky 12 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"13. Prezident má jmenovat generály, pokud mu je vláda navrhne.","Dle Ústavy prezident jmenuje generály obvykle na návrh vlády, s jmenováním musí souhlasit premiér a odpovídá za něj vláda. Nedávno v Polsku prezident odmítl jmenovat nové generály. Prezident Zeman v roce 2016 odmítl jmenovat 2 členy Vězeňské služby.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 13,,,NO
+CHECKBOX,Téma otázky 13 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,14. Armáda ČR se má nadále zúčastňovat operací v Afghánistánu.,Armáda ČR je hlavní částí ozbrojených sil ČR a prezident je dle Ústavy jeijch vrchním velitelem. Ke konci roku 2017 bylo v Afghánistánu zhruba 400 českých vojáků.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 14,,,NO
+CHECKBOX,Téma otázky 14 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,15. Armáda ČR se má i nadále účastnit zahraničních vojenských misí.,Armáda ČR je hlavní částí ozbrojených sil ČR a prezident je dle Ústavy jejich vrchním velitelem.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 15,,,NO
+CHECKBOX,Téma otázky 15 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,16. Bratři Mašínové mají dostat státní vyznamenání.,"Bratři Mašínové byli součástí ozbrojené antikomunistické skupiny, která při svém útěku do Západního Berlína v roce 1953 zabila několik lidí.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 16,,,NO
+CHECKBOX,Téma otázky 16 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,17. Prezident má mít pravomoc odmítnout jmenovat soudce.,Prezident dle Ústavy jmenuje soudce. Také jmenuje předsedy některých vyšších soudů. Prezident Klaus v minulosti odmítl jmenovat některé soudce kvůli věku. Prezident Zeman odmítl jmenovat předsedu krajského soudu.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 17,,,NO
+CHECKBOX,Téma otázky 17 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,18. Soudci mají být nadále jmenováni do funkce doživotně.,"Soudci jsou v ČR jmenováni doživotně, mohou soudit do věku 70 let. Soudce nelze odvolat za to, jak soudí.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 18,,,NO
+CHECKBOX,Téma otázky 18 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,19. Prezident by měl zastavit trestní stíhání Andreje Babiše.,Prezident má dle Ústavy právo zastavit jakékoliv trestní stíhání. Policie ČR chce stíhat Andreje Babiše kvůli podezření z podvodů v kauze Čapí hnízdo.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 19,,,NO
+CHECKBOX,Téma otázky 19 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,20. Prezident by během svého mandátu měl udělit amnestii.,"Prezident má dle Ústavy právo udělit amnestii, tj. hromadné prominutí části nebo celého trestu více lidem najednou. Amnestii udělili z českých prezidentů Havel a Klaus.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 20,,,NO
+CHECKBOX,Téma otázky 20 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,21. Prezident má mít právo udělovat amnestie.,"Prezident má dnes dle Ústavy právo udělit ammestii, tj. hromadné prominutí části nebo celého trestu více lidem najednou. Amnestii udělili z českých prezidentů Havel a Klaus.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 21,,,NO
+CHECKBOX,Téma otázky 21 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,22. Profesory vysokých škol má nadále jmenovat prezident.,Prezident dnes jmenuje profesory na veřejných VŠ. Alternativou je např. jmenování samotnými univerzitami nebo ministrem školství.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 22,,,NO
+CHECKBOX,Téma otázky 22 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"23. Prezident má jmenovat všechny profesory, které mu univerzity na jmenování navrhnou.","Prezident dnes jmenuje profesory na veřejných VŠ. Výklad je ale zatím nejednoznačný, zda ""může jmenovat"", či ""musí jmenovat"". Prezident Zeman odmítl jmenovat několik lidí, které mu univerzity navrhly. Dle univerzit ale prezident jen potvrzuje, že nominace proběhla v pořádku.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 23,,,NO
+CHECKBOX,Téma otázky 23 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,24. Prezident má dnes příliš malé pravomoci.,"Prezident ČR nemá obecně velké pravomoci, v ČR má hlavní moc parlament a vláda. Ozývají se ale argumenty, že když už byla zavedena přímá volba a posílen tak mandát prezidenta, měly by se prezidentské pravomoci zvýšit.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 24,,,NO
+CHECKBOX,Téma otázky 24 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,25. Prezident má dnes příliš velké pravomoci.,"V ČR má hlavní moc parlament a vláda. Prezident ČR nemá obecně velké pravomoci, ač je má stále větší než prezidenti sousedních zemí.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 25,,,NO
+CHECKBOX,Téma otázky 25 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,26. Imunita prezidenta má být zachována v dnešním největším možném rozsahu.,"Prezident má dnes nejširší možnou imunitu - je doživotní a týká se i přestupků či zahájení trestního stíhání. Ústava dnes říká: ""Prezidenta republiky nelze po dobu výkonu jeho funkce zadržet, trestně stíhat ani stíhat pro přestupek nebo jiný správní delikt.""",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 26,,,NO
+CHECKBOX,Téma otázky 26 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,27. Prezident má být volen přímo.,Prezident v ČR byl poprvé volen přímo v roce 2013. Do té doby byl volen Parlamentem.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 27,,,NO
+CHECKBOX,Téma otázky 27 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,28. Lánská obora má být veřejně přístupná.,Oboru u zámku v Lánech spravuje Kancelář prezidenta republiky. Má rozlohu asi 30km2 a jen na malou výjimku je pro veřejnost nepřístupná.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 28,,,NO
+CHECKBOX,Téma otázky 28 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,29. Sídlo prezidenta má být na Pražském hradě.,"Pražský hrad je bývalé sídlo českých králů. Pro prezidenty není obvyklé, že sídlí v bývalých královských sídlech.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 29,,,NO
+CHECKBOX,Téma otázky 29 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,30. Cesty prezidenta po ČR se mají platit převážně z prezidentského rozpočtu.,Návštěvy prezidenta Zemana v jednotlivých krajích ČR byly z větší části hrazeny z rozpočtů daných krajů. Jedna stojí průměrně několik set tisíc Kč. Hejtman Zlínského kraje Čunek tento postup nedávno odmítl a návštěva se neuskutečnila. Kancelář prezidenta republiky má roční rozpočet zhruba půl miliardy Kč.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 30,,,NO
+CHECKBOX,Téma otázky 30 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,31. Hrad má zveřejňovat platy svých nejvyšších úředníků.,Kancelář prezidenta republiky za prezidenta Klause i prezidenta Zemana odmítala opakovaně zveřejnit platy svých vysokých úředníků.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 31,,,NO
+CHECKBOX,Téma otázky 31 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,32. Tradiční prezidentský projev má být 1. ledna.,"Tradice vánočních a novoročních projevů prezidentů republiky je již od první československé republiky. Prezidenti ČR Havel a Klaus měli projevy prvního ledna, prezident Zeman je přesunul na Vánoce.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 32,,,NO
+CHECKBOX,Téma otázky 32 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,33. Prezident Havel byl lepším prezidentem než prezident Klaus.,Václav Havel byl prezidentem ČR v letech 1993 - 2003. Václav Klaus byl prezidentem ČR v letech 2003 - 2013.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 33,,,NO
+CHECKBOX,Téma otázky 33 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,34. Prezident Klaus byl lepším prezidentem než prezident Havel.,Václav Havel byl prezidentem ČR v letech 1993 - 2003. Václav Klaus byl prezidentem ČR v letech 2003 - 2013.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 34,,,NO
+CHECKBOX,Téma otázky 34 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,35. Prezident má usilovat o setkání s Dalajlamou.,Dalajlama je duchovním vůdcem Tibeťanů. Prezident Havel se s ním několikrát setkal. Naopak prezidenti Klaus a Zeman nikoliv.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 35,,,NO
+CHECKBOX,Téma otázky 35 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,36. První zahraniční cesta prezidenta má být na Slovensko.,"Prezidenti Havel, Klaus i Zeman jeli na první zahraniční cestu na Slovensko.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 36,,,NO
+CHECKBOX,Téma otázky 36 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,37. ČR by měla vystoupit z NATO.,"Severoatlantická aliance (NATO) je mezinárodní vojenský pakt. V současnosti ji tvoří 29 zemí v Americe (USA a Kanada), v Evropě a Asii (Turecko). ČR vstupila do NATO v roce 1999.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 37,,,NO
+CHECKBOX,Téma otázky 37 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,38. ČR by měla vystoupit z EU.,"Evropská unie je politická a ekonomická unie aktuálně 28 zemí v Evropě, Velká Británie plánuje EU opustit. ČR vstoupila do EU v roce 2004.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 38,,,NO
+CHECKBOX,Téma otázky 38 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,39. Mělo by se konat referendum o setrvání ČR v EU.,Evropská unie je politická a ekonomická unie aktuálně 28 zemí v Evropě. Velká Británie plánuje EU opustit po proběhlém referendu. ČR vstoupila do EU v roce 2004 také na základě referenda.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 39,,,NO
+CHECKBOX,Téma otázky 39 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,40. V ČR se má platit eurem.,"Euro je oficiální měnou Evropské unie. Dnes 19 z 28 zemí EU používá euro, včetně sousedních Německa, Slovenska a Rakouska. Euro nepoužívá Polsko.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 40,,,NO
+CHECKBOX,Téma otázky 40 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,41. Místo ČR je v jádru EU.,"Jednou z možností dalšího vývoje EU je ""dvou- či vícerychlostní EU"". V takové případě se země ještě více rozdělí na integrovanější ""jádro EU"" a ostatní země.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 41,,,NO
+CHECKBOX,Téma otázky 41 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,42. Státy EU mají řešit otázky týkající se azylu a uprchlictví jednotně a koordinovaně.,Některé země EU včetně ČR v nedávné minulosti odmítaly společný postup v otázce uprchlíků.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 42,,,NO
+CHECKBOX,Téma otázky 42 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,43. Pro ČR jsou vztahy s USA důležitější než vztahy s Čínou,,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 43,,,NO
+CHECKBOX,Téma otázky 43 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,44. Pro ČR jsou vztahy s USA důležitější než vztahy s Ruskem.,,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 44,,,NO
+CHECKBOX,Téma otázky 44 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,45. Má existovat možnost celostátního referenda vypisovaného na základě petice.,"Česká Ústava referendum zmiňuje, ale neexistuje k němu obecný zákon. Zatím se v ČR konalo jen jedno referendum na základě speciálního zákona - o vstupu ČR do EU.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 45,,,NO
+CHECKBOX,Téma otázky 45 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,46. Občané by měli mít možnost předložit parlamentu návrh zákona pomocí petice.,"Zákony v ČR dnes mohou navrhovat jen poslanci, Senát, vláda a krajská zastupitelstva. Občané nemají možnost zákony navrhovat.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 46,,,NO
+CHECKBOX,Téma otázky 46 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,47. Na veřejných vysokých školách se má platit školné.,"Na veřejných vysokých školách v ČR se neplatí školné. Studenti si ovšem platí ubytování, stravu, pomůcky i některé povinné školní poplatky. Podle zastánců školené umožní rozvoj vysokých škol, podle odpůrců omezí přístup ke vzdělání zejména sociálně slabším studentům.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 47,,,NO
+CHECKBOX,Téma otázky 47 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,48. Handicapované děti se mají většinově vzdělávat odděleně od nehandicapovaných.,"V současnosti se v ČR stále více prosazovalo inkluzivní vzdělávání, tedy společné vzdělávání pro co nejvíce dětí, kdy ""speciální vzdělávání"" je vyhraženo jen pro nejtěžší postižení.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 48,,,NO
+CHECKBOX,Téma otázky 48 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,49. Technické vzdělávání na středních a vysokých školách má být státem podporováno více než jiné obory.,V současnosti je v ČR větší zájem o humanitní obory než o technické.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 49,,,NO
+CHECKBOX,Téma otázky 49 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"50. Měla by se podporovat možnost výuky romštiny jako volitelného předmětu, pokud o ni bude mezi žáky zájem.","V ČR platí zákon, že národnostní menšiny mají právo na výuku ve svém jazyce. Zatímco v ČR fungují školy v polštině, romština není v ČR ani volitelným předmětem (mj. nejsou vyškolení učitelé). Např. na Slovensku místy je.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 50,,,NO
+CHECKBOX,Téma otázky 50 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,51. Průměrný plat učitelů by měly být alespoň 130 % průměrné mzdy.,"Školské odbory požadují, aby platy učitelů nyní rostly každý rok alespoň o 15 % a v roce 2020 tak dosáhly více jak 130 % průměrného platu. Počítají, že by se tím zvýšila motivace mladých lidí učit ve školách.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 51,,,NO
+CHECKBOX,Téma otázky 51 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,52. Glyfosát (Roundup) má být zakázán.,"Glyfosát je nejpoužívanější pesticid v ČR, je např. účinnou složkou v prostředku proti plevelu Roundup. Je řazen mezi pravděpodobné lidské karcinogeny, tj. látky způsobující rakovinu.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 52,,,NO
+CHECKBOX,Téma otázky 52 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,53. ČR má více podporovat rozvoj obnovitelných zdrojů energie.,,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 53,,,NO
+CHECKBOX,Téma otázky 53 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,54. ČR má více podporovat jadernou energetiku.,,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 54,,,NO
+CHECKBOX,Téma otázky 54 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,55. Limity těžby uhlí v severních Čechách se mají prolomit.,"Územní limity těžby uhlí v severních Čechách v okolí Mostu definují prostor, mimo který se nesmí uhelné doly rozšiřovat. Byly zavedeny usnesením vlády z roku 1991 mj. proto, aby již nedocházelo k dalším likvidacím obcí. V roce 2015 byly částečně změněny (prolomeny) v dole Bílina.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 55,,,NO
+CHECKBOX,Téma otázky 55 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,56. Do benzínu a nafty se mají nadále povinně přimíchávat biopaliva.,"V současnosti zákon přikazuje do benzinu a nafty povinně přidávat několik procent biopaliva (např. z řepky). Dle zastánců je to příkaz z Evropské komise, dle odpůrců jde hlavně o důsledek lobbingu největšího výrobce těchto biopaliv - koncernu Agrofert Andreje Babiše.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 56,,,NO
+CHECKBOX,Téma otázky 56 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,57. Globální změny klimatu jsou z velké části způsobené lidskou činností.,"Aktuální globální změna klimatu (globální oteplování) přinesla např. rychlé oteplení celoplanetárně zhruba o 1°C za poslední století. To vede ke zvyšování hladin moří či větším extrémům v počasí. Současný vědecký konsensus je, že změna je z velké části způsobena lidskou činností. Jiní lidé ale tento závěr nepřijímají.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 57,,,NO
+CHECKBOX,Téma otázky 57 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,58. Minimální hrubá mzda má být nejméně 14 000 Kč měsíčně.,Minimální mzda v ČR od roku 2018 je 12 200 Kč.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 58,,,NO
+CHECKBOX,Téma otázky 58 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,59. Zaměstnávání lidí v předdůchodovém věku má být daňově zvýhodněno.,"Lidé v předdůchodovém věku (zhruba od 55 let) jsou jednou ze skupin s vyšší nezaměstnaností. Jedno z možností, jak jejich zaměstnávání podpořit, jsou daňové úlevy.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 59,,,NO
+CHECKBOX,Téma otázky 59 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,60. Lidé s vyššími příjmy mají platit procentuálně vyšší daně.,"V ČR existuje „rovná daň z příjmu 15 %“. Díky slevě na poplatníka ovšem jde ve skutečnosti o daň mírně progresivní, tj. lidé s vyšším platem platí i procentuálně vyšší daň. Např. v Německu procento daně postupně roste, z příjmů zhruba nad 500 000Kč/měsíc se platí 45% daň.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 60,,,NO
+CHECKBOX,Téma otázky 60 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,61. K zajištění důchodů je nutné nadále zvyšovat věk odchodu do důchodu i nad 65 let.,Věk odchodu do důchodu je dnes ČR 63 let pro muže a 61 let pro ženy a postupně se dle zákona zvyšuje o několik měsíců ročně. V roce 2017 ale bylo schváleno maximum na 65 let.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 61,,,NO
+CHECKBOX,Téma otázky 61 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,62. Mají stát či obce zajišťovat levné sociální bydlení alespoň pro 1 % nejchudších?,"Sociální bydlení je pomoc domácnostem, které si nedokáži bydlení sami zajistit. Např. v Brně aktuálně testují systém přidělování standardních nájemních bytů rodinám s dětmi, které bydlely na ubytovnách či azylových domech. Podobné systémy fungují i v jiných městech. Nicméně stále jsou dostupné jen zlomku potřebných.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 62,,,NO
+CHECKBOX,Téma otázky 62 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,63. Předluženým lidem se mají po čase poctivého splácení smazat všechny dluhy.,"Předlužení lidé nemají šanci svoje závazky splatit. Dnes mohou žádat o oddlužení (osobní bankrot), když během 5 let splácejí vše, co mohou, a splatí alespoň 30 % dlužné částky. Aktuální vládní návrh umožňuje oddlužení všem lidem, co 7 let splácejí poctivě. Umožnilo by to jejich návrat do legálního ekonomické života za cenu zhoršení postavení věřitelů.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 63,,,NO
+CHECKBOX,Téma otázky 63 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,64. Stát má finančně podporovat všechny děti stejně.,"V současné době podstatná část podpory rodinám s dětmi je pomocí slev na daních, kde získávají hlavně rodiny se středními a vyššími příjmy. Většina rodin ho plně nevyužije, neboť nemá dostatečné příjmy.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 64,,,NO
+CHECKBOX,Téma otázky 64 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"65. Pracující chudoba je v ČR vážný problém, který je třeba řešit.","Pracující chudí je pojmenování pro lidi, kteří chodí do práce, mají pravidelnou, ale velmi nízkou mzdu. Nemají na to, aby si našetřili na horší časy jako je životní katastrofa, nemoc, ztráta partnera, apod. V ČR je takových lidí až několik set tisíc.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 65,,,NO
+CHECKBOX,Téma otázky 65 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,66. Finanční náhrady v tzv. církevních restitucích se mají zdanit.,"V rámci tzv. církevních restitucí má být církvím mj. vyplaceno zhruba 59 miliard Kč upravených o inflaci (dle zákona z roku 2012). Podle zastánců ""restitucí"" jde o náhradu za majetek církví, který nemohl být vrácen. Odpůrci upozorňují, že majetek církví byl pro účel finančních náhrad podstatně nadhodnocen.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 66,,,NO
+CHECKBOX,Téma otázky 66 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,67. Národní podnik Budějovický Budvar by měl být privatizován.,Budějovický Budvar je jediný státem vlastněný pivovar v ČR. Budvar je dlouhodobě ziskový.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 67,,,NO
+CHECKBOX,Téma otázky 67 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,68. Spotřební daň na alkohol by se měla zvýšit.,"Spotřební daň na alkohol je 285 Kč/litr čistého lihu, tedy např. 57 Kč za půllitrovou láhev rumu.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 68,,,NO
+CHECKBOX,Téma otázky 68 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,69. Projekt elektronické evidence tržeb (EET) se má zrušit či omezit.,"Elektronická evidence tržeb je systém, kdy každý, kdo v ČR prodává za hotové nebo přes platební kartu, musí informace o každé přijaté platbě okamžitě zaslat přes internet finančnímu úřadu.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 69,,,NO
+CHECKBOX,Téma otázky 69 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,70. Kontrolní hlášení k DPH se mají zrušit.,"Každá firma nebo živnostník v ČR, kteří jsou plátci DPH, musí finančním úřadům (obvykle každý měsíc) posílat seznam všech faktur, tedy s kým a za kolik obchoduje.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 70,,,NO
+CHECKBOX,Téma otázky 70 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,71. Registr smluv má být zrušen.,"V registru smluv se povinně zveřejňují všechny smlouvy veřejných institucí či veřejně vlastněných firem. 30 senátorů nyní podalo podnět k Ústavnímu soudu, kde říkají, že zveřejňováním smluv jsou veřejné firmy znevýhodněny před konkurencí. Zastánci registru argumentují, že např. obchodní tajemství se nemusejí v registru zveřejňovat.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 71,,,NO
+CHECKBOX,Téma otázky 71 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"72. Firmy mají platit daně v zemích, kde zisky vznikají.","Hlavně velké firmy často využívají toho, že operují ve více zemích a zisky ze zemí s vyšším zdaněním přesouvají do zemí s nižším zdaněním. I v rámci EU tak využívají ""daňové ráje"" jako Lucembursko, Nizozemí nebo Kypr. Austrálie nebo Velká Británie zavedly zákony, které takové postupy omezují.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 72,,,NO
+CHECKBOX,Téma otázky 72 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,73. Očkování dětí má být jen dobrovolné.,V ČR je ze zákonná povinné očkování proti některým onemocnění jako tetanus nebo obrna.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 73,,,NO
+CHECKBOX,Téma otázky 73 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,74. Měly by se znovu zavést tzv. regulační poplatky za návštěvu lékaře.,"V letech 2008-2014 se v ČR platily tzv. regulační poplatky za zdravotní úkony u lékaře. Podle zastánců zabraňovaly plýtvání zdravotní péčí, podle odpůrců vedly ke zhoršení dostupnosti zdravotní péče zejména pro sociálně slabé pacienty. Podobné poplatky existují např. na Slovensku nebo v Německu, jinde jsou neznámé.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 74,,,NO
+CHECKBOX,Téma otázky 74 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,75. Reklama na léky hrazené ze zdravotního pojištění by měla být zakázána.,"Kritici upozorňují, že reklama zvyšuje cenu léků a vytváří tlak na pacienty, aby požadovali více léků. Farmaceutické firmy říkají, že reklamy pomáhají lidi lépe informovat o zdravotní péči a možnostech léčby.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 75,,,NO
+CHECKBOX,Téma otázky 75 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,76. Asistovaná sebevražda má být v ČR legální.,"Podle zastánců je ukončení vlastního života základním právem člověka, podle odpůrců je nemorální a hrozí zneužití. Asistovaná sebevražda není v ČR legální, je legální např. v Německu, ve Švýcarsku nebo v Belgii.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 76,,,NO
+CHECKBOX,Téma otázky 76 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,77. Interrupce by měla být obecně zakázána.,"Interrupce (umělé přerušení těhotenství) na žádost matky je v ČR možná stejně jako např. na Slovensku, v Rakousku či na Ukrajině. V Polsku je naopak zakázána až na určité výjimečné případy. Podle zastánců je právo na potrat základním právem ženy, podle odpůrců je to vražda.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 77,,,NO
+CHECKBOX,Téma otázky 77 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,78. V restauracích má být nadále zakázáno kouření.,V ČR platí zákaz kouření ve všech restauracích od konce května 2017.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 78,,,NO
+CHECKBOX,Téma otázky 78 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,79. ČR má přijímat více uprchlíků než dnes.,"V ČR žádalo v posledních letech o azyl zhruba 1500 lidí ročně. Méně jak 10 % byl udělen azyl. Nejvíce lidí hledajících azyl bylo z Ukrajiny, Iráku, Kuby a Sýrie. Azyl nebo dočasný azyl byl udělován hlavně lidem z Iráku a Sýrie.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 79,,,NO
+CHECKBOX,Téma otázky 79 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,80. ČR má poskytnout azyl pronásledovaným čínským křesťanům.,"V roce 2016 požádalo o azyl v ČR asi 70 čínských křesťanů s tím, že jsou v Číně pronásledování kvůli své víře. Udělení azylu by znamenalo, že Čína dle ČR nedodržuje lidská práva a náboženskou svobodu. Ministerstvo vnitra o jejich žádosti po více jak roce a půl ještě nerozhodlo.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 80,,,NO
+CHECKBOX,Téma otázky 80 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,81. ČR má zcela zastavit přijímání uprchlíků muslimského vyznání.,"Dle Ženevské úmluvy, platné v ČR, mají státy přistupovat k uprchlíkům stejně bez ohledu na jejich náboženství. Některé české politické strany ale odmítají veškeré uprchlíky muslimského vyznání.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 81,,,NO
+CHECKBOX,Téma otázky 81 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,82. V ČR má být zakázána stavba minaretů.,"Minarety jsou věže sloužící ke svolávání k motlitbám, které jsou součástí některých mešit. V ČR dnes žádná mešita minaret nemá.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 82,,,NO
+CHECKBOX,Téma otázky 82 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,83. Homosexuální páry mají mít možnost adoptovat děti.,"Ústavní soud rozhodl, že v ČR může adoptovat dítě i homosexuál žijící v registrovaném partnerství, druhý partner ale nebude mít k dítěti žádná rodičovská práva. Adopce homosexuálními páry je možná např. v Nizozemí, ve Švédsku či v Norsku.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 83,,,NO
+CHECKBOX,Téma otázky 83 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,84. Homosexuální páry mají mít možnost adoptovat děti svého partnera či partnerky.,Lidé stejného pohlaví žijící v registrovaném partnerství dnes v ČR nemohou adoptovat dítě svého partnera a nemají tak k dítěti žádná rodičovská práva. V případě rozpadu partnerství tak děti např. nemají právo na výživné.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 84,,,NO
+CHECKBOX,Téma otázky 84 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,85. Nové státní instituce mají být rozmísťovány po celé ČR.,"Dnes je velká většina institucí či úřadů s celostátní působností v Praze. Takové instituce mají mj. přímý pozitivní ekonomický vliv na své okolí - peníze ze společných daní vydané na chod takové instituce jsou utráceny převážně v jejím blízkém okolí, podporuje se zaměstnanost v místě. Zmenšuje se rozdělení na centrum a periférii.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 85,,,NO
+CHECKBOX,Téma otázky 85 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,86. Vlastnit zbraň má být ústavní právo,"Sněmovna schválila změnu ústavního zákona, že občané ČR mají právo nabývat, držet a nosit zbraně a střelivo, aby se mohli podílet na zajišťování bezpečnosti ČR.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 86,,,NO
+CHECKBOX,Téma otázky 86 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,87. Pokuty za dopravní přestupky by měly odpovídat výši příjmů řidiče.,"Ve Švýcarsku nebo ve Skandinávii se pokuty za dopravní přestupky určují v % z příjmů řidiče, aby trest byl citelný pro všechny řidiče obdobně.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 87,,,NO
+CHECKBOX,Téma otázky 87 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,"88. Provozovatelé velkých sociálních sítí mají mít povinnost smazat výhrůžky násilím nebo ""falešné zprávy"".","V Německu nedávno schválili zákon, který přikazuje provozovatelům velkých sociálních sítí jako je Facebook blokovat či smazat nezákonný obsah zveřejněný uživateli. Spadá tam mj. nacistická propaganda, podněcování k nenávisti či ""fake news"" (záměrně falešné zprávy).",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 88,,,NO
+CHECKBOX,Téma otázky 88 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,89. Pěstovat marihuanu pro vlastní potřebu by mělo být legální.,"V současnosti je v ČR pěstování konopí (marihuany) v malém množství přestupek, v množství větší než malém potom trestný čin.",,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 89,,,NO
+CHECKBOX,Téma otázky 89 je pro mě velmi důležité.,,,NO,Ano
+MULTIPLE_CHOICE,90. Benešovy dekrety byly svého času projevem bezpráví.,Jedná se o parafrázi výroku tehdejšího rakouského prezidenta Fischera z roku 2010. Benešovy dekrety mj. vedly k nucenému vysídlení Němců z ČSR v letech 1945-1946 a konfiskaci jejich majetku.,,YES,Ano,Ne,Nevím / nemám jednoznačný názor
+PARAGRAPH_TEXT,Případný komentář k otázce 90,,,NO
+CHECKBOX,Téma otázky 90 je pro mě velmi důležité.,,,NO,Ano
