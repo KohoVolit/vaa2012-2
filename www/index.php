@@ -110,7 +110,7 @@
                                 Senátní volby:
                             </small>
                             <br />
-                            <a class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU SENÁT - BUDE DO 23.9.</a>
+                            <a class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU SENÁT - BUDE SPUŠTĚNA 24.9.</a>
 
                     </p>
                     <p class="lead">
