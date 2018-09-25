@@ -11,15 +11,15 @@
 
                 <map name="map" class="computer">
                     <div v-for="constituency in constituencies">
-                        <area shape="poly" :alt="constituency.name" :title="constituency.name" :coords="constituency.coords" @click="goVAA(constituency.constituency_code, constituency.constituency)" />
+                        <area shape="poly" :alt="constituency.name" :title="constituency.name" :coords="constituency.coords" @click="goVAA(constituency)" />
                     </div>
                 </map>
 
-                <ul class="list-group">
-                    <li v-for="constituency in constituencies.sort(this.compare)" class="list-group-item">
-                        <a href="#" @click="goVAA(constituency.constituency_code, constituency.constituency)">{{ constituency.name }}</a>
-                    </li>
-                </ul>
+            <ul class="list-group">
+                <li v-for="constituency in constituenciesSorted" class="list-group-item">
+                    <a href="#" @click="goVAA(constituency)">{{ constituency.name }}</a>
+                </li>
+            </ul>
             </div>
             <component-footer></component-footer>
             <Analytics></Analytics>
@@ -36,12 +36,16 @@
     export default {
         data: function () {
             return {
-                constituencies
+                constituencies,
+                constituenciesSorted: []
             }
         },
+        mounted: function () {
+            this.constituenciesSorted = constituencies.sort(this.compare)
+        },
         methods: {
-            goVAA (cc, constituency) {
-                var payload = {'constituency_code': cc, 'constituency': constituency}
+            goVAA (constit) {
+                var payload = constit
                 this.$store.commit('storeConstituency', payload)
                 // console.log(this.$store.state.constituency)
                 this.$router.push({path: '/'})

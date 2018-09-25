@@ -29,11 +29,11 @@
                     </div>
                 </map>
 
-                <!-- <ul class="list-group text-left">
-                    <li v-for="constit in constituencies.sort(this.compare)" class="list-group-item">
+                <ul class="list-group text-left">
+                    <li v-for="constit in constituenciesSorted" class="list-group-item">
                         <a href="#" @click="changeConstituency(constit)">{{ constit.name }}</a>
                     </li>
-                </ul> -->
+                </ul>
             </div>
             <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> <span class="wall-text">Zeď podporovatelů Volební kalkulačky</span></a>
         </div>
@@ -71,7 +71,8 @@
                 noreplies,
                 answers: {},
                 // constituency: {},
-                constituencies
+                constituencies,
+                constituenciesSorted: []
             }
         },
         computed: {
@@ -244,6 +245,7 @@
             this.$action('results_shown')
             this.$getSetCookie(this.$settings['cookie'])
             this.constituency = this.getSetCC()
+            this.constituenciesSorted = constituencies.sort(this.compare)
             // console.log(this.$getSetCookie('vkid'))
             // console.log(this.$beep())
             if (this.$route.query.q !== undefined) {
