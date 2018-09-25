@@ -18,7 +18,7 @@
             <component-results-table :questions="questions" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
             <component-results-noreply :questions="questions"></component-results-noreply>
-            <!-- <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1W29Ka674GWZaf-KWQCTSeSKuGxqFRvrA5jjLzvNtf2c/edit?usp=sharing" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><i class="fa fa-table"></i> Přehled všech odpovědí v tabulce</a> -->
+            <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1IuJdzcY0d29E5SoDGUuZ9l07FSPJtIbqgs3tyNAhuto/" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><i class="fa fa-table"></i> Přehled všech odpovědí v tabulce</a>
             <!-- <a @click="clicked('rekonstrukce_hradu', {'text': 'fair_campaign'})" href="http://rekonstrukce-hradu.cz/" target="_blank">
                 <div class="d-flex flex-row align-items-center mt-4">
                     <img :src="rhSrc" class="image m-2"/>
