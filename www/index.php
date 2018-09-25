@@ -110,7 +110,9 @@
                                 Senátní volby:
                             </small>
                             <br />
-                            <a class="btn btn-lg btn-muted btn-success" disabled>SPUSTIT VOLEBNÍ KALKULAČKU SENÁT - BUDE SPUŠTĚNA 24.9.</a>
+                            <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                    SPUSTIT VOLEBNÍ KALKULAČKU SENÁT 2018
+                            </a>
 
                     </p>
                     <p class="lead">
