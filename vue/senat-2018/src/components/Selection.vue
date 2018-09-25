@@ -74,7 +74,7 @@
             },
             goResults: function () {
                 var lightC = this.$store.state.constituency
-                console.log(lightC)
+                // console.log(lightC)
                 if (lightC !== undefined) {
                     lightC.coords = ''
                 }
