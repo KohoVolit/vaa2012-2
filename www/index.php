@@ -142,6 +142,12 @@
                                 </a>
                             </div>
                             <br />
+                            <div class="row">
+                                <a href="cs/decin-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                        SPUSTIT DĚČÍN 2018
+                                </a>
+                            </div>
+                            <br />
                     <p class="lead bg-info">
                             <small class="bg-info text text-info">
                                 Volební kalkulačky spuštěny v nejbližších dnech: Děčín, Bohumín. Připravujeme také Kladno, Jihlavu, Prostějov a Vsetín.
