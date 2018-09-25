@@ -73,7 +73,11 @@
                 this.$store.commit('storeWeights', this.checked)
             },
             goResults: function () {
-                this.$router.push({ path: '/results', query: { q: JSON.stringify(this.$store.state.answers), w: JSON.stringify(this.$store.state.weights), cc: JSON.stringify(this.$store.state.constituency) } })
+                var lightC = {
+                    constituency: this.$store.state.constituency.constituency,
+                    constituency_code: this.$store.state.consistuency.constituency_code
+                }
+                this.$router.push({ path: '/results', query: { q: JSON.stringify(this.$store.state.answers), w: JSON.stringify(this.$store.state.weights), cc: JSON.stringify(lightC) } })
             }
         },
         components: {
