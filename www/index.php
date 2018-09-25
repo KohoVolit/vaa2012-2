@@ -149,9 +149,11 @@
                             </div>
                             <br />
                     <p class="lead bg-info">
+                        <small>
                             <small class="bg-info text text-info">
-                                Volební kalkulačky spuštěny v nejbližších dnech: Děčín, Bohumín. Připravujeme také Kladno, Jihlavu, Prostějov a Vsetín.
+                                Volební kalkulačky spuštěny v nejbližších dnech: Bohumín. Připravujeme také Kladno, Jihlavu, Prostějov a Vsetín.
                             </small>
+                        </small>
                     </p>
                 <!-- <p class="lead">
                     Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
