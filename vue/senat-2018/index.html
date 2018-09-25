@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <meta property="og:title" content="Volební kalkulačka 2018"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Volební kalkulačka"/>
+    <meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/>
+    <meta property="og:description" content="Volební kalkulačka 2018. Nejužitečnějších 5 minut před komunálními volbami."/>
+
+    <!-- <base href="/cs/prezidentske-volby-2018/"> -->
+
+    <title>Senátní volby 2018 | Volební kalkulačka</title>
+    <link rel="icon" href="https://volebnikalkulacka.azureedge.net/cs/senat-2018/statics/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="alternative" style="color:white;padding-top:30px"></div>
+    <!-- built files will be auto injected -->
+    <script>
+        window.onload = function() {
+            setTimeout( function() {
+                document.getElementById('alternative').innerHTML = 'Omlouváme se, ale Volební kalkulačka nefunguje ve starších prohlížečích. Doporučujeme nový Firefox nebo Chrome.'
+            }, 1000)
+            setTimeout( function() {
+                document.getElementById('alternative').style.color = "black"
+            }, 2000)
+        }
+    </script>
+  </body>
+</html>

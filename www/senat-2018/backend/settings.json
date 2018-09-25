@@ -1,0 +1,15 @@
+{
+    "_answers_url":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQbJGwxHFWJUeLitrvXgoc_ljytyy9jMcNfv-kdAHTYYBvSbhNgzAfqyBE_xdvsYihSujCGnbnVYEV-/pub?gid=1053760577&single=true&output=csv",
+    "answers_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQbJGwxHFWJUeLitrvXgoc_ljytyy9jMcNfv-kdAHTYYBvSbhNgzAfqyBE_xdvsYihSujCGnbnVYEV-/pub?gid=1053760577&single=true&output=csv",
+    "voters_url":"https://docs.google.com/spreadsheets/d/e/2PACX-1vQvVteJMHQUzr4P3sD-ct8zh_n23Ittm9IhXJrbyqXN9lNgLqd9gczJEiAEergmKULnVPWxwod6AGms/pub?gid=0&single=true&output=csv",
+    "_voters_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR92KiXJTyGulExYNYf-gmYJ0cH26OVUTAN-98yBBQCx8WgscNGhhXYD4viE1Nw28zMxeVdd80CWy2-/pub?gid=0&single=true&output=csv",
+    "questions_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS_pg4Sx32O2KgoqqwNqhhbu9Bv3OkNXnpbbG4BNMVb01R3ysvhNNWHGfWPd89DA_MWubRiUKzH6faz/pub?gid=0&single=true&output=csv",
+    "answers_codes_column": 3,
+    "answers_step": 3,
+    "answers_first": 4,
+    "number_of_questions": 90,
+    "yes": "Ano",
+    "no": "Ne",
+    "picture_prepend": "",
+    "picture_append": ".jpg"
+}
