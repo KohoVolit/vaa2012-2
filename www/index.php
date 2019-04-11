@@ -116,7 +116,7 @@
                     </p>
                     <p class="lead">
                             <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
-                                    iNVETURA HLASOVÁNÍ BUDE SPUŠTĚNA DO 1.5.2019
+                                    INVETURA HLASOVÁNÍ BUDE SPUŠTĚNA DO 1.5.2019
                             </a>
 
                     </p>
