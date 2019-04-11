@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2018. Nejužitečnějších 5 minut před senátními a komunálními volbami">
+    <meta name="description" content="Volební kalkulačka 2019. Nejužitečnějších 5 minut před evropskými volbami">
     <meta name="keywords" content="volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -18,7 +18,7 @@
         if (isset($p->calc)) {
             $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $p->calc . '.png';
         } else {
-            $image = "https://volebnikalkulacka.azureedge.net/image/prezidentske-volby-2018/fb/" . implode('',$p->w) . '/' . implode('_', $p->s) . '.jpg';
+            $image = "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg";
         }
         echo '<meta property="og:image" content="' . $image . '"/>';
     } else {
@@ -54,7 +54,7 @@
     }
 	@media (min-width: 666px) {
   .header {
-        background: url("senat-2016/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
     }
     @media (min-width: 750px) {
@@ -100,57 +100,27 @@
 
 		<div class="vert-text">
 
-			<h1>Volební kalkulačka 2018</h1>
+			<h1>Volební kalkulačka 2019</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>senátní volby 2018</strong> a pro komunální volby <strong>v Praze</strong>, <strong>v Brně</strong>, <strong>v Plzni</strong> a několika dalších městech. Porovnejte si Vaše názory s názory senátních kandidátů a stran kandidujících ve městech.
+                        Volební kalkulačka pro <strong>evropské volby 2019</strong>. Porovnejte si Vaše názory s názory kandidujících stran.
                     </p>
                     <p class="lead">
-                            <small>
-                                Senátní volby:
-                            </small>
-                            <br />
-                            <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                    SPUSTIT VOLEBNÍ KALKULAČKU SENÁT 2018
+                            <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
+                                    VOLEBNÍ KALKULAČKA BUDE SPUŠTĚNA DO 9.5.2019
                             </a>
 
                     </p>
                     <p class="lead">
-                            <small>
-                                Komunální volby:
-                            </small>
-                            <div class="row">
+                        Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si Vaše názory se současnými europoslanci na základě skutečně proběhlých hlasování.
+                    </p>
+                    <p class="lead">
+                            <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
+                                    iNVETURA HLASOVÁNÍ BUDE SPUŠTĚNA DO 1.5.2019
+                            </a>
 
+                    </p>
 
-                                <a href="cs/praha-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT PRAHA 2018
-                                </a>
-
-
-                                <a href="cs/brno-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT BRNO 2018
-                                </a>
-                            </div>
-                            <br />
-                            <div class="row">
-                                <a href="cs/plzen-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT PLZEŇ 2018
-                                </a>
-
-                                <a href="cs/olomouc-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT OLOMOUC 2018
-                                </a>
-                            </div>
-                            <br />
-                            <div class="row">
-                                <a href="cs/decin-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT DĚČÍN 2018
-                                </a>
-                                <a href="cs/jihlava-2018/?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                        SPUSTIT JIHLAVA 2018
-                                </a>
-                            </div>
-                            <br />
                 <!-- <p class="lead">
                     Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
                     <strong>Miloš Zeman bohužel odmítl na otázky odpovědět</strong> i před 2. kolem.
