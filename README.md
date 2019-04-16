@@ -4,13 +4,14 @@ Volební kalkulačka
 
 ## Aktuální verze
 - Vue.js
-- /www/cs/
+- /vue/ - project
+- /www/cs/ - web
 - každá kalkulačka je samostatný adresář ("subprojekt")
 - API a ukládání hlasování stále používá starší (php) verzi
 
 ## Starší verze
 - PHP
-- /www/
+- /www/ - web i project
 - každá kalkulačka je samostatný adresář ("subprojekt")
 
 ### Requirements
