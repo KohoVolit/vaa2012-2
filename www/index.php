@@ -107,16 +107,16 @@
                     </p>
                     <p class="lead">
                             <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
-                                    VOLEBNÍ KALKULAČKA BUDE SPUŠTĚNA DO 9.5.2019
+                                    VOLEBNÍ KALKULAČKA BUDE SPUŠTĚNA NEJPOZDĚJI 9.5.2019
                             </a>
 
                     </p>
                     <p class="lead">
-                        Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si Vaše názory se současnými europoslanci na základě skutečně proběhlých hlasování.
+                        Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si svoje názory se současnými europoslanci na základě skutečně proběhlých hlasování.
                     </p>
                     <p class="lead">
                             <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
-                                    INVETURA HLASOVÁNÍ BUDE SPUŠTĚNA DO 1.5.2019
+                                    INVENTURA HLASOVÁNÍ BUDE SPUŠTĚNA 1.5.2019 VEČER
                             </a>
 
                     </p>
