@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
     <meta charset="utf-8">
@@ -13,30 +13,33 @@
 <?php
     // fb image
     error_reporting(0);
-    // if (isset($_GET['pic'])) {
-    //     $p = json_decode($_GET['pic']);
-    //     if (isset($p->calc)) {
-    //         $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $p->calc . '.png';
-    //     } else {
-    //         $image = "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg";
-    //     }
-    //     echo '<meta property="og:image" content="' . $image . '"/>';
-    // } else {
-    //         echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.png"/>';
-    // }
-    if (isset($_GET['pic'])) {
-        $image = $_GET['pic'];
-    } else {
-        $image = "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg";
+    $metas = [
+        "og_image" => "og:image",
+        "og_image_width" => "og:image:width",
+        "og_image_height" => "og:image:height",
+        "og_description" => "og:description",
+        "og_title" => "og:title",
+        "fb_app_id" => "fb:app_id"
+    ];
+    $defaults = [
+        "og_image" => "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg",
+        "og_image_width" => false,
+        "og_image_height" => false,
+        "og_description" => "Volební kalkulačka. Nejužitečnějších 5 minut před volbami.",
+        "og_title" => "Volební kalkulačka",
+        "fb_app_id" => "200785490055088"
+    ];
+    foreach ($metas as $key => $meta) {
+        if (isset($_GET[$key])) {
+            echo '<meta property="' . $meta . '" content="' . $_GET[$key] . '"/>' . "\n";
+        } else {
+            if ($defaults[$key]) {
+                echo '<meta property="' . $meta . '" content="' . $defaults[$key] . '"/>' . "\n";
+            }
+        }
     }
-    echo '<meta property="og:image" content="' . $image . '"/>';
-    echo '<meta property="og:image:width" content="170"/>';
-    echo '<meta property="og:image:height" content="215"/>';
-
  ?>
 
-	<meta property="og:title" content="Volební kalkulačka"/>
-    <meta property="og:description" content="Volební kalkulačka 2019. Nejužitečnějších 5 minut před evropskými volbami."/>
 <?php
 	echo '<meta property="og:url" content="https://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]. '"/>'
 ?>
