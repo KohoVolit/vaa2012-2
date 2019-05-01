@@ -31,7 +31,7 @@
     }
     echo '<meta property="og:image" content="' . $image . '"/>';
     echo '<meta property="og:image:width" content="170"/>';
-    echo '<meta property="og:image:jeight" content="215"/>';
+    echo '<meta property="og:image:height" content="215"/>';
 
  ?>
 
