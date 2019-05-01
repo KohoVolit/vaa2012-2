@@ -127,8 +127,8 @@
                         Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si svoje názory se současnými europoslanci na základě skutečně proběhlých hlasování.
                     </p>
                     <p class="lead">
-                            <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
-                                    INVENTURA HLASOVÁNÍ BUDE SPUŠTĚNA 1.5.2019 VEČER
+                            <a href="cs/inventura-hlasovani-evropsky-parlament-2014-2019/?&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($GET_['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
+                                    INVENTURA HLASOVÁNÍ BUDE SPUŠTĚNA POZDNÍ VEČER 1. MÁJE
                             </a>
 
                     </p>
@@ -174,7 +174,7 @@
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2018</h3>
+                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2019</h3>
                                       </div>
                                       <div id="modal-body" class="modal-body" class="modal-body">
                                           <p>
@@ -308,7 +308,7 @@
   <li><a href="embed/">Vložit kalkulačku na web</a></li>
   <li><a href="archive/">Archiv</a></li>
 </ul>
-					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2018</p>
+					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2019</p>
                 <br/>
                 <br/>
                 <br/>
