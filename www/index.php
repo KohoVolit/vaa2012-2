@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2019. Nejužitečnějších 5 minut před evropskými volbami">
+    <meta name="description" content="Volební kalkulačka 2019. Nejužitečnějších 5 minut před evropskými volbami.">
     <meta name="keywords" content="volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -13,28 +13,37 @@
 <?php
     // fb image
     error_reporting(0);
+    // if (isset($_GET['pic'])) {
+    //     $p = json_decode($_GET['pic']);
+    //     if (isset($p->calc)) {
+    //         $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $p->calc . '.png';
+    //     } else {
+    //         $image = "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg";
+    //     }
+    //     echo '<meta property="og:image" content="' . $image . '"/>';
+    // } else {
+    //         echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.png"/>';
+    // }
     if (isset($_GET['pic'])) {
-        $p = json_decode($_GET['pic']);
-        if (isset($p->calc)) {
-            $image = "https://volebnikalkulacka.azureedge.net/image/fb/" . $p->calc . '.png';
-        } else {
-            $image = "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg";
-        }
-        echo '<meta property="og:image" content="' . $image . '"/>';
+        $image = $_GET['pic'];
     } else {
-            echo '<meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.png"/>';
+        $image = "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg";
     }
+    echo '<meta property="og:image" content="' . $image . '"/>';
+    echo '<meta property="og:image:width" content="170"/>';
+    echo '<meta property="og:image:jeight" content="215"/>';
 
  ?>
 
 	<meta property="og:title" content="Volební kalkulačka"/>
+    <meta property="og:description" content="Volební kalkulačka 2019. Nejužitečnějších 5 minut před evropskými volbami."/>
 <?php
 	echo '<meta property="og:url" content="https://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI]. '"/>'
 ?>
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2018</title>
+    <title>Volební kalkulačka 2019</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
