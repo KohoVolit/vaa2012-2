@@ -127,7 +127,7 @@
                         Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si svoje názory se současnými europoslanci na základě skutečně proběhlých hlasování.
                     </p>
                     <p class="lead">
-                            <a href="cs/inventura-hlasovani-evropsky-parlament-2014-2019/?&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($GET_['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" >
+                            <a href="cs/inventura-hlasovani-evropsky-parlament-2014-2019/?&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" >
                                     SPUSTIT INVENTURU HLASOVÁNÍ
                             </a>
 
