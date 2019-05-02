@@ -34,7 +34,8 @@ const CustomFunctions = {
             var data = {
                 vkid: c,
                 calc: this.$settings['calc'],
-                action: action
+                action: action,
+                href: window.location.href
             }
             axios.get(this.$settings['url'] + this.$settings['save_path'] + 'match/action.php', { params: data })
         }
