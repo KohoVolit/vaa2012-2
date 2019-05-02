@@ -9,7 +9,7 @@ session_start();
 $relative_path = "../";
 
 //answers of voters
-$answers = json_decode(file_get_contents('../answers.json'));
+$answers = json_decode(file_get_contents('./answers.json'));
 
 
 //missing voters
