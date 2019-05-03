@@ -26,6 +26,9 @@
         "og_title": "Inventura hlasování europoslanců 2014-2019",
         "og_description": "Volební kalkulačka - Inventura hlasování europoslanců 2014-2019. Srovnání na základě skutečně proběhlých hlasování.",
         "all_meps": "Všichni europoslanci",
-        "local_meps": "Europoslanci z ČR"
+        "local_meps": "Europoslanci z ČR",
+        "the_other_calc": "https://volebnakalkulacka.sk/sk/inventura-hlasovani-europsky-parlament-2014-2019/results",
+        "the_other_meps": "Europoslanci ze Slovenska",
+        "find_on_the_other_calc": "Najdete na slovenské kalkulačce"
     }
 }

@@ -18,6 +18,8 @@
             <component-results-table :questions="questions" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
             <hr />
+            <component-results-the-other-republic />
+            <hr />
             <component-results-table-eu :questions="questions" :resultsEu="resultsEu" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table-eu>
 
@@ -48,6 +50,7 @@
     import ResultsWinners from './ResultsWinners.vue'
     import ResultsTable from './ResultsTable.vue'
     import ResultsTableEu from './ResultsTableEu.vue'
+    import ResultsTheOtherRepublic from './ResultsTheOtherRepublic.vue'
     import questions from '../data/questions.json'
     import votes from '../data/answers.json'
     import votesEu from '../data/answers_eu.json'
@@ -222,6 +225,7 @@
             'component-results-winners': ResultsWinners,
             'component-results-table': ResultsTable,
             'component-results-table-eu': ResultsTableEu,
+            'component-results-the-other-republic': ResultsTheOtherRepublic,
             'font-awesome-icon': FontAwesomeIcon,
             Analytics
         }
