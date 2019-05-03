@@ -3,8 +3,8 @@ session_start();
 
 $version = "v0.1";
 
-print_r($_COOKIE);
-print_r($_SERVER);
+// print_r($_COOKIE);
+// print_r($_SERVER);
 
 //save results
 save_results($version);
