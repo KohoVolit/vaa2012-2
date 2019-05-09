@@ -81,7 +81,7 @@
 <body>
 
     <!-- Side Menu -->
-    <div class="lang-group">cs | <a href="http://electioncalculator.org">en</a> </div><a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div class="lang-group">cs | <a href="https://electioncalculator.org">en</a> </div><a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -118,8 +118,8 @@
                         Volební kalkulačka pro <strong>evropské volby 2019</strong>. Porovnejte si Vaše názory s názory kandidujících stran.
                     </p>
                     <p class="lead">
-                            <a href="cs/senat-2018/constituencies?<?php //echo $_SERVER['QUERY_STRING']; ?>&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled="disabled">
-                                    VOLEBNÍ KALKULAČKA BUDE SPUŠTĚNA NEJPOZDĚJI 9.5.2019
+                            <a href="cs/evropsky-parlament-2019?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                    SPUSTIT VOLEBNÍ KALKULAČKU 2019
                             </a>
 
                     </p>
@@ -127,7 +127,7 @@
                         Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si svoje názory se současnými europoslanci na základě 35 skutečně proběhlých hlasování.
                     </p>
                     <p class="lead">
-                            <a href="cs/inventura-hlasovani-evropsky-parlament-2014-2019/?&hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" >
+                            <a href="cs/inventura-hlasovani-evropsky-parlament-2014-2019/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" >
                                     SPUSTIT INVENTURU HLASOVÁNÍ
                             </a>
 
