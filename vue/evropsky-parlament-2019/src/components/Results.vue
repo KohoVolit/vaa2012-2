@@ -17,6 +17,8 @@
             </div>
             <component-results-table :questions="questions" :answers="$store.state.answers" v-on:clickedDetails="clickedDetails">
             </component-results-table>
+            <component-results-noreply :questions="questions"></component-results-noreply>
+
             <!-- <hr />
             <component-results-the-other-republic />
             <hr />
@@ -49,6 +51,7 @@
     import Footer from './Footer.vue'
     import ResultsWinners from './ResultsWinners.vue'
     import ResultsTable from './ResultsTable.vue'
+    import ResultsNoreply from './ResultsNoreply.vue'
     // import ResultsTableEu from './ResultsTableEu.vue'
     // import ResultsTheOtherRepublic from './ResultsTheOtherRepublic.vue'
     import questions from '../data/questions.json'
@@ -224,6 +227,7 @@
             'component-footer': Footer,
             'component-results-winners': ResultsWinners,
             'component-results-table': ResultsTable,
+            'component-results-noreply': ResultsNoreply,
             // 'component-results-table-eu': ResultsTableEu,
             // 'component-results-the-other-republic': ResultsTheOtherRepublic,
             'font-awesome-icon': FontAwesomeIcon,
