@@ -37,6 +37,7 @@
                     </a>
                 </div>
             </div>
+            <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1_1ya3KCgY4Z9j932Xz8SVn28NpE-xuvRHwzOP69dAJQ/edit?usp=sharing" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="table" /> Přehled všech odpovědí v tabulce</a>
 
             <a @click="clicked('wall_of_fame', {'text': 'wall'})" href="wall" class="btn btn-warning btn-block btn-lg mt-4"><i class="fa fa-heart text-danger"></i> <span class="wall-text">Zeď podporovatelů Volební kalkulačky</span></a>
         </div>
