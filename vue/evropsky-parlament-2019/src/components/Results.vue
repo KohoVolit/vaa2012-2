@@ -99,13 +99,13 @@
                 }
                 var last = this.results.length - 1
                 var quote = this.$t('fb_1') + '\n' +
-                this.results[0].info.abbreviation + ' (' + this.results[0].result_percent + '%, ' + ')\n' +
-                this.results[1].info.abbreviation + ' (' + this.results[1].result_percent + '%, ' +  ')\n' +
-                this.results[2].info.abbreviation + ' (' + this.results[2].result_percent + '%, ' + ')\n...\n' +
-                this.results[last].info.abbreviation + ' (' + this.results[last].result_percent + '%, ' + ')'
+                this.results[0].info.abbreviation + ' (' + this.results[0].result_percent + '%' + ')\n' +
+                this.results[1].info.abbreviation + ' (' + this.results[1].result_percent + '%' +  ')\n' +
+                this.results[2].info.abbreviation + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
+                this.results[last].info.abbreviation + ' (' + this.results[last].result_percent + '%' + ')'
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
-                    og_image: 'logos/200x200/' + this.results[0].info.picture,
+                    og_image: this.$settings['cdn'] + this.$settings['path'] + 'logos/200x200/' + this.results[0].info.picture,
                     og_title: this.$t('og_title'),
                     og_description: this.$t('og_description')
                 }
