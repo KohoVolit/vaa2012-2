@@ -138,6 +138,10 @@
                 </tbody>
             </table>
             <div class="alert alert-success" role="alert">
+                <a href="https://github.com/michalskop/datapackages" class="alert-link">Data z volebních kalulaček</a>.
+
+        </div>
+            <div class="alert alert-success" role="alert">
                 <a href="https://volebnakalkulacka.sk/archive/" class="alert-link">Archív slovenských Volebných kalkulačiek</a>.
             </div>
         </div>
