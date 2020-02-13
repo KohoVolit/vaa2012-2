@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2019. Nejužitečnějších 5 minut před evropskými volbami.">
+    <meta name="description" content="Volební kalkulačka 2020. Nejužitečnějších 5 minut před volbami.">
     <meta name="keywords" content="volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -46,7 +46,7 @@
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2019</title>
+    <title>Volební kalkulačka 2020</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -112,25 +112,37 @@
 
 		<div class="vert-text">
 
-			<h1>Volební kalkulačka 2019</h1>
+			<h1>Volební kalkulačka 2020</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>evropské volby 2019</strong>. Porovnejte si Vaše názory s názory kandidujících stran.
+                        Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> březen 2020.
                     </p>
                     <p class="lead">
-                            <a href="cs/evropsky-parlament-2019?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                    SPUSTIT VOLEBNÍ KALKULAČKU 2019
-                            </a>
-
+                        <a href="cs/senat-2020-teplice?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success disabled" style="white-space: normal;">
+                                PŘIPRAVUJEME
+                        </a>
+                        <div class="text-center">
+                            <div data-darujme-widget-token="30pu99j3qarlii8n" >&nbsp;</div>
+                        </div>
+                        <script type="text/javascript">
+                        	+function(w, d, s, u, a, b) {
+                        		w['DarujmeObject'] = u;
+                        		w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
+                        		a = d.createElement(s); b = d.getElementsByTagName(s)[0];
+                        		a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
+                        		b.parentNode.insertBefore(a, b);
+                        	}(window, document, 'script', 'Darujme');
+                        	Darujme(1, "30pu99j3qarlii8n", 'render', "https:\/\/www.darujme.cz\/widget?token=30pu99j3qarlii8n", "718px");
+                        </script>
+                    </p>
+                    <hr />
+                    <p class="lead">
+                        <strong>Starší Volební kalkulačky:</strong>
                     </p>
                     <p class="lead">
-                        Inventura hlasování <strong>Evropského parlamentu 2014 - 2019</strong>. Porovnejte si svoje názory se současnými europoslanci na základě 35 skutečně proběhlých hlasování.
-                    </p>
-                    <p class="lead">
-                            <a href="cs/inventura-hlasovani-evropsky-parlament-2014-2019/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" >
-                                    SPUSTIT INVENTURU HLASOVÁNÍ
-                            </a>
-
+                        <a href="archive/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-info" style="white-space: normal;">
+                                ARCHIV VOLEBNÍCH KALKULAČEK
+                        </a>
                     </p>
 
                 <!-- <p class="lead">
@@ -174,7 +186,7 @@
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2019</h3>
+                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2020</h3>
                                       </div>
                                       <div id="modal-body" class="modal-body" class="modal-body">
                                           <p>
@@ -284,7 +296,7 @@
     </div>
 
 
-               <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT 90</font></strong> <br>(cena 90Kč, z toho 87Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS TRV KOHOVOLIT 90</font></strong> <br>(automaticky každý měsíc)</p>
+               <!-- <p id="support" class="support text-center small"><strong>Podpořte tvorbu nezávislých<br>Volebních kalkulaček.</strong><br>Pošlete SMS na číslo <strong><font color="#F8941A">87777</font></strong><br> s textem <strong><font color="#F8941A">DMS KOHOVOLIT 90</font></strong> <br>(cena 90Kč, z toho 87Kč pro<br> sdružení KohoVolit.eu) nebo <br><strong><font color="#F8941A">DMS TRV KOHOVOLIT 90</font></strong> <br>(automaticky každý měsíc)</p> -->
     </div>
                <!-- /Full Page Image Header Area -->
 
@@ -308,7 +320,7 @@
   <li><a href="embed/">Vložit kalkulačku na web</a></li>
   <li><a href="archive/">Archiv</a></li>
 </ul>
-					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2019</p>
+					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2020</p>
                 <br/>
                 <br/>
                 <br/>
