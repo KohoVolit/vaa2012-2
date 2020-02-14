@@ -132,7 +132,7 @@
                         		a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
                         		b.parentNode.insertBefore(a, b);
                         	}(window, document, 'script', 'Darujme');
-                        	Darujme(1, "30pu99j3qarlii8n", 'render', "https:\/\/www.darujme.cz\/widget?token=30pu99j3qarlii8n", "718px");
+                        	Darujme(1, "30pu99j3qarlii8n", 'render', "https:\/\/www.darujme.cz\/widget?token=30pu99j3qarlii8n", "310px");
                         </script>
                     </p>
                     <hr />
@@ -319,6 +319,7 @@
   <li><a href="info/">O projektu</a></li>
   <li><a href="embed/">Vložit kalkulačku na web</a></li>
   <li><a href="archive/">Archiv</a></li>
+  <li><a href="gdpr/">GDPR</a></li>
 </ul>
 					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2020</p>
                 <br/>

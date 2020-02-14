@@ -138,7 +138,7 @@
                 </tbody>
             </table>
             <div class="alert alert-success" role="alert">
-                <a href="https://github.com/michalskop/datapackages" class="alert-link">Data z volebních kalulaček</a>.
+                <a href="https://github.com/michalskop/datapackages" class="alert-link">Data z volebních kalkulaček</a>.
 
         </div>
             <div class="alert alert-success" role="alert">

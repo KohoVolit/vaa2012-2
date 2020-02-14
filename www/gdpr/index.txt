@@ -1,0 +1,87 @@
+<meta charset="utf-8">
+Podmínky ochrany osobních údajů
+
+I.
+Základní ustanovení
+    1. Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského parlamentu a Rady (EU) 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů (dále jen: „GDPR”) je KohoVolit.eu IČ 22841890 se sídlem Vinice 347, Plasy zapsaná v spolkovém rejstříku vedeném u Krajského soudu v Plzni, spisová značka: L 5397. (dále jen: „správce“).
+    2. Kontaktní údaje správce jsou:
+adresa: Vinice 347, Plasy, CZ-33101  
+e-mail: info@kohovolit.eu
+telefon: +420 735 518 529
+    3. Osobními údaji se rozumí veškeré informace o identifikované nebo identifikovatelné fyzické osobě; identifikovatelnou fyzickou osobou je fyzická osoba, kterou lze přímo či nepřímo identifikovat, zejména odkazem na určitý identifikátor, například jméno, identifikační číslo, lokační údaje, síťový identifikátor nebo na jeden či více zvláštních prvků fyzické, fyziologické, genetické, psychické, ekonomické, kulturní nebo společenské identity této fyzické osoby.
+    4. Správce nejmenoval pověřence pro ochranu osobních údajů. Kontaktními údaji pověřence jsou: 
+
+II.
+Zdroje a kategorie zpracovávaných osobních údajů
+    1. Správce zpracovává osobní údaje, které jste mu poskytl/a nebo osobní údaje, které správce získal na základě Vašeho používání aplikací správce:
+    • jméno a příjmení
+    • e-mailová adresa
+    • poštovní adresa
+    • telefon
+    • síťová adresa
+    2. Správce zpracovává Vaše identifikační a kontaktní údaje a údaje nezbytné pro Vaše používání aplikací správce. 
+
+III.
+Zákonný důvod a účel zpracování osobních údajů
+    1. Zákonným důvodem zpracování osobních údajů je 
+    • plnění smlouvy mezi Vámi a správcem podle čl. 6 odst. 1 písm. b) GDPR,
+    • splnění právní povinnosti správce podle čl. 6 odst. 1 písm. c) GDPR,
+    • oprávněný zájem správce na poskytování přímého marketingu (zejména pro zasílání obchodních sdělení a newsletterů) podle čl. 6 odst. 1 písm. f) GDPR,
+    • Váš souhlas se zpracováním pro účely poskytování přímého marketingu (zejména pro zasílání obchodních sdělení a newsletterů) podle čl. 6 odst. 1 písm. a) GDPR ve spojení s § 7 odst. 2 zákona č. 480/2004 Sb., o některých službách informační společnosti v případě, že nedošlo k objednávce zboží nebo služby. 
+    • Běžná analýza návštěvnosti, odhalování chyb serveru a prevence podvodů a útoků na server
+    • Zajištění funkčnosti aplikací
+    • Cílená reklama (retargeting)
+    • Získání demografických přehledů ve statistikách návštěvnosti
+    • Marketing a propagace aplikací správce
+    2. Účelem zpracování osobních údajů je
+    • používání aplikací správce a výkon práv a povinností vyplývajících ze smluvního vztahu mezi Vámi a správcem; poskytnutí osobních údajů je nutným požadavkem pro funkčnost aplikací, bez poskytnutí osobních údajů není možné zajistit funkčnost aplikací,
+    • plnění právních povinností vůči státu,
+    • zasílání obchodních sdělení a činění dalších marketingových aktivit. 
+    3. Ze strany správce nedochází k automatickému individuálnímu rozhodování ve smyslu čl. 22 GDPR. S takovým zpracováním jste poskytl/a svůj výslovný souhlas. 
+
+IV.
+Doba uchovávání údajů
+    1. Správce uchovává osobní údaje 
+    • po dobu nezbytnou k výkonu práv a povinností vyplývajících ze smluvního vztahu mezi Vámi a správcem a uplatňování nároků z těchto smluvních vztahů (po dobu 1000 let od ukončení smluvního vztahu). 
+    • po dobu, než je odvolán souhlas se zpracováním osobních údajů pro účely marketingu, nejdéle 1000 let, jsou-li osobní údaje zpracovávány na základě souhlasu. 
+    2. Po uplynutí doby uchovávání osobních údajů správce osobní údaje vymaže. 
+
+V.
+Příjemci osobních údajů (subdodavatelé správce)
+    1. Příjemci osobních údajů jsou osoby 
+    • podílející se na dodání zboží/služeb/realizaci plateb na základě smlouvy,
+    • zajišťující služby provozování aplikací správce,
+    • zajišťující marketingové služby.
+    2. Správce nemá v úmyslu předat osobní údaje do třetí země (do země mimo EU) nebo mezinárodní organizaci.
+
+VI.
+Zpracovatelé osobních údajů
+    1. Zpracování osobních údajů je prováděno správcem, osobní údaje však pro něj mohou zpracovávat i tito zpracovatelé:
+    • společnost Google,
+    • poskytoval služby Yandex Metrica
+    • případně další poskytovatel zpracovatelských softwarům služeb a aplikací, které však v současné době správce nevyužívá.
+
+
+VI.
+Vaše práva
+    1. Za podmínek stanovených v GDPR máte 
+    • právo na přístup ke svým osobním údajům dle čl. 15 GDPR, 
+    • právo opravu osobních údajů dle čl. 16 GDPR, popřípadě omezení zpracování dle čl. 18 GDPR,
+    • právo na výmaz osobních údajů dle čl. 17 GDPR,
+    • právo vznést námitku proti zpracování dle čl. 21 GDPR, 
+    • právo na přenositelnost údajů dle čl. 20 GDPR a
+    • právo odvolat souhlas se zpracováním písemně nebo elektronicky na adresu nebo e-mail správce uvedený v čl. III těchto podmínek. 
+    2. Dále máte právo podat stížnost u Úřadu pro ochranu osobních údajů v případě, že se domníváte, že bylo porušeno Vaše právo na ochranu osobních údajů, případně se obrátit na soud.
+
+VII.
+Podmínky zabezpečení osobních údajů
+    1. Správce prohlašuje, že přijal veškerá vhodná technická a organizační opatření k zabezpečení osobních údajů.
+    2. Správce prohlašuje, že k osobním údajům mají přístup pouze jím pověřené osoby.
+
+VIII.
+Závěrečná ustanovení
+    1. Používání aplikací správce potvrzujete, že jste seznámen/a s podmínkami ochrany osobních údajů a že je v celém rozsahu přijímáte.
+    2. S těmito podmínkami souhlasíte používáním aplikací správce. Používáním potvrzujete, že jste seznámen/a s podmínkami ochrany osobních údajů a že je v celém rozsahu přijímáte.
+    3. Správce je oprávněn tyto podmínky změnit. Novou verzi podmínek ochrany osobních údajů zveřejní na svých internetových stránkách a zároveň Vám zašle novou verzi těchto podmínek Vaši e-mailovou adresu, kterou jste správci poskytl/a.
+
+Tyto podmínky nabývají účinnosti dnem ❤ 14.2.2020 ❤.
