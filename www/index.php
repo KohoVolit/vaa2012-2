@@ -115,7 +115,7 @@
 			<h1>Volební kalkulačka 2020</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> březen 2020.
+                        Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> červen 2020.
                     </p>
                     <p class="lead">
                         <a href="cs/senat-2020-teplice?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success disabled" style="white-space: normal;">
