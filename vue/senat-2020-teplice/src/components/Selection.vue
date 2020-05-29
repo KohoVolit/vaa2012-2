@@ -13,8 +13,8 @@
                 <font-awesome-icon icon="spinner" class="fa-spin" v-if="spinning" />
                 <span v-else>></span>
             </button>
-            <div class="list-group" v-for="question in questions" v-if="answered[question.id]">
-                <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="list-group" v-for="question in questions" v-bind:key="question.id">
+                <div v-if="answered[question.id]" class="list-group-item list-group-item-action flex-column align-items-start">
                     <label class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" v-model="checked[question.id]" @change="storeWeights()">
                         <span class="custom-control-indicator"></span>
@@ -92,9 +92,13 @@
                 this.$store.commit('storeWeights', this.checked)
             },
             goResults: function () {
+                // this.scrollToTop()
                 this.spinning = true
                 this.$router.push({ path: '/results', query: { q: JSON.stringify(this.$store.state.answers), w: JSON.stringify(this.$store.state.weights) } })
-            }
+            },
+            // scrollToTop() {
+            //     window.scrollTo(0,0)
+            // }
         },
         components: {
             'component-header': Header,

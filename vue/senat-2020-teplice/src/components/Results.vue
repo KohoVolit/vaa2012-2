@@ -192,6 +192,9 @@
                 }
                 // console.log(result.result, result.result_percent, result.rating, result.rating5)
                 return result
+            },
+            scrollToTop() {
+                window.scrollTo(0,0)
             }
         },
         mounted: function () {
@@ -236,6 +239,8 @@
                 answer[k] = JSON.parse(this.$route.query[k])
             }
             this.$save_results(answer)
+
+            this.scrollToTop()
         },
         components: {
             'component-header': Header,
