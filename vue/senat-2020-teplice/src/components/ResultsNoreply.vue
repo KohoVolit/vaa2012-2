@@ -12,7 +12,7 @@
                 <div class="list-group-item list-group-item-action flex-column align-items-start bg-white">
                     <div class="d-flex">
                         <div>
-                            <!-- <img :src="createImageLink(result.picture)" class="picture mr-2" /> -->
+                            <img :src="'pictures/200x200/' + result.picture" class="picture black-and-white mr-2" />
                         </div>
                         <div>
                             <h3 class="pl-2 text-muted">{{ result.family_name }} <small>{{ result.given_name }}</small></h3>
@@ -70,5 +70,8 @@
     .picture {
         height: 64px;
         border-radius: 50%;
+    }
+    .black-and-white {
+        filter: grayscale(100%);
     }
 </style>
