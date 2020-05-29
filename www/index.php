@@ -115,35 +115,34 @@
 			<h1>Volební kalkulačka 2020</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> červen 2020.
+                        Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
                     </p>
                     <p class="lead">
-                        <a href="cs/senat-2020-teplice?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success disabled" style="white-space: normal;">
-                                PŘIPRAVUJEME
+                        <a href="cs/senat-2020-teplice?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                                SPUSTIT VOLEBNÍ KALKULAČKU
                         </a>
-                        <div class="text-center">
-                            <div data-darujme-widget-token="30pu99j3qarlii8n" >&nbsp;</div>
-                        </div>
-                        <script type="text/javascript">
-                        	+function(w, d, s, u, a, b) {
-                        		w['DarujmeObject'] = u;
-                        		w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
-                        		a = d.createElement(s); b = d.getElementsByTagName(s)[0];
-                        		a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
-                        		b.parentNode.insertBefore(a, b);
-                        	}(window, document, 'script', 'Darujme');
-                        	Darujme(1, "30pu99j3qarlii8n", 'render', "https:\/\/www.darujme.cz\/widget?token=30pu99j3qarlii8n", "310px");
-                        </script>
                     </p>
                     <hr />
-                    <p class="lead">
+                    <div data-darujme-widget-token="w2acrk0w61fgr3so">&nbsp;</div>
+                    <script type="text/javascript">
+                    	+function(w, d, s, u, a, b) {
+                    		w['DarujmeObject'] = u;
+                    		w[u] = w[u] || function () { (w[u].q = w[u].q || []).push(arguments) };
+                    		a = d.createElement(s); b = d.getElementsByTagName(s)[0];
+                    		a.async = 1; a.src = "https:\/\/www.darujme.cz\/assets\/scripts\/widget.js";
+                    		b.parentNode.insertBefore(a, b);
+                    	}(window, document, 'script', 'Darujme');
+                    	Darujme(1, "w2acrk0w61fgr3so", 'render', "https:\/\/www.darujme.cz\/widget?token=w2acrk0w61fgr3so", "100%");
+                    </script>
+
+                    <!-- <p class="lead">
                         <strong>Starší Volební kalkulačky:</strong>
                     </p>
                     <p class="lead">
                         <a href="archive/?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-info" style="white-space: normal;">
                                 ARCHIV VOLEBNÍCH KALKULAČEK
                         </a>
-                    </p>
+                    </p> -->
 
                 <!-- <p class="lead">
                     Volební kalkulačka pro <strong>2. kolo prezidentské volby 2018</strong><br />
@@ -288,9 +287,9 @@
                             }
                         }
                     </style>
-                    <div class="col-md-6 col-md-offset-3 text-center towall">
+                    <!-- <div class="col-md-6 col-md-offset-3 text-center towall">
                         <a target="_blank" href="cs/prezidentske-volby-2018/wall" class="btn btn-warning btn-lg mt-4"><i class="fa fa-heart text-danger"></i> Zeď podporovatelů Volební kalkulačky</a>
-                    </div>
+                    </div> -->
 
         </div>
     </div>
