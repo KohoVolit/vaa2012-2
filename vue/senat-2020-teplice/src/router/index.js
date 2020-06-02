@@ -13,7 +13,8 @@ const routes = [
             { path: '/selection', name: 'Selection', component: load('Selection') },
             { path: '/results', name: 'Results', component: load('Results') },
             // { path: '/wall', name: 'Wall', component: load('Wall') },
-            { path: '/test', name: 'Test', component: load('Test') }
+            { path: '/test', name: 'Test', component: load('Test') },
+            { path: '/questionnaire', name: 'Questionnaire', component: load('Questionnaire')}
 ]
 
 const router = new VueRouter({

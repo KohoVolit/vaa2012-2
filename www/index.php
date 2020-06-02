@@ -118,7 +118,7 @@
                         Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
                     </p>
                     <p class="lead">
-                        <a href="cs/senat-2020-teplice?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                        <a href="cs/senat-2020-teplice/questionnaire?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
                                 SPUSTIT VOLEBNÍ KALKULAČKU
                         </a>
                     </p>
