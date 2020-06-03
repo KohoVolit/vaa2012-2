@@ -11,5 +11,5 @@
     a.async = 1; a.src = "https://www.darujme.cz/assets/scripts/widget.js";
     b.parentNode.insertBefore(a, b);
   }(window, document, 'script', 'Darujme');
-  Darujme(1, "z7ovmy2cxlhqrgn7", 'render', "https://www.darujme.cz/widget?token=z7ovmy2cxlhqrgn7", "100%");
+  // Darujme(1, "z7ovmy2cxlhqrgn7", 'render', "https://www.darujme.cz/widget?token=z7ovmy2cxlhqrgn7", "100%");
 </script>

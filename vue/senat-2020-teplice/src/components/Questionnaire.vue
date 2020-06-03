@@ -11,13 +11,13 @@
             </button>
             <h4 class="p-2">Jsem z volebního obvody Teplice, <small>takže se mně tyto volby týkají:</small></h4>
             <div class="list-group" v-for="(option, index) in ['Ano', 'Ne']" v-bind:key="index">
-                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="list-group-item list-group-item-action flex-column align-items-start" @click="(index==1) && goVAA('answer')">
                     <label class="custom-control custom-checkbox">
                     <input type="radio" class="custom-control-input" v-model="local" :id="option" :value="option">
                         <span class="custom-control-indicator"></span>
                         <div class="custom-control-description">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">{{ option }}</h5>
+                                <h5 class="mb-1">{{ option }} <small v-if="index==1">> Pokračovat ></small></h5>
                             </div>
                         </div>
                     </label>
