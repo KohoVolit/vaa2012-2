@@ -115,11 +115,19 @@
 			<h1>Volební kalkulačka 2020</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>doplňující volby do Senátu v obvodu Teplice</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
+                        Volební kalkulačka pro <strong>krajské volby 2020</strong> ukazuje vaši shodu s kandidujícími stranami v krajských volbách.
                     </p>
                     <p class="lead">
-                        <a href="cs/senat-2020-teplice/questionnaire?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                SPUSTIT VOLEBNÍ KALKULAČKU
+                        <a href="cs/senat-2020-teplice/questionnaire?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" disabled style="white-space: normal;">
+                                VOLEBNÍ KALKULAČKA BUDE V 2. POLOVINĚ ZÁŘÍ
+                        </a>
+                    </p>
+                    <p class="lead">
+                        Volební kalkulačka pro <strong>volby do Senátu 2020</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
+                    </p>
+                    <p class="lead">
+                        <a href="cs/senat-2020-teplice/questionnaire?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" disabled style="white-space: normal;">
+                        VOLEBNÍ KALKULAČKA BUDE V 2. POLOVINĚ ZÁŘÍ
                         </a>
                     </p>
                     <hr />
