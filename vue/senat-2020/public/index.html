@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="https://volebnikalkulacka.azureedge.net/image/favicon.ico">
+
+    <meta property="og:title" content="Volební kalkulačka Senát 2020"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Volební kalkulačka"/>
+    <meta property="og:image" content="https://volebnikalkulacka.cz/image/logo.jpg"/>
+    <meta property="og:description" content="Volební kalkulačka Senát 2020.
+Nejužitečnějších 5 minut před volbami."/>
+    
+    <title>Volební kalkulačka Senát 2020</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <span style="font-size:20px;font-weight:bold;color:#666;font-family:'sans serif'">Nahrávame kalkulačku, může to pár sekund trvat.</span>
+      <img src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/images/loader-large.gif" />
+  </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
