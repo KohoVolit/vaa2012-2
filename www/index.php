@@ -22,7 +22,7 @@
         "fb_app_id" => "fb:app_id"
     ];
     $defaults = [
-        "og_image" => "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg",
+        "og_image" => "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg",
         "og_image_width" => false,
         "og_image_height" => false,
         "og_description" => "Volební kalkulačka. Nejužitečnějších 5 minut před volbami.",
@@ -66,7 +66,7 @@
     }
 	@media (min-width: 666px) {
   .header {
-        background: url("https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+        background: url("https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
       }
     }
     @media (min-width: 750px) {
@@ -119,15 +119,15 @@
                     </p>
                     <p class="lead">
                         <a href="cs/senat-2020-teplice/questionnaire?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" disabled style="white-space: normal;">
-                                VOLEBNÍ KALKULAČKA BUDE V 2. POLOVINĚ ZÁŘÍ
+                                VOLEBNÍ KALKULAČKA KRAJE - PLÁN SPUŠTĚNÍ 24.9.2020
                         </a>
                     </p>
                     <p class="lead">
                         Volební kalkulačka pro <strong>volby do Senátu 2020</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
                     </p>
                     <p class="lead">
-                        <a href="cs/senat-2020-teplice/questionnaire?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" disabled style="white-space: normal;">
-                        VOLEBNÍ KALKULAČKA BUDE V 2. POLOVINĚ ZÁŘÍ
+                        <a href="cs/senat-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                        SPUSTIT VOLEBNÍ KALKULAČKU - SENÁT
                         </a>
                     </p>
                     <hr />
