@@ -27,6 +27,10 @@
             </li>
         </ul>
       </div>
+      <hr />
+      <a @click="clicked('programy_do_voleb', {'text': 'overview'})" href="https://programydovoleb.cz/" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="info" /> Další informace o kandidátech - ProgramyDoVoleb.cz</a>
+      <hr />
+      <Darujme></Darujme>
     </div>
     <component-footer></component-footer>
     <div class="filler"></div>
@@ -48,7 +52,7 @@
     import noreplies from '../data/noreply.json'
     import Analytics from './Analytics.vue'
     import constituencies from '../data/constituencies.json'
-    // import Darujme from './Darujme.vue'
+    import Darujme from './Darujme.vue'
 
     import { library } from '@fortawesome/fontawesome-svg-core'
     import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -303,7 +307,8 @@
             'component-results-table': ResultsTable,
             'component-results-noreply': ResultsNoreply,
             'font-awesome-icon': FontAwesomeIcon,
-            Analytics
+            Analytics,
+            Darujme
         }
     }
 </script>
