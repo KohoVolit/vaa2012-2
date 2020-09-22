@@ -15,8 +15,8 @@
               </a>
           </div>
       </div>
-      <component-results-table :questions="questions" :answers="$store.state.answers" :constituency="constituency" :results="results" v-on:clickedDetails="clickedDetails"></component-results-table>
-      <component-results-noreply :noreplies="filteredNoreplies"></component-results-noreply>
+      <component-results-table :questions="questions" :answers="$store.state.answers" :constituency="constituency" :results="results" v-on:clickedDetails="clickedDetails" :test="test"></component-results-table>
+      <component-results-noreply :noreplies="filteredNoreplies" :test="test"></component-results-noreply>
 
       <div class="text-center">
         <h3>Změňte volební obvod:</h3>
@@ -233,6 +233,9 @@
                 }
                 // console.log('cons.:' + cc.constituency_code)
                 return cc
+            },
+            scrollToTop() {
+              window.scrollTo(0,0)
             }
         },
         mounted: function () {
@@ -274,6 +277,10 @@
                 answer[k] = JSON.parse(this.$route.query[k])
             }
             this.$save_results(answer)
+
+            this.scrollToTop()
+
+            this.test++
         },
         components: {
             'component-header': Header,

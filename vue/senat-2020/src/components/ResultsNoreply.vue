@@ -27,7 +27,7 @@
     // import Stars from './Stars.vue'
 
     export default {
-        props: ['noreplies'],
+        props: ['noreplies', 'test'],
         data: function () {
             //console.log(noreply)
             return {

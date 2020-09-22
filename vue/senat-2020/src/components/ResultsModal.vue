@@ -154,7 +154,7 @@
                 return '--'
             },
             precompare: function(question, index) {
-              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (question.id in this.answers)) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (typeof this.results[index]['info']['votes'] !== 'undefined')) {
                 return this.compare(this.answers[question.id], this.results[index]['info']['votes'][question.id])
               } else {
                 return ''
@@ -166,7 +166,7 @@
                 else return ''
             },
             precompared: function(question, index) {
-              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (question.id in this.answers)) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (typeof this.results[index]['info']['votes'] !== 'undefined')) {
                 return this.compared(this.answers[question.id], this.results[index]['info']['votes'][question.id])
               } else {
                 return ''

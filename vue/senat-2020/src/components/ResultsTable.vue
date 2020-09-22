@@ -40,7 +40,7 @@
     import ResultsModal from './ResultsModal.vue'
 
     export default {
-        props: ['questions', 'constituency', 'results'],
+        props: ['questions', 'constituency', 'results', 'test'],
         data: function () {
             return {
                 index: 0
