@@ -126,8 +126,8 @@
                         Volební kalkulačka pro <strong>volby do Senátu 2020</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
                     </p>
                     <p class="lead">
-                        <a href="cs/senat-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" disabled style="white-space: normal;">
-                        VOLEBNÍ KALKULAČKA - PLÁN SPUŠTĚNÍ 23.9.2020
+                        <a href="cs/senat-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
+                        SPUSTIT VOLEBNÍ KALKULAČKU - SENÁT
                         </a>
                     </p>
                     <hr />
