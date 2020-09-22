@@ -10,8 +10,8 @@
             <h6 class="card-title">{{ result.info.party }}</h6>
           </div>
           <div class="card-footer">
-            <component-stars :stars="result.rating"></component-stars>
-            <div class="card-text text-muted">{{ $t('match') }}: {{ result.result_percent }}%</div>
+            <!-- <component-stars :stars="result.rating"></component-stars> -->
+            <h4 class="card-text text-muted">{{ $t('match') }}: {{ result.result_percent }}%</h4>
             <span class="badge badge-secondary">{{ index + 1 }}</span>
           </div>
 
@@ -32,7 +32,7 @@
 
 <script>
     import { mapGetters } from 'vuex'
-    import Stars from './Stars.vue'
+    // import Stars from './Stars.vue'
     import ResultsModal from './ResultsModal.vue'
 
     export default {
@@ -66,7 +66,7 @@
             }
         },
         components: {
-            'component-stars': Stars,
+            // 'component-stars': Stars,
             'component-results-modal': ResultsModal
         }
     }

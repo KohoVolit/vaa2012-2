@@ -106,7 +106,7 @@
                 this.$store.commit('addAnswer', payload)
                 setTimeout(() => {
                     if ((this.slide + 1) === this.questions.length) {
-                        console.log("this.slide inside", this.slide, this.questions.length)
+                        // console.log("this.slide inside", this.slide, this.questions.length)
                     this.$router.push(
                         { path: '/selection', query: { q: JSON.stringify(this.$store.state.answers) }
                     })

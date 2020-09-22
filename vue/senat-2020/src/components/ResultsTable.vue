@@ -15,8 +15,8 @@
                             <div class="pl-2">{{ result.info.party }}</div>
                         </div>
                         <div class="rating ml-auto pt-1">
-                            <component-stars :stars="result.rating"></component-stars>
-                            <div class="text-center">{{ result.result_percent }}%</div>
+                            <!-- <component-stars :stars="result.rating"></component-stars> -->
+                            <h4 class="text-center">{{ result.result_percent }}%</h4>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
 
 <script>
     import { mapGetters } from 'vuex'
-    import Stars from './Stars.vue'
+    // import Stars from './Stars.vue'
     import ResultsModal from './ResultsModal.vue'
 
     export default {
@@ -66,7 +66,7 @@
             }
         },
         components: {
-            'component-stars': Stars,
+            // 'component-stars': Stars,
             'component-results-modal': ResultsModal
         }
     }

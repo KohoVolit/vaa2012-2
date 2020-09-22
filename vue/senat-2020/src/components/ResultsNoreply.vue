@@ -12,8 +12,8 @@
                             <div class="pl-2 text-muted">{{ result.party }}</div>
                         </div>
                         <div class="rating ml-auto pt-1">
-                            <component-stars :stars="0" :muted="true"></component-stars>
-                            <div class="text-center">? %</div>
+                            <!-- <component-stars :stars="0" :muted="true"></component-stars> -->
+                            <h4 class="text-center">? %</h4>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
 
 <script>
     // import noreply from '../data/noreply.json'
-    import Stars from './Stars.vue'
+    // import Stars from './Stars.vue'
 
     export default {
         props: ['noreplies'],
@@ -47,7 +47,7 @@
             }
         },
         components: {
-            'component-stars': Stars
+            // 'component-stars': Stars
         }
     }
 </script>

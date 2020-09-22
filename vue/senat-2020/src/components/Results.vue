@@ -15,8 +15,7 @@
               </a>
           </div>
       </div>
-      <component-results-table :questions="questions" :answers="$store.state.answers" :constituency="constituency" :results="results" v-on:clickedDetails="clickedDetails">
-      </component-results-table>
+      <component-results-table :questions="questions" :answers="$store.state.answers" :constituency="constituency" :results="results" v-on:clickedDetails="clickedDetails"></component-results-table>
       <component-results-noreply :noreplies="filteredNoreplies"></component-results-noreply>
 
       <div class="text-center">
@@ -24,7 +23,7 @@
 
         <ul class="list-group text-left">
             <li v-for="constit in constituenciesSorted" :key="constit.constituency_code" class="list-group-item">
-                <a href="#" @click="changeConstituency(constit)">{{ constit.name }}</a>
+                <a href="#" @click="changeConstituency(constit)">{{ constit.name }} <small>({{constit.constituency_code}})</small></a>
             </li>
         </ul>
       </div>

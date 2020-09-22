@@ -1,5 +1,6 @@
 <template>
-  <div v-if="results[index]" class="modal-dialog modal-lg">
+<div>
+  <div v-if="show" class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header row m-2">
         <button type="button" class="close" data-dismiss="modal">
@@ -12,15 +13,10 @@
                         <h4 class="card-title">{{ results[index].info.name }}</h4>
                         <div class="card-text">
                             <span>{{ results[index].info.party }}</span><br />
-                            <!-- <component-stars :stars="results[index].rating"></component-stars> -->
-                            <!-- <div class="stars">
-                                <i v-for="n in stars['full']" class="fa fa-star"></i><i v-for="n in stars['half']" class="fa fa-star-half-full"></i><i v-for="n in stars['empty']" class="fa fa-star-o"></i>
-                            </div> -->
                         </div>
                         <div class="card-text text-muted">{{ $t('match') }}: {{ results[index].result_percent }}%</div>
                     </div>
                     <div class="col-4 text-right">
-                        <!-- <img :src="'pictures/200x200/' + results[index].info.picture" class="picture mr-2" /> -->
                     </div>
                 </div>
             </div>
@@ -47,7 +43,7 @@
                   </th>
               </thead>
               <tbody>
-                  <tr v-for="(question, ix) in questions" :key="ix" :class="[compared(answers[question.id], results[index]['info']['votes'][question.id]), weighted(weights[question.id])]">
+                  <tr v-for="(question, ix) in questions" :key="ix" :class="[precompared(question, index), weighted(weights[question.id])]">
                       <td>
                           <i v-if="weights[question.id]" class="fa fa-star"></i>
                           <font-awesome-icon icon="star" v-if="weights[question.id]" />
@@ -58,14 +54,14 @@
                           {{ answer2Text(answers[question.id]) }}
                       </td>
                       <td class="text-center">
-                          {{ compare(answers[question.id], results[index]['info']['votes'][question.id]) }}
+                          {{ precompare(question, index) }}
                       </td>
                       <td class="text-center">
-                          {{ answer2TextThem(results[index]['info']['votes'][question.id]) }}
+                          {{ preanswer2TextThem(question, index) }}
                       </td>
                       <td class="text-center comment p-2">
-                          {{ shortenText(results[index]['info']['details'][question.id]) }}
-                          <font-awesome-icon icon="info-circle" v-b-popover.hover.top="results[index]['info']['details'][question.id]" v-if="shortened(results[index]['info']['details'][question.id])"/>
+                          {{ preshortenText(question, index) }}
+                          <font-awesome-icon icon="info-circle" v-b-popover.hover.top="hoverTop(question, index)" v-if="preshortened(question, index)"/>
                       </td>
 
                   </tr>
@@ -77,6 +73,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -91,7 +88,13 @@
     library.add(faStar)
 
     export default {
-        props: ['index', 'questions', 'results', 'answers', 'weights'],
+        props: {
+          index: Number, 
+          questions: Array, 
+          results: Array, 
+          answers: Object, 
+          weights: Object
+        },
         mounted: function () {
             // eslint-disable-next-line
             if (typeof $ !== 'undefined') {
@@ -103,7 +106,16 @@
             }
         },
         computed: {
+            show: function () {
+              // console.log('show', this.index, this.results)
+              if ((typeof this.index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > this.index)) {
+                return true
+              } else {
+                return false
+              }
+            },
             stars: function () {
+              console.log("stars", this.index)
                 var full = Math.floor(this.results[this.index].rating)
                 var half = 0
                 if (full < this.results[this.index].rating) {
@@ -127,17 +139,41 @@
                 if (a === 0) return this.$t('dont_know')
                 return '--'
             },
+            preanswer2TextThem: function(question, index) {
+              // console.log('preanswer2TextThem', question.id, index, this.results.length)
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (typeof this.results[index]['info']['votes'] !== 'undefined')) {
+                return this.answer2TextThem(this.results[index]['info']['votes'][question.id])
+              } else {
+                return ''
+              }
+            },
             answer2TextThem: function (a) {
                 if (a === 1) return this.$t('yes')
                 if (a === -1) return this.$t('no')
                 if (a === 0) return this.$t('dont_know_them')
                 return '--'
             },
+            precompare: function(question, index) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (question.id in this.answers)) {
+                return this.compare(this.answers[question.id], this.results[index]['info']['votes'][question.id])
+              } else {
+                return ''
+              }
+            },
             compare: function (a, b) {
+                // console.log('compare', a, b)
                 if ((a * b) === -1) return 'x'
                 else return ''
             },
+            precompared: function(question, index) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (question.id in this.answers)) {
+                return this.compared(this.answers[question.id], this.results[index]['info']['votes'][question.id])
+              } else {
+                return ''
+              }
+            },
             compared: function (a, b) {
+              // console.log('compared', a, b)
                 if (a === undefined) return 'text-muted'
                 if ((a * b) === -1) return 'text-danger'
                 if ((a * b) === 1) return 'text-success'
@@ -146,6 +182,20 @@
             weighted: function (w) {
                 if (w) return 'strong'
                 else return ''
+            },
+            hoverTop: function(question, index) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index)) {
+                return this.results[index]['info']['details'][question.id]
+              } else {
+                return ''
+              }
+            },
+            preshortenText: function(question, index) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (typeof this.results[index]['info']['votes'] !== 'undefined')) {
+                return this.shortenText(this.results[index]['info']['details'][question.id])
+              } else {
+                return ''
+              }
             },
             shortenText: function (t) {
                 if (!t) { return '' }
@@ -157,6 +207,13 @@
                     return t.substr(0, n - 3) + '...'
                 }
                 return t
+            },
+            preshortened: function(question, index) {
+              if ((typeof index !== 'undefined') && (typeof this.results !== 'undefined') && (this.results.length > index) && (typeof this.results[index]['info']['votes'] !== 'undefined')) {
+                return this.shortened(this.results[index]['info']['details'][question.id])
+              } else {
+                return false
+              }
             },
             shortened: function (t) {
                 if (!t) return false

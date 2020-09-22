@@ -24,6 +24,7 @@
             }
         },
         mounted: function () {
+            // console.log('stars mounted', this.stars)
             this.full = Math.floor(this.stars)
             if (this.full < this.stars) {
                 this.half = 1

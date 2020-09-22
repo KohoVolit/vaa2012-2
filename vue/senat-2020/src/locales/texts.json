@@ -17,7 +17,7 @@
         "close": "Zavřít",
         "question": "Otázka",
         "me": "Já",
-        "no_replies": "Opakovaně jsme oslovili všechny kandidáty a/nebo jejich strany, ostatní zatím na otázky neodpověděly.",
+        "no_replies": "Opakovaně jsme oslovili všechny kandidáty a/nebo jejich strany, ostatní zatím bohužel na otázky neodpověděli:",
         "fb_1": "Volební kalkulačka Senát 2020, moje shoda: ",
         "share_on_fb": "Řekněte o tom na ",
         "send_by_email": "Pošlete emailem",
@@ -27,7 +27,6 @@
         "og_description": "Volební kalkulačka Senát 2020. Srovnání na základě postojů kandidátů.",
         "candidate_comment": "Komentář kandidáta/ky",
         "dont_know_them": "Nevím / nemám jednoznačný názor",
-        "no_replies": "Oslovili jsme opakovaně všechny kandidáty, ostatní zatím bohužel na otázky neodpověděli:",
         "explanation_replies": "Postoje kandidátů jsou přímo jejich odpovědi na dané otázky.",
         "sent_by_email": "Pošlete emailem"
     }
