@@ -102,11 +102,14 @@
             getFilteredResults: function () {
                 var results = []
                 var resultsAll = this.$store.state.results
+                // console.log('prefiltering', this.results)
                 for (var i = 0; i < resultsAll.length; i++) {
-                    if (resultsAll[i].info.constituency_code === this.$store.state.constituency.constituency_code) {
+                    // console.log('filtering i', i, resultsAll[i].info.constituency_code, this.$store.state.constituency.constituency_code)
+                    if (resultsAll[i].info.constituency_code.toString() === this.$store.state.constituency.constituency_code.toString()) {
                         results.push(resultsAll[i])
                     }
                 }
+                // console.log("filtering", results)
                 this.results = results
                 return results
             },
@@ -135,11 +138,19 @@
                     return ret.join('&')
                 }
                 var last = this.results.length - 1
-                var quote = this.$t('fb_1') + '\n' +
-                this.results[0].info.family_name + '-' + this.results[0].info.party + ' (' + this.results[0].result_percent + '%' + ')\n' +
-                this.results[1].info.family_name + '-' + this.results[1].info.party + ' (' + this.results[1].result_percent + '%' +  ')\n' +
-                this.results[2].info.family_name + '-' + this.results[2].info.party + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
-                this.results[last].info.family_name + '-' + this.results[last].info.party + ' (' + this.results[last].result_percent + '%)'
+                let quote = ''
+                try {
+                  quote = this.$t('fb_1') + '\n' +
+                  this.results[0].info.family_name + '-' + this.results[0].info.party + ' (' + this.results[0].result_percent + '%' + ')\n' +
+                  this.results[1].info.family_name + '-' + this.results[1].info.party + ' (' + this.results[1].result_percent + '%' +  ')\n' +
+                  this.results[2].info.family_name + '-' + this.results[2].info.party + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
+                  this.results[last].info.family_name + '-' + this.results[last].info.party + ' (' + this.results[last].result_percent + '%)'
+                } catch(err) {
+                  // console.log("test pre", this.test)
+                  // console.log("results", this.results)
+                  this.test = -1
+                  // console.log("test -1", this.test)
+                }
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
                     og_image: "https://volebnikalkulacka.azureedge.net/evropsky-parlament-2014/image/bg.jpg", // this.$settings['cdn'] + this.$settings['path'] + 'pictures/200x200/' + this.results[0].info.picture,
@@ -260,6 +271,7 @@
             }
 
             this.results = this.calcMatch(this.$store.state.answers, this.$store.state.weights, this.votes, 2)
+            // console.log('results calculated', this.results)
             this.results.sort(function (a, b) {
                 return b.random - a.random
             })
@@ -269,6 +281,7 @@
             this.$store.commit('storeResults', this.results)
 
             this.results = this.getFilteredResults()
+            // console.log('results filtered', this.results)
 
             this.filteredNoreplies = this.getFilteredNoreplies()
 
@@ -281,6 +294,7 @@
             this.scrollToTop()
 
             this.test++
+            // console.log('test', this.test)
         },
         components: {
             'component-header': Header,
