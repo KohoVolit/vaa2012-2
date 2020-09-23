@@ -31,8 +31,17 @@
         data: function () {
             //console.log(noreply)
             return {
-                exist: true,
+               // exist: true,
                 // noreply
+            }
+        },
+        computed: {
+            exist: function() {
+                if (this.noreplies.length == 0) {
+                    return false
+                } else {
+                    return true
+                }
             }
         },
         mounted: function () {
