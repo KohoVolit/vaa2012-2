@@ -28,9 +28,17 @@
         </ul>
       </div>
       <hr />
-      <a @click="clicked('programy_do_voleb', {'text': 'overview'})" href="https://programydovoleb.cz/" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="info" /> Další informace o kandidátech - ProgramyDoVoleb.cz</a>
+      <a @click="clicked('programy_do_voleb', {'text': 'overview'})" href="https://programydovoleb.cz/" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="info-circle" /> Další informace o kandidátech - ProgramyDoVoleb.cz</a>
       <hr />
       <Darujme></Darujme>
+      <div class="row">
+        <div class="col">
+          <a @click="clicked('mandaty', {'text': 'overview'})" href="https://mandaty.cz/" target="_blank" class="btn btn-primary btn-block btn-lg mt-4"><font-awesome-icon :icon="['fas', 'chart-bar']" /> Volební průzkumy přepočtené na Mandáty.cz</a>
+        </div>
+        <div class="col">
+          <a @click="clicked('volebni_atlas', {'text': 'overview'})" href="https://volebniatlas.cz/" target="_blank" class="btn btn-warning btn-block btn-lg mt-4"><font-awesome-icon :icon="['fas', 'atlas']" /> Detailní výsledky voleb v mapách: VolebníAtlas.cz</a>
+        </div>
+      </div>
     </div>
     <component-footer></component-footer>
     <div class="filler"></div>
@@ -57,14 +65,18 @@
     import { library } from '@fortawesome/fontawesome-svg-core'
     import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
     import { faTable } from '@fortawesome/free-solid-svg-icons'
-    import { faInfo } from '@fortawesome/free-solid-svg-icons'
+    import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+    import { faAtlas } from '@fortawesome/free-solid-svg-icons'
+    import { faChartBar } from '@fortawesome/free-solid-svg-icons'
     import { faFacebook } from '@fortawesome/free-brands-svg-icons'
     import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
     library.add(faEnvelope)
     library.add(faFacebook)
     library.add(faTable)
-    library.add(faInfo)
+    library.add(faInfoCircle)
+    library.add(faAtlas)
+    library.add(faChartBar)
 
     export default {
         data: function () {
