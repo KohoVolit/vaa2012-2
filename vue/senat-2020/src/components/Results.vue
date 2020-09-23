@@ -132,7 +132,7 @@
             getFilteredNoreplies: function () {
                 var fn = []
                 for (var i = 0; i < this.noreplies.length; i++) {
-                    if (this.noreplies[i].constituency_code === this.$store.state.constituency.constituency_code) {
+                    if (this.noreplies[i].constituency_code.toString() === this.$store.state.constituency.constituency_code.toString()) {
                         fn.push(this.noreplies[i])
                     }
                 }

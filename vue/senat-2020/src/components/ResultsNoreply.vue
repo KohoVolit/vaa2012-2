@@ -36,9 +36,9 @@
             }
         },
         mounted: function () {
-            // if (this.noreplies.length == 0) {
-            //     this.exist = false
-            // }
+            if (this.noreplies.length == 0) {
+                this.exist = false
+            }
         },
         methods: {
             createImageLink: function (name) {
