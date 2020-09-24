@@ -1,0 +1,17 @@
+{
+    "url": "https://volebnikalkulacka.cz/",
+    "_url": "http://192.168.1.4:8080/",
+    "cookie": "vkid",
+    "calc": "kraje-2020",
+    "locale": "cs-CZ",
+    "_cdn": "http://192.168.1.4/michal/project/volebnikalkulacka.cz/www/",
+    "cdn": "https://volebnikalkulacka.azureedge.net/",
+    "_path": "vue/kraje-2020/src/",
+    "path": "cs/kraje-2020/",
+    "save_path": "kraje-2020/",
+    "api_path_": "http://localhost:3003/",
+    "api_path": "https://api.volebnikalkulacka.cz/",
+    "fb_app_id": "200785490055088",
+    "pic_path_small": "statics/pictures/64x64/",
+    "pic_path_large": "statics/pictures/90x90/"
+}

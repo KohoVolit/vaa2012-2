@@ -39,6 +39,7 @@
           <a @click="clicked('volebni_atlas', {'text': 'overview'})" href="https://volebniatlas.cz/" target="_blank" class="btn btn-warning btn-block btn-lg mt-4"><font-awesome-icon :icon="['fas', 'atlas']" /> Detailní výsledky voleb v mapách: VolebníAtlas.cz</a>
         </div>
       </div>
+      <a @click="clicked('d_21', {'text': 'overview'})" href="https://volbyjinak.cz/volby-2020" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="dice-two" /> <font-awesome-icon icon="dice-one" /> Volební hra: Volby s více hlasy D21</a>
     </div>
     <component-footer></component-footer>
     <div class="filler"></div>

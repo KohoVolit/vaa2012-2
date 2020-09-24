@@ -62,8 +62,7 @@
 </template>
 
 <script>
-
-    import questions from '../data/questions.json'
+    // import questions from '../data/questions.json'
     import Header from './Header.vue'
     import Footer from './Footer.vue'
     import Progress from './Progress.vue'
@@ -72,10 +71,26 @@
     export default {
         data: function () {
             return {
-                questions,
+                // questions: [],
                 progress: 1,
                 slide: 0,
                 sliding: null
+            }
+        },
+        computed: {
+            questions: function() {
+                let cc = this.$route.query.cc
+                if ((typeof cc == 'undefined') || (cc == '')) {
+                    cc = 'pl'
+                    let constit = {
+                        constituency: 'Plzeňský kraj',
+                        name: 'Plzeňský kraj',
+                        constituency_code: cc
+                    }
+                    var payload = constit
+                    this.$store.commit('storeConstituency', payload)
+                }
+                return require('../data/questions_' + cc + '.json')
             }
         },
         mounted: function () {
@@ -92,9 +107,8 @@
         methods: {
             onSlideStart (slide) {
                 this.progress = 100 * (slide / this.questions.length)
-                this.$router.push({path: '/', query: {s: slide + 1}})
+                this.$router.push({path: '/', query: {s: slide + 1, cc: this.$store.state.constituency.constituency_code}})
             },
-
             radioName: function (slide) {
                 return 'q-' + slide
             },
@@ -107,9 +121,10 @@
                 setTimeout(() => {
                     if ((this.slide + 1) === this.questions.length) {
                         // console.log("this.slide inside", this.slide, this.questions.length)
-                    this.$router.push(
-                        { path: '/selection', query: { q: JSON.stringify(this.$store.state.answers) }
-                    })
+                        console.log('constituency', this.$store.state.constituency)
+                        this.$router.push(
+                            { path: '/selection', query: { cc: this.$store.state.constituency.constituency_code, q: JSON.stringify(this.$store.state.answers) }
+                        })
                     }
                     else {
                         this.slide = index + 1
@@ -128,8 +143,6 @@
             scrollToTop() {
               window.scrollTo(0,0)
             }
-        },
-        computed: {
         },
         components: {
             'component-header': Header,

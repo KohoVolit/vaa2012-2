@@ -1,0 +1,33 @@
+{
+    "cs-CZ": {
+        "header_name": "Volební kalkulačka Kraje 2020",
+        "YES": "ANO",
+        "NO": "NE",
+        "yes": "Ano",
+        "no": "Ne",
+        "dont_know": "Nevím",
+        "not_voted": "Nehl.",
+        "not_important": "Je mi to jedno",
+        "skip": "Přeskočit",
+        "result": "Výsledek",
+        "back": "Zpět",
+        "select_extra_important_questions": "Vyberte otázky, které jsou pro vás extra důležité:",
+        "clicking_detailed_match": "Tip: klikněte na jméno strany a dostanete s nimi Vaši podrobnou shodu",
+        "match": "Shoda",
+        "close": "Zavřít",
+        "question": "Otázka",
+        "me": "Já",
+        "no_replies": "Opakovaně jsme oslovili všechny strany a/nebo jejich centrály, ostatní zatím bohužel na otázky neodpověděly:",
+        "fb_1": "Volební kalkulačka Kraje 2020, moje shoda: ",
+        "share_on_fb": "Řekněte o tom na ",
+        "send_by_email": "Pošlete emailem",
+        "email_1": "Zkus si volební kalkulačku Kraje 2020. Ukáže ti strany, které jsou ti postoji nejblíž.",
+        "email_2": "\n\nVolební kalkulačka je zde:\nhttps://volebnikalkulacka.cz/?ref=",
+        "og_title": "Volební kalkulačka Kraje 2020",
+        "og_description": "Volební kalkulačka Kraje 2020. Srovnání na základě postojů kandidátů.",
+        "candidate_comment": "Komentář strany",
+        "dont_know_them": "Nevím / nemám jednoznačný názor",
+        "explanation_replies": "Postoje stran jsou přímo jejich odpovědi na dané otázky.",
+        "sent_by_email": "Pošlete emailem"
+    }
+}
