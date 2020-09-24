@@ -99,6 +99,7 @@
                 //questions,
                 //votes,
                 // votesEu,
+                test: 1,
                 results: [{info: ''}, {info: ''}, {info: ''}],
                 resultsEu: [{info: ''}, {info: ''}, {info: ''}],
                 answers: {}
@@ -107,13 +108,13 @@
         computed: {
             questions: function() {
                 let cc = this.$route.query.cc
-                console.log('cc', cc)
+                // console.log('cc', cc)
                 
                 // if coming directly
-                console.log(this.$store.state.constituency)
+                // console.log(this.$store.state.constituency)
                 if (typeof this.$store.state.constituency == 'undefined') {
                     let constituencies = require('../data/constituencies.json')
-                    console.log(constituencies)
+                    // console.log(constituencies)
                     if (typeof cc !== 'undefined') {
                         for (let c of constituencies) {
                             if (c['constituency_code'] == cc) {
@@ -137,7 +138,7 @@
             },
             votes: function() {
                 let cc = this.$route.query.cc
-                console.log('votes cc', cc)
+                // console.log('votes cc', cc)
                 if ((typeof cc == 'undefined') || (cc == '')) {
                     cc = 'pl'
                 }
@@ -145,7 +146,7 @@
             },
             noreplies: function() {
                 let cc = this.$route.query.cc
-                 console.log('noreplies cc', cc)
+                // console.log('noreplies cc', cc)
                 if ((typeof cc == 'undefined') || (cc == '')) {
                     cc = 'pl'
                 }
@@ -303,6 +304,8 @@
             for (var k in this.$route.query) {
                 if (k in jsoned) {
                     answer[k] = JSON.parse(this.$route.query[k])
+                } else {
+                    answer[k] = this.$route.query[k]
                 }
             }
             this.$save_results(answer)
