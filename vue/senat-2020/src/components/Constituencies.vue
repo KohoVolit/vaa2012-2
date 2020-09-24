@@ -105,4 +105,7 @@
   .region-active {
     cursor: pointer;
   }
+  svg {
+    max-width: 100%;
+  }
 </style>
