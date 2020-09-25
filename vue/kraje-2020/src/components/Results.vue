@@ -50,6 +50,9 @@
             </div>
             <a @click="clicked('d_21', {'text': 'overview'})" href="https://volbyjinak.cz/volby-2020" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="dice-two" /> <font-awesome-icon icon="dice-one" /> Volební hra: Volby s více hlasy D21</a>
             <!-- <Heroes></Heroes> -->
+            <div class="mt-4 ml-2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xZquzHPHOsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <component-footer></component-footer>
         <div class="filler"></div>
@@ -178,13 +181,14 @@
                 }
                 var last = this.results.length - 1
                 var quote = this.$t('fb_1') + '\n' +
-                this.results[0].info.family_name + '-' + this.results[0].info.abbreviation + ' (' + this.results[0].result_percent + '%' + ')\n' +
-                this.results[1].info.family_name + '-' + this.results[1].info.abbreviation + ' (' + this.results[1].result_percent + '%' +  ')\n' +
-                this.results[2].info.family_name + '-' + this.results[2].info.abbreviation + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
-                this.results[last].info.family_name + '-' + this.results[last].info.abbreviation + ' (' + this.results[last].result_percent + '%)'
+                this.results[0].info.abbreviation + '-' + this.results[0].info.name + ' (' + this.results[0].result_percent + '%' + ')\n' +
+                this.results[1].info.abbreviation + '-' + this.results[1].info.name + ' (' + this.results[1].result_percent + '%' +  ')\n' +
+                this.results[2].info.abbreviation + '-' + this.results[2].info.name + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
+                this.results[last].info.abbreviation + '-' + this.results[last].info.name + ' (' + this.results[last].result_percent + '%)'
+                let cc = this.$route.query.cc
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
-                    og_image: this.$settings['cdn'] + this.$settings['path'] + 'pictures/200x200/' + this.results[0].info.picture,
+                    og_image: 'https://volebnikalkulacka.azureedge.net/kraje-2016/image/background/' + cc + '.jpg',
                     og_title: this.$t('og_title'),
                     og_description: this.$t('og_description')
                 }
