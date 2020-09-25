@@ -8,8 +8,8 @@ session_start();
 
 $relative_path = "../";
 
-//answers of voters
-$answers = json_decode(file_get_contents('./answers.json'));
+//answers of voters, cc - constituency codes
+$answers = json_decode(file_get_contents('./answers_' . $_GET['cc'] . '.json'));
 
 
 //missing voters

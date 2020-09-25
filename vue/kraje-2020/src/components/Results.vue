@@ -181,10 +181,10 @@
                 }
                 var last = this.results.length - 1
                 var quote = this.$t('fb_1') + '\n' +
-                this.results[0].info.abbreviation + '-' + this.results[0].info.name + ' (' + this.results[0].result_percent + '%' + ')\n' +
-                this.results[1].info.abbreviation + '-' + this.results[1].info.name + ' (' + this.results[1].result_percent + '%' +  ')\n' +
-                this.results[2].info.abbreviation + '-' + this.results[2].info.name + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
-                this.results[last].info.abbreviation + '-' + this.results[last].info.name + ' (' + this.results[last].result_percent + '%)'
+                this.results[0].info.abbreviation + ' - ' + this.results[0].info.name + ' (' + this.results[0].result_percent + '%' + ')\n' +
+                this.results[1].info.abbreviation + ' - ' + this.results[1].info.name + ' (' + this.results[1].result_percent + '%' +  ')\n' +
+                this.results[2].info.abbreviation + ' - ' + this.results[2].info.name + ' (' + this.results[2].result_percent + '%' + ')\n...\n' +
+                this.results[last].info.abbreviation + ' - ' + this.results[last].info.name + ' (' + this.results[last].result_percent + '%)'
                 let cc = this.$route.query.cc
                 var href = {
                     ref: this.$getSetCookie(this.$settings['cookie']),
