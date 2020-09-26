@@ -1,0 +1,14 @@
+{
+    "voters_key":"1V5kb9lZy20E8kXsVxk1lQpdTUOAi09ee2TFPTErlNmA",
+    "questions_key": "1p2iTCpSQ4QtwcUtgYLvJSOf72SQnfU_5tWXy8oD0bJo",
+    "regions_key": "1p2iTCpSQ4QtwcUtgYLvJSOf72SQnfU_5tWXy8oD0bJo",
+    "regions_sheet_name": "kraje",
+    "regions_column": 1,
+    "answers_codes_column": 3,
+    "answers_step": 3,
+    "answers_first": 6,
+    "yes": "Ano",
+    "no": "Ne",
+    "picture_prepend": "",
+    "picture_append": ".jpg"
+}
