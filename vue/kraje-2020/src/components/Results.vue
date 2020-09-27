@@ -50,8 +50,14 @@
             </div>
             <a @click="clicked('d_21', {'text': 'overview'})" href="https://volbyjinak.cz/volby-2020" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="dice-two" /> <font-awesome-icon icon="dice-one" /> Volební hra: Volby s více hlasy D21</a>
             <!-- <Heroes></Heroes> -->
+            
             <div class="mt-4 ml-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/xZquzHPHOsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <b-embed
+                    type="iframe"
+                    aspect="16by9"
+                    src="https://www.youtube.com/embed/xZquzHPHOsE"
+                    allowfullscreen
+                ></b-embed>
             </div>
         </div>
         <component-footer></component-footer>

@@ -121,7 +121,7 @@
                 setTimeout(() => {
                     if ((this.slide + 1) === this.questions.length) {
                         // console.log("this.slide inside", this.slide, this.questions.length)
-                        console.log('constituency', this.$store.state.constituency)
+                        // console.log('constituency', this.$store.state.constituency)
                         this.$router.push(
                             { path: '/selection', query: { cc: this.$store.state.constituency.constituency_code, q: JSON.stringify(this.$store.state.answers) }
                         })
