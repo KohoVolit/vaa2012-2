@@ -106,12 +106,19 @@
                 this.test++
             },
             changeConstituency: function (constit) {
+                let previous = this.$store.state.constituency
                 this.$store.commit('storeConstituency', constit)
                 this.constituency = constit
                 // console.log('changing consistuency: ' + constit.constituency)
                 this.test++
                 this.results = this.getFilteredResults()
                 this.filteredNoreplies = this.getFilteredNoreplies()
+                let attributes = {
+                    from: previous,
+                    to: constit
+                }
+                console.log(attributes)
+                this.clicked('changed_constituency', attributes)
             },
             compare (a, b) {
                 return a['name'].localeCompare(b.name, this.$settings['locale'])
