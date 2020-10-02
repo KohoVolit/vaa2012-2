@@ -37,7 +37,7 @@
             <!-- <a @click="clicked('all_questions_table', {'text': 'overview'})" href="https://docs.google.com/spreadsheets/d/1_1ya3KCgY4Z9j932Xz8SVn28NpE-xuvRHwzOP69dAJQ/edit?usp=sharing" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="table" /> Přehled všech odpovědí v tabulce</a> -->
             <component-results-noreply :noreplies="noreplies"></component-results-noreply>
             <hr />
-            <a @click="clicked('programy_do_voleb', {'text': 'overview'})" href="https://programydovoleb.cz/" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="info-circle" /> Další informace o kandidátech - ProgramyDoVoleb.cz</a>
+            <a @click="clicked('d_21', {'text': 'overview'})" href="https://volbyjinak.cz/volby-2020" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="dice-two" /> <font-awesome-icon icon="dice-one" /> Volební hra: Volby s více hlasy D21</a>
             <hr />
             <Darujme></Darujme>
             <div class="row">
@@ -48,7 +48,8 @@
                 <a @click="clicked('volebni_atlas', {'text': 'overview'})" href="https://volebniatlas.cz/" target="_blank" class="btn btn-warning btn-block btn-lg mt-4"><font-awesome-icon :icon="['fas', 'atlas']" /> Detailní výsledky voleb v mapách: VolebníAtlas.cz</a>
                 </div>
             </div>
-            <a @click="clicked('d_21', {'text': 'overview'})" href="https://volbyjinak.cz/volby-2020" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="dice-two" /> <font-awesome-icon icon="dice-one" /> Volební hra: Volby s více hlasy D21</a>
+        
+            <a @click="clicked('programy_do_voleb', {'text': 'overview'})" href="https://programydovoleb.cz/" target="_blank" class="btn btn-info btn-block btn-lg mt-4"><font-awesome-icon icon="info-circle" /> Další informace o kandidátech - ProgramyDoVoleb.cz</a>
             <!-- <Heroes></Heroes> -->
             
             <div class="mt-4 ml-2">
