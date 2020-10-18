@@ -19,13 +19,17 @@ research.txt
 cache/*
 research_post.txt
 *result.csv
+results.csv
 *click.csv
+clicks.csv
 *position.csv
 *fingerprint.csv
 *log.csv
+questionnaire.csv
 bot/
 *pixels.csv
 *actions.csv
 /www/image/prezidentske-volby-2018/fb/
 vue/dist/
 www/hackathon-2018/.git
+www/session/log*
