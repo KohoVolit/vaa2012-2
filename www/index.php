@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2020. Nejužitečnějších 5 minut před volbami.">
+    <meta name="description" content="Volební kalkulačka 2021. Nejužitečnějších 5 minut před volbami.">
     <meta name="keywords" content="volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -112,22 +112,22 @@
 
 		<div class="vert-text">
 
-			<h1>Volební kalkulačka 2020</h1>
+			<h1>Volební kalkulačka 2021</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>krajské volby 2020</strong> ukazuje vaši shodu s kandidujícími stranami v krajských volbách.
+                        Volební kalkulačka pro <strong>sněmovní volby 2021</strong> ukazuje vaši shodu s kandidujícími stranami v senátních volbách.
                     </p>
                     <p class="lead">
-                        <a href="cs/kraje-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                                SPUSTIT VOLEBNÍ KALKULAČKU - KRAJE
+                        <a href="cs/kraje-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
+                                SPUSTIT VOLEBNÍ KALKULAČKU - BUDE POČÁTKEM ZÁŘÍ
                         </a>
                     </p>
                     <p class="lead">
-                        Volební kalkulačka pro <strong>volby do Senátu 2020</strong> ukazuje vaši shodu s kandidáty v senátních volbách.
+                        Inventura hlasování <strong>sněmovny 2017-2021</strong> ukazuje vaši shodu s poslankyněmi a poslanci na základě skutečných hlasování ze sněmovny.
                     </p>
                     <p class="lead">
-                        <a href="cs/senat-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;">
-                        SPUSTIT VOLEBNÍ KALKULAČKU - SENÁT
+                        <a href="cs/senat-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
+                        SPUSTIT INVENTURU HLASOVÁNÍ KALKULAČKU - BUDE POČÁTKEM ZÁŘÍ
                         </a>
                     </p>
                     <hr />
