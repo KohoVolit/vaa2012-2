@@ -46,7 +46,7 @@
 	<meta property="og:site_name" content="Volební kalkulačka"/>
 	<meta property="og:type" content="website"/>
 
-    <title>Volební kalkulačka 2020</title>
+    <title>Volební kalkulačka 2021</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -112,7 +112,7 @@
 
 		<div class="vert-text">
 
-			<h1>Volební kalkulačka 2021</h1>
+			<h1>Volební kalkulačka<sup><small><a href="https://isdv.upv.cz/webapp/resdb.print_detail.det?pspis=OZ/542865&plang=CS" target="_blank">®</a></small></sup> 2021</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
                         Volební kalkulačka pro <strong>sněmovní volby 2021</strong> ukazuje vaši shodu s kandidujícími stranami v senátních volbách.
@@ -193,7 +193,7 @@
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2020</h3>
+                                        <h3 class="modal-title" id="myModalLabel">Volební kalkulačka 2021</h3>
                                       </div>
                                       <div id="modal-body" class="modal-body" class="modal-body">
                                           <p>
@@ -204,7 +204,7 @@
                                                 <li>Pokračujte v boji za ochranu osobních údajů, moje údaje nikomu nedejte.
                                             </ul>
                                           <div class="form-group">
-                                                 <label for=s"registration-email">Moje emailová adresa: <span class="text-warning">*</span></label>
+                                                 <label for="registration-email">Moje emailová adresa: <span class="text-warning">*</span></label>
                                                  <input type="email" class="form-control" id="registration-email" name="regem" placeholder="jmeno@example.com">
                                              </div>
                                              <div class="form-group">
@@ -319,7 +319,7 @@
 
                     <a href="http://www.kohovolit.eu" title="KohoVolit.eu"><img src="image/logo.png" alt="logo kohovolit.eu" /></a>
                     <!--<p><a href="http://votematch.eu" id="footer-votematch"><img src="image/eu2014/votematch.png" title="VoteMatch.eu" alt="VoteMatch.eu"/></a></p>-->
-					<p class="lead black" style="color:#333333">Volební kalkulačky pro Vás již od roku 2006 vytváří sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a><!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>--></p>
+					<p class="lead black" style="color:#333333">Volební kalkulačky<sup><a href="https://isdv.upv.cz/webapp/resdb.print_detail.det?pspis=OZ/542865&plang=CS" target="_blank">®</a></sup> pro Vás již od roku 2006 vytváří sdružení <a href="http://kohovolit.eu">KohoVolit.eu</a><!--<br/>Proudly part of <a href="http://www.votematch.eu/">VoteMatchEurope</a>--></p>
 
                     <hr>
 					<ul class="nav nav-pills" style="color: #428BCA;">
@@ -328,7 +328,7 @@
   <li><a href="archive/">Archiv</a></li>
   <li><a href="gdpr/">GDPR</a></li>
 </ul>
-					<p class="black">Creative Commons BY 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2020</p>
+					<p class="black">Creative Commons BY-NC-SA 4.0 | <a href="http://kohovolit.eu">KohoVolit.eu</a> 2006-2021</p>
                 <br/>
                 <br/>
                 <br/>
