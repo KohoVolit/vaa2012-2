@@ -115,7 +115,7 @@
 			<h1>Volební kalkulačka<sup><small><a href="https://isdv.upv.cz/webapp/resdb.print_detail.det?pspis=OZ/542865&plang=CS" target="_blank">®</a></small></sup> 2021</h1>
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
                     <p class="lead">
-                        Volební kalkulačka pro <strong>sněmovní volby 2021</strong> ukazuje vaši shodu s kandidujícími stranami v senátních volbách.
+                        Volební kalkulačka pro <strong>volby do poslanecké sněmovny 2021</strong> ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.
                     </p>
                     <p class="lead">
                         <a href="cs/kraje-2020/constituencies?hr=<?php if( isset($_SERVER['HTTP_REFERER'])) { $hr=$_SERVER['HTTP_REFERER']; if ($hr!="") {echo base64_encode($hr);} } ?><?php if( isset($_GET['ref'])) { $ref=$_GET['ref']; if ($ref!="") {echo '&ref=' . $ref;} } ?>" class="btn btn-lg btn-success" style="white-space: normal;" disabled>
