@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "a",
+    "value": 1
+  },
+  {
+    "slug": "b",
+    "value": 3
+  },
+  {
+    "slug": "1",
+    "value": 3
+  },
+  {"id": "1", "name": "Celostátní referendum", "question": "Měla by se uzákonit možnost celostátního referenda vypisovaného na základě petice.", "description": "V ČR je možné vyhlásit celostátní referendum pouze tehdy, pokud o něm rozhodne Parlament. Např. na Slovensku je to možné po shromáždění 350 000 podpisů, v „referendovém“ Švýcarsku je třeba 50 000 podpisů.", "order": 1.0, "slug": "q1"}
+]
