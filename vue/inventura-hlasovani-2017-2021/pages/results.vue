@@ -70,9 +70,9 @@ export default {
     },
     saveResultText: function() {
       if (this.isChanged) {
-        return "Ulozit si svuj vysledek"
+        return "Uložit si svůj výsledek"
       } else {
-        return "Vysledek ulozen"
+        return "Výsledek uložen"
       }
     }
 
@@ -178,7 +178,8 @@ export default {
         name: 'Inventura hlasování 2017-2021',
         date: today.toISOString(),
         calc: 'cz_psp_inventory_2017-2021',
-        version: '0.1'
+        path: '/cs/inventura-hlasovani-2017-2021/',
+        version: '0.1.1'
       }
       storedCalcs.push(thisCalc)
       if (process.browser) {

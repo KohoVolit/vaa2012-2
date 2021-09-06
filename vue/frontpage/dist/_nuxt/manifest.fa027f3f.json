@@ -1,0 +1,10 @@
+{
+  "name": "volebni-kalkulacka",
+  "short_name": "volebni-kalkulacka",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "cs"
+}
