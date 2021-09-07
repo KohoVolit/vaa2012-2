@@ -1,7 +1,12 @@
 <template>
   <div>
+    <div v-if="noCalc" class="alert alert-warning">
+      Není uložena žádná vyplnění volební kalkulačka.
+      <br/>
+      <NuxtLink to="/question/1"><strong>Spustit Inventuru hlasování</strong></NuxtLink>
+    </div>
     <div v-for="(calc, index) in calcs" :key="index" class="list-group">
-      <div class="list-group-item list-group-item-action flex-column align-items-start active m-2">
+      <div class="list-group-item list-group-item-action flex-column align-items-start active mt-4">
         <small>
           <button type="button" class="btn-close bg-danger" aria-label="Close" @click="removeCalc(index)"></button>
           <span class="text-muted">Smazat</span>
@@ -33,6 +38,17 @@ export default {
       calcs
     }
   },
+
+  computed: {
+    noCalc: function() {
+      let noCalc = false
+      if (this.calcs.length == 0) {
+        noCalc = true
+      }
+      return noCalc
+    }
+  },
+
   methods: {
     removeCalc: function(i) {
       this.calcs.splice(i, 1)

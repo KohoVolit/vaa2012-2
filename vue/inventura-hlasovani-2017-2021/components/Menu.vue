@@ -21,7 +21,7 @@
             <NuxtLink class="nav-link" to="/me"><span class="text-success">Moje kalkulačky 🔥</span></NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">O projektu</a>
+            <a class="nav-link" href="https://volebnikalkulacka.cz/about/">O projektu</a>
           </li>
         </ul>
       </div>

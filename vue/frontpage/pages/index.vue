@@ -25,7 +25,7 @@
     <p class="teaser">
         Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong>.
       <div class="d-grid p-2">
-        <NuxtLink to="/volby-2021" class="btn btn-success btn-lg disabled" disabled>🙋 MLADÁ VOLEBNÍ KALKULAČKA 2021 <br/> (Od ?.9.2021)</NuxtLink>
+        <NuxtLink to="/volby-2021" class="btn btn-success btn-lg disabled" disabled>🙋 MLADÍ VOLÍ, VOLEBNÍ KALKULAČKA PRO MLADÉ <br/> (Od ?.9.2021)</NuxtLink>
       </div>
 
     <hr/>
@@ -33,7 +33,7 @@
     <p class="teaser">
         Volební kalkulačka "2050" je kalkulačka se speciálním zaměřením na otázky <strong>přesahující jedno volební období</strong>.
       <div class="d-grid p-2">
-        <NuxtLink to="/volby-2021" class="btn btn-success btn-lg disabled" disabled>🚀  VOLEBNÍ KALKULAČKA "2050" <br/> (Od 9.9.2021 21:21)</NuxtLink>
+        <NuxtLink to="/volby-2021" class="btn btn-success btn-lg disabled" disabled>🚀 VOLEBNÍ KALKULAČKA "2050" <br/> (Od 9.9.2021 21:21)</NuxtLink>
       </div>
 
     <hr/>

@@ -7,21 +7,38 @@
       Inventura hlasování poslanecké sněmovny 2017-2021 ukazuje vaši shodu s poslankyněmi a poslanci na základě skutečných hlasování ze sněmovny.
     </div>
     <hr/>
-    <NuxtLink to="/question/1/" class="btn btn-success btn-lg">✋ SPUSTIT INVENTURU HLASOVÁNÍ 2017-2021</NuxtLink>
+    <div class="d-grid gap-2">
+      <NuxtLink to="/question/1/" class="btn btn-success btn-lg">✋ SPUSTIT INVENTURU HLASOVÁNÍ 2017-2021</NuxtLink>
+    </div>
     <hr/>
     <h3>Uložené vyplněné kalkulačky</h3>
     <StoredCalcs />
     <hr/>
     <Darujme />
+    <Analytics />
   </div>
 </template>
 
 <script>
 import Darujme from "~/components/Darujme.vue"
+import Analytics from "~/components/Analytics.vue"
 
 export default {
+  head: function() {
+    return {
+      title: 'Inventura hlasování 2017-2021',
+      meta: [
+        {
+          hid: 'index',
+          name: 'Inventura hlasování',
+          description: 'Inventura hlasování 2017-2021'
+        }
+      ]
+    }
+  },
   components: {
-    Darujme
+    Darujme, 
+    Analytics
   }
 }
 </script>

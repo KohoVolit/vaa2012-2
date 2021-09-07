@@ -16,7 +16,7 @@
             {{ result.info.group }}
           </div>
           <div class="text-primary fw-bold">
-            <h2>{{ result.result_percent}}%</h2>
+            <h2>{{ result.result_percent}}&nbsp;%</h2>
           </div>
         </li>
       </ul>
@@ -29,6 +29,7 @@ export default {
   props: [
     'results'
   ],
+
   methods: {
     comparison: function(id) {
       // console.log("clicked", id)
@@ -39,10 +40,13 @@ export default {
         } 
       })
     },
+
     createImageLink: function (name) {
       // https://www.psp.cz/eknih/cdrom/2017ps/eknih/2017ps/poslanci/i6254.jpg
       // return "https://www.psp.cz/eknih/cdrom/2013ps/eknih/2013ps/poslanci/i" + name + ".jpg"
-      return "/cs/inventura-hlasovani-2017-2021/photos/" + name + ".webp"
+      // return "/cs/inventura-hlasovani-2017-2021/photos/" + name + ".webp"
+      // CDN
+      return "https://michalskop-gitlab-io.azureedge.net/sinventura-2017-2021.volebnikalkulacka.cz/photos/" + name + ".webp"
     }
   }
 }

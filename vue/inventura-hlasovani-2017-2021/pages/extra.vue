@@ -31,10 +31,13 @@
         <NuxtLink to="/compare" class="btn btn-primary" @click.native="next" >>> Dále >></NuxtLink>
       </div>
     </div>
+
+    <Analytics />
   </div>
 </template>
 
 <script>
+import Analytics from "~/components/Analytics.vue"
 
 export default {
   async asyncData ({ $content }) {
@@ -95,6 +98,10 @@ export default {
     next: function() {
       this.$store.commit('storeWeights', this.weights)
     }
+  },
+
+  components: {
+    Analytics
   }
 }
 </script>

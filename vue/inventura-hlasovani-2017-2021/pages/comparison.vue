@@ -1,8 +1,8 @@
 <template>
   <div class="page container">
-    <h4 class="p-2">
-        Srovnani <small>(max. 3)</small>
-    </h4>
+    <h2 class="p-2">
+        Porovnat <small>(max. 3 osoby)</small>
+    </h2>
 
     <div class="row">
       <div class="col-12 col-md-8">
@@ -17,7 +17,7 @@
       <div class="col-12 col-sm-4">
         <input v-model="me" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
         <label class="form-check-label" for="flexCheckDefault">
-          Moje odpovedi
+          Moje odpovědi
         </label>
       </div>
 
@@ -37,6 +37,7 @@
                 <small>{{ sel.given_name }}</small>
                 <br/>
                 <small>{{ sel.group }}</small>
+                <br/>
               </div>
             </div>
           </div>
@@ -51,8 +52,8 @@
 
           <h5 class="card-title">{{ question.name }}</h5>
           <h6 class="card-subtitle mt-2">{{ question.question }}</h6>
-          <p class="text-muted"><small>{{ question.description }}</small></p>
-
+          <p class="text-muted"><small>{{ question.description }}</small> <br/>
+          <small><a :href="voting(question.id)" target="_blank">Hlasování ve sněmovně</a></small></p>
           <div class="row">
             <div class="col-4" v-for="(sel, index) in selected" :key="index">
               <div class="text-center">
@@ -67,16 +68,20 @@
         </div>
       </div>  
     </div>
-
+    
+    <Analytics />
   </div>
 </template>
 <script>
+import Analytics from "~/components/Analytics.vue"
+
 export default {
   async asyncData ({ $content }) {
     const candidates = await $content('answers').fetch()
     const questions = await $content('questions').fetch()
     return { candidates, questions }
   },
+
   data: function() {
     return {
       selectedCandidateIds: [],
@@ -84,6 +89,20 @@ export default {
       added: false
     }
   },
+  
+  head: function() {
+    return {
+      title: 'Inventura hlasování 2017-2021 - porovnání',
+      meta: [
+        {
+          hid: 'comparison',
+          name: 'Porovnání',
+          description: 'Inventura hlasování 2017-2021 - porovnání'
+        }
+      ]
+    }
+  },
+
   computed: {
     selected: function() {
       // console.log('running selected')
@@ -92,7 +111,7 @@ export default {
       if (this.me) {
         const item = {
           id: 0,
-          family_name: 'Moje odpovedi',
+          family_name: 'Moje odpovědi',
           votes: this.$store.getters.getAnswers
         }
         selected.push(item)
@@ -105,15 +124,18 @@ export default {
       selected = selected.concat(filteredCandidates)
       return selected
     },
+
     alphabetically: function() {
       let s = this.candidates.sort((a, b) => {
         return a.family_name.toLocaleLowerCase('cs').localeCompare(b.family_name.toLocaleLowerCase('cs'), 'cs')
       })
       return s
     },
+
     weights: function() {
       return this.$store.getters.getWeights
-    }
+    },
+
   },
   mounted: function() {
     if (typeof(this.$route.params.candidateId) != 'undefined') {
@@ -121,6 +143,7 @@ export default {
     }
     this.scrollToTop()
   },
+
   methods: {
     addId: function() {
       // console.log('adding', this.added.id)
@@ -131,6 +154,7 @@ export default {
         this.selectedCandidateIds.push(this.added.id)
       }
     },
+
     removeId: function(i) {
       // console.log('removing', i)
       if (this.me & (i == 0)) {
@@ -141,6 +165,7 @@ export default {
         this.selectedCandidateIds.splice(index, 1)
       }
     },
+
     showVote: function(value) {
       switch (value) {
         case 1:
@@ -153,6 +178,7 @@ export default {
           return 'white'
       } 
     },
+
     showTextVote: function(value) {
       switch (value) {
         case 1:
@@ -160,15 +186,24 @@ export default {
         case -1: 
           return 'Proti' //'🔴'
         case 0:
-          return 'Zdrzel/a se' //'⚪'
+          return 'Zdržel/a se' //'⚪'
         default:
           return 'Nehlasoval/a'
       } 
     },
+
+    voting: function(id) {
+      return "https://www.psp.cz/sqw/hlasy.sqw?G=" + id
+    },
+
     scrollToTop() {
       window.scrollTo(0,0)
     }
+  },
+  components: {
+    Analytics
   }
+  
 }
 </script>
 

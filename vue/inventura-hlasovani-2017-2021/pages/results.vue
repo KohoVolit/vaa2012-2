@@ -1,5 +1,16 @@
 <template>
   <div class="page container">
+
+    <div v-if="noAnswer" class="alert alert-warning mt-2">
+      Není zodpovězená ani jedna otázka, všichni tedy mají 50% shodu a jsou seřazeni náhodně.
+      <br/>
+      Můžete: 
+      <ul>
+        <li><NuxtLink to="/question/1"><strong>Spustit Inventuru hlasování od začátku</strong></NuxtLink></li>
+        <li v-if="storedExist"><NuxtLink to="/me"><strong>Načíst svoje uložené vyplněné kalkulačky</strong></NuxtLink></li>
+      </ul>
+    </div>
+
     <div class="hstack">
       <div class="form-check form-switch ms-auto pe-2 pt-2">
         <label class="form-check-label" for="flexSwitchCheckChecked"> {{ switchText }}</label>
@@ -15,11 +26,14 @@
     </div>
     <hr/>
     <Darujme />
+    <Analytics />
   </div>
 </template>
 
 <script>
 import Darujme from "~/components/Darujme.vue"
+import Analytics from "~/components/Analytics.vue"
+
 
 export default {
   async asyncData ({ $content }) {
@@ -27,8 +41,20 @@ export default {
     return { candidates }
   },
 
-  data: function() {
+  head: function() {
+    return {
+      title: 'Inventura hlasování 2017-2021 - výsledky',
+      meta: [
+        {
+          hid: 'results',
+          name: 'Výsledky volební kalkulačky',
+          description: 'Inventura hlasování 2017-2021 - výsledky'
+        }
+      ]
+    }
+  },
 
+  data: function() {
     return {
       swi: this.$store.getters.getComparableSwitch
     }
@@ -38,9 +64,11 @@ export default {
     answers: function() {
       return this.$store.getters.getAnswers
     },
+
     weights: function() {
       return this.$store.getters.getWeights
     },
+
     comparables: function() {
       let comparables = []
       this.candidates.forEach(item => {
@@ -54,10 +82,12 @@ export default {
       })
       return comparables
     },
+
     results: function() {
       // console.log('recalculating')
       return this.sortMatch(this.answers, this.weights, this.candidates)
     },
+
     switchText: function() {
       if (this.swi) {
         return 'Všichni poslanci a poslankyně'
@@ -65,20 +95,49 @@ export default {
         return 'Předsedové stran a klubů'
       }
     },
+
     isChanged: function() {
       return this.$store.getters.getLocalChanged
     },
+
     saveResultText: function() {
       if (this.isChanged) {
         return "Uložit si svůj výsledek"
       } else {
         return "Výsledek uložen"
       }
+    },
+
+    noAnswer: function() {
+      let noAnswer = true
+      for (let k in this.answers) {
+        if (Math.abs(this.answers[k]) == 1) {
+          noAnswer = false
+        }
+      }
+      return noAnswer
+    },
+
+    storedExist: function() {
+      let storedExist = false
+      let storedCalcs = []
+      if (process.browser) {
+        if (typeof(window.localStorage.calcs) != 'undefined') {
+          storedCalcs = JSON.parse(window.localStorage.calcs)
+        }
+      }
+      console.log(storedCalcs.length)
+      if (storedCalcs.length > 0) {
+        storedExist = true
+      }
+      console.log(storedExist)
+      return storedExist
     }
 
   },
 
   methods: {
+
     sortMatch: function(answers, weights, candidates) {
       let results = this.calcMatch(answers, weights, candidates)
       results.sort(function (a, b) {
@@ -89,6 +148,7 @@ export default {
       })
       return results
     },
+
     calcMatch: function (answers, weights, candidates, extra = 2) {
       let results = []
       let event = new Date()
@@ -107,6 +167,7 @@ export default {
       // console.log('end', event.toISOString())
       return results
     },
+
     calcOneMatch: function (answers, weights, singleVotes, extra) {
       let sum = 0
       let count = 0
@@ -139,6 +200,7 @@ export default {
       }
       return result
     },
+
     // whether the results are stored in localStorage
     isStored: function() {
       let isStored = false
@@ -158,6 +220,7 @@ export default {
       })
       return isStored
     },
+
     // store results in localStorage
     store: function() {
       let storedCalcs = []
@@ -203,7 +266,7 @@ export default {
   mounted: function() {
     // store results
     if (!this.isStored()) {
-      if (!this.$store.getters.getLocalStored) {
+      if ((!this.$store.getters.getLocalStored) & (!this.noAnswer)) {
         this.store()
         this.$store.commit('storeLocalStored', true)
         this.$store.commit('storeLocalChanged', false)
@@ -215,7 +278,8 @@ export default {
   },
 
   components: {
-    Darujme
+    Darujme,
+    Analytics
   }
 }
 </script>

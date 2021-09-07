@@ -36,10 +36,13 @@
       </div>
 
     </div>
+    <Analytics />
   </div>
 </template>
 
 <script>
+import Analytics from "~/components/Analytics.vue"
+
 export default {
   async asyncData ({ $content }) {
     const answers = await $content('answers').only(['id']).fetch()
@@ -85,6 +88,9 @@ export default {
       this.$store.commit('storeComparableSwitch', payload)
       this.$router.push({ path: '/results' })
     }
+  },
+  components: {
+    Analytics
   }
 }
 </script>

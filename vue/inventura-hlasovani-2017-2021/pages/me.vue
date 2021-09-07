@@ -7,16 +7,32 @@
       </small></small>
     </h2>
     <p class="alert alert-info">
-      Tyto výsledky kalkulaček jsou uložené pouze v prohlížeči, nikam se neposílají.
+      Info: Tyto výsledky kalkulaček jsou uložené pouze v prohlížeči, nikam se neposílají.
     </p>
     <StoredCalcs />
+    <Analytics />
   </div>
 </template>
 <script>
-
-
+import Analytics from "~/components/Analytics.vue"
 
 export default {
+  head: function() {
+    return {
+      title: 'Inventura hlasování 2017-2021 - moje vyplněné volební kalkulačky',
+      meta: [
+        {
+          hid: 'me',
+          name: 'Moje vyplněné volební kalkulačky',
+          description: 'Inventura hlasování 2017-2021 - moje vyplněné volební kalkulačky'
+        }
+      ]
+    }
+  },
+
+  components: {
+    Analytics
+  }
 }
 </script>
 <style scoped>
