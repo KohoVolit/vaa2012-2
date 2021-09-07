@@ -25,8 +25,13 @@
         <div class="col-4 d-grid gap-1">
           <button @click="next(0)" class="btn btn-lg text-muted" :class="{'btn-dark': isActive[0], 'btn-outline-secondary': !isActive[0]}" ><small>Neutrální</small></button>
         </div>
-        <div class="d-grid d-flex justify-content-end">
-          <NuxtLink :to="nextTo" @click.native="next(null)" class="btn btn-link text-muted" :class="{'btn-dark': isActive[null], '': !isActive[null]}">Přeskočit otázku</NuxtLink>
+        <div class="row pt-2">
+          <div class="col-6 d-grid d-flex justify-content-start">
+            <button v-if="notFirst" @click="back(null)" class="btn btn-link text-muted">&lt; Zpět</button>
+          </div>
+          <div class="col-6 d-grid d-flex justify-content-end">
+            <button @click="next(null)" class="btn btn-link text-muted" :class="{'btn-dark': isActive[null], '': !isActive[null]}">Přeskočit ></button>
+          </div>
         </div>
       </div>
     </div>
@@ -91,6 +96,16 @@ export default {
         return "/question/" + (parseInt(this.$route.params.slug) + 1)
       }
     },
+    backTo: function() {
+      return "/question/" + (parseInt(this.$route.params.slug) - 1)
+    },
+    notFirst: function() {
+      let notFirst = true
+      if (parseInt(this.$route.params.slug) == 1) {
+        notFirst = false
+      }
+      return notFirst
+    }
   },
 
   methods: {
@@ -100,7 +115,9 @@ export default {
         this.$store.commit('addAnswer', payload)
       }
       this.$router.push({ path: this.nextTo })
-
+    },
+    back: function(answer) {
+      this.$router.push({ path: this.backTo })
     }
   },
 

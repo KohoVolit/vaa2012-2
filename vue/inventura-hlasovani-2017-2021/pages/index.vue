@@ -4,7 +4,7 @@
       Inventura hlasování 2017-2021
     </h2>
     <div class="card border-info mb-3 p-4">
-      Inventura hlasování poslanecké sněmovny 2017-2021 ukazuje vaši shodu s poslankyněmi a poslanci na základě skutečných hlasování ze sněmovny.
+      Inventura hlasování poslanecké sněmovny 2017-2021 ukazuje vaši shodu s poslankyněmi a poslanci na základě skutečných hlasování ze Sněmovny.
     </div>
     <hr/>
     <div class="d-grid gap-2">
