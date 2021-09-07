@@ -9,7 +9,7 @@
     <p class="teaser">
        Inventura <strong>hlasování poslanecké sněmovny 2017-2021</strong> ukazuje vaši shodu s&nbsp;poslankyněmi a poslanci na základě 40 skutečných hlasování ze sněmovny.
       <div class="d-grid p-2">
-        <NuxtLink to="/cs/inventura-hlasovani-2017-2021/" class="btn btn-success btn-lg">SPUSTIT INVENTURU HLASOVÁNÍ 2017-2021 <br/> ✋ </NuxtLink>
+        <NuxtLink to="/cs/inventura-hlasovani-2017-2021/" class="btn btn-success btn-lg disabled">SPUSTIT INVENTURU HLASOVÁNÍ 2017-2021 <br/> ✋ </NuxtLink>
       </div>
 
     <hr/>
