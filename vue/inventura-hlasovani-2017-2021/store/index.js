@@ -3,6 +3,8 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+const url = "https://volebnikalkulacka.cz/inventura-hlasovani-2017-2021/"
+
 // state
 const state = {
   count: 1,
@@ -69,8 +71,12 @@ const mutations = {
   // OUTSIDE STORE
 }
 
-// actions
+// actions for API
 const actions = {
+  
+  beep () {
+    console.log("beep")
+  },
 
 }
 

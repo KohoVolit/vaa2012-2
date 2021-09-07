@@ -33,7 +33,7 @@
 <script>
 import Darujme from "~/components/Darujme.vue"
 import Analytics from "~/components/Analytics.vue"
-
+import axios from 'axios'
 
 export default {
   async asyncData ({ $content }) {
@@ -126,11 +126,11 @@ export default {
           storedCalcs = JSON.parse(window.localStorage.calcs)
         }
       }
-      console.log(storedCalcs.length)
+      // console.log(storedCalcs.length)
       if (storedCalcs.length > 0) {
         storedExist = true
       }
-      console.log(storedExist)
+      // console.log(storedExist)
       return storedExist
     }
 
@@ -256,6 +256,20 @@ export default {
       this.$store.commit('storeComparableSwitch', this.swi)
     },
 
+    saveToApi: function() {
+      let c = this.$cookies.get('vkid', {parseJSON: false})
+      if (typeof(c) == 'undefined') {
+        c = 'vk.' + Date.now() + '.' + Math.round(Math.random() * 1000000000000000)
+        this.$cookies.set('vkid', c, {path: '/', maxAge: 60 * 60 * 24 * 5000})
+      }
+      let params = {
+        vkid: c,
+        calc: 'inventura_hlasovani_2017_2021',
+        answer: JSON.stringify({ answers: this.answers, weights: this.weights })
+      }
+      axios.get("https://volebnikalkulacka.cz/inventura-hlasovani-2017-2021/results.php", { params: params })
+    },
+
     scrollToTop() {
       // console.log('scrolling')
       window.scrollTo(0,0)
@@ -268,6 +282,7 @@ export default {
     if (!this.isStored()) {
       if ((!this.$store.getters.getLocalStored) & (!this.noAnswer)) {
         this.store()
+        this.saveToApi()
         this.$store.commit('storeLocalStored', true)
         this.$store.commit('storeLocalChanged', false)
       } else {

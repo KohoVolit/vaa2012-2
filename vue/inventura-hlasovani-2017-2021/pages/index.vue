@@ -36,6 +36,11 @@ export default {
       ]
     }
   },
+
+  mounted: function () {
+    // this.$store.dispatch('beep')
+  },
+
   components: {
     Darujme, 
     Analytics

@@ -7,6 +7,14 @@
     <hr/>
     
     <p class="teaser">
+       Inventura <strong>hlasování poslanecké sněmovny 2017-2021</strong> ukazuje vaši shodu s&nbsp;poslankyněmi a poslanci na základě 40 skutečných hlasování ze sněmovny.
+      <div class="d-grid p-2">
+        <NuxtLink to="/cs/inventura-hlasovani-2017-2021/" class="btn btn-success btn-lg">SPUSTIT INVENTURU HLASOVÁNÍ 2017-2021 <br/> ✋ </NuxtLink>
+      </div>
+
+    <hr/>
+
+    <p class="teaser">
        Volební kalkulačka pro <strong>volby do poslanecké sněmovny 2021</strong> ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.
       <div class="d-grid p-2">
         <NuxtLink to="/volby-2021" class="btn btn-success btn-lg disabled" disabled>📄  VOLEBNÍ KALKULAČKA 2021 <br/> (Od 9.9.2021)</NuxtLink>
@@ -14,13 +22,7 @@
 
     <hr/>
 
-    <p class="teaser">
-       Inventura <strong>hlasování poslanecké sněmovny 2017-2021</strong> ukazuje vaši shodu s poslankyněmi a poslanci na základě skutečných hlasování ze sněmovny.
-      <div class="d-grid p-2">
-        <NuxtLink to="/volby-2021" class="btn btn-success btn-lg disabled" disabled>✋  SPUSTIT INVENTURU HLASOVÁNÍ 2017-2021 <br/> (Od 7.9.2021)</NuxtLink>
-      </div>
 
-    <hr/>
 
     <p class="teaser">
         Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong>.
