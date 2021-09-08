@@ -93,11 +93,11 @@ export default {
       if (parseInt(this.$route.params.slug) == this.questions.length) {
         return "/extra/"
       } else {
-        return "/question/" + (parseInt(this.$route.params.slug) + 1)
+        return "/question/" + (parseInt(this.$route.params.slug) + 1) + "/"
       }
     },
     backTo: function() {
-      return "/question/" + (parseInt(this.$route.params.slug) - 1)
+      return "/question/" + (parseInt(this.$route.params.slug) - 1) + "/"
     },
     notFirst: function() {
       let notFirst = true

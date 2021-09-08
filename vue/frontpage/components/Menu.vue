@@ -24,7 +24,7 @@
           </li>
 
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/heroes"><span class="text-light">Podporovatelé 💓</span></NuxtLink>
+            <NuxtLink class="nav-link" to="/heroes/"><span class="text-light">Podporovatelé 💓</span></NuxtLink>
           </li>
 
           <li class="nav-item">

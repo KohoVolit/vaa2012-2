@@ -3,7 +3,7 @@
     <div v-if="noCalc" class="alert alert-warning">
       Není uložena žádná vyplnění volební kalkulačka.
       <br/>
-      <NuxtLink to="/question/1"><strong>Spustit Inventuru hlasování</strong></NuxtLink>
+      <NuxtLink to="/question/1/"><strong>Spustit Inventuru hlasování</strong></NuxtLink>
     </div>
     <div v-for="(calc, index) in calcs" :key="index" class="list-group">
       <div class="list-group-item list-group-item-action flex-column align-items-start active mt-4">

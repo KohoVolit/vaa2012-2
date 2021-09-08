@@ -12,19 +12,19 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://volebnikalkulacka.cz">🏡 Volební kalkulačka 2021</a>
+            <a class="nav-link active" aria-current="page" href="https://www.volebnikalkulacka.cz/">🏡 Volební kalkulačka 2021</a>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link active" aria-current="page" to="/">✋Inventura hlasování 2017-2021</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/me"><span class="text-success">Moje kalkulačky 🔥</span></NuxtLink>
+            <NuxtLink class="nav-link" to="/me/"><span class="text-success">Moje kalkulačky 🔥</span></NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/heroes"><span class="text-light">Podporovatelé 💓</span></NuxtLink>
+            <NuxtLink class="nav-link" to="/heroes/"><span class="text-light">Podporovatelé 💓</span></NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://volebnikalkulacka.cz/about/"><span class="text-light">O projektu</span></a>
+            <a class="nav-link" href="https://www.volebnikalkulacka.cz/about/"><span class="text-light">O projektu</span></a>
           </li>
         </ul>
       </div>
