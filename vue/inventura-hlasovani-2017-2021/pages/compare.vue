@@ -86,7 +86,7 @@ export default {
         payload = true
       }
       this.$store.commit('storeComparableSwitch', payload)
-      this.$router.push({ path: '/results' })
+      this.$router.push({ path: '/results/' })
     }
   },
   components: {

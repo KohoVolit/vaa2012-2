@@ -6,8 +6,8 @@
       <br/>
       Můžete: 
       <ul>
-        <li><NuxtLink to="/question/1"><strong>Spustit Inventuru hlasování od začátku</strong></NuxtLink></li>
-        <li v-if="storedExist"><NuxtLink to="/me"><strong>Načíst svoje uložené vyplněné kalkulačky</strong></NuxtLink></li>
+        <li><NuxtLink to="/question/1/"><strong>Spustit Inventuru hlasování od začátku</strong></NuxtLink></li>
+        <li v-if="storedExist"><NuxtLink to="/me/"><strong>Načíst svoje uložené vyplněné kalkulačky</strong></NuxtLink></li>
       </ul>
     </div>
 
@@ -22,7 +22,7 @@
     <hr/>
     <div class="container p-2 ">
       <button type="button" class="btn" :class="{'disabled btn-secondary': !isChanged, 'btn-primary': isChanged}" @click="store()">{{ saveResultText }}</button>
-      <NuxtLink to="/me">Moje kalkulačky</NuxtLink>
+      <NuxtLink to="/me/">Moje kalkulačky</NuxtLink>
     </div>
     <hr/>
     <Darujme />

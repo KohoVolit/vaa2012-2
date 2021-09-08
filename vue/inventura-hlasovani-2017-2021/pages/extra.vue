@@ -7,7 +7,7 @@
 
       <div v-if="!zeroAnswers">
         <div class="d-grid p-2">
-          <NuxtLink to="/compare" class="btn btn-secondary" @click.native="next" >>> Přeskočit >></NuxtLink>
+          <NuxtLink to="/compare/" class="btn btn-secondary" @click.native="next" >>> Přeskočit >></NuxtLink>
         </div>
         <div class="list-group" v-for="question in questions" v-bind:key="question.id">
           <div v-if="answered[question.id]" class="list-group-item list-group-item-action m-1">
@@ -23,12 +23,12 @@
       <div v-if="zeroAnswers">
         <div class="alert alert-warning" role="alert">
           Nejsou odpovězené žádné otázky:<br/>
-          <NuxtLink to="/question/1">Spustit Inventuru hlasování od začátku</NuxtLink>
+          <NuxtLink to="/question/1/">Spustit Inventuru hlasování od začátku</NuxtLink>
         </div>
       </div>
 
       <div class="d-grid p-2">
-        <NuxtLink to="/compare" class="btn btn-primary" @click.native="next" >>> Dále >></NuxtLink>
+        <NuxtLink to="/compare/" class="btn btn-primary" @click.native="next" >>> Dále >></NuxtLink>
       </div>
     </div>
 
