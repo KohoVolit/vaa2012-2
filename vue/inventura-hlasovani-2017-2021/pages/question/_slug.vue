@@ -1,11 +1,11 @@
 <template>
-  <div class="page">
+  <div class="">
 
     <div class="progress">
       <div class="progress-bar bg-warning" role="progressbar" :style="progressStyle" :aria-valuenow="progress" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
 
-    <div class="container card border-light pt-3">
+    <div class="container page card border-light pt-3">
       <div class="card-header">{{ question.slug }} / {{ nquestions }}  {{ question.name }}</div>
       <div class="card-body">
         <h2 class="card-title">{{ question.question }}</h2>
@@ -136,9 +136,19 @@ export default {
 </script>
 
 <style scoped>
+  @media (min-width: 768px) {
+    .card {
+      margin-top: 66px;
+    }
+    .card-text {
+      font-size: 1.25em;
+    }
+  }
+
   .page {
     /* size depends on sizes of header */
     min-height: calc(100vh - 40px - 18px);
+    max-width: 999px;
   }
 
   .container {

@@ -26,6 +26,19 @@ import Darujme from "~/components/Darujme.vue"
 import Analytics from "~/components/Analytics.vue"
 
 export default {
+  head: function() {
+    return {
+      title: 'Podporovatelé Volebních kalkulaček',
+      meta: [
+        {
+          hid: 'heroes',
+          name: 'Podporovatelé Volební kalkulačky 2021',
+          description: 'Podporovatelé Volební kalkulačky 2021. Heroes.'
+        }
+      ]
+    }
+  },
+
   data: function() {
     return {
       supporters: [],

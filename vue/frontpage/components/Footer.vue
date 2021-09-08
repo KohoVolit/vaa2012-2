@@ -11,7 +11,7 @@
             <p class="lead black">Volební kalkulačky <sup><a href="https://isdv.upv.cz/webapp/resdb.print_detail.det?pspis=OZ/542865&amp;plang=CS" target="_blank">®</a></sup> pro Vás už od roku 2006 vytváří občanské sdružení <a href="http://kohovolit.eu" target="_blank">KohoVolit.eu</a></p>
 
             <hr/>
-            <p class="black"><NuxtLink to="/about">O projektu</NuxtLink> | <a href="/gdpr">GDPR</a> | <NuxtLink to="/archive">Archiv kalkulaček</NuxtLink></p>
+            <p class="black"><NuxtLink to="/about">O projektu</NuxtLink> | <a href="https://www.volebnikalkulacka.cz/gdpr">GDPR</a> | <NuxtLink to="/archive">Archiv kalkulaček</NuxtLink></p>
             <p class="black">Creative Commons BY NC 4.0 | <a href="http://kohovolit.eu" id="footer-kohovolit-licence">KohoVolit.eu</a> 2021</p>
             <p class="black">Vyrobeno s ❤ v <a href="https://cs.wikipedia.org/wiki/Plasy">Plasích</a></p>
         </div>

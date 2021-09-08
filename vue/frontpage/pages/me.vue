@@ -17,6 +17,18 @@
 
 
 export default {
+    head: function() {
+    return {
+      title: 'Moje Volební kalkulačky',
+      meta: [
+        {
+          hid: 'me',
+          name: 'Moje vyplněné Volební kalkulačky',
+          description: 'Seznam: Moje vyplněné Volební kalkulačky.'
+        }
+      ]
+    }
+  },
 }
 </script>
 <style scoped>

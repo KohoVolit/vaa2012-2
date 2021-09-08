@@ -2,7 +2,9 @@
   <div class="page container">
     <h2 class="pt-2">Archiv Volebních kalkulaček</h2>
     <div class="alert alert-secondary">
-       Upozornění: Některé starší Volební kalkulačky nemusejí fungovat z důvodu přechodu z http na https. 
+       Upozornění: Starší Volební kalkulačky nemusejí fungovat z důvodu přechodu z <em>http</em> na <em>https</em>. <br/>
+       Provoz starších kalkulaček je také omezet s ohledem na lepší funkčnost aktuálních kalkulaček.<br/>
+       Pro starší kalkulačky můžete použít <a href="https://web.archive.org/web/20120928033314/http://volebnikalkulacka.cz/">Archive.org</a>
     </div>
     <ul v-for="(array, index) in reordered" :key="index" class="list-group">
       <h3>{{ index }}</h3>
@@ -22,6 +24,18 @@
 
 <script>
 export default {
+  head: function() {
+    return {
+      title: 'Archiv Volebních kalkulaček',
+      meta: [
+        {
+          hid: 'archive',
+          name: 'Archiv Volebních kalkulaček',
+          description: 'Archiv Volebních kalkulaček od roku 2006.'
+        }
+      ]
+    }
+  },
   async asyncData ({ $content }) {
     const list = await $content('list').fetch()
     return { list }
