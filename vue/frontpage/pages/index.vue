@@ -22,19 +22,18 @@
 
     <hr/>
 
-
     <p class="teaser">
-        Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong>.
+        Volební kalkulačka "2050" je kalkulačka se speciálním zaměřením na otázky <strong>přesahující jedno volební období</strong>.
       <div class="d-grid p-2">
-        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>🙋 MLADÍ VOLÍ, VOLEBNÍ KALKULAČKA PRO MLADÉ <br/> (Od ?.9.2021)</NuxtLink>
+        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021/question/1/" class="btn btn-success btn-lg" >VOLEBNÍ KALKULAČKA "2050" <br/> 🚀 </a>
       </div>
 
     <hr/>
 
     <p class="teaser">
-        Volební kalkulačka "2050" je kalkulačka se speciálním zaměřením na otázky <strong>přesahující jedno volební období</strong>.
+        Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong>.
       <div class="d-grid p-2">
-        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>🚀 VOLEBNÍ KALKULAČKA "2050" <br/> (Od 9.9.2021 21:21)</NuxtLink>
+        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>🙋 MLADÍ VOLÍ, VOLEBNÍ KALKULAČKA PRO MLADÉ <br/> (Od ?.9.2021)</NuxtLink>
       </div>
 
     <hr/>
@@ -50,7 +49,7 @@
     <p class="teaser">
         Ultimátní volební kalkulačka je <strong>nejdelší volební kalkulačka na světě</strong>. Obsahuje všechny otázky, které jsme předložili kandidujícím stranám.
       <div class="d-grid p-2">
-        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>♥ ULTIMÁTNÍ VOLEBNÍ KALKULAČKA <br/> (Od 9.9.2021 21:21)</NuxtLink>
+        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>♥ ULTIMÁTNÍ VOLEBNÍ KALKULAČKA <br/> (Od 9.9.2021 21:42)</NuxtLink>
       </div>
 
     <hr/>
