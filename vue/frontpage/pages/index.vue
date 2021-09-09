@@ -33,7 +33,7 @@
     <p class="teaser">
         Ultimátní volební kalkulačka je <strong>nejdelší volební kalkulačka na světě</strong>. Obsahuje všechny otázky, které jsme předložili kandidujícím stranám.
       <div class="d-grid p-2">
-        <NuxtLink to="https://www.volebnikalkulacka.cz/cs/volby-2021-ultimate/question/1/" class="btn btn-success btn-lg">ULTIMÁTNÍ VOLEBNÍ KALKULAČKA <br/> ♥ </NuxtLink>
+        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021-ultimate/question/1/" class="btn btn-success btn-lg">ULTIMÁTNÍ VOLEBNÍ KALKULAČKA <br/> ♥ </a>
       </div>
 
     <hr/>
