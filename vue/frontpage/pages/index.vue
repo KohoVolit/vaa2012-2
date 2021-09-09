@@ -5,7 +5,15 @@
     </h1>
     
     <hr/>
-    
+
+    <p class="teaser">
+       Volební kalkulačka pro <strong>volby do poslanecké sněmovny 2021</strong> ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.
+      <div class="d-grid p-2">
+        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>📄 VOLEBNÍ KALKULAČKA 2021 <br/> (Už brzy - ještě dnes!)</NuxtLink>
+      </div>
+
+    <hr/>
+
     <p class="teaser">
        Inventura <strong>hlasování poslanecké sněmovny 2017-2021</strong> ukazuje vaši shodu s&nbsp;poslankyněmi a poslanci na základě 40 skutečných hlasování ze sněmovny.
       <div class="d-grid p-2">
@@ -14,13 +22,6 @@
 
     <hr/>
 
-    <p class="teaser">
-       Volební kalkulačka pro <strong>volby do poslanecké sněmovny 2021</strong> ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.
-      <div class="d-grid p-2">
-        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>📄 VOLEBNÍ KALKULAČKA 2021 <br/> (Od 9.9.2021)</NuxtLink>
-      </div>
-
-    <hr/>
 
     <p class="teaser">
         Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong>.
