@@ -25,7 +25,7 @@
     <p class="teaser">
         Volební kalkulačka "2050" je kalkulačka se speciálním zaměřením na otázky <strong>přesahující jedno volební období</strong>.
       <div class="d-grid p-2">
-        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021/question/1/" class="btn btn-success btn-lg" >VOLEBNÍ KALKULAČKA "2050" <br/> 🚀 </a>
+        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021-2050/question/1/" class="btn btn-success btn-lg" >VOLEBNÍ KALKULAČKA "2050" <br/> 🚀 </a>
       </div>
 
     <hr/>
