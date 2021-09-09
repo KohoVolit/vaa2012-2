@@ -267,7 +267,7 @@ export default {
         calc: 'inventura_hlasovani_2017_2021',
         answer: JSON.stringify({ answers: this.answers, weights: this.weights })
       }
-      axios.get("https://volebnikalkulacka.cz/inventura-hlasovani-2017-2021/results.php", { params: params })
+      axios.get("https://a.volebnikalkulacka.cz/volby-2021/results.php", { params: params })
     },
 
     scrollToTop() {
