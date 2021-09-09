@@ -1,13 +1,13 @@
 <template>
   <div class="container page">
     <h2 class="pt-4">
-      Volební kalkulačka 2021
+      Ultimátní volební kalkulačka 2021
     </h2>
     <div class="card border-info mb-3 p-4">
-      Volební kalkulačka pro volby do poslanecké sněmovny 2021 ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.    </div>
+      Ultimátní volební kalkulačka pro volby do poslanecké sněmovny 2021 ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.    </div>
     <hr/>
     <div class="d-grid gap-2">
-      <NuxtLink to="/question/1/" class="btn btn-success btn-lg">SPUSTIT ULTIMÁTNÍ VOLEBNÍ KALKULAČKU 2021</NuxtLink>
+      <NuxtLink to="/question/1/" class="btn btn-success btn-lg">SPUSTIT VOLEBNÍ KALKULAČKU 2021</NuxtLink>
     </div>
     <hr/>
     <h3>Uložené vyplněné kalkulačky</h3>
@@ -25,7 +25,7 @@ import Analytics from "~/components/Analytics.vue"
 export default {
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021',
+      title: 'Ultimátní volební kalkulačka 2021',
       meta: [
         {
           hid: 'index',

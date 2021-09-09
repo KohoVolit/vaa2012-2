@@ -54,7 +54,7 @@ export default {
       meta: [
         {
           hid: 'results',
-          name: 'Ultimátní výsledky volební kalkulačky',
+          name: 'Výsledky volební kalkulačky',
           description: 'Ultimátní volební kalkulačka 2021 - výsledky'
         }
       ]
@@ -247,7 +247,7 @@ export default {
         weights: this.weights,
         name: 'Ultimátní volební kalkulačka 2021',
         date: today.toISOString(),
-        calc: 'volby_2021_ultimate',
+        calc: 'cz_psp_2021_ultimate',
         path: '/cs/volby-2021-ultimate/',
         version: '0.1.1'
       }
@@ -271,7 +271,7 @@ export default {
       }
       let params = {
         vkid: c,
-        calc: 'volby_2021_ultimate',
+        calc: 'volby_2021',
         answer: JSON.stringify({ answers: this.answers, weights: this.weights })
       }
       axios.get("https://a.volebnikalkulacka.cz/volby-2021/results.php", { params: params })

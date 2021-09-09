@@ -97,8 +97,8 @@
 <script>
 import Analytics from "~/components/Analytics.vue"
 
-import candidates from "../content/answers_classic.json";
-import questions from "../content/questions_classic.json";
+import candidates from "../content/answers_ultimate.json";
+import questions from "../content/questions_ultimate.json";
 
 
 export default {
@@ -121,7 +121,7 @@ export default {
         {
           hid: 'comparison',
           name: 'Porovnání',
-          description: 'Ultimátní volební kalkulačka 2021 - porovnání'
+          description: 'Ultimátní volební kalkulačka 2021- porovnání'
         }
       ]
     }

@@ -28,7 +28,7 @@
 <script>
 export default {
   data: function() {
-    let thisCalc = 'volby_2021_ultimate'
+    let thisCalc = 'cz_psp_2021_ultimate'
     let calcs = []
     if (process.browser) {
       if (typeof(window.localStorage.calcs) != 'undefined') {

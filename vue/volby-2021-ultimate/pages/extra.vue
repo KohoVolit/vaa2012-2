@@ -41,18 +41,18 @@ import Analytics from "~/components/Analytics.vue"
 
 export default {
   async asyncData ({ $content }) {
-    const questions = await $content('questions_classic').fetch()
+    const questions = await $content('questions_ultimate').fetch()
     return { questions }
   },
 
   head: function() {
     return {
-      title: 'Ultimátní volební kalkulačka 2021 - důležité otázky',
+      title: 'Volební kalkulačka 2021 - důležité otázky',
       meta: [
         {
           hid: 'extra',
           name: 'Důležité otázky',
-          description: 'Ultimátní volební kalkulačka 2021 - důležité otázky'
+          description: 'Volební kalkulačka 2021 - důležité otázky'
         }
       ]
     }

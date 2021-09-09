@@ -45,7 +45,7 @@ import Analytics from "~/components/Analytics.vue"
 
 export default {
   async asyncData ({ $content }) {
-    const answers = await $content('answers_classic').only(['id']).fetch()
+    const answers = await $content('answers_ultimate').only(['id']).fetch()
     return { answers }
   },
 

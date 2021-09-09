@@ -6,7 +6,7 @@
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Volební kalkulačka</h5>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ultimátní volební kalkulačka</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -15,7 +15,7 @@
             <a class="nav-link active" aria-current="page" href="https://www.volebnikalkulacka.cz/">🏡 Volební kalkulačky 2021</a>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link active" aria-current="page" to="/">Ultimátní Volební kalkulačka 2021</NuxtLink>
+            <NuxtLink class="nav-link active" aria-current="page" to="/">Ultimátní volební kalkulačka 2021</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/me/"><span class="text-success">Moje kalkulačky 🔥</span></NuxtLink>
