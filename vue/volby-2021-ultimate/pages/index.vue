@@ -7,7 +7,7 @@
       Volební kalkulačka pro volby do poslanecké sněmovny 2021 ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.    </div>
     <hr/>
     <div class="d-grid gap-2">
-      <NuxtLink to="/question/1/" class="btn btn-success btn-lg">SPUSTIT VOLEBNÍ KALKULAČKU 2021</NuxtLink>
+      <NuxtLink to="/question/1/" class="btn btn-success btn-lg">SPUSTIT ULTIMÁTNÍ VOLEBNÍ KALKULAČKU 2021</NuxtLink>
     </div>
     <hr/>
     <h3>Uložené vyplněné kalkulačky</h3>
@@ -29,8 +29,8 @@ export default {
       meta: [
         {
           hid: 'index',
-          name: 'Volební kalkulačka 2021',
-          description: 'Volební kalkulačka 2021'
+          name: 'Ultimátní volební kalkulačka 2021',
+          description: 'Ultimátní volební kalkulačka 2021'
         }
       ]
     }

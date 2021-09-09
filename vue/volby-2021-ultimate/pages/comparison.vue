@@ -116,12 +116,12 @@ export default {
   
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - porovnání',
+      title: 'Ultimátní volební kalkulačka 2021 - porovnání',
       meta: [
         {
           hid: 'comparison',
           name: 'Porovnání',
-          description: 'Volební kalkulačka 2021 - porovnání'
+          description: 'Ultimátní volební kalkulačka 2021 - porovnání'
         }
       ]
     }

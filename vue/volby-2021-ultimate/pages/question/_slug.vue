@@ -44,8 +44,8 @@
 export default {
   // load jsou using content
   async asyncData ({ $content, params }) {
-    const question = await $content('questions_classic', params.slug).fetch()
-    const questions = await $content('questions_classic').fetch()
+    const question = await $content('questions_ultimate', params.slug).fetch()
+    const questions = await $content('questions_ultimate').fetch()
     return { question, questions }
   },
   data: function() {
@@ -60,7 +60,7 @@ export default {
 
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - ' + this.question.name,
+      title: 'Ultimátní volební kalkulačka 2021 - ' + this.question.name,
       meta: [
         {
           hid: 'question ' + this.question.slug,

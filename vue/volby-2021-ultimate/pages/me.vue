@@ -19,12 +19,12 @@ import Analytics from "~/components/Analytics.vue"
 export default {
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - moje vyplněné volební kalkulačky',
+      title: 'Ultimátní volební kalkulačka 2021 - moje vyplněné volební kalkulačky',
       meta: [
         {
           hid: 'me',
           name: 'Moje vyplněné volební kalkulačky',
-          description: 'Volební kalkulačka 2021 - moje vyplněné volební kalkulačky'
+          description: 'Ultimátní volební kalkulačka 2021 - moje vyplněné volební kalkulačky'
         }
       ]
     }

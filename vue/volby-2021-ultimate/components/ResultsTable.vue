@@ -34,7 +34,7 @@ export default {
     comparison: function(id) {
       // console.log("clicked", id)
       this.$router.push({ 
-        name: 'comparison',
+        name: '/comparison/',
         params: {
           candidateId: id
         } 

@@ -57,12 +57,12 @@ export default {
 
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - výběr stran',
+      title: 'Ultimátní volební kalkulačka 2021 - výběr stran',
       meta: [
         {
           hid: 'compare',
           name: 'Výběr stran',
-          description: 'Volební kalkulačka 2021 - výběr stran'
+          description: 'Ultimátní volební kalkulačka 2021 - výběr stran'
         }
       ]
     }

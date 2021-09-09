@@ -1,4 +1,4 @@
-import questions from './content/questions_classic.json'
+import questions from './content/questions_ultimate.json'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -17,7 +17,7 @@ export default {
       { "og:image" : "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/cs/volby-2021/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/cs/volby-2021-ultimate/favicon.ico' }
     ]
   },
 
@@ -78,7 +78,7 @@ export default {
     // }
   },
   router: {
-    base: '/cs/volby-2021/'
+    base: '/cs/volby-2021-ultimate/'
   },
   generate: {
     routes() {

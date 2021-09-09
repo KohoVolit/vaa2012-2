@@ -47,12 +47,12 @@ export default {
 
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - důležité otázky',
+      title: 'Ultimátní volební kalkulačka 2021 - důležité otázky',
       meta: [
         {
           hid: 'extra',
           name: 'Důležité otázky',
-          description: 'Volební kalkulačka 2021 - důležité otázky'
+          description: 'Ultimátní volební kalkulačka 2021 - důležité otázky'
         }
       ]
     }

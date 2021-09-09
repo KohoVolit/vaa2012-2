@@ -78,7 +78,7 @@ export default {
     // }
   },
   router: {
-    base: '/cs/volby-2021/'
+    base: '/cs/volby-2021-ultimate/'
   },
   generate: {
     routes() {

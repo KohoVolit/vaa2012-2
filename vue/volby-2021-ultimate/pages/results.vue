@@ -44,18 +44,18 @@ import axios from 'axios'
 
 export default {
   async asyncData ({ $content }) {
-    const candidates = await $content('answers_classic').fetch()
+    const candidates = await $content('answers_ultimate').fetch()
     return { candidates }
   },
 
   head: function() {
     return {
-      title: 'Volební kalkulačka 2021 - výsledky',
+      title: 'Ultimátní volební kalkulačka 2021 - výsledky',
       meta: [
         {
           hid: 'results',
-          name: 'Výsledky volební kalkulačky',
-          description: 'Volební kalkulačka 2021 - výsledky'
+          name: 'Ultimátní výsledky volební kalkulačky',
+          description: 'Ultimátní volební kalkulačka 2021 - výsledky'
         }
       ]
     }
@@ -245,10 +245,10 @@ export default {
       const thisCalc = {
         answers: this.answers,
         weights: this.weights,
-        name: 'Volební kalkulačka 2021',
+        name: 'Ultimátní volební kalkulačka 2021',
         date: today.toISOString(),
-        calc: 'cz_psp_2021',
-        path: '/cs/volby-2021/',
+        calc: 'volby_2021_ultimate',
+        path: '/cs/volby-2021-ultimate/',
         version: '0.1.1'
       }
       storedCalcs.push(thisCalc)
@@ -271,7 +271,7 @@ export default {
       }
       let params = {
         vkid: c,
-        calc: 'volby_2021',
+        calc: 'volby_2021_ultimate',
         answer: JSON.stringify({ answers: this.answers, weights: this.weights })
       }
       axios.get("https://a.volebnikalkulacka.cz/volby-2021/results.php", { params: params })
