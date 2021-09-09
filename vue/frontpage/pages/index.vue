@@ -9,7 +9,7 @@
     <p class="teaser">
        Volební kalkulačka pro <strong>volby do poslanecké sněmovny 2021</strong> ukazuje vaši shodu s kandidujícími stranami v parlamentních volbách.
       <div class="d-grid p-2">
-        <NuxtLink to="https://www.volebnikalkulacka.cz/cs/volby-2021/question/1/" class="btn btn-success btn-lg">📄 VOLEBNÍ KALKULAČKA 2021 <br/> (Už brzy - ještě dnes!)</NuxtLink>
+        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021/question/1/" class="btn btn-success btn-lg">📄 VOLEBNÍ KALKULAČKA 2021 <br/> (Už brzy - ještě dnes!)</a>
       </div>
 
     <hr/>
