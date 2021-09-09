@@ -2,10 +2,11 @@
   <div class="container page">
     <h2 class="pt-2">Děkujeme za podporu!</h2>
     <h4>Bez vás by to nešlo.</h4>
+    <h5>Všichni přispěvatelé a přispěvatelky mají čestné místo na nástěnce</h5>
     
 
     <div v-if="loading" class="alert alert-info">
-      Nahrávám všechny, co přispěli na Volební kalkulačku. Je jich hodně!
+      Načítám na nástěnku všechny, co přispěli na Volební kalkulačku. Je jich hodně!
     </div>
 
     <span v-for="(supporter, index) in supporters" :key="index"> 

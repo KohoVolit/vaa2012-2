@@ -1,6 +1,6 @@
 <template>
 <div class="no-height">
-  <iframe src="https://volebnikalkulacka.cz/session/" width="0" height="0" frameborder="0"></iframe>
+  <iframe src="https://a.volebnikalkulacka.cz/session/" width="0" height="0" frameborder="0"></iframe>
   <noscript><div><img src="https://mc.yandex.ru/watch/35615280" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <noscript><p><img src="//piwik.kohovolit.eu/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
 </div>

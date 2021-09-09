@@ -11,7 +11,10 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'author', content: 'Michal Škop, KohoVolit.eu' },
+      { "fb:app_id": "200785490055088" },
+      { "og:image" : "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/cs/inventura-hlasovani-2017-2021/favicon.ico' }
