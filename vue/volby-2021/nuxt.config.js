@@ -52,7 +52,7 @@ export default {
     // https://www.npmjs.com/package/cookie-universal-nuxt?activeTab=readme
     'cookie-universal-nuxt',
     // https://github.com/pimlie/nuxt-matomo
-    ['nuxt-matomo', { matomoUrl: '//piwik.kohovolit.eu/', siteId: 1 }],
+    // ['nuxt-matomo', { matomoUrl: '//piwik.kohovolit.eu/', siteId: 1 }],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -78,7 +78,7 @@ export default {
     // }
   },
   router: {
-    base: '/cs/volby-2021-ultimate/'
+    base: '/cs/volby-2021/'
   },
   generate: {
     routes() {
