@@ -15,7 +15,7 @@
             <a class="nav-link active" aria-current="page" href="https://www.volebnikalkulacka.cz/">🏡 Volební kalkulačky 2021</a>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link active" aria-current="page" to="/">Volební kalkulačka 2021</NuxtLink>
+            <NuxtLink class="nav-link active" aria-current="page" to="/">Mladí volí, volební kalkulačka 2021</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/me/"><span class="text-success">Moje kalkulačky 🔥</span></NuxtLink>
