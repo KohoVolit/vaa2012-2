@@ -245,10 +245,10 @@ export default {
       const thisCalc = {
         answers: this.answers,
         weights: this.weights,
-        name: 'VMladí volí, olební kalkulačka 2021',
+        name: 'Mladí volí, Volební kalkulačka 2021',
         date: today.toISOString(),
         calc: 'cz_psp_2021_young',
-        path: '/cs/volby-2021/',
+        path: '/cs/volby-2021-young/',
         version: '0.1.1'
       }
       storedCalcs.push(thisCalc)
