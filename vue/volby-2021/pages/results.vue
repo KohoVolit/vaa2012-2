@@ -24,11 +24,17 @@
       <em>Tip: kliknutím na stranu přejdete na podrobné srovnání a komentáře stran k otázkám</em>
     </div>
     <hr/>
-      <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEeatMK1UN_7JZiOSF7DeHxiEns-y1FDaGp28OUGe0hCcQDepfxzK2xouO20dfIIz6Sutyx0MidWM9/pubhtml" target="_blank">Tabulka všech otázek a odpovědí</a>
+      <div class="d-grid gap-2 col-sm-6 mx-auto">
+        <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEeatMK1UN_7JZiOSF7DeHxiEns-y1FDaGp28OUGe0hCcQDepfxzK2xouO20dfIIz6Sutyx0MidWM9/pubhtml" target="_blank">Tabulka všech otázek a odpovědí</a>
+      </div>
     <hr/>
-    <div class="container p-2 ">
+    <div class="d-grid gap-2 col-sm-6 mx-auto">
       <button type="button" class="btn" :class="{'disabled btn-secondary': !isChanged, 'btn-primary': isChanged}" @click="store()">{{ saveResultText }}</button>
-      <NuxtLink to="/me/">Moje kalkulačky</NuxtLink>
+      <br/><NuxtLink to="/me/">Moje kalkulačky</NuxtLink>
+    </div>
+    <hr/>
+    <div class="d-grid gap-2 col-sm-6 mx-auto">
+      <a class="btn btn-secondary" href="https://programydovoleb.cz/" target="_blank">Více info o kandidujících stranách: Programy do voleb</a>
     </div>
     <hr/>
 

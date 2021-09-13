@@ -31,17 +31,17 @@
     <hr/>
 
     <p class="teaser">
-        Ultimátní volební kalkulačka je <strong>nejdelší volební kalkulačka na světě</strong>. Obsahuje všechny otázky, které jsme předložili kandidujícím stranám.
+        Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong> ve spolupráci s <a href="https://youthspeakup.cz/" target="_blank">Youth, speak up</a>.
       <div class="d-grid p-2">
-        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021-ultimate/question/1/" class="btn btn-success btn-lg">ULTIMÁTNÍ VOLEBNÍ KALKULAČKA <br/> ♥ </a>
+        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021-young/question/1/" class="btn btn-success btn-lg" >MLADÍ VOLÍ, VOLEBNÍ KALKULAČKA PRO MLADÉ <br/> 🙋 </a>
       </div>
 
     <hr/>
 
     <p class="teaser">
-        Mladá volební kalkulačka se speciálně vybranými otázkami pro <strong>voličky a voliče pod 30</strong>.
+        Ultimátní volební kalkulačka je <strong>nejdelší volební kalkulačka na světě</strong>. Obsahuje všechny otázky, které jsme předložili kandidujícím stranám.
       <div class="d-grid p-2">
-        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>🙋 MLADÍ VOLÍ, VOLEBNÍ KALKULAČKA PRO MLADÉ <br/> (Od ?.9.2021)</NuxtLink>
+        <a href="https://www.volebnikalkulacka.cz/cs/volby-2021-ultimate/question/1/" class="btn btn-success btn-lg">ULTIMÁTNÍ VOLEBNÍ KALKULAČKA <br/> ♥ </a>
       </div>
 
     <hr/>
