@@ -13,12 +13,14 @@
     <h3>Uložené vyplněné kalkulačky</h3>
     <StoredCalcs />
     <hr/>
+    <Givt />
     <Darujme />
     <Analytics />
   </div>
 </template>
 
 <script>
+import Givt from "~/components/Givt.vue"
 import Darujme from "~/components/Darujme.vue"
 import Analytics from "~/components/Analytics.vue"
 
@@ -41,6 +43,7 @@ export default {
   },
 
   components: {
+    Givt,
     Darujme, 
     Analytics
   }

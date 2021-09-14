@@ -37,13 +37,15 @@
       <a class="btn btn-secondary" href="https://programydovoleb.cz/" target="_blank">Více info o kandidujících stranách: Programy do voleb</a>
     </div>
     <hr/>
-
+    <Givt />
+    <hr/>
     <Darujme />
     <Analytics />
   </div>
 </template>
 
 <script>
+import Givt from "~/components/Givt.vue"
 import Darujme from "~/components/Darujme.vue"
 import Analytics from "~/components/Analytics.vue"
 import axios from 'axios'
@@ -307,6 +309,7 @@ export default {
   },
 
   components: {
+    Givt,
     Darujme,
     Analytics
   }
