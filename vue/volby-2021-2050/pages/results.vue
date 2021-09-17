@@ -271,7 +271,7 @@ export default {
       }
       let params = {
         vkid: c,
-        calc: 'inventura_hlasovani_2017_2021',
+        calc: 'volby_2021_2050',
         answer: JSON.stringify({ answers: this.answers, weights: this.weights })
       }
       axios.get("https://a.volebnikalkulacka.cz/volby-2021/results.php", { params: params })
