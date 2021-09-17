@@ -11,10 +11,16 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Volební kalkulačka 2021. Nejužitečnějších 10 minut před volbami' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: 'author', content: 'Michal Škop, KohoVolit.eu' },
-      { "fb:app_id": "200785490055088" },
-      { "og:image" : "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg" }
+      { hid: 'format-detection', name: 'format-detection', content: 'telephone=no' },
+      { hid: 'author', name: 'author', content: 'Michal Škop, KohoVolit.eu' },
+      { hid: "og:description", name:"og:description", property:"og:description", content:"Volební kalkulačka 2021. Nejužitečnějších 10 minut před volbami."},
+      { hid: "og:title", name: "og:title", property: "og:title", content:"Volební kalkulačka 2021"},
+      { hid: "og:site_name", name: "og:site_name", property:"og:site_name", content:"Volební kalkulačka 2021"},
+      { hid: "fb:app_id", name: "fb:app_id", property:"fb:app_id", content:"200785490055088" },
+      { hid: "og:image", name: 'og:image', property:'og:image', content: "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg" },
+      { hid: "og:type", name: "og:type", property:"og:type", content:"website" },
+      { hid: "apple-mobile-web-app-title", name: "apple-mobile-web-app-title", property:"apple-mobile-web-app-title", content:"Volební kalkulačka" }
+      
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
