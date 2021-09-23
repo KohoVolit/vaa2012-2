@@ -28,7 +28,8 @@ export default {
 
 <style>
   #on-screen {
-    min-height: 100vh;
+    min-height: calc(100vh-144px);
+    /* height: calc(100vh - 144px); */
   }
   /* CSS styly pro mobilní zobrazení */
 

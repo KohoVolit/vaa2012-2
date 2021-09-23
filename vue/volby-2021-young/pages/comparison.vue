@@ -1,5 +1,6 @@
 <template>
   <div class="page container">
+    <NuxtLink to="/results/" class="btn btn-secondary btn-sm">&lt; Zpět</NuxtLink>
     <h2 class="p-2">
         Porovnat <small>(max. 3 strany)</small>
     </h2>
@@ -89,6 +90,10 @@
     <hr/>
     <div class="">
       <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEeatMK1UN_7JZiOSF7DeHxiEns-y1FDaGp28OUGe0hCcQDepfxzK2xouO20dfIIz6Sutyx0MidWM9/pubhtml" target="_blank">Tabulka všech otázek a odpovědí</a>
+    </div>
+
+    <div class="mt-2">
+      <NuxtLink to="/results/" class="btn btn-secondary btn-sm">&lt; Zpět</NuxtLink>
     </div>
     
     <Analytics />
