@@ -31,6 +31,10 @@ export default {
     min-height: calc(100vh-144px);
     /* height: calc(100vh - 144px); */
   }
+
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
   /* CSS styly pro mobilní zobrazení */
 
 @media screen and (max-width: 490px) {

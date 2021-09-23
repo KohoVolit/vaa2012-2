@@ -48,9 +48,9 @@
     <hr/>
 
     <p class="teaser">
-        Zdravotnická volební kalkulačka je tématická kalkulačka týkající se <strong>zdravotnictví</strong>.
+        Zdravotní volební kalkulačka je tématická kalkulačka týkající se <strong>zdravotnictví</strong>.
       <div class="d-grid p-2">
-        <NuxtLink to="#" class="btn btn-success btn-lg disabled" disabled>😷 ZDRAVOTNICKÁ VOLEBNÍ KALKULAČKA <br/> (Od ?.9.2021)</NuxtLink>
+        <a href="https://www.diagnozazdravotnictvi.cz/kalkulacka" class="btn btn-success btn-lg" target="_blank">ZDRAVOTNÍ VOLEBNÍ KALKULAČKA <br/> 😷 </a>
       </div>
 
     <hr/>
