@@ -33,11 +33,20 @@
       <br/><NuxtLink to="/me/">Moje kalkulačky</NuxtLink>
     </div>
     <hr/>
+    
     <div class="d-grid gap-2 col-sm-6 mx-auto">
       <a class="btn btn-secondary" href="https://programydovoleb.cz/" target="_blank">Více info o kandidujících stranách: Programy do voleb</a>
     </div>
+    <hr />
+    <div class="d-grid gap-2 col-sm-6 mx-auto">
+      <a class="btn btn-secondary" href="https://www.volbypromlade.cz/" target="_blank">Volby pro mladé</a>
+    </div>
+    <div class="d-grid gap-2 col-sm-6 mx-auto">
+      <a class="btn btn-secondary" href="https://www.nazorypolitiku.cz/" target="_blank">Názory politiků</a>
+    </div>
+    
     <hr/>
-    <Givt />
+    <!-- <Givt /> -->
     <hr/>
     <Darujme />
     <Analytics />
@@ -45,7 +54,7 @@
 </template>
 
 <script>
-import Givt from "~/components/Givt.vue"
+// import Givt from "~/components/Givt.vue"
 import Darujme from "~/components/Darujme.vue"
 import Analytics from "~/components/Analytics.vue"
 import axios from 'axios'
@@ -309,7 +318,7 @@ export default {
   },
 
   components: {
-    Givt,
+    // Givt,
     Darujme,
     Analytics
   }
