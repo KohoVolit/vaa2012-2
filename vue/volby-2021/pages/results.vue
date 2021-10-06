@@ -15,7 +15,6 @@
       <div class="form-check form-switch ms-auto pe-2 pt-2">
         <label class="form-check-label" for="flexSwitchCheckChecked"> {{ switchText }}</label>
         <input v-model="swi" class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" @change="saveSwitch">
-        
       </div>
     </div>
     <ResultsTable :results="results" />
@@ -25,7 +24,7 @@
     </div>
     <hr/>
       <div class="d-grid gap-2 col-sm-6 mx-auto">
-        <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEeatMK1UN_7JZiOSF7DeHxiEns-y1FDaGp28OUGe0hCcQDepfxzK2xouO20dfIIz6Sutyx0MidWM9/pubhtml" target="_blank">Tabulka všech otázek a odpovědí</a>
+        <a class="btn btn-info" href="https://docs.google.com/spreadsheets/d/1xbuHjvoSJMRBxF1QSCkJWvK288qPeh5ftc7rRGfV3CU/edit?usp=sharing" target="_blank">Tabulka všech otázek a odpovědí</a>
       </div>
     <hr/>
     <div class="d-grid gap-2 col-sm-6 mx-auto">
