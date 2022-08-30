@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Volební kalkulačka 2021</a>
+      <a class="navbar-brand" href="#">Volební kalkulačka 2022</a>
     
       <Menu />
       
