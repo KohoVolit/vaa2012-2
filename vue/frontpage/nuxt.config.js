@@ -6,16 +6,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Volební kalkulačka 2021',
+    title: 'Volební kalkulačka 2022',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Volební kalkulačka 2021. Nejužitečnějších 10 minut před volbami' },
+      { hid: 'description', name: 'description', content: 'Volební kalkulačka 2022. Nejužitečnějších 10 minut před volbami' },
       { hid: 'format-detection', name: 'format-detection', content: 'telephone=no' },
       { hid: 'author', name: 'author', content: 'Michal Škop, KohoVolit.eu' },
-      { hid: "og:description", property:"og:description", content:"Volební kalkulačka 2021. Nejužitečnějších 10 minut před volbami."},
-      { hid: "og:title", property: "og:title", content:"Volební kalkulačka 2021"},
-      { hid: "og:site_name", property:"og:site_name", content:"Volební kalkulačka 2021"},
+      { hid: "og:description", property:"og:description", content:"Volební kalkulačka 2022. Nejužitečnějších 10 minut před volbami."},
+      { hid: "og:title", property: "og:title", content:"Volební kalkulačka 2022"},
+      { hid: "og:site_name", property:"og:site_name", content:"Volební kalkulačka 2022"},
       { hid: "fb:app_id", property:"fb:app_id", content:"200785490055088" },
       { hid: "og:image", property:'og:image', content: "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg" },
       { hid: "og:type", property:"og:type", content:"website" },

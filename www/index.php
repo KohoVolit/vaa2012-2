@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Volební kalkulačka 2021. Nejužitečnějších 5 minut před volbami.">
+    <meta name="description" content="Volební kalkulačka 2022. Nejužitečnějších 10 minut před komunálními a senátními volbami.">
     <meta name="keywords" content="volební kalkulačka, volební test">
     <meta name="author" content="KohoVolit.eu">
     <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
@@ -25,7 +25,7 @@
         "og_image" => "https://volebnikalkulacka.azureedge.net/senat-2016/image/bg.jpg",
         "og_image_width" => false,
         "og_image_height" => false,
-        "og_description" => "Volební kalkulačka. Nejužitečnějších 5 minut před volbami.",
+        "og_description" => "Volební kalkulačka. Nejužitečnějších 10 minut před volbami.",
         "og_title" => "Volební kalkulačka",
         "fb_app_id" => "200785490055088"
     ];
