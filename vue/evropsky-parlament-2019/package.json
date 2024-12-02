@@ -16,7 +16,7 @@
     "axios": "^0.18.0",
     "bootstrap-vue": "^2.0.0-rc.19",
     "core-js": "^2.6.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "vue": "^2.6.10",
     "vue-awesome": "^3.5.2",
     "vue-cookies": "^1.5.13",
